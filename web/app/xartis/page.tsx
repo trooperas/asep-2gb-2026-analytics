@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import Link from "next/link";
 import GreeceMap from "@/components/maps/GreeceMap";
 import { formatNumber } from "@/lib/utils";
@@ -97,6 +97,50 @@ export default function XartisPage() {
     }, 120);
   }
 
+  // Αυστηρό, memoized φιλτράρισμα θέσεων (χωρίς false positives)
+  const selectedPositions = useMemo(() => {
+    if (!selected) return [];
+
+    const selNorm = normalize(selected);
+    if (!selNorm || selNorm.length < 3) return [];
+
+    return positions.filter((p) => {
+      const pPerifNorm = normalize(p.perifereia || "");
+      const pNomosNorm = normalize(p.nomos || "");
+      const pDimosNorm = normalize(p.dimos || "");
+      const pEdraNorm = normalize(p.edra || "");
+
+      // 1. Αν είναι Περιφέρεια από το PERIFEREIES_MAPPING (π.χ. "Thessalia", "Attiki")
+      if (PERIFEREIES_MAPPING[selected]) {
+        const greekSubRegions = PERIFEREIES_MAPPING[selected];
+        return greekSubRegions.some((gn) => {
+          const gnNorm = normalize(gn);
+          return (
+            (pPerifNorm.length >= 3 && (pPerifNorm.includes(gnNorm) || gnNorm.includes(pPerifNorm))) ||
+            (pNomosNorm.length >= 3 && (pNomosNorm.includes(gnNorm) || gnNorm.includes(pNomosNorm)))
+          );
+        });
+      }
+
+      // 2. Αν είναι Κλικ σε Δήμο/Κύκλο (π.χ. "ΛΑΡΙΣΑΣ", "ΛΕΣΒΟΥ", "ΧΑΝΙΩΝ")
+      const matchesPerif = pPerifNorm.length >= 3 && (pPerifNorm.includes(selNorm) || selNorm.includes(pPerifNorm));
+      const matchesNomos = pNomosNorm.length >= 3 && (pNomosNorm.includes(selNorm) || selNorm.includes(pNomosNorm));
+      const matchesDimos = pDimosNorm.length >= 3 && (pDimosNorm.includes(selNorm) || selNorm.includes(pDimosNorm));
+      const matchesEdra = pEdraNorm.length >= 3 && (pEdraNorm.includes(selNorm) || selNorm.includes(pEdraNorm));
+
+      return matchesPerif || matchesNomos || matchesDimos || matchesEdra;
+    });
+  }, [selected, positions]);
+
+  const totalTheseis = useMemo(() => {
+    return selectedPositions.reduce((sum, p) => sum + (p.theseis || 0), 0);
+  }, [selectedPositions]);
+
+  // Σωστός τίτλος: Ελληνικό όνομα περιφέρειας ή όνομα πόλης
+  const displayTitle = selected
+    ? REGION_TITLE_MAP[selected] || selected.toUpperCase()
+    : "";
+
   if (loading) {
     return (
       <main
@@ -112,53 +156,6 @@ export default function XartisPage() {
       </main>
     );
   }
-
-  // Έξυπνο φιλτράρισμα: είτε επιλέχθηκε Περιφέρεια (GeoJSON key) είτε συγκεκριμένη Πόλη/Κύκλος
-  const selectedPositions = selected
-    ? positions.filter((p) => {
-        const selNorm = normalize(selected);
-        const pPerifNorm = normalize(p.perifereia || "");
-        const pEdraNorm = normalize(p.edra || "");
-        const pDimosNorm = normalize(p.dimos || "");
-        const pNomosNorm = normalize(p.nomos || "");
-
-        // 1. Έλεγχος αν είναι Περιφέρεια από το PERIFEREIES_MAPPING
-        if (PERIFEREIES_MAPPING[selected]) {
-          const greekSubRegions = PERIFEREIES_MAPPING[selected];
-          return greekSubRegions.some((gn) => {
-            const gnNorm = normalize(gn);
-            return (
-              pPerifNorm.includes(gnNorm) ||
-              gnNorm.includes(pPerifNorm) ||
-              pNomosNorm.includes(gnNorm) ||
-              pEdraNorm.includes(gnNorm)
-            );
-          });
-        }
-
-        // 2. Έλεγχος αν είναι Click σε Κύκλο/Πόλη (π.χ. "ΧΑΝΙΩΝ")
-        return (
-          pPerifNorm.includes(selNorm) ||
-          selNorm.includes(pPerifNorm) ||
-          pNomosNorm.includes(selNorm) ||
-          selNorm.includes(pNomosNorm) ||
-          pEdraNorm.includes(selNorm) ||
-          selNorm.includes(pEdraNorm) ||
-          pDimosNorm.includes(selNorm) ||
-          selNorm.includes(pDimosNorm)
-        );
-      })
-    : [];
-
-  const totalTheseis = selectedPositions.reduce(
-    (sum, p) => sum + (p.theseis || 0),
-    0
-  );
-
-  // Σωστός τίτλος: Ελληνικό όνομα περιφέρειας ή όνομα πόλης
-  const displayTitle = selected
-    ? REGION_TITLE_MAP[selected] || selected.toUpperCase()
-    : "";
 
   return (
     <main
@@ -241,14 +238,14 @@ export default function XartisPage() {
 
         {/* Selected region details container with smooth scroll ref */}
         <div ref={resultsRef} style={{ scrollMarginTop: "100px" }}>
-          <AnimatePresence mode="wait">
+          <AnimatePresence>
             {selected && (
               <motion.div
                 key={selected}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.3 }}
+                exit={{ opacity: 0, y: -15 }}
+                transition={{ duration: 0.2 }}
                 className="glass"
                 style={{ padding: "2rem", marginTop: "2rem" }}
               >

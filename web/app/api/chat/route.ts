@@ -481,10 +481,11 @@ export async function POST(request: Request) {
       request.headers.get("x-real-ip") ||
       "unknown";
 
-    const limit = rateLimit(ip, 5, 10 * 60 * 1000);
+    // 2 ερωτήσεις ανά 30 λεπτά (30 * 60 * 1000 ms)
+    const limit = rateLimit(ip, 2, 30 * 60 * 1000);
     if (!limit.success) {
       return NextResponse.json(
-        { error: "Πολλές ερωτήσεις. Δοκίμασε ξανά σε λίγα λεπτά." },
+        { error: "Έφτασες το όριο (2 ερωτήσεις / 30 λεπτά). Δοκίμασε ξανά αργότερα." },
         { status: 429 }
       );
     }

@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { href: "/search", label: "Αναζήτηση" },
   { href: "/stats", label: "Στατιστικά" },
   { href: "/chat", label: "AI Assistant" },
+  { href: "/about", label: "Σχετικά" }
 ];
 
 export default function Header() {

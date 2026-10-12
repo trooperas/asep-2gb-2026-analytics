@@ -6,6 +6,7 @@ import {
   Geographies,
   Geography,
   Marker,
+  ZoomableGroup,
 } from "react-simple-maps";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -149,7 +150,30 @@ export default function GreeceMap({
   onSelectPerifereia,
 }: GreeceMapProps) {
   const [hovered, setHovered] = useState<string | null>(null);
-  const [selected, setSelected] = useState<string | null>(null);
+  const [, setSelected] = useState<string | null>(null);
+
+  // State για Zoom & Pan
+  const [position, setPosition] = useState<{
+    coordinates: [number, number];
+    zoom: number;
+  }>({
+    coordinates: [23.5, 38.5],
+    zoom: 1,
+  });
+
+  function handleZoomIn() {
+    if (position.zoom >= 4) return;
+    setPosition((pos) => ({ ...pos, zoom: pos.zoom * 1.35 }));
+  }
+
+  function handleZoomOut() {
+    if (position.zoom <= 1) return;
+    setPosition((pos) => ({ ...pos, zoom: Math.max(1, pos.zoom / 1.35) }));
+  }
+
+  function handleReset() {
+    setPosition({ coordinates: [23.5, 38.5], zoom: 1 });
+  }
 
   // Group by perifereia
   const byPerifereia = useMemo(() => {
@@ -184,7 +208,7 @@ export default function GreeceMap({
     <div
       style={{
         width: "100%",
-        height: "600px",
+        height: "650px",
         position: "relative",
         background: "rgba(10, 14, 26, 0.5)",
         borderRadius: "16px",
@@ -192,6 +216,85 @@ export default function GreeceMap({
         border: "1px solid var(--border)",
       }}
     >
+      {/* Zoom Controls Buttons */}
+      <div
+        style={{
+          position: "absolute",
+          top: "20px",
+          left: "20px",
+          display: "flex",
+          flexDirection: "column",
+          gap: "8px",
+          zIndex: 10,
+        }}
+      >
+        <button
+          type="button"
+          onClick={handleZoomIn}
+          style={{
+            width: "38px",
+            height: "38px",
+            borderRadius: "8px",
+            background: "rgba(10, 14, 26, 0.85)",
+            border: "1px solid var(--border)",
+            color: "#00E5FF",
+            fontSize: "1.2rem",
+            fontWeight: "bold",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+          }}
+          title="Μεγέθυνση (+)"
+        >
+          +
+        </button>
+        <button
+          type="button"
+          onClick={handleZoomOut}
+          style={{
+            width: "38px",
+            height: "38px",
+            borderRadius: "8px",
+            background: "rgba(10, 14, 26, 0.85)",
+            border: "1px solid var(--border)",
+            color: "#00E5FF",
+            fontSize: "1.2rem",
+            fontWeight: "bold",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+          }}
+          title="Σμίκρυνση (-)"
+        >
+          -
+        </button>
+        <button
+          type="button"
+          onClick={handleReset}
+          style={{
+            width: "38px",
+            height: "38px",
+            borderRadius: "8px",
+            background: "rgba(10, 14, 26, 0.85)",
+            border: "1px solid var(--border)",
+            color: "var(--text-muted)",
+            fontSize: "0.9rem",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+          }}
+          title="Επαναφορά (Reset)"
+        >
+          ⟲
+        </button>
+      </div>
+
       <ComposableMap
         projection="geoMercator"
         projectionConfig={{
@@ -200,98 +303,113 @@ export default function GreeceMap({
         }}
         style={{ width: "100%", height: "100%" }}
       >
-        {/* Map regions */}
-        <Geographies geography={GEO_URL}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
-              const geoName = geo.properties?.name || "";
+        <ZoomableGroup
+          zoom={position.zoom}
+          center={position.coordinates}
+          onMoveEnd={(pos) => {
+            if (pos.coordinates) {
+              setPosition({
+                coordinates: pos.coordinates as [number, number],
+                zoom: pos.zoom || position.zoom,
+              });
+            }
+          }}
+          minZoom={1}
+          maxZoom={4.5}
+        >
+          {/* Map regions */}
+          <Geographies geography={GEO_URL}>
+            {({ geographies }) =>
+              geographies.map((geo) => {
+                const geoName = geo.properties?.name || "";
 
-              // Πάρε τις ελληνικές περιφέρειες από το mapping
-              const greekNames = PERIFEREIES_MAPPING[geoName] || [];
+                // Πάρε τις ελληνικές περιφέρειες από το mapping
+                const greekNames = PERIFEREIES_MAPPING[geoName] || [];
 
-              // Βρες ΟΛΕΣ τις θέσεις που ανήκουν σε αυτές τις περιφέρειες
-              const matchedKeys = Object.keys(byPerifereia).filter((k) =>
-                greekNames.some(
-                  (gn) =>
-                    normalize(k).includes(normalize(gn)) ||
-                    normalize(gn).includes(normalize(k))
-                )
-              );
+                // Βρες ΟΛΕΣ τις θέσεις που ανήκουν σε αυτές τις περιφέρειες
+                const matchedKeys = Object.keys(byPerifereia).filter((k) =>
+                  greekNames.some(
+                    (gn) =>
+                      normalize(k).includes(normalize(gn)) ||
+                      normalize(gn).includes(normalize(k))
+                  )
+                );
 
-              // Άθροισε τα δεδομένα από όλες τις matched περιφέρειες
-              const totalCount = matchedKeys.reduce(
-                (sum, k) => sum + (byPerifereia[k]?.count || 0),
-                0
-              );
+                // Άθροισε τα δεδομένα από όλες τις matched περιφέρειες
+                const totalCount = matchedKeys.reduce(
+                  (sum, k) => sum + (byPerifereia[k]?.count || 0),
+                  0
+                );
 
-              return (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  fill={getColor(totalCount)}
-                  stroke="#0a0e1a"
-                  strokeWidth={0.5}
-                  onMouseEnter={() => setHovered(geoName)}
-                  onMouseLeave={() => setHovered(null)}
-                  onClick={() => {
-                    if (matchedKeys.length > 0) {
-                      setSelected(geoName);
-                      onSelectPerifereia?.(geoName);
-                    }
-                  }}
-                  style={{
-                    default: { outline: "none", transition: "all 0.2s" },
-                    hover: {
-                      fill: "#00E5FF",
-                      outline: "none",
-                      cursor: matchedKeys.length > 0 ? "pointer" : "default",
-                    },
-                    pressed: { outline: "none" },
-                  } as any}
-                />
-              );
-            })
-          }
-        </Geographies>
+                return (
+                  <Geography
+                    key={geo.rsmKey}
+                    geography={geo}
+                    fill={getColor(totalCount)}
+                    stroke="#0a0e1a"
+                    strokeWidth={0.5 / position.zoom}
+                    onMouseEnter={() => setHovered(geoName)}
+                    onMouseLeave={() => setHovered(null)}
+                    onClick={() => {
+                      if (matchedKeys.length > 0) {
+                        setSelected(geoName);
+                        onSelectPerifereia?.(geoName);
+                      }
+                    }}
+                    style={{
+                      default: { outline: "none", transition: "all 0.2s" },
+                      hover: {
+                        fill: "#00E5FF",
+                        outline: "none",
+                        cursor: matchedKeys.length > 0 ? "pointer" : "default",
+                      },
+                      pressed: { outline: "none" },
+                    } as any}
+                  />
+                );
+              })
+            }
+          </Geographies>
 
-        {/* City markers */}
-        {Object.entries(citiesGeo).map(([perifereia, city]) => {
-          const data = byPerifereia[perifereia];
-          if (!data) return null;
+          {/* City markers */}
+          {Object.entries(citiesGeo).map(([perifereia, city]) => {
+            const data = byPerifereia[perifereia];
+            if (!data) return null;
 
-          return (
-            <Marker
-              key={perifereia}
-              coordinates={[city.lng, city.lat]}
-              onClick={() => {
-                setSelected(perifereia);
-                onSelectPerifereia?.(perifereia);
-              }}
-            >
-              <circle
-                r={8}
-                fill="#FF006E"
-                opacity={0.75}
-                stroke="#fff"
-                strokeWidth={2}
-                style={{ cursor: "pointer", transition: "all 0.2s" }}
-              />
-              <text
-                textAnchor="middle"
-                y={-16}
-                style={{
-                  fontFamily: "var(--font-inter), sans-serif",
-                  fontSize: "11px",
-                  fill: "#E8ECF4",
-                  fontWeight: 600,
-                  pointerEvents: "none",
+            return (
+              <Marker
+                key={perifereia}
+                coordinates={[city.lng, city.lat]}
+                onClick={() => {
+                  setSelected(perifereia);
+                  onSelectPerifereia?.(perifereia);
                 }}
               >
-                {data.count}
-              </text>
-            </Marker>
-          );
-        })}
+                <circle
+                  r={8 / Math.sqrt(position.zoom)}
+                  fill="#FF006E"
+                  opacity={0.75}
+                  stroke="#fff"
+                  strokeWidth={2 / Math.sqrt(position.zoom)}
+                  style={{ cursor: "pointer", transition: "all 0.2s" }}
+                />
+                <text
+                  textAnchor="middle"
+                  y={-14 / Math.sqrt(position.zoom)}
+                  style={{
+                    fontFamily: "var(--font-inter), sans-serif",
+                    fontSize: `${Math.max(9, 11 / Math.sqrt(position.zoom))}px`,
+                    fill: "#E8ECF4",
+                    fontWeight: 600,
+                    pointerEvents: "none",
+                  }}
+                >
+                  {data.count}
+                </text>
+              </Marker>
+            );
+          })}
+        </ZoomableGroup>
       </ComposableMap>
 
       {/* Tooltip */}
@@ -331,6 +449,7 @@ export default function GreeceMap({
                   color: "var(--text)",
                   pointerEvents: "none",
                   boxShadow: "0 0 30px rgba(0, 229, 255, 0.3)",
+                  zIndex: 20,
                 }}
               >
                 {hovered}: {totalCount} θέσεις
@@ -350,6 +469,7 @@ export default function GreeceMap({
           background: "rgba(10, 14, 26, 0.9)",
           border: "1px solid var(--border)",
           fontSize: "0.75rem",
+          zIndex: 10,
         }}
       >
         <div

@@ -1,0 +1,56 @@
+{
+  "total_eidikotites": 52,
+  "total_candidates": 51934,
+  "top_eidikotites": [
+    {
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ/ΠΕ ΔΙΕΚΠ. ΥΠΟΘ. ΠΟΛΙΤΩΝ",
+      "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-dioikitikoy-oikonomikoy-pe-diekp-ypoth-politon",
+      "count": 23579
+    },
+    {
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΙΚΟΝΟΜΙΚΟΥ",
+      "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-oikonomikoy",
+      "count": 5866
+    },
+    {
+      "eidikotita": "ΠΕ ΔΗΜΟΣΙΟΝΟΜΙΚΩΝ-ΕΦΟΡΙΑΚΩΝ-ΤΕΛΩΝΕΙΑΚΩΝ",
+      "slug": "pe-dimosionomikon-eforiakon-teloneiakon",
+      "count": 5380
+    },
+    {
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+      "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+      "count": 2001
+    },
+    {
+      "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
+      "slug": "pe-geotechnikon-eid-pe-geoponon",
+      "count": 1913
+    },
+    {
+      "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+      "slug": "pe-perivallontos-eid-pe-perivallontos",
+      "count": 1403
+    },
+    {
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+      "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
+      "count": 1171
+    },
+    {
+      "eidikotita": "ΠΕ ΑΡΧΑΙΟΛΟΓΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
+      "slug": "pe-archaiologon-olon-ton-eidikotiton",
+      "count": 1117
+    },
+    {
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "slug": "pe-michanikon-eid-pe-politikon-michanikon",
+      "count": 1077
+    },
+    {
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ(ΝΟΜΙΚΩΝ)",
+      "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-dioikitikoy-nomikon",
+      "count": 1062
+    }
+  ]
+}

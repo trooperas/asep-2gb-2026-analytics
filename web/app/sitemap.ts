@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://asep-2gb-2026-analytics.vercel.app";
+  const baseUrl = "https://asep-2gb-2026.vercel.app";
 
   // Στατικές σελίδες
   const staticPages: MetadataRoute.Sitemap = [

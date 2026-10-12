@@ -2,7 +2,7 @@
 
 > An interactive, high-performance data exploration platform and AI Assistant built on top of public examination results from the Greek Panhellenic Competition **ASEP 2ΓΒ/2026** (51,900+ candidates, 10,500+ appointees, 52 specialties).
 
-🔗 **Live Platform:** [asep-2gb-2026-analytics.vercel.app](https://asep-2gb-2026-analytics.vercel.app) *(βάλε το δικό σου url εδώ)*
+🔗 **Live Platform:** [asep-2gb-2026-analytics.vercel.app](https://asep-2gb-2026.vercel.app) *(https://asep-2gb-2026.vercel.app)*
 
 ---
 

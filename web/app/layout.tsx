@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://asep-2gb-2026-analytics.vercel.app"),
+  metadataBase: new URL("https://asep-2gb-2026.vercel.app"),
   title: {
     default: "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub — Αποτελέσματα, Χάρτης & AI Βοηθός",
     template: "%s | ΑΣΕΠ 2ΓΒ/2026 Hub",
@@ -45,7 +45,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "el_GR",
-    url: "https://asep-2gb-2026-analytics.vercel.app",
+    url: "https://asep-2gb-2026.vercel.app",
     title: "ΑΣΕΠ 2ΓΒ/2026 Hub — Πλήρης Ανάλυση Αποτελεσμάτων & AI",
     description:
       "Εξερεύνησε τα αποτελέσματα του ΑΣΕΠ 2ΓΒ/2026: κατανομή θέσεων, βαθμολογίες ανά ειδικότητα, γεωγραφικός χάρτης και έξυπνη αναζήτηση.",

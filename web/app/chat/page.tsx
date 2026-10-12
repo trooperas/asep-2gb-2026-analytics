@@ -320,7 +320,7 @@ export default function ChatPage() {
           >
             Ρώτησε ό,τι θέλεις για τα αποτελέσματα του 2ΓΒ/2026.{" "}
             <span style={{ color: "var(--text-dim)", fontSize: "0.85rem" }}>
-              (Όριο: 5 ερωτήσεις / 10 λεπτά)
+              (Όριο: 2 ερωτήσεις / 30 λεπτά)
             </span>
           </p>
         </motion.div>

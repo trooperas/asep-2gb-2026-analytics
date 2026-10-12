@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import GreeceMap from "@/components/maps/GreeceMap";
 import { formatNumber } from "@/lib/utils";
@@ -75,6 +75,7 @@ export default function XartisPage() {
   const [citiesGeo, setCitiesGeo] = useState<Record<string, any>>({});
   const [selected, setSelected] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     Promise.all([
@@ -88,6 +89,13 @@ export default function XartisPage() {
       .catch((e) => console.error("Load error:", e))
       .finally(() => setLoading(false));
   }, []);
+
+  function handleSelect(region: string) {
+    setSelected(region);
+    setTimeout(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 120);
+  }
 
   if (loading) {
     return (
@@ -227,196 +235,198 @@ export default function XartisPage() {
           <GreeceMap
             positions={positions}
             citiesGeo={citiesGeo}
-            onSelectPerifereia={setSelected}
+            onSelectPerifereia={handleSelect}
           />
         </motion.div>
 
-        {/* Selected region details */}
-        <AnimatePresence mode="wait">
-          {selected && (
-            <motion.div
-              key={selected}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
-              className="glass"
-              style={{ padding: "2rem", marginTop: "2rem" }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "flex-start",
-                  flexWrap: "wrap",
-                  gap: "1rem",
-                  marginBottom: "1.5rem",
-                }}
+        {/* Selected region details container with smooth scroll ref */}
+        <div ref={resultsRef} style={{ scrollMarginTop: "100px" }}>
+          <AnimatePresence mode="wait">
+            {selected && (
+              <motion.div
+                key={selected}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+                className="glass"
+                style={{ padding: "2rem", marginTop: "2rem" }}
               >
-                <div>
-                  <h2
-                    className="font-display"
-                    style={{
-                      fontSize: "1.75rem",
-                      fontWeight: 700,
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <span className="text-gradient">{displayTitle}</span>
-                  </h2>
-                  <p
-                    style={{
-                      color: "var(--text-muted)",
-                      fontSize: "0.95rem",
-                    }}
-                  >
-                    {formatNumber(selectedPositions.length)} κωδικοί θέσεων ·{" "}
-                    {formatNumber(totalTheseis)} συνολικές θέσεις
-                  </p>
-                </div>
-
-                <button
-                  onClick={() => setSelected(null)}
+                <div
                   style={{
-                    padding: "8px 16px",
-                    borderRadius: "8px",
-                    border: "1px solid var(--border)",
-                    background: "transparent",
-                    color: "var(--text-muted)",
-                    fontSize: "0.85rem",
-                    cursor: "pointer",
-                    fontFamily: "inherit",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "flex-start",
+                    flexWrap: "wrap",
+                    gap: "1rem",
+                    marginBottom: "1.5rem",
                   }}
                 >
-                  ✕ Κλείσιμο
-                </button>
-              </div>
-
-              {/* Λίστα θέσεων */}
-              <div
-                style={{
-                  display: "grid",
-                  gap: "0.75rem",
-                  maxHeight: "600px",
-                  overflowY: "auto",
-                  paddingRight: "8px",
-                }}
-              >
-                {selectedPositions.slice(0, 50).map((p, i) => (
-                  <Link
-                    key={`${p.kod_thesis}-${i}`}
-                    href={`/thesi/${p.kod_thesis}`}
-                    style={{
-                      padding: "14px 18px",
-                      borderRadius: "10px",
-                      background: "rgba(255,255,255,0.02)",
-                      border: "1px solid transparent",
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      gap: "1rem",
-                      textDecoration: "none",
-                      color: "var(--text)",
-                      transition: "all 0.2s",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.borderColor = "var(--primary)";
-                      e.currentTarget.style.background =
-                        "rgba(0, 229, 255, 0.05)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.borderColor = "transparent";
-                      e.currentTarget.style.background =
-                        "rgba(255,255,255,0.02)";
-                    }}
-                  >
-                    <div style={{ flex: 1, minWidth: 0 }}>
-                      <div
-                        style={{
-                          fontWeight: 600,
-                          fontSize: "0.95rem",
-                          marginBottom: "4px",
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        {p.foreas}
-                      </div>
-                      <div
-                        style={{
-                          fontSize: "0.8rem",
-                          color: "var(--text-muted)",
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        {p.eidikotita}
-                      </div>
-                    </div>
-
-                    <div
+                  <div>
+                    <h2
+                      className="font-display"
                       style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "flex-end",
-                        gap: "4px",
-                        flexShrink: 0,
+                        fontSize: "1.75rem",
+                        fontWeight: 700,
+                        marginBottom: "0.5rem",
                       }}
                     >
+                      <span className="text-gradient">{displayTitle}</span>
+                    </h2>
+                    <p
+                      style={{
+                        color: "var(--text-muted)",
+                        fontSize: "0.95rem",
+                      }}
+                    >
+                      {formatNumber(selectedPositions.length)} κωδικοί θέσεων ·{" "}
+                      {formatNumber(totalTheseis)} συνολικές θέσεις
+                    </p>
+                  </div>
+
+                  <button
+                    onClick={() => setSelected(null)}
+                    style={{
+                      padding: "8px 16px",
+                      borderRadius: "8px",
+                      border: "1px solid var(--border)",
+                      background: "transparent",
+                      color: "var(--text-muted)",
+                      fontSize: "0.85rem",
+                      cursor: "pointer",
+                      fontFamily: "inherit",
+                    }}
+                  >
+                    ✕ Κλείσιμο
+                  </button>
+                </div>
+
+                {/* Λίστα θέσεων */}
+                <div
+                  style={{
+                    display: "grid",
+                    gap: "0.75rem",
+                    maxHeight: "600px",
+                    overflowY: "auto",
+                    paddingRight: "8px",
+                  }}
+                >
+                  {selectedPositions.slice(0, 50).map((p, i) => (
+                    <Link
+                      key={`${p.kod_thesis}-${i}`}
+                      href={`/thesi/${p.kod_thesis}`}
+                      style={{
+                        padding: "14px 18px",
+                        borderRadius: "10px",
+                        background: "rgba(255,255,255,0.02)",
+                        border: "1px solid transparent",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        gap: "1rem",
+                        textDecoration: "none",
+                        color: "var(--text)",
+                        transition: "all 0.2s",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--primary)";
+                        e.currentTarget.style.background =
+                          "rgba(0, 229, 255, 0.05)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "transparent";
+                        e.currentTarget.style.background =
+                          "rgba(255,255,255,0.02)";
+                      }}
+                    >
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <div
+                          style={{
+                            fontWeight: 600,
+                            fontSize: "0.95rem",
+                            marginBottom: "4px",
+                            overflow: "hidden",
+                            textOverflow: "ellipsis",
+                            whiteSpace: "nowrap",
+                          }}
+                        >
+                          {p.foreas}
+                        </div>
+                        <div
+                          style={{
+                            fontSize: "0.8rem",
+                            color: "var(--text-muted)",
+                            overflow: "hidden",
+                            textOverflow: "ellipsis",
+                            whiteSpace: "nowrap",
+                          }}
+                        >
+                          {p.eidikotita}
+                        </div>
+                      </div>
+
                       <div
                         style={{
-                          color: "var(--primary)",
-                          fontFamily:
-                            "var(--font-jetbrains-mono), monospace",
-                          fontWeight: 600,
-                          fontSize: "0.9rem",
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "flex-end",
+                          gap: "4px",
+                          flexShrink: 0,
                         }}
                       >
-                        #{p.kod_thesis}
+                        <div
+                          style={{
+                            color: "var(--primary)",
+                            fontFamily:
+                              "var(--font-jetbrains-mono), monospace",
+                            fontWeight: 600,
+                            fontSize: "0.9rem",
+                          }}
+                        >
+                          #{p.kod_thesis}
+                        </div>
+                        <div
+                          style={{
+                            fontSize: "0.75rem",
+                            color: "var(--text-muted)",
+                          }}
+                        >
+                          {p.theseis}{" "}
+                          {p.theseis === 1 ? "θέση" : "θέσεις"}
+                        </div>
                       </div>
-                      <div
-                        style={{
-                          fontSize: "0.75rem",
-                          color: "var(--text-muted)",
-                        }}
-                      >
-                        {p.theseis}{" "}
-                        {p.theseis === 1 ? "θέση" : "θέσεις"}
-                      </div>
+                    </Link>
+                  ))}
+
+                  {selectedPositions.length > 50 && (
+                    <div
+                      style={{
+                        textAlign: "center",
+                        color: "var(--text-muted)",
+                        padding: "1rem",
+                        fontSize: "0.9rem",
+                      }}
+                    >
+                      ... και άλλες {selectedPositions.length - 50} θέσεις
                     </div>
-                  </Link>
-                ))}
+                  )}
 
-                {selectedPositions.length > 50 && (
-                  <div
-                    style={{
-                      textAlign: "center",
-                      color: "var(--text-muted)",
-                      padding: "1rem",
-                      fontSize: "0.9rem",
-                    }}
-                  >
-                    ... και άλλες {selectedPositions.length - 50} θέσεις
-                  </div>
-                )}
-
-                {selectedPositions.length === 0 && (
-                  <div
-                    style={{
-                      textAlign: "center",
-                      color: "var(--text-muted)",
-                      padding: "2rem",
-                    }}
-                  >
-                    Δεν βρέθηκαν θέσεις για αυτή την επιλογή.
-                  </div>
-                )}
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+                  {selectedPositions.length === 0 && (
+                    <div
+                      style={{
+                        textAlign: "center",
+                        color: "var(--text-muted)",
+                        padding: "2rem",
+                      }}
+                    >
+                      Δεν βρέθηκαν θέσεις για αυτή την επιλογή.
+                    </div>
+                  )}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
       </div>
     </main>
   );

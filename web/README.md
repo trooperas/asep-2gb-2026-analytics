@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏛️ ASEP 2ΓΒ/2026 — Data Intelligence & Analytics Hub
 
-## Getting Started
+> An interactive, high-performance data exploration platform and AI Assistant built on top of public examination results from the Greek Panhellenic Competition **ASEP 2ΓΒ/2026** (51,900+ candidates, 10,500+ appointees, 52 specialties).
 
-First, run the development server:
+🔗 **Live Platform:** [asep-2gb-2026-analytics.vercel.app](https://asep-2gb-2026-analytics.vercel.app) *(βάλε το δικό σου url εδώ)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Interactive Geolocation Map:** Visualizing public sector job openings across all 13 Greek administrative regions using GeoJSON and choropleth-style density filtering.
+- **Deep Candidate Analytics:** Granular breakdown by specialty, preferences, ranking, degree levels (MSc/PhD), and territorial quotas.
+- **Autonomous AI Assistant:** Powered by Groq LLMs with zero-latency tool-calling against static data chunks (candidate lookups, qualification matching, ranking diagnostics).
+- **Zero-Database Architecture:** Optimized static JSON chunking with client-side indexing, enabling lightning-fast loads on serverless edge networks (Vercel).
+- **GDPR-Conscious Data Masking:** Fully compliant presentation preserving candidate anonymity (masked identity numbers).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 16 (App Router) & React 19
+- **Styling & Motion:** Tailwind CSS, Framer Motion
+- **Visualizations:** Recharts, `react-simple-maps` (GeoJSON)
+- **AI & LLM:** Groq SDK (`openai/gpt-oss-120b`) with multi-key cooldown & dynamic function calling
+- **Data Engineering:** Python (Pandas, OpenPyXL) ETL pipeline processing 54+ heterogeneous Excel sheets into normalized JSON indexes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👤 Project Concept & Implementation
 
-## Deploy on Vercel
+**Created by [Fokion](https://www.linkedin.com/in/fokionas/)**  
+*A non-IT professional leveraging modern data engineering, interactive UI paradigms, and LLM orchestration to transform complex public records into actionable intelligence.*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/fokionas/)!

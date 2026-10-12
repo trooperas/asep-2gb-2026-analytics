@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 const NAV_ITEMS = [
   { href: "/", label: "Αρχική" },
+  { href: "/xartis", label: "Χάρτης" },
   { href: "/search", label: "Αναζήτηση" },
   { href: "/stats", label: "Στατιστικά" },
   { href: "/chat", label: "AI Assistant" },

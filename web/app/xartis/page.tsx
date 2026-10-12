@@ -7,7 +7,6 @@ import GreeceMap from "@/components/maps/GreeceMap";
 import { formatNumber } from "@/lib/utils";
 
 // Mapping GeoJSON names → ελληνικές περιφέρειες
-// (ίδιο με το GreeceMap component)
 const PERIFEREIES_MAPPING: Record<string, string[]> = {
   Attiki: [
     "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
@@ -44,6 +43,23 @@ const PERIFEREIES_MAPPING: Record<string, string[]> = {
   "Voreio Aigaio": ["ΛΕΣΒΟΥ", "ΣΑΜΟΥ", "ΧΙΟΥ"],
   "Notio Aigaio": ["ΚΥΚΛΑΔΩΝ", "ΔΩΔΕΚΑΝΗΣΟΥ"],
   Kriti: ["ΗΡΑΚΛΕΙΟΥ", "ΛΑΣΙΘΙΟΥ", "ΡΕΘΥΜΝΗΣ", "ΧΑΝΙΩΝ"],
+};
+
+// Επίσημα Ελληνικά Ονόματα Περιφερειών για τον τίτλο
+const REGION_TITLE_MAP: Record<string, string> = {
+  Attiki: "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
+  "Kentriki Makedonia": "ΚΕΝΤΡΙΚΗ ΜΑΚΕΔΟΝΙΑ",
+  "Dytiki Makedonia": "ΔΥΤΙΚΗ ΜΑΚΕΔΟΝΙΑ",
+  "Anatoliki Makedonia kai Thraki": "ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ",
+  Ipeiros: "ΗΠΕΙΡΟΣ",
+  Thessalia: "ΘΕΣΣΑΛΙΑ",
+  "Ionioi Nisoi": "ΙΟΝΙΑ ΝΗΣΙΑ",
+  "Dytiki Ellada": "ΔΥΤΙΚΗ ΕΛΛΑΔΑ",
+  "Stereá Elláda": "ΣΤΕΡΕΑ ΕΛΛΑΔΑ",
+  Peloponnisos: "ΠΕΛΟΠΟΝΝΗΣΟΣ",
+  "Voreio Aigaio": "ΒΟΡΕΙΟ ΑΙΓΑΙΟ",
+  "Notio Aigaio": "ΝΟΤΙΟ ΑΙΓΑΙΟ",
+  Kriti: "ΚΡΗΤΗ",
 };
 
 function normalize(text: string): string {
@@ -89,14 +105,39 @@ export default function XartisPage() {
     );
   }
 
-  // Φιλτράρουμε τις θέσεις με βάση την επιλεγμένη περιφέρεια
+  // Έξυπνο φιλτράρισμα: είτε επιλέχθηκε Περιφέρεια (GeoJSON key) είτε συγκεκριμένη Πόλη/Κύκλος
   const selectedPositions = selected
     ? positions.filter((p) => {
-        const greekNames = PERIFEREIES_MAPPING[selected] || [];
-        return greekNames.some(
-          (gn) =>
-            normalize(p.perifereia || "").includes(normalize(gn)) ||
-            normalize(gn).includes(normalize(p.perifereia || ""))
+        const selNorm = normalize(selected);
+        const pPerifNorm = normalize(p.perifereia || "");
+        const pEdraNorm = normalize(p.edra || "");
+        const pDimosNorm = normalize(p.dimos || "");
+        const pNomosNorm = normalize(p.nomos || "");
+
+        // 1. Έλεγχος αν είναι Περιφέρεια από το PERIFEREIES_MAPPING
+        if (PERIFEREIES_MAPPING[selected]) {
+          const greekSubRegions = PERIFEREIES_MAPPING[selected];
+          return greekSubRegions.some((gn) => {
+            const gnNorm = normalize(gn);
+            return (
+              pPerifNorm.includes(gnNorm) ||
+              gnNorm.includes(pPerifNorm) ||
+              pNomosNorm.includes(gnNorm) ||
+              pEdraNorm.includes(gnNorm)
+            );
+          });
+        }
+
+        // 2. Έλεγχος αν είναι Click σε Κύκλο/Πόλη (π.χ. "ΧΑΝΙΩΝ")
+        return (
+          pPerifNorm.includes(selNorm) ||
+          selNorm.includes(pPerifNorm) ||
+          pNomosNorm.includes(selNorm) ||
+          selNorm.includes(pNomosNorm) ||
+          pEdraNorm.includes(selNorm) ||
+          selNorm.includes(pEdraNorm) ||
+          pDimosNorm.includes(selNorm) ||
+          selNorm.includes(pDimosNorm)
         );
       })
     : [];
@@ -105,6 +146,11 @@ export default function XartisPage() {
     (sum, p) => sum + (p.theseis || 0),
     0
   );
+
+  // Σωστός τίτλος: Ελληνικό όνομα περιφέρειας ή όνομα πόλης
+  const displayTitle = selected
+    ? REGION_TITLE_MAP[selected] || selected.toUpperCase()
+    : "";
 
   return (
     <main
@@ -169,7 +215,7 @@ export default function XartisPage() {
               maxWidth: "700px",
             }}
           >
-            Πάτησε σε μια περιφέρεια για να δεις τις θέσεις που προκηρύχθηκαν.
+            Πάτησε σε μια περιφέρεια ή σε έναν κύκλο πόλης για να δεις τις θέσεις που προκηρύχθηκαν.
           </p>
         </motion.div>
 
@@ -216,10 +262,7 @@ export default function XartisPage() {
                       marginBottom: "0.5rem",
                     }}
                   >
-                    <span className="text-gradient">
-                      {PERIFEREIES_MAPPING[selected]?.[0] ||
-                        selected.toUpperCase()}
-                    </span>
+                    <span className="text-gradient">{displayTitle}</span>
                   </h2>
                   <p
                     style={{
@@ -367,7 +410,7 @@ export default function XartisPage() {
                       padding: "2rem",
                     }}
                   >
-                    Δεν βρέθηκαν θέσεις για αυτή την περιφέρεια.
+                    Δεν βρέθηκαν θέσεις για αυτή την επιλογή.
                   </div>
                 )}
               </div>

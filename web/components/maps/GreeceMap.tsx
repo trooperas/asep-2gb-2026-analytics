@@ -153,12 +153,13 @@ export default function GreeceMap({
       }}
       style={{
         width: "100%",
-        height: "650px",
+        height: "clamp(380px, 60vh, 650px)", // 👈 Στα κινητά γίνεται αυτόματα 380px-420px, στα PC 650px!
         position: "relative",
         background: "rgba(10, 14, 26, 0.6)",
         borderRadius: "16px",
         overflow: "hidden",
         border: "1px solid var(--border)",
+        touchAction: "pan-y", // 👈 Επιτρέπει το φυσικό κάθετο scroll στο κινητό!
       }}
     >
       {/* Zoom Controls Buttons */}

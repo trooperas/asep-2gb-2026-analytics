@@ -63,6 +63,13 @@ export default function Footer() {
             <ShieldCheck className="w-3.5 h-3.5 text-emerald-400/80" />
             <span>GDPR-Conscious • Static Data Engine</span>
           </div>
+          <div className="flex items-center gap-4 text-[11px] text-slate-500">
+
+            <Link href="/privacy" className="hover:text-slate-300 transition-colors underline">
+              Απόρρητο & GDPR
+            </Link>
+
+          </div>
           <div>
             © {new Date().getFullYear()} • Open for collaboration & data initiatives
           </div>

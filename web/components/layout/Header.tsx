@@ -46,43 +46,50 @@ export default function Header() {
         }}
       >
         {/* Logo (με το δικό σου στυλ) */}
+        {/* Modern Cyberpunk / Neon Logo Badge */}
         <Link
           href="/"
           onClick={() => setMobileOpen(false)}
-          style={{
-            textDecoration: "none",
-            display: "flex",
-            alignItems: "center",
-            gap: "10px",
-          }}
+          className="flex items-center gap-3 no-underline group"
         >
           <div
             style={{
-              width: "32px",
-              height: "32px",
-              borderRadius: "8px",
-              background:
-                "linear-gradient(135deg, var(--primary), var(--accent))",
+              width: "34px",
+              height: "34px",
+              borderRadius: "10px",
+              background: "linear-gradient(135deg, #00E5FF 0%, #FF006E 100%)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "16px",
-              fontWeight: 700,
-              color: "#000",
+              fontSize: "17px",
+              fontWeight: 800,
+              color: "#070A13",
+              boxShadow: "0 0 15px rgba(0, 229, 255, 0.4)",
+              transition: "transform 0.2s ease, box-shadow 0.2s ease",
             }}
+            className="group-hover:scale-105"
           >
             Α
           </div>
           <span
             className="font-display"
             style={{
-              color: "var(--text)",
+              color: "#FFFFFF",
               fontWeight: 700,
-              fontSize: "1rem",
+              fontSize: "1.05rem",
               letterSpacing: "-0.02em",
             }}
           >
-            ΑΣΕΠ <span className="text-gradient">2ΓΒ/2026</span>
+            ΑΣΕΠ{" "}
+            <span
+              style={{
+                background: "linear-gradient(135deg, #00E5FF, #FF006E)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              2ΓΒ/2026
+            </span>
           </span>
         </Link>
 

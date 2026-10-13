@@ -75,6 +75,34 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* Επίσημες Πηγές ΑΣΕΠ με nofollow */}
+        <div className="p-5 rounded-xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+            Επίσημες Πηγές Αναφοράς (ΑΣΕΠ)
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 pt-1">
+            <a
+              href="https://info.asep.gr/node/80114"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="inline-flex items-center gap-1.5 text-xs text-[#00E5FF] hover:underline"
+            >
+              <span>📄 Προσωρινά Αποτελέσματα 2ΓΒ/2026 (ΑΣΕΠ)</span>
+              <ExternalLink className="w-3 h-3 opacity-70" />
+            </a>
+            <span className="hidden sm:inline text-slate-600">•</span>
+            <a
+              href="https://info.asep.gr/node/78661"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="inline-flex items-center gap-1.5 text-xs text-[#00E5FF] hover:underline"
+            >
+              <span>🏛️ Κεντρική Σελίδα Διαγωνισμού 2ΓΒ/2026</span>
+              <ExternalLink className="w-3 h-3 opacity-70" />
+            </a>
+          </div>
+        </div>
+
         {/* AI & Tokens Warning - Human & Funny */}
         <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900/80 to-[#0A0E1A] border border-[#00E5FF]/20 space-y-3">
           <h3 className="text-base font-semibold text-white flex items-center gap-2">

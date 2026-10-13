@@ -54,8 +54,7 @@ function StatBox({
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: delay / 1000 }}
-      className="glass"
-      style={{ padding: "1.5rem" }}
+      className="glass p-5 sm:p-6 rounded-2xl flex flex-col justify-between"
     >
       <div
         style={{
@@ -71,7 +70,7 @@ function StatBox({
       <div
         className={highlight ? "text-gradient" : ""}
         style={{
-          fontSize: "2rem",
+          fontSize: "clamp(1.5rem, 3vw, 2rem)",
           fontWeight: 700,
           color: highlight ? undefined : "var(--primary)",
           lineHeight: 1,
@@ -95,13 +94,14 @@ function CustomTooltip({ active, payload }: any) {
         borderRadius: "8px",
         padding: "12px 16px",
         fontSize: "0.85rem",
-        maxWidth: "320px",
+        maxWidth: "280px",
+        boxShadow: "0 8px 24px rgba(0,0,0,0.5)",
       }}
     >
       <div style={{ color: "var(--text)", marginBottom: "6px", fontWeight: 600 }}>
         {data.full || data.name}
       </div>
-      <div style={{ color: "var(--primary)" }}>
+      <div style={{ color: "var(--primary)", fontWeight: 700 }}>
         {formatNumber(payload[0].value)} υποψήφιοι
       </div>
     </div>
@@ -141,7 +141,6 @@ export default function StatsPage() {
 
   function getDisplayName(slug: string): string {
     if (slugToGreekMap[slug]) return slugToGreekMap[slug];
-    // Fallback αν δεν βρεθεί στο index
     return slug
       .replace(/^pe-/, "ΠΕ ")
       .replace(/-eid-pe-/, " ΕΙΔ. ")
@@ -149,12 +148,11 @@ export default function StatsPage() {
       .toUpperCase();
   }
 
-  // Σωστός υπολογισμός για την πίτα τίτλων σπουδών (χωρίς αρνητικά)
+  // Σωστός υπολογισμός τίτλων σπουδών
   const titloiData = useMemo(() => {
     if (!data) return [];
     const total = data.global.total_candidates || 20828;
     const didaktoriko = data.global.me_didaktoriko || 1021;
-    // Εξασφαλίζουμε ότι τα μεταπτυχιακά δεν ξεπερνούν το συνολικό πληθυσμό
     const metaptyxiako = Math.min(
       data.global.me_metaptyxiako,
       Math.floor(total * 0.58)
@@ -189,21 +187,14 @@ export default function StatsPage() {
           color: "var(--primary)",
         }}
       >
-        Φόρτωση...
+        Φόρτωση στατιστικών...
       </main>
     );
   }
 
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        padding: "120px 24px 80px",
-        position: "relative",
-        zIndex: 1,
-      }}
-    >
-      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
+    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -239,8 +230,8 @@ export default function StatsPage() {
           <p
             style={{
               color: "var(--text-muted)",
-              fontSize: "1.1rem",
-              marginBottom: "3rem",
+              fontSize: "1.05rem",
+              marginBottom: "2.5rem",
               maxWidth: "700px",
             }}
           >
@@ -249,15 +240,8 @@ export default function StatsPage() {
           </p>
         </motion.div>
 
-        {/* Global KPIs */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-            gap: "1rem",
-            marginBottom: "3rem",
-          }}
-        >
+        {/* Global KPIs Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mb-8 sm:mb-12">
           <StatBox
             label="Σύνολο Υποψηφίων"
             value={formatNumber(data.global.total_candidates)}
@@ -292,30 +276,22 @@ export default function StatsPage() {
           />
         </div>
 
-        {/* Top 15 Ειδικότητες ανά Υποψηφίους */}
+        {/* Top 15 Ειδικότητες ανά Υποψηφίους (Responsive Axis) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="glass"
-          style={{ padding: "2rem", marginBottom: "2rem" }}
+          className="glass p-4 sm:p-8 rounded-2xl mb-8"
         >
-          <h2
-            className="font-display"
-            style={{
-              fontSize: "1.5rem",
-              fontWeight: 600,
-              marginBottom: "1.5rem",
-            }}
-          >
-            Top 15 Ειδικότητες <span style={{ color: "var(--text-muted)" }}>ανά υποψηφίους</span>
+          <h2 className="font-display text-lg sm:text-2xl font-bold text-white mb-6">
+            Top 15 Ειδικότητες <span className="text-slate-400 font-normal">ανά υποψηφίους</span>
           </h2>
-          <div style={{ height: "500px" }}>
+          <div className="h-[500px] w-full">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={formattedTopByCount}
                 layout="vertical"
-                margin={{ left: 20, right: 40, top: 20, bottom: 20 }}
+                margin={{ left: 0, right: 25, top: 10, bottom: 10 }}
               >
                 <CartesianGrid
                   strokeDasharray="3 3"
@@ -328,30 +304,30 @@ export default function StatsPage() {
                   type="category"
                   stroke="#7A8499"
                   fontSize={10}
-                  width={340}
+                  width={130} // 👈 130px στα κινητά ώστε να χωράνε άνετα οι μπάρες
                   tickFormatter={(v) =>
-                    typeof v === "string" && v.length > 42
-                      ? v.substring(0, 42) + "..."
+                    typeof v === "string" && v.length > 18
+                      ? v.substring(0, 16) + "..."
                       : v
                   }
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="value" fill="#00E5FF" radius={[0, 6, 6, 0]} />
+                <Bar dataKey="value" fill="#00E5FF" radius={[0, 4, 4, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </motion.div>
 
-        {/* Grid: Top Διοριστέοι + Top Ποσοστό (Visual Cleared & Spaced) */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        {/* Grid: Top Διοριστέοι + Top Ποσοστό */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 sm:mb-12">
           {/* Top 15 ανά διοριστέους */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="glass p-6 sm:p-8 rounded-2xl flex flex-col"
+            className="glass p-5 sm:p-8 rounded-2xl flex flex-col"
           >
-            <h3 className="text-xl font-bold text-white mb-6 flex items-center justify-between">
+            <h3 className="text-lg sm:text-xl font-bold text-white mb-6 flex items-center justify-between">
               <span>Top 15 ανά διοριστέους</span>
               <span className="text-xs font-mono text-[#00E5FF] px-2.5 py-1 rounded-full bg-[#00E5FF]/10 border border-[#00E5FF]/30">
                 Θέσεις
@@ -367,9 +343,9 @@ export default function StatsPage() {
                     href={`/eidikotita/${e.slug}`}
                     className="flex items-center justify-between p-3 rounded-xl bg-slate-900/40 border border-slate-800/60 hover:border-[#00E5FF]/50 hover:bg-[#00E5FF]/5 transition-all duration-200 group no-underline"
                   >
-                    <div className="flex items-center gap-3 min-w-0 pr-4">
+                    <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-3">
                       <span
-                        className={`w-6 text-xs font-mono font-bold flex-shrink-0 ${
+                        className={`w-5 sm:w-6 text-xs font-mono font-bold flex-shrink-0 ${
                           i < 3 ? "text-[#00E5FF]" : "text-slate-500"
                         }`}
                       >
@@ -382,7 +358,7 @@ export default function StatsPage() {
                         {greekName}
                       </span>
                     </div>
-                    <span className="font-mono font-bold text-sm text-[#00E5FF] flex-shrink-0 bg-slate-950/80 px-2.5 py-1 rounded-md border border-slate-800">
+                    <span className="font-mono font-bold text-xs sm:text-sm text-[#00E5FF] flex-shrink-0 bg-slate-950/80 px-2.5 py-1 rounded-md border border-slate-800">
                       {formatNumber(e.dioristoi)}
                     </span>
                   </Link>
@@ -396,9 +372,9 @@ export default function StatsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="glass p-6 sm:p-8 rounded-2xl flex flex-col"
+            className="glass p-5 sm:p-8 rounded-2xl flex flex-col"
           >
-            <h3 className="text-xl font-bold text-white mb-6 flex items-center justify-between">
+            <h3 className="text-lg sm:text-xl font-bold text-white mb-6 flex items-center justify-between">
               <span>Top 15 ανά ποσοστό επιτυχίας</span>
               <span className="text-xs font-mono text-[#00FFA3] px-2.5 py-1 rounded-full bg-[#00FFA3]/10 border border-[#00FFA3]/30">
                 Ποσοστό %
@@ -414,9 +390,9 @@ export default function StatsPage() {
                     href={`/eidikotita/${e.slug}`}
                     className="flex items-center justify-between p-3 rounded-xl bg-slate-900/40 border border-slate-800/60 hover:border-[#00FFA3]/50 hover:bg-[#00FFA3]/5 transition-all duration-200 group no-underline"
                   >
-                    <div className="flex items-center gap-3 min-w-0 pr-4">
+                    <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-3">
                       <span
-                        className={`w-6 text-xs font-mono font-bold flex-shrink-0 ${
+                        className={`w-5 sm:w-6 text-xs font-mono font-bold flex-shrink-0 ${
                           i < 3 ? "text-[#00FFA3]" : "text-slate-500"
                         }`}
                       >
@@ -429,7 +405,7 @@ export default function StatsPage() {
                         {greekName}
                       </span>
                     </div>
-                    <span className="font-mono font-bold text-sm text-[#00FFA3] flex-shrink-0 bg-slate-950/80 px-2 py-1 rounded-md border border-slate-800">
+                    <span className="font-mono font-bold text-xs sm:text-sm text-[#00FFA3] flex-shrink-0 bg-slate-950/80 px-2 py-1 rounded-md border border-slate-800">
                       {e.pososto.toFixed(1).replace(".", ",")}%
                     </span>
                   </Link>
@@ -439,39 +415,29 @@ export default function StatsPage() {
           </motion.div>
         </div>
 
-        {/* Κατανομή Τίτλων Σπουδών (3 Χρώματα, χωρίς αρνητικά) */}
+        {/* Κατανομή Τίτλων Σπουδών (Mobile-Friendly Donut) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="glass"
-          style={{ padding: "2rem", marginBottom: "2rem" }}
+          className="glass p-5 sm:p-8 rounded-2xl mb-8 flex flex-col items-center"
         >
-          <h3
-            style={{
-              fontSize: "1.2rem",
-              fontWeight: 600,
-              marginBottom: "1.5rem",
-            }}
-          >
+          <h3 className="text-lg sm:text-xl font-bold text-white mb-4 w-full text-left">
             Κατανομή Τίτλων Σπουδών
           </h3>
-          <div style={{ height: "400px" }}>
+
+          <div className="h-[280px] sm:h-[320px] w-full max-w-sm">
             <ResponsiveContainer width="100%" height="100%">
-              <PieChart margin={{ top: 20, right: 60, bottom: 20, left: 60 }}>
+              <PieChart>
                 <Pie
                   data={titloiData}
                   dataKey="value"
                   nameKey="name"
                   cx="50%"
                   cy="50%"
-                  innerRadius={75}
-                  outerRadius={135}
-                  paddingAngle={5}
-                  label={({ name, value }: any) =>
-                    `${name}: ${formatNumber(value)}`
-                  }
-                  labelLine={{ stroke: "#7A8499" }}
+                  innerRadius={55}
+                  outerRadius={95}
+                  paddingAngle={4}
                 >
                   {titloiData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
@@ -484,10 +450,32 @@ export default function StatsPage() {
                     border: "1px solid var(--border)",
                     borderRadius: "8px",
                     color: "#fff",
+                    fontSize: "12px",
                   }}
                 />
               </PieChart>
             </ResponsiveContainer>
+          </div>
+
+          {/* Καθαρό Legend από κάτω με νούμερα */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 w-full max-w-lg mt-2 pt-4 border-t border-slate-800/80">
+            {titloiData.map((t) => (
+              <div
+                key={t.name}
+                className="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/40 border border-slate-800"
+              >
+                <div className="flex items-center gap-2">
+                  <span
+                    className="w-3 h-3 rounded-full flex-shrink-0"
+                    style={{ background: t.color }}
+                  />
+                  <span className="text-xs text-slate-300 font-medium">{t.name}</span>
+                </div>
+                <span className="text-xs font-mono font-bold text-white">
+                  {formatNumber(t.value)}
+                </span>
+              </div>
+            ))}
           </div>
         </motion.div>
       </div>

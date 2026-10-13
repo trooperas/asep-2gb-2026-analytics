@@ -53,10 +53,10 @@ export const metadata = {
     siteName: "ΑΣΕΠ 2ΓΒ/2026 Hub",
     images: [
       {
-        url: "/opengraph-image",
+        url: "https://asep-2gb-2026.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ΑΣΕΠ 2ΓΒ/2026 Hub Preview",
+        alt: "ΑΣΕΠ 2ΓΒ/2026 Hub Preview Banner",
       },
     ],
   },
@@ -64,7 +64,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "ΑΣΕΠ 2ΓΒ/2026 Hub — Αποτελέσματα & Στατιστικά",
     description: "Διαδραστική πλατφόρμα ανάλυσης αποτελεσμάτων ΑΣΕΠ 2ΓΒ/2026.",
-    images: ["/opengraph-image"],
+    images: ["https://asep-2gb-2026.vercel.app/og-image.png"],
   },
   robots: {
     index: true,

@@ -311,18 +311,24 @@ export default function ChatPage() {
             Ρώτησε τον <span className="text-gradient">AI Βοηθό</span>
           </h1>
 
-          <p
-            style={{
-              color: "var(--text-muted)",
-              marginBottom: "2rem",
-              fontSize: "1rem",
-            }}
-          >
-            Ρώτησε ό,τι θέλεις για τα αποτελέσματα του 2ΓΒ/2026.{" "}
-            <span style={{ color: "var(--text-dim)", fontSize: "0.85rem" }}>
-              (Όριο: 2 ερωτήσεις / 30 λεπτά)
-            </span>
-          </p>
+          {/* Header / Intro section στο Chat */}
+          <div className="mb-6 space-y-2 text-center md:text-left">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#00E5FF]/10 border border-[#00E5FF]/30 text-[#00E5FF] text-xs font-semibold">
+              🤖 Πειραματικός AI Βοηθός 2ΓΒ
+            </div>
+            <h1 className="text-2xl sm:text-3xl font-bold font-display text-white">
+              Ρώτησε για τα αποτελέσματα
+            </h1>
+            <p className="text-sm text-slate-400 max-w-2xl leading-relaxed">
+              Ο βοηθός διαβάζει απευθείας από τους πίνακες του διαγωνισμού για να σου απαντήσει πού διορίστηκε κάποιος υποψήφιος, στατιστικά ειδικοτήτων κ.ά.
+            </p>
+            
+            {/* Το έξυπνο notice για τα tokens */}
+            <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs text-slate-300 inline-block mt-2">
+              💡 <em>Φιλική σημείωση:</em> Επειδή δεν έχουμε άπειρους πόρους και δωρεάν tokens, ισχύει όριο <strong>2 ερωτήσεις / 30 λεπτά</strong>. 
+              Οπότε... <strong>«choose your words carefully»</strong> 😉 και ρωτήστε όσο πιο συγκεκριμένα μπορείτε (π.χ. με επώνυμο & όνομα ή κωδικό θέσης)!
+            </div>
+          </div>
         </motion.div>
 
         {/* Chat area */}
@@ -586,7 +592,7 @@ export default function ChatPage() {
             }}
           >
             💡 Το AI είναι δωρεάν με όριο 2 ερωτήσεις / 30 λεπτά ανά χρήστη.
-            Σύντομα: υποστήριξη παραπάνω ερωτήσεων με δωρεά ☕
+            Σύντομα: υποστήριξη παραπάνω ερωτήσεων.
           </div>
 
           <div

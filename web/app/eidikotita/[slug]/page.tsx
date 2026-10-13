@@ -133,21 +133,20 @@ export default function EidikotitaPage() {
 
   useEffect(() => {
     if (!slug) return;
-    // Φόρτωση δεδομένων ειδικότητας + ελληνικού τίτλου
-      Promise.all([
-        fetch(`/api/eidikotita?slug=${encodeURIComponent(slug)}`).then((r) => r.json()),
-        fetch("/data/eidikotites_index.json").then((r) => r.json()).catch(() => []),
-      ])
-        .then(([d, indexList]) => {
-          setData(d);
-          const match = indexList.find((item: any) => item.slug === slug);
-          if (match && match.eidikotita) {
-            setEidikotitaTitle(match.eidikotita);
-          }
-        })
-        .catch(console.error)
-        .finally(() => setLoading(false));
-    }, [slug]);
+    Promise.all([
+      fetch(`/api/eidikotita?slug=${encodeURIComponent(slug)}`).then((r) => r.json()),
+      fetch("/data/eidikotites_index.json").then((r) => r.json()).catch(() => []),
+    ])
+      .then(([d, indexList]) => {
+        setData(d);
+        const match = indexList.find((item: any) => item.slug === slug);
+        if (match && match.eidikotita) {
+          setEidikotitaTitle(match.eidikotita);
+        }
+      })
+      .catch(console.error)
+      .finally(() => setLoading(false));
+  }, [slug]);
 
   if (loading) {
     return (
@@ -324,7 +323,7 @@ export default function EidikotitaPage() {
             </ResponsiveContainer>
           </motion.div>
 
-          {/* Κατανομή Εντοπιότητας (Καθαρό Donut με πλήρη νούμερα στο υπόμνημα) */}
+          {/* Κατανομή Εντοπιότητας (Καθαρό Donut με πλήρες υπόμνημα) */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -428,98 +427,6 @@ export default function EidikotitaPage() {
               ))}
             </div>
           </motion.div>
-            <h3
-              style={{
-                marginBottom: "0.5rem",
-                fontSize: "1.1rem",
-                fontWeight: 600,
-              }}
-            >
-              Κατανομή Εντοπιότητας
-            </h3>
-            <div style={{ height: "260px" }}>
-              <ResponsiveContainer width="100%" height="100%">
-                <PieChart>
-                  <Pie
-                    data={entopData}
-                    dataKey="value"
-                    nameKey="name"
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={65}
-                    outerRadius={105}
-                    paddingAngle={5}
-                    label={({ key, value }: any) => `Κωδ.${key}: ${value}`}
-                    labelLine={{ stroke: "#7A8499" }}
-                  >
-                    {entopData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.color} />
-                    ))}
-                  </Pie>
-                  <Tooltip
-                    formatter={(val: any, name: any) => [
-                      `${formatNumber(Number(val))} υποψήφιοι`,
-                      name,
-                    ]}
-                    contentStyle={{
-                      background: "rgba(10, 14, 26, 0.95)",
-                      border: "1px solid var(--border)",
-                      borderRadius: "8px",
-                      color: "#fff",
-                    }}
-                  />
-                </PieChart>
-              </ResponsiveContainer>
-            </div>
-
-            {/* Επεξήγηση Κωδικών Εντοπιότητας */}
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "12px",
-                paddingTop: "12px",
-                borderTop: "1px solid rgba(255,255,255,0.08)",
-                fontSize: "0.75rem",
-                color: "var(--text-muted)",
-              }}
-            >
-              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                <span
-                  style={{
-                    width: 10,
-                    height: 10,
-                    borderRadius: "50%",
-                    background: "#00E5FF",
-                  }}
-                />
-                <span>Κωδ. 0: Χωρίς Εντοπιότητα</span>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                <span
-                  style={{
-                    width: 10,
-                    height: 10,
-                    borderRadius: "50%",
-                    background: "#FF006E",
-                  }}
-                />
-                <span>Κωδ. 6: Νησιά / Παραμεθόριος</span>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                <span
-                  style={{
-                    width: 10,
-                    height: 10,
-                    borderRadius: "50%",
-                    background: "#00FFA3",
-                  }}
-                />
-                <span>Κωδ. 7: Ορεινές Περιοχές</span>
-              </div>
-            </div>
         </div>
 
         {/* Τίτλοι & Προσόντα */}

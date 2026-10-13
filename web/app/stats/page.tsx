@@ -112,6 +112,7 @@ export default function StatsPage() {
   const [data, setData] = useState<StatsData | null>(null);
   const [eidikotitesIndex, setEidikotitesIndex] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [useLogScale, setUseLogScale] = useState(true);
 
   useEffect(() => {
     Promise.all([
@@ -276,43 +277,91 @@ export default function StatsPage() {
           />
         </div>
 
-        {/* Top 15 Ειδικότητες ανά Υποψηφίους (Responsive Axis) */}
+        {/* Top 15 Ειδικότητες ανά Υποψηφίους (με Log Scale Toggle & Explanation) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
           className="glass p-4 sm:p-8 rounded-2xl mb-8"
         >
-          <h2 className="font-display text-lg sm:text-2xl font-bold text-white mb-6">
-            Top 15 Ειδικότητες <span className="text-slate-400 font-normal">ανά υποψηφίους</span>
-          </h2>
-          <div className="h-[500px] w-full">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
+            <div>
+              <h2 className="font-display text-lg sm:text-2xl font-bold text-white">
+                Top 15 Ειδικότητες <span className="text-slate-400 font-normal">ανά υποψηφίους</span>
+              </h2>
+              <p className="text-xs text-slate-400 mt-1">
+                {useLogScale
+                  ? "📊 Προβολή σε Λογαριθμική Κλίμακα (Log Scale) για να είναι ευδιάκριτες όλες οι ειδικότητες παρά την τεράστια απόκλιση (24.000 vs 200)."
+                  : "📏 Προβολή σε Γραμμική Κλίμακα (απόλυτες διαφορές)."}
+              </p>
+            </div>
+
+            {/* Toggle Switch: Γραμμική vs Λογαριθμική */}
+            <div className="flex items-center gap-1.5 p-1 rounded-xl bg-slate-900 border border-slate-800 self-start sm:self-auto">
+              <button
+                type="button"
+                onClick={() => setUseLogScale(true)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  useLogScale
+                    ? "bg-[#00E5FF] text-slate-950 font-bold shadow-sm"
+                    : "text-slate-400 hover:text-white"
+                }`}
+              >
+                Log Κλίμακα
+              </button>
+              <button
+                type="button"
+                onClick={() => setUseLogScale(false)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  !useLogScale
+                    ? "bg-[#00E5FF] text-slate-950 font-bold shadow-sm"
+                    : "text-slate-400 hover:text-white"
+                }`}
+              >
+                Κανονική
+              </button>
+            </div>
+          </div>
+
+          <div className="h-[520px] w-full">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={formattedTopByCount}
                 layout="vertical"
-                margin={{ left: 0, right: 25, top: 10, bottom: 10 }}
+                margin={{ left: 0, right: 30, top: 10, bottom: 10 }}
               >
                 <CartesianGrid
                   strokeDasharray="3 3"
                   stroke="rgba(255,255,255,0.05)"
                   horizontal={false}
                 />
-                <XAxis type="number" stroke="#7A8499" fontSize={11} />
+                <XAxis
+                  type="number"
+                  scale={useLogScale ? "log" : "linear"}
+                  domain={useLogScale ? [50, 30000] : [0, "auto"]}
+                  stroke="#7A8499"
+                  fontSize={11}
+                  tickFormatter={(v) => formatNumber(v)}
+                />
                 <YAxis
                   dataKey="name"
                   type="category"
                   stroke="#7A8499"
                   fontSize={10}
-                  width={130} // 👈 130px στα κινητά ώστε να χωράνε άνετα οι μπάρες
+                  width={140}
                   tickFormatter={(v) =>
-                    typeof v === "string" && v.length > 18
-                      ? v.substring(0, 16) + "..."
+                    typeof v === "string" && v.length > 20
+                      ? v.substring(0, 18) + "..."
                       : v
                   }
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="value" fill="#00E5FF" radius={[0, 4, 4, 0]} />
+                <Bar
+                  dataKey="value"
+                  fill="#00E5FF"
+                  radius={[0, 4, 4, 0]}
+                  animationDuration={800}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>

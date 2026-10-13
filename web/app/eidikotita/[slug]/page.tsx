@@ -125,6 +125,7 @@ function CustomTooltip({ active, payload, label }: any) {
 }
 
 export default function EidikotitaPage() {
+  const [eidikotitaTitle, setEidikotitaTitle] = useState<string>("");
   const params = useParams();
   const slug = params?.slug as string;
   const [data, setData] = useState<Data | null>(null);
@@ -132,12 +133,21 @@ export default function EidikotitaPage() {
 
   useEffect(() => {
     if (!slug) return;
-    fetch(`/api/eidikotita?slug=${encodeURIComponent(slug)}`)
-      .then((r) => r.json())
-      .then((d) => setData(d))
-      .catch(console.error)
-      .finally(() => setLoading(false));
-  }, [slug]);
+    // Φόρτωση δεδομένων ειδικότητας + ελληνικού τίτλου
+      Promise.all([
+        fetch(`/api/eidikotita?slug=${encodeURIComponent(slug)}`).then((r) => r.json()),
+        fetch("/data/eidikotites_index.json").then((r) => r.json()).catch(() => []),
+      ])
+        .then(([d, indexList]) => {
+          setData(d);
+          const match = indexList.find((item: any) => item.slug === slug);
+          if (match && match.eidikotita) {
+            setEidikotitaTitle(match.eidikotita);
+          }
+        })
+        .catch(console.error)
+        .finally(() => setLoading(false));
+    }, [slug]);
 
   if (loading) {
     return (
@@ -223,11 +233,13 @@ export default function EidikotitaPage() {
             style={{
               color: "var(--text-muted)",
               marginBottom: "3rem",
-              fontSize: "1.05rem",
-              maxWidth: "800px",
+              fontSize: "1.1rem",
+              fontWeight: 600,
+              maxWidth: "850px",
+              letterSpacing: "0.02em",
             }}
           >
-            {slug.replace(/-/g, " ").toUpperCase()}
+            {eidikotitaTitle || slug.replace(/-/g, " ").toUpperCase()}
           </p>
         </motion.div>
 

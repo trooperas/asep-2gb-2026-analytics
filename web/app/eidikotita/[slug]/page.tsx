@@ -324,7 +324,7 @@ export default function EidikotitaPage() {
             </ResponsiveContainer>
           </motion.div>
 
-          {/* Κατανομή Εντοπιότητας (με Legend) */}
+          {/* Κατανομή Εντοπιότητας (Καθαρό Donut με πλήρη νούμερα στο υπόμνημα) */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -338,6 +338,96 @@ export default function EidikotitaPage() {
               justifyContent: "space-between",
             }}
           >
+            <h3
+              style={{
+                marginBottom: "0.5rem",
+                fontSize: "1.1rem",
+                fontWeight: 600,
+              }}
+            >
+              Κατανομή Εντοπιότητας
+            </h3>
+
+            <div style={{ height: "240px", width: "100%" }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={entopData}
+                    dataKey="value"
+                    nameKey="name"
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={60}
+                    outerRadius={95}
+                    paddingAngle={4}
+                  >
+                    {entopData.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.color} />
+                    ))}
+                  </Pie>
+                  <Tooltip
+                    formatter={(val: any, name: any) => [
+                      `${formatNumber(Number(val))} υποψήφιοι`,
+                      name,
+                    ]}
+                    contentStyle={{
+                      background: "rgba(10, 14, 26, 0.95)",
+                      border: "1px solid var(--border)",
+                      borderRadius: "8px",
+                      color: "#fff",
+                      fontSize: "12px",
+                    }}
+                  />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+
+            {/* Πλήρες & Καθαρό Υπόμνημα με Αριθμούς */}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "8px",
+                paddingTop: "12px",
+                borderTop: "1px solid rgba(255,255,255,0.08)",
+                fontSize: "0.8rem",
+              }}
+            >
+              {entopData.map((item) => (
+                <div
+                  key={item.key}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    color: "var(--text-muted)",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <span
+                      style={{
+                        width: 10,
+                        height: 10,
+                        borderRadius: "50%",
+                        background: item.color,
+                        flexShrink: 0,
+                      }}
+                    />
+                    <span style={{ color: "#E2E8F0" }}>{item.name}</span>
+                  </div>
+                  <span
+                    style={{
+                      fontFamily: "var(--font-jetbrains-mono), monospace",
+                      fontWeight: 700,
+                      color: item.color,
+                    }}
+                  >
+                    {formatNumber(item.value)}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
             <h3
               style={{
                 marginBottom: "0.5rem",
@@ -430,7 +520,6 @@ export default function EidikotitaPage() {
                 <span>Κωδ. 7: Ορεινές Περιοχές</span>
               </div>
             </div>
-          </motion.div>
         </div>
 
         {/* Τίτλοι & Προσόντα */}

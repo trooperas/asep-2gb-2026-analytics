@@ -15,6 +15,7 @@ import {
   ResponsiveContainer,
   PieChart,
   Pie,
+  Cell,
 } from "recharts";
 
 interface Data {
@@ -43,7 +44,17 @@ interface Data {
   totalRecords: number;
 }
 
-const COLORS = ["#00E5FF", "#FF006E", "#00FFA3", "#FFB800", "#7A8499"];
+const ENTOPIOTITA_COLORS: Record<string, string> = {
+  "0": "#00E5FF", // Χωρίς Εντοπιότητα (Cyan)
+  "6": "#FF006E", // Νησιά / Παραμεθόριος (Magenta)
+  "7": "#00FFA3", // Ορεινές Περιοχές (Mint)
+};
+
+const ENTOPIOTITA_LABELS: Record<string, string> = {
+  "0": "Χωρίς Εντοπιότητα",
+  "6": "Νησιά / Παραμεθόριος",
+  "7": "Ορεινές Περιοχές",
+};
 
 function StatBox({
   label,
@@ -100,12 +111,13 @@ function CustomTooltip({ active, payload, label }: any) {
         borderRadius: "8px",
         padding: "10px 14px",
         fontSize: "0.85rem",
+        boxShadow: "0 8px 24px rgba(0,0,0,0.5)",
       }}
     >
       <div style={{ color: "var(--text-muted)", marginBottom: "4px" }}>
-        {label}
+        Εύρος: {label}
       </div>
-      <div style={{ color: "var(--primary)", fontWeight: 700 }}>
+      <div style={{ color: "#00E5FF", fontWeight: 700 }}>
         {formatNumber(payload[0].value)} υποψήφιοι
       </div>
     </div>
@@ -138,7 +150,7 @@ export default function EidikotitaPage() {
           color: "var(--primary)",
         }}
       >
-        Φόρτωση...
+        Φόρτωση ειδικότητας...
       </main>
     );
   }
@@ -146,9 +158,9 @@ export default function EidikotitaPage() {
   if (!data || !data.stats) {
     return (
       <main style={{ minHeight: "100vh", padding: "120px 24px" }}>
-        <h1>Δεν βρέθηκε</h1>
+        <h1>Δεν βρέθηκε η ειδικότητα</h1>
         <Link href="/" style={{ color: "var(--primary)" }}>
-          ← Πίσω
+          ← Επιστροφή στην Αρχική
         </Link>
       </main>
     );
@@ -159,9 +171,14 @@ export default function EidikotitaPage() {
     .filter((d) => d.count > 0);
 
   const entopData = Object.entries(data.entopiotita)
-    .map(([label, value]) => ({ name: label, value }))
-    .sort((a, b) => b.value - a.value)
-    .slice(0, 8);
+    .map(([label, value]) => ({
+      key: label,
+      name: ENTOPIOTITA_LABELS[label] || `Κωδικός ${label}`,
+      value,
+      color: ENTOPIOTITA_COLORS[label] || "#7A8499",
+    }))
+    .filter((d) => d.value > 0)
+    .sort((a, b) => b.value - a.value);
 
   return (
     <main
@@ -198,7 +215,9 @@ export default function EidikotitaPage() {
               marginBottom: "0.5rem",
             }}
           >
-            <span className="text-gradient">{data.stats.count.toLocaleString("el-GR")} υποψήφιοι</span>
+            <span className="text-gradient">
+              {data.stats.count.toLocaleString("el-GR")} υποψήφιοι
+            </span>
           </h1>
           <p
             style={{
@@ -227,7 +246,7 @@ export default function EidikotitaPage() {
             highlight
           />
           <StatBox
-            label="Ποσοστό"
+            label="Ποσοστό Επιτυχίας"
             value={data.stats.pososto.toFixed(1).replace(".", ",")}
             suffix="%"
           />
@@ -236,11 +255,11 @@ export default function EidikotitaPage() {
             value={formatVathmologia(data.stats.avg_vath)}
           />
           <StatBox
-            label="Max"
+            label="Max Βαθμολογία"
             value={formatVathmologia(data.stats.max_vath)}
           />
           <StatBox
-            label="Min"
+            label="Min Βαθμολογία"
             value={formatVathmologia(data.stats.min_vath)}
           />
         </div>
@@ -249,18 +268,18 @@ export default function EidikotitaPage() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))",
             gap: "1.5rem",
             marginBottom: "3rem",
           }}
         >
-          {/* Κατανομή Βαθμολογίας */}
+          {/* Κατανομή Βαθμολογίας (Neon Cyan) */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="glass"
-            style={{ padding: "1.5rem", height: "400px" }}
+            style={{ padding: "1.5rem", height: "420px" }}
           >
             <h3
               style={{
@@ -271,67 +290,138 @@ export default function EidikotitaPage() {
             >
               Κατανομή Βαθμολογίας
             </h3>
-            <ResponsiveContainer width="100%" height="90%">
+            <ResponsiveContainer width="100%" height="88%">
               <BarChart data={distData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  stroke="rgba(255,255,255,0.06)"
+                />
                 <XAxis
                   dataKey="label"
-                  stroke="var(--text-muted)"
+                  stroke="#7A8499"
                   fontSize={11}
                 />
-                <YAxis stroke="var(--text-muted)" fontSize={11} />
+                <YAxis stroke="#7A8499" fontSize={11} />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="count" fill="var(--primary)" radius={[4, 4, 0, 0]} />
+                <Bar
+                  dataKey="count"
+                  fill="#00E5FF"
+                  radius={[6, 6, 0, 0]}
+                />
               </BarChart>
             </ResponsiveContainer>
           </motion.div>
 
-          {/* Εντοπιότητα */}
+          {/* Κατανομή Εντοπιότητας (με Legend) */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
             className="glass"
-            style={{ padding: "1.5rem", height: "400px" }}
+            style={{
+              padding: "1.5rem",
+              height: "420px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}
           >
             <h3
               style={{
-                marginBottom: "1rem",
+                marginBottom: "0.5rem",
                 fontSize: "1.1rem",
                 fontWeight: 600,
               }}
             >
               Κατανομή Εντοπιότητας
             </h3>
-            <ResponsiveContainer width="100%" height="90%">
-              <PieChart>
-                <Pie
-                  data={entopData.map((d, i) => ({
-                    ...d,
-                    fill: COLORS[i % COLORS.length],
-                  }))}
-                  dataKey="value"
-                  nameKey="name"
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={60}
-                  outerRadius={110}
-                  paddingAngle={4}
-                  label={(entry: any) => `${entry.name}: ${entry.value}`}
-                />
-                <Tooltip
-                  contentStyle={{
-                    background: "rgba(10, 14, 26, 0.95)",
-                    border: "1px solid var(--border)",
-                    borderRadius: "8px",
+            <div style={{ height: "260px" }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={entopData}
+                    dataKey="value"
+                    nameKey="name"
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={65}
+                    outerRadius={105}
+                    paddingAngle={5}
+                    label={({ key, value }: any) => `Κωδ.${key}: ${value}`}
+                    labelLine={{ stroke: "#7A8499" }}
+                  >
+                    {entopData.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.color} />
+                    ))}
+                  </Pie>
+                  <Tooltip
+                    formatter={(val: any, name: any) => [
+                      `${formatNumber(Number(val))} υποψήφιοι`,
+                      name,
+                    ]}
+                    contentStyle={{
+                      background: "rgba(10, 14, 26, 0.95)",
+                      border: "1px solid var(--border)",
+                      borderRadius: "8px",
+                      color: "#fff",
+                    }}
+                  />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+
+            {/* Επεξήγηση Κωδικών Εντοπιότητας */}
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "12px",
+                paddingTop: "12px",
+                borderTop: "1px solid rgba(255,255,255,0.08)",
+                fontSize: "0.75rem",
+                color: "var(--text-muted)",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                <span
+                  style={{
+                    width: 10,
+                    height: 10,
+                    borderRadius: "50%",
+                    background: "#00E5FF",
                   }}
                 />
-              </PieChart>
-            </ResponsiveContainer>
+                <span>Κωδ. 0: Χωρίς Εντοπιότητα</span>
+              </div>
+              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                <span
+                  style={{
+                    width: 10,
+                    height: 10,
+                    borderRadius: "50%",
+                    background: "#FF006E",
+                  }}
+                />
+                <span>Κωδ. 6: Νησιά / Παραμεθόριος</span>
+              </div>
+              <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                <span
+                  style={{
+                    width: 10,
+                    height: 10,
+                    borderRadius: "50%",
+                    background: "#00FFA3",
+                  }}
+                />
+                <span>Κωδ. 7: Ορεινές Περιοχές</span>
+              </div>
+            </div>
           </motion.div>
         </div>
 
-        {/* Τίτλοι Σπουδών */}
+        {/* Τίτλοι & Προσόντα */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -346,7 +436,7 @@ export default function EidikotitaPage() {
               fontWeight: 600,
             }}
           >
-            Τίτλοι & Προσόντα
+            Τίτλοι & Προσόντα Υποψηφίων
           </h3>
           <div
             style={{
@@ -366,7 +456,13 @@ export default function EidikotitaPage() {
               >
                 Με Μεταπτυχιακό
               </div>
-              <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>
+              <div
+                style={{
+                  fontSize: "1.5rem",
+                  fontWeight: 700,
+                  color: "#00E5FF",
+                }}
+              >
                 {formatNumber(data.titloi.metaptyxiako)}
               </div>
             </div>
@@ -381,7 +477,13 @@ export default function EidikotitaPage() {
               >
                 Με Διδακτορικό
               </div>
-              <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>
+              <div
+                style={{
+                  fontSize: "1.5rem",
+                  fontWeight: 700,
+                  color: "#FF006E",
+                }}
+              >
                 {formatNumber(data.titloi.didaktoriko)}
               </div>
             </div>
@@ -418,7 +520,7 @@ export default function EidikotitaPage() {
           </div>
         </motion.div>
 
-        {/* Top Διοριστέοι */}
+        {/* Top 20 Διοριστέοι */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -440,7 +542,6 @@ export default function EidikotitaPage() {
               <Link
                 key={`${c.am}-${i}`}
                 href={`/ypopsifios/${c.am}?slug=${data.slug}`}
-                className="glass-hover"
                 style={{
                   padding: "10px 14px",
                   display: "flex",
@@ -450,20 +551,38 @@ export default function EidikotitaPage() {
                   color: "var(--text)",
                   border: "1px solid transparent",
                   borderRadius: "8px",
+                  background: "rgba(255,255,255,0.02)",
+                  transition: "all 0.15s ease",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = "var(--primary)";
+                  e.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = "transparent";
+                  e.currentTarget.style.background = "rgba(255,255,255,0.02)";
                 }}
               >
-                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "12px",
+                  }}
+                >
                   <span
                     style={{
                       width: "28px",
-                      color: i < 3 ? "var(--primary)" : "var(--text-dim)",
+                      color: i < 3 ? "var(--primary)" : "var(--text-muted)",
                       fontWeight: 700,
                       fontSize: "0.85rem",
                     }}
                   >
                     #{i + 1}
                   </span>
-                  <span>{c.eponymo} {c.onoma}</span>
+                  <span>
+                    {c.eponymo} {c.onoma}
+                  </span>
                 </div>
                 <span
                   style={{
@@ -479,50 +598,78 @@ export default function EidikotitaPage() {
           </div>
         </motion.div>
 
-        {/* Top Κωδικοί Θέσεων */}
-        {data.theseis.length > 0 && (
+        {/* Top Κωδικοί Θέσεων (με πλήρη επεξήγηση & links) */}
+        {data.theseis && data.theseis.length > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             className="glass"
-            style={{ padding: "1.5rem" }}
+            style={{ padding: "1.75rem" }}
           >
-            <h3
+            <div
               style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "4px",
                 marginBottom: "1.5rem",
-                fontSize: "1.1rem",
-                fontWeight: 600,
+                borderBottom: "1px solid rgba(255,255,255,0.08)",
+                paddingBottom: "12px",
               }}
             >
-              Top Κωδικοί Θέσεων
-            </h3>
+              <h3
+                style={{
+                  fontSize: "1.2rem",
+                  fontWeight: 600,
+                  color: "#fff",
+                }}
+              >
+                Κωδικοί Θέσεων με τους περισσότερους διορισμούς
+              </h3>
+              <p
+                style={{
+                  fontSize: "0.85rem",
+                  color: "var(--text-muted)",
+                  margin: 0,
+                }}
+              >
+                Οι συγκεκριμένες θέσεις της προκήρυξης όπου απορροφήθηκαν οι
+                περισσότεροι υποψήφιοι της ειδικότητας. Πάτησε σε έναν κωδικό για
+                να δεις αναλυτικά τον φορέα και την έδρα.
+              </p>
+            </div>
+
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))",
-                gap: "0.5rem",
+                gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",
+                gap: "0.75rem",
               }}
             >
               {data.theseis.map((t) => (
-                <div
+                <Link
                   key={t.kod}
+                  href={`/thesi/${t.kod}`}
                   style={{
-                    padding: "10px 14px",
+                    padding: "12px 14px",
                     border: "1px solid var(--border)",
-                    borderRadius: "8px",
-                    fontSize: "0.85rem",
+                    borderRadius: "10px",
+                    textDecoration: "none",
+                    background: "rgba(10, 14, 26, 0.5)",
+                    transition: "all 0.2s ease",
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "4px",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = "#00E5FF";
+                    e.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = "var(--border)";
+                    e.currentTarget.style.background = "rgba(10, 14, 26, 0.5)";
                   }}
                 >
-                  <div
-                    style={{
-                      color: "var(--text-muted)",
-                      fontSize: "0.7rem",
-                      marginBottom: "4px",
-                    }}
-                  >
-                    Κωδικός
-                  </div>
                   <div
                     style={{
                       display: "flex",
@@ -530,10 +677,36 @@ export default function EidikotitaPage() {
                       alignItems: "center",
                     }}
                   >
-                    <span style={{ fontWeight: 600 }}>{t.kod}</span>
-                    <span style={{ color: "var(--primary)" }}>{t.count}</span>
+                    <span
+                      style={{
+                        color: "var(--text-muted)",
+                        fontSize: "0.7rem",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      Κωδικός
+                    </span>
+                    <span
+                      style={{
+                        color: "#00E5FF",
+                        fontSize: "0.75rem",
+                        fontWeight: 600,
+                      }}
+                    >
+                      {t.count} {t.count === 1 ? "διορισμός" : "διορισμοί"}
+                    </span>
                   </div>
-                </div>
+                  <div
+                    style={{
+                      fontFamily: "var(--font-jetbrains-mono), monospace",
+                      fontWeight: 700,
+                      fontSize: "1rem",
+                      color: "#fff",
+                    }}
+                  >
+                    #{t.kod}
+                  </div>
+                </Link>
               ))}
             </div>
           </motion.div>

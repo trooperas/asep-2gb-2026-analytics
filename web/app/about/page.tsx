@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { Sparkles, Cpu, Clock, ShieldCheck, ExternalLink } from "lucide-react";
+import { Sparkles, HelpCircle, ShieldCheck, ExternalLink, Zap } from "lucide-react";
 
 export const metadata = {
-  title: "Σχετικά με το Project & AI Story — ΑΣΕΠ 2ΓΒ/2026",
-  description: "Πώς αναλύθηκαν 54 αρχεία αποτελεσμάτων σε λίγες ώρες με τη χρήση AI-assisted workflows.",
+  title: "Σχετικά με το Project — ΑΣΕΠ 2ΓΒ/2026 Hub",
+  description: "Πώς και γιατί φτιάχτηκε αυτή η πλατφόρμα μέσα σε μία μέρα.",
 };
 
 export default function AboutPage() {
@@ -17,89 +17,95 @@ export default function AboutPage() {
         ← Επιστροφή στην Αρχική
       </Link>
 
-      <div className="space-y-12">
-        {/* Header */}
+      <div className="space-y-10">
+        {/* Title */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#00E5FF]/10 border border-[#00E5FF]/30 text-[#00E5FF] text-xs font-semibold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5" />
-            AI-Augmented Data Initiative
+            <Zap className="w-3.5 h-3.5" />
+            Side Project • Behind the Scenes
           </div>
           <h1 className="text-3xl sm:text-5xl font-bold font-display tracking-tight text-white">
-            Πώς χτίστηκε αυτή η πλατφόρμα{" "}
+            Γιατί και πώς φτιάχτηκε{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00E5FF] to-pink-500">
-              μέσα σε λίγες ώρες
+              αυτή η πλατφόρμα
             </span>
           </h1>
           <p className="text-lg text-slate-300 leading-relaxed">
-            Μια ανοιχτή αποτύπωση για τη δύναμη της Τεχνητής Νοημοσύνης, τη δημόσια πληροφορία και το μέλλον της ανάλυσης δεδομένων.
+            Μια προσπάθεια να βγει νόημα από 54 διάσπαρτα Exce που εξέδωσε ο ΑΣΕΠ.
           </p>
         </div>
 
-        {/* The Story Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-3">
-            <Clock className="w-6 h-6 text-[#00E5FF]" />
-            <h3 className="font-semibold text-white">Αυθημερόν Υλοποίηση</h3>
-            <p className="text-sm text-slate-400">
-              Τα προσωρινά αποτελέσματα εκδόθηκαν σε 54 ασύνδετα Excel. Η πλατφόρμα σχεδιάστηκε, αναλύθηκε και δημοσιεύθηκε την ίδια ημέρα.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-3">
-            <Cpu className="w-6 h-6 text-pink-400" />
-            <h3 className="font-semibold text-white">100% AI-Assisted</h3>
-            <p className="text-sm text-slate-400">
-              Κανένας άνθρωπος δεν θα μπορούσε να ολοκληρώσει αυτό το έργο σε ώρες. Ο κώδικας, τα ETL scripts και τα visual components παρήχθησαν με AI co-piloting.
-            </p>
-          </div>
-
-          <div className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-3">
-            <ShieldCheck className="w-6 h-6 text-emerald-400" />
-            <h3 className="font-semibold text-white">Διαφάνεια & GDPR</h3>
-            <p className="text-sm text-slate-400">
-              Πλήρης σεβασμός στα προσωπικά δεδομένα με αυτόματο masking ταυτοτήτων και χρήση αποκλειστικά δημόσιων κρατικών εγγράφων.
-            </p>
-          </div>
-        </div>
-
-        {/* Detailed Narrative */}
-        <div className="prose prose-invert max-w-none space-y-6 text-slate-300 leading-relaxed">
-          <h2 className="text-2xl font-bold text-white border-b border-slate-800 pb-3">
-            Το Κίνητρο & Η Διαδικασία
+        {/* The Human Story */}
+        <div className="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 space-y-4">
+          <h2 className="text-xl font-bold text-white flex items-center gap-2">
+            <HelpCircle className="w-5 h-5 text-[#00E5FF]" />
+            Πώς ξεκίνησε η ιδέα
           </h2>
-          <p>
-            Ως μη επαγγελματίας του χώρου της πληροφορικής (non-IT), το ενδιαφέρον μου ήταν να δοκιμάσω τα όρια των σύγχρονων εργαλείων AI σε ένα πραγματικό, πλούσιο και χαοτικό dataset: 
-            <strong> 51.900+ εγγραφές, 52 ειδικότητες και χιλιάδες σελίδες προκήρυξης.</strong>
+          <p className="text-slate-300 leading-relaxed text-sm sm:text-base">
+            Με την έκδοση των προσωρινών αποτελεσμάτων του 2ΓΒ/2026, είχα γνωστούς που είχαν συμμετάσχει στον διαγωνισμό και προσπαθούσαν να καταλάβουν τι γίνεται. 
+            Ο ΑΣΕΠ ανέβασε 54 ξεχωριστά αρχεία Excel — ένα για κάθε ειδικότητα συν τα συγκεντρωτικά. 
+            Για να δεις πού βρίσκεσαι, ποιος διορίστηκε πού και ποιες θέσεις έμειναν κενές, έπρεπε να ανοίγεις 3 καρτέλες ταυτόχρονα και να ψάχνεις με τις ώρες. Συν το αρχικό ΦΕΚ της προκήρυξης με τις 322 σελίδες του.
           </p>
-          <p>
-            Αντί για μέρες χειροκίνητου προγραμματισμού, χρησιμοποιήθηκε μια collaborative προσέγγιση ανθρώπου και AI:
+          <p className="text-slate-300 leading-relaxed text-sm sm:text-base">
+            Αποφάσισα λοιπόν να τα συγκεντρώσω όλα σε ένα ενιαίο, καθαρό μέρος, ώστε όλοι οι υποψήφιοι να βρίσκουν αμέσως την απάντηση που ψάχνουν χωρίς να χάνονται στα αρχεία.
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-slate-400">
-            <li><strong>Καθαρισμός Δεδομένων:</strong> Scripts σε Python για ενοποίηση των 54 αρχείων και chunking χωρίς ανάγκη ακριβής βάσης δεδομένων.</li>
-            <li><strong>Interactive UI:</strong> Σχεδιασμός διαδραστικού χάρτη Ελλάδας (GeoJSON) με ταυτόχρονη απεικόνιση θέσεων και κενών.</li>
-            <li><strong>Groq AI Engine:</strong> Ενσωμάτωση εξειδικευμένου LLM βοηθού με rate-limiting και real-time tool calling.</li>
-          </ul>
+        </div>
 
-          <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900 to-[#0A0E1A] border border-slate-800 mt-8">
-            <h3 className="text-lg font-semibold text-white mb-2">Σημείωμα Δεοντολογίας</h3>
-            <p className="text-sm text-slate-400 mb-4">
-              Το παρόν project αποτελεί ένα πείραμα ταχείας οπτικοποίησης δεδομένων (rapid prototyping) και δεν υποκαθιστά τους επίσημους πίνακες του ΑΣΕΠ. Δεν διεκδικεί πρωτοτυπία παραδοσιακής ανάπτυξης λογισμικού, αλλά αναδεικνύει τι είναι εφικτό σήμερα όταν ένας περίεργος αναλυτής αξιοποιεί την Τεχνητή Νοημοσύνη.
-            </p>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://www.linkedin.com/in/fokionas/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#00E5FF]/10 text-[#00E5FF] hover:bg-[#00E5FF]/20 text-xs font-semibold transition-all"
-                >
-                <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
-                </svg>
-                <span>Σύνδεση στο LinkedIn</span>
-                <ExternalLink className="w-3 h-3" />
-                </a>
+        {/* Τεχνικά & AI */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-3">
+            <div className="flex items-center gap-2 text-white font-semibold">
+              <Sparkles className="w-5 h-5 text-pink-400" />
+              Πώς στήθηκε (με AI βοήθεια)
             </div>
+            <p className="text-sm text-slate-400 leading-relaxed">
+              Επειδή ο όγκος ήταν τεράστιος και ο χρόνος ελάχιστος, χρησιμοποίησα εργαλεία Τεχνητής Νοημοσύνης (duh!) για να έχω γρήγορα τα Python scripts καθαρισμού, το γραφικό του χάρτη και το Next.js frontend.
+            </p>
           </div>
+
+          <div className="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-3">
+            <div className="flex items-center gap-2 text-white font-semibold">
+              <ShieldCheck className="w-5 h-5 text-emerald-400" />
+              Προσωπικά Δεδομένα
+            </div>
+            <p className="text-sm text-slate-400 leading-relaxed">
+              Όλα τα δεδομένα προέρχονται αποκλειστικά από τις δημόσιες ανακοινώσεις του ΑΣΕΠ. 
+              Οι Αριθμοί Δελτίου Ταυτότητας (ΑΔΤ) είναι ήδη καλυμμένοι με αστερίσκους (***) όπως ακριβώς δόθηκαν στη δημοσιότητα, διασφαλίζοντας την ιδιωτικότητα των υποψηφίων.
+            </p>
+          </div>
+        </div>
+
+        {/* AI & Tokens Warning - Human & Funny */}
+        <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900/80 to-[#0A0E1A] border border-[#00E5FF]/20 space-y-3">
+          <h3 className="text-base font-semibold text-white flex items-center gap-2">
+            🤖 Σχετικά με τον AI Assistant
+          </h3>
+          <p className="text-sm text-slate-300 leading-relaxed">
+            Ο AI βοηθός της πλατφόρμας είναι <strong>καθαρά πειραματικός</strong>. Διαβάζει κατευθείαν από τα επίσημα δεδομένα των πινάκων για να απαντά σε ερωτήσεις. 
+          </p>
+          <p className="text-sm text-slate-400 leading-relaxed">
+            ⚠️ <em>Σημείωση:</em> Επειδή δεν έχω άπειρους πόρους και δωρεάν tokens, υπάρχει όριο ερωτήσεων ανά χρήστη. Οπότε... <strong>«choose your words carefully»</strong> 😉 και ρωτήστε συγκεκριμένα πράγματα (π.χ. με ονοματεπώνυμο ή κωδικό θέσης)!
+          </p>
+        </div>
+
+        {/* Sign-off */}
+        <div className="pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+          <div>
+            Καλά αποτελέσματα σε όλους τους υποψηφίους!
+          </div>
+          <a
+            href="https://www.linkedin.com/in/fokionas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-slate-200 hover:text-[#00E5FF] transition-colors font-medium text-xs bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800"
+          >
+            {/* Inline SVG for LinkedIn */}
+            <svg className="w-3.5 h-3.5 fill-[#00E5FF]" viewBox="0 0 24 24">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+            </svg>
+            <span>Fokion στο LinkedIn</span>
+            <ExternalLink className="w-3 h-3 opacity-60" />
+          </a>
         </div>
       </div>
     </main>

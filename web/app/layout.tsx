@@ -51,11 +51,20 @@ export const metadata = {
     description:
       "Εξερεύνησε τα αποτελέσματα του ΑΣΕΠ 2ΓΒ/2026: κατανομή θέσεων, βαθμολογίες ανά ειδικότητα, γεωγραφικός χάρτης και έξυπνη αναζήτηση.",
     siteName: "ΑΣΕΠ 2ΓΒ/2026 Hub",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "ΑΣΕΠ 2ΓΒ/2026 Hub Preview",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ΑΣΕΠ 2ΓΒ/2026 Hub — Αποτελέσματα & Στατιστικά",
     description: "Διαδραστική πλατφόρμα ανάλυσης αποτελεσμάτων ΑΣΕΠ 2ΓΒ/2026.",
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,

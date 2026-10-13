@@ -161,7 +161,7 @@ export default function XartisPage() {
     <main
       style={{
         minHeight: "100vh",
-        padding: "120px 24px 80px",
+        padding: "90px 16px 60px",
         position: "relative",
         zIndex: 1,
       }}

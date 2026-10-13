@@ -126,7 +126,7 @@ export default function ProfilePage() {
           color: "var(--primary)",
         }}
       >
-        Φόρτωση...
+        Φόρτωση προφίλ...
       </main>
     );
   }
@@ -150,6 +150,10 @@ export default function ProfilePage() {
 
   const candidate = candidates[activeIdx];
   const isDioristaios = !!candidate.thesi_diorismou;
+  const cleanAmString = String(candidate.am).replace(/\.0$/, "");
+  const cleanThesiKod = candidate.thesi_diorismou
+    ? String(candidate.thesi_diorismou).replace(/\.0$/, "")
+    : "";
 
   return (
     <main
@@ -220,7 +224,7 @@ export default function ProfilePage() {
             <span
               style={{ fontFamily: "var(--font-jetbrains-mono), monospace" }}
             >
-              {candidate.am}
+              {cleanAmString}
             </span>
             {candidate.adt_masked && ` · ${candidate.adt_masked}`}
           </p>
@@ -280,6 +284,7 @@ export default function ProfilePage() {
           </div>
         )}
 
+        {/* Βασικά KPIs (με κλικαρίσιμη θέση διορισμού) */}
         <div
           style={{
             display: "grid",
@@ -299,11 +304,71 @@ export default function ProfilePage() {
             value={formatVathmologia(candidate.synolo_graptou)}
             delay={200}
           />
-          <StatBox
-            label="Θέση Διορισμού"
-            value={candidate.thesi_diorismou || "—"}
-            delay={300}
-          />
+
+          {/* Κλικαρίσιμο κουτί Θέσης Διορισμού */}
+          {cleanThesiKod ? (
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 300 / 1000, duration: 0.5 }}
+            >
+              <Link
+                href={`/thesi/${cleanThesiKod}`}
+                className="glass glass-hover"
+                style={{
+                  padding: "1.25rem",
+                  display: "block",
+                  textDecoration: "none",
+                  borderRadius: "16px",
+                  border: "1px solid rgba(0, 229, 255, 0.25)",
+                  background: "rgba(0, 229, 255, 0.03)",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "0.5rem",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "0.7rem",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.1em",
+                      color: "var(--text-muted)",
+                    }}
+                  >
+                    Θέση Διορισμού
+                  </span>
+                  <span
+                    style={{
+                      fontSize: "0.75rem",
+                      color: "var(--primary)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    Λεπτομέρειες →
+                  </span>
+                </div>
+                <div
+                  style={{
+                    fontSize: "1.5rem",
+                    fontWeight: 700,
+                    color: "var(--primary)",
+                    lineHeight: 1.2,
+                    fontFamily: "var(--font-jetbrains-mono), monospace",
+                  }}
+                >
+                  #{cleanThesiKod}
+                </div>
+              </Link>
+            </motion.div>
+          ) : (
+            <StatBox label="Θέση Διορισμού" value="—" delay={300} />
+          )}
+
           <StatBox label="Σειρά" value={`#${candidate.aa}`} delay={400} />
         </div>
 
@@ -433,6 +498,7 @@ export default function ProfilePage() {
             color: "var(--primary)",
             textDecoration: "none",
             fontWeight: 600,
+            borderRadius: "12px",
           }}
         >
           Δες όλη την ειδικότητα →

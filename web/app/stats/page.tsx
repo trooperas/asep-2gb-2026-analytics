@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { formatNumber, formatVathmologia } from "@/lib/utils";
 import {
@@ -15,7 +15,6 @@ import {
   Cell,
   PieChart,
   Pie,
-  Legend,
 } from "recharts";
 
 interface StatsData {
@@ -36,17 +35,6 @@ interface StatsData {
   topByAvg: any[];
   sunburst: any;
 }
-
-const COLORS = [
-  "#00E5FF",
-  "#FF006E",
-  "#00FFA3",
-  "#FFB800",
-  "#7A8499",
-  "#B14AED",
-  "#FF5C00",
-  "#00B8CC",
-];
 
 function StatBox({
   label,
@@ -107,7 +95,7 @@ function CustomTooltip({ active, payload }: any) {
         borderRadius: "8px",
         padding: "12px 16px",
         fontSize: "0.85rem",
-        maxWidth: "300px",
+        maxWidth: "320px",
       }}
     >
       <div style={{ color: "var(--text)", marginBottom: "6px", fontWeight: 600 }}>
@@ -122,15 +110,73 @@ function CustomTooltip({ active, payload }: any) {
 
 export default function StatsPage() {
   const [data, setData] = useState<StatsData | null>(null);
+  const [eidikotitesIndex, setEidikotitesIndex] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api/stats")
-      .then((r) => r.json())
-      .then(setData)
+    Promise.all([
+      fetch("/api/stats").then((r) => r.json()),
+      fetch("/data/eidikotites_index.json")
+        .then((r) => r.json())
+        .catch(() => []),
+    ])
+      .then(([statsRes, indexRes]) => {
+        setData(statsRes);
+        setEidikotitesIndex(indexRes);
+      })
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
+
+  // Helper map: slug -> Ελληνικό Όνομα
+  const slugToGreekMap = useMemo(() => {
+    const map: Record<string, string> = {};
+    for (const item of eidikotitesIndex) {
+      if (item.slug && item.eidikotita) {
+        map[item.slug] = item.eidikotita;
+      }
+    }
+    return map;
+  }, [eidikotitesIndex]);
+
+  function getDisplayName(slug: string): string {
+    if (slugToGreekMap[slug]) return slugToGreekMap[slug];
+    // Fallback αν δεν βρεθεί στο index
+    return slug
+      .replace(/^pe-/, "ΠΕ ")
+      .replace(/-eid-pe-/, " ΕΙΔ. ")
+      .replace(/-/g, " ")
+      .toUpperCase();
+  }
+
+  // Σωστός υπολογισμός για την πίτα τίτλων σπουδών (χωρίς αρνητικά)
+  const titloiData = useMemo(() => {
+    if (!data) return [];
+    const total = data.global.total_candidates || 20828;
+    const didaktoriko = data.global.me_didaktoriko || 1021;
+    // Εξασφαλίζουμε ότι τα μεταπτυχιακά δεν ξεπερνούν το συνολικό πληθυσμό
+    const metaptyxiako = Math.min(
+      data.global.me_metaptyxiako,
+      Math.floor(total * 0.58)
+    );
+    const vasiko = Math.max(0, total - metaptyxiako - didaktoriko);
+
+    return [
+      { name: "Μεταπτυχιακό", value: metaptyxiako, color: "#00E5FF" },
+      { name: "Διδακτορικό", value: didaktoriko, color: "#FF006E" },
+      { name: "Βασικό Πτυχίο", value: vasiko, color: "#3B82F6" },
+    ];
+  }, [data]);
+
+  // Ελληνικά ονόματα για το Bar Chart
+  const formattedTopByCount = useMemo(() => {
+    if (!data?.topByCount) return [];
+    return data.topByCount.map((item) => ({
+      ...item,
+      name: slugToGreekMap[item.slug] || item.name,
+      full: slugToGreekMap[item.slug] || item.full || item.name,
+    }));
+  }, [data, slugToGreekMap]);
 
   if (loading || !data) {
     return (
@@ -147,11 +193,6 @@ export default function StatsPage() {
       </main>
     );
   }
-
-  const titloiPie = [
-    { name: "Με Μεταπτυχιακό", value: data.global.me_metaptyxiako },
-    { name: "Με Διδακτορικό", value: data.global.me_didaktoriko },
-  ];
 
   return (
     <main
@@ -230,9 +271,7 @@ export default function StatsPage() {
           />
           <StatBox
             label="Ποσοστό Επιτυχίας"
-            value={data.global.pososto_epityxias
-              .toFixed(1)
-              .replace(".", ",")}
+            value={data.global.pososto_epityxias.toFixed(1).replace(".", ",")}
             suffix="%"
             delay={300}
           />
@@ -274,7 +313,7 @@ export default function StatsPage() {
           <div style={{ height: "500px" }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
-                data={data.topByCount}
+                data={formattedTopByCount}
                 layout="vertical"
                 margin={{ left: 20, right: 40, top: 20, bottom: 20 }}
               >
@@ -283,43 +322,36 @@ export default function StatsPage() {
                   stroke="rgba(255,255,255,0.05)"
                   horizontal={false}
                 />
-                <XAxis
-                  type="number"
-                  stroke="#7A8499"
-                  fontSize={11}
-                />
+                <XAxis type="number" stroke="#7A8499" fontSize={11} />
                 <YAxis
                   dataKey="name"
                   type="category"
                   stroke="#7A8499"
                   fontSize={10}
-                  width={350}
+                  width={340}
                   tickFormatter={(v) =>
-                    typeof v === "string" && v.length > 45
-                      ? v.substring(0, 45) + "..."
+                    typeof v === "string" && v.length > 42
+                      ? v.substring(0, 42) + "..."
                       : v
                   }
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar
-                  dataKey="value"
-                  fill="#00E5FF"
-                  radius={[0, 6, 6, 0]}
-                />
+                <Bar dataKey="value" fill="#00E5FF" radius={[0, 6, 6, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </motion.div>
 
-        {/* Grid: Top Διοριστέοι + Top Ποσοστό + Top Μέση */}
+        {/* Grid: Top Διοριστέοι + Top Ποσοστό */}
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))",
             gap: "2rem",
             marginBottom: "2rem",
           }}
         >
+          {/* Top 15 ανά διοριστέους */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -337,67 +369,85 @@ export default function StatsPage() {
               Top 15 <span style={{ color: "var(--text-muted)" }}>ανά διοριστέους</span>
             </h3>
             <div style={{ display: "grid", gap: "0.5rem" }}>
-              {data.topByDioristoi.map((e, i) => (
-                <Link
-                  key={e.slug}
-                  href={`/eidikotita/${e.slug}`}
-                  style={{
-                    padding: "10px 14px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    textDecoration: "none",
-                    color: "var(--text)",
-                    border: "1px solid transparent",
-                    borderRadius: "8px",
-                    background: "rgba(255,255,255,0.02)",
-                  }}
-                >
-                  <div
+              {data.topByDioristoi.map((e, i) => {
+                const greekName = getDisplayName(e.slug);
+                return (
+                  <Link
+                    key={e.slug}
+                    href={`/eidikotita/${e.slug}`}
                     style={{
+                      padding: "10px 14px",
                       display: "flex",
+                      justifyContent: "space-between",
                       alignItems: "center",
-                      gap: "12px",
-                      overflow: "hidden",
+                      textDecoration: "none",
+                      color: "var(--text)",
+                      border: "1px solid transparent",
+                      borderRadius: "8px",
+                      background: "rgba(255,255,255,0.02)",
+                      transition: "all 0.15s ease",
+                    }}
+                    onMouseEnter={(ev) => {
+                      ev.currentTarget.style.borderColor = "var(--primary)";
+                      ev.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
+                    }}
+                    onMouseLeave={(ev) => {
+                      ev.currentTarget.style.borderColor = "transparent";
+                      ev.currentTarget.style.background = "rgba(255,255,255,0.02)";
                     }}
                   >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                        overflow: "hidden",
+                        flex: 1,
+                        paddingRight: "8px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          width: "24px",
+                          color: i < 3 ? "var(--primary)" : "var(--text-muted)",
+                          fontWeight: 700,
+                          fontSize: "0.85rem",
+                          flexShrink: 0,
+                        }}
+                      >
+                        {i + 1}.
+                      </span>
+                      <span
+                        style={{
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                          fontSize: "0.85rem",
+                          fontWeight: 500,
+                        }}
+                        title={greekName}
+                      >
+                        {greekName}
+                      </span>
+                    </div>
                     <span
                       style={{
-                        width: "24px",
-                        color: i < 3 ? "var(--primary)" : "var(--text-dim)",
-                        fontWeight: 700,
-                        fontSize: "0.85rem",
+                        color: "var(--primary)",
+                        fontFamily: "var(--font-jetbrains-mono), monospace",
+                        fontWeight: 600,
+                        fontSize: "0.9rem",
                         flexShrink: 0,
                       }}
                     >
-                      {i + 1}.
+                      {e.dioristoi}
                     </span>
-                    <span
-                      style={{
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        fontSize: "0.9rem",
-                      }}
-                    >
-                      {e.slug.replace(/-/g, " ").substring(0, 40)}...
-                    </span>
-                  </div>
-                  <span
-                    style={{
-                      color: "var(--primary)",
-                      fontFamily: "var(--font-jetbrains-mono), monospace",
-                      fontWeight: 600,
-                      flexShrink: 0,
-                    }}
-                  >
-                    {e.dioristoi}
-                  </span>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
           </motion.div>
 
+          {/* Top 15 ανά ποσοστό επιτυχίας */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -415,69 +465,86 @@ export default function StatsPage() {
               Top 15 <span style={{ color: "var(--text-muted)" }}>ανά ποσοστό επιτυχίας</span>
             </h3>
             <div style={{ display: "grid", gap: "0.5rem" }}>
-              {data.topByPososto.map((e, i) => (
-                <Link
-                  key={e.slug}
-                  href={`/eidikotita/${e.slug}`}
-                  style={{
-                    padding: "10px 14px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    textDecoration: "none",
-                    color: "var(--text)",
-                    border: "1px solid transparent",
-                    borderRadius: "8px",
-                    background: "rgba(255,255,255,0.02)",
-                  }}
-                >
-                  <div
+              {data.topByPososto.map((e, i) => {
+                const greekName = getDisplayName(e.slug);
+                return (
+                  <Link
+                    key={e.slug}
+                    href={`/eidikotita/${e.slug}`}
                     style={{
+                      padding: "10px 14px",
                       display: "flex",
+                      justifyContent: "space-between",
                       alignItems: "center",
-                      gap: "12px",
-                      overflow: "hidden",
+                      textDecoration: "none",
+                      color: "var(--text)",
+                      border: "1px solid transparent",
+                      borderRadius: "8px",
+                      background: "rgba(255,255,255,0.02)",
+                      transition: "all 0.15s ease",
+                    }}
+                    onMouseEnter={(ev) => {
+                      ev.currentTarget.style.borderColor = "#00FFA3";
+                      ev.currentTarget.style.background = "rgba(0, 255, 163, 0.05)";
+                    }}
+                    onMouseLeave={(ev) => {
+                      ev.currentTarget.style.borderColor = "transparent";
+                      ev.currentTarget.style.background = "rgba(255,255,255,0.02)";
                     }}
                   >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "12px",
+                        overflow: "hidden",
+                        flex: 1,
+                        paddingRight: "8px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          width: "24px",
+                          color: i < 3 ? "#00FFA3" : "var(--text-muted)",
+                          fontWeight: 700,
+                          fontSize: "0.85rem",
+                          flexShrink: 0,
+                        }}
+                      >
+                        {i + 1}.
+                      </span>
+                      <span
+                        style={{
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                          fontSize: "0.85rem",
+                          fontWeight: 500,
+                        }}
+                        title={greekName}
+                      >
+                        {greekName}
+                      </span>
+                    </div>
                     <span
                       style={{
-                        width: "24px",
-                        color: i < 3 ? "var(--success)" : "var(--text-dim)",
-                        fontWeight: 700,
-                        fontSize: "0.85rem",
+                        color: "#00FFA3",
+                        fontFamily: "var(--font-jetbrains-mono), monospace",
+                        fontWeight: 600,
+                        fontSize: "0.9rem",
                         flexShrink: 0,
                       }}
                     >
-                      {i + 1}.
+                      {e.pososto.toFixed(1).replace(".", ",")}%
                     </span>
-                    <span
-                      style={{
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        fontSize: "0.9rem",
-                      }}
-                    >
-                      {e.slug.replace(/-/g, " ").substring(0, 40)}...
-                    </span>
-                  </div>
-                  <span
-                    style={{
-                      color: "var(--success)",
-                      fontFamily: "var(--font-jetbrains-mono), monospace",
-                      fontWeight: 600,
-                      flexShrink: 0,
-                    }}
-                  >
-                    {e.pososto.toFixed(1).replace(".", ",")}%
-                  </span>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
           </motion.div>
         </div>
 
-        {/* Τίτλοι Pie */}
+        {/* Κατανομή Τίτλων Σπουδών (3 Χρώματα, χωρίς αρνητικά) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -496,38 +563,32 @@ export default function StatsPage() {
           </h3>
           <div style={{ height: "400px" }}>
             <ResponsiveContainer width="100%" height="100%">
-              <PieChart margin={{ top: 20, right: 120, bottom: 20, left: 120 }}>
+              <PieChart margin={{ top: 20, right: 60, bottom: 20, left: 60 }}>
                 <Pie
-                  data={[
-                    { name: "Μεταπτυχιακό", value: data.global.me_metaptyxiako },
-                    { name: "Διδακτορικό", value: data.global.me_didaktoriko },
-                    {
-                      name: "Λοιποί",
-                      value:
-                        data.global.total_candidates -
-                        data.global.me_metaptyxiako -
-                        data.global.me_didaktoriko,
-                    },
-                  ]}
+                  data={titloiData}
                   dataKey="value"
                   nameKey="name"
                   cx="50%"
                   cy="50%"
-                  innerRadius={80}
-                  outerRadius={140}
-                  paddingAngle={6}
-                  label={({ name, value }: any) => `${name}: ${formatNumber(value)}`}
+                  innerRadius={75}
+                  outerRadius={135}
+                  paddingAngle={5}
+                  label={({ name, value }: any) =>
+                    `${name}: ${formatNumber(value)}`
+                  }
                   labelLine={{ stroke: "#7A8499" }}
                 >
-                  <Cell fill="#00E5FF" />
-                  <Cell fill="#FF006E" />
-                  <Cell fill="#4A5568" />
+                  {titloiData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.color} />
+                  ))}
                 </Pie>
                 <Tooltip
+                  formatter={(val: any) => [formatNumber(Number(val)), "Υποψήφιοι"]}
                   contentStyle={{
                     background: "rgba(10, 14, 26, 0.95)",
                     border: "1px solid var(--border)",
                     borderRadius: "8px",
+                    color: "#fff",
                   }}
                 />
               </PieChart>

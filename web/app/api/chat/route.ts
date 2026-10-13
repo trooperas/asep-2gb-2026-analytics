@@ -174,11 +174,22 @@ async function getCandidateProfile(am: string): Promise<any | null> {
 // Επιστρέφουμε ΠΛΗΡΕΣ το προφίλ για να μπορεί το LLM να απαντήσει σε οποιοδήποτε ερώτημα
 function formatProfile(profile: any) {
   const isDioristaios = !!profile.thesi_diorismou;
-  const hasSpecialStatus = Boolean(
-    profile.idiotita === "ΝΑΙ" ||
-    profile.eidikes_idiotites === "ΝΑΙ" ||
-    (profile.idiotita && String(profile.idiotita).trim() !== "")
-  );
+
+  // Εξονυχιστικός έλεγχος για Ειδικές Ιδιότητες (ΑΜΕΑ, πολύτεκνοι κλπ.)
+  // Ψάχνουμε σε όλα τα πιθανά πεδία του Excel (idiotita, eidikes, eidikes_idiotites)
+  const rawIdiotita = String(
+    profile.idiotita ||
+    profile.eidikes_idiotites ||
+    profile.eidikes ||
+    profile["ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ"] ||
+    profile["ΙΔΙΟΤΗΤΑ*"] ||
+    ""
+  ).trim().toUpperCase();
+
+  const hasSpecialStatus = 
+    rawIdiotita === "ΝΑΙ" || 
+    rawIdiotita.includes("ΝΑΙ") || 
+    (rawIdiotita !== "" && rawIdiotita !== "ΟΧΙ" && rawIdiotita !== "NAN" && rawIdiotita !== "NULL");
 
   return {
     am: String(profile.am).replace(/\.0$/, ""),
@@ -192,11 +203,11 @@ function formatProfile(profile: any) {
       ? "ΔΙΟΡΙΣΤΕΟΣ"
       : "ΜΗ ΔΙΟΡΙΣΤΕΟΣ (στους πίνακες κατάταξης)",
     thesi_diorismou: profile.thesi_diorismou || null,
-    // Ειδικές κατηγορίες (ΑΜΕΑ, πολυτεκνία κ.ά.)
-    eidikes_idiotites_amea_ktl: hasSpecialStatus
-      ? `ΝΑΙ (${profile.idiotita || "Έχει ληφθεί υπόψη ειδική κατηγορία"})`
-      : "ΟΧΙ",
-    // Εντοπιότητα
+    // Εδώ δίνουμε πλέον ξεκάθαρη τιμή στο AI:
+    eidikes_idiotites: hasSpecialStatus
+      ? "ΝΑΙ (Έχει καταχωρηθεί Ειδική Κατηγορία / Ιδιότητα στους πίνακες)"
+      : "ΟΧΙ (Δεν αναγράφεται ειδική ιδιότητα)",
+    raw_idiotita_pedio: rawIdiotita || "ΚΕΝΟ",
     entopiotita: profile.kod_entopiotitas
       ? `Κωδικός ${profile.kod_entopiotitas} (Μόρια: ${profile.monades_entop || 0})`
       : "Χωρίς εντοπιότητα",
@@ -283,11 +294,17 @@ const SYSTEM_PROMPT = `Είσαι ο έξυπνος βοηθός για τα α�
 - Φιλικό, προσγειωμένο, κατανοητό, χωρίς γραφειοκρατική ξύλινη γλώσσα.
 - Απάντα πάντα στα Ελληνικά.
 
+ΣΗΜΑΝΤΙΚΗ ΔΙΕΥΚΡΙΝΙΣΗ ΓΙΑ ΕΙΔΙΚΕΣ ΚΑΤΗΓΟΡΙΕΣ (ΑΜΕΑ, ΠΟΛΥΤΕΚΝΟΙ ΚΛΠ.):
+- Στους πίνακες του ΑΣΕΠ, το πεδίο «ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ» καταγράφεται συγκεντρωτικά ως «ΝΑΙ».
+- Επομένως, όταν το πεδίο eidikes_idiotites αναφέρει «ΝΑΙ», σημαίνει ότι η ειδική κατηγορία (είτε ΑΜΕΑ, είτε έμμεση ΑΜΕΑ, είτε πολυτεκνία) έχει ΕΛΕΓΧΘΕΙ ΚΑΙ ΕΧΕΙ ΛΗΦΘΕΙ ΥΠΟΨΗ.
+- Μην λες ποτέ ότι δεν έχει ληφθεί υπόψη αν το πεδίο είναι «ΝΑΙ»!
+
 ΓΕΝΙΚΑ ΣΤΟΙΧΕΙΑ ΔΙΑΓΩΝΙΣΜΟΥ:
 Σύνολο Υποψηφίων: ${getContext().globalStats.total_candidates} | Διοριστέοι: ${getContext().globalStats.total_dioristoi}
 Μέση Βαθμολογία: ${getContext().globalStats.avg_vath} | Max: ${getContext().globalStats.max_vath}
 Προθεσμία ενστάσεων: ${getContext().faqData.prothesmia_enstaseon || "13–22 Οκτωβρίου 2026, 14:00"}
 Παράβολο ένστασης: ${getContext().faqData.paravolo_enstasis || "50 ευρώ"}`;
+
 
 // === TOOLS SCHEMA ===
 const tools = [

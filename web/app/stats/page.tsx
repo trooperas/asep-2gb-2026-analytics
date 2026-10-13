@@ -323,12 +323,14 @@ export default function StatsPage() {
             </div>
           </div>
 
-          <div className="h-[520px] w-full">
+          {/* Αυξάνουμε το ύψος σε 640px για να πάρουν "αέρα" οι 15 μπάρες */}
+          <div className="h-[640px] sm:h-[680px] w-full">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={formattedTopByCount}
                 layout="vertical"
-                margin={{ left: 0, right: 30, top: 10, bottom: 10 }}
+                margin={{ left: 10, right: 25, top: 15, bottom: 15 }}
+                barCategoryGap="22%" // 👈 Δίνει ευρύχωρο κενό ανάμεσα στις μπάρες!
               >
                 <CartesianGrid
                   strokeDasharray="3 3"
@@ -346,20 +348,26 @@ export default function StatsPage() {
                 <YAxis
                   dataKey="name"
                   type="category"
-                  stroke="#7A8499"
+                  stroke="#A0AEC0"
                   fontSize={10}
-                  width={140}
-                  tickFormatter={(v) =>
-                    typeof v === "string" && v.length > 20
-                      ? v.substring(0, 18) + "..."
-                      : v
-                  }
+                  width={165} // 👈 Περισσότερος χώρος αριστερά
+                  tickLine={false}
+                  tickFormatter={(v) => {
+                    if (typeof v !== "string") return v;
+                    // Καθαρίζουμε το μακρινάρι για να φαίνεται η ουσία
+                    const clean = v
+                      .replace(/^ΠΕ\s+/i, "")
+                      .replace(/ΕΙΔ\.\s*ΠΕ\s+/i, "• ")
+                      .replace(/\(SOFTWARE-HARDWARE\)/i, "(IT)");
+                    return clean.length > 24 ? clean.substring(0, 22) + "..." : clean;
+                  }}
                 />
                 <Tooltip content={<CustomTooltip />} />
                 <Bar
                   dataKey="value"
                   fill="#00E5FF"
-                  radius={[0, 4, 4, 0]}
+                  radius={[0, 5, 5, 0]}
+                  barSize={18} // 👈 Σταθερό κομψό πάχος μπάρας
                   animationDuration={800}
                 />
               </BarChart>

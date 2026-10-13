@@ -342,104 +342,48 @@ export default function StatsPage() {
           </div>
         </motion.div>
 
-        {/* Grid: Top Διοριστέοι + Top Ποσοστό */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))",
-            gap: "2rem",
-            marginBottom: "2rem",
-          }}
-        >
+        {/* Grid: Top Διοριστέοι + Top Ποσοστό (Visual Cleared & Spaced) */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {/* Top 15 ανά διοριστέους */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="glass"
-            style={{ padding: "2rem" }}
+            className="glass p-6 sm:p-8 rounded-2xl flex flex-col"
           >
-            <h3
-              style={{
-                fontSize: "1.2rem",
-                fontWeight: 600,
-                marginBottom: "1.5rem",
-              }}
-            >
-              Top 15 <span style={{ color: "var(--text-muted)" }}>ανά διοριστέους</span>
+            <h3 className="text-xl font-bold text-white mb-6 flex items-center justify-between">
+              <span>Top 15 ανά διοριστέους</span>
+              <span className="text-xs font-mono text-[#00E5FF] px-2.5 py-1 rounded-full bg-[#00E5FF]/10 border border-[#00E5FF]/30">
+                Θέσεις
+              </span>
             </h3>
-            <div style={{ display: "grid", gap: "0.5rem" }}>
+
+            <div className="space-y-2.5">
               {data.topByDioristoi.map((e, i) => {
                 const greekName = getDisplayName(e.slug);
                 return (
                   <Link
                     key={e.slug}
                     href={`/eidikotita/${e.slug}`}
-                    style={{
-                      padding: "10px 14px",
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      textDecoration: "none",
-                      color: "var(--text)",
-                      border: "1px solid transparent",
-                      borderRadius: "8px",
-                      background: "rgba(255,255,255,0.02)",
-                      transition: "all 0.15s ease",
-                    }}
-                    onMouseEnter={(ev) => {
-                      ev.currentTarget.style.borderColor = "var(--primary)";
-                      ev.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
-                    }}
-                    onMouseLeave={(ev) => {
-                      ev.currentTarget.style.borderColor = "transparent";
-                      ev.currentTarget.style.background = "rgba(255,255,255,0.02)";
-                    }}
+                    className="flex items-center justify-between p-3 rounded-xl bg-slate-900/40 border border-slate-800/60 hover:border-[#00E5FF]/50 hover:bg-[#00E5FF]/5 transition-all duration-200 group no-underline"
                   >
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "12px",
-                        overflow: "hidden",
-                        flex: 1,
-                        paddingRight: "8px",
-                      }}
-                    >
+                    <div className="flex items-center gap-3 min-w-0 pr-4">
                       <span
-                        style={{
-                          width: "24px",
-                          color: i < 3 ? "var(--primary)" : "var(--text-muted)",
-                          fontWeight: 700,
-                          fontSize: "0.85rem",
-                          flexShrink: 0,
-                        }}
+                        className={`w-6 text-xs font-mono font-bold flex-shrink-0 ${
+                          i < 3 ? "text-[#00E5FF]" : "text-slate-500"
+                        }`}
                       >
-                        {i + 1}.
+                        {String(i + 1).padStart(2, "0")}.
                       </span>
                       <span
-                        style={{
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                          fontSize: "0.85rem",
-                          fontWeight: 500,
-                        }}
+                        className="text-xs sm:text-sm font-medium text-slate-300 group-hover:text-white truncate"
                         title={greekName}
                       >
                         {greekName}
                       </span>
                     </div>
-                    <span
-                      style={{
-                        color: "var(--primary)",
-                        fontFamily: "var(--font-jetbrains-mono), monospace",
-                        fontWeight: 600,
-                        fontSize: "0.9rem",
-                        flexShrink: 0,
-                      }}
-                    >
-                      {e.dioristoi}
+                    <span className="font-mono font-bold text-sm text-[#00E5FF] flex-shrink-0 bg-slate-950/80 px-2.5 py-1 rounded-md border border-slate-800">
+                      {formatNumber(e.dioristoi)}
                     </span>
                   </Link>
                 );
@@ -452,89 +396,40 @@ export default function StatsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="glass"
-            style={{ padding: "2rem" }}
+            className="glass p-6 sm:p-8 rounded-2xl flex flex-col"
           >
-            <h3
-              style={{
-                fontSize: "1.2rem",
-                fontWeight: 600,
-                marginBottom: "1.5rem",
-              }}
-            >
-              Top 15 <span style={{ color: "var(--text-muted)" }}>ανά ποσοστό επιτυχίας</span>
+            <h3 className="text-xl font-bold text-white mb-6 flex items-center justify-between">
+              <span>Top 15 ανά ποσοστό επιτυχίας</span>
+              <span className="text-xs font-mono text-[#00FFA3] px-2.5 py-1 rounded-full bg-[#00FFA3]/10 border border-[#00FFA3]/30">
+                Ποσοστό %
+              </span>
             </h3>
-            <div style={{ display: "grid", gap: "0.5rem" }}>
+
+            <div className="space-y-2.5">
               {data.topByPososto.map((e, i) => {
                 const greekName = getDisplayName(e.slug);
                 return (
                   <Link
                     key={e.slug}
                     href={`/eidikotita/${e.slug}`}
-                    style={{
-                      padding: "10px 14px",
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      textDecoration: "none",
-                      color: "var(--text)",
-                      border: "1px solid transparent",
-                      borderRadius: "8px",
-                      background: "rgba(255,255,255,0.02)",
-                      transition: "all 0.15s ease",
-                    }}
-                    onMouseEnter={(ev) => {
-                      ev.currentTarget.style.borderColor = "#00FFA3";
-                      ev.currentTarget.style.background = "rgba(0, 255, 163, 0.05)";
-                    }}
-                    onMouseLeave={(ev) => {
-                      ev.currentTarget.style.borderColor = "transparent";
-                      ev.currentTarget.style.background = "rgba(255,255,255,0.02)";
-                    }}
+                    className="flex items-center justify-between p-3 rounded-xl bg-slate-900/40 border border-slate-800/60 hover:border-[#00FFA3]/50 hover:bg-[#00FFA3]/5 transition-all duration-200 group no-underline"
                   >
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "12px",
-                        overflow: "hidden",
-                        flex: 1,
-                        paddingRight: "8px",
-                      }}
-                    >
+                    <div className="flex items-center gap-3 min-w-0 pr-4">
                       <span
-                        style={{
-                          width: "24px",
-                          color: i < 3 ? "#00FFA3" : "var(--text-muted)",
-                          fontWeight: 700,
-                          fontSize: "0.85rem",
-                          flexShrink: 0,
-                        }}
+                        className={`w-6 text-xs font-mono font-bold flex-shrink-0 ${
+                          i < 3 ? "text-[#00FFA3]" : "text-slate-500"
+                        }`}
                       >
-                        {i + 1}.
+                        {String(i + 1).padStart(2, "0")}.
                       </span>
                       <span
-                        style={{
-                          overflow: "hidden",
-                          textOverflow: "ellipsis",
-                          whiteSpace: "nowrap",
-                          fontSize: "0.85rem",
-                          fontWeight: 500,
-                        }}
+                        className="text-xs sm:text-sm font-medium text-slate-300 group-hover:text-white truncate"
                         title={greekName}
                       >
                         {greekName}
                       </span>
                     </div>
-                    <span
-                      style={{
-                        color: "#00FFA3",
-                        fontFamily: "var(--font-jetbrains-mono), monospace",
-                        fontWeight: 600,
-                        fontSize: "0.9rem",
-                        flexShrink: 0,
-                      }}
-                    >
+                    <span className="font-mono font-bold text-sm text-[#00FFA3] flex-shrink-0 bg-slate-950/80 px-2 py-1 rounded-md border border-slate-800">
                       {e.pososto.toFixed(1).replace(".", ",")}%
                     </span>
                   </Link>

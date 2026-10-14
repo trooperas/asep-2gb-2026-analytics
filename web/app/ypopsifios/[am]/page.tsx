@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { formatVathmologia } from "@/lib/utils";
+import AllocationJourney from "@/components/profile/AllocationJourney";
 
 interface Candidate {
   am: string;
@@ -14,6 +15,7 @@ interface Candidate {
   patronymo: string;
   adt_masked: string;
   omada_prosonton: string;
+  protimiseis?: string;
   thesi_diorismou: string;
   pinakas: string;
   metaptyxiako: string;
@@ -371,6 +373,13 @@ export default function ProfilePage() {
 
           <StatBox label="Σειρά" value={`#${candidate.aa}`} delay={400} />
         </div>
+
+        {/* === Visual Allocation Journey Component === */}
+        <AllocationJourney
+          protimiseisStr={candidate.protimiseis}
+          thesiDiorismou={candidate.thesi_diorismou}
+          candidateScore={candidate.vathmologia}
+        />
 
         <h2
           className="font-display"

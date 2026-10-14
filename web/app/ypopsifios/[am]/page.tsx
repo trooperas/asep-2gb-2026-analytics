@@ -1,11 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { formatVathmologia } from "@/lib/utils";
 import AllocationJourney from "@/components/profile/AllocationJourney";
+import ObjectionSimulator from "@/components/profile/ObjectionSimulator";
+import { Sliders, ChevronDown, ChevronUp } from "lucide-react";
 
 interface Candidate {
   am: string;
@@ -15,6 +17,7 @@ interface Candidate {
   patronymo: string;
   adt_masked: string;
   omada_prosonton: string;
+  theseis_idias_omadas?: string;
   protimiseis?: string;
   thesi_diorismou: string;
   pinakas: string;
@@ -87,6 +90,12 @@ export default function ProfilePage() {
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
 
+  // States για θέσεις και simulator
+  const [intelMap, setIntelMap] = useState<Record<string, any>>({});
+  const [positionsMap, setPositionsMap] = useState<Record<string, any>>({});
+  const [showSimulator, setShowSimulator] = useState(false);
+
+  // 1. Φόρτωση υποψηφίου
   useEffect(() => {
     if (!am) return;
     const cleanAm = String(am).replace(/\.0$/, "");
@@ -101,7 +110,6 @@ export default function ProfilePage() {
       .then((data) => {
         if (data && data.all) {
           setCandidates(data.all);
-          // Αν έχουμε slug param, διάλεξε αυτό
           if (slugParam) {
             const idx = data.all.findIndex(
               (c: Candidate) => c.eidikotitaSlug === slugParam
@@ -116,6 +124,22 @@ export default function ProfilePage() {
       })
       .finally(() => setLoading(false));
   }, [am, slugParam]);
+
+  // 2. Φόρτωση metadata θέσεων για τον προσομοιωτή
+  useEffect(() => {
+    Promise.all([
+      fetch("/data/positions_intel.json").then((r) => r.json()).catch(() => ({})),
+      fetch("/data/positions.json").then((r) => r.json()).catch(() => []),
+    ]).then(([intelData, posList]) => {
+      setIntelMap(intelData);
+      const pMap: Record<string, any> = {};
+      for (const p of posList) {
+        const kod = String(p.kod_thesis).replace(/\.0$/, "").trim();
+        pMap[kod] = p;
+      }
+      setPositionsMap(pMap);
+    });
+  }, []);
 
   if (loading) {
     return (
@@ -166,7 +190,7 @@ export default function ProfilePage() {
         zIndex: 1,
       }}
     >
-      <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+      <div style={{ maxWidth: "950px", margin: "0 auto" }}>
         <Link
           href="/search"
           style={{
@@ -180,6 +204,7 @@ export default function ProfilePage() {
           ← Πίσω στην αναζήτηση
         </Link>
 
+        {/* Profile Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -232,7 +257,7 @@ export default function ProfilePage() {
           </p>
         </motion.div>
 
-        {/* === Επιλογή ειδικότητας (αν έχει πολλαπλές) === */}
+        {/* Επιλογή ειδικότητας αν έχει πολλαπλές */}
         {candidates.length > 1 && (
           <div
             style={{
@@ -286,7 +311,7 @@ export default function ProfilePage() {
           </div>
         )}
 
-        {/* Βασικά KPIs (με κλικαρίσιμη θέση διορισμού) */}
+        {/* Top KPIs */}
         <div
           style={{
             display: "grid",
@@ -307,7 +332,6 @@ export default function ProfilePage() {
             delay={200}
           />
 
-          {/* Κλικαρίσιμο κουτί Θέσης Διορισμού */}
           {cleanThesiKod ? (
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -374,13 +398,69 @@ export default function ProfilePage() {
           <StatBox label="Σειρά" value={`#${candidate.aa}`} delay={400} />
         </div>
 
-        {/* === Visual Allocation Journey Component === */}
+        {/* 1. ΠΡΩΤΑ Η ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Natural Hierarchy) */}
         <AllocationJourney
           protimiseisStr={candidate.protimiseis}
           thesiDiorismou={candidate.thesi_diorismou}
           candidateScore={candidate.vathmologia}
         />
 
+        {/* 2. ΚΟΜΨΟ COLLAPSIBLE BAR ΓΙΑ ΤΟΝ ΠΡΟΣΟΜΟΙΩΤΗ ΕΝΣΤΑΣΕΩΝ */}
+        <div className="mb-12">
+          <button
+            type="button"
+            onClick={() => setShowSimulator(!showSimulator)}
+            className="w-full p-4 sm:p-5 rounded-2xl glass hover:border-[#00E5FF]/40 transition-all flex items-center justify-between gap-4 cursor-pointer text-left group"
+          >
+            <div className="flex items-center gap-3.5">
+              <div className="w-10 h-10 rounded-xl bg-[#00E5FF]/10 border border-[#00E5FF]/30 flex items-center justify-center text-[#00E5FF] flex-shrink-0 group-hover:scale-105 transition-transform">
+                <Sliders className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-sm sm:text-base font-bold text-white group-hover:text-[#00E5FF] transition-colors">
+                  Σκέφτεστε να υποβάλετε ένσταση; (Προθεσμία 13–22 Οκτωβρίου)
+                </div>
+                <div className="text-xs text-slate-400 mt-0.5">
+                  Ανοίξτε τον διαδραστικό προσομοιωτή για να δείτε ποιες ανώτερες θέσεις θα ξεκλείδωναν με +1 ή +2 μόρια.
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 text-xs font-semibold text-[#00E5FF] flex-shrink-0">
+              <span className="hidden sm:inline">
+                {showSimulator ? "Απόκρυψη" : "Προσομοίωση"}
+              </span>
+              {showSimulator ? (
+                <ChevronUp className="w-5 h-5" />
+              ) : (
+                <ChevronDown className="w-5 h-5" />
+              )}
+            </div>
+          </button>
+
+          <AnimatePresence>
+            {showSimulator && (
+              <motion.div
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                transition={{ duration: 0.3 }}
+                className="overflow-hidden mt-4"
+              >
+                <ObjectionSimulator
+                  currentScore={candidate.vathmologia}
+                  currentRank={candidate.aa}
+                  protimiseisStr={candidate.protimiseis}
+                  thesiDiorismou={candidate.thesi_diorismou}
+                  intelMap={intelMap}
+                  positionsMap={positionsMap}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
+        {/* Αναλυτικές Βαθμολογίες */}
         <h2
           className="font-display"
           style={{ fontSize: "1.5rem", marginBottom: "1rem" }}
@@ -414,6 +494,7 @@ export default function ProfilePage() {
           />
         </div>
 
+        {/* Στοιχεία Ειδικότητας */}
         <h2
           className="font-display"
           style={{ fontSize: "1.5rem", marginBottom: "1rem" }}

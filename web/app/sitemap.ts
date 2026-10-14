@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/search`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/chat`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/kenes-theseis`, lastModified: new Date(), changeFrequency: "daily", priority: 0.95 },
+    { url: `${baseUrl}/zitisi`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
   ];
 
   // Δυναμικές σελίδες για όλες τις 52 ειδικότητες

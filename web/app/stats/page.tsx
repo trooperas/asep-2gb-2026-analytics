@@ -113,17 +113,18 @@ export default function StatsPage() {
   const [eidikotitesIndex, setEidikotitesIndex] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [useLogScale, setUseLogScale] = useState(true);
+  const [prosonImpact, setProsonImpact] = useState<any>(null);
 
   useEffect(() => {
     Promise.all([
       fetch("/api/stats").then((r) => r.json()),
-      fetch("/data/eidikotites_index.json")
-        .then((r) => r.json())
-        .catch(() => []),
+      fetch("/data/eidikotites_index.json").then((r) => r.json()).catch(() => []),
+      fetch("/data/proson_impact.json").then((r) => r.json()).catch(() => null),
     ])
-      .then(([statsRes, indexRes]) => {
+      .then(([statsRes, indexRes, prosonRes]) => {
         setData(statsRes);
         setEidikotitesIndex(indexRes);
+        if (prosonRes) setProsonImpact(prosonRes);
       })
       .catch(console.error)
       .finally(() => setLoading(false));
@@ -277,7 +278,7 @@ export default function StatsPage() {
           />
         </div>
 
-        {/* Top 15 Ειδικότητες ανά Υποψηφίους (με Log Scale Toggle & Explanation) */}
+        {/* Top 15 Ειδικότητες ανά Υποψηφίους (με Log Scale Toggle) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -296,7 +297,7 @@ export default function StatsPage() {
               </p>
             </div>
 
-            {/* Toggle Switch: Γραμμική vs Λογαριθμική */}
+            {/* Toggle Switch */}
             <div className="flex items-center gap-1.5 p-1 rounded-xl bg-slate-900 border border-slate-800 self-start sm:self-auto">
               <button
                 type="button"
@@ -323,14 +324,13 @@ export default function StatsPage() {
             </div>
           </div>
 
-          {/* Αυξάνουμε το ύψος σε 640px για να πάρουν "αέρα" οι 15 μπάρες */}
           <div className="h-[640px] sm:h-[680px] w-full">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={formattedTopByCount}
                 layout="vertical"
                 margin={{ left: 10, right: 25, top: 15, bottom: 15 }}
-                barCategoryGap="22%" // 👈 Δίνει ευρύχωρο κενό ανάμεσα στις μπάρες!
+                barCategoryGap="22%"
               >
                 <CartesianGrid
                   strokeDasharray="3 3"
@@ -350,11 +350,10 @@ export default function StatsPage() {
                   type="category"
                   stroke="#A0AEC0"
                   fontSize={10}
-                  width={165} // 👈 Περισσότερος χώρος αριστερά
+                  width={165}
                   tickLine={false}
                   tickFormatter={(v) => {
                     if (typeof v !== "string") return v;
-                    // Καθαρίζουμε το μακρινάρι για να φαίνεται η ουσία
                     const clean = v
                       .replace(/^ΠΕ\s+/i, "")
                       .replace(/ΕΙΔ\.\s*ΠΕ\s+/i, "• ")
@@ -367,7 +366,7 @@ export default function StatsPage() {
                   dataKey="value"
                   fill="#00E5FF"
                   radius={[0, 5, 5, 0]}
-                  barSize={18} // 👈 Σταθερό κομψό πάχος μπάρας
+                  barSize={18}
                   animationDuration={800}
                 />
               </BarChart>
@@ -450,7 +449,7 @@ export default function StatsPage() {
                     <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-3">
                       <span
                         className={`w-5 sm:w-6 text-xs font-mono font-bold flex-shrink-0 ${
-                          i < 3 ? "text-[#00FFA3]" : "text-slate-500"
+                          i < 3 ? "#00FFA3" : "text-slate-500"
                         }`}
                       >
                         {String(i + 1).padStart(2, "0")}.
@@ -535,6 +534,84 @@ export default function StatsPage() {
             ))}
           </div>
         </motion.div>
+
+        {/* Η Δύναμη των Προσόντων (Bonus Points Impact Breakdown - ΣΤΟ ΣΩΣΤΟ ΣΗΜΕΙΟ) */}
+        {prosonImpact && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+            className="glass p-6 sm:p-8 rounded-2xl mb-12 border border-[#00E5FF]/20"
+          >
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6 border-b border-slate-800 pb-4">
+              <div>
+                <h3 className="text-xl sm:text-2xl font-bold font-display text-white">
+                  Η Δύναμη των Προσόντων: Πώς κρίθηκαν οι διορισμοί
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-400 mt-1">
+                  Ανάλυση των πρόσθετων μορίων και προνομίων στους {formatNumber(prosonImpact.total_appointed)} διοριστέους του διαγωνισμού.
+                </p>
+              </div>
+              <span className="text-xs font-mono px-3 py-1 rounded-full bg-[#00E5FF]/10 text-[#00E5FF] border border-[#00E5FF]/30 w-fit">
+                Ανάλυση Προσόντων
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {/* Μεταπτυχιακό */}
+              <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+                <div className="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">
+                  Μεταπτυχιακο (+2 μορια)
+                </div>
+                <div className="text-2xl font-bold font-mono text-[#00E5FF]">
+                  {prosonImpact.metapt_pct}%
+                </div>
+                <div className="text-xs text-slate-400">
+                  {formatNumber(prosonImpact.appointed_with_metapt)} διοριστέοι είχαν μεταπτυχιακό τίτλο.
+                </div>
+              </div>
+
+              {/* Εντοπιότητα */}
+              <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+                <div className="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">
+                  Εντοπιοτητα (Κωδ. 6 / 7)
+                </div>
+                <div className="text-2xl font-bold font-mono text-emerald-400">
+                  {prosonImpact.entop_pct}%
+                </div>
+                <div className="text-xs text-slate-400">
+                  {formatNumber(prosonImpact.appointed_with_entop)} θέσεις κατοχυρώθηκαν μέσω εντοπιότητας.
+                </div>
+              </div>
+
+              {/* Εμπειρία */}
+              <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+                <div className="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">
+                  Επαγγελματικη Εμπειρια
+                </div>
+                <div className="text-2xl font-bold font-mono text-pink-400">
+                  {prosonImpact.empeiria_pct}%
+                </div>
+                <div className="text-xs text-slate-400">
+                  {formatNumber(prosonImpact.appointed_with_empeiria)} διοριστέοι αξιοποίησαν μόρια προϋπηρεσίας.
+                </div>
+              </div>
+
+              {/* Ξένη Γλώσσα */}
+              <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+                <div className="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">
+                  Αριστη Ξενη Γλωσσα (C2)
+                </div>
+                <div className="text-2xl font-bold font-mono text-amber-400">
+                  {prosonImpact.xeni_pct}%
+                </div>
+                <div className="text-xs text-slate-400">
+                  {formatNumber(prosonImpact.appointed_with_xeni)} διοριστέοι είχαν άριστη γνώση ξένης γλώσσας.
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
       </div>
     </main>
   );

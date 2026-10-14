@@ -8,6 +8,7 @@ import { formatVathmologia } from "@/lib/utils";
 import AllocationJourney from "@/components/profile/AllocationJourney";
 import ObjectionSimulator from "@/components/profile/ObjectionSimulator";
 import { Sliders, ChevronDown, ChevronUp } from "lucide-react";
+import EpilaxontesTracker from "@/components/profile/EpilaxontesTracker";
 
 interface Candidate {
   am: string;
@@ -404,6 +405,16 @@ export default function ProfilePage() {
           thesiDiorismou={candidate.thesi_diorismou}
           candidateScore={candidate.vathmologia}
         />
+
+        {/* === Epilaxontes & Replacement Tracker (Για μη διοριστέους) === */}
+        <EpilaxontesTracker
+          isDioristaios={isDioristaios}
+          candidateScore={candidate.vathmologia}
+          candidateRank={candidate.aa}
+          protimiseisStr={candidate.protimiseis}
+          intelMap={intelMap}
+          positionsMap={positionsMap}
+        />  
 
         {/* 2. ΚΟΜΨΟ COLLAPSIBLE BAR ΓΙΑ ΤΟΝ ΠΡΟΣΟΜΟΙΩΤΗ ΕΝΣΤΑΣΕΩΝ */}
         <div className="mb-12">

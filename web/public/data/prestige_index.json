@@ -1,0 +1,397 @@
+{
+  "total_candidates_analyzed": 51934,
+  "top_foreis": [
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΩΝ",
+      "first_choices": 2362,
+      "total_mentions": 42002,
+      "positions_count": 31
+    },
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
+      "first_choices": 1536,
+      "total_mentions": 54945,
+      "positions_count": 66
+    },
+    {
+      "foreas": "ΗΛΕΚΤΡΟΝΙΚΟΣ ΕΘΝΙΚΟΣ ΦΟΡΕΑΣ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
+      "first_choices": 1348,
+      "total_mentions": 259916,
+      "positions_count": 59
+    },
+    {
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "first_choices": 940,
+      "total_mentions": 30041,
+      "positions_count": 36
+    },
+    {
+      "foreas": "ΔΗΜΟΣΙΑ ΥΠΗΡΕΣΙΑ ΑΠΑΣΧΟΛΗΣΗΣ (Δ.ΥΠ.Α.)",
+      "first_choices": 912,
+      "total_mentions": 116621,
+      "positions_count": 34
+    },
+    {
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "first_choices": 892,
+      "total_mentions": 14828,
+      "positions_count": 35
+    },
+    {
+      "foreas": "ΔΗΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "first_choices": 786,
+      "total_mentions": 17815,
+      "positions_count": 10
+    },
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΑΓΡΟΤΙΚΗΣ ΑΝΑΠΤΥΞΗΣ ΚΑΙ ΤΡΟΦΙΜΩΝ",
+      "first_choices": 786,
+      "total_mentions": 42679,
+      "positions_count": 23
+    },
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ ΘΡΗΣΚΕΥΜΑΤΩΝ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+      "first_choices": 763,
+      "total_mentions": 26871,
+      "positions_count": 5
+    },
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΣΩΤΕΡΙΚΩΝ",
+      "first_choices": 723,
+      "total_mentions": 29217,
+      "positions_count": 7
+    },
+    {
+      "foreas": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣ/ ΝΙΚΗΣ",
+      "first_choices": 686,
+      "total_mentions": 23213,
+      "positions_count": 4
+    },
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΑΝΑΠΤΥΞΗΣ",
+      "first_choices": 644,
+      "total_mentions": 33507,
+      "positions_count": 18
+    },
+    {
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — 1Ο ΕΛΕΓΚΤΙΚΟ ΚΕΝΤΡΟ ΘΕΣΣΑΛΟΝΙΚΗΣ (1Ο ΕΛ.ΚΕ. ΘΕΣΣΑΛΟΝΙΚΗΣ)",
+      "first_choices": 549,
+      "total_mentions": 8075,
+      "positions_count": 1
+    },
+    {
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΤΟΥΡΙΣΜΟΥ",
+      "first_choices": 532,
+      "total_mentions": 37534,
+      "positions_count": 17
+    },
+    {
+      "foreas": "ΟΡΓΑΝΙΣΜΟΣ ΔΙΑΧΕΙΡΙΣΗΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ ΠΟΛΙΤΙΣΤΙΚΩΝ ΠΟΡΩΝ",
+      "first_choices": 516,
+      "total_mentions": 28345,
+      "positions_count": 10
+    },
+    {
+      "foreas": "ΔΗΜΟΣ ΛΑΡΙΣΑΙΩΝ",
+      "first_choices": 485,
+      "total_mentions": 11904,
+      "positions_count": 7
+    },
+    {
+      "foreas": "ΜΟΥΣΕΙΟ ΒΥΖΑΝΤΙΝΟΥ ΠΟΛΙΤΙΣΜΟΥ",
+      "first_choices": 480,
+      "total_mentions": 21363,
+      "positions_count": 3
+    },
+    {
+      "foreas": "ΑΝΩΤΑΤΟ ΣΥΜΒΟΥΛΙΟ ΕΠΙΛΟΓΗΣ ΠΡΟΣΩΠΙΚΟΥ (Α.Σ.Ε.Π.)",
+      "first_choices": 475,
+      "total_mentions": 25157,
+      "positions_count": 9
+    },
+    {
+      "foreas": "ΔΗΜΟΣ ΙΩΑΝΝΙΤΩΝ",
+      "first_choices": 472,
+      "total_mentions": 5461,
+      "positions_count": 4
+    },
+    {
+      "foreas": "ΑΠΟΚΕΝΤΡΩΜΕΝΗ ΔΙΟΙΚΗΣΗ ΘΕΣΣΑΛΙΑΣ ΣΤΕΡΕΑΣ ΕΛΛΑΔΑΣ",
+      "first_choices": 419,
+      "total_mentions": 15837,
+      "positions_count": 12
+    }
+  ],
+  "top_positions": [
+    {
+      "kod_thesis": "780",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΩΝ",
+      "eidikotita": "ΠΕ ΔΗΜΟΣΙΟΝΟΜΙΚΩΝ ΕΙΔ. ΠΕ ΔΗΜΟΣΙΟΝΟΜΙΚΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 1348,
+      "top3_choices": 2226,
+      "total_mentions": 10383
+    },
+    {
+      "kod_thesis": "1325",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — 1Ο ΕΛΕΓΚΤΙΚΟ ΚΕΝΤΡΟ ΘΕΣΣΑΛΟΝΙΚΗΣ (1Ο ΕΛ.ΚΕ. ΘΕΣΣΑΛΟΝΙΚΗΣ)",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "first_choices": 549,
+      "top3_choices": 1160,
+      "total_mentions": 8075
+    },
+    {
+      "kod_thesis": "961",
+      "foreas": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣ/ ΝΙΚΗΣ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "first_choices": 470,
+      "top3_choices": 1191,
+      "total_mentions": 11537
+    },
+    {
+      "kod_thesis": "880",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ ΘΡΗΣΚΕΥΜΑΤΩΝ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 435,
+      "top3_choices": 981,
+      "total_mentions": 16502
+    },
+    {
+      "kod_thesis": "403",
+      "foreas": "ΟΡΓΑΝΙΣΜΟΣ ΔΙΑΧΕΙΡΙΣΗΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ ΠΟΛΙΤΙΣΤΙΚΩΝ ΠΟΡΩΝ",
+      "eidikotita": "ΠΕ ΑΡΧΑΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΑΡΧΑΙΟΛΟΓΩΝ (χωρίς ειδίκευση) (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 389,
+      "top3_choices": 684,
+      "total_mentions": 1415
+    },
+    {
+      "kod_thesis": "777",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΩΝ",
+      "eidikotita": "ΠΕ ΔΗΜΟΣΙΟΝΟΜΙΚΩΝ ΕΙΔ. ΠΕ ΔΗΜΟΣΙΟΝΟΜΙΚΩΝ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 366,
+      "top3_choices": 1017,
+      "total_mentions": 7424
+    },
+    {
+      "kod_thesis": "865",
+      "foreas": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΑΧΑΪΑΣ",
+      "first_choices": 365,
+      "top3_choices": 692,
+      "total_mentions": 6843
+    },
+    {
+      "kod_thesis": "1011",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΣΩΤΕΡΙΚΩΝ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 362,
+      "top3_choices": 1110,
+      "total_mentions": 18718
+    },
+    {
+      "kod_thesis": "954",
+      "foreas": "ΔΗΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "first_choices": 356,
+      "top3_choices": 1002,
+      "total_mentions": 11806
+    },
+    {
+      "kod_thesis": "1176",
+      "foreas": "ΔΙΕΥΘΥΝΣΗ ΔΕΥΤΕΡΟΒΑΘΜΙΑΣ ΕΚΠΑΙΔΕΥΣΗΣ ΣΕΡΡΩΝ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΣΕΡΡΩΝ",
+      "first_choices": 332,
+      "top3_choices": 624,
+      "total_mentions": 3128
+    },
+    {
+      "kod_thesis": "952",
+      "foreas": "ΔΗΜΟΣ ΑΜΠΕΛΟΚΗΠΩΝΜΕΝΕΜΕΝΗΣ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "first_choices": 325,
+      "top3_choices": 585,
+      "total_mentions": 8989
+    },
+    {
+      "kod_thesis": "1256",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΚΟΖΑΝΗΣ",
+      "first_choices": 312,
+      "top3_choices": 561,
+      "total_mentions": 2782
+    },
+    {
+      "kod_thesis": "991",
+      "foreas": "ΑΝΩΤΑΤΟ ΣΥΜΒΟΥΛΙΟ ΕΠΙΛΟΓΗΣ ΠΡΟΣΩΠΙΚΟΥ (Α.Σ.Ε.Π.)",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 309,
+      "top3_choices": 797,
+      "total_mentions": 16952
+    },
+    {
+      "kod_thesis": "1355",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — Δ. Ο.Υ. ΒΟΛΟΥ",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΜΑΓΝΗΣΙΑΣ",
+      "first_choices": 304,
+      "top3_choices": 486,
+      "total_mentions": 5487
+    },
+    {
+      "kod_thesis": "1323",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — ΥΠΗΡΕΣΙΑ ΕΡΕΥΝΩΝ ΚΑΙ ΔΙΑΣΦΑΛΙΣΗΣ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΗΡΑΚΛΕΙΟΥ (Υ.Ε.Δ.Δ. Ε. ΗΡΑΚΛΕΙΟΥ) — ΤΜΗΜΑ Β-ΔΙΚΑΣΤΙΚΟ, ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ ΠΛΗΡΟΦΟΡΙΚΗΣ, ΔΙΟΙΚΗΤΙΚΗΣ ΚΑΙ ΓΡΑΜΜΑΤΕΙΑΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΗΡΑΚΛΕΙΟΥ",
+      "first_choices": 296,
+      "top3_choices": 407,
+      "total_mentions": 2466
+    },
+    {
+      "kod_thesis": "1040",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 291,
+      "top3_choices": 917,
+      "total_mentions": 18157
+    },
+    {
+      "kod_thesis": "1280",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΑΝΑΠΤΥΞΗΣ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 291,
+      "top3_choices": 492,
+      "total_mentions": 3165
+    },
+    {
+      "kod_thesis": "973",
+      "foreas": "ΔΗΜΟΣ ΙΩΑΝΝΙΤΩΝ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΙΩΑΝΝΙΝΩΝ",
+      "first_choices": 282,
+      "top3_choices": 941,
+      "total_mentions": 3756
+    },
+    {
+      "kod_thesis": "1136",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΜΕΤΑΝΑΣΤΕΥΣΗΣ ΚΑΙ ΑΣΥΛΟΥ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΠΕΙΡΑΙΩΣ",
+      "first_choices": 276,
+      "top3_choices": 586,
+      "total_mentions": 10987
+    },
+    {
+      "kod_thesis": "409",
+      "foreas": "ΜΟΥΣΕΙΟ ΒΥΖΑΝΤΙΝΟΥ ΠΟΛΙΤΙΣΜΟΥ",
+      "eidikotita": "ΠΕ ΑΡΧΑΙΟΛΟΓΩΝ ΕΙΔ. ΜΟΥΣΕΙΟΛΟΓΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΘΕΣΣΑΛΟΝΙΚΗΣ",
+      "first_choices": 273,
+      "top3_choices": 424,
+      "total_mentions": 969
+    },
+    {
+      "kod_thesis": "975",
+      "foreas": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ (ΙΔΑΧ)*",
+      "perifereia": "ΙΩΑΝΝΙΝΩΝ",
+      "first_choices": 272,
+      "top3_choices": 868,
+      "total_mentions": 3819
+    },
+    {
+      "kod_thesis": "1308",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — Δ. Ο.Υ. ΠΑΤΡΩΝ",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΑΧΑΪΑΣ",
+      "first_choices": 269,
+      "top3_choices": 461,
+      "total_mentions": 4675
+    },
+    {
+      "kod_thesis": "812",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΔΙΕΘΝΩΝ ΣΧΕΣΕΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 248,
+      "top3_choices": 446,
+      "total_mentions": 1340
+    },
+    {
+      "kod_thesis": "1258",
+      "foreas": "ΔΗΜΟΣ ΛΑΡΙΣΑΙΩΝ",
+      "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΙΚΟΝΟΜΙΚΟΥ",
+      "perifereia": "ΛΑΡΙΣΑΣ",
+      "first_choices": 244,
+      "top3_choices": 456,
+      "total_mentions": 4484
+    },
+    {
+      "kod_thesis": "1348",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — Δ. Ο.Υ. ΚΟΖΑΝΗΣ",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΚΟΖΑΝΗΣ",
+      "first_choices": 224,
+      "top3_choices": 527,
+      "total_mentions": 3361
+    },
+    {
+      "kod_thesis": "1427",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΣΩΤΕΡΙΚΩΝ",
+      "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΟΛΟΓΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 223,
+      "top3_choices": 505,
+      "total_mentions": 1373
+    },
+    {
+      "kod_thesis": "789",
+      "foreas": "ΔΗΜΟΣ ΑΓΙΑΣ ΠΑΡΑΣΚΕΥΗΣ ΚΕΠ 0216",
+      "eidikotita": "ΠΕ ΔΙΕΚΠΕΡΑΙΩΣΗΣ ΥΠΟΘΕΣΕΩΝ ΠΟΛΙΤΩΝ ΕΙΔ. ΠΕ ΔΙΕΚΠΕΡΑΙΩΣΗΣ ΥΠΟΘΕΣΕΩΝ ΠΟΛΙΤΩΝ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 222,
+      "top3_choices": 442,
+      "total_mentions": 8577
+    },
+    {
+      "kod_thesis": "2822",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΑΝΑΠΤΥΞΗΣ",
+      "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 221,
+      "top3_choices": 529,
+      "total_mentions": 2499
+    },
+    {
+      "kod_thesis": "1385",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — Δ. Ο.Υ. ΕΔΕΣΣΑΣ",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΠΕΛΛΑΣ",
+      "first_choices": 221,
+      "top3_choices": 245,
+      "total_mentions": 3082
+    },
+    {
+      "kod_thesis": "1312",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΦΟΡΟΛΟΓΙΚΩΝ ΛΕΙΤΟΥΡΓΙΩΝ (Γ.Δ. Φ.Λ.) — 3Ο ΕΛΕΓΚΤΙΚΟ ΚΕΝΤΡΟ ΑΤΤΙΚΗΣ (3Ο ΕΛ.ΚΕ. ΑΤΤΙΚΗΣ)",
+      "eidikotita": "ΠΕ ΕΦΟΡΙΑΚΩΝ ΕΙΔ. ΠΕ ΕΦΟΡΙΑΚΩΝ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "first_choices": 220,
+      "top3_choices": 469,
+      "total_mentions": 7942
+    }
+  ]
+}

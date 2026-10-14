@@ -17,6 +17,20 @@ export default function Footer() {
               Ανεξάρτητη πλατφόρμα επεξεργασίας δημόσιων δεδομένων αποτελεσμάτων. 
               Τα στοιχεία ταυτότητας παρουσιάζονται σε πλήρη συμμόρφωση (ανωνυμοποιημένα/masked).
             </p>
+
+            {/* Ευγενική χειρονομία / Cross-reference για ΤΕ (με nofollow) */}
+            <div className="pt-2 text-[11px] text-slate-400">
+              <span>Ψάχνετε τα αποτελέσματα ΤΕ; </span>
+              <a
+                href="https://asep-1gb-2026-te.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="text-[#00E5FF] hover:underline font-medium inline-flex items-center gap-1"
+              >
+                Δείτε το community hub για 1ΓΒ/2026 (ΤΕ) →
+              </a>
+            </div>
+
           </div>
 
           {/* Δεξιά: Signature & LinkedIn Links */}

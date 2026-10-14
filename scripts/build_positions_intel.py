@@ -3,10 +3,9 @@ import json
 import glob
 
 print("=" * 60)
-print("BUILDING POSITIONS INTELLIGENCE (STRICT LOCALITY & SPECIAL QUOTAS)")
+print("BUILDING POSITIONS INTELLIGENCE (STRICT THESI_ENTOP CHECK)")
 print("=" * 60)
 
-# 1. Βρίσκουμε όλους τους διοριστέους από όλα τα chunks
 chunks = glob.glob("web/public/data/chunks/*.json")
 print(f"Διαβάζω {len(chunks)} chunk files...")
 
@@ -31,15 +30,15 @@ for c_path in chunks:
         except:
             continue
 
-        # Αυστηρός έλεγχος εντοπιότητας: Μόνο αν πήρε ΠΡΑΓΜΑΤΙΚΑ μόρια εντοπιότητας (>0)
-        monades_entop = r.get("monades_entop")
-        try:
-            monades_entop = float(monades_entop) if monades_entop is not None else 0.0
-        except:
-            monades_entop = 0.0
-
+        # ΑΠΟΛΥΤΟΣ ΕΛΕΓΧΟΣ ΕΝΤΟΠΙΟΤΗΤΑΣ:
+        # Πρέπει ο κωδικός της θέσης να είναι ΜΕΣΑ στις θέσεις που αφορά η εντοπιότητα (kod_thesi_entop)!
+        thesi_entop_str = str(r.get("kod_thesi_entop", "") or "").replace(".0", "")
+        entop_positions_list = [x.strip() for x in thesi_entop_str.split("-") if x.strip()]
+        
         entop_kod = str(r.get("kod_entopiotitas", "")).replace(".0", "").strip()
-        is_entop = (entop_kod in ["6", "7"]) and (monades_entop > 0)
+        
+        # Ισχύει εντοπιότητα ΜΟΝΟ αν ο κωδικός της θέσης διορισμού είναι στη λίστα των θέσεων εντοπιότητας!
+        is_entop = (entop_kod in ["6", "7"]) and (thesi_kod in entop_positions_list)
 
         # Έλεγχος ειδικής κατηγορίας
         raw_id = str(r.get("idiotita", "")).strip().upper()

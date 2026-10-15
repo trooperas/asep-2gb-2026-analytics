@@ -32,6 +32,7 @@ interface Candidate {
   synolo_graptou: number | null;
   vathmologia: number | null;
   eidikotita: string;
+  slug?: string;
   eidikotitaSlug: string;
 }
 
@@ -111,11 +112,24 @@ export default function ProfilePage() {
       .then((data) => {
         if (data && data.all) {
           setCandidates(data.all);
+
+          // 1. Αν υπάρχει παράμετρος ?slug= στο URL, διάλεξε αυτήν
           if (slugParam) {
             const idx = data.all.findIndex(
-              (c: Candidate) => c.eidikotitaSlug === slugParam
+              (c: Candidate) => (c.slug || (c as any).eidikotitaSlug) === slugParam
             );
-            if (idx >= 0) setActiveIdx(idx);
+            if (idx >= 0) {
+              setActiveIdx(idx);
+              return;
+            }
+          }
+
+          // 2. ΕΙΔΑΛΛΩΣ: Διάλεξε αυτόματα την ειδικότητα στην οποία ΔΙΟΡΙΣΤΗΚΕ!
+          const appointedIdx = data.all.findIndex((c: Candidate) => !!c.thesi_diorismou);
+          if (appointedIdx >= 0) {
+            setActiveIdx(appointedIdx);
+          } else {
+            setActiveIdx(0);
           }
         }
       })
@@ -590,8 +604,9 @@ export default function ProfilePage() {
           </div>
         </div>
 
+        {/* Σωστό Link με fallback σε slug */}
         <Link
-          href={`/eidikotita/${candidate.eidikotitaSlug}`}
+          href={`/eidikotita/${candidate.slug || (candidate as any).eidikotitaSlug || ""}`}
           className="glass glass-hover"
           style={{
             padding: "16px 32px",
@@ -602,7 +617,7 @@ export default function ProfilePage() {
             borderRadius: "12px",
           }}
         >
-          Δες όλη την ειδικότητα →
+          Δες όλη την ειδικότητα ({candidate.eidikotita}) →
         </Link>
       </div>
     </main>

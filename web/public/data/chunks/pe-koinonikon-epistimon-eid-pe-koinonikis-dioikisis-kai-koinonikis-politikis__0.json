@@ -1,6 +1,39 @@
 [
   {
     "aa": 1,
+    "am": "19896.0",
+    "eponymo": "ΙΓΝΑΤΙΔΟΥ",
+    "onoma": "ΜΥΡΟΦΟΡΑ",
+    "patronymo": "ΣΤΑΥΡΟΣ",
+    "adt_masked": "***197",
+    "omada_prosonton": "325 -001",
+    "theseis_idias_omadas": "1423.0",
+    "protimiseis": "1144-1145-1011-1010-1020-1115-1118-941-954-955-953-952-957-956-1148-1203-1202-900-1150-942-1096-1187-938-1129-980-986-859-1101-1193-930-867-1031-1116-839-838-984-1071-1197-1073-1100-1054-1091-842-841-1165-939-927-1112-1111-1048-1120-1140-1133-1189-993-994-1065-877-1113-1046-1194-916-1117-1052-917-899-890-861-869-1047-1132-882-892-921-908-959-1204-1152-940-1072-1076-988-1078-871-872-1195-876-929-1067-1114-1037-1123-883-895-979-866-1138-1016-1192-1036-1040-910-889-913-912-914-907-1134-845-846-847-852-806-787-804-793-807-851-1172-1169-1423-1428-1430-1427-1426-1299-3064-3061-1298-3057-1297-3060-3058-3062-1424-1429-1425-3059-3063-1300",
+    "thesi_diorismou": "1144",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 112.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 73.61,
+    "synolo_graptou": 86.81,
+    "seira_klirosis": 8663017.0,
+    "vathmologia": 112.81,
+    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 2,
     "am": "4933.0",
     "eponymo": "ΛΙΟΦΤΗ",
     "onoma": "ΦΑΝΗ",
@@ -10,7 +43,7 @@
     "theseis_idias_omadas": "1423.0",
     "protimiseis": "961-968-965-963-1423-967-957-954-955-952-962-966-964-953-958",
     "thesi_diorismou": "1423",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -29,39 +62,8 @@
     "seira_klirosis": 4247348.0,
     "vathmologia": 93.78,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
-  },
-  {
-    "aa": 2,
-    "am": "19896.0",
-    "eponymo": "ΙΓΝΑΤΙΔΟΥ",
-    "onoma": "ΜΥΡΟΦΟΡΑ",
-    "patronymo": "ΣΤΑΥΡΟΣ",
-    "adt_masked": "***197",
-    "omada_prosonton": "325 -001",
-    "theseis_idias_omadas": "1423.0",
-    "protimiseis": "1144-1145-1011-1010-1020-1115-1118-941-954-955-953-952-957-956-1148-1203-1202-900-1150-942-1096-1187-938-1129-980-986-859-1101-1193-930-867-1031-1116-839-838-984-1071-1197-1073-1100-1054-1091-842-841-1165-939-927-1112-1111-1048-1120-1140-1133-1189-993-994-1065-877-1113-1046-1194-916-1117-1052-917-899-890-861-869-1047-1132-882-892-921-908-959-1204-1152-940-1072-1076-988-1078-871-872-1195-876-929-1067-1114-1037-1123-883-895-979-866-1138-1016-1192-1036-1040-910-889-913-912-914-907-1134-845-846-847-852-806-787-804-793-807-851-1172-1169-1423-1428-1430-1427-1426-1299-3064-3061-1298-3057-1297-3060-3058-3062-1424-1429-1425-3059-3063-1300",
-    "thesi_diorismou": "1144",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 112.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 73.61,
-    "synolo_graptou": 86.81,
-    "seira_klirosis": 8663017.0,
-    "vathmologia": 92.81,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
+    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 3,
@@ -106,7 +108,7 @@
     "theseis_idias_omadas": "1423.0",
     "protimiseis": "975-976-973-974-1051-1052-1050-1049-951-1091-841-1059-1060-1061-1062-842-986-1298-3057-1430-1428-1423-3061-1092-1090-840-838-839-1055-1056-1053-1063-3058-1297-1064-900-901-1087-872-871-933-981-1104-868-787-1299-875-1073-990-987-988-1076-1077-1074-1075-1078-1079-1098-1096-1099-980-908-909-907-910",
     "thesi_diorismou": "3057",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -125,7 +127,8 @@
     "seira_klirosis": 3537903.0,
     "vathmologia": 89.11,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
+    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 5,
@@ -202,7 +205,7 @@
     "theseis_idias_omadas": "1423.0",
     "protimiseis": "1076-1078-1073-1077-1079-1074-1075-1095-1096-1187-1188-1099-1098-1097-988-984-987-986-1148-806-1299-1202-1203-1204-3064-954-966-960-958-965-964-961-962-963-968-967-957-955-953-952-959-1423-1031-1136-1011-1036-1115-1040-999-1003-991-1023-1004-1038-880-1037-1007-916-1129-893-1005-1034-890-899-1039-1016-1042-997-886-1000-1009-1025-1013-1020-1112-1137-1130-1141-917-919-850-896-909-907-852-849-995-996-1010-1018-1019-1041-1029-1021-1022-1028-1045-1048-1052-1050-1002-1114-1111-1120-1122-1118-877-883-895-1138-1134-1140-1142-3060-3062-1195-1194-874-942-870-865-868-866-871-867-1297-3058-3061-3057-1298-1300-3059-3063",
     "thesi_diorismou": "909",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -222,7 +225,7 @@
     "vathmologia": 87.36,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 8,
@@ -450,38 +453,6 @@
   },
   {
     "aa": 15,
-    "am": "5288.0",
-    "eponymo": "ΑΣΤΕΡΙΑΔΟΥ",
-    "onoma": "ΧΡΥΣΟΥΛΑ",
-    "patronymo": "ΣΠΥΡΙΔΩΝ",
-    "adt_masked": "***080",
-    "omada_prosonton": "325 -001",
-    "theseis_idias_omadas": "1423.0",
-    "protimiseis": "1406-1405-1403-1402-1414-1401-1416-1408-1404-1409-1410-1411-1412-1422-1420-1421-1417-1415-1423-1428-1430-1426-1427-1424-1429-1425-1299-1297-1298-1300-3064-3061-3060-3062-3058-3057-3059-3063-963-954-952-955-961-962-967-968-957-964-965-966-956-953-958-1057-941-1202-1204-1203-1148-1145-1146-1147-1176-1063-1064-1062-900-901-902-905-906-979-981-1126-1125-1162-1164-1160-1073-1076-1078-1187-973-976-974-975-1098-1099-990-987-988-1096-1189-1192-1195-876-922-920-1151-1150-1152-1039-885-1136-1137-915-1016-1017-1037-895-1123-889-1010-1011-1036-1040-1042-999-1029-1119-1138-1139-1023-1021-991-1114-1111-1112-1113-1025-1044-1051-1122-866-871-868-865-872-875-877-840-1058-1185-1186-1074-1075-1077-1092-1090-1056-1055-1201-1198-1199-1129-1174-994-993",
-    "thesi_diorismou": "1402",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 52.67,
-    "synolo_graptou": 76.33,
-    "seira_klirosis": 8095382.0,
-    "vathmologia": 84.33,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
-  },
-  {
-    "aa": 16,
     "am": "19270.0",
     "eponymo": "ΛΑΝΑΡΑ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -513,7 +484,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 17,
+    "aa": 16,
     "am": "8531.0",
     "eponymo": "ΤΣΙΑΡΚΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -545,7 +516,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 18,
+    "aa": 17,
     "am": "2071.0",
     "eponymo": "ΒΑΣΙΛΕΙΑΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -577,7 +548,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 19,
+    "aa": 18,
     "am": "7517.0",
     "eponymo": "ΤΕΜΕΡΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -609,7 +580,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 20,
+    "aa": 19,
     "am": "234.0",
     "eponymo": "ΒΟΖΙΚΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -641,7 +612,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 21,
+    "aa": 20,
     "am": "3691.0",
     "eponymo": "ΚΟΛΩΝΙΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -673,7 +644,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 22,
+    "aa": 21,
     "am": "4987.0",
     "eponymo": "ΑΜΑΡΙΑΝΑΚΗΣ",
     "onoma": "ΣΤΑΜΑΤIOΣ",
@@ -705,7 +676,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 23,
+    "aa": 22,
     "am": "4999.0",
     "eponymo": "ΠΡΙΤΣΑ",
     "onoma": "ΑΓΟΡΙΤΣΑ",
@@ -737,7 +708,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 24,
+    "aa": 23,
     "am": "18696.0",
     "eponymo": "ΤΖΙΑΛΛΑ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -769,7 +740,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 25,
+    "aa": 24,
     "am": "18188.0",
     "eponymo": "ΚΟΛΤΣΙΔΑ",
     "onoma": "ΣΤΕΛΑ",
@@ -799,6 +770,39 @@
     "vathmologia": 82.39,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
+  },
+  {
+    "aa": 25,
+    "am": "5288.0",
+    "eponymo": "ΑΣΤΕΡΙΑΔΟΥ",
+    "onoma": "ΧΡΥΣΟΥΛΑ",
+    "patronymo": "ΣΠΥΡΙΔΩΝ",
+    "adt_masked": "***080",
+    "omada_prosonton": "325 -001",
+    "theseis_idias_omadas": "1423.0",
+    "protimiseis": "1406-1405-1403-1402-1414-1401-1416-1408-1404-1409-1410-1411-1412-1422-1420-1421-1417-1415-1423-1428-1430-1426-1427-1424-1429-1425-1299-1297-1298-1300-3064-3061-3060-3062-3058-3057-3059-3063-963-954-952-955-961-962-967-968-957-964-965-966-956-953-958-1057-941-1202-1204-1203-1148-1145-1146-1147-1176-1063-1064-1062-900-901-902-905-906-979-981-1126-1125-1162-1164-1160-1073-1076-1078-1187-973-976-974-975-1098-1099-990-987-988-1096-1189-1192-1195-876-922-920-1151-1150-1152-1039-885-1136-1137-915-1016-1017-1037-895-1123-889-1010-1011-1036-1040-1042-999-1029-1119-1138-1139-1023-1021-991-1114-1111-1112-1113-1025-1044-1051-1122-866-871-868-865-872-875-877-840-1058-1185-1186-1074-1075-1077-1092-1090-1056-1055-1201-1198-1199-1129-1174-994-993",
+    "thesi_diorismou": "1402",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 60.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 52.67,
+    "synolo_graptou": 76.33,
+    "seira_klirosis": 8095382.0,
+    "vathmologia": 82.33,
+    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 26,
@@ -2818,38 +2822,6 @@
   },
   {
     "aa": 89,
-    "am": "10029.0",
-    "eponymo": "ΣΠΥΡΕΛΗ",
-    "onoma": "ΠΑΝΩΡΑΙΑ",
-    "patronymo": "ΠΑΝΑΓΙΩΤΗΣ",
-    "adt_masked": "***493",
-    "omada_prosonton": "325 -001",
-    "theseis_idias_omadas": "1423.0",
-    "protimiseis": "927-929-793-925-926-948-1208-1080-1205-946-944-1159-794-795-809-943-949-1081-1158-1209-945-947-938-939-940-1065-1067-1066-1072-1071-1070-1100-1102-1104-858-857-859-860-862-863-928-865-868-1068-1069-1168-1169-1170-1093-801-1082-1084-1086-1088-1089-983-1178-1171-1172-1173-972-1210-1211-969-970-1179-1180-1182-1183-1184-1105-1107-1108-1109-1128-1110-1053-1054-1055-800-934-935-936-971-792-920-921-923-791-902-903-906-977-979-980-981-1160-1162-1164-1165-1166-1125-1126-1127-806-1147-1148-1174-1175-1176-1202-1203-1204-803-1095-1096-1423-1094-1106-932",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 128.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 92.0,
-    "math2": 34.11,
-    "synolo_graptou": 63.06,
-    "seira_klirosis": 1809309.0,
-    "vathmologia": 72.06,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
-  },
-  {
-    "aa": 90,
     "am": "12789.0",
     "eponymo": "ΓΕΩΡΓΑΝΤΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -2881,7 +2853,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 91,
+    "aa": 90,
     "am": "3042.0",
     "eponymo": "ΜΙΧΕΛΟΥΔΑΚΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -2913,7 +2885,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 92,
+    "aa": 91,
     "am": "5400.0",
     "eponymo": "ΚΟΝΤΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -2945,7 +2917,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 93,
+    "aa": 92,
     "am": "15484.0",
     "eponymo": "ΝΟΥΣΔΙΛΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -2977,7 +2949,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 94,
+    "aa": 93,
     "am": "7332.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -3009,7 +2981,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 95,
+    "aa": 94,
     "am": "3044.0",
     "eponymo": "ΒΑΣΙΛΕΙΑΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3041,7 +3013,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 96,
+    "aa": 95,
     "am": "8796.0",
     "eponymo": "ΠΑΤΣΑΡΟΥ",
     "onoma": "ΛΑΣΚΑΡΩ - ΕΙΡΗΝΗ",
@@ -3073,7 +3045,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 97,
+    "aa": 96,
     "am": "12554.0",
     "eponymo": "ΠΑΝΤΟΥΒΑΚΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3105,7 +3077,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 98,
+    "aa": 97,
     "am": "16146.0",
     "eponymo": "ΚΟΥΝΤΟΥΡΑ",
     "onoma": "ΡΕΒΕΚΑ",
@@ -3137,7 +3109,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 99,
+    "aa": 98,
     "am": "16322.0",
     "eponymo": "ΣΙΔΗΡΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -3169,7 +3141,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 100,
+    "aa": 99,
     "am": "11268.0",
     "eponymo": "ΠΑΠΑΔΑΚΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -3201,7 +3173,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 101,
+    "aa": 100,
     "am": "4121.0",
     "eponymo": "ΠΑΝΩΡΙΑΔΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -3233,7 +3205,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 102,
+    "aa": 101,
     "am": "6517.0",
     "eponymo": "ΑΛΤΙΠΑΡΜΑΚΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3265,7 +3237,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 103,
+    "aa": 102,
     "am": "6739.0",
     "eponymo": "ΧΡΗΣΤΟΓΛΟΥ",
     "onoma": "ΖΩΗ",
@@ -3297,7 +3269,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 104,
+    "aa": 103,
     "am": "15517.0",
     "eponymo": "ΚΥΠΙΡΤΙΔΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -3329,7 +3301,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 105,
+    "aa": 104,
     "am": "10111.0",
     "eponymo": "ΜΑΝΑΦΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -3361,7 +3333,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 106,
+    "aa": 105,
     "am": "16732.0",
     "eponymo": "ΣΑΜΑΡΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -3393,7 +3365,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 107,
+    "aa": 106,
     "am": "12192.0",
     "eponymo": "ΖΙΑΚΟΥ",
     "onoma": "ΡΑΦΑΗΛΙΑ",
@@ -3425,7 +3397,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 108,
+    "aa": 107,
     "am": "7501.0",
     "eponymo": "ΛΟΥΠΠΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3457,7 +3429,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 109,
+    "aa": 108,
     "am": "16727.0",
     "eponymo": "ΖΟΥΡΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -3489,7 +3461,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 110,
+    "aa": 109,
     "am": "2988.0",
     "eponymo": "ΚΑΛΕΜΚΕΡΙΔΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -3521,7 +3493,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 111,
+    "aa": 110,
     "am": "19454.0",
     "eponymo": "ΧΡΟΝΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3553,7 +3525,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 112,
+    "aa": 111,
     "am": "16028.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΟΥ",
     "onoma": "ΑΡΤΕΜΙΣ",
@@ -3585,7 +3557,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 113,
+    "aa": 112,
     "am": "15833.0",
     "eponymo": "ΚΥΠΡΙΟΥ",
     "onoma": "ΕΙΡΗΝΗ ΧΡΙΣΤΙΝΑ",
@@ -3617,7 +3589,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 114,
+    "aa": 113,
     "am": "1633.0",
     "eponymo": "ΓΚΙΟΝΤΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -3649,7 +3621,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 115,
+    "aa": 114,
     "am": "4734.0",
     "eponymo": "ΑΠΟΣΤΟΛΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -3681,7 +3653,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 116,
+    "aa": 115,
     "am": "5992.0",
     "eponymo": "ΒΟΛΙΚΑ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3713,7 +3685,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 117,
+    "aa": 116,
     "am": "16601.0",
     "eponymo": "ΚΑΤΙΚΑΡΙΔΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -3745,7 +3717,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 118,
+    "aa": 117,
     "am": "7627.0",
     "eponymo": "ΣΙΣΜΑΝΙΔΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -3777,7 +3749,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 119,
+    "aa": 118,
     "am": "15814.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -3809,71 +3781,39 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
+    "aa": 119,
+    "am": "20575.0",
+    "eponymo": "ΚΑΡΑΧΑΛΙΟΥ",
+    "onoma": "ΣΟΦΙΑ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***497",
+    "omada_prosonton": "325 -001",
+    "theseis_idias_omadas": "1423.0",
+    "protimiseis": "1427-1430-1423-1426-1428-1429-1425",
+    "thesi_diorismou": null,
+    "idiotita": null,
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 76.0,
+    "math2": 41.72,
+    "synolo_graptou": 58.86,
+    "seira_klirosis": 7283821.0,
+    "vathmologia": 60.86,
+    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
+  },
+  {
     "aa": 120,
-    "am": "20575.0",
-    "eponymo": "ΚΑΡΑΧΑΛΙΟΥ",
-    "onoma": "ΣΟΦΙΑ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***497",
-    "omada_prosonton": "325 -001",
-    "theseis_idias_omadas": "1423.0",
-    "protimiseis": "1427-1430-1423-1426-1428-1429-1425",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 76.0,
-    "math2": 41.72,
-    "synolo_graptou": 58.86,
-    "seira_klirosis": 7283821.0,
-    "vathmologia": 60.86,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
-  },
-  {
-    "aa": 121,
-    "am": "20575.0",
-    "eponymo": "ΚΑΡΑΧΑΛΙΟΥ",
-    "onoma": "ΣΟΦΙΑ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***497",
-    "omada_prosonton": "325 -001",
-    "theseis_idias_omadas": "1423.0",
-    "protimiseis": "1427-1430-1423-1426-1428-1429-1425",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 76.0,
-    "math2": 41.72,
-    "synolo_graptou": 58.86,
-    "seira_klirosis": 7283821.0,
-    "vathmologia": 60.86,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-    "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
-  },
-  {
-    "aa": 122,
     "am": "6624.0",
     "eponymo": "ΖΩΓΡΑΦΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -3905,7 +3845,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 123,
+    "aa": 121,
     "am": "17469.0",
     "eponymo": "ΜΥΛΩΝΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -3937,7 +3877,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 124,
+    "aa": 122,
     "am": "6360.0",
     "eponymo": "ΣΑΒΒΑ",
     "onoma": "ΑΝΝΑ",
@@ -3969,7 +3909,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 125,
+    "aa": 123,
     "am": "7570.0",
     "eponymo": "ΤΣΑΛΙΔΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -4001,7 +3941,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 126,
+    "aa": 124,
     "am": "7500.0",
     "eponymo": "ΜΙΧΑΛΑΙΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -4033,7 +3973,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 127,
+    "aa": 125,
     "am": "19731.0",
     "eponymo": "ΖΩΤΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -4065,7 +4005,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 128,
+    "aa": 126,
     "am": "17132.0",
     "eponymo": "ΚΑΡΑΒΑΣΙΛΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4097,7 +4037,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 129,
+    "aa": 127,
     "am": "3065.0",
     "eponymo": "ΚΑΡΑΣΑΒΒΙΔΟΥ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -4129,7 +4069,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 130,
+    "aa": 128,
     "am": "3222.0",
     "eponymo": "ΔΙΟΜΟΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ ΜΑΡΙΟΣ",
@@ -4161,7 +4101,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 131,
+    "aa": 129,
     "am": "12606.0",
     "eponymo": "ΝΙΚΗΤΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -4193,7 +4133,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 132,
+    "aa": 130,
     "am": "561.0",
     "eponymo": "ΚΟΚΚΙΝΙΔΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΑ -  ΕΙΡΗΝΗ",
@@ -4225,7 +4165,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 133,
+    "aa": 131,
     "am": "15436.0",
     "eponymo": "ΠΑΠΑΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -4257,7 +4197,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 134,
+    "aa": 132,
     "am": "9914.0",
     "eponymo": "ΑΡΓΥΡΙΟΥ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -4289,7 +4229,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 135,
+    "aa": 133,
     "am": "300.0",
     "eponymo": "ΚΟΜΝΗΝΑΚΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4321,7 +4261,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 136,
+    "aa": 134,
     "am": "3617.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -4353,7 +4293,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 137,
+    "aa": 135,
     "am": "1898.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΙΔΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -4385,7 +4325,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 138,
+    "aa": 136,
     "am": "20519.0",
     "eponymo": "ΣΙΑΜΑΤΑ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -4417,7 +4357,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 139,
+    "aa": 137,
     "am": "7936.0",
     "eponymo": "ΘΕΟΔΩΡΙΔΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -4449,7 +4389,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 140,
+    "aa": 138,
     "am": "116.0",
     "eponymo": "ΚΑΡΑΣΤΕΡΙΟΥ",
     "onoma": "ΕΥΔΟΞΙΑ ΕΙΡΗΝΗ",
@@ -4481,7 +4421,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 141,
+    "aa": 139,
     "am": "2369.0",
     "eponymo": "ΚΑΝΔΡΗ",
     "onoma": "ΚΑΤΕΡΙΝΑ",
@@ -4513,7 +4453,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 142,
+    "aa": 140,
     "am": "17504.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4545,7 +4485,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 143,
+    "aa": 141,
     "am": "4129.0",
     "eponymo": "ΑΝΔΡΕΟΥ",
     "onoma": "ΠΟΛΥΞΕΝΗ",
@@ -4577,7 +4517,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 144,
+    "aa": 142,
     "am": "6063.0",
     "eponymo": "ΑΡΓΥΡΑΚΟΥΛΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -4609,7 +4549,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 145,
+    "aa": 143,
     "am": "15935.0",
     "eponymo": "ΔΡΑΜΠΑΤΖΑΝΟΥ",
     "onoma": "ΑΜΑΛΙΑ",
@@ -4641,7 +4581,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 146,
+    "aa": 144,
     "am": "16113.0",
     "eponymo": "ΙΩΑΝΝΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4673,7 +4613,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 147,
+    "aa": 145,
     "am": "8242.0",
     "eponymo": "ΜΑΡΑΓΚΟΥΔΑΚΗ",
     "onoma": "ΜΑΡΙΝΕΛΑ",
@@ -4705,7 +4645,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 148,
+    "aa": 146,
     "am": "4244.0",
     "eponymo": "ΜΑΝΤΖΙΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -4737,7 +4677,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 149,
+    "aa": 147,
     "am": "16295.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΛΑΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -4769,7 +4709,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 150,
+    "aa": 148,
     "am": "5353.0",
     "eponymo": "ΧΟΝΔΡΟΓΙΑΝΝΗ",
     "onoma": "ΔΗΜΗΤΡΑ ΠΑΝΑΓΙΩΤΑ",
@@ -4801,7 +4741,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 151,
+    "aa": 149,
     "am": "4373.0",
     "eponymo": "ΓΟΥΤΑΚΟΛΗ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -4833,7 +4773,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 152,
+    "aa": 150,
     "am": "5058.0",
     "eponymo": "ΛΥΜΟΥΣΗΣ",
     "onoma": "ΑΡΓΥΡΙΟΣ",
@@ -4865,7 +4805,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 153,
+    "aa": 151,
     "am": "6898.0",
     "eponymo": "ΤΙΚΑ",
     "onoma": "ΒΕΦΑ",
@@ -4897,7 +4837,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 154,
+    "aa": 152,
     "am": "13620.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΜΟΡΦΙΑ",
@@ -4929,7 +4869,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 155,
+    "aa": 153,
     "am": "719.0",
     "eponymo": "ΨΥΛΛΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -4961,7 +4901,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 156,
+    "aa": 154,
     "am": "12369.0",
     "eponymo": "ΠΑΠΑΓΡΗΓΟΡΙΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4993,7 +4933,7 @@
     "slug": "pe-koinonikon-epistimon-eid-pe-koinonikis-dioikisis-kai-koinonikis-politikis"
   },
   {
-    "aa": 157,
+    "aa": 155,
     "am": "2407.0",
     "eponymo": "LATIFI",
     "onoma": "XHEISIDA",

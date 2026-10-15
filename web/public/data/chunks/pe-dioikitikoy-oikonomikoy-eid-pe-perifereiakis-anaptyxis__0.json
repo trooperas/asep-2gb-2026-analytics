@@ -1,6 +1,39 @@
 [
   {
     "aa": 1,
+    "am": "12737.0",
+    "eponymo": "ΜΙΧΑΗΛΙΔΗΣ",
+    "onoma": "ΑΧΙΛΛΕΑΣ",
+    "patronymo": "ΙΣΑΑΚ",
+    "adt_masked": "***079",
+    "omada_prosonton": "315 -001",
+    "theseis_idias_omadas": "1284-1285-1286-1287-1288-1289",
+    "protimiseis": "1057-1284-1285-1286-1287-1288-1289-1213-1235-1269-1230-1234-1233-1240-776-777-778-779-780-782-783-784-785-786-1214-1216-1219-1220-1221-1222-1223-1224-1225-1226-1236-1237-1238-1239-1241-1242",
+    "thesi_diorismou": "1057",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 84.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 84.0,
+    "math2": 76.5,
+    "synolo_graptou": 80.25,
+    "seira_klirosis": 4176441.0,
+    "vathmologia": 108.25,
+    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 2,
     "am": "13996.0",
     "eponymo": "ΜΑΡΑΣΙΔΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -10,7 +43,7 @@
     "theseis_idias_omadas": "1286",
     "protimiseis": "1122-999-1042-1040-991-1124-1043-780-1142-1009-1011-1037-1123-995-1111-1039-1008-1025-1113-1129-1115-1118-1007-998-1019-1381-1358-1359-1360-1379-1367-1363-1364-783-784-1377-1369-1365-1370-1371-1372-1373-1376-1378-1380-1362-1366-1361-1368-1375-782-1116-1114-1112-1133-1265-993-1046-1020-1006-1018-918-1141-1003-1000-1023-1041-1012-1013-1024-992-1005-1266-996-1028-1245-1015-1038-1121-1246-1286-1244-1136-1010-1130-1033-1034-1035-1016-1138-1044-3088-3089-3092-3091-3090-3093-3094-3095-3096-804-1374-1384-3101-3102-3097-3098-3099-3100-1338-1339-1343-1344-1341-1345-1342-1340-1051-777-1226-1224-898-893-1223-880-896-884-889-883-895-1222-877-1241-797-1268-805-1049-1247-886-894-1004-1242-1022-3165-1014-1017",
     "thesi_diorismou": "1122",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,10 +62,11 @@
     "seira_klirosis": 1495602.0,
     "vathmologia": 94.03,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 2,
+    "aa": 3,
     "am": "10049.0",
     "eponymo": "ΓΚΑΤΖΙΟΥΦΑ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -42,7 +76,7 @@
     "theseis_idias_omadas": "1284-1286-1287",
     "protimiseis": "1284-1256-1348-1322-779-1286-1332-1325-1326-1328-1330-1329-1331-1333-1324-1327-1237-1236-1258-1393-1273-1307-1386-1336-1335-1216-785-1355-1396-1304-3074-3075-3076-3073-3072-3103-3104-1246-1311-1349-1219-780-1312-777-1223-1224-1226-1244-1245-1363-1378-1338-1384-1360-1374-1340-1343-1377-1368-1341-1342-1369-1372-1373-1339-1362-1364-1365-1366-1367-1370-1380-1344-1358-1359-1361-1371-1376-1381-782-783-784-1345-1375-1379-1241-1221-1222-1306-1308-1309-1310-1318-1238-1239-1233-1270-1248-1266-1313-1227-1337-1255-1385-1395-1271-781-1212-1314-1346-1354-1251-1252-1317-1319-1320-3069-3081-3082-1287",
     "thesi_diorismou": "1284",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -61,10 +95,11 @@
     "seira_klirosis": 7051248.0,
     "vathmologia": 93.14,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 3,
+    "aa": 4,
     "am": "8905.0",
     "eponymo": "ΑΡΓΥΡΟΥ",
     "onoma": "ΙΩΑΝΝΑ- ΑΣΠΑΣΙΑ",
@@ -74,7 +109,7 @@
     "theseis_idias_omadas": "1286",
     "protimiseis": "1286-780-1245-1248-1244-777-1223-1226-1224-1250-1247-1242-1249-1338-1340-1341-1342-1266-1225-1241-1312-1363-1378-1230-782-783-784-1360-1374-1368-1377-1246-1369-1372-1373-1362-1364-1365-1366-1367-1370-1380-1221-1222-1358-1359-1361-1371-1376-1381-1375-1379-1343-1339-1344-1265-1345-1384-3068-3096-3090-3092-3093-3094-3095-3088-3089-3091-1214-3101-3099-3102",
     "thesi_diorismou": "1286",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -93,10 +128,11 @@
     "seira_klirosis": 8910642.0,
     "vathmologia": 89.39,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 4,
+    "aa": 5,
     "am": "16375.0",
     "eponymo": "ΖΑΧΑΡΟΥ ΟΤΑΠΑΣΙΔΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -106,7 +142,7 @@
     "theseis_idias_omadas": "1286",
     "protimiseis": "780-1266-1363-1377-1378-1374-1360-1358-1359-1361-1362-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1375-1376-1381-1379-1380-782-784-785-3096-3090-3088-3089-3092-3091-3093-3094-3095-1246-1247-1248-1244-1245-1338-1339-1340-1341-1343-1342-1344-1286-1265-3097-3099-3098-3100-3101-3102-1384-1230-1312-1225-1221-1222-1223-1224-1226-1242-1249-1250",
     "thesi_diorismou": "780",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -125,10 +161,11 @@
     "seira_klirosis": 6241403.0,
     "vathmologia": 89.25,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 5,
+    "aa": 6,
     "am": "18532.0",
     "eponymo": "ΧΟΛΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -138,7 +175,7 @@
     "theseis_idias_omadas": "1284-1286",
     "protimiseis": "1308-841-1304-1309-1387-865-868-842-866-871-940-1363-1378-1321-1311-780-1011-1031-1036-1040-1115-1136-1312-1286-1284-1325-1326-1338-1360-3065-1384-1340-1374-1343-1368-1372-1369-1351-1342-1330-1341-852-1365-850-1366-1377-1380-1396-839-838-1328-1305-1367-1362-1339-1370-1344-1355-1371-1373-1307-1310-1150-1151-1152-1213-1216-787-840-867-869-872-870-954-1096-1187-1188-1194-1361-1393-1381-1376-1358-1306-1322-1349-1318-1332-1375-1394-1364-1356-1359-1238-1248-1244-846-1379-1345-3086-798-854-1268-1329-776-782-1221-1237-779-1273-1324-1241-1224-784-843-789-845-1226-1236-1230-1335-1250-785-1219-1336-1265-778-1269-1327-855-804-1214-1333-1247-844-1222",
     "thesi_diorismou": "1363",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -157,39 +194,8 @@
     "seira_klirosis": 8031715.0,
     "vathmologia": 88.58,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
-  },
-  {
-    "aa": 6,
-    "am": "12737.0",
-    "eponymo": "ΜΙΧΑΗΛΙΔΗΣ",
-    "onoma": "ΑΧΙΛΛΕΑΣ",
-    "patronymo": "ΙΣΑΑΚ",
-    "adt_masked": "***079",
-    "omada_prosonton": "315 -001",
-    "theseis_idias_omadas": "1284-1285-1286-1287-1288-1289",
-    "protimiseis": "1057-1284-1285-1286-1287-1288-1289-1213-1235-1269-1230-1234-1233-1240-776-777-778-779-780-782-783-784-785-786-1214-1216-1219-1220-1221-1222-1223-1224-1225-1226-1236-1237-1238-1239-1241-1242",
-    "thesi_diorismou": "1057",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 84.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 84.0,
-    "math2": 76.5,
-    "synolo_graptou": 80.25,
-    "seira_klirosis": 4176441.0,
-    "vathmologia": 88.25,
-    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 7,
@@ -202,7 +208,7 @@
     "theseis_idias_omadas": "1286",
     "protimiseis": "1340-1342-1339-1344-1338-1341-1345-1343-3088-1359-1360-1362-1361-1363-1367-782-783-784-1364-1365-1366-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-3089-1358-3090-3091-3092-3093-3094-3095-3096-3101-3102-1000-1023-1250-1003-991-780-995-1009-1029-999-1011-1040-1010-1019-1007-1006-1020-1021-1039-1022-1042-1038-1245-1035-1244-1008-1026-1247-1027-1018-1286-1013-1005-1036-1037-1249-1034-1033-893-996-997-1001-914-891-1246-1051-918-1241-1043-998-1015-886-1030-1004-877-1031-880-1014-887-3165-1012-1221-1223-1016-1226-1124-1242-1024-1248-917-1017-1122-1230-1041-1111-1112-1384-1312-1130-1119-1129-896-1123-916-1139-1046-1142-1028-1049-1050-892-1135-1140-1044-1025-790-3099-3100-1225-1132-1115-915-1138-1052",
     "thesi_diorismou": "1340",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -221,7 +227,8 @@
     "seira_klirosis": 5679817.0,
     "vathmologia": 88.08,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 8,
@@ -362,7 +369,7 @@
     "theseis_idias_omadas": "1286-1287",
     "protimiseis": "1286-1287",
     "thesi_diorismou": "1287",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -381,7 +388,8 @@
     "seira_klirosis": 8172157.0,
     "vathmologia": 85.39,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 13,
@@ -554,7 +562,7 @@
     "theseis_idias_omadas": "1284-1285-1286-1287-1288-1289",
     "protimiseis": "797-883-886-893-895-916-1073-1074-1075-1115-1117-1118-1119-1120-1121-1091-1090-1067-1050-1052-1049-1051-1058-1031-1030-1025-1026-1029-1034-1012-1076-1077-1079-1096-1097-1098-1099-1114-1363-1366-1367-1330-1331-1332-1333-1335-1324-1325-1326-1329-1312-1311-1273-1274-1270-1265-1266-1248-1245-1244-1236-1237-1238-1239-1241-1242-1202-1203-1204-1035-1036-1040-1037-1038-1039-1042-1028-1013-1016-1003-1004-1005-1011-1189-1188-1187-1186-1194-1195-1197-1085-1078-1048-1138-1137-1136-1129-1122-1134-1002-1007-1009-1010-1018-1019-1020-1023-1022-1021-1014-1015-1006-991-996-997-999-1000-966-967-968-965-964-958-954-953-955-956-960-962-963-952-917-918-919-913-914-915-899-907-909-910-911-890-880-1288-1286-1284-1287-1289-1285-780-1336-1338-1340-1339-1341-1342-1343-1344-1346-1347-1358-1359-1360-1361-1362-1372-1374-1396-1389-1386-1391-1393-1394-1390-1373-1370-1371-1376-1375-1368-1369-1364-1365-1355-1348-1356-1345-1328-1327-1322-927-782-783-784-785-1308-1314-1321-1317-1323-1351-1354-1349-1387-888-779-781-778-1309-1310-1305-1306-1395-1307-1304-1320-1319-1316-1315-1350-1353-1388-1397-1398-1392-1357-1313",
     "thesi_diorismou": "1288",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -573,7 +581,8 @@
     "seira_klirosis": 1100780.0,
     "vathmologia": 84.14,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 19,
@@ -746,7 +755,7 @@
     "theseis_idias_omadas": "1284-1285-1286-1287-1288-1289",
     "protimiseis": "1286-1284-1288-1289-1287-1285",
     "thesi_diorismou": "1289",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -765,7 +774,8 @@
     "seira_klirosis": 8143538.0,
     "vathmologia": 82.83,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 25,
@@ -906,7 +916,7 @@
     "theseis_idias_omadas": "1284-1285-1286-1287-1288-1289",
     "protimiseis": "1284-1286-1287-1288-1289-1285-1073-1074-1075-1076-1077-1078-1079-1096-1095-1097-1098-1099-1258-1259-1355-1273-780-1363-1378-3066-1374-1325-1326-1338-3103-785-1269-1270-1393-1394-1337-1336-1386-1349-1328-1330-1332-1331-1329-1327-1324-1333-3075-3076-3073-3074-1235-1236-1237-1238-1239-1368-1384-3065-3084-3098-3097-3096-3100-3101-3070-3068-3072-3090-3088-3089-3092-3093-3094-3095-3102-3099-3104-1240-1241-1242-1340-1341-1342-1339-1387-1343-1346-1347-1345-1344-1248-1245-1246-1247-1249-1250-1256-1362-1361-1358-1359-1369-1364-1365-1366-1367-1372-1373-1370-1371-1376-1375-1377-1380-1379-1381-1305-1318",
     "thesi_diorismou": "1285",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -925,7 +935,8 @@
     "seira_klirosis": 9231755.0,
     "vathmologia": 81.89,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 30,
@@ -1322,7 +1333,7 @@
     "theseis_idias_omadas": "1286-1287",
     "protimiseis": "1349-3084-1065-1067-1066-1287-1286-780-782-777-783-784-3066-3070-3088-3089-3090-3092-3093-3094-3095-3096-3097-1312-3098-3100-3101-3102-1304-1308-1338-1340-1341-1343-1360-1363-1368-1369-1372-1373-1374-1378-1384-1377-1351",
     "thesi_diorismou": "3070",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1342,7 +1353,7 @@
     "vathmologia": 80.36,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 43,
@@ -3842,39 +3853,6 @@
   },
   {
     "aa": 121,
-    "am": "2481.0",
-    "eponymo": "ΚΥΠΡΙΩΤΗΣ",
-    "onoma": "ΧΡΙΣΤΟΦΟΡΟΣ-ΔΗΜΗΤΡΙΟΣ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***818",
-    "omada_prosonton": "315 -001",
-    "theseis_idias_omadas": "1284-1285-1286",
-    "protimiseis": "3081-1346-1056-1053-3088-3089-3090-3091-3092-3093-3094-3095-3096-3097-3098-3099-3074-3066-3068-3070-3073-3075-3076-3065-3100-3101-3102-3103-3104-1375-1374-1373-1372-1371-1370-1369-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1338-1339-1340-1341-1342-1343-1344-1345-1328-1327-1329-1330-1331-1332-1324-1325-1396-1349-1355-1386-1387-1393-1394-1312-1311-1310-1309-1308-1307-1306-1305-1304-1351-1252-1251-1055-1041-1051-1044-1043-1042-1025-1014-1011-1031-1036-1115-1040-1010-1099-1098-1097-1130-1124-1123-1136-1137-1122-1202-1203-1142-1141-1138-1139-1140-1269-1270-1284-1285-1286-1005-1003-999-991",
-    "thesi_diorismou": "1269",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 48.0,
-    "monades_empeirias": 4.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 68.0,
-    "math2": 55.39,
-    "synolo_graptou": 61.69,
-    "seira_klirosis": 1265358.0,
-    "vathmologia": 65.69,
-    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
-  },
-  {
-    "aa": 122,
     "am": "6962.0",
     "eponymo": "ΜΑΝΙΤΣΑ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -3906,39 +3884,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 123,
-    "am": "6962.0",
-    "eponymo": "ΜΑΝΙΤΣΑ",
-    "onoma": "ΕΥΤΥΧΙΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***102",
-    "omada_prosonton": "315 -001",
-    "theseis_idias_omadas": "1284-1285-1286-1287-1288-1289",
-    "protimiseis": "1284-1328-1329-1325-1326-1324-1331-1332-1330-3075-3076-1235-1236-1237-1239-1333-1238-3074-3073-1396-3111-785-1269-1270-3103-1386-1255-3082-3083-779-1233-3072-1322-1385-1348-1240-1335-3069-1314-1228-1229-1382-1227-1313-3078-1390-1389-3105-1337-1395-810-3071-1315-1316-812-1223-1224-1226-1225-1244-1245-1250-1230-3088-1361-1358-1286-1365-1380-1381-1379-1377-1367-1344-1339-1338-1342-1343-1340-1341-1362-1363-1364-1366-1368-1369-1370-1371-1372-1373-1374-1375-1376-1378-1359-1360-1345-782-783-784-3089-3090-3091-3092-3094-3093-3095-3096-3097-3066-1241-1242-1246-1247-1248-1249-813-1214-1221-1222-777-1265-1266-1268-3099-3100-3101-3102-3068-3070-3098-1312-1384-1355-1258-1259-1273-1393-1274-1394-1336-1308-1309-1310-1218-1305-1306-1307-1304-3065-1212-1317-1318-1232-3084-1349-1287-776-1356-1387-3104-1219-1220-1271-1311-3110-3067-1216-1217-1351-1257-1319-778-1321-3087-786-1275-3112-1397-1323-1234-1388-1352-1260-1346-3081-1251-1252-1288-1272-3107-3106-1253-1254-1347-1261-1262-1263-3085-1353-1264-781-1354-1320-1398-1289-1392-3109-3108-1391-1267-1383-1334-3077-1357-3086-3080-811-1350-3079-1285",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 80.0,
-    "math2": 49.06,
-    "synolo_graptou": 64.53,
-    "seira_klirosis": 1449341.0,
-    "vathmologia": 64.53,
-    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
-  },
-  {
-    "aa": 124,
+    "aa": 122,
     "am": "6772.0",
     "eponymo": "ΣΕΛΑΛΜΑΤΖΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3970,7 +3916,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 125,
+    "aa": 123,
     "am": "2866.0",
     "eponymo": "ΛΙΛΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -4002,7 +3948,40 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 126,
+    "aa": 124,
+    "am": "2481.0",
+    "eponymo": "ΚΥΠΡΙΩΤΗΣ",
+    "onoma": "ΧΡΙΣΤΟΦΟΡΟΣ-ΔΗΜΗΤΡΙΟΣ",
+    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+    "adt_masked": "***818",
+    "omada_prosonton": "315 -001",
+    "theseis_idias_omadas": "1284-1285-1286",
+    "protimiseis": "3081-1346-1056-1053-3088-3089-3090-3091-3092-3093-3094-3095-3096-3097-3098-3099-3074-3066-3068-3070-3073-3075-3076-3065-3100-3101-3102-3103-3104-1375-1374-1373-1372-1371-1370-1369-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1338-1339-1340-1341-1342-1343-1344-1345-1328-1327-1329-1330-1331-1332-1324-1325-1396-1349-1355-1386-1387-1393-1394-1312-1311-1310-1309-1308-1307-1306-1305-1304-1351-1252-1251-1055-1041-1051-1044-1043-1042-1025-1014-1011-1031-1036-1115-1040-1010-1099-1098-1097-1130-1124-1123-1136-1137-1122-1202-1203-1142-1141-1138-1139-1140-1269-1270-1284-1285-1286-1005-1003-999-991",
+    "thesi_diorismou": "1269",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 48.0,
+    "monades_empeirias": 4.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 68.0,
+    "math2": 55.39,
+    "synolo_graptou": 61.69,
+    "seira_klirosis": 1265358.0,
+    "vathmologia": 61.69,
+    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 125,
     "am": "7478.0",
     "eponymo": "ΝΙΚΟΥ",
     "onoma": "ΕΛΠΙΔΑ",
@@ -4034,7 +4013,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 127,
+    "aa": 126,
     "am": "18132.0",
     "eponymo": "ΠΑΚΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4066,7 +4045,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 128,
+    "aa": 127,
     "am": "17617.0",
     "eponymo": "ΜΑΝΕΛΑΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -4098,7 +4077,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 129,
+    "aa": 128,
     "am": "17402.0",
     "eponymo": "ΚΟΥΤΣΟΥΔΑΚΗΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ ΔΗΜΗΤΡΙΟΣ",
@@ -4130,7 +4109,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 130,
+    "aa": 129,
     "am": "463.0",
     "eponymo": "ΓΕΡΟΥΛΑΚΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -4162,7 +4141,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 131,
+    "aa": 130,
     "am": "18146.0",
     "eponymo": "ΚΟΝΤΟΣΗΣ",
     "onoma": "ΣΠΗΛΙΟΣ",
@@ -4194,7 +4173,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 132,
+    "aa": 131,
     "am": "2910.0",
     "eponymo": "ΔΗΜΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -4226,7 +4205,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 133,
+    "aa": 132,
     "am": "15866.0",
     "eponymo": "ΓΙΑΜΟΥΖΗ",
     "onoma": "ΠΕΛΑΓΙΑ",
@@ -4258,7 +4237,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 134,
+    "aa": 133,
     "am": "13629.0",
     "eponymo": "ΣΤΑΜΠΟΛΙΤΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -4290,7 +4269,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 135,
+    "aa": 134,
     "am": "9567.0",
     "eponymo": "ΤΣΙΑΤΣΟΥ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -4322,7 +4301,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 136,
+    "aa": 135,
     "am": "4377.0",
     "eponymo": "ΝΤΑΡΑΡΑ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -4354,7 +4333,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 137,
+    "aa": 136,
     "am": "1527.0",
     "eponymo": "ΣΑΠΑΡΔΑΝΗ",
     "onoma": "ΕΥΣΤΑΘΙΑ",
@@ -4386,7 +4365,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 138,
+    "aa": 137,
     "am": "4170.0",
     "eponymo": "ΛΑΠΠΑ",
     "onoma": "ΑΘΗΝΑ",
@@ -4418,7 +4397,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 139,
+    "aa": 138,
     "am": "19161.0",
     "eponymo": "ΤΑΒΕΡΝΑΡΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -4450,7 +4429,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 140,
+    "aa": 139,
     "am": "10126.0",
     "eponymo": "ΤΟΛΙΟΥ",
     "onoma": "ΜΑΙΡΗ",
@@ -4482,7 +4461,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 141,
+    "aa": 140,
     "am": "18165.0",
     "eponymo": "ΚΟΣΚΙΝΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -4514,7 +4493,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 142,
+    "aa": 141,
     "am": "7246.0",
     "eponymo": "ΕΠΙΤΗΔΕΙΟΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -4546,7 +4525,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 143,
+    "aa": 142,
     "am": "4903.0",
     "eponymo": "ΖΑΡΟΚΩΣΤΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ ΑΝΝΑ",
@@ -4578,7 +4557,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 144,
+    "aa": 143,
     "am": "3899.0",
     "eponymo": "ΤΟΥΜΠΑΝΙΑΡΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4610,7 +4589,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 145,
+    "aa": 144,
     "am": "912.0",
     "eponymo": "ΑΛΕΞΙΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -4642,7 +4621,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-perifereiakis-anaptyxis"
   },
   {
-    "aa": 146,
+    "aa": 145,
     "am": "3220.0",
     "eponymo": "ΑΔΑΜΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",

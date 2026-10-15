@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "2135-2136-2137-2138-2142-2150-2155-2159-2162-2163",
     "protimiseis": "2150-2138-2137-2136-2135-2163-2155-2159-2142-2162",
     "thesi_diorismou": "2150",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,75 +29,11 @@
     "seira_klirosis": 1220098.0,
     "vathmologia": 131.25,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
-    "am": "5426.0",
-    "eponymo": "ΧΛΙΑΡΑ",
-    "onoma": "ΑΛΕΞΑΝΔΡΑ",
-    "patronymo": "ΜΙΧΑΗΛ",
-    "adt_masked": "***295",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2125-2126-2138-2142-2143-2145-2150-2152-2161-2162-2163-2165-2166",
-    "protimiseis": "2150-1062-1063-1064-901-1060-1059-1058-900-989-2142-990-2138-959-976-960-963-958-968-1145-1146-1076-1078-979-1152-974-1099-1098-1177-1079-1127-1126-905-906-929-988-1195-1192-1196-2166-840-1198-931-876-871-866-2126-2145-2143-2163-2165-2162-2125-2161-2152",
-    "thesi_diorismou": "2166",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 42.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 64.22,
-    "synolo_graptou": 82.11,
-    "seira_klirosis": 8555638.0,
-    "vathmologia": 129.11,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 3,
-    "am": "18374.0",
-    "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
-    "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***141",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2142-2143-2144-2145-2150-2157-2158",
-    "protimiseis": "1062-1063-2150-1060-1061-900-901-989-990-2142-1064-1059-803-1115-1116-1118-1020-1031-1117-1120-1140-1042-1019-1035-1033-1034-1130-1141-1009-1043-1122-1124-1039-1114-1037-1123-999-1003-1012-1007-1011-1010-1142-995-1040-1041-998-992-1024-1018-1006-1036-1119-1139-1029-991-850-1025-1013-1008-996-1000-1023-1016-1113-804-1111-1129-1112-1138-2143-2144-2145-2158-2157-1121-1022-1005-1032-1017-1038-1001-1021-1027-1028-1015-1014-1004-997",
-    "thesi_diorismou": "2143",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 125.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 58.45,
-    "synolo_graptou": 79.22,
-    "seira_klirosis": 9842619.0,
-    "vathmologia": 126.22,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
-  },
-  {
-    "aa": 4,
     "am": "7973.0",
     "eponymo": "ΜΠΑΚΑΟΥΚΑΣ",
     "onoma": "ΜΕΛΕΤΙΟΣ",
@@ -107,7 +43,7 @@
     "theseis_idias_omadas": "2131-2143-2144-2145-2156-2160",
     "protimiseis": "2156-2144-2143-2160-2131-2145",
     "thesi_diorismou": "2156",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -126,43 +62,11 @@
     "seira_klirosis": 6498036.0,
     "vathmologia": 125.86,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 5,
-    "am": "19006.0",
-    "eponymo": "ΤΖΕΛΛΟΥ",
-    "onoma": "ΒΑΙΑ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***467",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
-    "protimiseis": "2150-2142-2163-2162-2166-2138-2161-2136-2155-2152-2141-2137-2133-2168-2135-2165-2125-2169-2146-2159-2149-2132-2167-2126-2154-2134-2147-2148-2127-2128-2164-2156-2151-2140-2153-2143-2145-2144-2124-2129-2131-2157-2158-2160",
-    "thesi_diorismou": "2163",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 13.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 92.0,
-    "math2": 68.06,
-    "synolo_graptou": 80.03,
-    "seira_klirosis": 2808835.0,
-    "vathmologia": 125.03,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 6,
+    "aa": 3,
     "am": "18998.0",
     "eponymo": "ΜΗΤΡΟΥΣΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -172,7 +76,7 @@
     "theseis_idias_omadas": "2142",
     "protimiseis": "2142-990-989",
     "thesi_diorismou": "2142",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -191,138 +95,11 @@
     "seira_klirosis": 2443407.0,
     "vathmologia": 124.5,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
-    "am": "17629.0",
-    "eponymo": "ΣΤΑΜΠΟΥΛΗΣ",
-    "onoma": "ΓΕΩΡΓΙΟΣ",
-    "patronymo": "ΑΝΤΩΝΙΟΣ",
-    "adt_masked": "***718",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2125-2126-2127-2128-2129-2132-2134-2135-2136-2137-2138-2140-2141-2142-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2159-2161-2162-2163-2164-2165-2166-2167-2168-2169",
-    "protimiseis": "2150-2142-2165-2162-2161-2137-2138-2136-2141-2163-2134-2146-2168-2169-2149-2126-2159-2167-2125-2135-2166-2155-2127-2128-2132-2151-2152-2147-2148-2164-2154-2129-2153-2156-2140",
-    "thesi_diorismou": "2169",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 29.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 54.34,
-    "synolo_graptou": 77.17,
-    "seira_klirosis": 2175860.0,
-    "vathmologia": 121.17,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 8,
-    "am": "14096.0",
-    "eponymo": "ΤΕΡΨΗΣ",
-    "onoma": "ΜΑΡΙΟΣ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***790",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
-    "protimiseis": "2142-2150-2138-2137-2168-2136-2162-2169-2135-2144-2145-2143-2129-2158-2157-2131-2124-2141-2126-2125-2163-2160-2166-2149-2161-2165-2152-2159-2155-2146-2147-2148-2134-2127-2128-2132-2167-2164-2139-2154-2156-2153-2151-2140",
-    "thesi_diorismou": "2129",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 82.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2142.0",
-    "monades_entop": 40.0,
-    "math1": 96.0,
-    "math2": 47.22,
-    "synolo_graptou": 71.61,
-    "seira_klirosis": 3583946.0,
-    "vathmologia": 118.61,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 9,
-    "am": "11915.0",
-    "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
-    "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***873",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2124-2125-2126-2129-2131-2132-2133-2134-2135-2136-2137-2138-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2167-2168-2169",
-    "protimiseis": "2163-2150-2125-2134-2152-2138-2165-2155-2141-2142-2154-2146-2147-2148-2162-2149-2169-2168-2164-2167-2159-2161-2126-2132-2137-2153-2140-2156-2145-2143-2144-2157-2158-2131-2124-2160-2129-2136-2135-2133",
-    "thesi_diorismou": "2147",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 40.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 88.0,
-    "math2": 52.61,
-    "synolo_graptou": 70.31,
-    "seira_klirosis": 3185194.0,
-    "vathmologia": 117.31,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 10,
-    "am": "17104.0",
-    "eponymo": "ΣΚΙΠΙΤΑΡΗΣ",
-    "onoma": "ΧΑΡΙΛΑΟΣ  ΠΑΝΑΓΙΩΤΗΣ",
-    "patronymo": "ΣΤΕΡΓΙΟΣ",
-    "adt_masked": "***391",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2125-2132-2135-2136-2137-2138-2142-2143-2145-2150-2162-2163-2168-2169",
-    "protimiseis": "2150-1063-1064-1062-1060-1059-1058-2142-989-990-900-901-2138-2137-2136-2135-953-954-952-961-962-960-955-958-959-967-968-2162-1148-1098-1099-1096-1095-1079-1076-1077-1078-1073-2168-2169-1204-1203-1188-1014-1012-1001-1003-2145-2143-1028-1011-2163-2125-988-976-1202-905-906-979-981-2132",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 24.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 92.0,
-    "math2": 37.78,
-    "synolo_graptou": 64.89,
-    "seira_klirosis": 5027513.0,
-    "vathmologia": 107.89,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 11,
+    "aa": 4,
     "am": "13774.0",
     "eponymo": "ΣΥΜΕΩΝΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -332,7 +109,7 @@
     "theseis_idias_omadas": "2136-2137-2138-2152-2155-2161-2162",
     "protimiseis": "2162-1048-806-2161-1147-958-959-942-2136-961-967-965-968-1077-954-952-962-964-966-941-957-955-956-960-1078-1075-2138-2137-963-2155-2152-1073-953-1076",
     "thesi_diorismou": "2161",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -351,10 +128,11 @@
     "seira_klirosis": 6106376.0,
     "vathmologia": 104.5,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 12,
+    "aa": 5,
     "am": "10734.0",
     "eponymo": "ΣΤΕΡΓΙΑΚΗΣ ΜΙΜΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -364,7 +142,7 @@
     "theseis_idias_omadas": "2136-2137-2138-2141-2143-2144-2145-2152-2155-2161-2162-2164-2165-2166",
     "protimiseis": "2144-2152-2162-2155-2141-2161-2165-2166-2145-2138-2136-2137-2143-2164",
     "thesi_diorismou": "2152",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -383,74 +161,11 @@
     "seira_klirosis": 5242371.0,
     "vathmologia": 100.56,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
-    "am": "5268.0",
-    "eponymo": "ΑΝΑΣΤΑΣΙΟΥ",
-    "onoma": "ΗΛΙΑΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***890",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2155-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
-    "protimiseis": "2152-1074-1073-1079-1078-1077-1076-1075-2141-2155-2165-984-985-986-987-988-1095-1096-1097-1098-1099-1185-1186-1187-1188-2133-2135-2136-2137-2138-2142-2161-2162-2163-2168-2169-2166-2125-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-793-858-874-875-876-978-979-980-981-927-928-929-941-942-1053-1054-1055-1056-1090-1091-1092-1148-1150-1151-1152-1202-1203-1204-2126-2160-2139-2146-2124-2127-2128-2129-2131-2132-2134-2143-2144-2145-2147-2148-2149-2150-2151-2157-2158-2159-2164-2167-1189-1190-1191-1192-1193-1194-1195-1196-1197-839-841-842",
-    "thesi_diorismou": "2160",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "2152.0",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 43.56,
-    "synolo_graptou": 71.78,
-    "seira_klirosis": 3845291.0,
-    "vathmologia": 98.78,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 14,
-    "am": "4152.0",
-    "eponymo": "ΣΑΚΕΛΛΑΡΙΟΥ",
-    "onoma": "ΘΕΟΔΩΡΟΣ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***959",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2124-2125-2126-2127-2128-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2159-2161-2162-2163-2164-2165-2166-2167-2168-2169",
-    "protimiseis": "2150-2142-2138-2137-2136-2135-2162-2161-2168-2169-2165-2141-2152-2155-2159-2166-2149-2132-2133-2128-2125-2127-2126-2134-2140-2139-2151-2153-2156-2163-2164-2167-2146-2147-2148-2154-2124-1059-1058-1060-1061-1062-1063-1064-951-941-942-928-929-920-960-963-968-977-978-979-998-981-984-985-986-987-988-989-990-1072-1073-1076-1077-1078-1079-1096-1097-1098-1099-1192-1193-1148-1150-1151-1152-1187-1188-1189-1191-1194-1195-1196-1202-1203-1204-1211-1210-1198-1205-1206-1207-1178-1173-1170-1153-1154-1156-1128-1106-1107-1055-1054-1053-974-972-961-944-945-946-931-949-950-952-1001",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 48.0,
-    "monades_empeirias": 4.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2150.0",
-    "monades_entop": 40.0,
-    "math1": 56.0,
-    "math2": 42.06,
-    "synolo_graptou": 49.03,
-    "seira_klirosis": 2166455.0,
-    "vathmologia": 95.03,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 15,
+    "aa": 6,
     "am": "7366.0",
     "eponymo": "ΖΙΦΚΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -460,7 +175,7 @@
     "theseis_idias_omadas": "2155",
     "protimiseis": "2155",
     "thesi_diorismou": "2155",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -480,10 +195,10 @@
     "vathmologia": 94.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 16,
+    "aa": 7,
     "am": "13130.0",
     "eponymo": "ΚΑΡΑΜΠΕΚΟΥ",
     "onoma": "ΛΑΜΠΡΙΝΗ",
@@ -493,7 +208,7 @@
     "theseis_idias_omadas": "2141-2152-2155-2165-2166",
     "protimiseis": "2141-2165-2152-2166-988-1187-984-1188-1186-1185-1078-1076-1079-1075-1073-985-901-900-2155-1192-1195",
     "thesi_diorismou": "2141",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -512,10 +227,11 @@
     "seira_klirosis": 5445377.0,
     "vathmologia": 93.97,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 17,
+    "aa": 8,
     "am": "6799.0",
     "eponymo": "ΕΞΑΡΧΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -547,7 +263,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 18,
+    "aa": 9,
     "am": "4184.0",
     "eponymo": "ΜΑΡΑΓΚΟΥΔΑΚΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -557,7 +273,7 @@
     "theseis_idias_omadas": "2124-2129-2131-2143-2144-2145-2157-2158-2160",
     "protimiseis": "1043-1042-994-1011-993-1033-1035-1037-1010-1039-1019-1003-1009-996-1007-1040-1008-896-1013-999-991-995-1036-1034-1018-1024-1006-998-2143-1124-1012-1041-1048-1014-992-1005-1046-1002-997-1022-1000-1122-881-1029-1028-1015-1047-1016-898-1004-895-1032-2145-894-1021-1001-1027-804-1020-1031-2144-1118-914-916-1023-1113-1111-1115-1132-1112-1130-1119-2157-1121-1129-789-1142-883-2160-899-1141-1139-1017-917-882-1140-884-918-2131-2158-889-1120-1136-1133-1137-877-1045-797-790-893-892-1114-1134-1135-880-1123-1138-887-886-798-2124-1049-1025-1044-1051-1099-1098-1096-2129",
     "thesi_diorismou": "1042",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -576,10 +292,11 @@
     "seira_klirosis": 3483909.0,
     "vathmologia": 92.0,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 19,
+    "aa": 10,
     "am": "1695.0",
     "eponymo": "ΠΑΠΑΡΣΕΝΟΥ",
     "onoma": "ΖΩΗ",
@@ -589,7 +306,7 @@
     "theseis_idias_omadas": "2124-2129-2131-2143-2144-2145-2157-2158-2160",
     "protimiseis": "2145-2143-780-1245-1223-1226-1286-777-1244-2144-784-783-782-2129-2124-2157-2158-2160-2131-1222",
     "thesi_diorismou": "2145",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -608,10 +325,11 @@
     "seira_klirosis": 2811342.0,
     "vathmologia": 91.72,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
+    "aa": 11,
     "am": "736.0",
     "eponymo": "ΚΑΤΣΙΑΦΥΛΛΟΥΔΗΣ",
     "onoma": "ΠΕΡΙΚΛΗΣ",
@@ -621,7 +339,7 @@
     "theseis_idias_omadas": "2128-2131-2138-2141-2143-2144-2145-2150-2152-2157-2160-2161-2162-2163-2165-2166",
     "protimiseis": "2144-1079-1077-1076-1078-1073-1099-2152-1096-1196-1018-1006-2166-2162-1009-1007-2141-2145-1000-1025-1041-1012-2143-2161-2165-999-1029-1033-1035-1023-1042-2157-2160-898-896-895-881-992-1044-2131-2138-2150-2128-2163",
     "thesi_diorismou": "2144",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -640,42 +358,11 @@
     "seira_klirosis": 9653753.0,
     "vathmologia": 91.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 21,
-    "am": "18860.0",
-    "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
-    "onoma": "ΑΝΑΣΤΑΣΙΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***825",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2135-2136-2137-2138-2142-2150-2155-2159-2162-2163",
-    "protimiseis": "2150-2138-2137-2136-2135-2163-2155-2159-2142-2162",
-    "thesi_diorismou": "2150",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 66.5,
-    "synolo_graptou": 83.25,
-    "seira_klirosis": 1220098.0,
-    "vathmologia": 91.25,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 22,
+    "aa": 12,
     "am": "8720.0",
     "eponymo": "ΠΑΠΑΙΩΑΝΝΟΥ ΜΑΝΔΗΛΑΡΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -685,7 +372,7 @@
     "theseis_idias_omadas": "2129-2143-2144-2145-2157",
     "protimiseis": "2143-2145-2144-2157-2129",
     "thesi_diorismou": "2143",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -704,10 +391,11 @@
     "seira_klirosis": 4971246.0,
     "vathmologia": 90.61,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 23,
+    "aa": 13,
     "am": "19387.0",
     "eponymo": "ΟΛΥΜΠΙΣΙΟΥ",
     "onoma": "ΖΩΗ",
@@ -717,7 +405,7 @@
     "theseis_idias_omadas": "2136-2137-2138-2141-2152-2165",
     "protimiseis": "2138-2137-2136-2152-2141-2165",
     "thesi_diorismou": "2138",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -736,10 +424,11 @@
     "seira_klirosis": 8060659.0,
     "vathmologia": 90.53,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
+    "aa": 14,
     "am": "10043.0",
     "eponymo": "ΓΚΑΓΚΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ ΘΕΟΔΩΡΟΣ",
@@ -749,7 +438,7 @@
     "theseis_idias_omadas": "2129-2131-2136-2137-2138-2141-2143-2144-2145-2157-2158-2160-2162-2166",
     "protimiseis": "988-984-986-987-2141-1187-1078-1076-1077-1079-1073-1098-1099-1096-961-954-963-965-968-967-955-2138-1016-1123-1122-996-896-1040-1012-898-884-1009-880-1008-1042-1010-893-1007-991-881-885-1019-999-1006-1018-1037-895-889-883-918-1011-1039-1111-994-1112-914-1113-993-877-1118-1020-1046-1023-998-1024-1000-1119-1029-1036-1033-1034-1035-1041-1124-1043-1003-1021-1129-1130-2145-2143-2144-2157-1148-2162-1195-1192-1196-1193-1189-2166-1139-995-1013-1142-912-1138-2137-2160-2131-1135-952-1133-958-1114-959-2158-913-927-929-1188-957-2136-953-915-1115-2129-1136-843-1116",
     "thesi_diorismou": "1016",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -768,10 +457,11 @@
     "seira_klirosis": 8118829.0,
     "vathmologia": 89.5,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 25,
+    "aa": 15,
     "am": "17157.0",
     "eponymo": "ΤΣΟΚΑΝΑΣ",
     "onoma": "ΦΙΛΙΠΠΟΣ",
@@ -781,7 +471,7 @@
     "theseis_idias_omadas": "2124-2129-2143-2144-2145-2157-2158-2160",
     "protimiseis": "2145-2144-2143-1000-991-999-1018-1038-1001-1007-1015-1027-1005-1034-1006-1014-1042-1012-1043-1011-1040-894-896-1032-1009-1039-880-1028-1010-1003-1033-1035-2124-2129-2157-998-1019-996-997-1021-1022-1024-898-1008-856-847-1016-1029-1023-881-895-883-1037-855-3165-887-2158-2160-1020-1036-893-891-1049-1050-884",
     "thesi_diorismou": "2145",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -800,10 +490,11 @@
     "seira_klirosis": 5000681.0,
     "vathmologia": 89.17,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 26,
+    "aa": 16,
     "am": "5426.0",
     "eponymo": "ΧΛΙΑΡΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -813,7 +504,7 @@
     "theseis_idias_omadas": "2125-2126-2138-2142-2143-2145-2150-2152-2161-2162-2163-2165-2166",
     "protimiseis": "2150-1062-1063-1064-901-1060-1059-1058-900-989-2142-990-2138-959-976-960-963-958-968-1145-1146-1076-1078-979-1152-974-1099-1098-1177-1079-1127-1126-905-906-929-988-1195-1192-1196-2166-840-1198-931-876-871-866-2126-2145-2143-2163-2165-2162-2125-2161-2152",
     "thesi_diorismou": "2166",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -832,10 +523,11 @@
     "seira_klirosis": 8555638.0,
     "vathmologia": 89.11,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 27,
+    "aa": 17,
     "am": "8057.0",
     "eponymo": "ΠΑΠΑΜΑΣΤΟΡΑΚΗ ΑΥΓΟΥΣΤΑΚΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -867,7 +559,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 28,
+    "aa": 18,
     "am": "14829.0",
     "eponymo": "ΧΑΤΖΗΜΙΧΟΥ",
     "onoma": "ΜΑΡΙΑΔΕΣΠΟΙΝΑ",
@@ -899,7 +591,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 29,
+    "aa": 19,
     "am": "3957.0",
     "eponymo": "ΚΟΝΤΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -909,7 +601,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2155-2156-2157-2158-2159-2160-2161-2162-2163-2165-2166-2167-2168-2169",
     "protimiseis": "2155-2141-2166-2152-2162-2165-2161-2132-2150-2167-2128-2127-2149-2138-2136-2137-2135-2169-2168-2142-2125-2163-2126-2159-2146-2151-2147-2148-2134-2145-2143-2124-2158-2157-2129-2131-2160-2144-2156-2133",
     "thesi_diorismou": "2162",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -928,10 +620,11 @@
     "seira_klirosis": 3282967.0,
     "vathmologia": 87.42,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 30,
+    "aa": 20,
     "am": "20408.0",
     "eponymo": "ΛΑΣΔΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -941,7 +634,7 @@
     "theseis_idias_omadas": "2124-2129-2131-2143-2144-2145-2157-2158-2160",
     "protimiseis": "2145-2143-2144-2129-2157-2158-2124-2131-2160",
     "thesi_diorismou": "2145",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -960,10 +653,11 @@
     "seira_klirosis": 9345983.0,
     "vathmologia": 87.0,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 31,
+    "aa": 21,
     "am": "19393.0",
     "eponymo": "ΤΣΙΩΝΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ ΡΑΦΑΗΛ",
@@ -973,7 +667,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2162-2161-2138-2137-2136-2168-2169-2135-2141-2165-2152-2126-2160-2156-2155-2159-2133-2132-2127-2163-2167-2145-2144-2143-2157-2158-2124-2131-2129-2134-2151-2125-2146-2147-2148-2149-2150-2128-2166-2142-2154-2164-2140-2153-2139",
     "thesi_diorismou": "2137",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -992,10 +686,11 @@
     "seira_klirosis": 2321757.0,
     "vathmologia": 86.92,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 32,
+    "aa": 22,
     "am": "18374.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -1005,7 +700,7 @@
     "theseis_idias_omadas": "2142-2143-2144-2145-2150-2157-2158",
     "protimiseis": "1062-1063-2150-1060-1061-900-901-989-990-2142-1064-1059-803-1115-1116-1118-1020-1031-1117-1120-1140-1042-1019-1035-1033-1034-1130-1141-1009-1043-1122-1124-1039-1114-1037-1123-999-1003-1012-1007-1011-1010-1142-995-1040-1041-998-992-1024-1018-1006-1036-1119-1139-1029-991-850-1025-1013-1008-996-1000-1023-1016-1113-804-1111-1129-1112-1138-2143-2144-2145-2158-2157-1121-1022-1005-1032-1017-1038-1001-1021-1027-1028-1015-1014-1004-997",
     "thesi_diorismou": "2143",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1025,42 +720,10 @@
     "vathmologia": 86.22,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 33,
-    "am": "7973.0",
-    "eponymo": "ΜΠΑΚΑΟΥΚΑΣ",
-    "onoma": "ΜΕΛΕΤΙΟΣ",
-    "patronymo": "ΣΤΑΜΟΣ",
-    "adt_masked": "***318",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2131-2143-2144-2145-2156-2160",
-    "protimiseis": "2156-2144-2143-2160-2131-2145",
-    "thesi_diorismou": "2156",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 220.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 51.72,
-    "synolo_graptou": 75.86,
-    "seira_klirosis": 6498036.0,
-    "vathmologia": 85.86,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 34,
+    "aa": 23,
     "am": "17811.0",
     "eponymo": "ΚΩΣΤΑΚΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1070,7 +733,7 @@
     "theseis_idias_omadas": "2135-2136-2137-2159",
     "protimiseis": "2159-2135-2137-2136",
     "thesi_diorismou": "2159",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1090,10 +753,10 @@
     "vathmologia": 85.81,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 35,
+    "aa": 24,
     "am": "6053.0",
     "eponymo": "ΠΑΠΑΓΕΩΡΓΙΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -1103,7 +766,7 @@
     "theseis_idias_omadas": "2138-2141-2152-2155-2162-2165-2166",
     "protimiseis": "1077-1076-1078-1079-1073-1075-2152-1074-2141-1098-1099-1096-2162-987-988-986-984-1187-806-2155-2138-2165-2166-807-1192",
     "thesi_diorismou": "2165",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1123,10 +786,10 @@
     "vathmologia": 85.67,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 36,
+    "aa": 25,
     "am": "43.0",
     "eponymo": "ΜΕΧΜΕΤ",
     "onoma": "ΧΙΛΑΛ",
@@ -1158,7 +821,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 37,
+    "aa": 26,
     "am": "14379.0",
     "eponymo": "ΚΑΤΑΓΑ",
     "onoma": "ΧΡΥΣΗΙΣ",
@@ -1168,7 +831,7 @@
     "theseis_idias_omadas": "2143-2144-2145",
     "protimiseis": "2145-2143-2144",
     "thesi_diorismou": "2143",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1188,10 +851,10 @@
     "vathmologia": 85.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 38,
+    "aa": 27,
     "am": "3309.0",
     "eponymo": "ΚΙΚΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1201,7 +864,7 @@
     "theseis_idias_omadas": "2143-2144-2145-2157",
     "protimiseis": "2143-2145-2144-2157",
     "thesi_diorismou": "2143",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1220,10 +883,11 @@
     "seira_klirosis": 8139218.0,
     "vathmologia": 85.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 39,
+    "aa": 28,
     "am": "11943.0",
     "eponymo": "ΜΗΛΙΩΝΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -1233,7 +897,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2126-2143-2163-2125-2145-2138-2150-2144-2167-2141-2155-2152-2148-2147-2162-2129-2158-2160-2124-2131-2157-2156-2127-2165-2137-2136-2142-2135-2128-2159-2161-2146-2149-2151-2166-2169-2168-2132-2164-2134-2153-2140-2139-2154-2133",
     "thesi_diorismou": "2126",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1252,10 +916,11 @@
     "seira_klirosis": 3420880.0,
     "vathmologia": 85.14,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 40,
+    "aa": 29,
     "am": "19006.0",
     "eponymo": "ΤΖΕΛΛΟΥ",
     "onoma": "ΒΑΙΑ",
@@ -1265,7 +930,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2150-2142-2163-2162-2166-2138-2161-2136-2155-2152-2141-2137-2133-2168-2135-2165-2125-2169-2146-2159-2149-2132-2167-2126-2154-2134-2147-2148-2127-2128-2164-2156-2151-2140-2153-2143-2145-2144-2124-2129-2131-2157-2158-2160",
     "thesi_diorismou": "2163",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1285,10 +950,10 @@
     "vathmologia": 85.03,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 41,
+    "aa": 30,
     "am": "12722.0",
     "eponymo": "ΚΟΡΟΜΗΛΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -1298,7 +963,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2155-2166-2161-2162-2152-2132-2165-2136-2133-2135-2137-2127-2128-2167-2138-2168-2169-2141-2150-2163-2159-2142-2149-2124-2160-2146-2134-2164-2126-2125-2145-2143-2129-2131-2144-2157-2158-2151-2154-2156-2147-2148-2139-2140-2153",
     "thesi_diorismou": "2132",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1318,10 +983,10 @@
     "vathmologia": 85.03,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 42,
+    "aa": 31,
     "am": "6156.0",
     "eponymo": "ΙΩΑΝΝΙΔΗΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -1331,7 +996,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2136-2137-2138-2141-2143-2144-2145-2147-2151-2152-2155-2156-2157-2158-2160-2161-2162-2163-2164-2165-2166-2167",
     "protimiseis": "2144-2143-2145-2131-2160-2157-2158-2129-2124-2128-2126-2166-2156-2133-2164-2127-2167-2141-2132-2163-2125-2155-2151-2165-2152-2161-2162-2138-2137-2136-2147-1011-1031-1112-1138-1136-1036-1040-1007-1115-999-1023-1003-991-880-1037-1034-893-916-1129-890-899-1039-1009-896-1016-1042-1041-1010-1013-1142-1130-1000-1025-917-919-914-918-1045-1048-1029-850-1033-1035-998-884-898-913-996-1134-995-912-1020-1111-1114-889-1012-994-993-1122-1018-1019-1052-1120-877-892-851-1141-1140-895-1118-883-849-1117-907-909-910-852-856-882-843-1028-1004-1005-886-997-1137-798-790-797",
     "thesi_diorismou": "2131",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1350,42 +1015,11 @@
     "seira_klirosis": 8784409.0,
     "vathmologia": 84.75,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 43,
-    "am": "13774.0",
-    "eponymo": "ΣΥΜΕΩΝΙΔΟΥ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***211",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2136-2137-2138-2152-2155-2161-2162",
-    "protimiseis": "2162-1048-806-2161-1147-958-959-942-2136-961-967-965-968-1077-954-952-962-964-966-941-957-955-956-960-1078-1075-2138-2137-963-2155-2152-1073-953-1076",
-    "thesi_diorismou": "2161",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 51.0,
-    "synolo_graptou": 75.5,
-    "seira_klirosis": 6106376.0,
-    "vathmologia": 84.5,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 44,
+    "aa": 32,
     "am": "15720.0",
     "eponymo": "ΕΥΘΥΜΙΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1417,7 +1051,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 45,
+    "aa": 33,
     "am": "16914.0",
     "eponymo": "ΚΟΜΝΗΝΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1427,7 +1061,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "1097-1079-1196-1195-2143-2133-2135-2136-2141-2162-2163-2166-2168-2169-2125-2126-2138-2158-2157-2131-2129-2124-2137-2144-2160-2155-2132-2165-2152-2147-2148-2149-2150-2151-2153-2154-2156-2161-2159-2164-2146-2142-2140-2139-2134-2127-2128-2167-862-1187-1188-1189-1192-1191-927-928-929-958-961-962-988-1073-1076-1077-1078-793-807-858-841-842-865-868-870-871-872-874-876-787-896-894-942-941-999-1003-1011-1040-1042-1023-1022-1021-1014-1009-1012-954-991-996-997-966-880-884-890-893-986-987-967-965-955-1100-1104-1033-1034-1035-1043-1037-1027-1000-953-959-964-854-860-861-863-838-839-840-856-844-866-867-859-849-850-851-853-852-869-875-877-882-883-855-886-887-888-889-891-892-897-899-909-911-912-913-914-916-915-917-918-919-938-939-940-956",
     "thesi_diorismou": "2133",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1446,10 +1080,11 @@
     "seira_klirosis": 4683896.0,
     "vathmologia": 84.47,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 46,
+    "aa": 34,
     "am": "2030.0",
     "eponymo": "ΜΠΛΟΥΓΟΥΡΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1459,7 +1094,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2141-2165-2162-2134-2166-2125-2138-2137-2136-2135-2133-2168-2169-2163-2145-2144-2126-2158-2157-2160-2143-2131-2129-2124-2154-2140-2139-2155-2152-2161-2150-2128-2127-2132-2167-2142-2149-2159-2151-2156-2147-2148-2146-2164-2153-1187-1188-1186-1185-1011-1040-1136-988-987-984-986-1007-991-1076-1079-1078-1077-1073-1099-1098-1096-1097-1148-806-1196-1195-1192-1194-1191-1189-1193-942-941-929-928-927-1152-1150-1151-979-981-980-978-840-841-842-839-838-1204-1203-1202-876-875-874-1067-1065-865-872-871-866-869-867-868-1072-1071-863-862-861-860-859-940-1104-1103-939-1100-938-858-961-958-968-959-960",
     "thesi_diorismou": "2134",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1478,10 +1113,11 @@
     "seira_klirosis": 4535236.0,
     "vathmologia": 84.39,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 47,
+    "aa": 35,
     "am": "925.0",
     "eponymo": "ΚΑΡΑΚΑΣΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1513,7 +1149,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 48,
+    "aa": 36,
     "am": "14425.0",
     "eponymo": "ΣΟΥΡΛΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΙΑ",
@@ -1523,7 +1159,7 @@
     "theseis_idias_omadas": "2136-2138-2141-2150-2152-2155-2161-2162-2165-2166",
     "protimiseis": "2152-2166-2141-2155-2165-2162-2161-2138-2136-2150",
     "thesi_diorismou": "2136",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1542,10 +1178,11 @@
     "seira_klirosis": 2923972.0,
     "vathmologia": 84.22,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 49,
+    "aa": 37,
     "am": "4942.0",
     "eponymo": "ΜΟΥΤΣΙΑΚΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -1577,7 +1214,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 50,
+    "aa": 38,
     "am": "19353.0",
     "eponymo": "ΙΓΝΑΤΙΑΔΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -1587,7 +1224,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2138-2137-2136-2162-2161-2168-2135-2155-2152-2149-2159-2150-2142-2126-2165-2141-2163-2125-2133-2166-2167-2132-2127-2146-2164-2140-2151-2139-2134-2128-2160-2153-2154-2156-2157-2158-2124-2147-2148-2145-2143-2129-2131-2144-2169",
     "thesi_diorismou": "2168",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1606,10 +1243,11 @@
     "seira_klirosis": 8411975.0,
     "vathmologia": 83.69,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 51,
+    "aa": 39,
     "am": "5262.0",
     "eponymo": "ΚΟΝΤΟΥΡΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ ΔΙΟΝΥΣΙΟΣ",
@@ -1641,7 +1279,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 52,
+    "aa": 40,
     "am": "1594.0",
     "eponymo": "ΛΑΖΑΡΟΠΟΥΛΟΥ",
     "onoma": "ΠΕΛΑΓΙΑ",
@@ -1651,7 +1289,7 @@
     "theseis_idias_omadas": "2146",
     "protimiseis": "2146",
     "thesi_diorismou": "2146",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1670,10 +1308,11 @@
     "seira_klirosis": 3930516.0,
     "vathmologia": 82.89,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 53,
+    "aa": 41,
     "am": "7510.0",
     "eponymo": "ΑΛΕΒΙΖΑΚΗ",
     "onoma": "ΧΑΡΙΣ-ΓΕΩΡΓΙΑ",
@@ -1683,7 +1322,7 @@
     "theseis_idias_omadas": "2124-2129-2158",
     "protimiseis": "2124-2129-2158",
     "thesi_diorismou": "2124",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -1702,10 +1341,11 @@
     "seira_klirosis": 8679256.0,
     "vathmologia": 82.61,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 54,
+    "aa": 42,
     "am": "9367.0",
     "eponymo": "ΒΑΣΣΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1737,7 +1377,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 55,
+    "aa": 43,
     "am": "14358.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
     "onoma": "ΦΩΤΙΟΣ ΑΘΑΝΑΣΙΟΣ",
@@ -1747,7 +1387,7 @@
     "theseis_idias_omadas": "2125-2137-2138-2142-2150",
     "protimiseis": "2142-2150-2138-2137-2125",
     "thesi_diorismou": "2125",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1766,10 +1406,11 @@
     "seira_klirosis": 9200871.0,
     "vathmologia": 81.75,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 56,
+    "aa": 44,
     "am": "1108.0",
     "eponymo": "ΛΕΓΟΣ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -1801,7 +1442,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 57,
+    "aa": 45,
     "am": "633.0",
     "eponymo": "ΖΗΓΡΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1833,7 +1474,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 58,
+    "aa": 46,
     "am": "17629.0",
     "eponymo": "ΣΤΑΜΠΟΥΛΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1843,7 +1484,7 @@
     "theseis_idias_omadas": "2125-2126-2127-2128-2129-2132-2134-2135-2136-2137-2138-2140-2141-2142-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2159-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2150-2142-2165-2162-2161-2137-2138-2136-2141-2163-2134-2146-2168-2169-2149-2126-2159-2167-2125-2135-2166-2155-2127-2128-2132-2151-2152-2147-2148-2164-2154-2129-2153-2156-2140",
     "thesi_diorismou": "2169",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1862,10 +1503,11 @@
     "seira_klirosis": 2175860.0,
     "vathmologia": 81.17,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 59,
+    "aa": 47,
     "am": "20224.0",
     "eponymo": "ΚΟΚΟΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -1875,7 +1517,7 @@
     "theseis_idias_omadas": "2124-2126-2129-2131-2143-2144-2145-2157-2158-2160-2164",
     "protimiseis": "2145-2143-2144-2157-2158-2160-2129-2124-2131-2126-2164",
     "thesi_diorismou": "2157",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1894,10 +1536,11 @@
     "seira_klirosis": 2237290.0,
     "vathmologia": 80.86,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 60,
+    "aa": 48,
     "am": "16539.0",
     "eponymo": "ΜΠΑΣΙΑΚΟΥΛΗΣ",
     "onoma": "ΣΩΚΡΑΤΗΣ",
@@ -1929,39 +1572,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 61,
-    "am": "10734.0",
-    "eponymo": "ΣΤΕΡΓΙΑΚΗΣ ΜΙΜΗΣ",
-    "onoma": "ΔΗΜΗΤΡΙΟΣ",
-    "patronymo": "ΑΠΟΣΤΟΛΟΣ",
-    "adt_masked": "***534",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2136-2137-2138-2141-2143-2144-2145-2152-2155-2161-2162-2164-2165-2166",
-    "protimiseis": "2144-2152-2162-2155-2141-2161-2165-2166-2145-2138-2136-2137-2143-2164",
-    "thesi_diorismou": "2152",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 95.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 49.11,
-    "synolo_graptou": 72.56,
-    "seira_klirosis": 5242371.0,
-    "vathmologia": 80.56,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 62,
+    "aa": 49,
     "am": "11245.0",
     "eponymo": "ΚΑΡΑΚΑΣΙΔΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -1971,7 +1582,7 @@
     "theseis_idias_omadas": "2125-2126-2127-2128-2132-2133-2134-2135-2136-2137-2138-2141-2142-2144-2145-2149-2150-2151-2152-2155-2159-2161-2162-2163-2165-2166-2167-2168-2169",
     "protimiseis": "2144-2133-2145-2159-2138-2137-2135-2136-2134-2168-2169-2162-2149-2161-2150-2152-2165-2142-2155-2141-2132-2163-2125-2166-2126-2167-2127-2128-2151",
     "thesi_diorismou": "2135",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1991,10 +1602,10 @@
     "vathmologia": 80.44,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 63,
+    "aa": 50,
     "am": "4626.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΣΤΡΑΤΙΑ",
@@ -2026,7 +1637,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 64,
+    "aa": 51,
     "am": "1461.0",
     "eponymo": "ΝΑΣΙΑΚΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ ΚΕΡΑΣΙΑ",
@@ -2036,7 +1647,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2141-2144-2145-2143-2166-2138-2126-2133-2150-2154-2165-2157-2160-2131-2158-2129-2124-2162-2155-2137-2152-2136-2161-2128-2135-2168-2169-2125-2163-2142-2159-2149-2151-2167-2156-2164-2147-2148-2146-2127-2134-2139-2132-2140-2153-988-984-987-986-1187-1188-1079-1078-1076-1073-1077-1195-1196-1192-1191-1194-1193-1098-1099-1096-1012-884-898-1136-1137-1043-1124-1040-1008-1009-1014-896-1011-1010-1039-1042-880-1142-1013-1041-1138-1016-1017-1037-1123-1114-918-895-883-995-996-997-1122-1038-894-998-1027-1028-999-1004-991-1018-1015-1006-1049-1050-1036-1003-1135-1005-893-1001-1111-1112-1113-1129-914-877-1024-1021-1022-1020-1025-1023-1031-1134-1120-1118-916-1140-917-1048-1052-899-1045-1115-1046-1047-1033-1034-1035-1002-1130-1141-1007-1019-886-1029-1000-1119-1139-850-1117-993-958-966-954-868-865-870",
     "thesi_diorismou": "2154",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2055,10 +1666,11 @@
     "seira_klirosis": 9332668.0,
     "vathmologia": 80.06,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 65,
+    "aa": 52,
     "am": "6602.0",
     "eponymo": "ΣΑΣΣΑΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2068,7 +1680,7 @@
     "theseis_idias_omadas": "2143-2144-2145-2151-2154-2157-2158-2160",
     "protimiseis": "862-859-863-860-2145-2143-2144-2151-2154-2157-2158-2160",
     "thesi_diorismou": "2151",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2087,10 +1699,11 @@
     "seira_klirosis": 8126174.0,
     "vathmologia": 79.81,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 66,
+    "aa": 53,
     "am": "10508.0",
     "eponymo": "ΛΑΝΤΖΟΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -2122,7 +1735,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 67,
+    "aa": 54,
     "am": "5328.0",
     "eponymo": "ΜΟΤΑΣ",
     "onoma": "ΤΑΞΙΑΡΧΗΣ",
@@ -2154,7 +1767,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 68,
+    "aa": 55,
     "am": "2372.0",
     "eponymo": "ΖΩΓΡΑΦΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2186,7 +1799,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 69,
+    "aa": 56,
     "am": "7312.0",
     "eponymo": "ΚΑΡΑΓΚΟΥΝΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΑ",
@@ -2196,7 +1809,7 @@
     "theseis_idias_omadas": "2133-2137-2138-2143-2144-2145-2149-2150-2154-2155-2156-2157-2158-2159-2160-2161-2162-2164-2165-2166-2168-2169",
     "protimiseis": "2145-2138-2133-2143-2154-2150-2169-2168-2149-2137-2160-2162-2165-2161-2158-2157-2144-2159-2166-2164-2156-2155",
     "thesi_diorismou": "2149",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2215,10 +1828,11 @@
     "seira_klirosis": 7553390.0,
     "vathmologia": 79.28,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 70,
+    "aa": 57,
     "am": "20674.0",
     "eponymo": "ΦΕΙΔΟΓΙΑΝΝΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -2250,7 +1864,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 71,
+    "aa": 58,
     "am": "539.0",
     "eponymo": "ΚΑΤΣΙΜΑΡΔΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -2260,7 +1874,7 @@
     "theseis_idias_omadas": "2125-2126-2127-2128-2141-2142-2143-2144-2145-2150-2152-2155-2162-2163-2165-2166-2167",
     "protimiseis": "2125-2163-2126-840-838-839-787-841-2167-2127-2166-2162-2165-2128-2152-2142-2155-2141-2144-2145-2150-2143",
     "thesi_diorismou": "2167",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2280,10 +1894,10 @@
     "vathmologia": 79.25,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 72,
+    "aa": 59,
     "am": "11605.0",
     "eponymo": "ΑΘΑΝΑΣΙΑΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2293,7 +1907,7 @@
     "theseis_idias_omadas": "2124-2126-2129-2131-2133-2135-2136-2137-2138-2139-2143-2144-2145-2146-2147-2148-2150-2151-2155-2157-2158-2160-2164",
     "protimiseis": "2145-2144-2143-2158-2157-2160-2129-2124-2131-2155-2138-2137-2135-2136-2150-2133-2126-2146-2151-2139-2164-2147-2148",
     "thesi_diorismou": "2158",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2312,10 +1926,11 @@
     "seira_klirosis": 9250813.0,
     "vathmologia": 78.86,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 73,
+    "aa": 60,
     "am": "5268.0",
     "eponymo": "ΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΗΛΙΑΣ",
@@ -2325,7 +1940,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2155-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2152-1074-1073-1079-1078-1077-1076-1075-2141-2155-2165-984-985-986-987-988-1095-1096-1097-1098-1099-1185-1186-1187-1188-2133-2135-2136-2137-2138-2142-2161-2162-2163-2168-2169-2166-2125-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-793-858-874-875-876-978-979-980-981-927-928-929-941-942-1053-1054-1055-1056-1090-1091-1092-1148-1150-1151-1152-1202-1203-1204-2126-2160-2139-2146-2124-2127-2128-2129-2131-2132-2134-2143-2144-2145-2147-2148-2149-2150-2151-2157-2158-2159-2164-2167-1189-1190-1191-1192-1193-1194-1195-1196-1197-839-841-842",
     "thesi_diorismou": "2160",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2344,10 +1959,11 @@
     "seira_klirosis": 3845291.0,
     "vathmologia": 78.78,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 74,
+    "aa": 61,
     "am": "14096.0",
     "eponymo": "ΤΕΡΨΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -2357,7 +1973,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2142-2150-2138-2137-2168-2136-2162-2169-2135-2144-2145-2143-2129-2158-2157-2131-2124-2141-2126-2125-2163-2160-2166-2149-2161-2165-2152-2159-2155-2146-2147-2148-2134-2127-2128-2132-2167-2164-2139-2154-2156-2153-2151-2140",
     "thesi_diorismou": "2129",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2376,10 +1992,11 @@
     "seira_klirosis": 3583946.0,
     "vathmologia": 78.61,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 75,
+    "aa": 62,
     "am": "6859.0",
     "eponymo": "ΓΚΙΝΗ",
     "onoma": "ΒΕΡΟΝΙΚΗ",
@@ -2411,7 +2028,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 76,
+    "aa": 63,
     "am": "7894.0",
     "eponymo": "ΛΑΧΤΑΡΙΔΟΥ",
     "onoma": "ΘΕΟΠΟΥΛΑ",
@@ -2443,7 +2060,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 77,
+    "aa": 64,
     "am": "2173.0",
     "eponymo": "ΠΕΤΡΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2475,7 +2092,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 78,
+    "aa": 65,
     "am": "1671.0",
     "eponymo": "ΠΑΠΑΝΑΣΤΑΣΟΥΛΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -2507,7 +2124,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 79,
+    "aa": 66,
     "am": "11915.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -2517,7 +2134,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2129-2131-2132-2133-2134-2135-2136-2137-2138-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2167-2168-2169",
     "protimiseis": "2163-2150-2125-2134-2152-2138-2165-2155-2141-2142-2154-2146-2147-2148-2162-2149-2169-2168-2164-2167-2159-2161-2126-2132-2137-2153-2140-2156-2145-2143-2144-2157-2158-2131-2124-2160-2129-2136-2135-2133",
     "thesi_diorismou": "2147",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2536,10 +2153,11 @@
     "seira_klirosis": 3185194.0,
     "vathmologia": 77.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 80,
+    "aa": 67,
     "am": "13722.0",
     "eponymo": "ΡΕΛΙΑΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -2571,7 +2189,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 81,
+    "aa": 68,
     "am": "4696.0",
     "eponymo": "ΚΑΝΑΚΑ",
     "onoma": "ΙΩΑΝΝΑ ΧΡΙΣΤΙΑΝΑ",
@@ -2603,7 +2221,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 82,
+    "aa": 69,
     "am": "12305.0",
     "eponymo": "ΠΑΤΕΛΙΔΑ",
     "onoma": "ΜΑΡΙΑΝΝΑ",
@@ -2635,7 +2253,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 83,
+    "aa": 70,
     "am": "1832.0",
     "eponymo": "ΜΑΝΟΥ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -2667,7 +2285,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 84,
+    "aa": 71,
     "am": "7735.0",
     "eponymo": "ΧΑΤΖΗΠΑΝΤΑΖΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -2699,7 +2317,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 85,
+    "aa": 72,
     "am": "9097.0",
     "eponymo": "ΣΠΗΛΙΩΤΟΠΟΥΛΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2731,7 +2349,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 86,
+    "aa": 73,
     "am": "20309.0",
     "eponymo": "ΚΑΤΣΙΚΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -2763,7 +2381,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 87,
+    "aa": 74,
     "am": "18173.0",
     "eponymo": "ΤΑΜΠΟΥΡΗ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -2795,7 +2413,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 88,
+    "aa": 75,
     "am": "2566.0",
     "eponymo": "ΡΑΒΑΝΙΔΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -2827,7 +2445,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 89,
+    "aa": 76,
     "am": "4275.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΡΜΙΟΝΗ",
@@ -2859,7 +2477,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 90,
+    "aa": 77,
     "am": "10789.0",
     "eponymo": "ΜΗΤΣΟΠΟΥΛΟΥ",
     "onoma": "ΘΩΜΑΗ",
@@ -2891,7 +2509,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 91,
+    "aa": 78,
     "am": "11821.0",
     "eponymo": "ΡΟΙΔΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -2923,7 +2541,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 92,
+    "aa": 79,
     "am": "20769.0",
     "eponymo": "ΝΤΑΙΛΙΑΝΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -2955,7 +2573,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 93,
+    "aa": 80,
     "am": "14103.0",
     "eponymo": "ΜΠΟΓΙΑΤΖΗ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -2987,7 +2605,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 94,
+    "aa": 81,
     "am": "17735.0",
     "eponymo": "ΣΥΡΑΚΟΣ",
     "onoma": "ΛΑΜΠΡΟΣ",
@@ -3019,7 +2637,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 95,
+    "aa": 82,
     "am": "14660.0",
     "eponymo": "ΔΑΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3029,7 +2647,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "941-942-958-1146-968-964-959-961-965-967-963-1177-1176-954-955-952-957-956-953-905-906-1064-1063-901-979-980-1151-1159-1078-1076-1077-1204-1145-1144-1062-1060-1059-1061-1098-1099-945-946-949-950-809-858-871-872-865-868-866-850-1012-1013-1101-1102-1104-1206-1209-1207-1008-1009-1010-1011-1040-1041-1042-1043-1055-1056-1124-1136-1138-1142-1182-1180-1179-1081-1170-1167-1158-969-936-935-1079-1051-1039-880-896-1004-1044-929-966-1154-1195-889-995-999-1025-1067-1137-1115-1116-1118-1046-1037-1193-976-867-1196-1038-996-3154-2138-2150-2143-2126-2145-2166-2144-2136-2137-2135-2162-2161-2153-2152-2163-2142-2146-2168-2169-2165-2155-2147-2164-2149-2154-2139-2141-2159-2132-2167-2156-2125-2148-2134-2127-2158-2157-2160-2124-2129-2131-2151-2128-2133-2140",
     "thesi_diorismou": "2153",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3049,10 +2667,10 @@
     "vathmologia": 72.08,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 96,
+    "aa": 83,
     "am": "15448.0",
     "eponymo": "ΥΔΡΑΙΟΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -3062,7 +2680,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2141-2142-2143-2144-2145-2146-2147-2148-2150-2151-2152-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2165-2166-2167-2168-2169",
     "protimiseis": "2155-2152-2166-2141-2165-2161-2162-2125-2132-2135-2136-2137-2138-2142-2133-2150-2163-2167-2168-2169-2159-2146-2127-2128-2126-2151-2143-2144-2145-2158-2160-2124-2129-2131-2147-2148-2156-2157-2154-2134",
     "thesi_diorismou": "2127",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3081,10 +2699,11 @@
     "seira_klirosis": 8627208.0,
     "vathmologia": 71.22,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 97,
+    "aa": 84,
     "am": "19885.0",
     "eponymo": "ΦΑΣΣΑ",
     "onoma": "ΝΙΚΟΛΙΝΑ",
@@ -3094,7 +2713,7 @@
     "theseis_idias_omadas": "2127-2128",
     "protimiseis": "2128-2127",
     "thesi_diorismou": "2128",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3113,10 +2732,11 @@
     "seira_klirosis": 3670573.0,
     "vathmologia": 70.53,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 98,
+    "aa": 85,
     "am": "11657.0",
     "eponymo": "ΒΩΒΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3126,7 +2746,7 @@
     "theseis_idias_omadas": "2124-2126-2127-2128-2129-2131-2132-2133-2136-2137-2138-2139-2141-2143-2144-2145-2146-2147-2148-2150-2152-2153-2154-2155-2156-2157-2158-2160-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2145-2143-2144-2160-2157-2124-2129-2158-2131-2156-2133-2126-2132-2167-2128-2155-2166-2164-2154-2153-2147-2146-2148-2139-2138-2137-2163-2165-2127-2141-2152-2150-2136-2168-2169",
     "thesi_diorismou": "2164",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3145,10 +2765,11 @@
     "seira_klirosis": 9820206.0,
     "vathmologia": 70.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 99,
+    "aa": 86,
     "am": "16907.0",
     "eponymo": "ΣΑΚΚΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -3158,7 +2779,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2129-2131-2132-2133-2135-2136-2137-2138-2140-2141-2142-2143-2144-2145-2147-2148-2150-2153-2157-2158-2160-2162-2163-2166-2168-2169",
     "protimiseis": "2145-2144-2143-2125-2163-2124-2129-2131-2126-2138-2150-2157-2158-2160-2153-2132-2133-2137-2166-2135-2136-2147-2148-2168-2169-2140-2142-2141-2162",
     "thesi_diorismou": "2147",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3177,10 +2798,11 @@
     "seira_klirosis": 1923564.0,
     "vathmologia": 70.28,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 100,
+    "aa": 87,
     "am": "18177.0",
     "eponymo": "ΚΑΤΡΑΔΗ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -3212,7 +2834,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 101,
+    "aa": 88,
     "am": "9459.0",
     "eponymo": "ΝΟΥΤΣΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -3222,7 +2844,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2145-2143-2144-2131-2129-2160-2157-2158-2124-2127-2128-2156-2166-2132-2126-2159-2155-2152-2161-2162-2165-2163-2168-2169-2135-2136-2137-2138-2141-2125-2167-2151-2150-2142-2149-2134-2164-2154-2147-2148-2146-2140-2139-2153-1033-1035-1034-1025-1044-1051-1028-1130-1020-991-1011-1009-1012-1008-1010-1013-1023-1000-1003-998-999-996-995-1019-880-907-908-909-910-911-917-918-919-916-914-898-884-883-881-885-882-843-849-889-890-892-893-899-1007-1018-913-912-915-1031-1029-1024-1006-844-850-877-855-845-846-847-848-851-993-994-992-1166-1165-1164-1162-1160-1163-1161",
     "thesi_diorismou": "2148",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3241,10 +2863,11 @@
     "seira_klirosis": 6231166.0,
     "vathmologia": 70.14,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 102,
+    "aa": 89,
     "am": "8424.0",
     "eponymo": "ΣΑΜΑΡΑ",
     "onoma": "ΦΑΝΗ",
@@ -3254,7 +2877,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2152-2165-2161-2141-2162-2138-2135-2137-2136-2150-2155-2166-2169-2168-2145-2144-2167-2127-2129-2126-2124-2131-2143-2133-2128-2142-2160-2157-2158-2149-2125-2159-2163-2151-2156-2153-2164-2148-2147-2146-2139-2140-2154-2132-2134",
     "thesi_diorismou": "2139",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -3273,10 +2896,11 @@
     "seira_klirosis": 5786307.0,
     "vathmologia": 69.47,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 103,
+    "aa": 90,
     "am": "5300.0",
     "eponymo": "ΘΥΜΙΑΚΟΥ",
     "onoma": "ΓΛΥΚΕΡΙΑ",
@@ -3286,7 +2910,7 @@
     "theseis_idias_omadas": "2124-2125-2126-2127-2128-2129-2131-2132-2133-2134-2135-2136-2137-2138-2139-2140-2141-2142-2143-2144-2145-2146-2147-2148-2149-2150-2151-2152-2153-2154-2155-2156-2157-2158-2159-2160-2161-2162-2163-2164-2165-2166-2167-2168-2169",
     "protimiseis": "2165-2141-2152-2155-2150-2162-2161-2142-2138-2137-2136-2135-2145-2143-2144-2129-2131-2157-2158-2160-2124-2169-2168-2166-2128-2127-2125-2167-2133-2126-2163-2132-2146-2156-2159-2149-2151-2164-2148-2147-2153-2139-2134-2154-2140",
     "thesi_diorismou": "2140",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3305,10 +2929,11 @@
     "seira_klirosis": 5865673.0,
     "vathmologia": 68.5,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
+    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 104,
+    "aa": 91,
     "am": "3475.0",
     "eponymo": "ΤΖΙΜΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3340,7 +2965,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 105,
+    "aa": 92,
     "am": "17104.0",
     "eponymo": "ΣΚΙΠΙΤΑΡΗΣ",
     "onoma": "ΧΑΡΙΛΑΟΣ  ΠΑΝΑΓΙΩΤΗΣ",
@@ -3372,7 +2997,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 106,
+    "aa": 93,
     "am": "5855.0",
     "eponymo": "ΚΟΥΡΤΙΔΟΥ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -3404,7 +3029,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 107,
+    "aa": 94,
     "am": "17684.0",
     "eponymo": "ΒΑΣΙΛΕΙΑΔΗΣ",
     "onoma": "ΣΑΒΒΑΣ",
@@ -3436,7 +3061,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 108,
+    "aa": 95,
     "am": "14318.0",
     "eponymo": "ΚΟΥΡΟΥΓΕΩΡΓΑΚΗ",
     "onoma": "ΙΟΡΔΑΝΑ",
@@ -3468,7 +3093,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 109,
+    "aa": 96,
     "am": "5758.0",
     "eponymo": "ΚΑΡΑΠΑΝΑΓΙΩΤΙΔΟΥ",
     "onoma": "ΠΟΛΥΞΕΝΗ",
@@ -3500,7 +3125,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 110,
+    "aa": 97,
     "am": "16305.0",
     "eponymo": "ΑΠΟΣΤΟΛΙΔΗΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -3532,7 +3157,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 111,
+    "aa": 98,
     "am": "10057.0",
     "eponymo": "ΒΑΛΑΡΗ",
     "onoma": "ΠΟΛΥΞΕΝΗ",
@@ -3564,7 +3189,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 112,
+    "aa": 99,
     "am": "17465.0",
     "eponymo": "ΤΡΙΚΚΑΛΙΩΤΗ",
     "onoma": "ΣΟΥΛΤΑΝΑ ΑΝΝΑ",
@@ -3596,7 +3221,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 113,
+    "aa": 100,
     "am": "19590.0",
     "eponymo": "ΠΑΠΑΔΩΡΟΘΕΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -3628,7 +3253,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 114,
+    "aa": 101,
     "am": "8823.0",
     "eponymo": "ΚΩΣΤΟΥΛΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -3660,7 +3285,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 115,
+    "aa": 102,
     "am": "7707.0",
     "eponymo": "ΤΣΙΑΛΤΑΣ",
     "onoma": "ΧΡΥΣΟΒΑΛΑΝΤΗΣ",
@@ -3692,7 +3317,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 116,
+    "aa": 103,
     "am": "14971.0",
     "eponymo": "ΚΑΚΙΑ",
     "onoma": "ΣΠΥΡΙΔΟΥΛΑ",
@@ -3724,7 +3349,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 117,
+    "aa": 104,
     "am": "16275.0",
     "eponymo": "ΜΕΛΙΑΝΙΔΟΥ",
     "onoma": "ΛΕΥΚΙΠΠΑ",
@@ -3756,39 +3381,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 118,
-    "am": "16275.0",
-    "eponymo": "ΜΕΛΙΑΝΙΔΟΥ",
-    "onoma": "ΛΕΥΚΙΠΠΑ",
-    "patronymo": "ΚΥΡΙΑΚΟΣ",
-    "adt_masked": "***552",
-    "omada_prosonton": "338 -001,013",
-    "theseis_idias_omadas": "2135-2136-2137-2138-2149-2169",
-    "protimiseis": "2149-2138-2137-2136-2135-2169",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 159.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 68.0,
-    "math2": 37.17,
-    "synolo_graptou": 52.58,
-    "seira_klirosis": 8932963.0,
-    "vathmologia": 59.08,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ, ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
-  },
-  {
-    "aa": 119,
+    "aa": 105,
     "am": "19932.0",
     "eponymo": "ΚΑΜΠΕΡΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3820,7 +3413,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 120,
+    "aa": 106,
     "am": "4152.0",
     "eponymo": "ΣΑΚΕΛΛΑΡΙΟΥ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -3852,7 +3445,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 121,
+    "aa": 107,
     "am": "17719.0",
     "eponymo": "ΧΑΤΖΗΣΤΟΓΙΑΝΝΗΣ",
     "onoma": "ΑΣΤΕΡΙΟΣ",
@@ -3884,7 +3477,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 122,
+    "aa": 108,
     "am": "3002.0",
     "eponymo": "ΟΙΚΟΝΟΜΟΥ",
     "onoma": "ΚΑΣΣΙΑΝΗ",
@@ -3916,7 +3509,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 123,
+    "aa": 109,
     "am": "2240.0",
     "eponymo": "ΒΟΥΛΓΑΡΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -3948,7 +3541,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 124,
+    "aa": 110,
     "am": "533.0",
     "eponymo": "ΤΣΙΤΣΟΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -3980,7 +3573,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 125,
+    "aa": 111,
     "am": "3421.0",
     "eponymo": "ΠΑΥΛΙΔΗΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -4012,7 +3605,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 126,
+    "aa": 112,
     "am": "7303.0",
     "eponymo": "ΠΙΤΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -4044,7 +3637,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 127,
+    "aa": 113,
     "am": "14744.0",
     "eponymo": "ΜΑΝΘΟΓΙΑΝΝΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -4076,7 +3669,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-chorotaxias-poleodomias-kai-anaptyxis"
   },
   {
-    "aa": 128,
+    "aa": 114,
     "am": "15960.0",
     "eponymo": "ΠΑΡΙΣΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",

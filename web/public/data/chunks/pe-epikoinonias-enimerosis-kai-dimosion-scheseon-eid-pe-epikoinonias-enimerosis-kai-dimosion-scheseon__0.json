@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "1295",
     "protimiseis": "1295-1153-1154-1159-1157-1158",
     "thesi_diorismou": "1295",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,7 +29,8 @@
     "seira_klirosis": 3398817.0,
     "vathmologia": 128.17,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
@@ -42,7 +43,7 @@
     "theseis_idias_omadas": "1296",
     "protimiseis": "1167-1296-1170-1169-1168",
     "thesi_diorismou": "1167",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -61,7 +62,8 @@
     "seira_klirosis": 6521961.0,
     "vathmologia": 126.03,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 3,
@@ -74,7 +76,7 @@
     "theseis_idias_omadas": "1290-1291",
     "protimiseis": "1290-1291-949-946-945-943-948-950-794",
     "thesi_diorismou": "1290",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -93,7 +95,8 @@
     "seira_klirosis": 5646854.0,
     "vathmologia": 121.53,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 4,
@@ -106,7 +109,7 @@
     "theseis_idias_omadas": "1290-1291-1295",
     "protimiseis": "1291-1290-949-946-950-945-947-948-943-944-794-1295-795",
     "thesi_diorismou": "1291",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -125,106 +128,11 @@
     "seira_klirosis": 7715965.0,
     "vathmologia": 118.25,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 5,
-    "am": "4683.0",
-    "eponymo": "ΚΑΠΕΤΑΝΑΚΗ",
-    "onoma": "ΕΛΕΥΘΕΡΙΑ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***554",
-    "omada_prosonton": "317 -001",
-    "theseis_idias_omadas": "1290-1291-1292-1294-1295-1296",
-    "protimiseis": "1290-1291-1295-1294-1296-1292-945-950-946-947-948-949-794-943-944-795-1081-1080-1156-1055-1159-1157-1158-1154-1153-809-1209-1206-1207-1208-1205-996-997-991-3160-893-888-3165-887-880-886-881-885-896-998-995-1003-1005-856-999-1000-1011-1012-1021-1023-1032-1040-1042-789-790-804-844-868-870-877-884-891-898-961-962-1007-1006-1041-1065-1067-1113-1115-1015-1018-1016-1014-1013-1008-1009-1010-1017-865",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1290- 1291",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 44.17,
-    "synolo_graptou": 72.08,
-    "seira_klirosis": 3544900.0,
-    "vathmologia": 118.08,
-    "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
-  },
-  {
-    "aa": 6,
-    "am": "11980.0",
-    "eponymo": "ΤΣΙΡΙΜΠΑΣ",
-    "onoma": "ΙΩΑΝΝΗΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***624",
-    "omada_prosonton": "317 -001",
-    "theseis_idias_omadas": "1290-1291-1292-1294-1295-1296",
-    "protimiseis": "1294-1292-1295-1291-1290-1296",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 17.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1290- 1291",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 38.84,
-    "synolo_graptou": 69.42,
-    "seira_klirosis": 3785101.0,
-    "vathmologia": 110.42,
-    "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
-  },
-  {
-    "aa": 7,
-    "am": "18461.0",
-    "eponymo": "ΠΑΠΑΙΣΙΔΩΡΟΥ",
-    "onoma": "ΑΛΕΞΑΝΔΡΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***350",
-    "omada_prosonton": "317 -001",
-    "theseis_idias_omadas": "1290-1291-1292-1294-1295-1296",
-    "protimiseis": "810-811-812-813-1290-1291-1292-1294-1295-1296-1434-1435-1436-1438-1440-1441-1443",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": "5.0",
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 20.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1290- 1291- 1295",
-    "monades_entop": 40.0,
-    "math1": 68.0,
-    "math2": 41.06,
-    "synolo_graptou": 54.53,
-    "seira_klirosis": 2379393.0,
-    "vathmologia": 104.03,
-    "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
-  },
-  {
-    "aa": 8,
     "am": "7265.0",
     "eponymo": "ΜΑΥΡΙΔΟΥ",
     "onoma": "ΗΛΙΑΝΑ",
@@ -234,7 +142,7 @@
     "theseis_idias_omadas": "1292",
     "protimiseis": "961-958-956-959-963-962-967-952-1292-965",
     "thesi_diorismou": "952",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -253,10 +161,11 @@
     "seira_klirosis": 2091462.0,
     "vathmologia": 94.11,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 9,
+    "aa": 6,
     "am": "6561.0",
     "eponymo": "ΝΟΥΛΑ",
     "onoma": "ΕΥΗ ΠΑΡΑΣΚΕΥΗ",
@@ -266,7 +175,7 @@
     "theseis_idias_omadas": "1294",
     "protimiseis": "998-999-1003-1122-1043-1019-1005-991-995-1011-1006-1040-1042-1015-1009-1294-997-1018-1023-1039",
     "thesi_diorismou": "999",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -285,10 +194,11 @@
     "seira_klirosis": 9063809.0,
     "vathmologia": 93.47,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
+    "aa": 7,
     "am": "311.0",
     "eponymo": "ΞΗΜΕΡΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -298,7 +208,7 @@
     "theseis_idias_omadas": "1294",
     "protimiseis": "880-889-885-898-899-877-893-892-790-1045-797-890-884-883-881-882-789-896-895-1052-798-1049-1011-1009-1012-1043-1010-1008-1041-1040-1042-1039-1013-991-1037-996-1029-995-1031-1020-1036-1003-1024-1023-1018-1006-998-999-1000-1016-1019-1007-1034-1033-1035-846-855-897-1124-1122-1123-1119-1111-1118-1120-1112-1113-993-994-1048-1047-1046-851-886-3165-887-997-894-1015-1028-1121-1294",
     "thesi_diorismou": "880",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -317,10 +227,11 @@
     "seira_klirosis": 3013738.0,
     "vathmologia": 92.03,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 11,
+    "aa": 8,
     "am": "17395.0",
     "eponymo": "ΑΡΣΕΝΙΚΟΥ",
     "onoma": "ΕΙΡΗΝΗ ΚΛΕΟΠΑΤΡΑ",
@@ -330,7 +241,7 @@
     "theseis_idias_omadas": "1294",
     "protimiseis": "1294-899-894-895-896-856-789-1040-1015-1005-995-1011-1037-991-1003-1013-999-1032-992-996-997-1016-1017-1022-881-882-883-884-898-880-886-893-890-877-885-887-889-891-892-1031-790-1115-797-798-897-1000-1004-1007-1036-1038-1009-1039-1023-1034-993-994-998-1001-1002-1006-1008-1010-1012-1014-1018-1019-1020-1021-1024-1025-1027-1028-1029-1033-1035-1041-1042-1043-1044-1045-1046-1047-1048-1049-1050-1051-1052-855-846-1136-1137-1134-1133-1135-1111-1112-1113-1114-1118-1119-1120-1121-1122-1123-1124-804-912-914-915-916-918-917-1142-1129-1130-1131-1132-1138-1139-1140-1141",
     "thesi_diorismou": "1294",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -349,10 +260,11 @@
     "seira_klirosis": 2864161.0,
     "vathmologia": 90.58,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 12,
+    "aa": 9,
     "am": "6409.0",
     "eponymo": "ΣΑΚΕΛΛΑΡΙΟΥ",
     "onoma": "ΒΕΝΕΤΙΑ",
@@ -362,7 +274,7 @@
     "theseis_idias_omadas": "1290-1291-1292-1294-1295-1296",
     "protimiseis": "1294-896-895-898-884-883-881-880-893-894-885-886-889-887-3165-891-991-995-996-997-1122-1011-1012-897-999-992-1005-1040-1041-1042-1037-1029-1010-1009-1008-1013-1014-1016-1017-1023-1022-1015-1043-1039-1018-1006-1007-846-856-998-1024-1032-1021-1003-1002-993-994-1000-845-899-1019-1027-1036-1033-1034-1035-1028-1038-1004-877-1049-1050-1111-1112-1113-1114-1123-1124-1119-1121-882-890-892-855-843-1048-1020-850-1044-1051-1025-1045-1052-1046-1047-1115-1118-1120-1116-1117-1129-1138-1139-1142-1141-1136-1135-1130-1137-1133-1140-914-918-913-1134-1189-1195-1192-865-868-872-1292-1290-1291-1295-1296",
     "thesi_diorismou": "895",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -381,10 +293,11 @@
     "seira_klirosis": 9110052.0,
     "vathmologia": 90.31,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 10,
     "am": "13228.0",
     "eponymo": "ΑΛΜΠΑΝΑΚΗ",
     "onoma": "ΜΑΝΩΛΙΑ",
@@ -394,7 +307,7 @@
     "theseis_idias_omadas": "1292",
     "protimiseis": "1292-968-966-965-961-958-964-3076-3075-955-954-953-957-963-1328-1329-1327-1330-1332-1331-1325-1326-967-952-959-1324-962-960-3073",
     "thesi_diorismou": "1292",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -413,10 +326,11 @@
     "seira_klirosis": 2645416.0,
     "vathmologia": 89.42,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 14,
+    "aa": 11,
     "am": "13944.0",
     "eponymo": "ΚΟΝΤΟΥΛΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -448,7 +362,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 15,
+    "aa": 12,
     "am": "4412.0",
     "eponymo": "ΠΑΠΑΖΟΓΛΟΥ",
     "onoma": "ΚΡΥΣΤΑΛΙΑ",
@@ -480,7 +394,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 16,
+    "aa": 13,
     "am": "17070.0",
     "eponymo": "ΑΡΓΥΡΗ",
     "onoma": "ΑΝΝΑ",
@@ -490,7 +404,7 @@
     "theseis_idias_omadas": "1290-1291-1292-1294-1295-1296",
     "protimiseis": "1294-1292-1296-1290-1291-1295",
     "thesi_diorismou": "1296",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -509,10 +423,11 @@
     "seira_klirosis": 9426156.0,
     "vathmologia": 88.69,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
+    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 17,
+    "aa": 14,
     "am": "11278.0",
     "eponymo": "ΠΡΩΤΟΨΑΛΤΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -544,7 +459,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 18,
+    "aa": 15,
     "am": "18783.0",
     "eponymo": "ΘΕΟΔΩΡΟΥ",
     "onoma": "ΝΙΚΟΛΙΑ",
@@ -554,7 +469,7 @@
     "theseis_idias_omadas": "1290-1292-1294-1295",
     "protimiseis": "1292-975-973-1005-965-964-1122-868-865-1055-966-996-997-1150-1295-1092-1152-1151-1290-962-1090-1003-963-974-976-961-999-1294-995-1040-1042",
     "thesi_diorismou": "997",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -574,10 +489,10 @@
     "vathmologia": 87.97,
     "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 19,
+    "aa": 16,
     "am": "15869.0",
     "eponymo": "ΤΣΙΜΠΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -609,7 +524,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 20,
+    "aa": 17,
     "am": "14302.0",
     "eponymo": "ΜΥΣΤΙΛΙΑΔΗΣ",
     "onoma": "ΓΡΗΓΟΡΙΟΣ",
@@ -641,7 +556,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 21,
+    "aa": 18,
     "am": "12099.0",
     "eponymo": "ΝΤΑΒΑΡΙΝΟΥ",
     "onoma": "ΛΗΔΑ",
@@ -673,7 +588,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 22,
+    "aa": 19,
     "am": "10435.0",
     "eponymo": "ΓΚΟΥΖΟΥΝΑΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -705,7 +620,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 23,
+    "aa": 20,
     "am": "8342.0",
     "eponymo": "ΚΟΥΓΙΟΥΜΤΖΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -737,7 +652,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 24,
+    "aa": 21,
     "am": "7774.0",
     "eponymo": "ΜΙΧΑΗΛΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -769,7 +684,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 25,
+    "aa": 22,
     "am": "11264.0",
     "eponymo": "ΚΑΡΒΟΥΝΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -801,7 +716,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 26,
+    "aa": 23,
     "am": "7614.0",
     "eponymo": "ΦΑΤΟΥΡΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -833,7 +748,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 27,
+    "aa": 24,
     "am": "364.0",
     "eponymo": "ΚΑΣΚΑΡΑΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -865,7 +780,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 28,
+    "aa": 25,
     "am": "8964.0",
     "eponymo": "ΩΤΤΑ",
     "onoma": "ΜΑΡΤΙΝΙΑΝΗ",
@@ -897,7 +812,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 29,
+    "aa": 26,
     "am": "19719.0",
     "eponymo": "ΖΩΓΡΑΦΟΥ",
     "onoma": "ΑΙΜΙΛΙΑ",
@@ -929,7 +844,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 30,
+    "aa": 27,
     "am": "7993.0",
     "eponymo": "ΠΡΟΚΟΠΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -961,7 +876,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 31,
+    "aa": 28,
     "am": "19900.0",
     "eponymo": "ΠΑΠΑΒΑΣΙΛΕΙΟΥ",
     "onoma": "ΧΑΪΔΩ",
@@ -993,7 +908,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 32,
+    "aa": 29,
     "am": "3604.0",
     "eponymo": "ΕΛΕΥΘΕΡΙΑΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1025,7 +940,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 33,
+    "aa": 30,
     "am": "749.0",
     "eponymo": "ΣΤΑΣΙΝΟΣ",
     "onoma": "ΟΔΥΣΣΕΑΣ",
@@ -1057,7 +972,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 34,
+    "aa": 31,
     "am": "9337.0",
     "eponymo": "ΜΑΥΡΟΦΩΤΗ",
     "onoma": "ΧΑΡΙΣ",
@@ -1089,7 +1004,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 35,
+    "aa": 32,
     "am": "7309.0",
     "eponymo": "ΚΟΥΤΕΡΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ ΕΥΑΓΓΕΛΙΑ",
@@ -1121,7 +1036,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 36,
+    "aa": 33,
     "am": "11970.0",
     "eponymo": "ΚΟΥΡΝΟΥΤΟΥ",
     "onoma": "ΑΣΗΜΙΝΑ",
@@ -1153,7 +1068,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 37,
+    "aa": 34,
     "am": "17368.0",
     "eponymo": "ΦΙΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΟΥΛΑ",
@@ -1185,7 +1100,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 38,
+    "aa": 35,
     "am": "15892.0",
     "eponymo": "ΝΙΚΟΛΑΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ ΕΥΦΡΟΣΥΝΗ",
@@ -1217,7 +1132,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 39,
+    "aa": 36,
     "am": "120.0",
     "eponymo": "ΚΟΥΚΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1249,7 +1164,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 40,
+    "aa": 37,
     "am": "1052.0",
     "eponymo": "ΓΟΥΛΕΑ",
     "onoma": "ΚΑΛΛΙΟΠΗ-ΕΙΡΗΝΗ",
@@ -1281,7 +1196,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 41,
+    "aa": 38,
     "am": "4939.0",
     "eponymo": "ΖΕΝΙΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1313,7 +1228,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 42,
+    "aa": 39,
     "am": "11390.0",
     "eponymo": "ΜΠΕΤΣΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -1345,7 +1260,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 43,
+    "aa": 40,
     "am": "19845.0",
     "eponymo": "ΨΥΧΑΡΗ",
     "onoma": "ΣΕΒΑΣΤΗ",
@@ -1377,7 +1292,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 44,
+    "aa": 41,
     "am": "13957.0",
     "eponymo": "ΠΑΥΛΑΚΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ ΜΥΡΙΑΜ",
@@ -1409,7 +1324,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 45,
+    "aa": 42,
     "am": "15192.0",
     "eponymo": "ΚΑΙΜΑΚΑΜΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1441,7 +1356,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 46,
+    "aa": 43,
     "am": "11926.0",
     "eponymo": "ΓΑΤΣΙΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1473,7 +1388,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 47,
+    "aa": 44,
     "am": "11002.0",
     "eponymo": "ΚΑΡΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1505,7 +1420,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 48,
+    "aa": 45,
     "am": "1366.0",
     "eponymo": "ΤΣΙΜΕΝΤΕΡΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1537,7 +1452,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 49,
+    "aa": 46,
     "am": "529.0",
     "eponymo": "ΛΥΚΙΔΗ",
     "onoma": "ΛΟΥΚΙΑ",
@@ -1569,7 +1484,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 50,
+    "aa": 47,
     "am": "19108.0",
     "eponymo": "ΤΥΡΟΛΟΓΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1601,7 +1516,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 51,
+    "aa": 48,
     "am": "2751.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -1633,7 +1548,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 52,
+    "aa": 49,
     "am": "12592.0",
     "eponymo": "ΣΙΑΚΑΒΕΛΗ",
     "onoma": "ΧΡΥΣΑΥΓΗ",
@@ -1665,7 +1580,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 53,
+    "aa": 50,
     "am": "4426.0",
     "eponymo": "ΒΑΣΑΚΗ",
     "onoma": "ΓΙΟΛΑ",
@@ -1697,7 +1612,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 54,
+    "aa": 51,
     "am": "101.0",
     "eponymo": "ΚΑΚΑΡΟΥΚΑ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -1729,7 +1644,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 55,
+    "aa": 52,
     "am": "17434.0",
     "eponymo": "ΧΡΗΣΤΙΔΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -1761,7 +1676,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 56,
+    "aa": 53,
     "am": "1607.0",
     "eponymo": "ΚΕΡΑΜΙΔΙΩΤΗ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -1793,7 +1708,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 57,
+    "aa": 54,
     "am": "4404.0",
     "eponymo": "ΜΩΡΟΥ",
     "onoma": "ΛΥΔΙΑ",
@@ -1825,7 +1740,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 58,
+    "aa": 55,
     "am": "8416.0",
     "eponymo": "ΚΑΠΕΤΑ",
     "onoma": "ΘΕΟΠΙΣΤΗ",
@@ -1857,7 +1772,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 59,
+    "aa": 56,
     "am": "2287.0",
     "eponymo": "ΓΕΩΡΓΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΑΣΗΜΙΝΑ",
@@ -1889,7 +1804,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 60,
+    "aa": 57,
     "am": "18921.0",
     "eponymo": "ΜΠΑΡΟΥΤΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1921,7 +1836,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 61,
+    "aa": 58,
     "am": "4735.0",
     "eponymo": "ΜΠΑΛΤΟΥΝΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1953,7 +1868,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 62,
+    "aa": 59,
     "am": "5285.0",
     "eponymo": "ΘΩΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1985,7 +1900,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 63,
+    "aa": 60,
     "am": "1323.0",
     "eponymo": "ΣΑΚΕΛΛΑΡΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2017,7 +1932,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 64,
+    "aa": 61,
     "am": "7195.0",
     "eponymo": "ΝΤΟΥΝΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2049,7 +1964,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 65,
+    "aa": 62,
     "am": "3239.0",
     "eponymo": "ΚΟΥΤΣΟΒΙΛΗ",
     "onoma": "ΑΠΟΣΤΟΛΙΑ",
@@ -2081,7 +1996,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 66,
+    "aa": 63,
     "am": "19740.0",
     "eponymo": "ΚΕΧΑΓΙΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2113,7 +2028,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 67,
+    "aa": 64,
     "am": "18013.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2145,7 +2060,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 68,
+    "aa": 65,
     "am": "19771.0",
     "eponymo": "ΛΑΜΠΡΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -2177,7 +2092,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 69,
+    "aa": 66,
     "am": "16965.0",
     "eponymo": "ΕΥΑΓΓΕΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2209,7 +2124,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 70,
+    "aa": 67,
     "am": "11817.0",
     "eponymo": "ΠΑΠΑΚΩΣΤΑ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2241,7 +2156,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 71,
+    "aa": 68,
     "am": "13633.0",
     "eponymo": "ΣΟΥΛΑΝΔΡΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -2273,7 +2188,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 72,
+    "aa": 69,
     "am": "770.0",
     "eponymo": "ΤΣΙΟΥΝΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -2305,7 +2220,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 73,
+    "aa": 70,
     "am": "11820.0",
     "eponymo": "ΜΑΚΕΔΟΝΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2337,7 +2252,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 74,
+    "aa": 71,
     "am": "17051.0",
     "eponymo": "ΛΑΜΠΡΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2369,7 +2284,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 75,
+    "aa": 72,
     "am": "1880.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -2401,39 +2316,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 76,
-    "am": "972.0",
-    "eponymo": "ΚΑΤΣΟΠΡΙΝΑΚΗ",
-    "onoma": "ΧΡΥΣΑΝΘΗ",
-    "patronymo": "ΣΤΑΥΡΟΣ",
-    "adt_masked": "***061",
-    "omada_prosonton": "317 -001",
-    "theseis_idias_omadas": "1290-1291-1295",
-    "protimiseis": "1291-1290-949-946-950-945-947-948-943-944-794-1295-795",
-    "thesi_diorismou": "1291",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 230.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 44.5,
-    "synolo_graptou": 70.25,
-    "seira_klirosis": 7715965.0,
-    "vathmologia": 78.25,
-    "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
-  },
-  {
-    "aa": 77,
+    "aa": 73,
     "am": "4683.0",
     "eponymo": "ΚΑΠΕΤΑΝΑΚΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -2465,7 +2348,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 78,
+    "aa": 74,
     "am": "9975.0",
     "eponymo": "ΤΖΗΜΑΚΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -2497,7 +2380,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 79,
+    "aa": 75,
     "am": "10030.0",
     "eponymo": "ΚΟΥΡΛΙΜΠΙΝΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2529,7 +2412,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 80,
+    "aa": 76,
     "am": "563.0",
     "eponymo": "ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2561,7 +2444,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 81,
+    "aa": 77,
     "am": "3526.0",
     "eponymo": "ΚΑΡΑΠΕΤΣΑ",
     "onoma": "ΑΝΝΑ ΜΑΡΙΑ",
@@ -2593,7 +2476,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 82,
+    "aa": 78,
     "am": "10527.0",
     "eponymo": "ΡΕΒΟΓΕΔΟ ΧΡΥΣΟΧΟΟΥ",
     "onoma": "ΕΛΠΙΔΑ ΓΕΩΡΓΙΑ",
@@ -2625,7 +2508,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 83,
+    "aa": 79,
     "am": "6989.0",
     "eponymo": "ΜΗΤΡΟΜΑΡΑΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -2657,7 +2540,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 84,
+    "aa": 80,
     "am": "6982.0",
     "eponymo": "ΚΑΡΑΠΑΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ ΕΛΕΥΘΕΡΙΑ",
@@ -2689,7 +2572,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 85,
+    "aa": 81,
     "am": "8238.0",
     "eponymo": "ΣΤΑΜΑΤΕΛΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -2721,7 +2604,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 86,
+    "aa": 82,
     "am": "7056.0",
     "eponymo": "ΧΡΙΣΤΟΔΟΥΛΑΚΗ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -2753,7 +2636,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 87,
+    "aa": 83,
     "am": "15938.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΙΔΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -2785,7 +2668,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 88,
+    "aa": 84,
     "am": "20825.0",
     "eponymo": "ΤΣΙΓΑΡΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2817,7 +2700,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 89,
+    "aa": 85,
     "am": "6514.0",
     "eponymo": "ΚΑΚΟΥΛΙΔΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -2849,7 +2732,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 90,
+    "aa": 86,
     "am": "19788.0",
     "eponymo": "ΧΡΟΝΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ ΕΛΕΝΗ",
@@ -2881,7 +2764,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 91,
+    "aa": 87,
     "am": "20024.0",
     "eponymo": "ΞΕΝΙΩΤΟΥ",
     "onoma": "ΕΛΕΝΗ ΒΕΑΤΡΙΚΗ",
@@ -2913,7 +2796,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 92,
+    "aa": 88,
     "am": "1699.0",
     "eponymo": "ΛΟΥΝΤΖΗ",
     "onoma": "ΑΡΕΤΗ",
@@ -2945,7 +2828,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 93,
+    "aa": 89,
     "am": "2343.0",
     "eponymo": "ΜΗΤΡΟΥΔΗ",
     "onoma": "ΖΩΗ",
@@ -2977,7 +2860,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 94,
+    "aa": 90,
     "am": "9878.0",
     "eponymo": "ΚΑΝΕΛΛΟΠΟΥΛΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -3009,7 +2892,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 95,
+    "aa": 91,
     "am": "7328.0",
     "eponymo": "ΚΟΡΔΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3041,7 +2924,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 96,
+    "aa": 92,
     "am": "6927.0",
     "eponymo": "ΓΚΩΝΙΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -3073,7 +2956,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 97,
+    "aa": 93,
     "am": "20130.0",
     "eponymo": "ΚΕΡΑΜΕΩΣ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -3105,7 +2988,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 98,
+    "aa": 94,
     "am": "15204.0",
     "eponymo": "ΕΥΓΕΝΙΔΟΥ",
     "onoma": "ΤΡΙΑΝΤΑΦΥΛΛΙΑ",
@@ -3137,7 +3020,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 99,
+    "aa": 95,
     "am": "10928.0",
     "eponymo": "ΦΩΤΕΙΝΑΚΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3169,7 +3052,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 100,
+    "aa": 96,
     "am": "16927.0",
     "eponymo": "ΔΟΥΛΦΗ",
     "onoma": "ΔΑΝΑΗ",
@@ -3201,7 +3084,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 101,
+    "aa": 97,
     "am": "6654.0",
     "eponymo": "ΣΑΚΚΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3233,7 +3116,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 102,
+    "aa": 98,
     "am": "8202.0",
     "eponymo": "ΘΕΟΔΩΡΙΔΗΣ",
     "onoma": "ΛΑΖΑΡΟΣ",
@@ -3265,7 +3148,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 103,
+    "aa": 99,
     "am": "15802.0",
     "eponymo": "ΚΟΚΚΑΛΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -3297,7 +3180,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 104,
+    "aa": 100,
     "am": "12379.0",
     "eponymo": "ΒΑΛΚΑΝΙΩΤΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3329,7 +3212,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 105,
+    "aa": 101,
     "am": "9589.0",
     "eponymo": "ΠΑΣΧΑΛΗ",
     "onoma": "ΜΑΡΙΑ ΕΛΕΝΗ",
@@ -3361,7 +3244,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 106,
+    "aa": 102,
     "am": "13580.0",
     "eponymo": "ΣΑΠΟΥΝΤΖΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3393,7 +3276,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 107,
+    "aa": 103,
     "am": "14531.0",
     "eponymo": "ΣΟΥΛΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΔΡΟΜΑΧΗ",
@@ -3425,7 +3308,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 108,
+    "aa": 104,
     "am": "390.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3457,7 +3340,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 109,
+    "aa": 105,
     "am": "1870.0",
     "eponymo": "ΦΑΝΤΑΟΥΤΣΑΚΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3489,7 +3372,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 110,
+    "aa": 106,
     "am": "10505.0",
     "eponymo": "ΡΑΠΑΚΟΥΣΙΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -3521,7 +3404,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 111,
+    "aa": 107,
     "am": "5773.0",
     "eponymo": "ΝΙΚΟΛΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -3553,7 +3436,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 112,
+    "aa": 108,
     "am": "14984.0",
     "eponymo": "ΛΑΖΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3585,7 +3468,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 113,
+    "aa": 109,
     "am": "15818.0",
     "eponymo": "ΛΙΑΚΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3617,7 +3500,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 114,
+    "aa": 110,
     "am": "4091.0",
     "eponymo": "ΚΑΤΣΑΡΑΚΗ",
     "onoma": "ΕΛΠΙΔΑ",
@@ -3649,7 +3532,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 115,
+    "aa": 111,
     "am": "11697.0",
     "eponymo": "ΚΟΥΜΑΡΤΖΟΥΔΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3681,7 +3564,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 116,
+    "aa": 112,
     "am": "19834.0",
     "eponymo": "ΖΟΡΜΠΑ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3713,7 +3596,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 117,
+    "aa": 113,
     "am": "19685.0",
     "eponymo": "ΠΑΓΩΝΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3745,7 +3628,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 118,
+    "aa": 114,
     "am": "9915.0",
     "eponymo": "ΕΥΣΤΑΘΙΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3777,7 +3660,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 119,
+    "aa": 115,
     "am": "11230.0",
     "eponymo": "ΑΡΙΔΑ",
     "onoma": "ΦΙΛΙΩ",
@@ -3809,7 +3692,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 120,
+    "aa": 116,
     "am": "8894.0",
     "eponymo": "ΑΣΗΜΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -3841,7 +3724,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 121,
+    "aa": 117,
     "am": "1977.0",
     "eponymo": "ΧΑΜΠΙΠΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -3873,7 +3756,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 122,
+    "aa": 118,
     "am": "20190.0",
     "eponymo": "ΣΚΟΥΡΤΗ",
     "onoma": "ΦΙΛΙΠΠΑ ΠΑΝΑΓΙΩΤΑ ΜΑ",
@@ -3905,7 +3788,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 123,
+    "aa": 119,
     "am": "11980.0",
     "eponymo": "ΤΣΙΡΙΜΠΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3937,7 +3820,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 124,
+    "aa": 120,
     "am": "18257.0",
     "eponymo": "ΚΟΡΝΑΡΟΣ",
     "onoma": "ΦΙΛΙΠΠΟΣ ΕΥΘΥΜΙΟΣ",
@@ -3969,7 +3852,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 125,
+    "aa": 121,
     "am": "491.0",
     "eponymo": "ΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4001,7 +3884,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 126,
+    "aa": 122,
     "am": "18172.0",
     "eponymo": "ΚΕΡΑΜΥΔΑ",
     "onoma": "ΕΥΣΤΑΘΙΑ",
@@ -4033,7 +3916,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 127,
+    "aa": 123,
     "am": "3765.0",
     "eponymo": "ΠΑΤΣΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -4065,7 +3948,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 128,
+    "aa": 124,
     "am": "548.0",
     "eponymo": "ΚΟΥΡΕΜΠΑΝΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -4097,7 +3980,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 129,
+    "aa": 125,
     "am": "17000.0",
     "eponymo": "ΖΕΓΚΙΝΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4129,39 +4012,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 130,
-    "am": "11980.0",
-    "eponymo": "ΤΣΙΡΙΜΠΑΣ",
-    "onoma": "ΙΩΑΝΝΗΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***624",
-    "omada_prosonton": "317 -001",
-    "theseis_idias_omadas": "1290-1291-1292-1294-1295-1296",
-    "protimiseis": "1294-1292-1295-1291-1290-1296",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 17.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 38.84,
-    "synolo_graptou": 69.42,
-    "seira_klirosis": 3785101.0,
-    "vathmologia": 70.42,
-    "eidikotita": "ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ ΕΙΔ. ΠΕ ΕΠΙΚΟΙΝΩΝΙΑΣ,ΕΝΗΜΕΡΩΣΗΣ ΚΑΙ ΔΗΜΟΣΙΩΝ ΣΧΕΣΕΩΝ",
-    "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
-  },
-  {
-    "aa": 131,
+    "aa": 126,
     "am": "12554.0",
     "eponymo": "ΠΑΝΤΟΥΒΑΚΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4193,7 +4044,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 132,
+    "aa": 127,
     "am": "11574.0",
     "eponymo": "ΣΤΥΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΑΝΑ",
@@ -4225,7 +4076,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 133,
+    "aa": 128,
     "am": "20790.0",
     "eponymo": "ΠΑΡΑΣΚΕΥΑΚΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -4257,7 +4108,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 134,
+    "aa": 129,
     "am": "12553.0",
     "eponymo": "ΣΤΡΟΥΓΓΑΡΗΣ",
     "onoma": "ΚΙΜΩΝ",
@@ -4289,7 +4140,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 135,
+    "aa": 130,
     "am": "10777.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΙ",
     "onoma": "ΜΑΡΙΑ",
@@ -4321,7 +4172,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 136,
+    "aa": 131,
     "am": "10327.0",
     "eponymo": "ΜΠΑΤΣΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4353,7 +4204,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 137,
+    "aa": 132,
     "am": "5432.0",
     "eponymo": "ΠΑΝΤΕΛΗ",
     "onoma": "ΑΝΝΑ",
@@ -4385,7 +4236,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 138,
+    "aa": 133,
     "am": "12835.0",
     "eponymo": "ΛΥΜΠΕΡΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4417,7 +4268,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 139,
+    "aa": 134,
     "am": "828.0",
     "eponymo": "ΜΟΥΣΤΑΚΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4449,7 +4300,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 140,
+    "aa": 135,
     "am": "14819.0",
     "eponymo": "ΑΙΣΩΠΟΥ",
     "onoma": "ΠΑΓΩΝΑ",
@@ -4481,7 +4332,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 141,
+    "aa": 136,
     "am": "3432.0",
     "eponymo": "ΤΣΑΚΙΡΟΥΔΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -4513,7 +4364,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 142,
+    "aa": 137,
     "am": "1378.0",
     "eponymo": "ΚΟΛΕΤΣΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4545,7 +4396,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 143,
+    "aa": 138,
     "am": "19441.0",
     "eponymo": "ΑΠΤΟΥΛΙΑΝ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4577,7 +4428,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 144,
+    "aa": 139,
     "am": "1178.0",
     "eponymo": "ΔΕΛΛΙΟΥ",
     "onoma": "ΑΝΔΡΟΝΙΚΗ",
@@ -4609,7 +4460,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 145,
+    "aa": 140,
     "am": "5100.0",
     "eponymo": "ΑΡΓΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -4641,7 +4492,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 146,
+    "aa": 141,
     "am": "3933.0",
     "eponymo": "ΜΠΑΚΑΛΙΔΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -4673,7 +4524,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 147,
+    "aa": 142,
     "am": "16492.0",
     "eponymo": "ΤΣΙΛΙΚΙΩΤΗ",
     "onoma": "ΑΡΧΟΝΤΟΥΛΑ",
@@ -4705,7 +4556,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 148,
+    "aa": 143,
     "am": "20639.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΙΔΗΣ",
     "onoma": "ΣΥΜΕΩΝ",
@@ -4737,7 +4588,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 149,
+    "aa": 144,
     "am": "12245.0",
     "eponymo": "ΠΑΠΠΑ ΤΖΑΒΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4769,7 +4620,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 150,
+    "aa": 145,
     "am": "14254.0",
     "eponymo": "ΒΑΡΝΑΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -4801,7 +4652,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 151,
+    "aa": 146,
     "am": "18461.0",
     "eponymo": "ΠΑΠΑΙΣΙΔΩΡΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -4833,7 +4684,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 152,
+    "aa": 147,
     "am": "11154.0",
     "eponymo": "ΑΘΑΝΑΣΑΚΗ",
     "onoma": "ΑΝΝΑ",
@@ -4865,7 +4716,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 153,
+    "aa": 148,
     "am": "19394.0",
     "eponymo": "ΧΑΤΖΗΙΩΑΝΝΟΥ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -4897,7 +4748,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 154,
+    "aa": 149,
     "am": "8241.0",
     "eponymo": "ΝΤΑΒΡΑΝΟΓΛΟΥ",
     "onoma": "ΠΟΛΥΞΕΝΗ ΓΕΩΡΓΙΑ",
@@ -4929,7 +4780,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 155,
+    "aa": 150,
     "am": "11924.0",
     "eponymo": "ΚΟΤΑΚΗ",
     "onoma": "ΚΟΝΔΥΛΙΑ ΛΥΔΙΑ",
@@ -4961,7 +4812,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 156,
+    "aa": 151,
     "am": "11248.0",
     "eponymo": "ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ  ΕΥΑΓΓΕΛΙΑ",
@@ -4993,7 +4844,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 157,
+    "aa": 152,
     "am": "4703.0",
     "eponymo": "ΚΑΡΑΒΑΝΑ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -5025,7 +4876,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 158,
+    "aa": 153,
     "am": "19770.0",
     "eponymo": "ΚΑΡΥΠΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -5057,7 +4908,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 159,
+    "aa": 154,
     "am": "18569.0",
     "eponymo": "ΓΡΑΜΜΟΥΣΤΙΑΝΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -5089,7 +4940,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 160,
+    "aa": 155,
     "am": "4587.0",
     "eponymo": "ΣΑΦΡΑ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -5121,7 +4972,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 161,
+    "aa": 156,
     "am": "1846.0",
     "eponymo": "ΖΕΡΒΑ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ ΒΙΟΛΕΤΤΑ",
@@ -5153,7 +5004,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 162,
+    "aa": 157,
     "am": "14940.0",
     "eponymo": "ΚΑΡΑΜΑΝΗΣ",
     "onoma": "ΠΑΝΤΕΛΗΣ",
@@ -5185,7 +5036,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 163,
+    "aa": 158,
     "am": "123.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ  ΕΙΡΗΝΗ",
@@ -5217,7 +5068,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 164,
+    "aa": 159,
     "am": "8669.0",
     "eponymo": "ΓΙΑΝΝΑΚΟΥΛΗ ΝΙΚΟΛΗ",
     "onoma": "ΖΩΗ",
@@ -5249,7 +5100,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 165,
+    "aa": 160,
     "am": "8989.0",
     "eponymo": "ΒΟΛΥΡΑΚΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -5281,7 +5132,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 166,
+    "aa": 161,
     "am": "17782.0",
     "eponymo": "ΜΠΑΛΑΦΟΥΤΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -5313,7 +5164,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 167,
+    "aa": 162,
     "am": "6425.0",
     "eponymo": "ΜΗΣΣΙΟΥ",
     "onoma": "ΒΙΚΤΩΡΙΑ",
@@ -5345,7 +5196,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 168,
+    "aa": 163,
     "am": "5408.0",
     "eponymo": "ΔΙΑΚΟΥΜΗ",
     "onoma": "ΕΥΡΥΚΛΕΙΑ ΠΑΝΑΓΙΩΤΑ",
@@ -5377,7 +5228,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 169,
+    "aa": 164,
     "am": "11338.0",
     "eponymo": "ΑΨΩΚΑΡΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ ΜΑΡΙΑ",
@@ -5409,7 +5260,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 170,
+    "aa": 165,
     "am": "6208.0",
     "eponymo": "ΣΚΡΕΚΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -5441,7 +5292,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 171,
+    "aa": 166,
     "am": "19481.0",
     "eponymo": "ΑΝΩΜΕΡΙΤΟΥ",
     "onoma": "ΙΟΥΛΙΑΝΗ",
@@ -5473,7 +5324,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 172,
+    "aa": 167,
     "am": "205.0",
     "eponymo": "ΣΤΕΡΓΙΟΥ",
     "onoma": "ΧΑΡΙΣΗΣ",
@@ -5505,7 +5356,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 173,
+    "aa": 168,
     "am": "17513.0",
     "eponymo": "ΠΑΠΑΙΩΑΝΝΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -5537,7 +5388,7 @@
     "slug": "pe-epikoinonias-enimerosis-kai-dimosion-scheseon-eid-pe-epikoinonias-enimerosis-kai-dimosion-scheseon"
   },
   {
-    "aa": 174,
+    "aa": 169,
     "am": "17813.0",
     "eponymo": "ΧΑΛΚΙΔΗ",
     "onoma": "ΚΟΡΝΗΛΙΑ",

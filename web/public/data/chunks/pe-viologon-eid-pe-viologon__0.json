@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "456",
     "protimiseis": "451-450-456-453-454-455",
     "thesi_diorismou": "456",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -29,7 +29,8 @@
     "seira_klirosis": 5053103.0,
     "vathmologia": 116.64,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
@@ -42,7 +43,7 @@
     "theseis_idias_omadas": "451",
     "protimiseis": "451",
     "thesi_diorismou": "451",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -61,42 +62,11 @@
     "seira_klirosis": 5635792.0,
     "vathmologia": 100.19,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 3,
-    "am": "1546.0",
-    "eponymo": "ΖΗΣΗ",
-    "onoma": "ΑΛΕΞΑΝΔΡΑ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***703",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451",
-    "protimiseis": "2808-2809-2806-2805-2807-451-450",
-    "thesi_diorismou": "2809",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 39.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 80.28,
-    "synolo_graptou": 90.14,
-    "seira_klirosis": 8479354.0,
-    "vathmologia": 94.14,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 4,
     "am": "18365.0",
     "eponymo": "ΜΑΛΙΔΕΛΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -106,7 +76,7 @@
     "theseis_idias_omadas": "450-451",
     "protimiseis": "991-893-996-992-1013-880-2822-1012-998-1018-1006-1000-450-2823-999-1122-1009-881-898-1032-885-1003-995-1040-884-1007-997-1023-1142-451-914-918-1042-1037-896-1022-1011-1010-1036-1130-1043-1124-1008-1016-1019-1020-1024-994-912-1129-1021-919-1031-916-1029",
     "thesi_diorismou": "991",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -125,10 +95,11 @@
     "seira_klirosis": 9548187.0,
     "vathmologia": 94.11,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 5,
+    "aa": 4,
     "am": "16708.0",
     "eponymo": "ΖΟΡΜΠΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -138,7 +109,7 @@
     "theseis_idias_omadas": "451",
     "protimiseis": "2822-2823-1023-1012-880-1039-881-885-2813-451-1013-1011-1040-1042-1043-1009-1010-884-896-996-1018-898-1008-991-1041-897-1006-999-899-1014-1000-1007-1003-998-1019-1124-1122-1016-1025-1024-1035-1033-1034-1036-895-889-893-992-1037-883-1136-1142-994-890-852-882-1031-1048-995-1020-855-845-846-1049-1130-1141-1046-1047-1117-1115-1116-916-1118-1132-1129-1114-877-912-1140-789-993-997-856-1022-1021-1032-894-1038-1001-1017-1004-1113-804-892-1052-914-790-1112-1005-1027-1028-886-3165-887-891-1002-1015-1050-1137-1111-917-913-847-1051-1044-1138-1135-1123-1120-1134-1121-843-1133-1029",
     "thesi_diorismou": "2822",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -157,7 +128,41 @@
     "seira_klirosis": 3921137.0,
     "vathmologia": 93.11,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 5,
+    "am": "1546.0",
+    "eponymo": "ΖΗΣΗ",
+    "onoma": "ΑΛΕΞΑΝΔΡΑ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***703",
+    "omada_prosonton": "303 -001",
+    "theseis_idias_omadas": "450-451",
+    "protimiseis": "2808-2809-2806-2805-2807-451-450",
+    "thesi_diorismou": "2809",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 39.0,
+    "monades_empeirias": 3.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 80.28,
+    "synolo_graptou": 90.14,
+    "seira_klirosis": 8479354.0,
+    "vathmologia": 92.14,
+    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 6,
@@ -170,7 +175,7 @@
     "theseis_idias_omadas": "450-451-453",
     "protimiseis": "2819-2817-2818-2815-453-2822-2823-450-2813-451-2825",
     "thesi_diorismou": "453",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -189,7 +194,8 @@
     "seira_klirosis": 1814340.0,
     "vathmologia": 92.0,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 7,
@@ -234,7 +240,7 @@
     "theseis_idias_omadas": "450-451",
     "protimiseis": "865-868-871-867-869-870-451-450-866-872-940-939-880-1009-1011-896-884-1004-1006-864-938",
     "thesi_diorismou": "869",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -253,7 +259,8 @@
     "seira_klirosis": 3174315.0,
     "vathmologia": 90.83,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 9,
@@ -266,7 +273,7 @@
     "theseis_idias_omadas": "451",
     "protimiseis": "451",
     "thesi_diorismou": "451",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -285,7 +292,8 @@
     "seira_klirosis": 9314900.0,
     "vathmologia": 90.39,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 10,
@@ -362,7 +370,7 @@
     "theseis_idias_omadas": "450-451",
     "protimiseis": "1005-995-996-997-1040-1042-991-993-999-1122-998-1032-1003-893-1022-1023-1021-1015-1018-1028-1011-1000-1009-1012-1031-1039-1036-1038-1037-1019-1004-1007-1010-1013-992-994-1024-1043-1008-1006-1014-1016-1017-1001-1002-1020-1033-1034-1035-1115-1121-1114-1112-1111-1120-1123-1124-1108-1113-1116-1117-1027-1041-1025-880-1029-1119-1048-1047-1046-1045-916-917-918-914-789-797-790-804-798-899-896-895-894-898-892-891-890-881-883-882-886-887-885-884-877-889-3165-1129-1130-1138-1140-1141-1142-1143-1139-843-849-1050-1049-1052-1051-1136-1137-1134-1132-1135-1133-1131-450-451",
     "thesi_diorismou": "450",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -381,7 +389,8 @@
     "seira_klirosis": 4682794.0,
     "vathmologia": 88.81,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 13,
@@ -618,7 +627,7 @@
     "theseis_idias_omadas": "450-451-453-455",
     "protimiseis": "453-450-451-456-455",
     "thesi_diorismou": "455",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -637,42 +646,11 @@
     "seira_klirosis": 5610305.0,
     "vathmologia": 87.08,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
+    "slug": "pe-viologon-eid-pe-viologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 21,
-    "am": "8888.0",
-    "eponymo": "ΚΥΡΙΑΚΟΠΟΥΛΟΥ",
-    "onoma": "ΠΑΝΑΓΙΩΤΑ",
-    "patronymo": "ΣΠΥΡΙΔΩΝ",
-    "adt_masked": "***037",
-    "omada_prosonton": "303 -001,021,029",
-    "theseis_idias_omadas": "456",
-    "protimiseis": "453-450-451-456-455",
-    "thesi_diorismou": "455",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 89.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 62.17,
-    "synolo_graptou": 81.08,
-    "seira_klirosis": 5610305.0,
-    "vathmologia": 87.08,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 22,
     "am": "10717.0",
     "eponymo": "ΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -704,7 +682,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 23,
+    "aa": 22,
     "am": "18627.0",
     "eponymo": "ΘΑΝΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -736,7 +714,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 24,
+    "aa": 23,
     "am": "5447.0",
     "eponymo": "ΝΤΑΒΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -768,71 +746,39 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
+    "aa": 24,
+    "am": "3844.0",
+    "eponymo": "ΜΠΑΛΑΟΥΡΗ",
+    "onoma": "ΙΡΙΣ",
+    "patronymo": "ΓΙΩΡΓΑΚΗΣ",
+    "adt_masked": "***327",
+    "omada_prosonton": "303 -001",
+    "theseis_idias_omadas": "450-451-453-455",
+    "protimiseis": "451-450-453-454-455-456",
+    "thesi_diorismou": null,
+    "idiotita": null,
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": null,
+    "deuteri_xeni": ",5",
+    "minas_empeirias": 172.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 62.06,
+    "synolo_graptou": 81.03,
+    "seira_klirosis": 5701334.0,
+    "vathmologia": 86.53,
+    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
+    "slug": "pe-viologon-eid-pe-viologon"
+  },
+  {
     "aa": 25,
-    "am": "3844.0",
-    "eponymo": "ΜΠΑΛΑΟΥΡΗ",
-    "onoma": "ΙΡΙΣ",
-    "patronymo": "ΓΙΩΡΓΑΚΗΣ",
-    "adt_masked": "***327",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "451-450-453-454-455-456",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 172.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 62.06,
-    "synolo_graptou": 81.03,
-    "seira_klirosis": 5701334.0,
-    "vathmologia": 86.53,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 26,
-    "am": "3844.0",
-    "eponymo": "ΜΠΑΛΑΟΥΡΗ",
-    "onoma": "ΙΡΙΣ",
-    "patronymo": "ΓΙΩΡΓΑΚΗΣ",
-    "adt_masked": "***327",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "451-450-453-454-455-456",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 172.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 62.06,
-    "synolo_graptou": 81.03,
-    "seira_klirosis": 5701334.0,
-    "vathmologia": 86.53,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 27,
     "am": "17044.0",
     "eponymo": "ΚΕΤΣΕΤΖΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -864,7 +810,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 28,
+    "aa": 26,
     "am": "8299.0",
     "eponymo": "ΚΑΡΟΛΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -896,7 +842,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 29,
+    "aa": 27,
     "am": "8198.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -928,7 +874,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 30,
+    "aa": 28,
     "am": "20185.0",
     "eponymo": "ΠΑΠΑΠΟΣΤΟΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -960,7 +906,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 31,
+    "aa": 29,
     "am": "19800.0",
     "eponymo": "ΑΥΓΟΥΣΤΑΤΟΣ",
     "onoma": "ΔΙΟΝΥΣΙΟΣ",
@@ -992,7 +938,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 32,
+    "aa": 30,
     "am": "15103.0",
     "eponymo": "ΠΑΝΔΗ",
     "onoma": "ΚΕΡΚΥΡΑ",
@@ -1024,7 +970,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 33,
+    "aa": 31,
     "am": "13493.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -1056,7 +1002,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 34,
+    "aa": 32,
     "am": "16813.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΗΣΤΙΝΑ",
@@ -1088,7 +1034,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 35,
+    "aa": 33,
     "am": "5306.0",
     "eponymo": "ΚΟΡΠΕΤΙΝΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -1120,7 +1066,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 36,
+    "aa": 34,
     "am": "11963.0",
     "eponymo": "ΔΙΑΜΑΝΤΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1152,7 +1098,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 37,
+    "aa": 35,
     "am": "2277.0",
     "eponymo": "ΚΟΥΤΣΟΜΗΤΡΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1184,7 +1130,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 38,
+    "aa": 36,
     "am": "5729.0",
     "eponymo": "ΛΥΚΟΥΡΗ",
     "onoma": "ΝΕΚΤΑΡΙΑ",
@@ -1216,7 +1162,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 39,
+    "aa": 37,
     "am": "19347.0",
     "eponymo": "ΠΑΡΛΑΠΑΝΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -1248,39 +1194,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 40,
-    "am": "19347.0",
-    "eponymo": "ΠΑΡΛΑΠΑΝΗ",
-    "onoma": "ΕΥΑΓΓΕΛΙΑ",
-    "patronymo": "ΑΣΤΕΡΙΟΣ",
-    "adt_masked": "***794",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "453-451-450-456-455",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 65.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 53.28,
-    "synolo_graptou": 76.64,
-    "seira_klirosis": 1944842.0,
-    "vathmologia": 84.64,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 41,
+    "aa": 38,
     "am": "10692.0",
     "eponymo": "ΛΑΤΣΗΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -1312,7 +1226,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 42,
+    "aa": 39,
     "am": "16402.0",
     "eponymo": "ΤΑΣΣΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1344,7 +1258,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 43,
+    "aa": 40,
     "am": "13673.0",
     "eponymo": "ΚΑΝΤΙΦΕΔΑΚΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -1376,7 +1290,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 44,
+    "aa": 41,
     "am": "9269.0",
     "eponymo": "ΛΕΟΝΤΑΡΙΔΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -1386,7 +1300,7 @@
     "theseis_idias_omadas": "450-451-453-455",
     "protimiseis": "453-451-450-455-456",
     "thesi_diorismou": "450",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1406,10 +1320,10 @@
     "vathmologia": 83.42,
     "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
     "slug": "pe-viologon-eid-pe-viologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 45,
+    "aa": 42,
     "am": "6704.0",
     "eponymo": "ΜΠΑΛΦΟΥΣΙΑ",
     "onoma": "ΗΔΥΛΗ-ΦΑΙΔΡΑ",
@@ -1441,7 +1355,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 46,
+    "aa": 43,
     "am": "4702.0",
     "eponymo": "ΦΙΛΙΟΥ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -1473,7 +1387,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 47,
+    "aa": 44,
     "am": "17727.0",
     "eponymo": "ΚΟΛΥΒΑ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -1505,7 +1419,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 48,
+    "aa": 45,
     "am": "20063.0",
     "eponymo": "ΠΑΠΟΥΤΣΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1537,7 +1451,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 49,
+    "aa": 46,
     "am": "4181.0",
     "eponymo": "ΟΥΤΣΚΟΥΝΗ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -1569,7 +1483,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 50,
+    "aa": 47,
     "am": "991.0",
     "eponymo": "ΕΥΑΓΓΕΛΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1601,7 +1515,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 51,
+    "aa": 48,
     "am": "8804.0",
     "eponymo": "ΜΕΛΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1633,7 +1547,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 52,
+    "aa": 49,
     "am": "1224.0",
     "eponymo": "ΧΑΤΖΗΔΑΚΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -1665,7 +1579,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 53,
+    "aa": 50,
     "am": "11521.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΝΕΚΤΑΡΙΑ",
@@ -1697,39 +1611,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 54,
-    "am": "11521.0",
-    "eponymo": "ΙΩΑΝΝΟΥ",
-    "onoma": "ΝΕΚΤΑΡΙΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***229",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "451-450-453-456-455",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 24.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 57.72,
-    "synolo_graptou": 78.86,
-    "seira_klirosis": 6541333.0,
-    "vathmologia": 81.86,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 55,
+    "aa": 51,
     "am": "17748.0",
     "eponymo": "ΠΟΛΑΚΤΣΙΔΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -1761,7 +1643,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 56,
+    "aa": 52,
     "am": "18859.0",
     "eponymo": "ΤΣΑΚΙΡΗ",
     "onoma": "ΜΕΡΩΠΗ",
@@ -1793,7 +1675,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 57,
+    "aa": 53,
     "am": "9346.0",
     "eponymo": "ΣΟΛΟΒΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1825,7 +1707,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 58,
+    "aa": 54,
     "am": "13788.0",
     "eponymo": "ΤΑΛΙΟΥΡΑ",
     "onoma": "ΑΡΤΕΜΙΣ",
@@ -1857,7 +1739,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 59,
+    "aa": 55,
     "am": "11600.0",
     "eponymo": "ΜΑΡΙΝΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -1889,7 +1771,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 60,
+    "aa": 56,
     "am": "18877.0",
     "eponymo": "ΚΑΛΛΙΑΝΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1921,7 +1803,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 61,
+    "aa": 57,
     "am": "8003.0",
     "eponymo": "ΠΑΛΙΑΚΑΣΗΣ",
     "onoma": "ΚΩΝΣΤ",
@@ -1953,7 +1835,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 62,
+    "aa": 58,
     "am": "4687.0",
     "eponymo": "ΚΥΡΙΑΚΟΥ",
     "onoma": "ΝΕΚΤΑΡΙΑ",
@@ -1985,7 +1867,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 63,
+    "aa": 59,
     "am": "3076.0",
     "eponymo": "ΤΣΟΜΠΑΝΙΚΟΛΙΔΗΣ",
     "onoma": "ΚΥΡΙΑΚΟΣ",
@@ -2017,7 +1899,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 64,
+    "aa": 60,
     "am": "4355.0",
     "eponymo": "ΦΕΡΛΑΧΙΔΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2049,7 +1931,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 65,
+    "aa": 61,
     "am": "12224.0",
     "eponymo": "ΗΛΙΑΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ ΔΙΟΓΕΝΗΣ",
@@ -2081,7 +1963,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 66,
+    "aa": 62,
     "am": "6908.0",
     "eponymo": "ΓΚΑΣΔΡΟΓΚΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -2113,7 +1995,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 67,
+    "aa": 63,
     "am": "11332.0",
     "eponymo": "ΣΠΕΡΕΛΑΚΗΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ",
@@ -2145,7 +2027,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 68,
+    "aa": 64,
     "am": "20645.0",
     "eponymo": "ΥΠΕΡΗΦΑΝΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -2177,7 +2059,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 69,
+    "aa": 65,
     "am": "14145.0",
     "eponymo": "ΠΟΥΛΙΟΣ",
     "onoma": "ΕΥΘΥΜΙΟΣ",
@@ -2209,7 +2091,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 70,
+    "aa": 66,
     "am": "13986.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -2241,7 +2123,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 71,
+    "aa": 67,
     "am": "18403.0",
     "eponymo": "ΚΩΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΗΛΙΑΝΑ",
@@ -2273,7 +2155,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 72,
+    "aa": 68,
     "am": "5507.0",
     "eponymo": "ΠΑΠΑΠΕΤΡΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -2305,7 +2187,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 73,
+    "aa": 69,
     "am": "7829.0",
     "eponymo": "ΒΑΣΙΛΕΙΑΔΟΥ",
     "onoma": "ΚΑΡΜΕΝ-ΝΤΑΝΙΕΛΑ",
@@ -2337,7 +2219,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 74,
+    "aa": 70,
     "am": "3574.0",
     "eponymo": "ΜΠΕΡΓΙΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2369,7 +2251,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 75,
+    "aa": 71,
     "am": "8943.0",
     "eponymo": "ΣΑΚΑΡΙΚΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -2401,7 +2283,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 76,
+    "aa": 72,
     "am": "8383.0",
     "eponymo": "ΝΙΚΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2433,7 +2315,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 77,
+    "aa": 73,
     "am": "3310.0",
     "eponymo": "ΠΑΝΤΑΖΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -2465,7 +2347,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 78,
+    "aa": 74,
     "am": "313.0",
     "eponymo": "ΝΕΣΤΩΡΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -2497,7 +2379,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 79,
+    "aa": 75,
     "am": "381.0",
     "eponymo": "ΠΡΟΙΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2529,39 +2411,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 80,
-    "am": "18791.0",
-    "eponymo": "ΚΟΡΔΑΣ",
-    "onoma": "ΑΝΤΩΝΗΣ",
-    "patronymo": "ΑΛΕΞΑΝΔΡΟΣ",
-    "adt_masked": "***386",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "451-450-456-453-454-455",
-    "thesi_diorismou": "456",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": "5.0",
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 6.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 41.28,
-    "synolo_graptou": 68.64,
-    "seira_klirosis": 5053103.0,
-    "vathmologia": 76.64,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 81,
+    "aa": 76,
     "am": "20437.0",
     "eponymo": "ΜΑΛΙΟΥΦΑ",
     "onoma": "ΓΛΥΚΕΡΙΑ",
@@ -2593,7 +2443,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 82,
+    "aa": 77,
     "am": "999.0",
     "eponymo": "ΦΙΛΙΚΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -2625,7 +2475,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 83,
+    "aa": 78,
     "am": "183.0",
     "eponymo": "ΝΤΟΥΝΗ",
     "onoma": "ΜΑΡΙΑ ΜΥΡΤΩ",
@@ -2657,7 +2507,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 84,
+    "aa": 79,
     "am": "5861.0",
     "eponymo": "ΚΩΣΤΕΤΣΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2689,39 +2539,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 85,
-    "am": "5861.0",
-    "eponymo": "ΚΩΣΤΕΤΣΟΥ",
-    "onoma": "ΕΙΡΗΝΗ",
-    "patronymo": "ΕΜΜΑΝΟΥΗΛ",
-    "adt_masked": "***855",
-    "omada_prosonton": "303 -001,021,029",
-    "theseis_idias_omadas": "456",
-    "protimiseis": "454-451-1141-1129-1130-1142-1138-1135-1122-992-1005-996-997-999-1042-1009-1011-1033-1035-1043-1133-912-915-1112-1111-1113-1118-1121-1123-1114-1124-1115-804-1116-850-1073-1078-1077-1076-1075-1079-975-973-976-974-1098-1097-1096-1099-1095-914-918-854-847-1065-1066-1067-1037-991-1015-1018-1006-1004-1041-1025-1028-805-456-453-455",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 12.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 46.34,
-    "synolo_graptou": 71.17,
-    "seira_klirosis": 1873657.0,
-    "vathmologia": 76.17,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 86,
+    "aa": 80,
     "am": "6804.0",
     "eponymo": "ΤΣΕΚΟΥΡΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -2753,7 +2571,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 87,
+    "aa": 81,
     "am": "10458.0",
     "eponymo": "ΠΡΑΠΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2785,7 +2603,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 88,
+    "aa": 82,
     "am": "14546.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΗ",
     "onoma": "ΑΣΗΜΙΝΑ ΕΙΡΗΝΗ",
@@ -2817,7 +2635,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 89,
+    "aa": 83,
     "am": "6855.0",
     "eponymo": "ΠΟΥΛΙΚΑΡΑΚΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2849,7 +2667,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 90,
+    "aa": 84,
     "am": "2219.0",
     "eponymo": "ΚΑΛΑΓΚΑΤΣΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2881,7 +2699,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 91,
+    "aa": 85,
     "am": "9977.0",
     "eponymo": "ΤΣΙΤΟΥΡΑ",
     "onoma": "ΦΑΝΗ",
@@ -2913,7 +2731,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 92,
+    "aa": 86,
     "am": "16714.0",
     "eponymo": "ΤΣΙΦΤΣΑΚΗ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -2945,7 +2763,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 93,
+    "aa": 87,
     "am": "7749.0",
     "eponymo": "ΜΠΑΖΙΑΚΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2977,7 +2795,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 94,
+    "aa": 88,
     "am": "15153.0",
     "eponymo": "ΙΟΡΔΑΝΙΔΗΣ",
     "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
@@ -3009,39 +2827,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 95,
-    "am": "15153.0",
-    "eponymo": "ΙΟΡΔΑΝΙΔΗΣ",
-    "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***460",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "451-450-454-456-455-453",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 5.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 84.0,
-    "math2": 62.39,
-    "synolo_graptou": 73.19,
-    "seira_klirosis": 8489522.0,
-    "vathmologia": 74.19,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 96,
+    "aa": 89,
     "am": "20392.0",
     "eponymo": "ΣΑΚΚΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3073,7 +2859,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 97,
+    "aa": 90,
     "am": "9473.0",
     "eponymo": "ΛΑΓΙΩΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3105,7 +2891,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 98,
+    "aa": 91,
     "am": "19050.0",
     "eponymo": "ΣΤΑΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -3137,7 +2923,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 99,
+    "aa": 92,
     "am": "14478.0",
     "eponymo": "ΔΙΒΑΝΟΓΛΟΥ",
     "onoma": "NATAΛΙΑ",
@@ -3169,71 +2955,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 100,
-    "am": "14478.0",
-    "eponymo": "ΔΙΒΑΝΟΓΛΟΥ",
-    "onoma": "NATAΛΙΑ",
-    "patronymo": "ΔΑΝΙΗΛ",
-    "adt_masked": "***303",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451",
-    "protimiseis": "451-450",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 88.0,
-    "math2": 54.84,
-    "synolo_graptou": 71.42,
-    "seira_klirosis": 5823743.0,
-    "vathmologia": 73.42,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 101,
-    "am": "14478.0",
-    "eponymo": "ΔΙΒΑΝΟΓΛΟΥ",
-    "onoma": "NATAΛΙΑ",
-    "patronymo": "ΔΑΝΙΗΛ",
-    "adt_masked": "***303",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451",
-    "protimiseis": "451-450",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 88.0,
-    "math2": 54.84,
-    "synolo_graptou": 71.42,
-    "seira_klirosis": 5823743.0,
-    "vathmologia": 73.42,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 102,
+    "aa": 93,
     "am": "4871.0",
     "eponymo": "ΜΠΕΤΑ",
     "onoma": "ΧΡΥΣΟΥΛΑ  ΜΑΡΙΑ",
@@ -3265,7 +2987,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 103,
+    "aa": 94,
     "am": "14479.0",
     "eponymo": "ΛΑΜΠΡΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -3297,39 +3019,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 104,
-    "am": "14479.0",
-    "eponymo": "ΛΑΜΠΡΑΚΟΠΟΥΛΟΥ",
-    "onoma": "ΓΕΩΡΓΙΑ",
-    "patronymo": "ΠΑΝΑΓΙΩΤΗΣ",
-    "adt_masked": "***177",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "453",
-    "protimiseis": "453",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1.0",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 51.0,
-    "monades_empeirias": 4.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 92.0,
-    "math2": 42.45,
-    "synolo_graptou": 67.22,
-    "seira_klirosis": 2841813.0,
-    "vathmologia": 73.22,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 105,
+    "aa": 95,
     "am": "5774.0",
     "eponymo": "ΒΑΡΔΑΚΗ",
     "onoma": "ΜΕΛΠΟΜΕΝΗ ΕΛΕΝΗ",
@@ -3361,7 +3051,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 106,
+    "aa": 96,
     "am": "14339.0",
     "eponymo": "ΑΛΕΞΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3393,7 +3083,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 107,
+    "aa": 97,
     "am": "12193.0",
     "eponymo": "ΒΟΓΙΑΤΖΟΓΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3425,7 +3115,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 108,
+    "aa": 98,
     "am": "18754.0",
     "eponymo": "ΤΑΡΝΑΡΑ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ",
@@ -3457,7 +3147,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 109,
+    "aa": 99,
     "am": "7727.0",
     "eponymo": "ΘΕΟΔΩΡΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3489,39 +3179,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 110,
-    "am": "7727.0",
-    "eponymo": "ΘΕΟΔΩΡΟΥ",
-    "onoma": "ΔΗΜΗΤΡΑ",
-    "patronymo": "ΒΑΣΙΛΕΙΟΣ",
-    "adt_masked": "***396",
-    "omada_prosonton": "303 -001,021,029",
-    "theseis_idias_omadas": "456",
-    "protimiseis": "454-450-451-455-456",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 22.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 84.0,
-    "math2": 52.78,
-    "synolo_graptou": 68.39,
-    "seira_klirosis": 9961750.0,
-    "vathmologia": 72.39,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 111,
+    "aa": 100,
     "am": "6106.0",
     "eponymo": "ΓΕΩΡΓΙΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3553,7 +3211,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 112,
+    "aa": 101,
     "am": "18113.0",
     "eponymo": "ΣΑΠΟΥΝΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3585,7 +3243,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 113,
+    "aa": 102,
     "am": "13254.0",
     "eponymo": "ΤΣΙΟΤΣΙΟΥ",
     "onoma": "ΜΑΛΑΜΑΤΗ",
@@ -3617,7 +3275,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 114,
+    "aa": 103,
     "am": "18468.0",
     "eponymo": "ΠΑΥΛΙΔΗΣ",
     "onoma": "ΘΕΟΦΥΛΑΚΤΟΣ",
@@ -3649,7 +3307,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 115,
+    "aa": 104,
     "am": "16417.0",
     "eponymo": "ΜΕΣΕΛΙΔΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3681,7 +3339,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 116,
+    "aa": 105,
     "am": "6217.0",
     "eponymo": "ΠΕΠΠΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -3713,39 +3371,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 117,
-    "am": "6217.0",
-    "eponymo": "ΠΕΠΠΑ",
-    "onoma": "ΕΛΕΝΗ",
-    "patronymo": "ΝΙΚΟΛΑΟΣ",
-    "adt_masked": "***980",
-    "omada_prosonton": "303 -001",
-    "theseis_idias_omadas": "450-451-453-455",
-    "protimiseis": "2822-2823-451-450-2813-2825-2830-2817-2819-2818-453-2821-2815-2824-2828-2827-2831-455-2829-2820-456-2826-2814",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 31.95,
-    "synolo_graptou": 63.97,
-    "seira_klirosis": 1547814.0,
-    "vathmologia": 69.97,
-    "eidikotita": "ΠΕ ΒΙΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΒΙΟΛΟΓΩΝ",
-    "slug": "pe-viologon-eid-pe-viologon"
-  },
-  {
-    "aa": 118,
+    "aa": 106,
     "am": "1960.0",
     "eponymo": "ΜΠΡΙΣΙΜΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3777,7 +3403,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 119,
+    "aa": 107,
     "am": "10701.0",
     "eponymo": "ΡΕΝΤΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3809,7 +3435,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 120,
+    "aa": 108,
     "am": "3862.0",
     "eponymo": "ΔΑΡΔΑ",
     "onoma": "ΘΕΑΝΩ",
@@ -3841,7 +3467,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 121,
+    "aa": 109,
     "am": "6635.0",
     "eponymo": "ΔΕΡΜΕΝΤΖΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -3873,7 +3499,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 122,
+    "aa": 110,
     "am": "16154.0",
     "eponymo": "ΚΑΙΡΗΣ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -3905,7 +3531,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 123,
+    "aa": 111,
     "am": "16733.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -3937,7 +3563,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 124,
+    "aa": 112,
     "am": "14116.0",
     "eponymo": "ΣΑΜΟΙΛΗ",
     "onoma": "ΧΑΡΑ",
@@ -3969,7 +3595,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 125,
+    "aa": 113,
     "am": "8014.0",
     "eponymo": "ΤΣΙΡΙΜΙΑΓΚΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -4001,7 +3627,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 126,
+    "aa": 114,
     "am": "8902.0",
     "eponymo": "ΤΣΙΡΙΜΙΑΓΚΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -4033,7 +3659,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 127,
+    "aa": 115,
     "am": "16996.0",
     "eponymo": "ΨΑΡΑΚΗ",
     "onoma": "ΑΝΤΡΕΑ ΑΝΤΡΙΑΝΑ",
@@ -4065,7 +3691,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 128,
+    "aa": 116,
     "am": "4746.0",
     "eponymo": "ΚΟΥΡΜΠΑΝΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4097,7 +3723,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 129,
+    "aa": 117,
     "am": "19886.0",
     "eponymo": "ΡΟΥΜΕΛΙΩΤΟΥ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -4129,7 +3755,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 130,
+    "aa": 118,
     "am": "328.0",
     "eponymo": "ΔΑΣΚΟΥ",
     "onoma": "ΑΝΤΩΝΙΑ  ΜΑΡΙΑ",
@@ -4161,7 +3787,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 131,
+    "aa": 119,
     "am": "7408.0",
     "eponymo": "ΧΑΡΑΤΖΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4193,7 +3819,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 132,
+    "aa": 120,
     "am": "13054.0",
     "eponymo": "ΧΑΣΑΜΠΑΛΙΩΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -4225,7 +3851,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 133,
+    "aa": 121,
     "am": "19545.0",
     "eponymo": "ΚΩΤΣΑΔΑΜ",
     "onoma": "ΕΛΕΝΗ",
@@ -4257,7 +3883,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 134,
+    "aa": 122,
     "am": "7149.0",
     "eponymo": "ΜΠΟΥΡΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4289,7 +3915,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 135,
+    "aa": 123,
     "am": "16339.0",
     "eponymo": "ΨΑΡΑΔΕΛΛΗ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -4321,7 +3947,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 136,
+    "aa": 124,
     "am": "16502.0",
     "eponymo": "ΒΟΙΤΣΕ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -4353,7 +3979,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 137,
+    "aa": 125,
     "am": "5555.0",
     "eponymo": "ΓΙΑΝΝΙΛΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -4385,7 +4011,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 138,
+    "aa": 126,
     "am": "7187.0",
     "eponymo": "ΣΚΟΥΡΑ",
     "onoma": "ΑΝΝΑ - ΜΟΡΕΝΑ",
@@ -4417,7 +4043,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 139,
+    "aa": 127,
     "am": "9586.0",
     "eponymo": "ΖΑΦΕΙΡΙΑΔΟΥ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -4449,7 +4075,7 @@
     "slug": "pe-viologon-eid-pe-viologon"
   },
   {
-    "aa": 140,
+    "aa": 128,
     "am": "19980.0",
     "eponymo": "ΤΣΙΟΛΑΚΗ",
     "onoma": "ΓΛΥΚΕΡΙΑ",

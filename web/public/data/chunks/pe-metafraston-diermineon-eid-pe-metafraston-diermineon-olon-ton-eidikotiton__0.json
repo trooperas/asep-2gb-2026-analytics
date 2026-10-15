@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "1435",
     "protimiseis": "1435-946-950-949-945-947-948-943-944-1081-1080-1159-1154-1158-1155-1156-1157-1153",
     "thesi_diorismou": "1435",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,7 +29,8 @@
     "seira_klirosis": 9049798.0,
     "vathmologia": 124.56,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
@@ -65,38 +66,6 @@
   },
   {
     "aa": 3,
-    "am": "13644.0",
-    "eponymo": "ΚΑΛΜΟΥΚΗ",
-    "onoma": "ΝΙΚΟΛΕΤΤΑ",
-    "patronymo": "ΘΕΟΔΩΡΟΣ",
-    "adt_masked": "***377",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1434-1435-1436-1438-1440-1441-1443",
-    "protimiseis": "1435-1434-1443-1438-1440-1441-1436",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 75.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1435.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 51.89,
-    "synolo_graptou": 75.94,
-    "seira_klirosis": 5795655.0,
-    "vathmologia": 121.94,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 4,
     "am": "17754.0",
     "eponymo": "ΜΑΡΤΑΒΑΤΖΗ",
     "onoma": "ΑΓΑΠΗ",
@@ -128,39 +97,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 5,
-    "am": "7496.0",
-    "eponymo": "ΜΠΕΛΕΡΗ",
-    "onoma": "ΠΑΝΑΓΙΩΤΑ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***389",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1434-1435-1436-1438-1440-1441-1443",
-    "protimiseis": "1434-1435-1436-1438-1440-1441-1443-3159-1108-1109-787-793-806-807-838-839-840-841-842-868-869-870-871-872-873-874-875-876-927-928-929-938-939-940-941-942-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-978-979-980-981-984-986-987-988-1065-1067-1071-1072-1073-1076-1077-1078-1079-1096-1097-1098-1099-1100-1101-1102-1103-1104-1148-1150-1151-1152-1187-1088-1089-1191-1192-1193-1194-1195-1196-1202-1203-1204-1129-1130-1131-1132-1133-1134-1135-1136-1137-1138-1139-1140-1141-1142-1143-1111-1112-1113-1114-1115-1116-1117-857-858-859-860-861-862-863-865-866-867",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 36.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1435.0",
-    "monades_entop": 40.0,
-    "math1": 88.0,
-    "math2": 57.06,
-    "synolo_graptou": 72.53,
-    "seira_klirosis": 4559878.0,
-    "vathmologia": 118.53,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 6,
+    "aa": 4,
     "am": "7928.0",
     "eponymo": "ΑΓΓΕΛΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -192,103 +129,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 7,
-    "am": "1289.0",
-    "eponymo": "ΚΟΤΤΗ",
-    "onoma": "ΠΑΡΑΣΚΕΥΗ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***690",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1434-1435-1436-1438-1440-1441-1443",
-    "protimiseis": "1435-1434-1438-1436-1440-1441-1443",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 67.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1435.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 33.28,
-    "synolo_graptou": 66.64,
-    "seira_klirosis": 8248702.0,
-    "vathmologia": 115.14,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 8,
-    "am": "15166.0",
-    "eponymo": "ΠΑΝΤΕΛΑΚΗ",
-    "onoma": "ΑΓΛΑΙΑ",
-    "patronymo": "ΕΜΜΑΝΟΥΗΛ",
-    "adt_masked": "***212",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1434-1435-1436-1438-1440-1441-1443",
-    "protimiseis": "1435-1434-1436-1438-1440-1441-1443",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": "5.0",
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1435.0",
-    "monades_entop": 40.0,
-    "math1": 84.0,
-    "math2": 46.78,
-    "synolo_graptou": 65.39,
-    "seira_klirosis": 6878001.0,
-    "vathmologia": 113.89,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 9,
-    "am": "18461.0",
-    "eponymo": "ΠΑΠΑΙΣΙΔΩΡΟΥ",
-    "onoma": "ΑΛΕΞΑΝΔΡΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***350",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1434-1435-1436-1438-1440-1441-1443",
-    "protimiseis": "810-811-812-813-1290-1291-1292-1294-1295-1296-1434-1435-1436-1438-1440-1441-1443",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": "5.0",
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 20.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1435.0",
-    "monades_entop": 40.0,
-    "math1": 68.0,
-    "math2": 41.06,
-    "synolo_graptou": 54.53,
-    "seira_klirosis": 2379393.0,
-    "vathmologia": 104.03,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 10,
+    "aa": 5,
     "am": "15047.0",
     "eponymo": "ΒΑΣΑΛΑΚΗ",
     "onoma": "ΑΝΔΡΟΜΑΧΗ",
@@ -298,7 +139,7 @@
     "theseis_idias_omadas": "1434-1436-1438-1440-1441-1443",
     "protimiseis": "1443-1440-1438-1441-1436-896-898-1012-895-881-1011-1040-1023-1007-1000-1039-1009-1042-1043-884-1010-1013-1008-1041-999-991-1036-1016-1037-1003-880-1124-996-1018-995-1034-1020-1019-1006-1024-1033-1035-1046-885-889-883-1122-1434-1115-893",
     "thesi_diorismou": "1443",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -317,10 +158,11 @@
     "seira_klirosis": 2682630.0,
     "vathmologia": 88.72,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 11,
+    "aa": 6,
     "am": "17812.0",
     "eponymo": "ΠΟΛΥΖΩΗ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -330,7 +172,7 @@
     "theseis_idias_omadas": "1441",
     "protimiseis": "1122-1124-1113-1111-1118-1114-1441-1115",
     "thesi_diorismou": "1441",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -349,10 +191,11 @@
     "seira_klirosis": 6525731.0,
     "vathmologia": 87.78,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 12,
+    "aa": 7,
     "am": "18588.0",
     "eponymo": "ΤΣΙΠΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -362,7 +205,7 @@
     "theseis_idias_omadas": "1434",
     "protimiseis": "877-1434",
     "thesi_diorismou": "1434",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -381,10 +224,11 @@
     "seira_klirosis": 4583076.0,
     "vathmologia": 87.44,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 8,
     "am": "9515.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -394,7 +238,7 @@
     "theseis_idias_omadas": "1434-1436-1438-1440-1441-1443",
     "protimiseis": "1434-1436-1438-1440-1441-1443",
     "thesi_diorismou": "1434",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -413,10 +257,11 @@
     "seira_klirosis": 5990418.0,
     "vathmologia": 86.64,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 14,
+    "aa": 9,
     "am": "5198.0",
     "eponymo": "ΛΕΧΟΥΡΙΤΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -426,7 +271,7 @@
     "theseis_idias_omadas": "1434-1436-1438-1440-1441-1443",
     "protimiseis": "1434-1440-1438-1436-1441-1443-880-884-996-1040-885-896-898-991-995-998-999-1008-1009-1010-1011-1012-1013-1039-1042-1041-1043-1122-1124-1136-1142-992-993-994-1000-1003-1006-1007-1016-1018-1019-1020-1023-1024-1025-1029-1031-1033-1034-1035-1036-1037-1038-1044-1045-1046-1047-1048-1049-1051-1052-1111-1112-1113-1114-1115-1116-1117-1118-1119-1120-1123-1129-1130-1132-1133-1134-1135-1138-1139-1140-1141-877-881-882-883-889-890-892-893-895-897-899-912-913-914-915-916-917-918-919-1131-797-798-789-790-804-846-849-843-855-997-1005-1014-1015-1137-1001-1002-1004-1017-1021-1022-1027-1028-1032-1050",
     "thesi_diorismou": "1440",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -445,10 +290,11 @@
     "seira_klirosis": 4344390.0,
     "vathmologia": 86.5,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 15,
+    "aa": 10,
     "am": "15236.0",
     "eponymo": "ΤΟΥΡΤΟΥΡΗΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -458,7 +304,7 @@
     "theseis_idias_omadas": "1434-1435-1436-1438-1440-1441-1443",
     "protimiseis": "1434-1438-1436-1440-1441-1443-1435",
     "thesi_diorismou": "1438",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -477,10 +323,11 @@
     "seira_klirosis": 6457515.0,
     "vathmologia": 86.17,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 16,
+    "aa": 11,
     "am": "4567.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΟΥΔΗ",
     "onoma": "ΘΕΟΠΗ",
@@ -490,7 +337,7 @@
     "theseis_idias_omadas": "1434-1436-1438-1440-1441-1443",
     "protimiseis": "1434-1443-1441-1440-1438-1436",
     "thesi_diorismou": "1436",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -509,10 +356,11 @@
     "seira_klirosis": 2818543.0,
     "vathmologia": 86.11,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 17,
+    "aa": 12,
     "am": "5878.0",
     "eponymo": "ΚΟΛΙΟΥ",
     "onoma": "ΒΑΡΒΑΡΑ",
@@ -544,7 +392,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 18,
+    "aa": 13,
     "am": "16335.0",
     "eponymo": "ΑΞΙΩΤΗ",
     "onoma": "ΑΡΕΤΗ",
@@ -576,7 +424,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 19,
+    "aa": 14,
     "am": "10271.0",
     "eponymo": "ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -608,7 +456,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 20,
+    "aa": 15,
     "am": "14438.0",
     "eponymo": "ΔΟΥΡΔΑ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -640,7 +488,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 21,
+    "aa": 16,
     "am": "891.0",
     "eponymo": "ΠΑΓΚΑΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -672,7 +520,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 22,
+    "aa": 17,
     "am": "12626.0",
     "eponymo": "ΠΑΛΜΟΥ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -704,7 +552,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 23,
+    "aa": 18,
     "am": "6025.0",
     "eponymo": "ΚΑΒΑΛΙΕΡΟΥ",
     "onoma": "ΕΥΔΟΚΙΑ",
@@ -736,7 +584,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 24,
+    "aa": 19,
     "am": "3975.0",
     "eponymo": "ΑΛΥΦΑΝΤΑΡΟΥ",
     "onoma": "ΗΛΙΑΝΑΜΑΡΙΑ",
@@ -768,7 +616,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 25,
+    "aa": 20,
     "am": "3079.0",
     "eponymo": "ΠΑΠΑΧΡΗΣΤΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -800,7 +648,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 26,
+    "aa": 21,
     "am": "17248.0",
     "eponymo": "ΝΑΝΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -832,7 +680,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 27,
+    "aa": 22,
     "am": "18736.0",
     "eponymo": "ΤΟΠΑΛΤΖΙΚΗ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -864,7 +712,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 28,
+    "aa": 23,
     "am": "1668.0",
     "eponymo": "ΣΑΚΚΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -896,7 +744,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 29,
+    "aa": 24,
     "am": "1176.0",
     "eponymo": "ΝΙΚΟΛΕΤΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -928,7 +776,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 30,
+    "aa": 25,
     "am": "9916.0",
     "eponymo": "ΠΑΠΑΝΤΩΝΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -960,7 +808,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 31,
+    "aa": 26,
     "am": "1749.0",
     "eponymo": "ΜΑΚΡΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -992,7 +840,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 32,
+    "aa": 27,
     "am": "14348.0",
     "eponymo": "ΑΠΟΣΤΟΛΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1024,7 +872,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 33,
+    "aa": 28,
     "am": "7720.0",
     "eponymo": "ΜΠΕΖΟΥΓΛΑ",
     "onoma": "ΟΛΓΑ",
@@ -1056,7 +904,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 34,
+    "aa": 29,
     "am": "3465.0",
     "eponymo": "ΕΥΘΥΜΙΑΔΟΥ",
     "onoma": "ΜΑΡΙΑ ΙΩΑΝΝΑ",
@@ -1088,7 +936,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 35,
+    "aa": 30,
     "am": "13212.0",
     "eponymo": "ΜΠΑΝΙΑ",
     "onoma": "ΣΟΥΛΤΑΝΑ",
@@ -1120,7 +968,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 36,
+    "aa": 31,
     "am": "13904.0",
     "eponymo": "ΒΑΣΙΛΑΚΗ",
     "onoma": "ΑΝΝΑ",
@@ -1152,7 +1000,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 37,
+    "aa": 32,
     "am": "3510.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΣΠΥΡΙΔΟΥΛΑ",
@@ -1184,7 +1032,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 38,
+    "aa": 33,
     "am": "10214.0",
     "eponymo": "ΣΠΑΝΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1216,7 +1064,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 39,
+    "aa": 34,
     "am": "13644.0",
     "eponymo": "ΚΑΛΜΟΥΚΗ",
     "onoma": "ΝΙΚΟΛΕΤΤΑ",
@@ -1248,7 +1096,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 40,
+    "aa": 35,
     "am": "11186.0",
     "eponymo": "ΡΟΖΑΚΟΥ",
     "onoma": "ΜΕΛΙΝΑ",
@@ -1280,7 +1128,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 41,
+    "aa": 36,
     "am": "2693.0",
     "eponymo": "ΦΑΚΑ",
     "onoma": "ΑΜΑΡΥΛΛΙΣ ΣΤΑΜΑΤΙΝΑ",
@@ -1312,7 +1160,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 42,
+    "aa": 37,
     "am": "14191.0",
     "eponymo": "ΙΩΑΝΝΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -1344,7 +1192,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 43,
+    "aa": 38,
     "am": "15412.0",
     "eponymo": "ΠΑΠΑΜΙΧΑΗΛ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1376,7 +1224,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 44,
+    "aa": 39,
     "am": "9769.0",
     "eponymo": "ΛΑΜΠΙΡΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -1408,7 +1256,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 45,
+    "aa": 40,
     "am": "3240.0",
     "eponymo": "ΚΑΡΕΤΣΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1440,7 +1288,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 46,
+    "aa": 41,
     "am": "9026.0",
     "eponymo": "ΚΑΣΤΑΝΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1450,7 +1298,7 @@
     "theseis_idias_omadas": "1443",
     "protimiseis": "1443-1007-1023-1018-3160-991-1035-1033-1034-918-914",
     "thesi_diorismou": "1443",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1470,43 +1318,10 @@
     "vathmologia": 81.44,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 47,
-    "am": "9026.0",
-    "eponymo": "ΚΑΣΤΑΝΑ",
-    "onoma": "ΕΛΕΝΗ",
-    "patronymo": "ΜΙΛΤΙΑΔΗΣ",
-    "adt_masked": "***288",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1443",
-    "protimiseis": "1443-1007-1023-1018-3160-991-1035-1033-1034-918-914",
-    "thesi_diorismou": "1443",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 192.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 46.89,
-    "synolo_graptou": 73.44,
-    "seira_klirosis": 1502655.0,
-    "vathmologia": 81.44,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
-  },
-  {
-    "aa": 48,
+    "aa": 42,
     "am": "15443.0",
     "eponymo": "ΚΑΣΤΑΝΑΡΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1538,7 +1353,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 49,
+    "aa": 43,
     "am": "13246.0",
     "eponymo": "ΚΑΡΔΑΜΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -1570,7 +1385,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 50,
+    "aa": 44,
     "am": "12817.0",
     "eponymo": "ΔΟΥΚΑ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -1602,7 +1417,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 51,
+    "aa": 45,
     "am": "9919.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΘΑ ΜΑΡΙΑ",
@@ -1634,7 +1449,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 52,
+    "aa": 46,
     "am": "3937.0",
     "eponymo": "ΔΟΥΚΕΛΛΗ",
     "onoma": "ΖΑΧΑΡΟΥΛΑ",
@@ -1666,7 +1481,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 53,
+    "aa": 47,
     "am": "13539.0",
     "eponymo": "ΜΙΧΕΛΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -1698,7 +1513,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 54,
+    "aa": 48,
     "am": "10997.0",
     "eponymo": "ΓΕΩΡΓΟΒΑΣΙΛΗ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -1730,7 +1545,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 55,
+    "aa": 49,
     "am": "11426.0",
     "eponymo": "ΠΑΠΑΛΕΞΑΝΔΡΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1762,7 +1577,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 56,
+    "aa": 50,
     "am": "10494.0",
     "eponymo": "ΚΑΡΥΩΤΗ",
     "onoma": "ΟΛΓΑ",
@@ -1794,7 +1609,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 57,
+    "aa": 51,
     "am": "5166.0",
     "eponymo": "ΧΑΤΖΗΦΩΤΕΙΝΟΥ",
     "onoma": "ΑΝΔΡΙΑΝΑ",
@@ -1826,7 +1641,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 58,
+    "aa": 52,
     "am": "7297.0",
     "eponymo": "ΚΑΛΑΝΤΖΗ",
     "onoma": "ΑΜΑΛΙΑ",
@@ -1858,7 +1673,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 59,
+    "aa": 53,
     "am": "18511.0",
     "eponymo": "ΒΑΙΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1890,7 +1705,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 60,
+    "aa": 54,
     "am": "8825.0",
     "eponymo": "ΓΡΗΓΟΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΡΓΥΡΩ ΙΡΙΔΑ",
@@ -1922,39 +1737,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 61,
-    "am": "5166.0",
-    "eponymo": "ΧΑΤΖΗΦΩΤΕΙΝΟΥ",
-    "onoma": "ΑΝΔΡΙΑΝΑ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***806",
-    "omada_prosonton": "327 -001",
-    "theseis_idias_omadas": "1434-1436-1438-1440-1441-1443",
-    "protimiseis": "1280-1281-1443-1434-1438-1440-1436-1441-1278-1279-1283",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 45.67,
-    "synolo_graptou": 70.83,
-    "seira_klirosis": 3560701.0,
-    "vathmologia": 78.83,
-    "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 62,
+    "aa": 55,
     "am": "20128.0",
     "eponymo": "ΝΤΑΙΛΙΑΝΗ",
     "onoma": "ΘΕΑΝΩ",
@@ -1986,7 +1769,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 63,
+    "aa": 56,
     "am": "7496.0",
     "eponymo": "ΜΠΕΛΕΡΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -2018,7 +1801,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 64,
+    "aa": 57,
     "am": "18760.0",
     "eponymo": "ΤΟΠΟΥΖΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -2050,7 +1833,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 65,
+    "aa": 58,
     "am": "15922.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΟΛΓΑ",
@@ -2082,7 +1865,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 66,
+    "aa": 59,
     "am": "5029.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΕΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -2114,7 +1897,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 67,
+    "aa": 60,
     "am": "14183.0",
     "eponymo": "ΔΕΡΜΙΝΤΖΑΚΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2146,7 +1929,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 68,
+    "aa": 61,
     "am": "12978.0",
     "eponymo": "ΠΡΙΦΤΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -2178,7 +1961,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 69,
+    "aa": 62,
     "am": "3998.0",
     "eponymo": "ΚΑΡΤΑΛΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2210,7 +1993,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 70,
+    "aa": 63,
     "am": "15194.0",
     "eponymo": "ΤΣΟΛΑΚΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2242,7 +2025,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 71,
+    "aa": 64,
     "am": "15597.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2252,7 +2035,7 @@
     "theseis_idias_omadas": "1434-1436-1438-1440-1441-1443",
     "protimiseis": "1440-1434-1443-1438-1436-1441-2278-2279-2276-2277-2280-2281-2286-2346-2271-2274-2273-2275-2284-2283-2282-2285-2269-2272-2339-2270-2338-2288-2287-2343-2334-2337-2335-2336-2344-2345-2268-2198-2203-2210-2216-2194-2195-2196-2197-2211-2212-2213-2214-2215-2217-2218-2244-2247-2256-2245-2246-2248-2249-2250-2251-2252-2253-2254-2255-2381-2350-2352-2353-2307-2308-2310-2311-2199-2200-2201-2202",
     "thesi_diorismou": "2276",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2271,10 +2054,11 @@
     "seira_klirosis": 5243201.0,
     "vathmologia": 76.97,
     "eidikotita": "ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ ΕΙΔ. ΠΕ ΜΕΤΑΦΡΑΣΤΩΝ-ΔΙΕΡΜΗΝΕΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
+    "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 72,
+    "aa": 65,
     "am": "513.0",
     "eponymo": "ΔΕΜΗΡΤΖΙΔΟΥ",
     "onoma": "ΙΩΑΝΝΑ ΜΑΡΙΑ",
@@ -2306,7 +2090,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 73,
+    "aa": 66,
     "am": "20134.0",
     "eponymo": "ΓΚΟΓΚΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -2338,7 +2122,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 74,
+    "aa": 67,
     "am": "14073.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΑΓΑΘΗ",
@@ -2370,7 +2154,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 75,
+    "aa": 68,
     "am": "18304.0",
     "eponymo": "ΜΠΑΡΜΠΑΤΗ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -2402,7 +2186,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 76,
+    "aa": 69,
     "am": "7134.0",
     "eponymo": "ΜΠΑΚΟΛΑ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -2434,7 +2218,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 77,
+    "aa": 70,
     "am": "13192.0",
     "eponymo": "ΛΥΚΟΥΡΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2466,7 +2250,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 78,
+    "aa": 71,
     "am": "14143.0",
     "eponymo": "ΔΟΥΔΟΥΜΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2498,7 +2282,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 79,
+    "aa": 72,
     "am": "9271.0",
     "eponymo": "ΒΛΑΣΤΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -2530,7 +2314,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 80,
+    "aa": 73,
     "am": "13464.0",
     "eponymo": "ΒΙΣΒΙΚΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ-ΔΕΣΠΟΙΝΑ",
@@ -2562,7 +2346,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 81,
+    "aa": 74,
     "am": "10836.0",
     "eponymo": "ΚΟΡΩΝΑΚΗ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -2594,7 +2378,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 82,
+    "aa": 75,
     "am": "1289.0",
     "eponymo": "ΚΟΤΤΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -2626,7 +2410,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 83,
+    "aa": 76,
     "am": "12163.0",
     "eponymo": "ΝΙΚΟΛΙΔΑΚΗ",
     "onoma": "ΚΛΕΙΩ",
@@ -2658,7 +2442,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 84,
+    "aa": 77,
     "am": "4586.0",
     "eponymo": "ΑΝΑΓΝΩΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -2690,7 +2474,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 85,
+    "aa": 78,
     "am": "10603.0",
     "eponymo": "ΖΑΧΑΡΑΚΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -2722,7 +2506,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 86,
+    "aa": 79,
     "am": "9620.0",
     "eponymo": "ΚΑΦΕΤΖΗ",
     "onoma": "ΓΕΣΘΗΜΑΝΗ",
@@ -2754,7 +2538,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 87,
+    "aa": 80,
     "am": "4479.0",
     "eponymo": "ΚΑΡΑΝΤΖΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2786,7 +2570,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 88,
+    "aa": 81,
     "am": "12771.0",
     "eponymo": "ΝΑΣΤΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -2818,7 +2602,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 89,
+    "aa": 82,
     "am": "15166.0",
     "eponymo": "ΠΑΝΤΕΛΑΚΗ",
     "onoma": "ΑΓΛΑΙΑ",
@@ -2850,7 +2634,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 90,
+    "aa": 83,
     "am": "13939.0",
     "eponymo": "ΜΠΡΟΥΣΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -2882,7 +2666,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 91,
+    "aa": 84,
     "am": "14395.0",
     "eponymo": "ΣΑΤΟΥ",
     "onoma": "ΑΝΤΩΝΙΑ ΣΩΤΗΡΙΑ",
@@ -2914,7 +2698,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 92,
+    "aa": 85,
     "am": "17042.0",
     "eponymo": "ΤΣΑΝΤΑΡΗ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -2946,7 +2730,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 93,
+    "aa": 86,
     "am": "567.0",
     "eponymo": "ΣΙΔΗΡΟΠΟΥΛΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2978,7 +2762,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 94,
+    "aa": 87,
     "am": "13610.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3010,7 +2794,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 95,
+    "aa": 88,
     "am": "8236.0",
     "eponymo": "ΜΠΑΛΕΣΙΑΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -3042,7 +2826,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 96,
+    "aa": 89,
     "am": "10854.0",
     "eponymo": "ΑΝΑΣΤΑΣΑΚΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3074,7 +2858,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 97,
+    "aa": 90,
     "am": "9252.0",
     "eponymo": "ΟΣΜΑΝ ΟΓΛΟΥ",
     "onoma": "ΣΙΠΕΛ",
@@ -3106,7 +2890,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 98,
+    "aa": 91,
     "am": "16742.0",
     "eponymo": "ΣΠΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -3138,7 +2922,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 99,
+    "aa": 92,
     "am": "17081.0",
     "eponymo": "ΜΠΟΛΕΤΣΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3170,7 +2954,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 100,
+    "aa": 93,
     "am": "16477.0",
     "eponymo": "ΣΤΕΦΑΝΑΚΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3202,7 +2986,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 101,
+    "aa": 94,
     "am": "15279.0",
     "eponymo": "ΚΙΜΠΙΖΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3234,7 +3018,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 102,
+    "aa": 95,
     "am": "580.0",
     "eponymo": "ΑΡΒΑΝΙΤΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3266,7 +3050,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 103,
+    "aa": 96,
     "am": "7451.0",
     "eponymo": "ΜΟΥΜΤΖΗ",
     "onoma": "ΔΗΜΗΤΡΑ ΑΔΑΜΑΝΤΙΑ",
@@ -3298,7 +3082,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 104,
+    "aa": 97,
     "am": "9119.0",
     "eponymo": "ΚΑΡΑΚΟΥΣΗ",
     "onoma": "ΕΙΡΗΝΗ-ΕΛΕΝΗ",
@@ -3330,7 +3114,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 105,
+    "aa": 98,
     "am": "15413.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΟΥΔΑΚΗ",
     "onoma": "ΑΝΔΡΟΝΙΚΗ",
@@ -3362,7 +3146,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 106,
+    "aa": 99,
     "am": "17095.0",
     "eponymo": "ΚΡΑΣΑΔΑΚΗ",
     "onoma": "ΘΑΛΕΙΑ-ΕΛΕΝΗ",
@@ -3394,7 +3178,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 107,
+    "aa": 100,
     "am": "12025.0",
     "eponymo": "ΛΙΝΑΡΔΑΤΟΥ",
     "onoma": "ΜΠΕΛΑ",
@@ -3426,7 +3210,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 108,
+    "aa": 101,
     "am": "20117.0",
     "eponymo": "ΨΥΧΟΓΙΟΥ",
     "onoma": "ΑΘΗΝΑ ΒΑΣΙΛΙΚΗ",
@@ -3458,7 +3242,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 109,
+    "aa": 102,
     "am": "13715.0",
     "eponymo": "ΦΙΝΔΡΙΛΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -3490,7 +3274,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 110,
+    "aa": 103,
     "am": "20367.0",
     "eponymo": "ΓΚΙΟΥΡΑ",
     "onoma": "ΠΕΤΡΟΥΛΑ",
@@ -3522,7 +3306,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 111,
+    "aa": 104,
     "am": "4753.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -3554,7 +3338,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 112,
+    "aa": 105,
     "am": "14328.0",
     "eponymo": "ΤΕΡΖΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3586,7 +3370,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 113,
+    "aa": 106,
     "am": "11726.0",
     "eponymo": "ΣΦΗΝΑΡΟΛΑΚΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -3618,7 +3402,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 114,
+    "aa": 107,
     "am": "16020.0",
     "eponymo": "ΚΑΤΣΙΓΙΑΝΝΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3650,7 +3434,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 115,
+    "aa": 108,
     "am": "2502.0",
     "eponymo": "ΡΟΖΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3682,7 +3466,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 116,
+    "aa": 109,
     "am": "16795.0",
     "eponymo": "ΣΙΔΕΡΗ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -3714,7 +3498,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 117,
+    "aa": 110,
     "am": "9790.0",
     "eponymo": "ΒΓΕΝΟΠΟΥΛΟΥ",
     "onoma": "ΔΙΟΝΥΣΙΑ",
@@ -3746,7 +3530,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 118,
+    "aa": 111,
     "am": "13662.0",
     "eponymo": "ΒΥΡΑ",
     "onoma": "ΝΙΚΗ",
@@ -3778,7 +3562,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 119,
+    "aa": 112,
     "am": "12527.0",
     "eponymo": "ΡΟΥΜΑΝΕΑ",
     "onoma": "ΘΕΩΝΗ",
@@ -3810,7 +3594,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 120,
+    "aa": 113,
     "am": "8852.0",
     "eponymo": "ΤΣΑΝΤΙΚΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ ΑΝΝΑ",
@@ -3842,7 +3626,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 121,
+    "aa": 114,
     "am": "8494.0",
     "eponymo": "ΚΟΝΤΑΞΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3874,7 +3658,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 122,
+    "aa": 115,
     "am": "2970.0",
     "eponymo": "ΚΑΡΑΠΑΤΑΚΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3906,7 +3690,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 123,
+    "aa": 116,
     "am": "18461.0",
     "eponymo": "ΠΑΠΑΙΣΙΔΩΡΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -3938,7 +3722,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 124,
+    "aa": 117,
     "am": "4797.0",
     "eponymo": "ΠΙΕΡΑΚΕΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -3970,7 +3754,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 125,
+    "aa": 118,
     "am": "10151.0",
     "eponymo": "ΤΥΡΝΙΝΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -4002,7 +3786,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 126,
+    "aa": 119,
     "am": "668.0",
     "eponymo": "ΜΟΡΤΖΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4034,7 +3818,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 127,
+    "aa": 120,
     "am": "2408.0",
     "eponymo": "ΠΟΛΥΛΟΓΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΑ",
@@ -4066,7 +3850,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 128,
+    "aa": 121,
     "am": "12727.0",
     "eponymo": "ΚΟΥΤΣΟΥΜΠΕΛΗ",
     "onoma": "ΔΑΝΑΗ",
@@ -4098,7 +3882,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 129,
+    "aa": 122,
     "am": "9404.0",
     "eponymo": "ΓΡΑΜΜΕΝΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -4130,7 +3914,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 130,
+    "aa": 123,
     "am": "18705.0",
     "eponymo": "ΜΕΛΕΤΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ ΑΝΘΙΜΗ",
@@ -4162,7 +3946,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 131,
+    "aa": 124,
     "am": "9957.0",
     "eponymo": "ΜΠΟΥΚΑ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4194,7 +3978,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 132,
+    "aa": 125,
     "am": "10754.0",
     "eponymo": "ΘΕΟΔΩΡΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΣΤΑΘΙΑ",
@@ -4226,7 +4010,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 133,
+    "aa": 126,
     "am": "11812.0",
     "eponymo": "ΓΡΑΔΟΥΛΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -4258,7 +4042,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 134,
+    "aa": 127,
     "am": "2722.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΥ",
     "onoma": "ΔΙΟΝΥΣΙΑ",
@@ -4290,7 +4074,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 135,
+    "aa": 128,
     "am": "15543.0",
     "eponymo": "ΝΤΟΥΒΛΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -4322,7 +4106,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 136,
+    "aa": 129,
     "am": "13878.0",
     "eponymo": "ΠΑΠΑΓΙΑΝΝΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -4354,7 +4138,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 137,
+    "aa": 130,
     "am": "13014.0",
     "eponymo": "ΠΑΠΑΔΗΜΑ",
     "onoma": "ΕΛΙΣΣΑΒΕΤ",
@@ -4386,7 +4170,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 138,
+    "aa": 131,
     "am": "4090.0",
     "eponymo": "ΠΑΠΑΣΤΕΡΓΙΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -4418,7 +4202,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 139,
+    "aa": 132,
     "am": "11716.0",
     "eponymo": "ΚΑΛΟΤΥΧΟΥ",
     "onoma": "ΝΙΚΗ ΣΩΤΗΡΙΑ",
@@ -4450,7 +4234,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 140,
+    "aa": 133,
     "am": "13271.0",
     "eponymo": "ΒΑΡΛΑΓΚΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -4482,7 +4266,7 @@
     "slug": "pe-metafraston-diermineon-eid-pe-metafraston-diermineon-olon-ton-eidikotiton"
   },
   {
-    "aa": 141,
+    "aa": 134,
     "am": "11837.0",
     "eponymo": "ΘΕΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",

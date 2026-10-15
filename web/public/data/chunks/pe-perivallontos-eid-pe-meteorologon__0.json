@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812-2817",
     "thesi_diorismou": "2812",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -29,7 +29,8 @@
     "seira_klirosis": 3306878.0,
     "vathmologia": 91.39,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
-    "slug": "pe-perivallontos-eid-pe-meteorologon"
+    "slug": "pe-perivallontos-eid-pe-meteorologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
@@ -42,7 +43,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812-2819-463-470-2830-2828-471-2826-2829-468-2824-1037-910-1123-1104-1195-1201-1145-1152-1078-1072-988-940-876-871-863-840-918-1067-458-464-1136-1138-1142-1141-1135-995-1008-1009-1011-1010-1012-1016-1013-1018-1023-1035-1006-1036-967-999-968-1039-965-872-1124-1196-1146-1137-1042-1043-1041-1099-459-465-2822-466-2823-462-2818-2827-2815-2817-2821-2813-457-460-2831-2820-858-1102-1151-987-963-922-1126-1086-1176-1131-1132-1134-1140-1143-841-842-861-939-942-1194-805",
     "thesi_diorismou": "2812",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -61,7 +62,8 @@
     "seira_klirosis": 2106795.0,
     "vathmologia": 86.58,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
-    "slug": "pe-perivallontos-eid-pe-meteorologon"
+    "slug": "pe-perivallontos-eid-pe-meteorologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 3,
@@ -74,7 +76,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812",
     "thesi_diorismou": "2812",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -93,7 +95,8 @@
     "seira_klirosis": 1461216.0,
     "vathmologia": 85.19,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
-    "slug": "pe-perivallontos-eid-pe-meteorologon"
+    "slug": "pe-perivallontos-eid-pe-meteorologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 4,
@@ -106,7 +109,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812",
     "thesi_diorismou": "2812",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -125,7 +128,8 @@
     "seira_klirosis": 5959620.0,
     "vathmologia": 82.92,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
-    "slug": "pe-perivallontos-eid-pe-meteorologon"
+    "slug": "pe-perivallontos-eid-pe-meteorologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 5,
@@ -138,7 +142,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812-961-962-965-966-968-964-462-2817-463-2819-954-967-963-960-955-957-952-958-2818-959-956-953",
     "thesi_diorismou": "2812",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -158,7 +162,7 @@
     "vathmologia": 79.75,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
     "slug": "pe-perivallontos-eid-pe-meteorologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 6,
@@ -171,7 +175,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812-465-459-457-2813",
     "thesi_diorismou": "2812",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -190,7 +194,8 @@
     "seira_klirosis": 5709985.0,
     "vathmologia": 68.83,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
-    "slug": "pe-perivallontos-eid-pe-meteorologon"
+    "slug": "pe-perivallontos-eid-pe-meteorologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 7,
@@ -203,7 +208,7 @@
     "theseis_idias_omadas": "2812.0",
     "protimiseis": "2812-952-958-959-961-962-963",
     "thesi_diorismou": "2812",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -222,6 +227,7 @@
     "seira_klirosis": 5031493.0,
     "vathmologia": 67.67,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΜΕΤΕΩΡΟΛΟΓΩΝ",
-    "slug": "pe-perivallontos-eid-pe-meteorologon"
+    "slug": "pe-perivallontos-eid-pe-meteorologon",
+    "eidikes_idiotites": "ΟΧΙ"
   }
 ]

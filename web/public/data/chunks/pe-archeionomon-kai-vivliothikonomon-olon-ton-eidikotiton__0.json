@@ -1,6 +1,39 @@
 [
   {
     "aa": 1,
+    "am": "19275.0",
+    "eponymo": "ΜΑΔΙΚΑ",
+    "onoma": "ΕΛΕΥΘΕΡΙΑ",
+    "patronymo": "ΑΡΓΥΡΙΟΣ",
+    "adt_masked": "***231",
+    "omada_prosonton": "302 -001",
+    "theseis_idias_omadas": "427",
+    "protimiseis": "1313-1227-901-427-900-1348-1063-1256-1064-1062-1060-1061-1337-1059-989-990",
+    "thesi_diorismou": "900",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "3.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 100.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 57.84,
+    "synolo_graptou": 78.92,
+    "seira_klirosis": 8344208.0,
+    "vathmologia": 127.92,
+    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 2,
     "am": "12709.0",
     "eponymo": "ΠΑΠΑΔΑΤΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -10,7 +43,7 @@
     "theseis_idias_omadas": "419-429-435-436-438-442",
     "protimiseis": "438-935-936-934-933-932-435-419-436-866-867-871-940-1102-1101-1103-858-859-840-1104-1067-939-869-938-937-842-841-839-1100-1065-838-863-1072-861-1071-865-868-442-429-862",
     "thesi_diorismou": "438",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,10 +62,11 @@
     "seira_klirosis": 4594872.0,
     "vathmologia": 124.86,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 2,
+    "aa": 3,
     "am": "16938.0",
     "eponymo": "ΒΟΓΙΑΤΖΙΔΑΚΗ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -42,7 +76,7 @@
     "theseis_idias_omadas": "433-447",
     "protimiseis": "447-433",
     "thesi_diorismou": "447",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -61,39 +95,8 @@
     "seira_klirosis": 3402796.0,
     "vathmologia": 124.5,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 3,
-    "am": "16966.0",
-    "eponymo": "ΚΑΤΣΟΥΛΙΑΝΟΥ",
-    "onoma": "ΣΤΑΜΑΤΕΛΛΑ",
-    "patronymo": "ΠΕΤΡΟΣ",
-    "adt_masked": "***640",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
-    "protimiseis": "427-439-435-429-442-436-419-423-428-437-438-444-449-430-434-448-433-447-431-443-425-424-420-446-440-421-445-426-432-422",
-    "thesi_diorismou": "423",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 17.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "448",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 60.84,
-    "synolo_graptou": 80.42,
-    "seira_klirosis": 8692805.0,
-    "vathmologia": 122.42,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 4,
@@ -106,7 +109,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-427-432-437-446-448",
     "protimiseis": "448-427-425-421-420-422-432-424-446-437-968-961-954-963-955-952-965-967-941-958-959-957-1059-1064-1063-1062-1060-1061-973-974-976-1079-1176-1078-1073-1077-1099-1098-1096-880-1011-1013-1010-1012-1009-1008-1043-1041-1040-1042-1039-898-896-884-1124-789-877-881-883-885-889-895-790-798-1025-1051-1044-797-804-1113-1112-1111-1122-1123-882-890-899-892-893-991-996-1033-1034-1035-1037-1115-995-992-998-1007-1016-1020-1029-1023-1116-1118-1119-1130-1018-1019-1024-1031-1036-1045-1046-1047-850-993-994-999-1000-1003-1006-1048-1049-1052-1114-1117-1120-1129-1136-1138-1139-1141-1142",
     "thesi_diorismou": "448",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -125,7 +128,8 @@
     "seira_klirosis": 3806496.0,
     "vathmologia": 121.36,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 5,
@@ -138,7 +142,7 @@
     "theseis_idias_omadas": "442",
     "protimiseis": "442",
     "thesi_diorismou": "442",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -158,10 +162,43 @@
     "vathmologia": 114.42,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 6,
+    "am": "15983.0",
+    "eponymo": "ΤΣΑΚΟΣ",
+    "onoma": "ΖΑΦΕΙΡΙΟΣ",
+    "patronymo": "ΣΠΥΡΙΔΩΝ",
+    "adt_masked": "***951",
+    "omada_prosonton": "302 -001",
+    "theseis_idias_omadas": "421-439",
+    "protimiseis": "1166-1160-1164-1165-1162-1163-1161-1127-1126-439-421",
+    "thesi_diorismou": "1166",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "3.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": ",5",
+    "minas_empeirias": 123.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 67.89,
+    "synolo_graptou": 83.94,
+    "seira_klirosis": 6372287.0,
+    "vathmologia": 113.44,
+    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 7,
     "am": "20371.0",
     "eponymo": "ΜΕΤΣΙΟΥ",
     "onoma": "ΣΤΕΛΑ",
@@ -171,7 +208,7 @@
     "theseis_idias_omadas": "419-420-421-422-424-425-426-427-432-435-436-437-439-440-445-446-448",
     "protimiseis": "427-1062-1064-1063-1060-1061-1058-1059-439-437-435-419-436-420-421-422-424-425-426-432-440-446-445-941-942-1148-806-1073-1076-1077-1078-1079-913-978-979-984-986-987-988-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-1187-1188-980-981-1096-1097-1098-1099-787-838-839-840-841-842-865-866-867-868-869-870-871-872-1129-1131-1132-1133-1134-1135-1139-1140-1143-789-790-797-798-890-892-894-899-907-908-909-911-912-914-916-917-874-875-876-793-858-859-860-861-862-863-919-448-900-901-845-846-807",
     "thesi_diorismou": "427",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -190,10 +227,11 @@
     "seira_klirosis": 6633267.0,
     "vathmologia": 112.11,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 8,
     "am": "10160.0",
     "eponymo": "ΚΟΤΑΡΙΔΟΥ",
     "onoma": "ΒΑΛΕΝΤΙΝΑ",
@@ -225,7 +263,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 8,
+    "aa": 9,
     "am": "14449.0",
     "eponymo": "ΑΡΜΕΝΑΚΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ ΜΑΡΙΑ",
@@ -235,7 +273,7 @@
     "theseis_idias_omadas": "444",
     "protimiseis": "444-1083-801-1086-1089-1085-3154-1087-1084-1082-3159-1088",
     "thesi_diorismou": "444",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -254,203 +292,11 @@
     "seira_klirosis": 4820738.0,
     "vathmologia": 104.31,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 9,
-    "am": "16015.0",
-    "eponymo": "ΠΑΝΑΓΟΥ",
-    "onoma": "ΑΝΑΣΤΑΣΙΑ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***855",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "427-428-429-430-431-436-439-448",
-    "protimiseis": "427-448-428-429-436-439-431-430",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 51.0,
-    "monades_empeirias": 4.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "427",
-    "monades_entop": 40.0,
-    "math1": 68.0,
-    "math2": 44.78,
-    "synolo_graptou": 56.39,
-    "seira_klirosis": 6694326.0,
-    "vathmologia": 100.39,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 10,
-    "am": "17454.0",
-    "eponymo": "ΔΗΜΟΥ",
-    "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
-    "patronymo": "ΜΙΧΑΗΛ",
-    "adt_masked": "***185",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
-    "protimiseis": "448-427-420-439-419-435-436-437-446-445-440-432-425-424-421-422-426-423-428-429-430-431-433-434-438-442-443-444-447-449-806-787-788-793-807-789-790-797-798-804-805-880-1007-1000-1023-1011-1013-1009-1039-1040-1018-896-1136-865-868-991-961-962-1021-1022-999-996-997-1115-1096-1129-1098-1122-1137-964-965-966-981-995-1003-1004-1031-1036-862-954-958-960-875-893-870",
-    "thesi_diorismou": "430",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 113.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "448",
-    "monades_entop": 40.0,
-    "math1": 52.0,
-    "math2": 43.17,
-    "synolo_graptou": 47.58,
-    "seira_klirosis": 6274040.0,
-    "vathmologia": 95.58,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
-  },
-  {
-    "aa": 11,
-    "am": "7363.0",
-    "eponymo": "ΠΑΠΑΔΗΜΟΠΟΥΛΟΣ",
-    "onoma": "ΒΑΣΙΛΕΙΟΣ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***400",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
-    "protimiseis": "427-435-437-436-439-419-420-421-422-425-432-426-424-446-444-443-442-423-449-447-434-431-430-429-433-428-448-438-440-445-1063-1061-1064-1062-1060-1059-1058-798-804-805-806-807-787-789-790-793-797-1204-1203-1202-874-939-940-938-942-941-876-979-980-981-987-988-1072-1098-1099-1102-1104-1148-1151-1152-1195-868-865-870-862-863-858-860-840-841-842-929-1071-1067-965-966-967-968-964-958-959-961-963-960-954-1131-1133-1143-1136-1137-1138-1135-1140-1132-1130-1134-991-1031-1011-1040-1036-999-1007-1038-1034-1039-1003-1023-899-1115",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 22.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "427",
-    "monades_entop": 40.0,
-    "math1": 60.0,
-    "math2": 45.67,
-    "synolo_graptou": 52.83,
-    "seira_klirosis": 7503657.0,
-    "vathmologia": 94.83,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 12,
-    "am": "15983.0",
-    "eponymo": "ΤΣΑΚΟΣ",
-    "onoma": "ΖΑΦΕΙΡΙΟΣ",
-    "patronymo": "ΣΠΥΡΙΔΩΝ",
-    "adt_masked": "***951",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "421-439",
-    "protimiseis": "1166-1160-1164-1165-1162-1163-1161-1127-1126-439-421",
-    "thesi_diorismou": "1166",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 123.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 67.89,
-    "synolo_graptou": 83.94,
-    "seira_klirosis": 6372287.0,
-    "vathmologia": 93.44,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 13,
-    "am": "20750.0",
-    "eponymo": "ΠΑΠΑΤΣΙΜΟΥΛΗ",
-    "onoma": "ΝΙΚΟΛΕΤΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***538",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "427-439-448",
-    "protimiseis": "427-1062-1063-1064-1060-1061-1059-1058-448-901-900-941-961-962-963-964-965-966-967-968-960-958-959-952-953-954-956-957-1148-1147-1150-1151-1152-990-989-439-1055-1056-1054",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 2.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "427",
-    "monades_entop": 40.0,
-    "math1": 56.0,
-    "math2": 47.06,
-    "synolo_graptou": 51.53,
-    "seira_klirosis": 7312532.0,
-    "vathmologia": 91.53,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 14,
-    "am": "19275.0",
-    "eponymo": "ΜΑΔΙΚΑ",
-    "onoma": "ΕΛΕΥΘΕΡΙΑ",
-    "patronymo": "ΑΡΓΥΡΙΟΣ",
-    "adt_masked": "***231",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "427",
-    "protimiseis": "1313-1227-901-427-900-1348-1063-1256-1064-1062-1060-1061-1337-1059-989-990",
-    "thesi_diorismou": "900",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 100.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 57.84,
-    "synolo_graptou": 78.92,
-    "seira_klirosis": 8344208.0,
-    "vathmologia": 87.92,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 15,
     "am": "11323.0",
     "eponymo": "ΛΑΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -460,7 +306,7 @@
     "theseis_idias_omadas": "428",
     "protimiseis": "1073-1079-1076-1077-1078-428-1074-1075-1097-1098-1096-1099-1188-1187-987-984-986",
     "thesi_diorismou": "428",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -479,10 +325,11 @@
     "seira_klirosis": 2707458.0,
     "vathmologia": 87.75,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 16,
+    "aa": 11,
     "am": "1232.0",
     "eponymo": "ΤΣΕΛΙΟΥ",
     "onoma": "ΓΛΥΚΕΡΙΑ",
@@ -492,7 +339,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-440-445-446",
     "protimiseis": "446-420-425-424-440-426-445-421-422-1008-1142-1011-1122-880-1013-1010-996-998-995-885-893-1019",
     "thesi_diorismou": "446",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -511,10 +358,11 @@
     "seira_klirosis": 5994976.0,
     "vathmologia": 86.92,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 17,
+    "aa": 12,
     "am": "11772.0",
     "eponymo": "ΠΑΠΑΔΑΤΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -524,7 +372,7 @@
     "theseis_idias_omadas": "429",
     "protimiseis": "1055-1056-1054-1053-429-854-853",
     "thesi_diorismou": "429",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -543,10 +391,11 @@
     "seira_klirosis": 7464217.0,
     "vathmologia": 85.53,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 13,
     "am": "13857.0",
     "eponymo": "ΧΑΝΤΖΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΑ",
@@ -556,7 +405,7 @@
     "theseis_idias_omadas": "436",
     "protimiseis": "436-868-871-865-866-872-867-869-864-870",
     "thesi_diorismou": "436",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -575,10 +424,11 @@
     "seira_klirosis": 6520633.0,
     "vathmologia": 85.11,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 19,
+    "aa": 14,
     "am": "8317.0",
     "eponymo": "ΜΠΛΟΥΓΟΥΡΑ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -588,7 +438,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-432-440-445-446",
     "protimiseis": "424-432-422-426-420-446-440-445-421-425",
     "thesi_diorismou": "424",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -607,42 +457,11 @@
     "seira_klirosis": 1754347.0,
     "vathmologia": 84.92,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
-    "am": "12709.0",
-    "eponymo": "ΠΑΠΑΔΑΤΟΥ",
-    "onoma": "ΠΑΡΑΣΚΕΥΗ",
-    "patronymo": "ΑΝΤΩΝΙΟΣ",
-    "adt_masked": "***324",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-429-435-436-438-442",
-    "protimiseis": "438-935-936-934-933-932-435-419-436-866-867-871-940-1102-1101-1103-858-859-840-1104-1067-939-869-938-937-842-841-839-1100-1065-838-863-1072-861-1071-865-868-442-429-862",
-    "thesi_diorismou": "438",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 81.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 53.72,
-    "synolo_graptou": 76.86,
-    "seira_klirosis": 4594872.0,
-    "vathmologia": 84.86,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 21,
+    "aa": 15,
     "am": "4898.0",
     "eponymo": "ΛΙΑΝΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -652,7 +471,7 @@
     "theseis_idias_omadas": "419-420-421-422-424-425-426-430-431-432-433-437-440-445-446-447",
     "protimiseis": "420-425-426-424-422-421-432-440-445-446-437-419-430-431-433-447",
     "thesi_diorismou": "420",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -671,10 +490,11 @@
     "seira_klirosis": 9652375.0,
     "vathmologia": 84.81,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 22,
+    "aa": 16,
     "am": "3697.0",
     "eponymo": "ΤΣΟΥΚΑΛΑ",
     "onoma": "ΧΡΙΣΤΙΑΝΑ",
@@ -706,7 +526,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 23,
+    "aa": 17,
     "am": "2297.0",
     "eponymo": "ΦΙΛΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -716,7 +536,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-432-433-435-436-437-439-440-445-446-447-448",
     "protimiseis": "1146-1145-1144-941-958-961-962-952-968-967-960-954-956-965-966-942-1148-806-957-955-959-963-953-448-1203-1204-1202-1073-1076-1077-1078-1079-1096-1097-1187-1188-427-428-439-979-981-980-978-984-986-988-987-1151-1152-437-793-807-440-435-436-425-424-420-421-422-419-423-432-426-927-928-929-446-445-805-804-789-798-790-429-433-447-787-797-838",
     "thesi_diorismou": "439",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -735,42 +555,11 @@
     "seira_klirosis": 1844510.0,
     "vathmologia": 84.42,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
-    "am": "2297.0",
-    "eponymo": "ΦΙΛΗ",
-    "onoma": "ΕΛΕΝΗ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***118",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-432-433-435-436-437-439-440-445-446-447-448",
-    "protimiseis": "1146-1145-1144-941-958-961-962-952-968-967-960-954-956-965-966-942-1148-806-957-955-959-963-953-448-1203-1204-1202-1073-1076-1077-1078-1079-1096-1097-1187-1188-427-428-439-979-981-980-978-984-986-988-987-1151-1152-437-793-807-440-435-436-425-424-420-421-422-419-423-432-426-927-928-929-446-445-805-804-789-798-790-429-433-447-787-797-838",
-    "thesi_diorismou": "439",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 118.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 50.84,
-    "synolo_graptou": 75.42,
-    "seira_klirosis": 1844510.0,
-    "vathmologia": 84.42,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 25,
+    "aa": 18,
     "am": "4708.0",
     "eponymo": "ΛΑΜΝΙΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -780,7 +569,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-432-440-445-446",
     "protimiseis": "420-424-426-425-422-421-432-440-445-446-1000-1014-1040-1009-1033-1036-995-1013-1008-1029-998-1020-1044-1034-1006-1039-1031-1003-1010-1019-1018-1043-1035-996-1007-999-991-1023-1045-1015-992-1012-1041-1011-1016-1042-1024-1037-1017-1038-997-1025-1047-1051-1052-1049-1032-1027-1028-1050-1001-1002-1005-1004-893-891-890-892-877-880-889-899-898-885-896-895-894-881-884-886-887-882-883-1021-1022-918-1122-1124-1123-913-914-915-912-994-993-1046-1114-1113-1112-1130-1141-789-845-1133-1134-1121-1119-1118-1120-1135-897-797-798-790-1048-804-3165-843-846-805-1111-1136-1138-1139-1115-1116-1142-1129-1137-919",
     "thesi_diorismou": "420",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -799,10 +588,11 @@
     "seira_klirosis": 3020970.0,
     "vathmologia": 84.39,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 26,
+    "aa": 19,
     "am": "16769.0",
     "eponymo": "ΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -812,7 +602,7 @@
     "theseis_idias_omadas": "427-428-429-435-448",
     "protimiseis": "976-973-975-427-429-428-448-435-1149-951-901-1152-1151-1060-1061-1062-1063-1064-1091-1092-1055-1056-1054-900-1150-974",
     "thesi_diorismou": "435",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -831,10 +621,11 @@
     "seira_klirosis": 7634023.0,
     "vathmologia": 84.14,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 27,
+    "aa": 20,
     "am": "7751.0",
     "eponymo": "ΤΖΙΜΑΓΙΩΡΓΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -844,7 +635,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-432-440-445-446",
     "protimiseis": "424-425-420-422-421-426-446-445-432-440",
     "thesi_diorismou": "425",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -864,10 +655,10 @@
     "vathmologia": 83.89,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 28,
+    "aa": 21,
     "am": "5039.0",
     "eponymo": "ΚΡΑΝΙΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -877,7 +668,7 @@
     "theseis_idias_omadas": "422-424-425-426-432-440-445",
     "protimiseis": "432-424-426-425-440-445-422-1046-1114-991-1115",
     "thesi_diorismou": "432",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -896,10 +687,11 @@
     "seira_klirosis": 9373836.0,
     "vathmologia": 83.56,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 29,
+    "aa": 22,
     "am": "6915.0",
     "eponymo": "ΜΠΑΡΚΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -931,7 +723,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 30,
+    "aa": 23,
     "am": "11451.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ-ΣΠΥΡΙΔΟΥΛΑ",
@@ -941,7 +733,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
     "protimiseis": "419-420-435-437-439-421-422-426-432-440-425-445-446-436-424-429-442-438-430-423-428-431-433-434-444-449-427-443-448-447",
     "thesi_diorismou": "419",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -960,10 +752,11 @@
     "seira_klirosis": 4381361.0,
     "vathmologia": 82.61,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 31,
+    "aa": 24,
     "am": "16966.0",
     "eponymo": "ΚΑΤΣΟΥΛΙΑΝΟΥ",
     "onoma": "ΣΤΑΜΑΤΕΛΛΑ",
@@ -973,7 +766,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
     "protimiseis": "427-439-435-429-442-436-419-423-428-437-438-444-449-430-434-448-433-447-431-443-425-424-420-446-440-421-445-426-432-422",
     "thesi_diorismou": "423",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -992,10 +785,11 @@
     "seira_klirosis": 8692805.0,
     "vathmologia": 82.42,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 32,
+    "aa": 25,
     "am": "16868.0",
     "eponymo": "ΜΗΛΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1005,7 +799,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-446",
     "protimiseis": "446-420-425-881-885-1025-1047-1046-1122-991-422-421-889-424-789",
     "thesi_diorismou": "422",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1024,10 +818,11 @@
     "seira_klirosis": 7994185.0,
     "vathmologia": 82.11,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 33,
+    "aa": 26,
     "am": "15894.0",
     "eponymo": "ΣΟΙΛΕΜΕΖΟΓΛΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1059,39 +854,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 34,
-    "am": "19952.0",
-    "eponymo": "ΚΩΤΟΠΟΥΛΟΥ",
-    "onoma": "ΘΩΜΑΗ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***003",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "420-421-422-424-425-427-432-437-446-448",
-    "protimiseis": "448-427-425-421-420-422-432-424-446-437-968-961-954-963-955-952-965-967-941-958-959-957-1059-1064-1063-1062-1060-1061-973-974-976-1079-1176-1078-1073-1077-1099-1098-1096-880-1011-1013-1010-1012-1009-1008-1043-1041-1040-1042-1039-898-896-884-1124-789-877-881-883-885-889-895-790-798-1025-1051-1044-797-804-1113-1112-1111-1122-1123-882-890-899-892-893-991-996-1033-1034-1035-1037-1115-995-992-998-1007-1016-1020-1029-1023-1116-1118-1119-1130-1018-1019-1024-1031-1036-1045-1046-1047-850-993-994-999-1000-1003-1006-1048-1049-1052-1114-1117-1120-1129-1136-1138-1139-1141-1142",
-    "thesi_diorismou": "448",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 68.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 47.72,
-    "synolo_graptou": 71.86,
-    "seira_klirosis": 3806496.0,
-    "vathmologia": 81.36,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 35,
+    "aa": 27,
     "am": "7923.0",
     "eponymo": "ΚΟΝΤΟΕ",
     "onoma": "ΜΑΡΙΑ",
@@ -1101,7 +864,7 @@
     "theseis_idias_omadas": "443",
     "protimiseis": "443-1071-1072-1070",
     "thesi_diorismou": "443",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1120,10 +883,11 @@
     "seira_klirosis": 7800212.0,
     "vathmologia": 81.22,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 36,
+    "aa": 28,
     "am": "11113.0",
     "eponymo": "ΥΨΗΛΑΝΤΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1155,7 +919,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 37,
+    "aa": 29,
     "am": "2154.0",
     "eponymo": "ΚΛΟΥΚΙΝΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -1165,7 +929,7 @@
     "theseis_idias_omadas": "420-421-422-426-440",
     "protimiseis": "938-940-939-422-420-421-789-895-896-894-898-992-881-883-993-440-991-426",
     "thesi_diorismou": "421",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1184,10 +948,11 @@
     "seira_klirosis": 8348749.0,
     "vathmologia": 81.14,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 38,
+    "aa": 30,
     "am": "11401.0",
     "eponymo": "ΚΩΤΣΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -1219,7 +984,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 39,
+    "aa": 31,
     "am": "2792.0",
     "eponymo": "ΟΡΦΑΝΟΥ",
     "onoma": "ΜΑΡΙΑΝΝΑ",
@@ -1229,7 +994,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-432",
     "protimiseis": "421-424-426-425-432-420-422",
     "thesi_diorismou": "426",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1248,10 +1013,11 @@
     "seira_klirosis": 1180987.0,
     "vathmologia": 80.61,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 40,
+    "aa": 32,
     "am": "11617.0",
     "eponymo": "ΤΣΙΜΠΟΥΚΕΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1283,7 +1049,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 41,
+    "aa": 33,
     "am": "6141.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΓΑΡΥΦΑΛΛΙΑ",
@@ -1293,7 +1059,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-432-440-445-446",
     "protimiseis": "425-420-422-424-421-426-440-432-445-446-996-997-992-995-993-994-999-1000-1001-1002-1003-1004-1005-1007-1009-1011-1013-1015-1016-1017-1018-1019-1020-1021-1022-1023-1024-1025-1026-1027-1028-1029-1030-1031-1032-1033-1034-1035-1036-1037-1038-1039-1040-1041-1042-1043-1044-1045-1046-1047-1048-1049-1050-1051-1052-1111-1112-1113-1114-1115-1118-1116-1117-1119-1120-1121-1122-1123-1124-1129-1130-1131-1132-1133-1134-1135-1136-1137-1138-1141-1142",
     "thesi_diorismou": "440",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1312,10 +1078,11 @@
     "seira_klirosis": 8864249.0,
     "vathmologia": 78.89,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 42,
+    "aa": 34,
     "am": "13962.0",
     "eponymo": "ΚΟΚΟΛΙΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1347,7 +1114,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 43,
+    "aa": 35,
     "am": "11894.0",
     "eponymo": "ΠΡΕΝΤΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -1357,7 +1124,7 @@
     "theseis_idias_omadas": "433-447",
     "protimiseis": "447-433",
     "thesi_diorismou": "433",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1377,10 +1144,10 @@
     "vathmologia": 78.22,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 44,
+    "aa": 36,
     "am": "8763.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΛΟΠΟΥΛΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1390,7 +1157,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-432-433-434-435-436-437-439-440-443-445-446-447-448-449",
     "protimiseis": "446-445-440-420-424-426-432-425-422-421-437-419-436-435-428-423-443-449-427-439-448-434-433-447",
     "thesi_diorismou": "449",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1409,42 +1176,11 @@
     "seira_klirosis": 7941110.0,
     "vathmologia": 77.64,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 45,
-    "am": "13383.0",
-    "eponymo": "ΜΠΑΝΤΗ",
-    "onoma": "ΠΑΝΑΓΙΩΤΑ",
-    "patronymo": "ΝΙΚΟΛΑΟΣ",
-    "adt_masked": "***380",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
-    "protimiseis": "428-427-423-439-437-448-449-435-419-429-436-443-442-438-434-444-447-433-430-431-426-421-446-420-422-424-425-432-440-445-1075-1074-1078-1079-1077-1076-1073-984-986-987-988-1187-1098-1099-1097-1095-1096-1188-1185-1186-806-807-793-958-961-962-966-965-964-960-1151-1154-1128-1127-3159-1200-1038",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 43.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "428",
-    "monades_entop": 20.0,
-    "math1": 64.0,
-    "math2": 45.0,
-    "synolo_graptou": 54.5,
-    "seira_klirosis": 5228383.0,
-    "vathmologia": 77.5,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 46,
+    "aa": 37,
     "am": "16040.0",
     "eponymo": "ΚΑΤΣΑΝΑΚΗΣ",
     "onoma": "ΓΡΗΓΟΡΙΟΣ",
@@ -1476,7 +1212,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 47,
+    "aa": 38,
     "am": "12924.0",
     "eponymo": "ΒΛΑΧΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -1486,7 +1222,7 @@
     "theseis_idias_omadas": "419-420-421-422-424-425-426-428-429-430-431-432-433-435-437-438-439-442-443-444-447-449",
     "protimiseis": "973-976-974-1152-1150-1151-954-952-953-959-955-956-957-958-961-963-965-967-968-951-1054-1055-1056-429-1091-1090-1092-787-419-788-435-841-842-839-858-1204-1203-1202-793-929-927-439-437-866-869-871-979-872-1065-1067-1102-1100-1104-443-428-1073-1076-1077-1078-1079-1096-1099-1098-425-426-424-420-421-422-432-991-999-1036-1031-1037-1039-1040-1041-1042-1003-1006-430-431-438-442-433-447-449-1007-996-1011-1010-1012-1016-1023-1018-1034-1033-1035-805-893-892-790-1136-1135-1138-1141-1142-1140-1143-1134-1130-1131-1122-1123-797-789-1043-1045-1124-1120-890-1070-1072-1071-444-916-917-880-881-860-882-883-918-889-895-884-885",
     "thesi_diorismou": "431",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1505,10 +1241,11 @@
     "seira_klirosis": 8189594.0,
     "vathmologia": 77.47,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 48,
+    "aa": 39,
     "am": "5003.0",
     "eponymo": "ΤΟΥΛΓΕΡΙΔΗΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -1540,7 +1277,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 49,
+    "aa": 40,
     "am": "17913.0",
     "eponymo": "ΚΟΣΜΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -1550,7 +1287,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
     "protimiseis": "1292-440-446-420-445-1294-432-422-421-426-424-419-437-425-439-435-436-1290-1295-1291-1296-430-431-433-448-447-427-429-438-442-443-423-434-444-449-428",
     "thesi_diorismou": "434",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1569,10 +1306,11 @@
     "seira_klirosis": 1566648.0,
     "vathmologia": 77.31,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
+    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 50,
+    "aa": 41,
     "am": "2882.0",
     "eponymo": "ΚΑΝΟΥΡΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1604,7 +1342,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 51,
+    "aa": 42,
     "am": "5311.0",
     "eponymo": "ΖΩΖΩΝΑΚΗ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -1636,7 +1374,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 52,
+    "aa": 43,
     "am": "10235.0",
     "eponymo": "ΚΥΡΙΑΚΗ",
     "onoma": "ΣΠΥΡΙΔΟΥΛΑ",
@@ -1668,7 +1406,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 53,
+    "aa": 44,
     "am": "4957.0",
     "eponymo": "ΑΛΕΞΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1700,7 +1438,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 54,
+    "aa": 45,
     "am": "10605.0",
     "eponymo": "ΔΟΥΚΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -1732,7 +1470,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 55,
+    "aa": 46,
     "am": "6254.0",
     "eponymo": "ΑΘΑΝΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -1764,7 +1502,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 56,
+    "aa": 47,
     "am": "4411.0",
     "eponymo": "ΠΑΠΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ",
@@ -1796,39 +1534,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 57,
-    "am": "2320.0",
-    "eponymo": "ΧΑΤΖΗΠΑΝΑΓΙΩΤΙΔΟΥ",
-    "onoma": "ΡΑΦΑΗΛΙΑ",
-    "patronymo": "ΛΕΩΝΙΔΑΣ",
-    "adt_masked": "***782",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-448-449",
-    "protimiseis": "427-428-448-439-435-436-419-423-429-433-434-442-438-437-430-431-443-444-449-440-420-421-422-424-425-445-446-432-426",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 24.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "427",
-    "monades_entop": 40.0,
-    "math1": 28.0,
-    "math2": 36.89,
-    "synolo_graptou": 32.44,
-    "seira_klirosis": 1584305.0,
-    "vathmologia": 75.44,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 58,
+    "aa": 48,
     "am": "9913.0",
     "eponymo": "ΖΑΝΕΤΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1860,7 +1566,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 59,
+    "aa": 49,
     "am": "18502.0",
     "eponymo": "ΟΡΦΑΝΟΥ ΡΑΥΤΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -1892,7 +1598,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 60,
+    "aa": 50,
     "am": "6867.0",
     "eponymo": "ΜΕΤΖΗΤΙΕ",
     "onoma": "ΑΘΗΝΑ-ΕΙΡΗΝΗ",
@@ -1924,7 +1630,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 61,
+    "aa": 51,
     "am": "8558.0",
     "eponymo": "ΝΤΟΤΑ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -1956,7 +1662,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 62,
+    "aa": 52,
     "am": "19059.0",
     "eponymo": "ΜΑΝΔΡΑΛΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1988,7 +1694,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 63,
+    "aa": 53,
     "am": "3436.0",
     "eponymo": "ΔΟΡΟΥΚΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -2020,7 +1726,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 64,
+    "aa": 54,
     "am": "2676.0",
     "eponymo": "ΣΤΑΜΑΤΗ",
     "onoma": "ΑΓΛΑΙΑ",
@@ -2052,7 +1758,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 65,
+    "aa": 55,
     "am": "17787.0",
     "eponymo": "ΠΕΡΙΣΤΕΡΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΥΣΑΥΓΗ",
@@ -2084,7 +1790,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 66,
+    "aa": 56,
     "am": "1486.0",
     "eponymo": "ΚΑΡΑΜΑΝΙΔΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2116,39 +1822,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 67,
-    "am": "20371.0",
-    "eponymo": "ΜΕΤΣΙΟΥ",
-    "onoma": "ΣΤΕΛΑ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***467",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-422-424-425-426-427-432-435-436-437-439-440-445-446-448",
-    "protimiseis": "427-1062-1064-1063-1060-1061-1058-1059-439-437-435-419-436-420-421-422-424-425-426-432-440-446-445-941-942-1148-806-1073-1076-1077-1078-1079-913-978-979-984-986-987-988-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-1187-1188-980-981-1096-1097-1098-1099-787-838-839-840-841-842-865-866-867-868-869-870-871-872-1129-1131-1132-1133-1134-1135-1139-1140-1143-789-790-797-798-890-892-894-899-907-908-909-911-912-914-916-917-874-875-876-793-858-859-860-861-862-863-919-448-900-901-845-846-807",
-    "thesi_diorismou": "427",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 58.0,
-    "monades_empeirias": 4.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 34.22,
-    "synolo_graptou": 67.11,
-    "seira_klirosis": 6633267.0,
-    "vathmologia": 72.11,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 68,
+    "aa": 57,
     "am": "18453.0",
     "eponymo": "ΚΟΡΔΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -2180,7 +1854,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 69,
+    "aa": 58,
     "am": "17968.0",
     "eponymo": "ΜΟΥΣΚΕΥΤΑΡΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -2212,39 +1886,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 70,
-    "am": "9326.0",
-    "eponymo": "ΑΛΙΑΤΑΚΗ",
-    "onoma": "ΗΛΕΚΤΡΑ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***923",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-423-427-428-429-430-431-433-434-435-436-437-438-439-442-443-444-447-448-449",
-    "protimiseis": "439-428-427-433-447-436-449-448-419-443-437-423-435-444-430-429-434-431-442-438-978-981-980-964-1174-1175-1209-1055-906-902-905-945-946-968-979-1125-1126-965-1127-966-962-961-872-901-862-865-868-900-977",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "423- 427- 429- 431- 433- 434- 438- 442- 447- 448- 449",
-    "monades_entop": 40.0,
-    "math1": 32.0,
-    "math2": 27.72,
-    "synolo_graptou": 29.86,
-    "seira_klirosis": 2699146.0,
-    "vathmologia": 71.36,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 71,
+    "aa": 59,
     "am": "17657.0",
     "eponymo": "ΞΕΝΙΔΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -2276,7 +1918,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 72,
+    "aa": 60,
     "am": "7413.0",
     "eponymo": "ΓΑΤΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2308,7 +1950,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 73,
+    "aa": 61,
     "am": "12554.0",
     "eponymo": "ΠΑΝΤΟΥΒΑΚΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2340,7 +1982,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 74,
+    "aa": 62,
     "am": "9102.0",
     "eponymo": "ΓΙΑΝΝΟΥΧΟΥ",
     "onoma": "ΗΛΙΑΝΑ",
@@ -2372,7 +2014,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 75,
+    "aa": 63,
     "am": "9964.0",
     "eponymo": "ΚΟΥΤΣΙΔΟΥ",
     "onoma": "ΑΦΡΟΔΙΤΗ",
@@ -2382,7 +2024,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-437-438-439-440-442-443-444-445-446-447-448-449",
     "protimiseis": "439-427-448-428-437-449-423-419-435-443-430-431-444-434-429-438-442-447-433-1176-1177-964-965-966-961-962-968-954-955-952-957-963-967-956-902-906-905-924-446-445-440-420-432-424-425-426-421-422",
     "thesi_diorismou": "437",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2402,10 +2044,10 @@
     "vathmologia": 69.72,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 76,
+    "aa": 64,
     "am": "19392.0",
     "eponymo": "ΤΕΡΖΟΥΔΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2437,7 +2079,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 77,
+    "aa": 65,
     "am": "2302.0",
     "eponymo": "ΣΙΩΡΟΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -2469,7 +2111,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 78,
+    "aa": 66,
     "am": "5312.0",
     "eponymo": "ΑΝΔΡΟΝΙΚΟΥ",
     "onoma": "ΔΑΦΝΗ",
@@ -2501,7 +2143,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 79,
+    "aa": 67,
     "am": "20779.0",
     "eponymo": "ΔΕΝΔΡΙΝΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2533,7 +2175,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 80,
+    "aa": 68,
     "am": "6154.0",
     "eponymo": "ΠΑΠΑΣΠΥΡΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -2565,7 +2207,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 81,
+    "aa": 69,
     "am": "16110.0",
     "eponymo": "ΚΑΜΠΟΥΡΟΥΔΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -2597,7 +2239,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 82,
+    "aa": 70,
     "am": "20065.0",
     "eponymo": "ΚΟΥΚΟΥΦΙΚΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2629,7 +2271,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 83,
+    "aa": 71,
     "am": "17133.0",
     "eponymo": "ΔΗΜΗΤΡΙΑΔΟΥ",
     "onoma": "ΕΥΑΝΘΙΑ",
@@ -2661,7 +2303,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 84,
+    "aa": 72,
     "am": "2849.0",
     "eponymo": "ΠΕΖΙΡΚΙΑΝΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -2671,7 +2313,7 @@
     "theseis_idias_omadas": "420-421-422-424-425-426-432-440-445",
     "protimiseis": "440-425-424-445-426-420-421-422-432-995-996-997-998-999-1003-1009-1005-880-877-882-881-885-883-884-889-1045-890-892-893-797-790-798-789-896-895-899-897-898-894-891-886-887-3165-991-993-994-992-1052-1048-1042-1043-1044-1041-1040-1039-1036-1035-1034-1033-1031-1029-1028-1027-1026-1023-1022-1018-1020-1021-1024-1025-1004-1006-1007-1008-1001-1000-1002-1010-1011-1012-1013-1014-1015-1016-1017-1019-1030-1032-1037-1038-1047-1046-1049-1050-1051-1118-1119-1120-1122-1116-1117-1124-1121-1123-1111-1113-1112-1114-1115-914-917-918-916-919-915-913-912",
     "thesi_diorismou": "445",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2691,10 +2333,10 @@
     "vathmologia": 67.25,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 85,
+    "aa": 73,
     "am": "6303.0",
     "eponymo": "ΣΙΔΗΡΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -2726,7 +2368,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 86,
+    "aa": 74,
     "am": "7821.0",
     "eponymo": "ΣΑΣΣΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -2758,7 +2400,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 87,
+    "aa": 75,
     "am": "13771.0",
     "eponymo": "ΓΙΑΡΕΝΗ",
     "onoma": "ΜΥΡΤΩ",
@@ -2790,7 +2432,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 88,
+    "aa": 76,
     "am": "2213.0",
     "eponymo": "ΣΑΚΕΛΛΑΡΙΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ ΜΑΡΙΑ",
@@ -2822,7 +2464,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 89,
+    "aa": 77,
     "am": "20652.0",
     "eponymo": "ΑΘΑΝΑΣΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -2854,7 +2496,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 90,
+    "aa": 78,
     "am": "6452.0",
     "eponymo": "ΠΑΠΑΖΟΓΛΟΥ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -2886,7 +2528,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 91,
+    "aa": 79,
     "am": "6637.0",
     "eponymo": "ΙΑΚΩΒΑΚΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2918,7 +2560,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 92,
+    "aa": 80,
     "am": "4514.0",
     "eponymo": "ΚΟΚΙΟΥ",
     "onoma": "ΜΑΡΙΑ ΣΤΑΥΡΟΥΛΑ",
@@ -2950,7 +2592,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 93,
+    "aa": 81,
     "am": "13874.0",
     "eponymo": "ΛΟΥΚΑΚΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -2982,7 +2624,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 94,
+    "aa": 82,
     "am": "973.0",
     "eponymo": "ΑΣΟΥΧΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3014,7 +2656,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 95,
+    "aa": 83,
     "am": "4116.0",
     "eponymo": "ΚΑΡΑΚΙΤΣΙΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -3046,7 +2688,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 96,
+    "aa": 84,
     "am": "9781.0",
     "eponymo": "ΚΟΥΤΣΟΜΗΤΡΟΥ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -3078,39 +2720,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 97,
-    "am": "6637.0",
-    "eponymo": "ΙΑΚΩΒΑΚΗ",
-    "onoma": "ΒΑΣΙΛΙΚΗ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***541",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "420-421-422-424-425-426-427-432-439-440-446-449",
-    "protimiseis": "440-420-421-422-424-425-426-427-432-439-446-449",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 76.0,
-    "math2": 43.61,
-    "synolo_graptou": 59.81,
-    "seira_klirosis": 1712025.0,
-    "vathmologia": 62.81,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 98,
+    "aa": 85,
     "am": "14848.0",
     "eponymo": "ΗΛΙΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΑΝΑ",
@@ -3142,7 +2752,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 99,
+    "aa": 86,
     "am": "11103.0",
     "eponymo": "ΝΙΚΗΦΟΡΑΚΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3174,7 +2784,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 100,
+    "aa": 87,
     "am": "4717.0",
     "eponymo": "ΤΕΡΖΙΔΟΥ",
     "onoma": "ΘΕΟΦΑΝΗ",
@@ -3206,7 +2816,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 101,
+    "aa": 88,
     "am": "6534.0",
     "eponymo": "ΤΣΙΑΠΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3238,7 +2848,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 102,
+    "aa": 89,
     "am": "3701.0",
     "eponymo": "ΚΑΝΤΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ ΜΑΡΙΑ",
@@ -3270,7 +2880,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 103,
+    "aa": 90,
     "am": "8556.0",
     "eponymo": "ΜΠΟΥΡΔΟΥΚΗΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -3302,7 +2912,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 104,
+    "aa": 91,
     "am": "4814.0",
     "eponymo": "ΠΡΟΥΝΙΑ",
     "onoma": "ΜΟΝΙΚΑ",
@@ -3334,7 +2944,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 105,
+    "aa": 92,
     "am": "16015.0",
     "eponymo": "ΠΑΝΑΓΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3366,7 +2976,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 106,
+    "aa": 93,
     "am": "12741.0",
     "eponymo": "ΓΡΟΥΜΠΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ ΜΑΡΙΑΝΘΗ",
@@ -3398,7 +3008,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 107,
+    "aa": 94,
     "am": "8857.0",
     "eponymo": "ΒΑΤΑΜΙΔΟΥ",
     "onoma": "ΑΛΚΗΣΤΗΣ",
@@ -3430,7 +3040,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 108,
+    "aa": 95,
     "am": "8163.0",
     "eponymo": "ΒΑΡΚΑ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -3462,39 +3072,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 109,
-    "am": "8163.0",
-    "eponymo": "ΒΑΡΚΑ",
-    "onoma": "ΕΛΕΥΘΕΡΙΑ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***569",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-420-421-424-425-426-430-431-432-433-436-437-440-444-445-446-447-449",
-    "protimiseis": "420-425-424-421-432-426-445-440-446-437-419-436-447-433-449-430-431-444",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 113.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 60.0,
-    "math2": 40.67,
-    "synolo_graptou": 50.33,
-    "seira_klirosis": 1522753.0,
-    "vathmologia": 58.33,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 110,
+    "aa": 96,
     "am": "8394.0",
     "eponymo": "ΤΣΙΡΓΟΥΛΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -3526,7 +3104,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 111,
+    "aa": 97,
     "am": "12775.0",
     "eponymo": "ΓΑΓΑΤΣΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ ΕΙΡΗΝΗ",
@@ -3558,7 +3136,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 112,
+    "aa": 98,
     "am": "7929.0",
     "eponymo": "ΚΑΛΛΙΓΕΡΟΥ",
     "onoma": "ΗΛΕΚΤΡΑ",
@@ -3590,7 +3168,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 113,
+    "aa": 99,
     "am": "13383.0",
     "eponymo": "ΜΠΑΝΤΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3622,7 +3200,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 114,
+    "aa": 100,
     "am": "20560.0",
     "eponymo": "ΤΕΛΟΓΛΟΥ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -3654,7 +3232,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 115,
+    "aa": 101,
     "am": "16432.0",
     "eponymo": "ΤΟΣΚΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3686,7 +3264,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 116,
+    "aa": 102,
     "am": "7385.0",
     "eponymo": "ΣΤΑΘΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ ΜΑΡΙΟΣ",
@@ -3718,7 +3296,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 117,
+    "aa": 103,
     "am": "17454.0",
     "eponymo": "ΔΗΜΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3728,7 +3306,7 @@
     "theseis_idias_omadas": "419-420-421-422-423-424-425-426-427-428-429-430-431-432-433-434-435-436-437-438-439-440-442-443-444-445-446-447-448-449",
     "protimiseis": "448-427-420-439-419-435-436-437-446-445-440-432-425-424-421-422-426-423-428-429-430-431-433-434-438-442-443-444-447-449-806-787-788-793-807-789-790-797-798-804-805-880-1007-1000-1023-1011-1013-1009-1039-1040-1018-896-1136-865-868-991-961-962-1021-1022-999-996-997-1115-1096-1129-1098-1122-1137-964-965-966-981-995-1003-1004-1031-1036-862-954-958-960-875-893-870",
     "thesi_diorismou": "430",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -3748,10 +3326,10 @@
     "vathmologia": 55.58,
     "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 118,
+    "aa": 104,
     "am": "20789.0",
     "eponymo": "ΗΛΙΑΔΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -3783,7 +3361,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 119,
+    "aa": 105,
     "am": "7363.0",
     "eponymo": "ΠΑΠΑΔΗΜΟΠΟΥΛΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -3815,7 +3393,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 120,
+    "aa": 106,
     "am": "14093.0",
     "eponymo": "ΚΩΤΟΥΛΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3847,7 +3425,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 121,
+    "aa": 107,
     "am": "17686.0",
     "eponymo": "ΜΠΡΑΤΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -3879,7 +3457,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 122,
+    "aa": 108,
     "am": "20750.0",
     "eponymo": "ΠΑΠΑΤΣΙΜΟΥΛΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -3911,39 +3489,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 123,
-    "am": "9326.0",
-    "eponymo": "ΑΛΙΑΤΑΚΗ",
-    "onoma": "ΗΛΕΚΤΡΑ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***923",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "419-423-427-428-429-430-431-433-434-435-436-437-438-439-442-443-444-447-448-449",
-    "protimiseis": "439-428-427-433-447-436-449-448-419-443-437-423-435-444-430-429-434-431-442-438-978-981-980-964-1174-1175-1209-1055-906-902-905-945-946-968-979-1125-1126-965-1127-966-962-961-872-901-862-865-868-900-977",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "428- 443",
-    "monades_entop": 20.0,
-    "math1": 32.0,
-    "math2": 27.72,
-    "synolo_graptou": 29.86,
-    "seira_klirosis": 2699146.0,
-    "vathmologia": 51.36,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 124,
+    "aa": 109,
     "am": "5329.0",
     "eponymo": "ΜΑΓΚΛΑΡΗ",
     "onoma": "ΕΥΡΥΔΙΚΗ",
@@ -3975,7 +3521,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 125,
+    "aa": 110,
     "am": "7967.0",
     "eponymo": "ΤΣΙΝΤΟΤΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -4007,7 +3553,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 126,
+    "aa": 111,
     "am": "9583.0",
     "eponymo": "ΑΡΓΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΣΜΑΡΩ",
@@ -4039,7 +3585,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 127,
+    "aa": 112,
     "am": "11016.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -4071,7 +3617,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 128,
+    "aa": 113,
     "am": "20017.0",
     "eponymo": "ΚΑΛΑΙΤΖΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4103,39 +3649,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 129,
-    "am": "20017.0",
-    "eponymo": "ΚΑΛΑΙΤΖΑΚΗΣ",
-    "onoma": "ΓΕΩΡΓΙΟΣ",
-    "patronymo": "ΤΡΥΦΩΝ",
-    "adt_masked": "***116",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "420-421-422-424-425-426-432-440-445-446",
-    "protimiseis": "420-421-422-424-425-426-432-440-445-446",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 26.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 52.0,
-    "math2": 36.95,
-    "synolo_graptou": 44.47,
-    "seira_klirosis": 2308938.0,
-    "vathmologia": 47.47,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 130,
+    "aa": 114,
     "am": "1382.0",
     "eponymo": "ΦΟΥΡΤΟΥΝΑΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -4167,7 +3681,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 131,
+    "aa": 115,
     "am": "14833.0",
     "eponymo": "ΚΑΜΑΤΣΕΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -4199,7 +3713,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 132,
+    "aa": 116,
     "am": "150.0",
     "eponymo": "ΠΑΧΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ-ΖΩΗ",
@@ -4231,7 +3745,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 133,
+    "aa": 117,
     "am": "5817.0",
     "eponymo": "ΜΑΡΙΝΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4263,7 +3777,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 134,
+    "aa": 118,
     "am": "8587.0",
     "eponymo": "ΞΑΓΟΡΑΡΗ",
     "onoma": "ΕΥΣΤΑΘΙΑ",
@@ -4295,7 +3809,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 135,
+    "aa": 119,
     "am": "3504.0",
     "eponymo": "ΓΚΟΓΚΟΥ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -4327,7 +3841,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 136,
+    "aa": 120,
     "am": "10215.0",
     "eponymo": "ΕΥΑΓΓΕΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -4359,7 +3873,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 137,
+    "aa": 121,
     "am": "17567.0",
     "eponymo": "ΤΑΚΑΤΟΓΛΟΥ",
     "onoma": "ΑΛΚΜΗΝΗ",
@@ -4391,7 +3905,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 138,
+    "aa": 122,
     "am": "1914.0",
     "eponymo": "ΠΑΣΙΔΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ ΜΑΡΙΑ",
@@ -4423,7 +3937,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 139,
+    "aa": 123,
     "am": "16104.0",
     "eponymo": "ΤΣΑΡΟΥΧΑ",
     "onoma": "ΙΩΑΝΝΑ ΒΑΣΙΛΙΚΗ",
@@ -4455,39 +3969,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 140,
-    "am": "17567.0",
-    "eponymo": "ΤΑΚΑΤΟΓΛΟΥ",
-    "onoma": "ΑΛΚΜΗΝΗ",
-    "patronymo": "ΔΗΜΟΣΘΕΝΗΣ",
-    "adt_masked": "***472",
-    "omada_prosonton": "302 -001",
-    "theseis_idias_omadas": "420-421-422-424-425-426-432-437-440-446",
-    "protimiseis": "422-421-420-425-424-426-437-432-440-446",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 44.0,
-    "math2": 35.45,
-    "synolo_graptou": 39.72,
-    "seira_klirosis": 2284894.0,
-    "vathmologia": 40.72,
-    "eidikotita": "ΠΕ ΑΡΧΕΙΟΝΟΜΩΝ ΚΑΙ ΒΙΒΛΙΟΘΗΚΟΝΟΜΩΝ (ΟΛΩΝ ΤΩΝ ΕΙΔΙΚΟΤΗΤΩΝ)",
-    "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
-  },
-  {
-    "aa": 141,
+    "aa": 124,
     "am": "13166.0",
     "eponymo": "ΑΠΟΣΤΟΛΟΥ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ-ΜΑΡΙΑ",
@@ -4519,7 +4001,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 142,
+    "aa": 125,
     "am": "1660.0",
     "eponymo": "ΜΠΑΚΟΥΛΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -4551,7 +4033,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 143,
+    "aa": 126,
     "am": "5043.0",
     "eponymo": "ΤΣΑΜΗΤΡΟΥ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -4583,7 +4065,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 144,
+    "aa": 127,
     "am": "2320.0",
     "eponymo": "ΧΑΤΖΗΠΑΝΑΓΙΩΤΙΔΟΥ",
     "onoma": "ΡΑΦΑΗΛΙΑ",
@@ -4615,7 +4097,7 @@
     "slug": "pe-archeionomon-kai-vivliothikonomon-olon-ton-eidikotiton"
   },
   {
-    "aa": 145,
+    "aa": 128,
     "am": "9326.0",
     "eponymo": "ΑΛΙΑΤΑΚΗ",
     "onoma": "ΗΛΕΚΤΡΑ",

@@ -1,6 +1,39 @@
 [
   {
     "aa": 1,
+    "am": "2347.0",
+    "eponymo": "ΜΟΥΣΤΑΚΑ",
+    "onoma": "ΕΙΡΗΝΗ",
+    "patronymo": "ΝΙΚΟΛΑΟΣ",
+    "adt_masked": "***230",
+    "omada_prosonton": "355 -001,019",
+    "theseis_idias_omadas": "3137-3150",
+    "protimiseis": "1108-1109-3137-3150",
+    "thesi_diorismou": "1109",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 94.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 57.56,
+    "synolo_graptou": 78.78,
+    "seira_klirosis": 3204346.0,
+    "vathmologia": 126.78,
+    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 2,
     "am": "13282.0",
     "eponymo": "ΛΙΑΚΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -10,7 +43,7 @@
     "theseis_idias_omadas": "3146",
     "protimiseis": "3146",
     "thesi_diorismou": "3146",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -30,10 +63,10 @@
     "vathmologia": 118.56,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 2,
+    "aa": 3,
     "am": "2295.0",
     "eponymo": "ΑΒΡΑΜΙΔΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -43,7 +76,7 @@
     "theseis_idias_omadas": "3151-3152",
     "protimiseis": "3152-3151",
     "thesi_diorismou": "3152",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -62,10 +95,11 @@
     "seira_klirosis": 4582832.0,
     "vathmologia": 116.83,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 3,
+    "aa": 4,
     "am": "14231.0",
     "eponymo": "ΒΟΛΤΣΗΣ",
     "onoma": "ΣΠΥΡΟΣ",
@@ -75,7 +109,7 @@
     "theseis_idias_omadas": "3147",
     "protimiseis": "3147-1166-1160-1164-1162-1165-1163-1161",
     "thesi_diorismou": "3147",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -94,10 +128,11 @@
     "seira_klirosis": 8350558.0,
     "vathmologia": 106.08,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 4,
+    "aa": 5,
     "am": "440.0",
     "eponymo": "ΜΑΡΚΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -129,38 +164,6 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 5,
-    "am": "11968.0",
-    "eponymo": "ΛΙΟΥΡΤΑ",
-    "onoma": "ΕΛΙΣΣΑΒΕΤ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***544",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3144-3147-3150",
-    "protimiseis": "3147-1160-1165-1162-1164-3144-3150",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 230.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "3147",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 44.89,
-    "synolo_graptou": 72.44,
-    "seira_klirosis": 3016536.0,
-    "vathmologia": 100.44,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
     "aa": 6,
     "am": "15644.0",
     "eponymo": "ΣΤΑΜΟΥ",
@@ -171,7 +174,7 @@
     "theseis_idias_omadas": "3151-3152",
     "protimiseis": "3151-3152",
     "thesi_diorismou": "3151",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -190,7 +193,8 @@
     "seira_klirosis": 9161742.0,
     "vathmologia": 96.56,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 7,
@@ -235,7 +239,7 @@
     "theseis_idias_omadas": "3140",
     "protimiseis": "3140-1102-1104-893-1039-1000-1011-999-1010-1042-898-991-1018-1009-1041-1040-3060-1023-1100-895-880-1022-1013-1027-1043-1012-1003-1005-1101-1032-1028-996-997-881-1024-896-894-891-1006-1038-1021-995-1019-1001-1124-992-897-899-886-887-3165-884-885-1002-846-1122-1115-1014-1008-1034-1007-1004-1015-1033-1035-1016-1017-1036-1050-1049-845-1121-914-913-1142-1141-1103-975-1098-1099-972",
     "thesi_diorismou": "3140",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -254,7 +258,8 @@
     "seira_klirosis": 7507722.0,
     "vathmologia": 93.61,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 9,
@@ -267,7 +272,7 @@
     "theseis_idias_omadas": "3140",
     "protimiseis": "3140-996-997-1122-1013-1043-1124-1018-1023-1024-1015-1011-1010-1009-1041-1136-1137-992-1039-1036-856-1040-1012-1008-1014-1022-995-1005-1006-915-1007-998-880-884-893-991-891-1021-1042-1142-885-999-1000-1003-1019-1037-1016-1017-1123-1027-1138-889-1119-1129-994-1111-1112-1113-877-846-898-993-850-1114-1034-1004-1135-910-895-896-1001-1002-914-1029-1139-918-1020-1118-1133-855-907-908-1046-1115-1116-1031-1140-1120-892-1048-1052-1134-1047-1045-916-886-1143-1117-909-894-917-1132-1131-899-890-919-912-913-804-805-1028-1033-1130-1141-1035-1049-1050-1038",
     "thesi_diorismou": "997",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -286,7 +291,8 @@
     "seira_klirosis": 9226768.0,
     "vathmologia": 90.78,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 10,
@@ -363,7 +369,7 @@
     "theseis_idias_omadas": "3137-3139",
     "protimiseis": "3137-3139",
     "thesi_diorismou": "3137",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -382,7 +388,8 @@
     "seira_klirosis": 1930306.0,
     "vathmologia": 89.53,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 13,
@@ -418,38 +425,6 @@
   },
   {
     "aa": 14,
-    "am": "13980.0",
-    "eponymo": "ΜΑΥΡΟΥΔΗ",
-    "onoma": "ΡΑΦΑΕΛΑ",
-    "patronymo": "ΣΤΕΦΑΝΟΣ",
-    "adt_masked": "***628",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3137-3139-3140-3151-3152",
-    "protimiseis": "3151-3152-3139-3137-3140-963-962-961-958-954-955-953-957-959-967-968-956-960-1039-1013-880-1043-1041-1027-1024-850-1009-1011-1010-1014-1018-1044-1051-1025-992-1117-1113-1114-881-882-883-884-885-886-887-877-899-1031-896-895-894-996-997-3165-889-890-892-891-893-898-1040-1042-1045-1047-1036-1037-1048-1008-1124-1123-1122-1012-1023-1022-1021-1019-1115-991-998-1032-1029-999-1000-1033-1034-1035-1006-1007-1015-1016-1017-1028-1004-1001-917-916-918-1136-1137-1140-1139-1005-1002-1003-1046-1020-856",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 27.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "3151- 3152",
-    "monades_entop": 40.0,
-    "math1": 48.0,
-    "math2": 40.56,
-    "synolo_graptou": 44.28,
-    "seira_klirosis": 8995735.0,
-    "vathmologia": 89.28,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 15,
     "am": "6373.0",
     "eponymo": "ΠΑΝΤΑΖΗ",
     "onoma": "ΠΑΝΔΩΡΑ",
@@ -481,7 +456,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 16,
+    "aa": 15,
     "am": "1356.0",
     "eponymo": "ΕΥΘΥΜΙΟΥ",
     "onoma": "ΑΡΕΤΗ ΧΡΙΣΤΙΝΑ",
@@ -513,7 +488,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 17,
+    "aa": 16,
     "am": "9114.0",
     "eponymo": "ΛΥΤΡΑ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ ΕΛΕΝΗ",
@@ -523,7 +498,7 @@
     "theseis_idias_omadas": "3137-3139-3147-3150-3151-3152",
     "protimiseis": "3137-3139-3147-3150-3152-3151",
     "thesi_diorismou": "3139",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -542,10 +517,11 @@
     "seira_klirosis": 2558457.0,
     "vathmologia": 88.06,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 17,
     "am": "12976.0",
     "eponymo": "ΚΩΛΕΤΣΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -577,7 +553,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 19,
+    "aa": 18,
     "am": "18845.0",
     "eponymo": "ΤΖΕΛΑΤΗ",
     "onoma": "ΙΩΑΝΝΗΣ ΧΡΗΣΤΟΣ",
@@ -609,7 +585,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 20,
+    "aa": 19,
     "am": "17846.0",
     "eponymo": "ΛΟΓΟΘΕΤΙΔΗ",
     "onoma": "ΦΟΙΒΗ ΚΑΤΕΡΙΝΑ",
@@ -641,7 +617,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 21,
+    "aa": 20,
     "am": "15663.0",
     "eponymo": "ΓΡΗΓΟΡΙΑΔΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -651,7 +627,7 @@
     "theseis_idias_omadas": "3137-3139-3144",
     "protimiseis": "3138-3139-3137-3144-3141-3136",
     "thesi_diorismou": "3144",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -670,10 +646,11 @@
     "seira_klirosis": 4983906.0,
     "vathmologia": 87.08,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 22,
+    "aa": 21,
     "am": "10373.0",
     "eponymo": "ΓΙΑΝΝΑΚΟΔΗΜΟΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -705,7 +682,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 23,
+    "aa": 22,
     "am": "15538.0",
     "eponymo": "ΓΚΙΚΑ",
     "onoma": "ΔΑΝΑΗ",
@@ -715,7 +692,7 @@
     "theseis_idias_omadas": "3135-3140",
     "protimiseis": "3140-3135-880-1023-1022-1024-1029-1039-1040-1013-1012-885-886-887-889-3165-877-891-893-898-1049-1050-1051-884-881-890-892-883-1018-1014-1043-1042-996-1009-998-1006-1008-1011-1015-1016-1000-1001-1002-999-997-1004-1027-1019-1017-1025-1037-1035-1041-1033-1034-1005-1007-995-991-897-848-851-1028-1010-1036-1052-790-798-789-1003-992-843-849-899-882-1020-1031-913-912-911-915-875-874",
     "thesi_diorismou": "3135",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -735,10 +712,10 @@
     "vathmologia": 86.89,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
+    "aa": 23,
     "am": "16662.0",
     "eponymo": "ΚΟΥΒΑΤΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -748,7 +725,7 @@
     "theseis_idias_omadas": "3144-3150",
     "protimiseis": "3150-3144",
     "thesi_diorismou": "3150",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -767,10 +744,11 @@
     "seira_klirosis": 1919114.0,
     "vathmologia": 86.83,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 25,
+    "aa": 24,
     "am": "2306.0",
     "eponymo": "ΝΙΚΟΛΑΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -780,7 +758,7 @@
     "theseis_idias_omadas": "3135-3137-3139-3140-3143-3146-3147-3148-3149-3150-3151-3152",
     "protimiseis": "3137-3139-3140-3147-3149-3151-3152-3150-3146-3143-3135-3148",
     "thesi_diorismou": "3149",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -799,43 +777,11 @@
     "seira_klirosis": 2932731.0,
     "vathmologia": 86.81,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 26,
-    "am": "2347.0",
-    "eponymo": "ΜΟΥΣΤΑΚΑ",
-    "onoma": "ΕΙΡΗΝΗ",
-    "patronymo": "ΝΙΚΟΛΑΟΣ",
-    "adt_masked": "***230",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3137-3150",
-    "protimiseis": "1108-1109-3137-3150",
-    "thesi_diorismou": "1109",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 94.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 57.56,
-    "synolo_graptou": 78.78,
-    "seira_klirosis": 3204346.0,
-    "vathmologia": 86.78,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 27,
+    "aa": 25,
     "am": "18716.0",
     "eponymo": "ΠΑΠΑΘΕΟΔΩΡΟΥ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -867,7 +813,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 28,
+    "aa": 26,
     "am": "18896.0",
     "eponymo": "ΒΟΓΙΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -899,7 +845,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 29,
+    "aa": 27,
     "am": "922.0",
     "eponymo": "ΜΑΡΚΟΥ",
     "onoma": "ΣΑΡΡΑ",
@@ -931,7 +877,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 30,
+    "aa": 28,
     "am": "5354.0",
     "eponymo": "ΠΟΛΥΣΙΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -963,7 +909,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 31,
+    "aa": 29,
     "am": "20180.0",
     "eponymo": "ΓΙΑΚΟΒΙΔΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -995,7 +941,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 32,
+    "aa": 30,
     "am": "618.0",
     "eponymo": "ΔΗΜΗΤΡΙΑΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1027,7 +973,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 33,
+    "aa": 31,
     "am": "6880.0",
     "eponymo": "ΜΑΜΩΛΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1059,7 +1005,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 34,
+    "aa": 32,
     "am": "273.0",
     "eponymo": "ΤΣΙΠΟΥΡΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -1091,7 +1037,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 35,
+    "aa": 33,
     "am": "17602.0",
     "eponymo": "ΣΙΟΥΝΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1123,7 +1069,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 36,
+    "aa": 34,
     "am": "15420.0",
     "eponymo": "ΓΛΕΝΗ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -1155,7 +1101,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 37,
+    "aa": 35,
     "am": "4376.0",
     "eponymo": "ΚΑΡΑΤΑΣΙΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ-ΜΑΡΙΑ",
@@ -1187,7 +1133,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 38,
+    "aa": 36,
     "am": "14847.0",
     "eponymo": "ΖΗΣΗ",
     "onoma": "ΑΛΕΞΙΑ - ΖΩΗ",
@@ -1219,7 +1165,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 39,
+    "aa": 37,
     "am": "11325.0",
     "eponymo": "ΜΗΤΛΙΑΓΚΑ",
     "onoma": "ΔΩΡΟΘΕΑ",
@@ -1251,7 +1197,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 40,
+    "aa": 38,
     "am": "11195.0",
     "eponymo": "ΣΚΟΥΦΑΚΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -1283,7 +1229,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 41,
+    "aa": 39,
     "am": "2095.0",
     "eponymo": "ΑΝΔΡΕΟΥ",
     "onoma": "ΗΡΩ",
@@ -1293,7 +1239,7 @@
     "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3147-3148-3149-3150-3151-3152",
     "protimiseis": "3140-3137-3139-3144-3152-3151-3150-3149-3148-3147-3135-3146-3143",
     "thesi_diorismou": "3148",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1312,10 +1258,11 @@
     "seira_klirosis": 5371161.0,
     "vathmologia": 83.42,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 42,
+    "aa": 40,
     "am": "3569.0",
     "eponymo": "ΔΑΣΚΑΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1347,7 +1294,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 43,
+    "aa": 41,
     "am": "9732.0",
     "eponymo": "ΚΟΡΟΝΤΑΝΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -1379,7 +1326,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 44,
+    "aa": 42,
     "am": "8032.0",
     "eponymo": "ΚΑΛΜΟΥΚΗ",
     "onoma": "ΗΡΩ",
@@ -1411,7 +1358,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 45,
+    "aa": 43,
     "am": "1241.0",
     "eponymo": "ΝΤΟΥΒΗ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -1443,7 +1390,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 46,
+    "aa": 44,
     "am": "19328.0",
     "eponymo": "ΔΟΛΛΟΓΛΟΥ",
     "onoma": "ΜΑΡΙΑ  ΚΑΛΟΜΟΙΡΑ",
@@ -1475,7 +1422,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 47,
+    "aa": 45,
     "am": "14466.0",
     "eponymo": "ΜΑΚΡΥΛΑΚΗ",
     "onoma": "ΑΝΝΑ ΔΑΝΑΗ",
@@ -1507,7 +1454,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 48,
+    "aa": 46,
     "am": "7921.0",
     "eponymo": "ΚΑΡΑΒΑΣΙΛΗ",
     "onoma": "ΒΑΡΒΑΡΑ ΣΤΑΥΡΟΥΛΑ",
@@ -1539,7 +1486,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 49,
+    "aa": 47,
     "am": "2706.0",
     "eponymo": "ΠΑΛΙΟΥΡΑ",
     "onoma": "ΒΑΙΑ",
@@ -1571,7 +1518,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 50,
+    "aa": 48,
     "am": "10094.0",
     "eponymo": "ΣΥΜΕΩΝΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1581,7 +1528,7 @@
     "theseis_idias_omadas": "3135-3137-3139-3143-3144-3146-3147-3148-3149-3150-3151-3152",
     "protimiseis": "3147-3137-3139-3144-3150-3151-3152-3135-3149-3146-3143-3148",
     "thesi_diorismou": "3143",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1600,10 +1547,11 @@
     "seira_klirosis": 9431339.0,
     "vathmologia": 82.5,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 51,
+    "aa": 49,
     "am": "19302.0",
     "eponymo": "ΧΡΗΣΤΟΥ",
     "onoma": "ΖΩΗ",
@@ -1635,7 +1583,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 52,
+    "aa": 50,
     "am": "6990.0",
     "eponymo": "ΖΑΧΑΡΑΚΗ",
     "onoma": "ΤΑΤΙΑΝΑ",
@@ -1667,7 +1615,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 53,
+    "aa": 51,
     "am": "10526.0",
     "eponymo": "ΚΟΡΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1699,7 +1647,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 54,
+    "aa": 52,
     "am": "393.0",
     "eponymo": "ΜΕΣΣΗΝΗ",
     "onoma": "ΙΟΥΛΙΑ",
@@ -1731,39 +1679,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 55,
-    "am": "2095.0",
-    "eponymo": "ΑΝΔΡΕΟΥ",
-    "onoma": "ΗΡΩ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***830",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3147-3148-3149-3150-3151-3152",
-    "protimiseis": "3140-3137-3139-3144-3152-3151-3150-3149-3148-3147-3135-3146-3143",
-    "thesi_diorismou": "3148",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 62.84,
-    "synolo_graptou": 81.42,
-    "seira_klirosis": 5371161.0,
-    "vathmologia": 82.42,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 56,
+    "aa": 53,
     "am": "7316.0",
     "eponymo": "ΧΑΤΖΗΝΙΚΟΛΑΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ-ΧΡΗΣΤΙΝΑ",
@@ -1795,7 +1711,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 57,
+    "aa": 54,
     "am": "3224.0",
     "eponymo": "ΑΝΔΡΙΚΟΥ",
     "onoma": "ΑΣΗΜΕΝΙΑ",
@@ -1827,7 +1743,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 58,
+    "aa": 55,
     "am": "7880.0",
     "eponymo": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΝΕΦΕΛΗ",
@@ -1859,7 +1775,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 59,
+    "aa": 56,
     "am": "975.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1891,7 +1807,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 60,
+    "aa": 57,
     "am": "17697.0",
     "eponymo": "ΣΑΛΤΟΥ",
     "onoma": "ΗΛΙΑΝΑ",
@@ -1923,7 +1839,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 61,
+    "aa": 58,
     "am": "18214.0",
     "eponymo": "ΒΕΡΓΟΥΛΙΑ",
     "onoma": "ΧΡΥΣΑΥΓΗ",
@@ -1955,7 +1871,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 62,
+    "aa": 59,
     "am": "10368.0",
     "eponymo": "ΜΙΧΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ ΛΥΔΙΑ",
@@ -1987,7 +1903,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 63,
+    "aa": 60,
     "am": "1149.0",
     "eponymo": "ΤΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΙΝΑ",
@@ -2019,7 +1935,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 64,
+    "aa": 61,
     "am": "8595.0",
     "eponymo": "ΚΟΛΙΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2051,7 +1967,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 65,
+    "aa": 62,
     "am": "5114.0",
     "eponymo": "ΚΑΤΗΦΟΡΗ",
     "onoma": "ΑΔΑΜΑΝΤΙΑ",
@@ -2083,7 +1999,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 66,
+    "aa": 63,
     "am": "2060.0",
     "eponymo": "ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΕΛΙΖΑ ΞΑΝΘΙΠΗ",
@@ -2115,7 +2031,40 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 67,
+    "aa": 64,
+    "am": "15799.0",
+    "eponymo": "ΣΟΥΠΙΟΥ",
+    "onoma": "ΚΛΕΟΠΑΤΡΑ",
+    "patronymo": "ΝΙΚΟΛΑΟΣ",
+    "adt_masked": "***296",
+    "omada_prosonton": "355 -001,019",
+    "theseis_idias_omadas": "3140",
+    "protimiseis": "3140-1013-1136-1037-1039-915-912-1024-1041-1036-1023-1123-914-1129-1018-1124-1043-1016-991-1003-995-1011-1111-1112-1113-1009-1040-916",
+    "thesi_diorismou": "912",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 26.0,
+    "monades_empeirias": 2.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 54.67,
+    "synolo_graptou": 77.33,
+    "seira_klirosis": 2540456.0,
+    "vathmologia": 81.33,
+    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 65,
     "am": "2401.0",
     "eponymo": "ΜΠΑΣΑ",
     "onoma": "ΚΑΛΛΙΟΠΗ ΔΙΩΝΗ",
@@ -2147,7 +2096,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 68,
+    "aa": 66,
     "am": "9688.0",
     "eponymo": "ΓΡΗΓΟΡΙΑΔΟΥ",
     "onoma": "ΛΟΥΛΟΥΔΑ",
@@ -2179,7 +2128,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 69,
+    "aa": 67,
     "am": "9902.0",
     "eponymo": "ΠΑΠΑΤΣΑΚΩΝΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2211,7 +2160,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 70,
+    "aa": 68,
     "am": "6150.0",
     "eponymo": "ΒΑΦΕΙΑΔΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2243,7 +2192,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 71,
+    "aa": 69,
     "am": "658.0",
     "eponymo": "ΜΑΚΡΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -2275,7 +2224,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 72,
+    "aa": 70,
     "am": "17729.0",
     "eponymo": "ΓΡΑΜΜΑΤΙΚΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -2307,7 +2256,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 73,
+    "aa": 71,
     "am": "20566.0",
     "eponymo": "ΠΕΤΡΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2339,7 +2288,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 74,
+    "aa": 72,
     "am": "11968.0",
     "eponymo": "ΛΙΟΥΡΤΑ",
     "onoma": "ΕΛΙΣΣΑΒΕΤ",
@@ -2371,7 +2320,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 75,
+    "aa": 73,
     "am": "12889.0",
     "eponymo": "ΚΑΡΑΤΑΣΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ-ΜΥΡΤΩ",
@@ -2403,7 +2352,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 76,
+    "aa": 74,
     "am": "13813.0",
     "eponymo": "ΝΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2435,40 +2384,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 77,
-    "am": "15799.0",
-    "eponymo": "ΣΟΥΠΙΟΥ",
-    "onoma": "ΚΛΕΟΠΑΤΡΑ",
-    "patronymo": "ΝΙΚΟΛΑΟΣ",
-    "adt_masked": "***296",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3140",
-    "protimiseis": "3140-1013-1136-1037-1039-915-912-1024-1041-1036-1023-1123-914-1129-1018-1124-1043-1016-991-1003-995-1011-1111-1112-1113-1009-1040-916",
-    "thesi_diorismou": "912",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 26.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 54.67,
-    "synolo_graptou": 77.33,
-    "seira_klirosis": 2540456.0,
-    "vathmologia": 80.33,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
-  },
-  {
-    "aa": 78,
+    "aa": 75,
     "am": "6502.0",
     "eponymo": "ΓΙΑΝΝΙΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -2500,7 +2416,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 79,
+    "aa": 76,
     "am": "18321.0",
     "eponymo": "ΜΑΣΑΟΥΤΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -2532,7 +2448,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 80,
+    "aa": 77,
     "am": "16883.0",
     "eponymo": "ΜΥΛΩΝΑ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -2564,7 +2480,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 81,
+    "aa": 78,
     "am": "7607.0",
     "eponymo": "ΛΙΤΑΙΝΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2574,7 +2490,7 @@
     "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3147-3148-3149-3150-3152",
     "protimiseis": "3137-3139-3140-3144-3150-3135-3147-3146-3143-3148-3149-3152",
     "thesi_diorismou": "3143",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2594,10 +2510,10 @@
     "vathmologia": 80.17,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 82,
+    "aa": 79,
     "am": "13470.0",
     "eponymo": "ΚΑΠΟΥΚΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -2607,7 +2523,7 @@
     "theseis_idias_omadas": "3140",
     "protimiseis": "3142-3140",
     "thesi_diorismou": "3142",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2626,42 +2542,11 @@
     "seira_klirosis": 4696081.0,
     "vathmologia": 80.06,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 83,
-    "am": "13470.0",
-    "eponymo": "ΚΑΠΟΥΚΑΚΗ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΘΕΟΔΩΡΟΣ",
-    "adt_masked": "***242",
-    "omada_prosonton": "355 -001,019,044",
-    "theseis_idias_omadas": "3142",
-    "protimiseis": "3142-3140",
-    "thesi_diorismou": "3142",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 172.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 50.11,
-    "synolo_graptou": 73.06,
-    "seira_klirosis": 4696081.0,
-    "vathmologia": 80.06,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 84,
+    "aa": 80,
     "am": "12584.0",
     "eponymo": "ΛΑΖΑΡΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -2693,7 +2578,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 85,
+    "aa": 81,
     "am": "11662.0",
     "eponymo": "ΕΥΤΑΞΙΑ",
     "onoma": "ΛΥΔΙΑ ΑΓΓΕΛΙΚΗ",
@@ -2725,7 +2610,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 86,
+    "aa": 82,
     "am": "18332.0",
     "eponymo": "ΡΑΦΤΗ",
     "onoma": "ΜΑΡΙΑ ΔΕΣΠΟΙΝΑ",
@@ -2757,7 +2642,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 87,
+    "aa": 83,
     "am": "8939.0",
     "eponymo": "ΚΟΥΡΟΓΙΩΡΓΑΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -2767,7 +2652,7 @@
     "theseis_idias_omadas": "3140",
     "protimiseis": "3141-3140-3145-1025-1005-1048-1002-1007-1041-1032-1033-1009-1043-1012-1019-1010-1016-1039-1035-1044-1020-1018-1003-998-1022-1015-1034-992-995-881-894-884-898-896-895-996-997-1011-999-1021-991-1006-1013-1014-994-993-1028-1029-1040-1004-1122-1037-1036-1045-1046-1047-1113-1114-1115-1116-1024-1027-1031-1117-886-887-3165-889-1111-1112-883-885-855-856-789-797-1121-1123-845-846-1118-1119-798-790-1120-1124-877-1129-1130-1132-1140-1141-1142-890-891-892-893-899-916-1000-1008-914-1049-1050-1051-1052",
     "thesi_diorismou": "1036",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2787,10 +2672,10 @@
     "vathmologia": 79.33,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 88,
+    "aa": 84,
     "am": "12284.0",
     "eponymo": "ΜΠΟΥΖΙΝΟΥ",
     "onoma": "ΗΛΙΑΝΑ ΜΑΡΙΑ",
@@ -2822,7 +2707,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 89,
+    "aa": 85,
     "am": "4294.0",
     "eponymo": "ΜΑΝΤΑ",
     "onoma": "ΑΝΔΡΙΑΝΑ",
@@ -2854,7 +2739,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 90,
+    "aa": 86,
     "am": "2305.0",
     "eponymo": "ΜΟΥΧΑΡΕΜΗ",
     "onoma": "ΖΑΧΑΡΟΥΛΑ",
@@ -2886,7 +2771,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 91,
+    "aa": 87,
     "am": "12441.0",
     "eponymo": "ΜΠΡΕΚΑ",
     "onoma": "ΞΑΝΘΙΠΠΗ",
@@ -2918,7 +2803,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 92,
+    "aa": 88,
     "am": "8051.0",
     "eponymo": "ΠΑΠΑΣΤΑΜΟΥ",
     "onoma": "ΦΑΝΗ",
@@ -2950,7 +2835,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 93,
+    "aa": 89,
     "am": "6889.0",
     "eponymo": "ΘΥΜΙΟΠΟΥΛΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2982,7 +2867,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 94,
+    "aa": 90,
     "am": "10.0",
     "eponymo": "ΠΑΠΑΔΟΥΛΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -2992,7 +2877,7 @@
     "theseis_idias_omadas": "3141-3145",
     "protimiseis": "3140-3141-3145-3144",
     "thesi_diorismou": "3141",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3012,43 +2897,10 @@
     "vathmologia": 79.0,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 95,
-    "am": "10.0",
-    "eponymo": "ΠΑΠΑΔΟΥΛΗ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΝΙΚΟΛΑΟΣ",
-    "adt_masked": "***235",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3140-3144",
-    "protimiseis": "3140-3141-3145-3144",
-    "thesi_diorismou": "3141",
-    "idiotita": "ΝΑΙ",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 110.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 84.0,
-    "math2": 57.0,
-    "synolo_graptou": 70.5,
-    "seira_klirosis": 1777189.0,
-    "vathmologia": 79.0,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
-  },
-  {
-    "aa": 96,
+    "aa": 91,
     "am": "11760.0",
     "eponymo": "ΑΓΓΕΛΗ",
     "onoma": "ΜΑΡΙΑ ΧΡΙΣΤΙΝΑ",
@@ -3080,7 +2932,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 97,
+    "aa": 92,
     "am": "4188.0",
     "eponymo": "ΣΥΡΙΓΑ",
     "onoma": "ΣΟΦΙΑ",
@@ -3112,7 +2964,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 98,
+    "aa": 93,
     "am": "17606.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ ΗΛΙΑΣ",
@@ -3144,7 +2996,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 99,
+    "aa": 94,
     "am": "2728.0",
     "eponymo": "ΚΑΚΟΚΕΦΑΛΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3176,7 +3028,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 100,
+    "aa": 95,
     "am": "4847.0",
     "eponymo": "ΚΟΝΤΟΓΙΑΝΝΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -3208,7 +3060,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 101,
+    "aa": 96,
     "am": "12839.0",
     "eponymo": "ΚΑΛΛΕΡΓΗΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ ΙΩΑΝΝΗΣ",
@@ -3240,7 +3092,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 102,
+    "aa": 97,
     "am": "12418.0",
     "eponymo": "ΑΝΤΙΟΧΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -3272,7 +3124,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 103,
+    "aa": 98,
     "am": "15524.0",
     "eponymo": "ΜΙΧΑΛΟΠΟΥΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3304,7 +3156,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 104,
+    "aa": 99,
     "am": "19357.0",
     "eponymo": "ΛΙΑΣΚΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -3336,39 +3188,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 105,
-    "am": "19357.0",
-    "eponymo": "ΛΙΑΣΚΟΠΟΥΛΟΣ",
-    "onoma": "ΑΝΤΩΝΙΟΣ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***301",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3147-3148-3149-3150-3151-3152",
-    "protimiseis": "3142-3137-3139-3151-3152-3147-3150-3144-3140-3135-3148-3146-3143-3149-3138-3141-3145-3134-3136",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 37.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 41.61,
-    "synolo_graptou": 70.81,
-    "seira_klirosis": 5698065.0,
-    "vathmologia": 78.31,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 106,
+    "aa": 100,
     "am": "19950.0",
     "eponymo": "ΚΟΜΗΝΟΥ",
     "onoma": "ΑΡΓΥΡΟΥΛΑ",
@@ -3400,7 +3220,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 107,
+    "aa": 101,
     "am": "15537.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΗ",
     "onoma": "ΟΛΓΑ- ΣΟΦΙΑ",
@@ -3432,7 +3252,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 108,
+    "aa": 102,
     "am": "2948.0",
     "eponymo": "ΔΟΛΓΥΡΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3464,7 +3284,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 109,
+    "aa": 103,
     "am": "10397.0",
     "eponymo": "ΚΑΡΑΧΑΛΙΑ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -3496,7 +3316,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 110,
+    "aa": 104,
     "am": "6483.0",
     "eponymo": "ΤΕΚΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -3528,7 +3348,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 111,
+    "aa": 105,
     "am": "15684.0",
     "eponymo": "ΚΙΟΣΗ",
     "onoma": "ΑΝΝΕΤΑ",
@@ -3560,7 +3380,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 112,
+    "aa": 106,
     "am": "11530.0",
     "eponymo": "ΖΥΓΟΡΟΔΗΜΟΥ",
     "onoma": "ΦΑΝΗ",
@@ -3592,7 +3412,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 113,
+    "aa": 107,
     "am": "15371.0",
     "eponymo": "ΤΑΜΠΟΥΡΗ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -3624,7 +3444,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 114,
+    "aa": 108,
     "am": "8807.0",
     "eponymo": "ΚΟΥΙΜΤΖΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3656,7 +3476,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 115,
+    "aa": 109,
     "am": "2841.0",
     "eponymo": "ΜΑΡΜΑΡΟΥ",
     "onoma": "ΚΑΛΛΙΡΡΟΗ",
@@ -3688,7 +3508,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 116,
+    "aa": 110,
     "am": "6913.0",
     "eponymo": "ΑΝΤΩΝΙΑΔΟΥ",
     "onoma": "ΖΩΗ",
@@ -3720,7 +3540,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 117,
+    "aa": 111,
     "am": "17722.0",
     "eponymo": "ΣΠΟΥΡΓΙΤΗ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -3752,7 +3572,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 118,
+    "aa": 112,
     "am": "7051.0",
     "eponymo": "ΑΠΟΣΤΟΛΟΥ",
     "onoma": "ΝΙΚΗ",
@@ -3784,7 +3604,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 119,
+    "aa": 113,
     "am": "2276.0",
     "eponymo": "ΠΑΤΣΙΑΤΖΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -3816,7 +3636,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 120,
+    "aa": 114,
     "am": "2114.0",
     "eponymo": "ΜΠΑΣΙΟΥΡΗ",
     "onoma": "ΦΑΝΗ",
@@ -3848,7 +3668,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 121,
+    "aa": 115,
     "am": "9965.0",
     "eponymo": "ΧΛΕΤΣΗ",
     "onoma": "ΕΛΕΝΗ ΜΑΡΙΑ",
@@ -3880,7 +3700,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 122,
+    "aa": 116,
     "am": "13449.0",
     "eponymo": "ΠΟΛΙΤΟΥ",
     "onoma": "ΖΩΗ ΕΥΑΓΓΕΛΙΑ",
@@ -3912,7 +3732,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 123,
+    "aa": 117,
     "am": "12881.0",
     "eponymo": "ΚΟΤΤΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -3944,7 +3764,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 124,
+    "aa": 118,
     "am": "7466.0",
     "eponymo": "ΡΟΥΣΤΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ ΣΤΥΛΙΑΝΗ",
@@ -3976,7 +3796,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 125,
+    "aa": 119,
     "am": "3104.0",
     "eponymo": "ΡΟΥΣΤΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -4008,7 +3828,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 126,
+    "aa": 120,
     "am": "1508.0",
     "eponymo": "ΜΑΒΡΟΒΑ",
     "onoma": "ΓΚΑΜΠΡΙΕΛΑ",
@@ -4040,7 +3860,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 127,
+    "aa": 121,
     "am": "17760.0",
     "eponymo": "ΠΑΝΤΑΖΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4072,7 +3892,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 128,
+    "aa": 122,
     "am": "17483.0",
     "eponymo": "ΣΚΑΡΛΑΤΟΥ",
     "onoma": "ΔΑΦΝΗ",
@@ -4104,7 +3924,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 129,
+    "aa": 123,
     "am": "4997.0",
     "eponymo": "ΚΟΥΝΑΔΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4136,7 +3956,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 130,
+    "aa": 124,
     "am": "12654.0",
     "eponymo": "ΚΑΠΕΤΑΝΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -4168,7 +3988,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 131,
+    "aa": 125,
     "am": "20106.0",
     "eponymo": "ΒΟΓΙΑΤΖΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4200,7 +4020,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 132,
+    "aa": 126,
     "am": "12824.0",
     "eponymo": "ΔΕΡΜΙΤΖΑΚΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ  ΔΕΣΠΟΙΝΑ",
@@ -4232,7 +4052,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 133,
+    "aa": 127,
     "am": "11169.0",
     "eponymo": "ΜΠΟΥΓΛΑ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -4264,7 +4084,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 134,
+    "aa": 128,
     "am": "11563.0",
     "eponymo": "ΜΑΣΤΡΟΓΙΑΝΝΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4296,7 +4116,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 135,
+    "aa": 129,
     "am": "16550.0",
     "eponymo": "ΠΕΤΣΑΝΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -4328,7 +4148,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 136,
+    "aa": 130,
     "am": "14869.0",
     "eponymo": "ΖΙΑΡΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -4360,7 +4180,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 137,
+    "aa": 131,
     "am": "2536.0",
     "eponymo": "ΠΡΑΜΑΤΕΥΤΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4392,7 +4212,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 138,
+    "aa": 132,
     "am": "12404.0",
     "eponymo": "ΚΟΝΤΟΓΕΩΡΓΟΥ",
     "onoma": "ΜΑΡΙΑ ΒΑΣΙΛΙΚΗ",
@@ -4424,7 +4244,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 139,
+    "aa": 133,
     "am": "13056.0",
     "eponymo": "ΚΕΡΑΜΙΔΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -4456,7 +4276,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 140,
+    "aa": 134,
     "am": "10552.0",
     "eponymo": "ΓΙΟΓΙΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -4488,7 +4308,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 141,
+    "aa": 135,
     "am": "10909.0",
     "eponymo": "ΤΡΑΙΚΟΥ",
     "onoma": "ΦΑΝΗ",
@@ -4520,7 +4340,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 142,
+    "aa": 136,
     "am": "17709.0",
     "eponymo": "ΘΩΜΟΠΟΥΛΟΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -4552,7 +4372,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 143,
+    "aa": 137,
     "am": "14656.0",
     "eponymo": "ΝΙΚΟΛΑΙΔΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -4584,7 +4404,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 144,
+    "aa": 138,
     "am": "4452.0",
     "eponymo": "ΛΕΒΕΝΤΟΥΡΗ",
     "onoma": "ΚΑΤΕΡΙΝΑ",
@@ -4616,7 +4436,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 145,
+    "aa": 139,
     "am": "12866.0",
     "eponymo": "ΝΤΑΜΠΑΚΗ",
     "onoma": "ΚΟΡΝΗΛΙΑ",
@@ -4648,7 +4468,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 146,
+    "aa": 140,
     "am": "14715.0",
     "eponymo": "ΣΤΑΥΡΟΥ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -4680,39 +4500,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 147,
-    "am": "14869.0",
-    "eponymo": "ΖΙΑΡΑ",
-    "onoma": "ΒΑΣΙΛΙΚΗ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***488",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3147-3148-3149-3150-3151-3152",
-    "protimiseis": "3135-3140-3141-3145-3144-3137-3138-3139-3134-3150-3148-3149-3136-3143-3146-3147-3151-3152",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 45.0,
-    "synolo_graptou": 70.5,
-    "seira_klirosis": 6909260.0,
-    "vathmologia": 73.5,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 148,
+    "aa": 141,
     "am": "18966.0",
     "eponymo": "ΧΡΙΣΤΟΔΟΥΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4744,7 +4532,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 149,
+    "aa": 142,
     "am": "17540.0",
     "eponymo": "ΚΕΤΙΚΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4776,7 +4564,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 150,
+    "aa": 143,
     "am": "1404.0",
     "eponymo": "ΤΣΙΑΤΣΙΟΥ",
     "onoma": "ΖΗΣΙΑ",
@@ -4808,7 +4596,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 151,
+    "aa": 144,
     "am": "7548.0",
     "eponymo": "ΓΙΑΚΑ",
     "onoma": "ΣΤΑΜΑΤΙΑ",
@@ -4840,7 +4628,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 152,
+    "aa": 145,
     "am": "5394.0",
     "eponymo": "ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -4872,7 +4660,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 153,
+    "aa": 146,
     "am": "11681.0",
     "eponymo": "ΚΛΗΡΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -4904,7 +4692,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 154,
+    "aa": 147,
     "am": "6605.0",
     "eponymo": "ΤΕΡΖΙΔΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -4936,7 +4724,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 155,
+    "aa": 148,
     "am": "18123.0",
     "eponymo": "ΓΚΑΝΙΑΤΣΑΣ",
     "onoma": "ΠΑΝΤΕΛΗΣ",
@@ -4968,7 +4756,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 156,
+    "aa": 149,
     "am": "8728.0",
     "eponymo": "ΠΛΑΣΤΗΡΑ",
     "onoma": "ΝΕΦΕΛΗ ΑΝΑΣΤΑΣΙΑ",
@@ -5000,7 +4788,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 157,
+    "aa": 150,
     "am": "12410.0",
     "eponymo": "ΖΑΖΕΛΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -5032,7 +4820,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 158,
+    "aa": 151,
     "am": "9933.0",
     "eponymo": "ΒΑΚΟΝΔΙΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -5064,7 +4852,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 159,
+    "aa": 152,
     "am": "1200.0",
     "eponymo": "ΜΟΥΚΑΝΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -5096,7 +4884,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 160,
+    "aa": 153,
     "am": "1073.0",
     "eponymo": "ΔΡΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -5128,7 +4916,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 161,
+    "aa": 154,
     "am": "18819.0",
     "eponymo": "ΝΟΧΟΥΤΙΔΟΥ",
     "onoma": "ΜΕΛΠΟΜΕΝΗ",
@@ -5160,7 +4948,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 162,
+    "aa": 155,
     "am": "10674.0",
     "eponymo": "ΑΛΕΞΟΠΟΥΛΟΥ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -5192,7 +4980,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 163,
+    "aa": 156,
     "am": "20199.0",
     "eponymo": "ΠΑΠΑΣΤΑΥΡΟΥ",
     "onoma": "ΑΝΝΑ ΑΝΤΩΝΙΑ",
@@ -5224,7 +5012,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 164,
+    "aa": 157,
     "am": "3852.0",
     "eponymo": "ΚΥΡΙΤΣΗ",
     "onoma": "ΝΑΥΣΙΚΑ",
@@ -5256,7 +5044,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 165,
+    "aa": 158,
     "am": "963.0",
     "eponymo": "ΦΟΥΡΚΙΩΤΗ",
     "onoma": "ΖΗΝΟΒΙΑ ΓΕΩΡΓΙΑ",
@@ -5288,7 +5076,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 166,
+    "aa": 159,
     "am": "16359.0",
     "eponymo": "ΚΟΥΚΟΥΡΑΒΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -5320,7 +5108,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 167,
+    "aa": 160,
     "am": "4726.0",
     "eponymo": "ΣΚΑΡΠΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -5352,7 +5140,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 168,
+    "aa": 161,
     "am": "20818.0",
     "eponymo": "ΣΥΡΙΔΟΥ",
     "onoma": "ΠΕΛΑΓΙΑ",
@@ -5384,7 +5172,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 169,
+    "aa": 162,
     "am": "850.0",
     "eponymo": "ΚΑΛΟΓΙΑΝΝΑΚΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ ΠΑΡΑΣΚΕΥ",
@@ -5416,7 +5204,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 170,
+    "aa": 163,
     "am": "7794.0",
     "eponymo": "ΚΑΡΥΠΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -5448,7 +5236,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 171,
+    "aa": 164,
     "am": "11470.0",
     "eponymo": "ΣΙΑΡΚΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -5480,7 +5268,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 172,
+    "aa": 165,
     "am": "9771.0",
     "eponymo": "ΣΟΥΛΙΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -5512,7 +5300,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 173,
+    "aa": 166,
     "am": "13583.0",
     "eponymo": "ΟΡΦΑΝΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -5544,7 +5332,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 174,
+    "aa": 167,
     "am": "13869.0",
     "eponymo": "ΠΑΓΑΝΕΛΗ",
     "onoma": "ΟΛΓΑ",
@@ -5576,7 +5364,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 175,
+    "aa": 168,
     "am": "13019.0",
     "eponymo": "ΓΚΟΥΝΤΕΛΑ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -5608,7 +5396,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 176,
+    "aa": 169,
     "am": "19801.0",
     "eponymo": "ΤΑΠΑ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -5640,7 +5428,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 177,
+    "aa": 170,
     "am": "19089.0",
     "eponymo": "ΒΟΥΛΓΑΡΑΚΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -5672,7 +5460,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 178,
+    "aa": 171,
     "am": "20105.0",
     "eponymo": "ΞΙΑΡΧΗ",
     "onoma": "ΛΑΜΠΡΙΝΗ ΜΑΡΙΑ",
@@ -5704,7 +5492,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 179,
+    "aa": 172,
     "am": "3292.0",
     "eponymo": "ΜΠΛΕΤΣΑ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -5736,7 +5524,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 180,
+    "aa": 173,
     "am": "13759.0",
     "eponymo": "ΑΝΤΩΝΟΠΟΥΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -5768,7 +5556,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 181,
+    "aa": 174,
     "am": "19023.0",
     "eponymo": "ΑΝΔΡΙΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -5800,7 +5588,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 182,
+    "aa": 175,
     "am": "12583.0",
     "eponymo": "ΤΟΥΡΛΕΝΤΕ",
     "onoma": "ΝΙΚΟΛΕΤΤΑ",
@@ -5832,7 +5620,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 183,
+    "aa": 176,
     "am": "18941.0",
     "eponymo": "ΚΑΦΑΛΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -5864,7 +5652,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 184,
+    "aa": 177,
     "am": "11482.0",
     "eponymo": "Βαρδάκη",
     "onoma": "Eλένη",
@@ -5896,7 +5684,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 185,
+    "aa": 178,
     "am": "16900.0",
     "eponymo": "ΝΙΚΟΛΑΚΗ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -5928,7 +5716,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 186,
+    "aa": 179,
     "am": "4469.0",
     "eponymo": "ΜΙΧΑΗΛΙΔΟΥ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -5960,7 +5748,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 187,
+    "aa": 180,
     "am": "319.0",
     "eponymo": "ΜΟΛΑ ΜΟΥΣΤΑΦΑ",
     "onoma": "ΦΑΤΜΑ",
@@ -5992,39 +5780,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 188,
-    "am": "319.0",
-    "eponymo": "ΜΟΛΑ ΜΟΥΣΤΑΦΑ",
-    "onoma": "ΦΑΤΜΑ",
-    "patronymo": "ΜΕΜΕΤ",
-    "adt_masked": "***317",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3147",
-    "protimiseis": "3147",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "3147",
-    "monades_entop": 20.0,
-    "math1": 56.0,
-    "math2": 39.5,
-    "synolo_graptou": 47.75,
-    "seira_klirosis": 5253870.0,
-    "vathmologia": 68.75,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 189,
+    "aa": 181,
     "am": "6100.0",
     "eponymo": "ΜΠΙΛΙΟΥΡΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -6056,7 +5812,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 190,
+    "aa": 182,
     "am": "10053.0",
     "eponymo": "ΧΟΡΜΟΒΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -6088,7 +5844,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 191,
+    "aa": 183,
     "am": "15284.0",
     "eponymo": "ΕΥΑΓΓΕΛΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -6120,7 +5876,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 192,
+    "aa": 184,
     "am": "5835.0",
     "eponymo": "ΜΑΚΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -6152,7 +5908,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 193,
+    "aa": 185,
     "am": "11933.0",
     "eponymo": "ΜΠΛΟΣΚΑ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -6184,7 +5940,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 194,
+    "aa": 186,
     "am": "732.0",
     "eponymo": "ΠΑΙΔΗ",
     "onoma": "ΝΕΦΕΛΗ",
@@ -6216,7 +5972,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 195,
+    "aa": 187,
     "am": "9145.0",
     "eponymo": "ΘΡΑΜΠΟΥΛΙΔΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -6248,7 +6004,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 196,
+    "aa": 188,
     "am": "12148.0",
     "eponymo": "ΣΤΑΥΡΑΚΑΚΗ",
     "onoma": "ΒΑΡΒΑΡΑ",
@@ -6280,7 +6036,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 197,
+    "aa": 189,
     "am": "13803.0",
     "eponymo": "ΣΑΒΒΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -6312,7 +6068,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 198,
+    "aa": 190,
     "am": "12000.0",
     "eponymo": "ΛΟΜΒΑΡΔΟΥ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -6344,7 +6100,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 199,
+    "aa": 191,
     "am": "3802.0",
     "eponymo": "ΠΑΠΑΓΙΑΝΝΗ",
     "onoma": "ΦΡΕΙΔΕΡΙΚΗ",
@@ -6376,7 +6132,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 200,
+    "aa": 192,
     "am": "16385.0",
     "eponymo": "ΣΑΜΑΡΤΖΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -6408,7 +6164,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 201,
+    "aa": 193,
     "am": "8568.0",
     "eponymo": "ΚΑΡΩΝΗ",
     "onoma": "ΙΦΙΓΕΝΕΙΑ",
@@ -6440,7 +6196,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 202,
+    "aa": 194,
     "am": "9012.0",
     "eponymo": "ΓΑΒΡΙΕΛΑΤΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -6472,7 +6228,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 203,
+    "aa": 195,
     "am": "737.0",
     "eponymo": "ΑΛΗ",
     "onoma": "ΑΧΜΑΝΤ",
@@ -6504,7 +6260,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 204,
+    "aa": 196,
     "am": "10333.0",
     "eponymo": "ΚΥΡΙΤΣΗΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -6536,7 +6292,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 205,
+    "aa": 197,
     "am": "6228.0",
     "eponymo": "ΝΑΣΗ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -6568,7 +6324,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 206,
+    "aa": 198,
     "am": "17586.0",
     "eponymo": "ΑΝΔΡΟΝΙΚΙΔΗΣ",
     "onoma": "ΑΝΔΡΟΝΙΚΟΣ",
@@ -6600,7 +6356,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 207,
+    "aa": 199,
     "am": "16859.0",
     "eponymo": "ΤΣΑΡΑΜΠΟΥΛΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΑΝΑ",
@@ -6632,7 +6388,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 208,
+    "aa": 200,
     "am": "1413.0",
     "eponymo": "ΚΑΙΡΕΤΟΓΛΟΥ",
     "onoma": "ΑΒΡΑΑΜ",
@@ -6664,7 +6420,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 209,
+    "aa": 201,
     "am": "9069.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΓΑΡΥΦΑΛΛΙΑ",
@@ -6674,7 +6430,7 @@
     "theseis_idias_omadas": "3134-3138-3141-3145",
     "protimiseis": "3145-3140-3135-3134-3144-3138-3137-3139-3141-3146-3148-3143",
     "thesi_diorismou": "3145",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -6693,42 +6449,11 @@
     "seira_klirosis": 2830033.0,
     "vathmologia": 60.89,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
+    "slug": "pe-psychologon-eid-pe-psychologon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 210,
-    "am": "9069.0",
-    "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
-    "onoma": "ΓΑΡΥΦΑΛΛΙΑ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***011",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3148",
-    "protimiseis": "3145-3140-3135-3134-3144-3138-3137-3139-3141-3146-3148-3143",
-    "thesi_diorismou": "3145",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 107.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 76.0,
-    "math2": 27.78,
-    "synolo_graptou": 51.89,
-    "seira_klirosis": 2830033.0,
-    "vathmologia": 60.89,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 211,
+    "aa": 202,
     "am": "17956.0",
     "eponymo": "ΤΣΑΝΙ",
     "onoma": "ΜΙΝΑ",
@@ -6760,7 +6485,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 212,
+    "aa": 203,
     "am": "216.0",
     "eponymo": "ΒΕΛΩΝΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -6792,7 +6517,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 213,
+    "aa": 204,
     "am": "3040.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ ΑΝΑΣΤΑΣΙΑ",
@@ -6824,7 +6549,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 214,
+    "aa": 205,
     "am": "12239.0",
     "eponymo": "ΛΙΟΝΤΟΥ",
     "onoma": "ΑΡΕΤΗ",
@@ -6856,7 +6581,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 215,
+    "aa": 206,
     "am": "3687.0",
     "eponymo": "ΤΖΑΝΑΚΗ",
     "onoma": "ΟΝΟΥΦΡΙΑ",
@@ -6888,7 +6613,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 216,
+    "aa": 207,
     "am": "2503.0",
     "eponymo": "ΔΕΝΔΡΑΜΗΣ",
     "onoma": "ΠΑΝΑΓ",
@@ -6920,7 +6645,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 217,
+    "aa": 208,
     "am": "508.0",
     "eponymo": "ΦΟΥΚΑ",
     "onoma": "ΑΡΕΤΗ",
@@ -6952,7 +6677,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 218,
+    "aa": 209,
     "am": "5664.0",
     "eponymo": "ΛΕΚΚΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -6962,7 +6687,7 @@
     "theseis_idias_omadas": "3135-3137-3139-3140-3143-3144-3146-3147-3148-3149-3150-3151-3152",
     "protimiseis": "3140-3137-3139-3135-3144-3143-3146-3147-3150-3148-3149-3151-3152",
     "thesi_diorismou": "3148",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -6982,10 +6707,10 @@
     "vathmologia": 57.47,
     "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
     "slug": "pe-psychologon-eid-pe-psychologon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 219,
+    "aa": 210,
     "am": "15591.0",
     "eponymo": "ΒΑΡΟΥΧΟΥ",
     "onoma": "ΣΤΕΦΑΝΙΑ",
@@ -7017,7 +6742,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 220,
+    "aa": 211,
     "am": "3192.0",
     "eponymo": "ΦΛΕΓΓΑ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -7049,7 +6774,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 221,
+    "aa": 212,
     "am": "8768.0",
     "eponymo": "ΑΛΕΞΟΠΟΥΛΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -7081,7 +6806,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 222,
+    "aa": 213,
     "am": "10584.0",
     "eponymo": "ΚΟΥΣΤΕΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7113,7 +6838,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 223,
+    "aa": 214,
     "am": "1240.0",
     "eponymo": "ΘΩΜΟΓΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -7145,7 +6870,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 224,
+    "aa": 215,
     "am": "12847.0",
     "eponymo": "ΒΑΙΟΠΟΥΛΟΣ",
     "onoma": "ΑΧΙΛΛΕΥΣ",
@@ -7177,7 +6902,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 225,
+    "aa": 216,
     "am": "11156.0",
     "eponymo": "ΞΥΜΙΑΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -7209,7 +6934,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 226,
+    "aa": 217,
     "am": "10135.0",
     "eponymo": "ΠΑΝΤΕΛΙΔΗ",
     "onoma": "ΟΛΓΑ",
@@ -7241,7 +6966,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 227,
+    "aa": 218,
     "am": "17609.0",
     "eponymo": "ΔΕΛΗΜΗΤΡΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -7273,7 +6998,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 228,
+    "aa": 219,
     "am": "2860.0",
     "eponymo": "ΚΡΥΜΑΝΔΑΛΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -7305,7 +7030,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 229,
+    "aa": 220,
     "am": "15713.0",
     "eponymo": "ΣΒΕΝΤΖΟΥΡΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -7337,7 +7062,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 230,
+    "aa": 221,
     "am": "19917.0",
     "eponymo": "ΣΠΑΘΑΡΑΚΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -7369,7 +7094,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 231,
+    "aa": 222,
     "am": "5818.0",
     "eponymo": "ΚΥΡΤΛΙΩΤΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -7401,7 +7126,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 232,
+    "aa": 223,
     "am": "7049.0",
     "eponymo": "ΚΑΛΑΜΑΡΗ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -7433,7 +7158,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 233,
+    "aa": 224,
     "am": "19833.0",
     "eponymo": "ΣΕΦΕΡΛΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -7465,7 +7190,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 234,
+    "aa": 225,
     "am": "13980.0",
     "eponymo": "ΜΑΥΡΟΥΔΗ",
     "onoma": "ΡΑΦΑΕΛΑ",
@@ -7497,7 +7222,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 235,
+    "aa": 226,
     "am": "11740.0",
     "eponymo": "ΒΑΡΤΖΩΚΑ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -7529,7 +7254,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 236,
+    "aa": 227,
     "am": "17529.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΧΑΡΙΤΙΝΗ",
@@ -7561,7 +7286,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 237,
+    "aa": 228,
     "am": "7324.0",
     "eponymo": "ΠΑΠΑΖΟΓΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -7593,7 +7318,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 238,
+    "aa": 229,
     "am": "19999.0",
     "eponymo": "CUMPANASU MIROIU",
     "onoma": "ILONA FLORENTINA",
@@ -7625,7 +7350,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 239,
+    "aa": 230,
     "am": "8098.0",
     "eponymo": "ΠΑΠΑΕΥΘΥΜΙΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -7657,7 +7382,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 240,
+    "aa": 231,
     "am": "19901.0",
     "eponymo": "ΤΣΑΝΤΟΥ",
     "onoma": "ΜΑΡΙΑ ΑΝΝΑ",
@@ -7689,7 +7414,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 241,
+    "aa": 232,
     "am": "1629.0",
     "eponymo": "ΚΑΝΔΙΑΝΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7721,7 +7446,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 242,
+    "aa": 233,
     "am": "516.0",
     "eponymo": "ΧΑΤΖΗΑΝΤΩΝΙΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -7753,7 +7478,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 243,
+    "aa": 234,
     "am": "783.0",
     "eponymo": "ΔΙΑΜΑΝΤΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -7785,39 +7510,7 @@
     "slug": "pe-psychologon-eid-pe-psychologon"
   },
   {
-    "aa": 244,
-    "am": "516.0",
-    "eponymo": "ΧΑΤΖΗΑΝΤΩΝΙΟΥ",
-    "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***406",
-    "omada_prosonton": "355 -001,019",
-    "theseis_idias_omadas": "3135-3137-3139-3140-3144-3150",
-    "protimiseis": "3135-3137-3139-3140-3142-3144-3150",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 28.0,
-    "math2": 46.5,
-    "synolo_graptou": 37.25,
-    "seira_klirosis": 4294178.0,
-    "vathmologia": 37.25,
-    "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
-    "slug": "pe-psychologon-eid-pe-psychologon"
-  },
-  {
-    "aa": 245,
+    "aa": 235,
     "am": "7538.0",
     "eponymo": "ΜΕΓΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",

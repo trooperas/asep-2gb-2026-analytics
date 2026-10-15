@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "2390-2391-2392-2393",
     "protimiseis": "2190-2393-2392-2188-2391-2189-2390",
     "thesi_diorismou": "2190",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,7 +29,8 @@
     "seira_klirosis": 2406403.0,
     "vathmologia": 87.56,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon"
+    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
@@ -42,7 +43,7 @@
     "theseis_idias_omadas": "2393",
     "protimiseis": "2393-2346-2338-2274",
     "thesi_diorismou": "2393",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -61,7 +62,8 @@
     "seira_klirosis": 6025482.0,
     "vathmologia": 80.92,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon"
+    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 3,
@@ -74,7 +76,7 @@
     "theseis_idias_omadas": "2391-2393",
     "protimiseis": "2217-2338-2274-2285-2393-2346-2391-2287",
     "thesi_diorismou": "2217",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -93,7 +95,8 @@
     "seira_klirosis": 9262863.0,
     "vathmologia": 80.83,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon"
+    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 4,
@@ -106,7 +109,7 @@
     "theseis_idias_omadas": "2390-2391-2392-2393",
     "protimiseis": "2390-2393-2391-2392-2276-2346-2286-2277-2339-2275-2204-2203-2279-2274-2201-2199-2337-2218-2202-2271-2209-2369-2216-2198-2226-2303-2269-2228-2378-2212-2184-2376-2362-2178-2373-2370-2368-1009-1007-1040-1142-991-1115-1031-1011-1023-1016-1019-884-898-880-999-1003-896-1012-1135-893-1000-995-996-1036-1042-1039-1136-1008-1139-1141-885-1034-1035-865-860-858-1037-918-1114-910-929-1067-1182-931-1195-1201-1129-1111-1112-845-847-848-907-927-954-1065-1110-1183-1128-1027-1004-1014-928-854",
     "thesi_diorismou": "2390",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -126,7 +129,7 @@
     "vathmologia": 78.28,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 5,
@@ -139,7 +142,7 @@
     "theseis_idias_omadas": "2390-2391-2392-2393",
     "protimiseis": "2390-2391-2393-2392",
     "thesi_diorismou": "2391",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -158,7 +161,8 @@
     "seira_klirosis": 4674563.0,
     "vathmologia": 57.19,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon"
+    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 6,
@@ -171,7 +175,7 @@
     "theseis_idias_omadas": "2390-2391-2392-2393",
     "protimiseis": "2393-2391-2390-2392",
     "thesi_diorismou": "2393",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -190,6 +194,7 @@
     "seira_klirosis": 3390204.0,
     "vathmologia": 48.08,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon"
+    "slug": "pe-michanikon-eid-pe-naypigon-michanologon-michanikon",
+    "eidikes_idiotites": "ΟΧΙ"
   }
 ]

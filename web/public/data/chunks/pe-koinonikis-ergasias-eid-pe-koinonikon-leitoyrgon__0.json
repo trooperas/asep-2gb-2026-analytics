@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "1401-1403-1408-1414",
     "protimiseis": "1414-1401-1408-1403-1063-1064-1062",
     "thesi_diorismou": "1414",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -29,39 +29,41 @@
     "seira_klirosis": 7225299.0,
     "vathmologia": 126.97,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 2,
-    "am": "17924.0",
-    "eponymo": "ΕΥΑΓΓΕΛΟΥ",
-    "onoma": "ΓΕΩΡΓΙΑ",
+    "am": "5256.0",
+    "eponymo": "ΚΙΟΥΛΑΦΑ",
+    "onoma": "ΑΡΓΥΡΩ",
     "patronymo": "ΕΥΑΓΓΕΛΟΣ",
-    "adt_masked": "***470",
+    "adt_masked": "***479",
     "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1401-1403-1405-1408-1409-1410-1411-1412-1414",
-    "protimiseis": "1414-1405-1403-1401-1408-1410-1412-1413-1411-1409-1399",
-    "thesi_diorismou": null,
-    "idiotita": null,
+    "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
+    "protimiseis": "1171-1172-1173-1025-1044-1051-1407-1417-1422-1420-1421-1401-1404-1408-1419-1402-1403-1414-1400-1416-1399-1405-1409-1411-1415-1412-1410-1413-1406-1423-1418-1300-1298-1299-1297-3060-3064-3062-3058-3057-3059-3063-3061-1136-1138-880-850-881-1151-1134-1133-1132-1131-1130-1120-1052-1031-1029",
+    "thesi_diorismou": "1172",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
-    "metaptyxiako": "3.0",
+    "metaptyxiako": null,
     "enigaios_metaptyxiakos": null,
     "xeni_glossa": "1.0",
     "deuteri_xeni": null,
-    "minas_empeirias": 65.0,
-    "monades_empeirias": 5.0,
+    "minas_empeirias": 29.0,
+    "monades_empeirias": 2.0,
     "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1414",
-    "monades_entop": 40.0,
-    "math1": 96.0,
-    "math2": 45.0,
-    "synolo_graptou": 70.5,
-    "seira_klirosis": 4335648.0,
-    "vathmologia": 119.5,
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 100.0,
+    "math2": 58.22,
+    "synolo_graptou": 79.11,
+    "seira_klirosis": 2772767.0,
+    "vathmologia": 122.11,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 3,
@@ -74,7 +76,7 @@
     "theseis_idias_omadas": "1403-1406-1408-1409-1410-1411-1412",
     "protimiseis": "1412-1411-1410-1409-1406-1403-1408",
     "thesi_diorismou": "1408",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -93,74 +95,11 @@
     "seira_klirosis": 3169407.0,
     "vathmologia": 117.5,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 4,
-    "am": "13307.0",
-    "eponymo": "ΣΚΕΚΛΙΟΥ",
-    "onoma": "ΝΙΚΟΛΕΤΑ",
-    "patronymo": "ΚΟΣΜΑΣ",
-    "adt_masked": "***341",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1406-1408-1409-1410-1411-1412",
-    "protimiseis": "1412-1413-1411-1410-1409-1399-1408-1406",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 9.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1408",
-    "monades_entop": 40.0,
-    "math1": 96.0,
-    "math2": 48.34,
-    "synolo_graptou": 72.17,
-    "seira_klirosis": 7047926.0,
-    "vathmologia": 114.17,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 5,
-    "am": "17208.0",
-    "eponymo": "ΑΝΔΡΟΝΙΚΙΔΟΥ",
-    "onoma": "ΓΑΛΗΝΗ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***724",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1405-1406-1414",
-    "protimiseis": "1414-1405-1406",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 32.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1414",
-    "monades_entop": 40.0,
-    "math1": 92.0,
-    "math2": 36.95,
-    "synolo_graptou": 64.47,
-    "seira_klirosis": 3596437.0,
-    "vathmologia": 107.47,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 6,
     "am": "15501.0",
     "eponymo": "ΖΑΡΓΙΑΝΗ",
     "onoma": "ΙΣΜΗΝΗ",
@@ -170,7 +109,7 @@
     "theseis_idias_omadas": "1405-1406-1418-1419",
     "protimiseis": "1126-1127-1125-1419-1418-1160-1164-1166-1162-1165-977-1406-979-980-978-904-1405-1163-3064-906-905-902",
     "thesi_diorismou": "1419",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -189,10 +128,11 @@
     "seira_klirosis": 5710072.0,
     "vathmologia": 106.25,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 5,
     "am": "3398.0",
     "eponymo": "KAMBUROVA",
     "onoma": "KREMENA",
@@ -224,7 +164,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 8,
+    "aa": 6,
     "am": "12113.0",
     "eponymo": "ΤΣΙΟΥΡΗ",
     "onoma": "ΕΙΡΗΝΗ ΧΡΥΣΟΒΑΛΑΝΤΟΥ",
@@ -234,7 +174,7 @@
     "theseis_idias_omadas": "1418-1419",
     "protimiseis": "1419-1418",
     "thesi_diorismou": "1419",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -253,10 +193,11 @@
     "seira_klirosis": 2577890.0,
     "vathmologia": 101.47,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 9,
+    "aa": 7,
     "am": "13002.0",
     "eponymo": "ΑΡΑΜΠΑΤΖΙΔΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -266,7 +207,7 @@
     "theseis_idias_omadas": "1418-1419",
     "protimiseis": "1166-1419-1164-1160-1418-1162-1163",
     "thesi_diorismou": "1418",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -285,74 +226,11 @@
     "seira_klirosis": 7808650.0,
     "vathmologia": 91.81,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
-    "am": "8608.0",
-    "eponymo": "ΕΡΓΑ",
-    "onoma": "ΜΑΡΙΑ ΙΣΜΗΝΗ",
-    "patronymo": "ΜΙΧΑΗΛ",
-    "adt_masked": "***490",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1400-1401-1402-1403-1404-1405-1406-1407-1408-1414-1415-1416-1418-1419-1420-1421-1422",
-    "protimiseis": "1414-1401-1403-1402-1416-1408-1405-1406-1418-1419-1400-1404-1415-1420-1421-1422-1407",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 9.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1414",
-    "monades_entop": 40.0,
-    "math1": 56.0,
-    "math2": 45.61,
-    "synolo_graptou": 50.81,
-    "seira_klirosis": 7806061.0,
-    "vathmologia": 91.81,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 11,
-    "am": "12872.0",
-    "eponymo": "ΚΑΠΟΥΝΙΑΡΙΔΟΥ",
-    "onoma": "ΦΩΤΕΙΝΗ",
-    "patronymo": "ΘΕΟΔΩΡΟΣ",
-    "adt_masked": "***679",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1409-1410-1411-1412-1418-1419",
-    "protimiseis": "1418-1419-1409-1410-1411-1412",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 35.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "1418- 1419",
-    "monades_entop": 20.0,
-    "math1": 84.0,
-    "math2": 51.06,
-    "synolo_graptou": 67.53,
-    "seira_klirosis": 3475109.0,
-    "vathmologia": 89.53,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 12,
+    "aa": 8,
     "am": "14860.0",
     "eponymo": "ΤΑΠΑΝΑ",
     "onoma": "ΣΤΑΜΑΤΙΑ",
@@ -362,7 +240,7 @@
     "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1419-1418-1403-1402-1405-1414-1401-1408-1416-1404-1411-1412-1399-1400-1409-1410-1421-1420-1415-1422-1406-1413-1417-1407",
     "thesi_diorismou": "1403",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -381,10 +259,11 @@
     "seira_klirosis": 8160385.0,
     "vathmologia": 88.36,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 9,
     "am": "20602.0",
     "eponymo": "ΒΟΥΚΑΛΗΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -394,7 +273,7 @@
     "theseis_idias_omadas": "1402-1403-1405",
     "protimiseis": "1405-1402-1403",
     "thesi_diorismou": "1405",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -413,10 +292,11 @@
     "seira_klirosis": 3147509.0,
     "vathmologia": 88.14,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 14,
+    "aa": 10,
     "am": "16228.0",
     "eponymo": "ΚΙΛΕΤΣΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -448,39 +328,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 15,
-    "am": "16228.0",
-    "eponymo": "ΚΙΛΕΤΣΗ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΒΑΣΙΛΕΙΟΣ",
-    "adt_masked": "***985",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1418-1419",
-    "protimiseis": "1419-1418-1160-1166-1162-1164-1165-1163-1161-921-922-1127-1125-1126",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 30.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "1418- 1419",
-    "monades_entop": 20.0,
-    "math1": 88.0,
-    "math2": 41.39,
-    "synolo_graptou": 64.69,
-    "seira_klirosis": 7960582.0,
-    "vathmologia": 87.69,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 16,
+    "aa": 11,
     "am": "15743.0",
     "eponymo": "ΜΟΥΡΑΤΙΔΟΥ",
     "onoma": "ΣΟΥΖΑΝΑ",
@@ -512,7 +360,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 17,
+    "aa": 12,
     "am": "9557.0",
     "eponymo": "ΤΥΡΝΕΝΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -522,7 +370,7 @@
     "theseis_idias_omadas": "1401",
     "protimiseis": "1401-900-901",
     "thesi_diorismou": "1401",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -541,42 +389,11 @@
     "seira_klirosis": 8491634.0,
     "vathmologia": 87.5,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
-    "am": "11607.0",
-    "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
-    "onoma": "ΗΛΕΚΤΡΑ",
-    "patronymo": "ΜΙΛΤΙΑΔΗΣ",
-    "adt_masked": "***402",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1401-1403-1408-1414",
-    "protimiseis": "1414-1401-1408-1403-1063-1064-1062",
-    "thesi_diorismou": "1414",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 74.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 57.95,
-    "synolo_graptou": 78.97,
-    "seira_klirosis": 7225299.0,
-    "vathmologia": 86.97,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 19,
+    "aa": 13,
     "am": "11589.0",
     "eponymo": "ΧΩΡΙΑΤΕΛΛΗ",
     "onoma": "ΒΑΡΒΑΡΑ",
@@ -586,7 +403,7 @@
     "theseis_idias_omadas": "1399-1400-1403-1404-1405-1409-1410-1411-1412-1416-1418-1419-1420-1421",
     "protimiseis": "1403-1409-1411-1399-1412-1404-1416-1400-1410-1418-1419-1420-1421-1405",
     "thesi_diorismou": "1409",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -605,42 +422,11 @@
     "seira_klirosis": 4975352.0,
     "vathmologia": 86.28,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
-    "am": "15501.0",
-    "eponymo": "ΖΑΡΓΙΑΝΗ",
-    "onoma": "ΙΣΜΗΝΗ",
-    "patronymo": "ΣΤΕΡΓΙΟΣ",
-    "adt_masked": "***498",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1405-1406-1418-1419",
-    "protimiseis": "1126-1127-1125-1419-1418-1160-1164-1166-1162-1165-977-1406-979-980-978-904-1405-1163-3064-906-905-902",
-    "thesi_diorismou": "1419",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 141.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 60.5,
-    "synolo_graptou": 80.25,
-    "seira_klirosis": 5710072.0,
-    "vathmologia": 86.25,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 21,
+    "aa": 14,
     "am": "7867.0",
     "eponymo": "Μαϊλη",
     "onoma": "Νικολέτα",
@@ -672,7 +458,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 22,
+    "aa": 15,
     "am": "2512.0",
     "eponymo": "ΚΟΝΤΟΓΙΑΝΝΑΚΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -682,7 +468,7 @@
     "theseis_idias_omadas": "1399-1409-1410-1411-1412",
     "protimiseis": "1412-1413-1410-1411-1409-1399",
     "thesi_diorismou": "1412",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -701,10 +487,11 @@
     "seira_klirosis": 6125857.0,
     "vathmologia": 85.78,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 23,
+    "aa": 16,
     "am": "3064.0",
     "eponymo": "ΤΕΡΖΕΝΙΔΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -714,7 +501,7 @@
     "theseis_idias_omadas": "1416",
     "protimiseis": "1416-1078-1077-1076-1079-1073-1075-1074-1098-1099-1096-1187-1188-988-987-986-984",
     "thesi_diorismou": "1416",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -733,10 +520,11 @@
     "seira_klirosis": 3760024.0,
     "vathmologia": 85.11,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
+    "aa": 17,
     "am": "16107.0",
     "eponymo": "ΠΕΛΙΚΟΥΔΑ",
     "onoma": "ΠΕΡΣΕΦΟΝΗ  ΜΑΡΙΑ",
@@ -746,7 +534,7 @@
     "theseis_idias_omadas": "1400-1405-1406-1408-1416-1418-1419",
     "protimiseis": "1405-1406-1416-1400-1418-1419-1408",
     "thesi_diorismou": "1406",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -766,10 +554,10 @@
     "vathmologia": 85.08,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 25,
+    "aa": 18,
     "am": "15490.0",
     "eponymo": "ΜΑΥΡΟΜΑΤΗ",
     "onoma": "ΑΥΘΕΝΤΙΑ",
@@ -801,39 +589,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 26,
-    "am": "6218.0",
-    "eponymo": "ΑΣΜΑΝΙΔΟΥ",
-    "onoma": "ΦΩΤΕΙΝΗ",
-    "patronymo": "ΠΑΥΛΟΣ",
-    "adt_masked": "***950",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1403-1405-1406-1408-1414-1416-1418-1419",
-    "protimiseis": "1418-1419-1416-1414-1408-1406-1405-1403",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 43.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "1418- 1419",
-    "monades_entop": 20.0,
-    "math1": 80.0,
-    "math2": 41.17,
-    "synolo_graptou": 60.58,
-    "seira_klirosis": 2020951.0,
-    "vathmologia": 84.58,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 27,
+    "aa": 19,
     "am": "7517.0",
     "eponymo": "ΤΕΜΕΡΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -865,7 +621,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 28,
+    "aa": 20,
     "am": "1644.0",
     "eponymo": "ΠΙΣΤΟΛΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -897,7 +653,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 29,
+    "aa": 21,
     "am": "5380.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -907,7 +663,7 @@
     "theseis_idias_omadas": "1409-1410-1411-1412",
     "protimiseis": "1412-1409-1411-1410-1413",
     "thesi_diorismou": "1409",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -926,10 +682,11 @@
     "seira_klirosis": 4169014.0,
     "vathmologia": 82.39,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 30,
+    "aa": 22,
     "am": "5288.0",
     "eponymo": "ΑΣΤΕΡΙΑΔΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -939,7 +696,7 @@
     "theseis_idias_omadas": "1401-1402-1403-1404-1405-1406-1408-1409-1410-1411-1412-1414-1415-1416-1417-1420-1421-1422",
     "protimiseis": "1406-1405-1403-1402-1414-1401-1416-1408-1404-1409-1410-1411-1412-1422-1420-1421-1417-1415-1423-1428-1430-1426-1427-1424-1429-1425-1299-1297-1298-1300-3064-3061-3060-3062-3058-3057-3059-3063-963-954-952-955-961-962-967-968-957-964-965-966-956-953-958-1057-941-1202-1204-1203-1148-1145-1146-1147-1176-1063-1064-1062-900-901-902-905-906-979-981-1126-1125-1162-1164-1160-1073-1076-1078-1187-973-976-974-975-1098-1099-990-987-988-1096-1189-1192-1195-876-922-920-1151-1150-1152-1039-885-1136-1137-915-1016-1017-1037-895-1123-889-1010-1011-1036-1040-1042-999-1029-1119-1138-1139-1023-1021-991-1114-1111-1112-1113-1025-1044-1051-1122-866-871-868-865-872-875-877-840-1058-1185-1186-1074-1075-1077-1092-1090-1056-1055-1201-1198-1199-1129-1174-994-993",
     "thesi_diorismou": "1402",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -958,10 +715,11 @@
     "seira_klirosis": 8095382.0,
     "vathmologia": 82.33,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 31,
+    "aa": 23,
     "am": "18958.0",
     "eponymo": "ΜΟΥΝΤΟΥΡΗΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -971,7 +729,7 @@
     "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1409-1410-1411-1412-1399-1406-1405-1416-1400-1402-1403-1420-1421-1418-1419-1414-1408-1404-1422-1407-1401-1415-1417-1297-1299-1300-1298-3060-3062-3058-3059-3063-3061-3064-3057-991-992-993-994-995-997-998-999-1000-1001-1002-1003-1004-1005-1006-1007-1008-1009-1010-1011-1012-1013-1014-1015-1016-1017-1018-1019-1020-1021-1022-1023-1024-1027-1028-1029-1032-1033-1034-1035-1036-1037-1038-1039-1040-1049-1050-1111-1112-1113-1114-1115-1118-1119-1121-1122-1123-1124-912-913-914-915-918-1129-1130-1133-1135-1136-1137-1138-1139-1141-1142-877-880-881-883-884-885-886-887-3165-889-891-893-899-952-954-955-958-961-962-963-964-965-966-967-968-1098-1096-1099-1097-1095-1073-1076-1077-1078-1079",
     "thesi_diorismou": "1409",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -990,42 +748,11 @@
     "seira_klirosis": 9795511.0,
     "vathmologia": 82.25,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 32,
-    "am": "5256.0",
-    "eponymo": "ΚΙΟΥΛΑΦΑ",
-    "onoma": "ΑΡΓΥΡΩ",
-    "patronymo": "ΕΥΑΓΓΕΛΟΣ",
-    "adt_masked": "***479",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
-    "protimiseis": "1171-1172-1173-1025-1044-1051-1407-1417-1422-1420-1421-1401-1404-1408-1419-1402-1403-1414-1400-1416-1399-1405-1409-1411-1415-1412-1410-1413-1406-1423-1418-1300-1298-1299-1297-3060-3064-3062-3058-3057-3059-3063-3061-1136-1138-880-850-881-1151-1134-1133-1132-1131-1130-1120-1052-1031-1029",
-    "thesi_diorismou": "1172",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 29.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 100.0,
-    "math2": 58.22,
-    "synolo_graptou": 79.11,
-    "seira_klirosis": 2772767.0,
-    "vathmologia": 82.11,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 33,
+    "aa": 24,
     "am": "9940.0",
     "eponymo": "ΚΕΛΛΑΡΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -1035,7 +762,7 @@
     "theseis_idias_omadas": "1399-1409-1410-1412",
     "protimiseis": "1412-1409-1410-1399",
     "thesi_diorismou": "1409",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1054,10 +781,11 @@
     "seira_klirosis": 3006118.0,
     "vathmologia": 81.67,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 34,
+    "aa": 25,
     "am": "1698.0",
     "eponymo": "ΛΑΜΠΟΝΙΚΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1067,7 +795,7 @@
     "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1399-1410-1412-1411-1413-1409-1416-1400-1415-1405-1406-1422-1414-1401-1403-1402-1408-1404-1418-1419-1407-1417-1420-1421",
     "thesi_diorismou": "1399",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1086,10 +814,11 @@
     "seira_klirosis": 7277778.0,
     "vathmologia": 80.89,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 35,
+    "aa": 26,
     "am": "14823.0",
     "eponymo": "ΜΠΕΤΕΙΝΑΚΗ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -1099,7 +828,7 @@
     "theseis_idias_omadas": "1399-1409-1410-1411-1412",
     "protimiseis": "1411-1399-1412-1409-1410",
     "thesi_diorismou": "1411",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1118,10 +847,11 @@
     "seira_klirosis": 9131001.0,
     "vathmologia": 80.61,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 36,
+    "aa": 27,
     "am": "5165.0",
     "eponymo": "ΣΩΠΙΑΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -1131,7 +861,7 @@
     "theseis_idias_omadas": "1403-1404-1405-1406-1408-1414-1416-1418-1419",
     "protimiseis": "1125-1126-1127-1160-1161-1162-1163-1164-1165-1166-1418-1419-977-978-979-980-902-905-906-921-922-923-961-962-963-964-965-966-967-968-1406-1405-952-953-954-955-956-957-960-1176-958-959-941-806-1057-1144-1145-1146-1148-1403-990-989-900-973-974-975-976-1408-1414-1404-1060-1061-1062-1063-1073-1076-1078-1096-1079-1098-1099-927-929-1416",
     "thesi_diorismou": "1404",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1150,10 +880,11 @@
     "seira_klirosis": 2233712.0,
     "vathmologia": 79.64,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 37,
+    "aa": 28,
     "am": "19594.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -1163,7 +894,7 @@
     "theseis_idias_omadas": "1409-1410-1412",
     "protimiseis": "1412-1410-1409-3060-3062",
     "thesi_diorismou": "1410",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1182,10 +913,11 @@
     "seira_klirosis": 3022470.0,
     "vathmologia": 79.56,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 38,
+    "aa": 29,
     "am": "3095.0",
     "eponymo": "ΖΑΦΕΙΡΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1195,7 +927,7 @@
     "theseis_idias_omadas": "1399-1409-1410-1411-1412",
     "protimiseis": "1412-1410-1409-1411-1399",
     "thesi_diorismou": "1410",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1214,10 +946,11 @@
     "seira_klirosis": 2350990.0,
     "vathmologia": 79.28,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 39,
+    "aa": 30,
     "am": "1777.0",
     "eponymo": "ΝΙΚΟΛΕΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -1227,7 +960,7 @@
     "theseis_idias_omadas": "1399-1409-1410-1411-1412",
     "protimiseis": "1412-1411-1409-1410-1399-3060-889-886-887-880-890-877-891-892-893-1039-1037-1036-991-996-897-998-999-1000-1001-1003-1004-1005-1007-899-992-995-997-1008-1009-1010-1040-1041-1042-1043-1035-1011-1012-1013-1016-1017-1019-1021-1024-1025-1027-1028-1029-1031-1032-1033-1034-1015-1006-881-882-883-884-885-898-894-896-846-1044-1045-1046-1047-1048-1049-1050-1051-1052-1112-1113-1014-1018-1119-917-918-919-993-994-1002-851-912-914-915-916-1020-1121-1022-3062-1023-1124-1129-1130-1132-1133-1134-1135-1136-1137-1138-1139-1140-1142-809",
     "thesi_diorismou": "1409",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1246,10 +979,11 @@
     "seira_klirosis": 9277445.0,
     "vathmologia": 79.19,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 40,
+    "aa": 31,
     "am": "8875.0",
     "eponymo": "ΚΥΡΙΑΤΖΗ",
     "onoma": "ΘΕΟΦΙΛΗ",
@@ -1259,7 +993,7 @@
     "theseis_idias_omadas": "1400-1401-1402-1403-1404-1405-1407-1408-1409-1410-1411-1412-1414-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1402-1403-1414-1405-1401-1408-1416-1412-1409-1411-1410-1413-1404-1400-1418-1419-1422-1407-1417-1420-1421",
     "thesi_diorismou": "1400",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1279,10 +1013,10 @@
     "vathmologia": 79.08,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 41,
+    "aa": 32,
     "am": "4017.0",
     "eponymo": "ΛΑΔΕΡΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1314,7 +1048,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 42,
+    "aa": 33,
     "am": "17924.0",
     "eponymo": "ΕΥΑΓΓΕΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -1346,7 +1080,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 43,
+    "aa": 34,
     "am": "14801.0",
     "eponymo": "ΤΣΟΛΑΚΙΔΟΥ",
     "onoma": "ΝΙΚΗ",
@@ -1356,7 +1090,7 @@
     "theseis_idias_omadas": "1417-1418-1419-1420-1421-1422",
     "protimiseis": "1419-1418-1422-1417-1420-1421",
     "thesi_diorismou": "1417",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1375,10 +1109,11 @@
     "seira_klirosis": 2470717.0,
     "vathmologia": 78.47,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 44,
+    "aa": 35,
     "am": "11310.0",
     "eponymo": "ΜΑΧΑΙΡΙΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1410,7 +1145,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 45,
+    "aa": 36,
     "am": "5990.0",
     "eponymo": "ΠΑΠΑΠΟΥΛΙΑ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -1442,7 +1177,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 46,
+    "aa": 37,
     "am": "8039.0",
     "eponymo": "ΖΕΙΜΠΕΚΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1474,7 +1209,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 47,
+    "aa": 38,
     "am": "10995.0",
     "eponymo": "ΛΟΝΤΟ",
     "onoma": "ΕΛΕΝΑ",
@@ -1506,39 +1241,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 48,
-    "am": "10713.0",
-    "eponymo": "ΑΝΔΡΟΝΙΚΙΔΟΥ",
-    "onoma": "ΕΛΕΝΗ",
-    "patronymo": "ΠΙΕΤΡΟΣ",
-    "adt_masked": "***656",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1403-1406-1408-1409-1410-1411-1412",
-    "protimiseis": "1412-1411-1410-1409-1406-1403-1408",
-    "thesi_diorismou": "1408",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 68.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 92.0,
-    "math2": 47.0,
-    "synolo_graptou": 69.5,
-    "seira_klirosis": 3169407.0,
-    "vathmologia": 77.5,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 49,
+    "aa": 39,
     "am": "15463.0",
     "eponymo": "ΜΠΟΖΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1570,7 +1273,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 50,
+    "aa": 40,
     "am": "10521.0",
     "eponymo": "ΔΡΙΒΑΛΑ",
     "onoma": "ΙΩΑΝΝΑ ΜΑΡΙΑ",
@@ -1602,7 +1305,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 51,
+    "aa": 41,
     "am": "19447.0",
     "eponymo": "ΦΡΑΓΚΟΥ",
     "onoma": "ΑΔΑΜΑΝΤΙΑ",
@@ -1612,7 +1315,7 @@
     "theseis_idias_omadas": "1402-1403-1404-1405-1406-1407-1409-1410-1412-1415-1417-1418-1419-1420",
     "protimiseis": "913-1412-1410-1409-1413-3060-3062-919-1050-1049-1051-798-911-849-843-914-918-893-891-790-892-877-912-915-916-917-880-885-886-887-879-888-991-3160-1039-1040-1041-1042-1043-1038-1037-3165-889-890-894-895-896-897-898-899-881-789-883-884-797-1013-1014-1015-1016-1017-1018-1019-1020-1021-1022-1023-1024-1025-1026-1027-1028-1029-1030-1031-1032-1033-1034-1035-1036-1011-1003-1006-1007-1004-1005-1009-1001-1002-1008-1010-1012-997-999-1000-998-996-995-994-993-992-1044-1045-1046-1047-1048-846-845-855-856-907-908-909-910-1135-1136-1137-1138-1139-1141-1142-3058-3057-1405-1406-1403-1402-1404-1415-3061-1418-1419-3064-1417-3059-3063-1420-1407-1143-1140-1111-1112-1113-1114",
     "thesi_diorismou": "1420",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1631,10 +1334,11 @@
     "seira_klirosis": 4057192.0,
     "vathmologia": 77.19,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 52,
+    "aa": 42,
     "am": "11756.0",
     "eponymo": "ΓΚΙΟΥΓΚΗ",
     "onoma": "ΜΑΓΔΑΛΙΝΗ",
@@ -1666,7 +1370,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 53,
+    "aa": 43,
     "am": "14586.0",
     "eponymo": "ΚΑΚΟΥΡΗΣ",
     "onoma": "ΦΩΤΙΟΣ",
@@ -1698,7 +1402,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 54,
+    "aa": 44,
     "am": "5157.0",
     "eponymo": "ΖΑΧΑΡΙΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1708,7 +1412,7 @@
     "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1419-1418-1412-1409-1410-1399-1411-1413-1405-1403-1402-1416-1400-1414-1401-1408-1404-1421-1420-1422-1417-1407-1406-1415",
     "thesi_diorismou": "1421",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1727,10 +1431,11 @@
     "seira_klirosis": 6738408.0,
     "vathmologia": 76.39,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 55,
+    "aa": 45,
     "am": "4347.0",
     "eponymo": "ΤΑΚΑΤΟΓΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1762,7 +1467,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 56,
+    "aa": 46,
     "am": "5655.0",
     "eponymo": "ΚΑΤΣΙΓΙΑΝΝΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -1794,7 +1499,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 57,
+    "aa": 47,
     "am": "13733.0",
     "eponymo": "ΑΡΒΑΝΙΤΑΚΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -1826,7 +1531,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 58,
+    "aa": 48,
     "am": "20014.0",
     "eponymo": "ΤΑΓΑΡΑ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -1858,7 +1563,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 59,
+    "aa": 49,
     "am": "2462.0",
     "eponymo": "ΣΤΕΡΓΙΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ ΜΑΡΙΑ",
@@ -1890,7 +1595,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 60,
+    "aa": 50,
     "am": "16791.0",
     "eponymo": "ΓΚΟΡΑΣΗ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -1922,7 +1627,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 61,
+    "aa": 51,
     "am": "7420.0",
     "eponymo": "ΓΙΑΛΙΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -1954,7 +1659,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 62,
+    "aa": 52,
     "am": "17112.0",
     "eponymo": "ΣΙΔΗΡΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -1986,7 +1691,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 63,
+    "aa": 53,
     "am": "2409.0",
     "eponymo": "ΣΙΑΚΚΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -1996,7 +1701,7 @@
     "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1406-1405-1402-1403-1416-1408-1409-1410-1412-1411-1413-1399-1414-1419-1418-1422-1401-1404-1400-1420-1421-1415-1417-1407",
     "thesi_diorismou": "1407",
-    "idiotita": null,
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2015,10 +1720,11 @@
     "seira_klirosis": 7667828.0,
     "vathmologia": 75.14,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 64,
+    "aa": 54,
     "am": "10000.0",
     "eponymo": "ΦΟΥΤΣΙΤΖΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2050,39 +1756,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 65,
-    "am": "10326.0",
-    "eponymo": "ΚΑΟΥΝΗ",
-    "onoma": "ΠΗΝΕΛΟΠΗ",
-    "patronymo": "ΚΟΥΛΗΣ",
-    "adt_masked": "***261",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1409-1410-1411-1412",
-    "protimiseis": "1409-1410-1411-1412-3062-3060-1399-1037-1114-1024-1123-918-915-910-895-889-1013-1010-880-1129-912-914-1111-1112-1113-913-1122-997-996-1006-1135-1003-1036-994-993-995-1005-1015-1012-1022-1133-1118-992-998-999-991-1032-1021-893-883-897-2910-2912-2922-2857-2942-2956-2996-3006-2871-805-804-797-790-798-877-907-843-846-845",
-    "thesi_diorismou": "2910",
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": ",5",
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 50.95,
-    "synolo_graptou": 73.47,
-    "seira_klirosis": 4599589.0,
-    "vathmologia": 74.97,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 66,
+    "aa": 55,
     "am": "12258.0",
     "eponymo": "ΔΙΑΜΑΝΤΗΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -2114,7 +1788,72 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 67,
+    "aa": 56,
+    "am": "10326.0",
+    "eponymo": "ΚΑΟΥΝΗ",
+    "onoma": "ΠΗΝΕΛΟΠΗ",
+    "patronymo": "ΚΟΥΛΗΣ",
+    "adt_masked": "***261",
+    "omada_prosonton": "323 -001,011",
+    "theseis_idias_omadas": "1399-1409-1410-1411-1412",
+    "protimiseis": "1409-1410-1411-1412-3062-3060-1399-1037-1114-1024-1123-918-915-910-895-889-1013-1010-880-1129-912-914-1111-1112-1113-913-1122-997-996-1006-1135-1003-1036-994-993-995-1005-1015-1012-1022-1133-1118-992-998-999-991-1032-1021-893-883-897-2910-2912-2922-2857-2942-2956-2996-3006-2871-805-804-797-790-798-877-907-843-846-845",
+    "thesi_diorismou": "2910",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": ",5",
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 96.0,
+    "math2": 50.95,
+    "synolo_graptou": 73.47,
+    "seira_klirosis": 4599589.0,
+    "vathmologia": 74.47,
+    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 57,
+    "am": "13307.0",
+    "eponymo": "ΣΚΕΚΛΙΟΥ",
+    "onoma": "ΝΙΚΟΛΕΤΑ",
+    "patronymo": "ΚΟΣΜΑΣ",
+    "adt_masked": "***341",
+    "omada_prosonton": "323 -001,011",
+    "theseis_idias_omadas": "1399-1406-1408-1409-1410-1411-1412",
+    "protimiseis": "1412-1413-1411-1410-1409-1399-1408-1406",
+    "thesi_diorismou": null,
+    "idiotita": null,
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "0",
+    "kod_thesi_entop": null,
+    "monades_entop": null,
+    "math1": 96.0,
+    "math2": 48.34,
+    "synolo_graptou": 72.17,
+    "seira_klirosis": 7047926.0,
+    "vathmologia": 74.17,
+    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
+    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
+  },
+  {
+    "aa": 58,
     "am": "10673.0",
     "eponymo": "ΣΚΑΦΙΔΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ ΑΙΜΙΛΙΑ",
@@ -2146,71 +1885,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 68,
-    "am": "13307.0",
-    "eponymo": "ΣΚΕΚΛΙΟΥ",
-    "onoma": "ΝΙΚΟΛΕΤΑ",
-    "patronymo": "ΚΟΣΜΑΣ",
-    "adt_masked": "***341",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1406-1408-1409-1410-1411-1412",
-    "protimiseis": "1412-1413-1411-1410-1409-1399-1408-1406",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 48.34,
-    "synolo_graptou": 72.17,
-    "seira_klirosis": 7047926.0,
-    "vathmologia": 74.17,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 69,
-    "am": "13307.0",
-    "eponymo": "ΣΚΕΚΛΙΟΥ",
-    "onoma": "ΝΙΚΟΛΕΤΑ",
-    "patronymo": "ΚΟΣΜΑΣ",
-    "adt_masked": "***341",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1406-1408-1409-1410-1411-1412",
-    "protimiseis": "1412-1413-1411-1410-1409-1399-1408-1406",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 9.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 48.34,
-    "synolo_graptou": 72.17,
-    "seira_klirosis": 7047926.0,
-    "vathmologia": 74.17,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 70,
+    "aa": 59,
     "am": "166.0",
     "eponymo": "ΜΙΧΑΗΛ",
     "onoma": "ΑΡΓΥΡΗ",
@@ -2242,7 +1917,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 71,
+    "aa": 60,
     "am": "6119.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΙΔΟΥ",
     "onoma": "ΑΘΗΝΟΔΩΡΑ",
@@ -2274,7 +1949,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 72,
+    "aa": 61,
     "am": "7844.0",
     "eponymo": "ΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -2306,7 +1981,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 73,
+    "aa": 62,
     "am": "13971.0",
     "eponymo": "ΚΟΝΤΑΞΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2338,7 +2013,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 74,
+    "aa": 63,
     "am": "15842.0",
     "eponymo": "ΚΑΤΣΙΚΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -2370,7 +2045,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 75,
+    "aa": 64,
     "am": "13196.0",
     "eponymo": "ΚΑΡΑΚΩΣΤΑ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -2402,7 +2077,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 76,
+    "aa": 65,
     "am": "10807.0",
     "eponymo": "ΚΑΡΑΠΑΝΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2434,7 +2109,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 77,
+    "aa": 66,
     "am": "16674.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2466,7 +2141,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 78,
+    "aa": 67,
     "am": "18563.0",
     "eponymo": "ΜΑΝΙΟΥΔΑΚΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -2498,7 +2173,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 79,
+    "aa": 68,
     "am": "10737.0",
     "eponymo": "ΑΡΝΑΟΥΤΟΓΛΟΥ ΓΕΩΡΓΙΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2530,7 +2205,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 80,
+    "aa": 69,
     "am": "12713.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΕΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -2562,7 +2237,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 81,
+    "aa": 70,
     "am": "12234.0",
     "eponymo": "ΖΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2594,39 +2269,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 82,
-    "am": "12234.0",
-    "eponymo": "ΖΟΥΛΟΥ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***685",
-    "omada_prosonton": "323 -001,011",
-    "theseis_idias_omadas": "1399-1400-1405-1406-1409-1410-1411-1412",
-    "protimiseis": "1412-1410-1411-1409-1399-1400-1405-1406",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 8.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 96.0,
-    "math2": 46.45,
-    "synolo_graptou": 71.22,
-    "seira_klirosis": 9807602.0,
-    "vathmologia": 72.22,
-    "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
-    "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
-  },
-  {
-    "aa": 83,
+    "aa": 71,
     "am": "17382.0",
     "eponymo": "ΙΟΡΓΚΑ",
     "onoma": "ΤΖΕΟΡΤΖΙΑΝΑ ΜΠΕΑΤΡΙΣ",
@@ -2658,7 +2301,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 84,
+    "aa": 72,
     "am": "6300.0",
     "eponymo": "ΚΟΤΖΙΑΚΑΛΦΑ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -2690,7 +2333,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 85,
+    "aa": 73,
     "am": "19011.0",
     "eponymo": "ΜΠΑΚΑΓΙΑΝΝΗ",
     "onoma": "ΓΕΩΡΓΙΑ ΧΡΙΣΤΙΝΑ",
@@ -2722,7 +2365,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 86,
+    "aa": 74,
     "am": "16336.0",
     "eponymo": "ΚΑΡΑΗΛΙΑ",
     "onoma": "ΒΑΛΑΣΙΑ",
@@ -2754,7 +2397,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 87,
+    "aa": 75,
     "am": "3429.0",
     "eponymo": "ΓΑΛΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -2786,7 +2429,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 88,
+    "aa": 76,
     "am": "7332.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -2818,7 +2461,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 89,
+    "aa": 77,
     "am": "8397.0",
     "eponymo": "ΠΑΝΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2850,7 +2493,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 90,
+    "aa": 78,
     "am": "19946.0",
     "eponymo": "ΔΗΜΗΤΡΟΠΟΥΛΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -2882,7 +2525,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 91,
+    "aa": 79,
     "am": "3489.0",
     "eponymo": "APOSTOLOVA",
     "onoma": "ANTONIYA",
@@ -2914,7 +2557,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 92,
+    "aa": 80,
     "am": "18003.0",
     "eponymo": "ΝΑΣΙΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -2946,7 +2589,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 93,
+    "aa": 81,
     "am": "12872.0",
     "eponymo": "ΚΑΠΟΥΝΙΑΡΙΔΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -2978,7 +2621,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 94,
+    "aa": 82,
     "am": "13668.0",
     "eponymo": "ΤΖΟΒΑΡΟΠΟΥΛΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -3010,7 +2653,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 95,
+    "aa": 83,
     "am": "10721.0",
     "eponymo": "ΚΥΡΤΣΟΠΟΥΛΟΥ",
     "onoma": "ΣΥΡΜΩ",
@@ -3042,7 +2685,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 96,
+    "aa": 84,
     "am": "17281.0",
     "eponymo": "ΠΑΠΑΓΕΩΡΓΙΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3074,7 +2717,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 97,
+    "aa": 85,
     "am": "2051.0",
     "eponymo": "ΜΑΚΡΥΓΙΑΝΝΗ",
     "onoma": "ΛΟΥΚΙΑ",
@@ -3106,7 +2749,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 98,
+    "aa": 86,
     "am": "17208.0",
     "eponymo": "ΑΝΔΡΟΝΙΚΙΔΟΥ",
     "onoma": "ΓΑΛΗΝΗ",
@@ -3138,7 +2781,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 99,
+    "aa": 87,
     "am": "5267.0",
     "eponymo": "ΚΟΤΖΙΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -3170,7 +2813,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 100,
+    "aa": 88,
     "am": "17524.0",
     "eponymo": "ΣΚΑΝΤΖΟΥΡΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -3202,7 +2845,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 101,
+    "aa": 89,
     "am": "9278.0",
     "eponymo": "ΓΚΟΥΝΤΕΛΟΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -3234,7 +2877,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 102,
+    "aa": 90,
     "am": "10111.0",
     "eponymo": "ΜΑΝΑΦΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -3266,7 +2909,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 103,
+    "aa": 91,
     "am": "19559.0",
     "eponymo": "ΓΚΟΥΛΑΞΙΩΤΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -3298,7 +2941,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 104,
+    "aa": 92,
     "am": "3887.0",
     "eponymo": "ΔΗΜΗΣΙΑΝΟΥ",
     "onoma": "ΕΛΕΝΗ ΑΝΑΣΤΑΣΙΑ",
@@ -3330,7 +2973,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 105,
+    "aa": 93,
     "am": "19676.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -3362,7 +3005,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 106,
+    "aa": 94,
     "am": "16086.0",
     "eponymo": "ΓΕΡΑΝΑΣΤΑΣΗ",
     "onoma": "ΓΕΩΡΓΙΑ ΛΟΥΚΙΑ",
@@ -3372,7 +3015,7 @@
     "theseis_idias_omadas": "1399-1400-1401-1402-1403-1404-1405-1406-1407-1408-1409-1410-1411-1412-1414-1415-1416-1417-1418-1419-1420-1421-1422",
     "protimiseis": "1400-1415-1405-1406-1403-1404-1408-1414-1418-1419-1401-1402-1399-1409-1410-1411-1412-1413-1416-1420-1421-1417-1422-1407",
     "thesi_diorismou": "1415",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3392,10 +3035,10 @@
     "vathmologia": 65.0,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 107,
+    "aa": 95,
     "am": "6218.0",
     "eponymo": "ΑΣΜΑΝΙΔΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -3427,7 +3070,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 108,
+    "aa": 96,
     "am": "5383.0",
     "eponymo": "ΣΠΑΝΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3459,7 +3102,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 109,
+    "aa": 97,
     "am": "9234.0",
     "eponymo": "ΚΟΥΚΟΥΖΕΛΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3491,7 +3134,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 110,
+    "aa": 98,
     "am": "20468.0",
     "eponymo": "ΔΟΥΛΓΚΕΡΗ",
     "onoma": "ΕΥΣΤΡΑΤΙΑ",
@@ -3523,7 +3166,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 111,
+    "aa": 99,
     "am": "12129.0",
     "eponymo": "ΧΡΙΣΤΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3555,7 +3198,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 112,
+    "aa": 100,
     "am": "11011.0",
     "eponymo": "ΗΛΙΑ",
     "onoma": "ΔΑΦΝΗ ΕΛΕΝΗ",
@@ -3587,7 +3230,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 113,
+    "aa": 101,
     "am": "16784.0",
     "eponymo": "ΛΕΒΒΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -3619,7 +3262,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 114,
+    "aa": 102,
     "am": "7578.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΙΔΟΥ",
     "onoma": "ΜΥΡΟΦΟΡΑ",
@@ -3651,7 +3294,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 115,
+    "aa": 103,
     "am": "7786.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ ΜΑΡΙΑ",
@@ -3683,7 +3326,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 116,
+    "aa": 104,
     "am": "17845.0",
     "eponymo": "ΜΑΣΤΡΟΓΕΩΡΓΙΟΥ",
     "onoma": "ΜΑΡΙΑ-ΧΡΥΣΟΒΑΛΑΝΤΟΥ",
@@ -3715,7 +3358,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 117,
+    "aa": 105,
     "am": "20294.0",
     "eponymo": "ΦΙΛΙΝΤΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3747,7 +3390,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 118,
+    "aa": 106,
     "am": "20512.0",
     "eponymo": "ΧΡΙΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΠΗΝΕΛΟΠΗ",
@@ -3779,7 +3422,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 119,
+    "aa": 107,
     "am": "7918.0",
     "eponymo": "ΓΙΑΝΝΙΩΤΗ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -3789,7 +3432,7 @@
     "theseis_idias_omadas": "1403-1409-1410-1411-1412-1416-1422",
     "protimiseis": "1410-1409-1411-1412-1413-1416-1403-1422",
     "thesi_diorismou": "1422",
-    "idiotita": "ΝΑΙ",
+    "idiotita": "",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3809,10 +3452,10 @@
     "vathmologia": 57.28,
     "eidikotita": "ΠΕ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ ΕΙΔ. ΠΕ ΚΟΙΝΩΝΙΚΩΝ ΛΕΙΤΟΥΡΓΩΝ",
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon",
-    "eidikes_idiotites": "ΝΑΙ"
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 120,
+    "aa": 108,
     "am": "15781.0",
     "eponymo": "ΖΑΜΠΟΥΝΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3844,7 +3487,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 121,
+    "aa": 109,
     "am": "8937.0",
     "eponymo": "ΣΠΑΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΝΑ ΜΑΡΙΑ",
@@ -3876,7 +3519,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 122,
+    "aa": 110,
     "am": "12267.0",
     "eponymo": "ΤΖΙΑΜΟΥΡΑΝΗ",
     "onoma": "ΠΑΝΩΡΑΙΑ",
@@ -3908,7 +3551,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 123,
+    "aa": 111,
     "am": "18054.0",
     "eponymo": "ΞΥΡΑΦΑΚΗ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -3940,7 +3583,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 124,
+    "aa": 112,
     "am": "15966.0",
     "eponymo": "ΜΠΕΙΝΑ",
     "onoma": "ΖΩΗ",
@@ -3972,7 +3615,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 125,
+    "aa": 113,
     "am": "9219.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΒΕΡΟΝΙΚΑ",
@@ -4004,7 +3647,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 126,
+    "aa": 114,
     "am": "13373.0",
     "eponymo": "ΧΡΥΣΟΧΟΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4036,7 +3679,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 127,
+    "aa": 115,
     "am": "5895.0",
     "eponymo": "ΚΑΖΑΚΟΥ",
     "onoma": "ΦΕΒΡΩΝΙΑ",
@@ -4068,7 +3711,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 128,
+    "aa": 116,
     "am": "8608.0",
     "eponymo": "ΕΡΓΑ",
     "onoma": "ΜΑΡΙΑ ΙΣΜΗΝΗ",
@@ -4100,7 +3743,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 129,
+    "aa": 117,
     "am": "15080.0",
     "eponymo": "ΜΑΝΟΥΣΑΡΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -4132,7 +3775,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 130,
+    "aa": 118,
     "am": "1450.0",
     "eponymo": "ΝΙΚΟΓΙΑΝΝΗ",
     "onoma": "ΓΙΑΣΕΜΗ ΜΑΡΙΑ",
@@ -4164,7 +3807,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 131,
+    "aa": 119,
     "am": "11913.0",
     "eponymo": "ΤΡΑΧΑΝΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -4196,7 +3839,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 132,
+    "aa": 120,
     "am": "12358.0",
     "eponymo": "ΠΙΚΟΥ",
     "onoma": "ΣΕΒΑΣΤΗ",
@@ -4228,7 +3871,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 133,
+    "aa": 121,
     "am": "2571.0",
     "eponymo": "ΣΠΑΝΟΥΔΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4260,7 +3903,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 134,
+    "aa": 122,
     "am": "4244.0",
     "eponymo": "ΜΑΝΤΖΙΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -4292,7 +3935,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 135,
+    "aa": 123,
     "am": "2402.0",
     "eponymo": "ΣΤΕΦΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ ΜΑΡΙΑ",
@@ -4324,7 +3967,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 136,
+    "aa": 124,
     "am": "20705.0",
     "eponymo": "ΓΚΙΝΙ",
     "onoma": "ΜΑΡΙΑ",
@@ -4356,7 +3999,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 137,
+    "aa": 125,
     "am": "12146.0",
     "eponymo": "ΣΤΑΜΟΥΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -4388,7 +4031,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 138,
+    "aa": 126,
     "am": "3107.0",
     "eponymo": "ΜΕΝΙΑΔΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4420,7 +4063,7 @@
     "slug": "pe-koinonikis-ergasias-eid-pe-koinonikon-leitoyrgon"
   },
   {
-    "aa": 139,
+    "aa": 127,
     "am": "756.0",
     "eponymo": "ΜΠΑΝΤΑΒΑΝΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",

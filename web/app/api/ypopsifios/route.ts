@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 
-// In-memory cache του lookup για να μην διαβάζεται καν από τον δίσκο σε κάθε request
 let amLookupCache: Record<string, string[]> | null = null;
+let chunkIndexCache: Record<string, string[]> | null = null;
 
 function getAmLookup(): Record<string, string[]> {
   if (!amLookupCache) {
@@ -15,6 +15,18 @@ function getAmLookup(): Record<string, string[]> {
     }
   }
   return amLookupCache || {};
+}
+
+function getChunkIndex(): Record<string, string[]> {
+  if (!chunkIndexCache) {
+    try {
+      const p = join(process.cwd(), "public", "data", "chunk_index.json");
+      chunkIndexCache = JSON.parse(readFileSync(p, "utf-8"));
+    } catch {
+      chunkIndexCache = {};
+    }
+  }
+  return chunkIndexCache || {};
 }
 
 export async function GET(request: Request) {
@@ -36,7 +48,6 @@ export async function GET(request: Request) {
   const chunksDir = join(process.cwd(), "public", "data", "chunks");
   const matchingRecords: any[] = [];
 
-  // Ανοίγουμε ΜΟΝΟ τα 1-2 chunks που ξέρουμε ήδη ότι περιέχουν τον υποψήφιο!
   for (const chunkName of chunkFiles) {
     try {
       const chunkData = JSON.parse(
@@ -56,6 +67,44 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
+  // ΥΠΟΛΟΓΙΣΜΟΣ ΠΡΑΓΜΑΤΙΚΗΣ ΣΕΙΡΑΣ ΔΙΟΡΙΣΜΟΥ (APPOINTED RANK ME TIE-BREAKING ΚΛΗΡΩΣΗΣ)
+  const chunkIndex = getChunkIndex();
+
+  for (const rec of matchingRecords) {
+    if (rec.thesi_diorismou && rec.slug) {
+      const specChunks = chunkIndex[rec.slug] || [];
+      const specAppointed: any[] = [];
+
+      for (const cf of specChunks) {
+        const p = join(chunksDir, cf);
+        if (existsSync(p)) {
+          const cData = JSON.parse(readFileSync(p, "utf-8"));
+          for (const item of cData) {
+            if (item.thesi_diorismou) {
+              specAppointed.push({
+                am: String(item.am).replace(/\.0$/, "").trim(),
+                vath: parseFloat(item.vathmologia) || 0,
+                klirosi: parseFloat(item.seira_klirosis) || 99999999,
+              });
+            }
+          }
+        }
+      }
+
+      // Ταξινόμηση ΑΣΕΠ: 1) Βαθμολογία φθίνουσα, 2) Σειρά Κλήρωσης αύξουσα
+      specAppointed.sort((a, b) => {
+        if (b.vath !== a.vath) return b.vath - a.vath;
+        return a.klirosi - b.klirosi;
+      });
+
+      const myAppointedRank = specAppointed.findIndex((x) => x.am === cleanAm);
+      if (myAppointedRank >= 0) {
+        rec.appointed_rank = myAppointedRank + 1; // 👈 1-based σειρά διορισμού!
+        rec.total_appointed_in_specialty = specAppointed.length;
+      }
+    }
+  }
+
   return NextResponse.json(
     {
       primary: matchingRecords[0],
@@ -64,7 +113,6 @@ export async function GET(request: Request) {
     },
     {
       headers: {
-        // 👈 VERCEL CDN CACHING: Σερβίρεται από τη μνήμη cache για 24 ώρες! (0 CPU)
         "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800",
       },
     }

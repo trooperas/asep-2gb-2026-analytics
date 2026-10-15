@@ -31,6 +31,8 @@ interface Candidate {
   math2: number | null;
   synolo_graptou: number | null;
   vathmologia: number | null;
+  appointed_rank?: number;
+  total_appointed_in_specialty?: number;
   eidikotita: string;
   slug?: string;
   eidikotitaSlug: string;
@@ -410,7 +412,17 @@ export default function ProfilePage() {
             <StatBox label="Θέση Διορισμού" value="—" delay={300} />
           )}
 
-          <StatBox label="Σειρά" value={`#${candidate.aa}`} delay={400} />
+          {/* Σειρά Διορισμού / Κατάταξης */}
+          <StatBox
+            label={candidate.appointed_rank ? "Σειρά Διορισμού" : "Σειρά Κατάταξης"}
+            value={
+              candidate.appointed_rank
+                ? `#${candidate.appointed_rank}ος (${candidate.total_appointed_in_specialty || ""})`
+                : `#${candidate.aa}`
+            }
+            highlight={!!candidate.appointed_rank}
+            delay={400}
+          />
         </div>
 
         {/* 1. ΠΡΩΤΑ Η ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Natural Hierarchy) */}

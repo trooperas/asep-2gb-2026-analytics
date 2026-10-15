@@ -63,14 +63,24 @@ export default function AllocationJourney({
   const targetKod = thesiDiorismou ? String(thesiDiorismou).replace(/\.0$/, "").trim() : null;
   const targetIdx = targetKod ? parsedPreferences.indexOf(targetKod) : -1;
 
-  // 2. Παράθυρο 21 θέσεων (±10)
+  // 2. Υπολογισμός Προτιμήσεων προς εμφάνιση:
+  // Αν έχει δηλώσει έως 35 θέσεις, τις δείχνουμε ΟΛΕΣ!
+  // Αν έχει δηλώσει πάνω από 35 θέσεις, δείχνουμε παράθυρο ±12 θέσεων γύρω από τον διορισμό.
   const windowedPreferences = useMemo(() => {
     if (!parsedPreferences.length) return [];
-    if (targetIdx === -1) {
-      return parsedPreferences.slice(0, 21);
+    
+    // Αν είναι κάτω από 35 θέσεις, εμφάνισέ τες ΟΛΕΣ εξ αρχής!
+    if (parsedPreferences.length <= 35) {
+      return parsedPreferences;
     }
+
+    if (targetIdx === -1) {
+      return parsedPreferences.slice(0, 30);
+    }
+
+    // Παράθυρο: 10 πριν τη θέση διορισμού και έως 15 μετά!
     const startIdx = Math.max(0, targetIdx - 10);
-    const endIdx = Math.min(parsedPreferences.length, targetIdx + 11);
+    const endIdx = Math.min(parsedPreferences.length, targetIdx + 15);
     return parsedPreferences.slice(startIdx, endIdx);
   }, [parsedPreferences, targetIdx]);
 
@@ -323,7 +333,7 @@ export default function AllocationJourney({
       </div>
 
       {/* Toggle View All Button */}
-      {parsedPreferences.length > 21 && (
+      {parsedPreferences.length > windowedPreferences.length && (
         <div className="mt-6 pt-4 border-t border-slate-800/80 flex justify-center">
           <button
             type="button"

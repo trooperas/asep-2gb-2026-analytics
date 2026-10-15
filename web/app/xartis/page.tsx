@@ -5,6 +5,7 @@ import { useEffect, useState, useRef, useMemo } from "react";
 import Link from "next/link";
 import GreeceMap from "@/components/maps/GreeceMap";
 import { formatNumber } from "@/lib/utils";
+import { Search, MapPin, X } from "lucide-react";
 
 // Mapping GeoJSON names → ελληνικές περιφέρειες
 const PERIFEREIES_MAPPING: Record<string, string[]> = {
@@ -75,6 +76,7 @@ export default function XartisPage() {
   const [citiesGeo, setCitiesGeo] = useState<Record<string, any>>({});
   const [selected, setSelected] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [areaSearch, setAreaSearch] = useState("");
   const resultsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -97,7 +99,42 @@ export default function XartisPage() {
     }, 120);
   }
 
-  // Αυστηρό, memoized φιλτράρισμα θέσεων (χωρίς false positives)
+  // Δημιουργία λίστας αναζήτησης περιοχών για instant search
+  const searchableAreas = useMemo(() => {
+    const map = new Map<string, { label: string; type: string; key: string }>();
+
+    // Περιφέρειες
+    Object.entries(REGION_TITLE_MAP).forEach(([key, title]) => {
+      map.set(normalize(title), { label: title, type: "Περιφέρεια", key });
+    });
+
+    // Πόλεις / Δήμοι
+    Object.keys(citiesGeo).forEach((cityName) => {
+      map.set(normalize(cityName), { label: cityName, type: "Πόλη / Δήμος", key: cityName });
+    });
+
+    // Θέσεις: Δήμοι / Νομοί
+    positions.forEach((p) => {
+      if (p.dimos && p.dimos.length >= 3) {
+        map.set(normalize(p.dimos), { label: `Δήμος ${p.dimos}`, type: "Δήμος", key: p.dimos });
+      }
+      if (p.nomos && p.nomos.length >= 3) {
+        map.set(normalize(p.nomos), { label: `Νομός ${p.nomos}`, type: "Νομός", key: p.nomos });
+      }
+    });
+
+    return Array.from(map.values());
+  }, [citiesGeo, positions]);
+
+  const searchSuggestions = useMemo(() => {
+    const q = normalize(areaSearch);
+    if (!q || q.length < 2) return [];
+    return searchableAreas
+      .filter((a) => normalize(a.label).includes(q))
+      .slice(0, 6);
+  }, [areaSearch, searchableAreas]);
+
+  // Αυστηρό, memoized φιλτράρισμα θέσεων
   const selectedPositions = useMemo(() => {
     if (!selected) return [];
 
@@ -110,7 +147,6 @@ export default function XartisPage() {
       const pDimosNorm = normalize(p.dimos || "");
       const pEdraNorm = normalize(p.edra || "");
 
-      // 1. Αν είναι Περιφέρεια από το PERIFEREIES_MAPPING (π.χ. "Thessalia", "Attiki")
       if (PERIFEREIES_MAPPING[selected]) {
         const greekSubRegions = PERIFEREIES_MAPPING[selected];
         return greekSubRegions.some((gn) => {
@@ -122,7 +158,6 @@ export default function XartisPage() {
         });
       }
 
-      // 2. Αν είναι Κλικ σε Δήμο/Κύκλο (π.χ. "ΛΑΡΙΣΑΣ", "ΛΕΣΒΟΥ", "ΧΑΝΙΩΝ")
       const matchesPerif = pPerifNorm.length >= 3 && (pPerifNorm.includes(selNorm) || selNorm.includes(pPerifNorm));
       const matchesNomos = pNomosNorm.length >= 3 && (pNomosNorm.includes(selNorm) || selNorm.includes(pNomosNorm));
       const matchesDimos = pDimosNorm.length >= 3 && (pDimosNorm.includes(selNorm) || selNorm.includes(pDimosNorm));
@@ -136,7 +171,6 @@ export default function XartisPage() {
     return selectedPositions.reduce((sum, p) => sum + (p.theseis || 0), 0);
   }, [selectedPositions]);
 
-  // Σωστός τίτλος: Ελληνικό όνομα περιφέρειας ή όνομα πόλης
   const displayTitle = selected
     ? REGION_TITLE_MAP[selected] || selected.toUpperCase()
     : "";
@@ -177,7 +211,7 @@ export default function XartisPage() {
             marginBottom: "2rem",
           }}
         >
-          ← Πίσω
+          ← Πίσω στην Αρχική
         </Link>
 
         <motion.div
@@ -198,7 +232,7 @@ export default function XartisPage() {
               marginBottom: "1.5rem",
             }}
           >
-            ● Χάρτης Θέσεων
+            ● Χάρτης Θέσεων & Γεωγραφική Αναζήτηση
           </div>
 
           <h1
@@ -220,9 +254,127 @@ export default function XartisPage() {
               maxWidth: "700px",
             }}
           >
-            Πάτησε σε μια περιφέρεια ή σε έναν κύκλο πόλης για να δεις τις θέσεις που προκηρύχθηκαν.
+            Αναζητήστε άμεσα έναν δήμο/πόλη ή πατήστε σε μια περιφέρεια του χάρτη για να δείτε τις θέσεις.
           </p>
         </motion.div>
+
+        {/* ON-THE-FLY LOCATION SEARCH BAR */}
+        <div style={{ position: "relative", maxWidth: "550px", marginBottom: "1.5rem" }}>
+          <div style={{ position: "relative" }}>
+            <Search
+              style={{
+                position: "absolute",
+                left: "14px",
+                top: "14px",
+                width: "18px",
+                height: "18px",
+                color: "var(--text-muted)",
+                pointerEvents: "none",
+              }}
+            />
+            <input
+              type="text"
+              placeholder="Αναζήτηση περιοχής (π.χ. Κοζάνη, Χανιά, Έβρος, Λάρισα)..."
+              value={areaSearch}
+              onChange={(e) => setAreaSearch(e.target.value)}
+              style={{
+                width: "100%",
+                padding: "12px 40px 12px 42px",
+                borderRadius: "12px",
+                background: "rgba(10, 14, 26, 0.9)",
+                border: "1px solid var(--border)",
+                color: "#fff",
+                fontSize: "0.9rem",
+                outline: "none",
+              }}
+            />
+            {areaSearch && (
+              <button
+                type="button"
+                onClick={() => setAreaSearch("")}
+                style={{
+                  position: "absolute",
+                  right: "14px",
+                  top: "14px",
+                  background: "transparent",
+                  border: "none",
+                  color: "var(--text-muted)",
+                  cursor: "pointer",
+                }}
+              >
+                <X style={{ width: "16px", height: "16px" }} />
+              </button>
+            )}
+          </div>
+
+          {/* Autocomplete Dropdown */}
+          {searchSuggestions.length > 0 && (
+            <div
+              style={{
+                position: "absolute",
+                top: "100%",
+                left: 0,
+                right: 0,
+                marginTop: "8px",
+                background: "rgba(10, 14, 26, 0.98)",
+                border: "1px solid var(--border)",
+                borderRadius: "12px",
+                overflow: "hidden",
+                zIndex: 30,
+                boxShadow: "0 10px 30px rgba(0,0,0,0.5)",
+              }}
+            >
+              {searchSuggestions.map((item) => (
+                <button
+                  key={`${item.type}-${item.key}`}
+                  type="button"
+                  onClick={() => {
+                    handleSelect(item.key);
+                    setAreaSearch("");
+                  }}
+                  style={{
+                    width: "100%",
+                    padding: "12px 16px",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    background: "transparent",
+                    border: "none",
+                    borderBottom: "1px solid rgba(255,255,255,0.05)",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    color: "var(--text)",
+                    transition: "all 0.15s",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "rgba(0, 229, 255, 0.08)";
+                    e.currentTarget.style.color = "var(--primary)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "transparent";
+                    e.currentTarget.style.color = "var(--text)";
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <MapPin style={{ width: "14px", height: "14px", color: "var(--primary)" }} />
+                    <span style={{ fontSize: "0.9rem", fontWeight: 600 }}>{item.label}</span>
+                  </div>
+                  <span
+                    style={{
+                      fontSize: "0.7rem",
+                      color: "var(--text-muted)",
+                      padding: "2px 8px",
+                      borderRadius: "6px",
+                      background: "rgba(255,255,255,0.05)",
+                    }}
+                  >
+                    {item.type}
+                  </span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

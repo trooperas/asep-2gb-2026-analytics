@@ -149,7 +149,6 @@ export default function SearchPage() {
             <div style={{ display: "grid", gap: "0.75rem" }}>
               {results.map((r, i) => {
                 const cleanAm = String(r.am).replace(/\.0$/, "").trim();
-                const isDioristaios = !!r.thesi_diorismou;
 
                 return (
                   <motion.div
@@ -174,41 +173,13 @@ export default function SearchPage() {
                       <div style={{ flex: 1, minWidth: 0, paddingRight: "16px" }}>
                         <div
                           style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "8px",
-                            flexWrap: "wrap",
+                            fontWeight: 600,
+                            fontSize: "1.1rem",
+                            color: "#fff",
                             marginBottom: "4px",
                           }}
                         >
-                          <span
-                            style={{
-                              fontWeight: 600,
-                              fontSize: "1.05rem",
-                              color: "#fff",
-                            }}
-                          >
-                            {r.eponymo} {r.onoma}
-                          </span>
-                          <span
-                            style={{
-                              fontSize: "0.7rem",
-                              fontWeight: 700,
-                              padding: "2px 8px",
-                              borderRadius: "100px",
-                              background: isDioristaios
-                                ? "rgba(0, 255, 163, 0.12)"
-                                : "rgba(255, 255, 255, 0.05)",
-                              color: isDioristaios ? "var(--success)" : "var(--text-muted)",
-                              border: isDioristaios
-                                ? "1px solid rgba(0, 255, 163, 0.3)"
-                                : "1px solid rgba(255, 255, 255, 0.1)",
-                            }}
-                          >
-                            {isDioristaios
-                              ? `Διοριστέος (Θέση #${r.thesi_diorismou})`
-                              : "Μη διοριστέος"}
-                          </span>
+                          {r.eponymo} {r.onoma}
                         </div>
 
                         <div
@@ -219,35 +190,36 @@ export default function SearchPage() {
                             display: "flex",
                             gap: "8px",
                             alignItems: "center",
+                            marginBottom: "8px",
                           }}
                         >
                           <span>Α.Μ. {cleanAm}</span>
                           {r.patronymo && <span>• {r.patronymo}</span>}
                         </div>
 
-                        {/* Badges Ειδικοτήτων αν συμμετείχε σε πολλές */}
-                        {r.specialties && r.specialties.length > 1 && (
+                        {/* Ελληνικά Badges Ειδικοτήτων */}
+                        {r.specialties && r.specialties.length > 0 && (
                           <div
                             style={{
                               display: "flex",
                               gap: "6px",
                               flexWrap: "wrap",
-                              marginTop: "6px",
                             }}
                           >
                             {r.specialties.map((s, idx) => (
                               <span
                                 key={idx}
                                 style={{
-                                  fontSize: "0.7rem",
-                                  padding: "2px 6px",
-                                  borderRadius: "4px",
+                                  fontSize: "0.75rem",
+                                  padding: "3px 8px",
+                                  borderRadius: "6px",
                                   background: "rgba(0, 229, 255, 0.08)",
                                   color: "var(--primary)",
                                   border: "1px solid rgba(0, 229, 255, 0.2)",
+                                  fontWeight: 500,
                                 }}
                               >
-                                {s.length > 35 ? s.substring(0, 33) + "..." : s}
+                                {s}
                               </span>
                             ))}
                           </div>

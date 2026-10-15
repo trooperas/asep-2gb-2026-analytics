@@ -115,13 +115,13 @@ export default function EpilaxontesTracker({
         <div>
           <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[11px] font-mono font-semibold uppercase tracking-wider mb-1.5">
             <Users className="w-3 h-3" />
-            5ήμερο Αποδοχής & Αναπληρώσεις
+            Αποδοχή Θέσης & Αναπληρώσεις
           </div>
           <h3 className="text-xl sm:text-2xl font-bold font-display text-white">
             Ουρά Επιλαχόντων: Πού έχετε πιθανότητες κλήσης
           </h3>
           <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl leading-relaxed">
-            Σε περίπτωση που κάποιος διοριστέος <strong>δεν αποδεχτεί τη θέση εντός 5 ημερών</strong> ή αποκλειστεί στον τελικό έλεγχο δικαιολογητικών, η θέση μεταβιβάζεται αυτόματα στον επόμενο επιλαχόντα.
+            Σε περίπτωση που κάποιος διοριστέος <strong>δεν αποδεχτεί τη θέση του</strong> ή αποκλειστεί στον τελικό έλεγχο δικαιολογητικών, η θέση μεταβιβάζεται αυτόματα στον επόμενο επιλαχόντα.
           </p>
         </div>
 

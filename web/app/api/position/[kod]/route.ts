@@ -35,6 +35,10 @@ export async function GET(
       (p: any) => String(p.kod_thesis).replace(/\.0$/, "").trim() === targetKod
     );
 
+    if (!posMeta) {
+      return NextResponse.json({ error: "Position not found" }, { status: 404 });
+    }
+
     // 2. Φόρτωση διορισθέντων από τα chunks
     const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
     if (!existsSync(chunkIndexPath)) {
@@ -46,7 +50,7 @@ export async function GET(
     );
     const chunksDir = join(process.cwd(), "public", "data", "chunks");
 
-    // Map με κλειδί το AM: ΑΠΟΚΛΕΙΣΜΟΣ ΔΙΠΛΟΤΥΠΩΝ & κράτημα μεγαλύτερης βαθμολογίας
+    // Map με κλειδί το AM: ΑΠΟΚΛΕΙΣΜΟΣ ΔΙΠΛΟΤΥΠΩΝ & κράτημα μέγιστης βαθμολογίας
     const uniqueCandidatesMap = new Map<string, any>();
 
     for (const [slug, chunks] of Object.entries(chunkIndex)) {
@@ -62,7 +66,6 @@ export async function GET(
             const currentScore = parseFloat(r.vathmologia) || 0;
 
             const candidateObj = {
-              ...r,
               am: cleanAm,
               eponymo: r.eponymo,
               onoma: r.onoma,
@@ -77,7 +80,7 @@ export async function GET(
             if (!uniqueCandidatesMap.has(cleanAm)) {
               uniqueCandidatesMap.set(cleanAm, candidateObj);
             } else {
-              // Αν υπάρχει ήδη, κράτα αυτό με το υψηλότερο σκορ (με την εντοπιότητα/προσόντα)
+              // Κράτα την εγγραφή με τη μεγαλύτερη βαθμολογία (με εντοπιότητα/προσόντα)
               const existing = uniqueCandidatesMap.get(cleanAm);
               if (currentScore > existing.cleanScore) {
                 uniqueCandidatesMap.set(cleanAm, candidateObj);
@@ -88,31 +91,31 @@ export async function GET(
       }
     }
 
-    // Μετατροπή σε ταξινομημένη λίστα (φθίνουσα βαθμολογία)
+    // Ταξινόμηση διορισμένων κατά φθίνουσα βαθμολογία
     const uniqueCandidates = Array.from(uniqueCandidatesMap.values()).sort(
       (a, b) => b.cleanScore - a.cleanScore
     );
 
-    // Υπολογισμός πραγματικών στατιστικών θέσης
+    // Υπολογισμός στατιστικών συμβατών με το frontend
     const scores = uniqueCandidates.map((c) => c.cleanScore).filter((s) => s > 0);
-    const count = uniqueCandidates.length;
-    const minScore = scores.length ? Math.min(...scores) : 0;
-    const maxScore = scores.length ? Math.max(...scores) : 0;
-    const avgScore = scores.length
+    const total = uniqueCandidates.length;
+    const min_vath = scores.length ? Math.min(...scores) : null;
+    const max_vath = scores.length ? Math.max(...scores) : null;
+    const avg_vath = scores.length
       ? scores.reduce((a, b) => a + b, 0) / scores.length
-      : 0;
+      : null;
 
+    // Επιστροφή στο ΑΚΡΙΒΕΣ interface ApiResponse που περιμένει το page.tsx:
     return NextResponse.json(
       {
-        kod: targetKod,
-        meta: posMeta || null,
+        position: posMeta, // 👈 Ακριβώς το όνομα που περιμένει το page.tsx
+        candidates: uniqueCandidates, // 👈 Deduplicated μοναδικοί υποψήφιοι
         stats: {
-          count,
-          min: minScore,
-          max: maxScore,
-          avg: avgScore,
+          total, // 👈 Ακριβώς το όνομα που περιμένει το page.tsx
+          min_vath,
+          max_vath,
+          avg_vath,
         },
-        candidates: uniqueCandidates,
       },
       {
         headers: {

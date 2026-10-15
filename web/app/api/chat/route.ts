@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/* import { NextResponse } from "next/server";
 import Groq from "groq-sdk";
 import { readFileSync } from "fs";
 import { join } from "path";
@@ -556,4 +556,14 @@ export async function POST(request: Request) {
       { status: 500 }
     );
   }
+} */
+
+  import { NextResponse } from "next/server";
+
+export async function POST() {
+  return NextResponse.json({
+    reply:
+      "Ο AI Βοηθός βρίσκεται σε προσωρινή παύση λειτουργίας λόγω αυξημένης κίνησης. Παρακαλούμε χρησιμοποιήστε την Αναζήτηση και τον Χάρτη για να δείτε τα αποτελέσματά σας.",
+    paused: true,
+  });
 }

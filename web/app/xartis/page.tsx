@@ -399,8 +399,15 @@ export default function XartisPage() {
                 exit={{ opacity: 0, y: -15 }}
                 transition={{ duration: 0.2 }}
                 className="glass"
-                style={{ padding: "2rem", marginTop: "2rem" }}
+                style={{
+                  padding: "1.75rem",
+                  marginTop: "2rem",
+                  borderRadius: "20px",
+                  border: "1px solid rgba(0, 229, 255, 0.2)",
+                  background: "rgba(10, 14, 26, 0.95)",
+                }}
               >
+                {/* Header περιοχής */}
                 <div
                   style={{
                     display: "flex",
@@ -408,28 +415,33 @@ export default function XartisPage() {
                     alignItems: "flex-start",
                     flexWrap: "wrap",
                     gap: "1rem",
-                    marginBottom: "1.5rem",
+                    marginBottom: "1.25rem",
                   }}
                 >
                   <div>
                     <h2
                       className="font-display"
                       style={{
-                        fontSize: "1.75rem",
+                        fontSize: "clamp(1.4rem, 2.5vw, 1.85rem)",
                         fontWeight: 700,
-                        marginBottom: "0.5rem",
+                        marginBottom: "0.25rem",
+                        textTransform: "uppercase",
                       }}
                     >
-                      <span className="text-gradient">{displayTitle}</span>
+                      <span className="text-gradient">
+                        {displayTitle
+                          .normalize("NFD")
+                          .replace(/[\u0300-\u036f]/g, "")}
+                      </span>
                     </h2>
                     <p
                       style={{
                         color: "var(--text-muted)",
-                        fontSize: "0.95rem",
+                        fontSize: "0.9rem",
                       }}
                     >
                       {formatNumber(selectedPositions.length)} κωδικοί θέσεων ·{" "}
-                      {formatNumber(totalTheseis)} συνολικές θέσεις
+                      {formatNumber(totalTheseis)} καλυφθείσες θέσεις
                     </p>
                   </div>
 
@@ -437,27 +449,72 @@ export default function XartisPage() {
                     onClick={() => setSelected(null)}
                     style={{
                       padding: "8px 16px",
-                      borderRadius: "8px",
+                      borderRadius: "10px",
                       border: "1px solid var(--border)",
-                      background: "transparent",
+                      background: "rgba(255,255,255,0.03)",
                       color: "var(--text-muted)",
                       fontSize: "0.85rem",
                       cursor: "pointer",
                       fontFamily: "inherit",
+                      transition: "all 0.2s",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = "#fff";
+                      e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = "var(--text-muted)";
+                      e.currentTarget.style.borderColor = "var(--border)";
                     }}
                   >
                     ✕ Κλείσιμο
                   </button>
                 </div>
 
-                {/* Λίστα θέσεων */}
+                {/* Subtle Callout για Κενές Θέσεις της περιοχής */}
+                <div
+                  style={{
+                    marginBottom: "1.25rem",
+                    padding: "10px 14px",
+                    borderRadius: "12px",
+                    background: "rgba(245, 158, 11, 0.06)",
+                    border: "1px solid rgba(245, 158, 11, 0.25)",
+                    fontSize: "0.8rem",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    flexWrap: "wrap",
+                    gap: "8px",
+                  }}
+                >
+                  <span style={{ color: "#FBBF24" }}>
+                    💡 <em>Σημείωση:</em> Ενδέχεται να υπάρχουν και θέσεις στην περιοχή που έμειναν κενές (0 διορισμοί).
+                  </span>
+                  <Link
+                    href="/kenes-theseis"
+                    style={{
+                      color: "#00E5FF",
+                      textDecoration: "none",
+                      fontWeight: 600,
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                    onMouseEnter={(e) => (e.currentTarget.style.textDecoration = "underline")}
+                    onMouseLeave={(e) => (e.currentTarget.style.textDecoration = "none")}
+                  >
+                    Ακτινογραφία Κενών Θέσεων →
+                  </Link>
+                </div>
+
+                {/* Λίστα θέσεων (Χωρίς οριζόντια scrollbar & με καθαρό wrapping) */}
                 <div
                   style={{
                     display: "grid",
                     gap: "0.75rem",
-                    maxHeight: "600px",
+                    maxHeight: "550px",
                     overflowY: "auto",
-                    paddingRight: "8px",
+                    paddingRight: "6px",
                   }}
                 >
                   {selectedPositions.slice(0, 50).map((p, i) => (
@@ -466,37 +523,36 @@ export default function XartisPage() {
                       href={`/thesi/${p.kod_thesis}`}
                       style={{
                         padding: "14px 18px",
-                        borderRadius: "10px",
-                        background: "rgba(255,255,255,0.02)",
-                        border: "1px solid transparent",
+                        borderRadius: "12px",
+                        background: "rgba(10, 14, 26, 0.6)",
+                        border: "1px solid rgba(255,255,255,0.06)",
                         display: "flex",
                         justifyContent: "space-between",
                         alignItems: "center",
-                        gap: "1rem",
+                        gap: "1.25rem",
                         textDecoration: "none",
                         color: "var(--text)",
-                        transition: "all 0.2s",
+                        transition: "all 0.2s ease",
                       }}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = "var(--primary)";
-                        e.currentTarget.style.background =
-                          "rgba(0, 229, 255, 0.05)";
+                        e.currentTarget.style.borderColor = "#00E5FF";
+                        e.currentTarget.style.background = "rgba(0, 229, 255, 0.04)";
                       }}
                       onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = "transparent";
-                        e.currentTarget.style.background =
-                          "rgba(255,255,255,0.02)";
+                        e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)";
+                        e.currentTarget.style.background = "rgba(10, 14, 26, 0.6)";
                       }}
                     >
+                      {/* Φορέας & Ειδικότητα με σωστό wrapping */}
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <div
                           style={{
                             fontWeight: 600,
-                            fontSize: "0.95rem",
+                            fontSize: "0.9rem",
                             marginBottom: "4px",
-                            overflow: "hidden",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
+                            color: "#FFFFFF",
+                            lineHeight: 1.35,
+                            wordBreak: "break-word",
                           }}
                         >
                           {p.foreas}
@@ -505,31 +561,30 @@ export default function XartisPage() {
                           style={{
                             fontSize: "0.8rem",
                             color: "var(--text-muted)",
-                            overflow: "hidden",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
+                            lineHeight: 1.3,
+                            wordBreak: "break-word",
                           }}
                         >
                           {p.eidikotita}
                         </div>
                       </div>
 
+                      {/* Κωδικός θέσης & πλήθος */}
                       <div
                         style={{
                           display: "flex",
                           flexDirection: "column",
                           alignItems: "flex-end",
-                          gap: "4px",
+                          gap: "2px",
                           flexShrink: 0,
                         }}
                       >
                         <div
                           style={{
-                            color: "var(--primary)",
-                            fontFamily:
-                              "var(--font-jetbrains-mono), monospace",
-                            fontWeight: 600,
-                            fontSize: "0.9rem",
+                            color: "#00E5FF",
+                            fontFamily: "var(--font-jetbrains-mono), monospace",
+                            fontWeight: 700,
+                            fontSize: "0.95rem",
                           }}
                         >
                           #{p.kod_thesis}
@@ -538,10 +593,10 @@ export default function XartisPage() {
                           style={{
                             fontSize: "0.75rem",
                             color: "var(--text-muted)",
+                            whiteSpace: "nowrap",
                           }}
                         >
-                          {p.theseis}{" "}
-                          {p.theseis === 1 ? "θέση" : "θέσεις"}
+                          {p.theseis} {p.theseis === 1 ? "θέση" : "θέσεις"}
                         </div>
                       </div>
                     </Link>
@@ -553,7 +608,7 @@ export default function XartisPage() {
                         textAlign: "center",
                         color: "var(--text-muted)",
                         padding: "1rem",
-                        fontSize: "0.9rem",
+                        fontSize: "0.85rem",
                       }}
                     >
                       ... και άλλες {selectedPositions.length - 50} θέσεις
@@ -566,9 +621,14 @@ export default function XartisPage() {
                         textAlign: "center",
                         color: "var(--text-muted)",
                         padding: "2rem",
+                        fontSize: "0.9rem",
                       }}
                     >
-                      Δεν βρέθηκαν θέσεις για αυτή την επιλογή.
+                      Δεν βρέθηκαν καλυφθείσες θέσεις για αυτή την επιλογή. Ελέγξτε τις{" "}
+                      <Link href="/kenes-theseis" style={{ color: "#00E5FF" }}>
+                        Κενές Θέσεις
+                      </Link>
+                      .
                     </div>
                   )}
                 </div>

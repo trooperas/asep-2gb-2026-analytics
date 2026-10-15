@@ -89,9 +89,17 @@ export async function GET(
     min_vath: vaths.length > 0 ? Math.min(...vaths) : null,
   };
 
-  return NextResponse.json({
-    position,
-    candidates,
-    stats,
-  });
+  // 👇 ADDED CACHE HEADERS HERE
+  return NextResponse.json(
+    {
+      position,
+      candidates,
+      stats,
+    },
+    {
+      headers: {
+        "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800",
+      },
+    }
+  );
 }

@@ -1,37 +1,20 @@
 import { NextResponse } from "next/server";
-import { readFileSync, existsSync } from "fs";
+import { readFileSync } from "fs";
 import { join } from "path";
 
-function findAllByAm(am: string): any[] {
-  const chunksDir = join(process.cwd(), "public", "data", "chunks");
-  const chunkIndexPath = join(
-    process.cwd(),
-    "public",
-    "data",
-    "chunk_index.json"
-  );
+// In-memory cache του lookup για να μην διαβάζεται καν από τον δίσκο σε κάθε request
+let amLookupCache: Record<string, string[]> | null = null;
 
-  if (!existsSync(chunkIndexPath)) return [];
-
-  const chunkIndex: Record<string, string[]> = JSON.parse(
-    readFileSync(chunkIndexPath, "utf-8")
-  );
-
-  const targetAm = String(am).replace(/\.0$/, "");
-  const matches: any[] = [];
-
-  for (const [slug, chunks] of Object.entries(chunkIndex)) {
-    for (const chunkName of chunks) {
-      const chunkPath = join(chunksDir, chunkName);
-      const chunk = JSON.parse(readFileSync(chunkPath, "utf-8"));
-      for (const c of chunk) {
-        if (String(c.am).replace(/\.0$/, "") === targetAm) {
-          matches.push({ ...c, eidikotitaSlug: slug });
-        }
-      }
+function getAmLookup(): Record<string, string[]> {
+  if (!amLookupCache) {
+    try {
+      const p = join(process.cwd(), "public", "data", "am_lookup.json");
+      amLookupCache = JSON.parse(readFileSync(p, "utf-8"));
+    } catch {
+      amLookupCache = {};
     }
   }
-  return matches;
+  return amLookupCache || {};
 }
 
 export async function GET(request: Request) {
@@ -42,15 +25,48 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Missing am" }, { status: 400 });
   }
 
-  const candidates = findAllByAm(am);
+  const cleanAm = String(am).replace(/\.0$/, "").trim();
+  const lookup = getAmLookup();
+  const chunkFiles = lookup[cleanAm];
 
-  if (candidates.length === 0) {
+  if (!chunkFiles || chunkFiles.length === 0) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
-  return NextResponse.json({
-    primary: candidates[0],
-    all: candidates,
-    count: candidates.length,
-  });
+  const chunksDir = join(process.cwd(), "public", "data", "chunks");
+  const matchingRecords: any[] = [];
+
+  // Ανοίγουμε ΜΟΝΟ τα 1-2 chunks που ξέρουμε ήδη ότι περιέχουν τον υποψήφιο!
+  for (const chunkName of chunkFiles) {
+    try {
+      const chunkData = JSON.parse(
+        readFileSync(join(chunksDir, chunkName), "utf-8")
+      );
+      for (const r of chunkData) {
+        if (String(r.am).replace(/\.0$/, "").trim() === cleanAm) {
+          matchingRecords.push(r);
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  if (matchingRecords.length === 0) {
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
+
+  return NextResponse.json(
+    {
+      primary: matchingRecords[0],
+      all: matchingRecords,
+      count: matchingRecords.length,
+    },
+    {
+      headers: {
+        // 👈 VERCEL CDN CACHING: Σερβίρεται από τη μνήμη cache για 24 ώρες! (0 CPU)
+        "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800",
+      },
+    }
+  );
 }

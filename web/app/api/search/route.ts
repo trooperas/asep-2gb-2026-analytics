@@ -2,19 +2,22 @@ import { NextResponse } from "next/server";
 import { readFileSync } from "fs";
 import { join } from "path";
 
-let searchIndex: any[] | null = null;
+let searchIndexCache: any[] | null = null;
 
 function getSearchIndex(): any[] {
-  if (!searchIndex) {
-    const path = join(process.cwd(), "public", "data", "search_index.json");
-    searchIndex = JSON.parse(readFileSync(path, "utf-8"));
+  if (!searchIndexCache) {
+    try {
+      const p = join(process.cwd(), "public", "data", "search_index.json");
+      searchIndexCache = JSON.parse(readFileSync(p, "utf-8"));
+    } catch {
+      searchIndexCache = [];
+    }
   }
-  return searchIndex!;
+  return searchIndexCache || [];
 }
 
-// Αφαιρεί τόνους + lowercase + trim
-function normalize(s: string): string {
-  return String(s || "")
+function normalize(text: string): string {
+  return String(text || "")
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -23,30 +26,71 @@ function normalize(s: string): string {
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const rawQ = (searchParams.get("q") || "").trim();
+  const q = searchParams.get("q");
 
-  if (!rawQ || rawQ.length < 2) {
-    return NextResponse.json({ results: [], count: 0 });
+  if (!q || q.trim().length < 2) {
+    return NextResponse.json({ results: [] });
   }
 
-  const q = normalize(rawQ);
+  const queryNorm = normalize(q);
   const index = getSearchIndex();
-  const results: any[] = [];
-  const seen = new Set<string>();
 
-  for (const entry of index) {
-    const am = normalize(entry.am);
-    const ep = normalize(entry.eponymo);
-    const on = normalize(entry.onoma);
+  // 1. Βρίσκουμε όλες τις εγγραφές που ταιριάζουν
+  const matches = index.filter((item) => {
+    const amNorm = String(item.am || "").replace(/\.0$/, "").trim();
+    const epNorm = normalize(item.eponymo || "");
+    const onNorm = normalize(item.onoma || "");
+    const fullName = `${epNorm} ${onNorm}`;
 
-    if (am.includes(q) || ep.includes(q) || on.includes(q)) {
-      const key = `${entry.am}__${entry.slug}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      results.push(entry);
-      if (results.length >= 30) break;
+    return (
+      amNorm.startsWith(queryNorm) ||
+      epNorm.includes(queryNorm) ||
+      onNorm.includes(queryNorm) ||
+      fullName.includes(queryNorm)
+    );
+  });
+
+  // 2. DEDUPLICATION ΑΝΑ Α.Μ. (Μία κάρτα ανά φυσικό πρόσωπο)
+  const uniqueCandidatesMap = new Map<string, any>();
+
+  for (const m of matches) {
+    const cleanAm = String(m.am).replace(/\.0$/, "").trim();
+
+    if (!uniqueCandidatesMap.has(cleanAm)) {
+      uniqueCandidatesMap.set(cleanAm, {
+        am: cleanAm,
+        eponymo: m.eponymo,
+        onoma: m.onoma,
+        patronymo: m.patronymo,
+        specialties: [m.eidikotita || m.slug],
+        slug: m.slug,
+        thesi_diorismou: m.thesi_diorismou || null,
+        vathmologia: m.vathmologia || null,
+        aa: m.aa,
+      });
+    } else {
+      // Αν υπάρχει ήδη, πρόσθεσε την επιπλέον ειδικότητα στη λίστα του!
+      const existing = uniqueCandidatesMap.get(cleanAm);
+      const specName = m.eidikotita || m.slug;
+      if (specName && !existing.specialties.includes(specName)) {
+        existing.specialties.push(specName);
+      }
+      // Αν σε αυτή τη γραμμή είναι διοριστέος, κράτα τη θέση διορισμού
+      if (m.thesi_diorismou && !existing.thesi_diorismou) {
+        existing.thesi_diorismou = m.thesi_diorismou;
+        existing.slug = m.slug;
+      }
     }
   }
 
-  return NextResponse.json({ results, count: results.length });
+  const results = Array.from(uniqueCandidatesMap.values()).slice(0, 30);
+
+  return NextResponse.json(
+    { results },
+    {
+      headers: {
+        "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+      },
+    }
+  );
 }

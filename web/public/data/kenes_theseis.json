@@ -1,7 +1,37 @@
 {
-  "total_vacant_slots": 753,
-  "total_unclaimed_codes": 504,
+  "total_vacant_slots": 928,
+  "total_unclaimed_codes": 551,
   "positions": [
+    {
+      "kod_thesis": "2951",
+      "foreas": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ ΥΓΕΙΑΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ Μ.Α.Ε.",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE) (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 31,
+      "appointed": 11,
+      "vacant": 20
+    },
+    {
+      "kod_thesis": "2991",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ (Γ.Δ.ΗΛΕ.Δ.) — ΔΙΕΥΘΥΝΣΗ ΥΠΗΡΕΣΙΩΝ ΔΕΔΟΜΕΝΩΝ (Δ.ΥΠΗ. ΔΕΔ.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 32,
+      "appointed": 16,
+      "vacant": 16
+    },
     {
       "kod_thesis": "2952",
       "foreas": "ΗΛΕΚΤΡΟΝΙΚΟΣ ΕΘΝΙΚΟΣ ΦΟΡΕΑΣ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
@@ -14,8 +44,68 @@
       "prosonta": "",
       "entopiotita": "",
       "total_slots": 13,
-      "appointed": 2,
-      "vacant": 11
+      "appointed": 1,
+      "vacant": 12
+    },
+    {
+      "kod_thesis": "2987",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ (Γ.Δ.ΗΛΕ.Δ.) — ΔΙΕΥΘΥΝΣΗ ΑΝΑΠΤΥΞΗΣ ΦΟΡΟΛΟΓΙΚΩΝ ΕΦΑΡΜΟΓΩΝ (Δ.Α.Φ.Ε.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 36,
+      "appointed": 24,
+      "vacant": 12
+    },
+    {
+      "kod_thesis": "2956",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 17,
+      "appointed": 7,
+      "vacant": 10
+    },
+    {
+      "kod_thesis": "3002",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 36,
+      "appointed": 26,
+      "vacant": 10
+    },
+    {
+      "kod_thesis": "2988",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ (Γ.Δ.ΗΛΕ.Δ.) — ΔΙΕΥΘΥΝΣΗ ΔΙΑΧΕΙΡΙΣΗΣ ΥΠΟΔΟΜΩΝ (ΔΙ.Δ.ΥΠΟΔ.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 20,
+      "appointed": 12,
+      "vacant": 8
     },
     {
       "kod_thesis": "760",
@@ -60,6 +150,21 @@
       "entopiotita": "",
       "total_slots": 6,
       "appointed": 0,
+      "vacant": 6
+    },
+    {
+      "kod_thesis": "1960",
+      "foreas": "ΕΛΛΗΝΙΚΟ ΜΕΤΡΟ Α.Ε.",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 7,
+      "appointed": 1,
       "vacant": 6
     },
     {
@@ -123,6 +228,21 @@
       "vacant": 6
     },
     {
+      "kod_thesis": "2986",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ (Γ.Δ.ΗΛΕ.Δ.) — ΔΙΕΥΘΥΝΣΗ ΑΝΑΠΤΥΞΗΣ ΤΕΛΩΝΕΙΑΚΩΝ, ΕΛΕΓΚΤΙΚΩΝ ΚΑΙ ΕΠΙΧΕΙΡΗΣΙΑΚΩΝ ΕΦΑΡΜΟΓΩΝ (Δ.Α.Τ.Ε.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 31,
+      "appointed": 25,
+      "vacant": 6
+    },
+    {
       "kod_thesis": "643",
       "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΠΕΛΟΠΟΝΝΗΣΟΥ",
       "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
@@ -183,6 +303,36 @@
       "vacant": 5
     },
     {
+      "kod_thesis": "2458",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+      "dimos": "Ελευσίνας",
+      "nomos": "",
+      "edra": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ (Δ. Ελευσίνας)",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 7,
+      "appointed": 2,
+      "vacant": 5
+    },
+    {
+      "kod_thesis": "2621",
+      "foreas": "ΔΗΜΟΣ ΔΥΤΙΚΗΣ ΛΕΣΒΟΥ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΛΕΣΒΟΥ",
+      "dimos": "",
+      "nomos": "Λέσβος",
+      "edra": "ΛΕΣΒΟΥ (ν. Λέσβος)",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 6,
+      "appointed": 1,
+      "vacant": 5
+    },
+    {
       "kod_thesis": "2669",
       "foreas": "ΔΗΜΟΣ ΠΕΙΡΑΙΩΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -208,6 +358,36 @@
       "titloi": "342",
       "prosonta": "001, 013",
       "entopiotita": "06",
+      "total_slots": 7,
+      "appointed": 2,
+      "vacant": 5
+    },
+    {
+      "kod_thesis": "3000",
+      "foreas": "ΝΑΥΤΙΚΟ ΑΠΟΜΑΧΙΚΟ ΤΑΜΕΙΟ (Ν.Α.Τ.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΠΕΙΡΑΙΩΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΠΕΙΡΑΙΩΣ",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 7,
+      "appointed": 2,
+      "vacant": 5
+    },
+    {
+      "kod_thesis": "3004",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΜΕΤΑΝΑΣΤΕΥΣΗΣ ΚΑΙ ΑΣΥΛΟΥ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE) (ΙΔΑΧ)*",
+      "perifereia": "ΠΕΙΡΑΙΩΣ",
+      "dimos": "Νίκαιας-Αγ. Ιωάννη Ρέντη",
+      "nomos": "",
+      "edra": "ΠΕΙΡΑΙΩΣ (Δ. Νίκαιας-Αγ. Ιωάννη Ρέντη)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
       "total_slots": 7,
       "appointed": 2,
       "vacant": 5
@@ -240,6 +420,21 @@
       "entopiotita": "06",
       "total_slots": 4,
       "appointed": 0,
+      "vacant": 4
+    },
+    {
+      "kod_thesis": "767",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
+      "perifereia": "ΣΕΡΡΩΝ",
+      "dimos": "Σερρών",
+      "nomos": "",
+      "edra": "ΣΕΡΡΩΝ (Δ. Σερρών)",
+      "titloi": "308",
+      "prosonta": "001, 006",
+      "entopiotita": "07",
+      "total_slots": 7,
+      "appointed": 3,
       "vacant": 4
     },
     {
@@ -318,14 +513,14 @@
       "vacant": 4
     },
     {
-      "kod_thesis": "1960",
-      "foreas": "ΕΛΛΗΝΙΚΟ ΜΕΤΡΟ Α.Ε.",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "kod_thesis": "2286",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
       "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
       "dimos": "Αθηναίων",
       "nomos": "",
       "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
-      "titloi": "330",
+      "titloi": "340",
       "prosonta": "001, 013",
       "entopiotita": "",
       "total_slots": 7,
@@ -345,6 +540,21 @@
       "entopiotita": "06",
       "total_slots": 4,
       "appointed": 0,
+      "vacant": 4
+    },
+    {
+      "kod_thesis": "2325",
+      "foreas": "ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΒΙΟΜΗΧΑΝΙΚΗΣ ΕΡΕΥΝΑΣ ΤΕΧΝΟΛΟΓΙΚΗΣ ΑΝΑΠΤΥΞΗΣ ΚΑΙ ΕΡΓΑΣΤΗΡΙΑΚΩΝ ΔΟΚΙΜΩΝ ΠΙΣΤΟΠΟΙΗΣΗΣ ΚΑΙ ΠΟΙΟΤΗΤΑΣ (ΕΒΕΤΑΜ)",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΜΑΓΝΗΣΙΑΣ",
+      "dimos": "Βόλου",
+      "nomos": "",
+      "edra": "ΜΑΓΝΗΣΙΑΣ (Δ. Βόλου)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 6,
+      "appointed": 2,
       "vacant": 4
     },
     {
@@ -408,6 +618,21 @@
       "vacant": 4
     },
     {
+      "kod_thesis": "2673",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΠΕΙΡΑΙΩΣ",
+      "dimos": "Πειραιώς",
+      "nomos": "",
+      "edra": "ΠΕΙΡΑΙΩΣ (Δ. Πειραιώς)",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 7,
+      "appointed": 3,
+      "vacant": 4
+    },
+    {
       "kod_thesis": "2709",
       "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΝΟΤΙΟΥ ΑΙΓΑΙΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -423,6 +648,21 @@
       "vacant": 4
     },
     {
+      "kod_thesis": "2934",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΡΓΑΣΙΑΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 11,
+      "appointed": 7,
+      "vacant": 4
+    },
+    {
       "kod_thesis": "2989",
       "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ (Γ.Δ.ΗΛΕ.Δ.) — ΔΙΕΥΘΥΝΣΗ ΕΠΙΧΕΙΡΗΣΙΑΚΩΝ ΔΙΑΔΙΚΑΣΙΩΝ (ΔΙ. ΕΠΙ.ΔΙ.)",
       "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
@@ -435,6 +675,21 @@
       "entopiotita": "",
       "total_slots": 4,
       "appointed": 0,
+      "vacant": 4
+    },
+    {
+      "kod_thesis": "2990",
+      "foreas": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ ΓΕΝΙΚΗ ΔΙΕΥΘΥΝΣΗ ΗΛΕΚΤΡΟΝΙΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ (Γ.Δ.ΗΛΕ.Δ.) — ΔΙΕΥΘΥΝΣΗ ΣΤΡΑΤΗΓΙΚΗΣ ΤΕΧΝΟΛΟΓΙΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ (ΔΙ.Σ.ΤΕ.ΠΛ.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 25,
+      "appointed": 21,
       "vacant": 4
     },
     {
@@ -468,18 +723,18 @@
       "vacant": 3
     },
     {
-      "kod_thesis": "767",
-      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "kod_thesis": "768",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΝΟΤΙΟΥ ΑΙΓΑΙΟΥ",
       "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
-      "perifereia": "ΣΕΡΡΩΝ",
-      "dimos": "Σερρών",
-      "nomos": "",
-      "edra": "ΣΕΡΡΩΝ (Δ. Σερρών)",
+      "perifereia": "ΣΥΡΟΥ",
+      "dimos": "",
+      "nomos": "Σύρος",
+      "edra": "ΣΥΡΟΥ (ν. Σύρος)",
       "titloi": "308",
       "prosonta": "001, 006",
-      "entopiotita": "07",
-      "total_slots": 7,
-      "appointed": 4,
+      "entopiotita": "06",
+      "total_slots": 4,
+      "appointed": 1,
       "vacant": 3
     },
     {
@@ -585,6 +840,21 @@
       "entopiotita": "",
       "total_slots": 3,
       "appointed": 0,
+      "vacant": 3
+    },
+    {
+      "kod_thesis": "2026",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΝΟΤΙΟΥ ΑΙΓΑΙΟΥ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΡΟΔΟΥ",
+      "dimos": "",
+      "nomos": "Ρόδος",
+      "edra": "ΡΟΔΟΥ (ν. Ρόδος)",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 4,
+      "appointed": 1,
       "vacant": 3
     },
     {
@@ -753,6 +1023,36 @@
       "vacant": 3
     },
     {
+      "kod_thesis": "2393",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΝΑΥΤΙΛΙΑΣ ΚΑΙ ΝΗΣΙΩΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΠΕΙΡΑΙΩΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΠΕΙΡΑΙΩΣ",
+      "titloi": "341",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 5,
+      "appointed": 2,
+      "vacant": 3
+    },
+    {
+      "kod_thesis": "2397",
+      "foreas": "ΔΗΜΟΣ ΑΧΑΡΝΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΑΝΑΤΟΛΙΚΗΣ ΑΤΤΙΚΗΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΑΝΑΤΟΛΙΚΗΣ ΑΤΤΙΚΗΣ",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 5,
+      "appointed": 2,
+      "vacant": 3
+    },
+    {
       "kod_thesis": "2427",
       "foreas": "ΔΗΜΟΣ ΛΕΒΑΔΕΩΝ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -888,18 +1188,18 @@
       "vacant": 3
     },
     {
-      "kod_thesis": "3000",
-      "foreas": "ΝΑΥΤΙΚΟ ΑΠΟΜΑΧΙΚΟ ΤΑΜΕΙΟ (Ν.Α.Τ.)",
+      "kod_thesis": "2992",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
       "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
-      "perifereia": "ΠΕΙΡΑΙΩΣ",
-      "dimos": "",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "ΜοσχάτουΤαύρου",
       "nomos": "",
-      "edra": "ΠΕΙΡΑΙΩΣ",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. ΜοσχάτουΤαύρου)",
       "titloi": "348, 349",
       "prosonta": "",
       "entopiotita": "",
-      "total_slots": 7,
-      "appointed": 4,
+      "total_slots": 6,
+      "appointed": 3,
       "vacant": 3
     },
     {
@@ -933,6 +1233,21 @@
       "vacant": 2
     },
     {
+      "kod_thesis": "682",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ",
+      "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
+      "perifereia": "ΗΡΑΚΛΕΙΟΥ",
+      "dimos": "Ηρακλείου",
+      "nomos": "",
+      "edra": "ΗΡΑΚΛΕΙΟΥ (Δ. Ηρακλείου)",
+      "titloi": "308",
+      "prosonta": "001, 006",
+      "entopiotita": "06",
+      "total_slots": 4,
+      "appointed": 2,
+      "vacant": 2
+    },
+    {
       "kod_thesis": "715",
       "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΙΟΝΙΩΝ ΝΗΣΩΝ",
       "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
@@ -960,21 +1275,6 @@
       "entopiotita": "06",
       "total_slots": 3,
       "appointed": 1,
-      "vacant": 2
-    },
-    {
-      "kod_thesis": "768",
-      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΝΟΤΙΟΥ ΑΙΓΑΙΟΥ",
-      "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
-      "perifereia": "ΣΥΡΟΥ",
-      "dimos": "",
-      "nomos": "Σύρος",
-      "edra": "ΣΥΡΟΥ (ν. Σύρος)",
-      "titloi": "308",
-      "prosonta": "001, 006",
-      "entopiotita": "06",
-      "total_slots": 4,
-      "appointed": 2,
       "vacant": 2
     },
     {
@@ -1308,6 +1608,21 @@
       "vacant": 2
     },
     {
+      "kod_thesis": "1791",
+      "foreas": "ΓΕΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑ ΑΙΓΑΙΟΥ ΚΑΙ ΝΗΣΙΩΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΛΕΣΒΟΥ",
+      "dimos": "",
+      "nomos": "Λέσβος",
+      "edra": "ΛΕΣΒΟΥ (ν. Λέσβος)",
+      "titloi": "329",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 5,
+      "appointed": 3,
+      "vacant": 2
+    },
+    {
       "kod_thesis": "1828",
       "foreas": "ΔΗΜΟΣ ΡΟΔΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -1335,6 +1650,21 @@
       "entopiotita": "06",
       "total_slots": 3,
       "appointed": 1,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "1851",
+      "foreas": "ΔΗΜΟΣ ΧΑΝΙΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΧΑΝΙΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΧΑΝΙΩΝ",
+      "titloi": "329",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 5,
+      "appointed": 3,
       "vacant": 2
     },
     {
@@ -1428,6 +1758,21 @@
       "vacant": 2
     },
     {
+      "kod_thesis": "1890",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ — ΓΕΝΙΚΟ ΕΠΙΤΕΛΕΙΟ ΑΕΡΟΠΟΡΙΑΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
+      "vacant": 2
+    },
+    {
       "kod_thesis": "1891",
       "foreas": "ΕΙΔΙΚΟΣ ΔΙΑΒΑΘΜΙΔΙΚΟΣ ΣΥΝΔΕΣΜΟΣ ΝΟΜΟΥ ΑΤΤΙΚΗΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -1443,6 +1788,21 @@
       "vacant": 2
     },
     {
+      "kod_thesis": "1936",
+      "foreas": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 4,
+      "appointed": 2,
+      "vacant": 2
+    },
+    {
       "kod_thesis": "1945",
       "foreas": "ΟΡΓΑΝΙΣΜΟΣ ΔΙΑΧΕΙΡΙΣΗΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ ΠΟΛΙΤΙΣΤΙΚΩΝ ΠΟΡΩΝ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -1455,6 +1815,21 @@
       "entopiotita": "",
       "total_slots": 2,
       "appointed": 0,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "1963",
+      "foreas": "ΡΥΘΜΙΣΤΙΚΗ ΑΡΧΗ ΑΠΟΒΛΗΤΩΝ ΕΝΕΡΓΕΙΑΣ ΚΑΙ ΥΔΑΤΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "330",
+      "prosonta": "001, 013, 023",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
       "vacant": 2
     },
     {
@@ -1533,18 +1908,18 @@
       "vacant": 2
     },
     {
-      "kod_thesis": "2026",
-      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΝΟΤΙΟΥ ΑΙΓΑΙΟΥ",
+      "kod_thesis": "2023",
+      "foreas": "ΔΗΜΟΣ ΑΡΡΙΑΝΩΝ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΡΟΔΟΥ",
+      "perifereia": "ΡΟΔΟΠΗΣ",
       "dimos": "",
-      "nomos": "Ρόδος",
-      "edra": "ΡΟΔΟΥ (ν. Ρόδος)",
+      "nomos": "",
+      "edra": "ΡΟΔΟΠΗΣ",
       "titloi": "330",
       "prosonta": "001, 013",
-      "entopiotita": "06",
-      "total_slots": 4,
-      "appointed": 2,
+      "entopiotita": "07",
+      "total_slots": 3,
+      "appointed": 1,
       "vacant": 2
     },
     {
@@ -1590,6 +1965,36 @@
       "entopiotita": "",
       "total_slots": 2,
       "appointed": 0,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2199",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αγ. Παρασκευής",
+      "nomos": "",
+      "edra": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αγ. Παρασκευής)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2204",
+      "foreas": "ΑΠΟΚΕΝΤΡΩΜΕΝΗ ΔΙΟΙΚΗΣΗ ΑΤΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Φιλοθέης-Ψυχικού",
+      "nomos": "",
+      "edra": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Φιλοθέης-Ψυχικού)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
       "vacant": 2
     },
     {
@@ -1653,21 +2058,6 @@
       "vacant": 2
     },
     {
-      "kod_thesis": "2325",
-      "foreas": "ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΒΙΟΜΗΧΑΝΙΚΗΣ ΕΡΕΥΝΑΣ ΤΕΧΝΟΛΟΓΙΚΗΣ ΑΝΑΠΤΥΞΗΣ ΚΑΙ ΕΡΓΑΣΤΗΡΙΑΚΩΝ ΔΟΚΙΜΩΝ ΠΙΣΤΟΠΟΙΗΣΗΣ ΚΑΙ ΠΟΙΟΤΗΤΑΣ (ΕΒΕΤΑΜ)",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
-      "perifereia": "ΜΑΓΝΗΣΙΑΣ",
-      "dimos": "Βόλου",
-      "nomos": "",
-      "edra": "ΜΑΓΝΗΣΙΑΣ (Δ. Βόλου)",
-      "titloi": "340",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 6,
-      "appointed": 4,
-      "vacant": 2
-    },
-    {
       "kod_thesis": "2331",
       "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΠΕΛΟΠΟΝΝΗΣΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -1728,36 +2118,6 @@
       "vacant": 2
     },
     {
-      "kod_thesis": "2393",
-      "foreas": "ΥΠΟΥΡΓΕΙΟ ΝΑΥΤΙΛΙΑΣ ΚΑΙ ΝΗΣΙΩΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΠΕΙΡΑΙΩΣ",
-      "dimos": "",
-      "nomos": "",
-      "edra": "ΠΕΙΡΑΙΩΣ",
-      "titloi": "341",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 5,
-      "appointed": 3,
-      "vacant": 2
-    },
-    {
-      "kod_thesis": "2397",
-      "foreas": "ΔΗΜΟΣ ΑΧΑΡΝΩΝ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΑΝΑΤΟΛΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "dimos": "",
-      "nomos": "",
-      "edra": "ΑΝΑΤΟΛΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "titloi": "342",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 5,
-      "appointed": 3,
-      "vacant": 2
-    },
-    {
       "kod_thesis": "2400",
       "foreas": "ΔΗΜΟΣ ΜΑΡΚΟΠΟΥΛΟΥ ΜΕΣΟΓΑΙΑΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -1803,21 +2163,6 @@
       "vacant": 2
     },
     {
-      "kod_thesis": "2458",
-      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "dimos": "Ελευσίνας",
-      "nomos": "",
-      "edra": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ (Δ. Ελευσίνας)",
-      "titloi": "342",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 7,
-      "appointed": 5,
-      "vacant": 2
-    },
-    {
       "kod_thesis": "2466",
       "foreas": "ΔΗΜΟΣ ΠΕΡΙΣΤΕΡΙΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -1830,6 +2175,21 @@
       "entopiotita": "",
       "total_slots": 2,
       "appointed": 0,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2478",
+      "foreas": "ΔΗΜΟΣ ΚΑΡΠΕΝΗΣΙΟΥ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΕΥΡΥΤΑΝΙΑΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΕΥΡΥΤΑΝΙΑΣ",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 4,
+      "appointed": 2,
       "vacant": 2
     },
     {
@@ -1848,18 +2208,33 @@
       "vacant": 2
     },
     {
-      "kod_thesis": "2621",
-      "foreas": "ΔΗΜΟΣ ΔΥΤΙΚΗΣ ΛΕΣΒΟΥ",
+      "kod_thesis": "2606",
+      "foreas": "ΔΗΜΟΣ ΕΥΡΩΤΑ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΛΕΣΒΟΥ",
+      "perifereia": "ΛΑΚΩΝΙΑΣ",
       "dimos": "",
-      "nomos": "Λέσβος",
-      "edra": "ΛΕΣΒΟΥ (ν. Λέσβος)",
+      "nomos": "",
+      "edra": "ΛΑΚΩΝΙΑΣ",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "07",
+      "total_slots": 3,
+      "appointed": 1,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2619",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΛΑΣΙΘΙΟΥ",
+      "dimos": "Αγ. Νικολάου",
+      "nomos": "",
+      "edra": "ΛΑΣΙΘΙΟΥ (Δ. Αγ. Νικολάου)",
       "titloi": "342",
       "prosonta": "001, 013",
       "entopiotita": "06",
-      "total_slots": 6,
-      "appointed": 4,
+      "total_slots": 3,
+      "appointed": 1,
       "vacant": 2
     },
     {
@@ -1908,6 +2283,36 @@
       "vacant": 2
     },
     {
+      "kod_thesis": "2710",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΣΥΡΟΥ",
+      "dimos": "",
+      "nomos": "Σύρος",
+      "edra": "ΣΥΡΟΥ (ν. Σύρος)",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 6,
+      "appointed": 4,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2740",
+      "foreas": "ΔΗΜΟΣ ΧΑΝΙΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΧΑΝΙΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΧΑΝΙΩΝ",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 5,
+      "appointed": 3,
+      "vacant": 2
+    },
+    {
       "kod_thesis": "2745",
       "foreas": "ΟΡΓΑΝΙΣΜΟΣ ΑΝΑΠΤΥΞΗΣ ΚΡΗΤΗΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
@@ -1920,6 +2325,51 @@
       "entopiotita": "06",
       "total_slots": 2,
       "appointed": 0,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2936",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΚΟΙΝΩΝΙΚΗΣ ΣΥΝΟΧΗΣ ΚΑΙ ΟΙΚΟΓΕΝΕΙΑΣ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2940",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
+      "vacant": 2
+    },
+    {
+      "kod_thesis": "2953",
+      "foreas": "ΚΕΝΤΡΙΚΗ ΕΝΩΣΗ ΕΠΙΜΕΛΗΤΗΡΙΩΝ ΕΛΛΑΔΑΣ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 1,
       "vacant": 2
     },
     {
@@ -2328,6 +2778,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "704",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
+      "perifereia": "ΚΑΣΤΟΡΙΑΣ",
+      "dimos": "Καστοριάς",
+      "nomos": "",
+      "edra": "ΚΑΣΤΟΡΙΑΣ (Δ. Καστοριάς)",
+      "titloi": "308",
+      "prosonta": "001, 006",
+      "entopiotita": "06",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "710",
       "foreas": "ΔΗΜΟΣ ΒΟΡΕΙΑΣ ΚΕΡΚΥΡΑΣ",
       "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
@@ -2370,6 +2835,21 @@
       "entopiotita": "06",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "713",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΙΟΝΙΩΝ ΝΗΣΩΝ",
+      "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΚΤΗΝΙΑΤΡΩΝ",
+      "perifereia": "ΚΕΡΚΥΡΑΣ",
+      "dimos": "",
+      "nomos": "Κέρκυρα",
+      "edra": "ΚΕΡΚΥΡΑΣ (ν. Κέρκυρα)",
+      "titloi": "308",
+      "prosonta": "001, 006",
+      "entopiotita": "06",
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     },
     {
@@ -3378,6 +3858,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "1613",
+      "foreas": "ΕΛΛΗΝΙΚΟ ΚΤΗΜΑΤΟΛΟΓΙΟ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΓΡΟΝΟΜΩΝ ΤΟΠΟΓΡΑΦΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΡΟΔΟΠΗΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΡΟΔΟΠΗΣ",
+      "titloi": "328",
+      "prosonta": "001, 013",
+      "entopiotita": "07",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "1619",
       "foreas": "ΔΗΜΟΣ ΔΥΤΙΚΗΣ ΣΑΜΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΓΡΟΝΟΜΩΝ ΤΟΠΟΓΡΑΦΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -3618,6 +4113,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "1690",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΝΑΤΟΛΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ ΚΑΙ ΘΡΑΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΔΡΑΜΑΣ",
+      "dimos": "Δράμας",
+      "nomos": "",
+      "edra": "ΔΡΑΜΑΣ (Δ. Δράμας)",
+      "titloi": "329",
+      "prosonta": "001, 013",
+      "entopiotita": "07",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "1701",
       "foreas": "ΔΗΜΟΣ ΙΣΤΙΑΙΑΣΑΙΔΗΨΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -3738,8 +4248,8 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "1791",
-      "foreas": "ΓΕΝΙΚΗ ΓΡΑΜΜΑΤΕΙΑ ΑΙΓΑΙΟΥ ΚΑΙ ΝΗΣΙΩΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+      "kod_thesis": "1790",
+      "foreas": "ΔΗΜΟΣ ΜΥΤΙΛΗΝΗΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
       "perifereia": "ΛΕΣΒΟΥ",
       "dimos": "",
@@ -3748,8 +4258,8 @@
       "titloi": "329",
       "prosonta": "001, 013",
       "entopiotita": "06",
-      "total_slots": 5,
-      "appointed": 4,
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     },
     {
@@ -4113,21 +4623,6 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "1890",
-      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ — ΓΕΝΙΚΟ ΕΠΙΤΕΛΕΙΟ ΑΕΡΟΠΟΡΙΑΣ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "dimos": "",
-      "nomos": "",
-      "edra": "ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "titloi": "330",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 3,
-      "appointed": 2,
-      "vacant": 1
-    },
-    {
       "kod_thesis": "1892",
       "foreas": "ΔΗΜΟΣ ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -4185,6 +4680,21 @@
       "entopiotita": "07",
       "total_slots": 2,
       "appointed": 1,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "1896",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΝΑΤΟΛΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ ΚΑΙ ΘΡΑΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΕΒΡΟΥ",
+      "dimos": "Αλεξανδρούπολης",
+      "nomos": "",
+      "edra": "ΕΒΡΟΥ (Δ. Αλεξανδρούπολης)",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "07",
+      "total_slots": 5,
+      "appointed": 4,
       "vacant": 1
     },
     {
@@ -4338,21 +4848,6 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "1936",
-      "foreas": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "dimos": "",
-      "nomos": "",
-      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "titloi": "330",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 4,
-      "appointed": 3,
-      "vacant": 1
-    },
-    {
       "kod_thesis": "1938",
       "foreas": "ΔΗΜΟΣ ΔΑΦΝΗΣΥΜΗΤΤΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -4428,6 +4923,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "1950",
+      "foreas": "ΤΑΜΕΙΟ ΧΡΗΜΑΤΟΔΟΤΗΣΗΣ ΔΙΚΑΣΤΙΚΩΝ ΚΤΙΡΙΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "1951",
       "foreas": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
@@ -4473,6 +4983,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "1959",
+      "foreas": "ΕΛΛΗΝΙΚΗ ΑΣΤΥΝΟΜΙΑ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "1961",
       "foreas": "ΗΛΕΚΤΡΟΝΙΚΟΣ ΕΘΝΙΚΟΣ ΦΟΡΕΑΣ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -4485,21 +5010,6 @@
       "entopiotita": "",
       "total_slots": 1,
       "appointed": 0,
-      "vacant": 1
-    },
-    {
-      "kod_thesis": "1963",
-      "foreas": "ΡΥΘΜΙΣΤΙΚΗ ΑΡΧΗ ΑΠΟΒΛΗΤΩΝ ΕΝΕΡΓΕΙΑΣ ΚΑΙ ΥΔΑΤΩΝ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
-      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "dimos": "Αθηναίων",
-      "nomos": "",
-      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
-      "titloi": "330",
-      "prosonta": "001, 013, 023",
-      "entopiotita": "",
-      "total_slots": 3,
-      "appointed": 2,
       "vacant": 1
     },
     {
@@ -4758,6 +5268,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "2008",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΝΑΤΟΛΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ ΚΑΙ ΘΡΑΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΞΑΝΘΗΣ",
+      "dimos": "Ξάνθης",
+      "nomos": "",
+      "edra": "ΞΑΝΘΗΣ (Δ. Ξάνθης)",
+      "titloi": "330",
+      "prosonta": "001, 013",
+      "entopiotita": "07",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "2009",
       "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -4890,21 +5415,6 @@
       "entopiotita": "06",
       "total_slots": 2,
       "appointed": 1,
-      "vacant": 1
-    },
-    {
-      "kod_thesis": "2023",
-      "foreas": "ΔΗΜΟΣ ΑΡΡΙΑΝΩΝ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΡΟΔΟΠΗΣ",
-      "dimos": "",
-      "nomos": "",
-      "edra": "ΡΟΔΟΠΗΣ",
-      "titloi": "330",
-      "prosonta": "001, 013",
-      "entopiotita": "07",
-      "total_slots": 3,
-      "appointed": 2,
       "vacant": 1
     },
     {
@@ -5085,6 +5595,21 @@
       "entopiotita": "07",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2055",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ — ΓΕΝΙΚΟ ΕΠΙΤΕΛΕΙΟ ΑΕΡΟΠΟΡΙΑΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΝΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Γλυφάδας",
+      "nomos": "",
+      "edra": "ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Γλυφάδας)",
+      "titloi": "331",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     },
     {
@@ -5283,21 +5808,6 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "2199",
-      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
-      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "dimos": "Αγ. Παρασκευής",
-      "nomos": "",
-      "edra": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αγ. Παρασκευής)",
-      "titloi": "340",
-      "prosonta": "001, 013",
-      "entopiotita": "",
-      "total_slots": 3,
-      "appointed": 2,
-      "vacant": 1
-    },
-    {
       "kod_thesis": "2200",
       "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
@@ -5310,6 +5820,21 @@
       "entopiotita": "",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2201",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αμαρουσίου",
+      "nomos": "",
+      "edra": "ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αμαρουσίου)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     },
     {
@@ -5718,6 +6243,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "2267",
+      "foreas": "ΠΕΡΙΦΕΡΕΙΑ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΑΣΤΟΡΙΑΣ",
+      "dimos": "Καστοριάς",
+      "nomos": "",
+      "edra": "ΚΑΣΤΟΡΙΑΣ (Δ. Καστοριάς)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 4,
+      "appointed": 3,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "2269",
       "foreas": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -5748,6 +6288,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "2276",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΑΝΑΠΤΥΞΗΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 5,
+      "appointed": 4,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "2280",
       "foreas": "ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -5760,6 +6315,36 @@
       "entopiotita": "",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2283",
+      "foreas": "ΕΛΛΗΝΙΚΟ ΜΕΤΡΟ Α.Ε.",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Αθηναίων",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Αθηναίων)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 4,
+      "appointed": 3,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2287",
+      "foreas": "ΕΛΛΗΝΙΚΑ ΑΜΥΝΤΙΚΑ ΣΥΣΤΗΜΑΤΑ ΑΒΕΕ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "Δάφνης-Υμηττού",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ (Δ. Δάφνης-Υμηττού)",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 2,
       "vacant": 1
     },
     {
@@ -5865,6 +6450,21 @@
       "entopiotita": "06",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2297",
+      "foreas": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ ΑΠΟΧΕΤΕΥΣΗΣ (Δ. Ε.Υ.Α.) ΚΙΛΚΙΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
+      "perifereia": "ΚΙΛΚΙΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΙΛΚΙΣ",
+      "titloi": "340",
+      "prosonta": "001, 013",
+      "entopiotita": "07",
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     },
     {
@@ -6888,6 +7488,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "2543",
+      "foreas": "ΔΗΜΟΣ ΓΑΛΑΤΣΙΟΥ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "2544",
       "foreas": "ΔΗΜΟΣ ΖΩΓΡΑΦΟΥ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
@@ -6920,6 +7535,21 @@
     {
       "kod_thesis": "2578",
       "foreas": "ΔΗΜΟΣ ΒΟΡΕΙΑΣ ΚΕΡΚΥΡΑΣ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΚΕΡΚΥΡΑΣ",
+      "dimos": "",
+      "nomos": "Κέρκυρα",
+      "edra": "ΚΕΡΚΥΡΑΣ (ν. Κέρκυρα)",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2579",
+      "foreas": "ΔΗΜΟΣ ΚΕΝΤΡΙΚΗΣ ΚΕΡΚΥΡΑΣ ΚΑΙ ΔΙΑΠΟΝΤΙΩΝ ΝΗΣΩΝ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
       "perifereia": "ΚΕΡΚΥΡΑΣ",
       "dimos": "",
@@ -7038,8 +7668,8 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "2606",
-      "foreas": "ΔΗΜΟΣ ΕΥΡΩΤΑ",
+      "kod_thesis": "2607",
+      "foreas": "ΔΗΜΟΣ ΜΟΝΕΜΒΑΣΙΑΣ",
       "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
       "perifereia": "ΛΑΚΩΝΙΑΣ",
       "dimos": "",
@@ -7048,8 +7678,8 @@
       "titloi": "342",
       "prosonta": "001, 013",
       "entopiotita": "07",
-      "total_slots": 3,
-      "appointed": 2,
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     },
     {
@@ -7230,6 +7860,21 @@
       "entopiotita": "",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2664",
+      "foreas": "ΔΗΜΟΣ ΠΑΡΟΥ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "perifereia": "ΠΑΡΟΥ",
+      "dimos": "",
+      "nomos": "Πάρος",
+      "edra": "ΠΑΡΟΥ (ν. Πάρος)",
+      "titloi": "342",
+      "prosonta": "001, 013",
+      "entopiotita": "06",
+      "total_slots": 3,
+      "appointed": 2,
       "vacant": 1
     },
     {
@@ -7428,18 +8073,18 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "2740",
-      "foreas": "ΔΗΜΟΣ ΧΑΝΙΩΝ",
-      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "kod_thesis": "2741",
+      "foreas": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ ΑΠΟΧΕΤΕΥΣΗΣ (Δ. Ε.Υ.Α.) ΔΗΜΟΥ ΧΑΝΙΩΝ",
+      "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΙΔΑΧ)*",
       "perifereia": "ΧΑΝΙΩΝ",
       "dimos": "",
       "nomos": "",
       "edra": "ΧΑΝΙΩΝ",
       "titloi": "342",
-      "prosonta": "001, 013",
+      "prosonta": "001, 013, 021, 029",
       "entopiotita": "06",
-      "total_slots": 5,
-      "appointed": 4,
+      "total_slots": 4,
+      "appointed": 3,
       "vacant": 1
     },
     {
@@ -7488,6 +8133,21 @@
       "vacant": 1
     },
     {
+      "kod_thesis": "2833",
+      "foreas": "ΟΡΓΑΝΙΣΜΟΣ ΕΛΛΗΝΙΚΩΝ ΓΕΩΡΓΙΚΩΝ ΑΣΦΑΛΙΣΕΩΝ (ΕΛ.Γ.Α.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (HARDWARE) (ΙΔΑΧ)*",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
       "kod_thesis": "2905",
       "foreas": "ΑΝΩΤΑΤΟ ΣΥΜΒΟΥΛΙΟ ΕΠΙΛΟΓΗΣ ΠΡΟΣΩΠΙΚΟΥ (Α.Σ.Ε.Π.)",
       "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
@@ -7503,8 +8163,23 @@
       "vacant": 1
     },
     {
-      "kod_thesis": "2936",
-      "foreas": "ΥΠΟΥΡΓΕΙΟ ΚΟΙΝΩΝΙΚΗΣ ΣΥΝΟΧΗΣ ΚΑΙ ΟΙΚΟΓΕΝΕΙΑΣ",
+      "kod_thesis": "2906",
+      "foreas": "ΑΝΩΤΑΤΟ ΣΥΜΒΟΥΛΙΟ ΕΠΙΛΟΓΗΣ ΠΡΟΣΩΠΙΚΟΥ (Α.Σ.Ε.Π.)",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "348, 349",
+      "prosonta": "036",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2938",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΚΑΙ ΕΝΕΡΓΕΙΑΣ",
       "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
       "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
       "dimos": "",
@@ -7530,6 +8205,21 @@
       "entopiotita": "",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "2997",
+      "foreas": "ΔΗΜΟΣ ΠΕΙΡΑΙΩΣ",
+      "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWAREHARDWARE)",
+      "perifereia": "ΠΕΙΡΑΙΩΣ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΠΕΙΡΑΙΩΣ",
+      "titloi": "348, 349",
+      "prosonta": "",
+      "entopiotita": "",
+      "total_slots": 3,
+      "appointed": 2,
       "vacant": 1
     },
     {
@@ -7560,6 +8250,21 @@
       "entopiotita": "",
       "total_slots": 1,
       "appointed": 0,
+      "vacant": 1
+    },
+    {
+      "kod_thesis": "3141",
+      "foreas": "ΥΠΟΥΡΓΕΙΟ ΔΙΚΑΙΟΣΥΝΗΣ/ ΑΥΤΟΤΕΛΕΣ ΓΡΑΦΕΙΟ ΠΡΟΣΤΑΣΙΑΣ ΑΝΗΛΙΚΩΝ ΘΥΜΑΤΩΝ «ΣΠΙΤΙ ΤΟΥ ΠΑΙΔΙΟΥ» ΑΘΗΝΑΣ",
+      "eidikotita": "ΠΕ ΨΥΧΟΛΟΓΩΝ ΕΙΔ. ΠΕ ΨΥΧΟΛΟΓΩΝ",
+      "perifereia": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "dimos": "",
+      "nomos": "",
+      "edra": "ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
+      "titloi": "355",
+      "prosonta": "001, 019, 038, 039",
+      "entopiotita": "",
+      "total_slots": 2,
+      "appointed": 1,
       "vacant": 1
     }
   ]

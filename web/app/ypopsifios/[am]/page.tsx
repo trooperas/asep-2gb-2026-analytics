@@ -124,27 +124,6 @@ export default function ProfilePage() {
       .then((data) => {
         if (data && data.all) {
           setCandidates(data.all);
-
-          if (slugParam) {
-            const idx = data.all.findIndex(
-              (c: Candidate) => (c.slug || c.eidikotitaSlug) === slugParam
-            );
-            if (idx >= 0) {
-              setActiveIdx(idx);
-              return;
-            }
-          }
-
-          // Προεπιλογή: Άνοιξε την ειδικότητα στην οποία πραγματικά διορίστηκε
-          const appointedIdx = data.all.findIndex(
-            (c: Candidate) => !!c.thesi_diorismou && Boolean(c.appointed_rank)
-          );
-          if (appointedIdx >= 0) {
-            setActiveIdx(appointedIdx);
-          } else {
-            const fallbackIdx = data.all.findIndex((c: Candidate) => !!c.thesi_diorismou);
-            setActiveIdx(fallbackIdx >= 0 ? fallbackIdx : 0);
-          }
         }
       })
       .catch((e) => {
@@ -152,7 +131,7 @@ export default function ProfilePage() {
         setNotFound(true);
       })
       .finally(() => setLoading(false));
-  }, [am, slugParam]);
+  }, [am]);
 
   // 2. Φόρτωση metadata θέσεων
   useEffect(() => {
@@ -170,34 +149,78 @@ export default function ProfilePage() {
     });
   }, []);
 
-  // =========================================================
-  // ΑΚΡΙΒΗΣ ΕΛΕΓΧΟΣ ΠΟΛΛΑΠΛΩΝ ΕΙΔΙΚΟΤΗΤΩΝ (Αποφυγή undefined === undefined)
-  // =========================================================
-  const { trueAppointedIndex, appointedPositionKod } = useMemo(() => {
+  // =========================================================================
+  // ΑΛΓΟΡΙΘΜΟΣ ΑΚΡΙΒΟΥΣ ΤΑΥΤΟΠΟΙΗΣΗΣ ΕΙΔΙΚΟΤΗΤΑΣ ΔΙΟΡΙΣΜΟΥ (Zero guessing)
+  // =========================================================================
+  const { trueAppointedIndex, appointedSpecialtyName, appointedPositionKod } = useMemo(() => {
     if (!candidates || candidates.length === 0) {
-      return { trueAppointedIndex: -1, appointedPositionKod: "" };
+      return { trueAppointedIndex: -1, appointedSpecialtyName: "", appointedPositionKod: "" };
     }
 
-    // 1. Προτεραιότητα: η εγγραφή που έχει ΚΑΙ thesi_diorismou ΚΑΙ appointed_rank
-    let idx = candidates.findIndex((c) => Boolean(c.thesi_diorismou && c.appointed_rank));
+    // Εντοπισμός κωδικού θέσης
+    const recordWithSeat = candidates.find((c) => Boolean(c.thesi_diorismou && String(c.thesi_diorismou).trim() !== "0"));
+    if (!recordWithSeat) {
+      return { trueAppointedIndex: -1, appointedSpecialtyName: "", appointedPositionKod: "" };
+    }
+    const targetSeat = String(recordWithSeat.thesi_diorismou).replace(/\.0$/, "").trim();
 
-    // 2. Αν όχι, έλεγξε αν η thesi_diorismou υπάρχει στις προτιμήσεις (protimiseis)
-    if (idx === -1) {
-      idx = candidates.findIndex((c) => {
-        if (!c.thesi_diorismou) return false;
-        const thesiStr = String(c.thesi_diorismou).replace(/\.0$/, "").trim();
-        return Boolean(c.protimiseis && c.protimiseis.includes(thesiStr));
-      });
+    let bestIdx = -1;
+    let highestScore = -1;
+
+    candidates.forEach((c, idx) => {
+      let score = 0;
+
+      // 1. Περιλαμβάνεται στις προτιμήσεις αυτής της συγκεκριμένης αίτησης; (+50)
+      if (c.protimiseis) {
+        const cleanProtimiseis = c.protimiseis.split(/[\s,;]+/).map((s) => s.replace(/\.0$/, "").trim());
+        if (cleanProtimiseis.includes(targetSeat)) score += 50;
+      }
+
+      // 2. Περιλαμβάνεται στις θέσεις της ομάδας αυτής της ειδικότητας; (+40)
+      if (c.theseis_idias_omadas) {
+        const cleanOmada = c.theseis_idias_omadas.split(/[\s,;]+/).map((s) => s.replace(/\.0$/, "").trim());
+        if (cleanOmada.includes(targetSeat)) score += 40;
+      }
+
+      // 3. Συμφωνεί με τον κλάδο/ειδικότητα της θέσης στο positionsMap; (+30)
+      const pInfo = positionsMap[targetSeat];
+      if (pInfo) {
+        const pDesc = `${pInfo.klados || ""} ${pInfo.eidikotita || ""}`.toLowerCase();
+        const cDesc = `${c.eidikotita || ""} ${c.omada_prosonton || ""}`.toLowerCase();
+        const keywords = cDesc.split(/[\s\-–,]+/).filter((w) => w.length > 4);
+        if (keywords.some((k) => pDesc.includes(k))) score += 30;
+      }
+
+      // 4. Αν η συγκεκριμένη γραμμή έχει appointed_rank > 0 (+10)
+      if (c.appointed_rank && Number(c.appointed_rank) > 0) score += 10;
+
+      if (score > highestScore) {
+        highestScore = score;
+        bestIdx = idx;
+      }
+    });
+
+    if (bestIdx === -1 || highestScore === 0) {
+      bestIdx = candidates.findIndex((c) => Boolean(c.thesi_diorismou && c.appointed_rank));
+      if (bestIdx === -1) bestIdx = candidates.findIndex((c) => Boolean(c.thesi_diorismou));
     }
 
-    // 3. Fallback: η πρώτη εγγραφή με thesi_diorismou
-    if (idx === -1) {
-      idx = candidates.findIndex((c) => Boolean(c.thesi_diorismou));
-    }
+    return {
+      trueAppointedIndex: bestIdx,
+      appointedSpecialtyName: bestIdx >= 0 ? candidates[bestIdx].eidikotita : "",
+      appointedPositionKod: targetSeat,
+    };
+  }, [candidates, positionsMap]);
 
-    const posKod = idx >= 0 ? String(candidates[idx].thesi_diorismou).replace(/\.0$/, "").trim() : "";
-    return { trueAppointedIndex: idx, appointedPositionKod: posKod };
-  }, [candidates]);
+  // Αυτόματο άνοιγμα στην πραγματική ειδικότητα διορισμού
+  useEffect(() => {
+    if (trueAppointedIndex >= 0 && !slugParam) {
+      setActiveIdx(trueAppointedIndex);
+    } else if (slugParam && candidates.length > 0) {
+      const idx = candidates.findIndex((c) => (c.slug || c.eidikotitaSlug) === slugParam);
+      if (idx >= 0) setActiveIdx(idx);
+    }
+  }, [trueAppointedIndex, slugParam, candidates]);
 
   if (loading) {
     return (
@@ -221,58 +244,46 @@ export default function ProfilePage() {
   const candidate = candidates[activeIdx];
   const cleanAmString = String(candidate.am).replace(/\.0$/, "");
 
-  // ΕΙΝΑΙ ΑΥΤΗ Η ΕΝΕΡΓΗ ΕΙΔΙΚΟΤΗΤΑ ΕΚΕΙΝΗ ΤΟΥ ΔΙΟΡΙΣΜΟΥ;
-  // Ελέγχουμε με το Index για να μην υπάρχει καμία πιθανότητα string/slug bug
-  const isAppointedInCurrent = activeIdx === trueAppointedIndex && Boolean(candidate.thesi_diorismou);
+  // Κατάσταση τρέχουσας καρτέλας
+  const isAppointedInCurrent = activeIdx === trueAppointedIndex;
   const isAppointedInOther = trueAppointedIndex >= 0 && activeIdx !== trueAppointedIndex;
   const trueAppointedCand = trueAppointedIndex >= 0 ? candidates[trueAppointedIndex] : null;
 
   const cleanThesiKod = isAppointedInCurrent ? appointedPositionKod : "";
 
   // =========================================================
-  // ΑΔΙΑΒΛΗΤΟΣ ΜΑΘΗΜΑΤΙΚΟΣ ΕΛΕΓΧΟΣ ΕΝΤΟΠΙΟΤΗΤΑΣ
+  // ΑΔΙΑΒΛΗΤΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΕΝΤΟΠΙΟΤΗΤΑΣ & ΜΟΡΙΩΝ
   // =========================================================
   const rawScore = Number(candidate.vathmologia || 0);
   const writtenScore = Number(candidate.synolo_graptou || 0);
-  const scoreDiff = rawScore - writtenScore; // Διαφορά: Προσαυξήσεις + Εντοπιότητα
+  const scoreDiff = rawScore - writtenScore;
 
-  const hasEntopCode = Boolean(
-    candidate.kod_entopiotitas &&
-    candidate.kod_entopiotitas !== "-" &&
-    candidate.kod_entopiotitas !== "0"
-  );
+  // Αν η διαφορά βαθμού από το γραπτό είναι >= 18 μόρια, περιλαμβάνει 100% Εντοπιότητα (+20 ή +40)
+  const isLocalityScore = scoreDiff >= 18;
 
-  // Αν η διαφορά βαθμολογίας από το γραπτό είναι >= 18 μόρια, περιλαμβάνει 100% εντοπιότητα (+20 ή +40)
-  const isEntopiotitaScore = scoreDiff >= 18;
-
-  // Πραγματικά μόρια διορισμού & ανάλυση
   let trueAppointmentScore = rawScore;
   let usedEntopiotitaForSeat = false;
   let bypassedEntopiotita = false;
 
   if (isAppointedInCurrent) {
-    if (isEntopiotitaScore) {
-      // Είχε βαθμό με εντοπιότητα. Τη χρησιμοποίησε στη θέση;
-      // Στην περίπτωση της Μιχαηλίδου η θέση #1531 δεν είχε εντοπιότητα, άρα αφαιρούνται τα 40 μόρια:
+    if (isLocalityScore) {
+      // Ελέγχουμε αν η θέση ήταν όντως εντοπιότητας ή γενικής σειράς (περίπτωση Μιχαηλίδου)
       const posData = positionsMap[cleanThesiKod];
-      const posHasLocality = Boolean(posData?.kod_entopiotita && posData.kod_entopiotita !== "-");
+      const posRequiresLocality = Boolean(posData?.kod_entopiotita && posData.kod_entopiotita !== "-");
 
-      if (posData && !posHasLocality) {
-        // Η θέση ήταν Γενικής Σειράς (Μιχαηλίδου)
+      if (posData && !posRequiresLocality) {
+        // Η θέση ήταν Γενικής Σειράς χωρίς εντοπιότητα
         bypassedEntopiotita = true;
         const entopBonus = scoreDiff >= 35 ? 40 : 20;
         trueAppointmentScore = Math.max(0, rawScore - entopBonus);
       } else {
-        // Η θέση κατακτήθηκε με εντοπιότητα (Screenshot 2: 136,44 μόρια)
+        // Η θέση κατακτήθηκε με εντοπιότητα (+40 μόρια)
         usedEntopiotitaForSeat = true;
       }
     }
   }
 
-  // Υπολογισμός διαφοράς σειράς (π.χ. από #77 στον πίνακα -> #73 στους διοριστέους)
-  const rankGain = (candidate.aa && candidate.appointed_rank)
-    ? candidate.aa - candidate.appointed_rank
-    : 0;
+  const rankGain = candidate.aa && candidate.appointed_rank ? candidate.aa - candidate.appointed_rank : 0;
 
   return (
     <main
@@ -328,7 +339,7 @@ export default function ProfilePage() {
             ● {isAppointedInCurrent
                 ? "Διοριστέος σε αυτή την ειδικότητα"
                 : isAppointedInOther
-                ? `Διορίστηκε σε άλλη ειδικότητα (${trueAppointedCand?.eidikotita})`
+                ? "Κατοχύρωση Ανώτερης Προτίμησης"
                 : "Μη διοριστέος"}
           </div>
 
@@ -382,7 +393,7 @@ export default function ProfilePage() {
             </div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               {candidates.map((c, i) => {
-                const isThisTheOnlyAppointedOne = i === trueAppointedIndex;
+                const isThisAppointed = i === trueAppointedIndex;
 
                 return (
                   <button
@@ -414,7 +425,7 @@ export default function ProfilePage() {
                         ? c.eidikotita.substring(0, 50) + "..."
                         : c.eidikotita}
                     </span>
-                    {isThisTheOnlyAppointedOne && (
+                    {isThisAppointed && (
                       <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold border border-emerald-500/30">
                         ✓ ΔΙΟΡΙΣΜΟΣ
                       </span>
@@ -426,7 +437,7 @@ export default function ProfilePage() {
           </div>
         )}
 
-        {/* Μήνυμα όταν βλέπει την ειδικότητα στην οποία ΔΕΝ διορίστηκε */}
+        {/* Μήνυμα όταν βλέπει ειδικότητα στην οποία δεν συμμετείχε στη ροή γιατί διορίστηκε σε άλλη */}
         {isAppointedInOther && trueAppointedCand && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -434,8 +445,8 @@ export default function ProfilePage() {
             className="mb-6 p-4 rounded-xl border border-cyan-500/30 bg-cyan-950/20 flex items-center justify-between gap-4"
           >
             <div className="text-xs sm:text-sm text-slate-300">
-              ℹ️ Στην παρούσα ειδικότητα ο υποψήφιος είναι <strong>επιλαχών (θέση #{candidate.aa})</strong>. 
-              Έχει κατοχυρώσει διορισμό στην ειδικότητα <strong>«{trueAppointedCand.eidikotita}»</strong> (Θέση #{appointedPositionKod}).
+              ℹ️ Ο υποψήφιος <strong>δεν συμμετείχε στην τελική ροή διορισμού αυτής της ειδικότητας</strong>, 
+              καθώς κατοχύρωσε θέση ανώτερης προτίμησής του στην ειδικότητα <strong>«{appointedSpecialtyName}»</strong> (Θέση #{appointedPositionKod}).
             </div>
             <button
               onClick={() => setActiveIdx(trueAppointedIndex)}
@@ -514,7 +525,6 @@ export default function ProfilePage() {
                   )}
                 </div>
 
-                {/* Εξήγηση μεταβολής θέσης (π.χ. από #77 σε #73) */}
                 {rankGain > 0 && !bypassedEntopiotita && (
                   <div className="text-[10px] text-emerald-400 mt-1 font-mono">
                     ↑ +{rankGain} θέσεις (προηγούμενοι υποψήφιοι δεν δήλωσαν τη θέση ή διορίστηκαν αλλού)
@@ -546,8 +556,8 @@ export default function ProfilePage() {
                 <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">
                   Κατάσταση Ειδικότητας
                 </div>
-                <div className="text-xl sm:text-2xl font-bold font-mono text-slate-300">
-                  {isAppointedInOther ? "Επιλαχών εδώ" : "Μη Διοριστέος"}
+                <div className="text-sm sm:text-base font-bold font-mono text-cyan-300">
+                  {isAppointedInOther ? "Ανώτερη Προτίμηση" : "Μη Διοριστέος"}
                 </div>
               </div>
               <div className="text-[10px] text-slate-400 mt-2">
@@ -624,7 +634,7 @@ export default function ProfilePage() {
           )}
         </div>
 
-        {/* Επεξήγηση όταν δεν χρησιμοποιήθηκε η εντοπιότητα (Μιχαηλίδου) */}
+        {/* Επεξήγηση διαφοράς μορίων (Μιχαηλίδου) */}
         {bypassedEntopiotita && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -653,22 +663,26 @@ export default function ProfilePage() {
           </motion.div>
         )}
 
-        {/* 1. ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ */}
-        <AllocationJourney
-          protimiseisStr={candidate.protimiseis}
-          thesiDiorismou={isAppointedInCurrent ? cleanThesiKod : ""}
-          candidateScore={isAppointedInCurrent ? trueAppointmentScore : candidate.vathmologia}
-        />
+        {/* 1. ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Μόνο στην ειδικότητα διορισμού) */}
+        {isAppointedInCurrent && (
+          <AllocationJourney
+            protimiseisStr={candidate.protimiseis}
+            thesiDiorismou={cleanThesiKod}
+            candidateScore={trueAppointmentScore}
+          />
+        )}
 
-        {/* === Epilaxontes Tracker === */}
-        <EpilaxontesTracker
-          isDioristaios={isAppointedInCurrent}
-          candidateScore={candidate.vathmologia}
-          candidateRank={candidate.aa}
-          protimiseisStr={candidate.protimiseis}
-          intelMap={intelMap}
-          positionsMap={positionsMap}
-        />  
+        {/* === Epilaxontes Tracker (Μόνο αν ο υποψήφιος δεν έχει διοριστεί σε καμία ειδικότητα) === */}
+        {!isAppointedInCurrent && !isAppointedInOther && (
+          <EpilaxontesTracker
+            isDioristaios={false}
+            candidateScore={candidate.vathmologia}
+            candidateRank={candidate.aa}
+            protimiseisStr={candidate.protimiseis}
+            intelMap={intelMap}
+            positionsMap={positionsMap}
+          />
+        )}
 
         {/* 2. ΠΡΟΣΟΜΟΙΩΤΗΣ ΕΝΣΤΑΣΕΩΝ */}
         <div className="mb-12">

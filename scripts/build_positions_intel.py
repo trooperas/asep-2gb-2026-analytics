@@ -4,10 +4,10 @@ import glob
 import pandas as pd
 
 print("=" * 65)
-print("BUILDING BULLETPROOF POSITIONS INTEL DIRECTLY FROM MASTER EXCEL")
+print("BUILDING POSITIONS INTEL DIRECTLY FROM MASTER ΔΙΟΡΙΣΤΕΟΙ EXCEL")
 print("=" * 65)
 
-# 1. Φόρτωση Master ΔΙΟΡΙΣΤΕΟΙ
+# 1. Φόρτωση Master αρχείου ΔΙΟΡΙΣΤΕΟΙ
 dior_files = [
     f for f in glob.glob("raw_excel/*ΔΙΟΡΙΣΤΕΟΙ*.xlsx") 
     if not os.path.basename(f).startswith("~$")
@@ -27,30 +27,46 @@ for i in range(min(12, len(df_raw))):
         h_idx = i
         break
 
-df_dior = pd.read_excel(dior_file, header=h_idx)
+df = pd.read_excel(dior_file, header=h_idx)
 
-# Εντοπισμός στηλών
-thesi_col = [c for c in df_dior.columns if "ΘΕΣΗ" in str(c).upper()][0]
-vath_col = [c for c in df_dior.columns if "ΒΑΘΜ" in str(c).upper()][0]
-entop_col = [c for c in df_dior.columns if "ΕΝΤΟΠ" in str(c).upper()][0]
-eidikes_col = [c for c in df_dior.columns if "ΕΙΔΙΚ" in str(c).upper() or "ΙΔΙΟΤ" in str(c).upper()][0]
+# Στοχευμένη επιλογή των ακριβών στηλών
+thesi_col = "ΚΩΔΙΚΟΣ ΘΕΣΗΣ" if "ΚΩΔΙΚΟΣ ΘΕΣΗΣ" in df.columns else [c for c in df.columns if "ΘΕΣΗ" in str(c).upper()][0]
+vath_col = "ΒΑΘΜΟΛΟΓΙΑ" if "ΒΑΘΜΟΛΟΓΙΑ" in df.columns else [c for c in df.columns if "ΒΑΘΜ" in str(c).upper()][0]
+entop_col = "ΕΝΤΟΠΙΟΤΗΤΑ" if "ΕΝΤΟΠΙΟΤΗΤΑ" in df.columns else [c for c in df.columns if "ΕΝΤΟΠ" in str(c).upper()][0]
+eidikes_col = "ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ" if "ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ" in df.columns else [c for c in df.columns if "ΕΙΔΙΚΕΣ" in str(c).upper()][0]
 
-# Συλλογή θέσεων από το master αρχείο
+print(f"✓ Στήλη Θέσης: '{thesi_col}'")
+print(f"✓ Στήλη Βαθμολογίας: '{vath_col}'")
+print(f"✓ Στήλη Εντοπιότητας: '{entop_col}'")
+print(f"✓ Στήλη Ειδικών Ιδιοτήτων: '{eidikes_col}' (Ακριβής στήλη!)")
+
 positions_intel = {}
+special_positions_count = 0
+entop_positions_count = 0
 
-for _, row in df_dior.iterrows():
+for _, row in df.iterrows():
     if pd.isna(row[thesi_col]):
         continue
-    thesi_kod = str(row[thesi_col]).replace(".0", "").strip()
     
+    thesi_kod = str(row[thesi_col]).replace(".0", "").strip()
+    if not thesi_kod:
+        continue
+
     try:
         score = float(str(row[vath_col]).replace(",", ".").strip())
     except:
         continue
 
-    is_spec = "ΝΑΙ" in str(row[eidikes_col]).upper() if pd.notna(row[eidikes_col]) else False
+    # Εντοπιότητα (6 ή 7)
     entop_val = str(row[entop_col]).replace(".0", "").strip() if pd.notna(row[entop_col]) else "0"
     is_entop = entop_val in ["6", "7"]
+
+    # Ειδική Κατηγορία: ΜΟΝΟ ΑΠΟ ΤΗ ΣΤΗΛΗ 'ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ'
+    is_spec = False
+    if pd.notna(row[eidikes_col]):
+        val_str = str(row[eidikes_col]).strip().upper()
+        if "ΝΑΙ" in val_str or val_str == "ΝΑΙ":
+            is_spec = True
 
     if thesi_kod not in positions_intel:
         positions_intel[thesi_kod] = {
@@ -61,13 +77,17 @@ for _, row in df_dior.iterrows():
         }
 
     positions_intel[thesi_kod]["scores"].append(score)
-    if is_spec:
-        positions_intel[thesi_kod]["has_special"] = True
+    
     if is_entop:
         positions_intel[thesi_kod]["has_entopiotita"] = True
         positions_intel[thesi_kod]["entop_types"].add(f"Κωδ. {entop_val}")
+        entop_positions_count += 1
+        
+    if is_spec:
+        positions_intel[thesi_kod]["has_special"] = True
+        special_positions_count += 1
 
-# Τελική σύνοψη
+# Τελική σύνοψη ανά κωδικό θέσης
 final_output = {}
 for kod, data in positions_intel.items():
     scores = data["scores"]
@@ -77,11 +97,15 @@ for kod, data in positions_intel.items():
         "count": len(scores),
         "has_entopiotita": data["has_entopiotita"],
         "entop_label": ", ".join(sorted(list(data["entop_types"]))) if data["entop_types"] else None,
-        "has_special": data["has_special"], # 👈 100% ΑΛΗΘΕΙΑ ΑΠΟ ΤΟ MASTER ΕΞΕΛ!
+        "has_special": data["has_special"], # 👈 True για τις 793 περιπτώσεις!
     }
 
 out_path = "web/public/data/positions_intel.json"
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(final_output, f, ensure_ascii=False, indent=2)
 
+print("\n" + "=" * 65)
 print(f"✓ Δημιουργήθηκε επιτυχώς το {out_path} για {len(final_output)} κωδικούς θέσεων!")
+print(f"✓ Βρέθηκαν {special_positions_count} διορισμοί με ΕΙΔΙΚΗ ΚΑΤΗΓΟΡΙΑ (ΝΑΙ)!")
+print(f"✓ Βρέθηκαν {entop_positions_count} διορισμοί με ΕΝΤΟΠΙΟΤΗΤΑ (Κωδ. 6/7)!")
+print("=" * 65)

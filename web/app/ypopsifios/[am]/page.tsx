@@ -1,13 +1,13 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { formatVathmologia } from "@/lib/utils";
 import AllocationJourney from "@/components/profile/AllocationJourney";
 import ObjectionSimulator from "@/components/profile/ObjectionSimulator";
-import { Sliders, ChevronDown, ChevronUp, Info, MapPin, CheckCircle2 } from "lucide-react";
+import { Sliders, ChevronDown, ChevronUp, Info, MapPin, CheckCircle2, ArrowRight } from "lucide-react";
 import EpilaxontesTracker from "@/components/profile/EpilaxontesTracker";
 
 interface Candidate {
@@ -108,7 +108,7 @@ export default function ProfilePage() {
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
 
-  // States για θέσεις και simulator
+  // States θέσεων & simulator
   const [intelMap, setIntelMap] = useState<Record<string, any>>({});
   const [positionsMap, setPositionsMap] = useState<Record<string, any>>({});
   const [showSimulator, setShowSimulator] = useState(false);
@@ -129,7 +129,6 @@ export default function ProfilePage() {
         if (data && data.all) {
           setCandidates(data.all);
 
-          // Αν υπάρχει ?slug= στο URL
           if (slugParam) {
             const idx = data.all.findIndex(
               (c: Candidate) => (c.slug || (c as any).eidikotitaSlug) === slugParam
@@ -140,12 +139,13 @@ export default function ProfilePage() {
             }
           }
 
-          // DEFAULT: Άνοιξε ΑΥΤΟΜΑΤΑ την ειδικότητα στην οποία ΔΙΟΡΙΣΤΗΚΕ!
-          const appointedIdx = data.all.findIndex((c: Candidate) => !!c.thesi_diorismou);
+          // Προεπιλογή: Άνοιξε την ειδικότητα στην οποία πραγματικά διορίστηκε
+          const appointedIdx = data.all.findIndex((c: Candidate) => !!c.thesi_diorismou && !!c.appointed_rank);
           if (appointedIdx >= 0) {
             setActiveIdx(appointedIdx);
           } else {
-            setActiveIdx(0);
+            const fallbackIdx = data.all.findIndex((c: Candidate) => !!c.thesi_diorismou);
+            setActiveIdx(fallbackIdx >= 0 ? fallbackIdx : 0);
           }
         }
       })
@@ -156,7 +156,7 @@ export default function ProfilePage() {
       .finally(() => setLoading(false));
   }, [am, slugParam]);
 
-  // 2. Φόρτωση metadata θέσεων για τον προσομοιωτή
+  // 2. Φόρτωση metadata θέσεων
   useEffect(() => {
     Promise.all([
       fetch("/data/positions_intel.json").then((r) => r.json()).catch(() => ({})),
@@ -172,17 +172,39 @@ export default function ProfilePage() {
     });
   }, []);
 
+  // =========================================================
+  // ΑΚΡΙΒΗΣ ΕΛΕΓΧΟΣ ΠΟΛΛΑΠΛΩΝ ΕΙΔΙΚΟΤΗΤΩΝ & ΔΙΟΡΙΣΜΟΥ
+  // =========================================================
+  const { trueAppointedCand, appointedSpecialtyIdx } = useMemo(() => {
+    if (!candidates.length) return { trueAppointedCand: null, appointedSpecialtyIdx: -1 };
+
+    // Εντοπισμός της μίας και μοναδικής ειδικότητας όπου ισχύει ο διορισμός
+    let foundIdx = candidates.findIndex((c) => {
+      if (!c.thesi_diorismou) return false;
+      const cleanKod = String(c.thesi_diorismou).replace(/\.0$/, "").trim();
+      
+      // Αν η θέση υπάρχει στη λίστα προτιμήσεων της συγκεκριμένης ειδικότητας
+      if (c.protimiseis && c.protimiseis.includes(cleanKod)) return true;
+
+      // Ή αν έχει ρητό appointed_rank σε αυτή την εγγραφή
+      if (c.appointed_rank && c.appointed_rank > 0) return true;
+
+      return false;
+    });
+
+    if (foundIdx === -1) {
+      foundIdx = candidates.findIndex((c) => !!c.thesi_diorismou);
+    }
+
+    return {
+      trueAppointedCand: foundIdx >= 0 ? candidates[foundIdx] : null,
+      appointedSpecialtyIdx: foundIdx,
+    };
+  }, [candidates]);
+
   if (loading) {
     return (
-      <main
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          color: "var(--primary)",
-        }}
-      >
+      <main className="min-h-screen flex items-center justify-center text-[#00E5FF]">
         Φόρτωση προφίλ...
       </main>
     );
@@ -190,15 +212,9 @@ export default function ProfilePage() {
 
   if (notFound || candidates.length === 0) {
     return (
-      <main
-        style={{
-          minHeight: "100vh",
-          padding: "120px 24px",
-          textAlign: "center",
-        }}
-      >
-        <h1 style={{ marginBottom: "1rem" }}>Δεν βρέθηκε</h1>
-        <Link href="/search" style={{ color: "var(--primary)" }}>
+      <main className="min-h-screen p-28 text-center">
+        <h1 className="mb-4 text-2xl font-bold">Δεν βρέθηκε</h1>
+        <Link href="/search" className="text-[#00E5FF]">
           ← Πίσω στην αναζήτηση
         </Link>
       </main>
@@ -206,37 +222,55 @@ export default function ProfilePage() {
   }
 
   const candidate = candidates[activeIdx];
-  const isDioristaios = !!candidate.thesi_diorismou;
   const cleanAmString = String(candidate.am).replace(/\.0$/, "");
-  const cleanThesiKod = candidate.thesi_diorismou
+
+  // Ισχύει ο διορισμός ΣΕ ΑΥΤΗ την ενεργή ειδικότητα;
+  const isAppointedInCurrent = Boolean(
+    trueAppointedCand &&
+    (candidate.eidikotitaSlug === trueAppointedCand.eidikotitaSlug ||
+      candidate.eidikotita === trueAppointedCand.eidikotita) &&
+    !!candidate.thesi_diorismou
+  );
+
+  // Μήπως διορίστηκε σε ΑΛΛΗ ειδικότητα από αυτή που κοιτάμε τώρα;
+  const isAppointedInOther = Boolean(trueAppointedCand && !isAppointedInCurrent);
+
+  const cleanThesiKod = isAppointedInCurrent && candidate.thesi_diorismou
     ? String(candidate.thesi_diorismou).replace(/\.0$/, "")
     : "";
 
-  // ==========================================
-  // ΥΠΟΛΟΓΙΣΜΟΙ ΕΝΤΟΠΙΟΤΗΤΑΣ & ΒΑΘΜΟΛΟΓΙΑΣ
-  // ==========================================
+  // Υπολογισμοί βαθμών & εντοπιότητας
   const rawExcelScore = Number(candidate.vathmologia || 0);
-
-  // Έχει δικαίωμα εντοπιότητας (στοιχεία αίτησης/excel);
-  const hasEntopiotitaRight = Boolean(
-    (candidate.kod_entopiotitas && candidate.kod_entopiotitas !== "-" && candidate.kod_entopiotitas !== "0") ||
-    Number(candidate.monades_entop || 0) > 0
+  const hasEntopiotitaCode = Boolean(
+    candidate.kod_entopiotitas &&
+    candidate.kod_entopiotitas !== "-" &&
+    candidate.kod_entopiotitas !== "0"
   );
 
-  const entopBonusPoints = Number(candidate.monades_entop || (hasEntopiotitaRight ? 40 : 0));
+  const appointedPosData = cleanThesiKod ? positionsMap[cleanThesiKod] : null;
+  const isSeatWithEntopiotita = Boolean(
+    candidate.is_entopiotita_seat ??
+    (appointedPosData?.kod_entopiotita && appointedPosData.kod_entopiotita !== "-")
+  );
 
-  // Χρησιμοποιήθηκε εντοπιότητα στη συγκεκριμένη θέση διορισμού;
-  const usedLocalityForSeat = Boolean(candidate.is_entopiotita_seat);
+  const entopBonus = Number(candidate.monades_entop) || (
+    ["06", "07", "6", "7"].includes(String(candidate.kod_entopiotitas).trim()) ? 40 :
+    hasEntopiotitaCode ? 20 : 0
+  );
 
-  // Πραγματικά μόρια διορισμού (αν δεν δίνονται ρητά, αφαιρούμε τις μονάδες εντοπιότητας αν δεν χρησιμοποιήθηκαν)
+  const bypassedLocality = isAppointedInCurrent && hasEntopiotitaCode && !isSeatWithEntopiotita;
+  const usedLocality = isAppointedInCurrent && hasEntopiotitaCode && isSeatWithEntopiotita;
+
   const actualAppointedScore = candidate.moria_diorismou != null
     ? Number(candidate.moria_diorismou)
-    : (isDioristaios && hasEntopiotitaRight && !usedLocalityForSeat && rawExcelScore > 100)
-      ? Math.max(0, rawExcelScore - entopBonusPoints)
+    : bypassedLocality && rawExcelScore > 100
+      ? Math.max(0, rawExcelScore - entopBonus)
       : rawExcelScore;
 
-  // Η βαθμολογία διορισμού διαφέρει από το Excel (περίπτωση Μιχαηλίδου)
-  const scoreDiffersFromExcel = isDioristaios && hasEntopiotitaRight && !usedLocalityForSeat && rawExcelScore > actualAppointedScore;
+  // Υπολογισμός διαφοράς σειράς (#77 στον πίνακα -> #73 στους διοριστέους)
+  const rankGain = (candidate.aa && candidate.appointed_rank)
+    ? candidate.aa - candidate.appointed_rank
+    : 0;
 
   return (
     <main
@@ -261,7 +295,7 @@ export default function ProfilePage() {
           ← Πίσω στην αναζήτηση
         </Link>
 
-        {/* Profile Header */}
+        {/* Profile Header Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -273,17 +307,27 @@ export default function ProfilePage() {
               padding: "6px 16px",
               borderRadius: "100px",
               border: "1px solid var(--border)",
-              background: isDioristaios
+              background: isAppointedInCurrent
                 ? "rgba(0, 255, 163, 0.08)"
+                : isAppointedInOther
+                ? "rgba(0, 229, 255, 0.08)"
                 : "rgba(255, 61, 113, 0.08)",
               fontSize: "0.75rem",
               letterSpacing: "0.15em",
               textTransform: "uppercase",
-              color: isDioristaios ? "var(--success)" : "var(--danger)",
+              color: isAppointedInCurrent
+                ? "var(--success)"
+                : isAppointedInOther
+                ? "var(--primary)"
+                : "var(--danger)",
               marginBottom: "1.5rem",
             }}
           >
-            ● {isDioristaios ? "Διοριστέος" : "Μη διοριστέος"}
+            ● {isAppointedInCurrent
+                ? "Διοριστέος σε αυτή την ειδικότητα"
+                : isAppointedInOther
+                ? `Διορίστηκε σε άλλη ειδικότητα (${trueAppointedCand?.eidikotita})`
+                : "Μη διοριστέος"}
           </div>
 
           <h1
@@ -301,20 +345,18 @@ export default function ProfilePage() {
             style={{
               color: "var(--text-muted)",
               fontSize: "1.05rem",
-              marginBottom: "3rem",
+              marginBottom: "2.5rem",
             }}
           >
             {candidate.patronymo} · Α.Μ.{" "}
-            <span
-              style={{ fontFamily: "var(--font-jetbrains-mono), monospace" }}
-            >
+            <span style={{ fontFamily: "var(--font-jetbrains-mono), monospace" }}>
               {cleanAmString}
             </span>
             {candidate.adt_masked && ` · ${candidate.adt_masked}`}
           </p>
         </motion.div>
 
-        {/* Επιλογή ειδικότητας αν έχει πολλαπλές */}
+        {/* Επιλογή ειδικότητας με ένδειξη πού διορίστηκε */}
         {candidates.length > 1 && (
           <div
             style={{
@@ -334,38 +376,75 @@ export default function ProfilePage() {
                 marginBottom: "0.75rem",
               }}
             >
-              Ο υποψήφιος συμμετείχε σε {candidates.length} ειδικότητες
+              Συμμετοχή σε {candidates.length} ειδικότητες:
             </div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-              {candidates.map((c, i) => (
-                <button
-                  key={`${c.eidikotitaSlug}-${i}`}
-                  onClick={() => setActiveIdx(i)}
-                  style={{
-                    padding: "8px 14px",
-                    borderRadius: "8px",
-                    border:
-                      i === activeIdx
-                        ? "1px solid var(--primary)"
-                        : "1px solid var(--border)",
-                    background:
-                      i === activeIdx
-                        ? "rgba(0, 229, 255, 0.1)"
-                        : "transparent",
-                    color: i === activeIdx ? "var(--primary)" : "var(--text)",
-                    fontSize: "0.8rem",
-                    cursor: "pointer",
-                    fontFamily: "inherit",
-                    textAlign: "left",
-                  }}
-                >
-                  {c.eidikotita.length > 60
-                    ? c.eidikotita.substring(0, 60) + "..."
-                    : c.eidikotita}
-                </button>
-              ))}
+              {candidates.map((c, i) => {
+                const isThisAppointed =
+                  trueAppointedCand &&
+                  (c.eidikotitaSlug === trueAppointedCand.eidikotitaSlug ||
+                    c.eidikotita === trueAppointedCand.eidikotita);
+
+                return (
+                  <button
+                    key={`${c.eidikotitaSlug}-${i}`}
+                    onClick={() => setActiveIdx(i)}
+                    style={{
+                      padding: "8px 14px",
+                      borderRadius: "8px",
+                      border:
+                        i === activeIdx
+                          ? "1px solid var(--primary)"
+                          : "1px solid var(--border)",
+                      background:
+                        i === activeIdx
+                          ? "rgba(0, 229, 255, 0.1)"
+                          : "transparent",
+                      color: i === activeIdx ? "var(--primary)" : "var(--text)",
+                      fontSize: "0.8rem",
+                      cursor: "pointer",
+                      fontFamily: "inherit",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "6px",
+                    }}
+                  >
+                    <span>
+                      {c.eidikotita.length > 50
+                        ? c.eidikotita.substring(0, 50) + "..."
+                        : c.eidikotita}
+                    </span>
+                    {isThisAppointed && (
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold">
+                        ✓ ΔΙΟΡΙΣΜΟΣ
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
             </div>
           </div>
+        )}
+
+        {/* Ειδοποίηση όταν κοιτάζει ειδικότητα στην οποία ΔΕΝ διορίστηκε αλλά πέρασε στην άλλη */}
+        {isAppointedInOther && trueAppointedCand && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mb-6 p-4 rounded-xl border border-cyan-500/30 bg-cyan-950/20 flex items-center justify-between gap-4"
+          >
+            <div className="text-xs sm:text-sm text-slate-300">
+              ℹ️ Στην παρούσα ειδικότητα ο υποψήφιος είναι <strong>επιλαχών (θέση #{candidate.aa})</strong>. 
+              Έχει κατοχυρώσει διορισμό στην ειδικότητα <strong>«{trueAppointedCand.eidikotita}»</strong> (Θέση #{String(trueAppointedCand.thesi_diorismou).replace(/\.0$/, "")}).
+            </div>
+            <button
+              onClick={() => setActiveIdx(appointedSpecialtyIdx)}
+              className="text-xs font-semibold text-[#00E5FF] whitespace-nowrap flex items-center gap-1 hover:underline cursor-pointer"
+            >
+              Μετάβαση <ArrowRight className="w-3.5 h-3.5" />
+            </button>
+          </motion.div>
         )}
 
         {/* ========================================================= */}
@@ -379,14 +458,14 @@ export default function ProfilePage() {
             marginBottom: "1.5rem",
           }}
         >
-          {/* Βαθμολογία (Διορισμού ή Τελική) */}
+          {/* Βαθμολογία */}
           <StatBox
-            label={isDioristaios ? "Βαθμολογία Διορισμού" : "Τελική Βαθμολογία"}
-            value={formatVathmologia(actualAppointedScore)}
+            label={isAppointedInCurrent ? "Βαθμολογία Διορισμού" : "Βαθμολογία Ειδικότητας"}
+            value={formatVathmologia(isAppointedInCurrent ? actualAppointedScore : rawExcelScore)}
             highlight
             subtext={
-              scoreDiffersFromExcel
-                ? `Πίνακας ΑΣΕΠ: ${formatVathmologia(rawExcelScore)}`
+              bypassedLocality
+                ? `Αρχικός πίνακας: ${formatVathmologia(rawExcelScore)}`
                 : undefined
             }
             delay={100}
@@ -399,20 +478,20 @@ export default function ProfilePage() {
             delay={150}
           />
 
-          {/* Σειρά Πίνακα Κατάταξης (ΑΣΕΠ Pure Rank) */}
+          {/* 1. Σειρά Πίνακα Κατάταξης (ΑΣΕΠ) */}
           <StatBox
             label="Σειρά Πίνακα (ΑΣΕΠ)"
             value={`#${candidate.aa}`}
             subtext={
               candidate.total_candidates_in_specialty
-                ? `στους ${candidate.total_candidates_in_specialty}`
-                : "Στον πίνακα ειδικότητας"
+                ? `σε ${candidate.total_candidates_in_specialty} υποψηφίους`
+                : "Στον πίνακα όλων των αιτήσεων"
             }
             delay={200}
           />
 
-          {/* Σειρά & Κατάσταση Διορισμού */}
-          {candidate.thesi_diorismou ? (
+          {/* 2. Σειρά Διοριστέων (με εξήγηση του #77 vs #73) */}
+          {isAppointedInCurrent ? (
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
@@ -426,6 +505,7 @@ export default function ProfilePage() {
                   </span>
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 </div>
+                
                 <div className="text-xl sm:text-2xl font-bold font-mono text-white">
                   #{candidate.appointed_rank || candidate.aa}
                   {candidate.total_appointed_in_specialty && (
@@ -434,16 +514,23 @@ export default function ProfilePage() {
                     </span>
                   )}
                 </div>
+
+                {/* Εξήγηση μεταβολής θέσης (π.χ. από #77 σε #73) */}
+                {rankGain > 0 && !bypassedLocality && (
+                  <div className="text-[10px] text-emerald-400 mt-1 font-mono">
+                    ↑ +{rankGain} θέσεις (προηγούμενοι υποψήφιοι δεν δήλωσαν τη θέση ή διορίστηκαν αλλού)
+                  </div>
+                )}
               </div>
 
               <div className="text-[11px] mt-2 font-medium">
-                {usedLocalityForSeat ? (
+                {usedLocality ? (
                   <span className="text-amber-400 flex items-center gap-1">
-                    <MapPin className="w-3 h-3 inline" /> Με Εντοπιότητα
+                    <MapPin className="w-3 h-3 inline" /> Θέση με χρήση Εντοπιότητας
                   </span>
                 ) : (
                   <span className="text-[#00E5FF] flex items-center gap-1">
-                    <CheckCircle2 className="w-3 h-3 inline" /> Αξιοκρατική Κατοχύρωση
+                    <CheckCircle2 className="w-3 h-3 inline" /> Γενική Σειρά (χωρίς εντοπιότητα)
                   </span>
                 )}
               </div>
@@ -457,14 +544,16 @@ export default function ProfilePage() {
             >
               <div>
                 <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">
-                  Κατάσταση
+                  Κατάσταση Ειδικότητας
                 </div>
                 <div className="text-xl sm:text-2xl font-bold font-mono text-slate-300">
-                  Μη Διοριστέος
+                  {isAppointedInOther ? "Επιλαχών εδώ" : "Μη Διοριστέος"}
                 </div>
               </div>
               <div className="text-[10px] text-slate-400 mt-2">
-                Στους επιλαχόντες ειδικότητας
+                {isAppointedInOther
+                  ? "✓ Έχει διοριστεί σε άλλη ειδικότητα"
+                  : "Στους πίνακες κατάταξης"}
               </div>
             </motion.div>
           )}
@@ -535,10 +624,8 @@ export default function ProfilePage() {
           )}
         </div>
 
-        {/* ========================================================= */}
-        {/* ΕΠΕΞΗΓΗΜΑΤΙΚΟ CALLOUT (Διαφάνεια Μορίων & Εντοπιότητας) */}
-        {/* ========================================================= */}
-        {scoreDiffersFromExcel && (
+        {/* Επεξήγηση διαφοράς μορίων όταν δεν χρησιμοποιήθηκε η εντοπιότητα */}
+        {bypassedLocality && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -551,56 +638,37 @@ export default function ProfilePage() {
               </div>
               <div className="space-y-2">
                 <div className="font-semibold text-cyan-300 text-sm sm:text-base">
-                  Ανάλυση Μορίων & Σειράς Διορισμού
+                  Ανάλυση Μορίων & Σειράς Κατάταξης
                 </div>
 
                 <p>
-                  Στον συγκεντρωτικό πίνακα του ΑΣΕΠ εμφανίζεστε στη θέση <strong>#{candidate.aa}</strong> με <strong>{formatVathmologia(rawExcelScore)} μόρια</strong>, 
-                  καθώς είχε υπολογιστεί το θεωρητικό μπόνους εντοπιότητας (+{entopBonusPoints} μόρια).
+                  Στον αρχικό πίνακα κατάταξης του ΑΣΕΠ εμφανίζεστε στη θέση <strong>#{candidate.aa}</strong> με <strong>{formatVathmologia(rawExcelScore)} μόρια</strong>, 
+                  καθώς είχε υπολογιστεί το δυνητικό προνόμιο εντοπιότητας (+{entopBonus} μόρια).
                 </p>
 
                 <p>
-                  Στην πραγματικότητα, κατοχυρώσατε τη θέση <strong>#{cleanThesiKod}</strong> αποκλειστικά με τα 
-                  αξιοκρατικά σας μόρια (<strong>{formatVathmologia(actualAppointedScore)} μόρια</strong> από Γραπτό + Προσαυξήσεις), 
-                  καθώς στη θέση αυτή <em>δεν απαιτήθηκε ούτε εφαρμόζεται προνόμιο εντοπιότητας</em>.
+                  Κατοχυρώσατε τη θέση <strong>#{cleanThesiKod}</strong> στη <strong>Γενική Σειρά</strong> με <strong>{formatVathmologia(actualAppointedScore)} μόρια</strong> (Γραπτός + Προσαυξήσεις), 
+                  καθώς στη θέση αυτή δεν απαιτούνταν ούτε εφαρμόστηκε εντοπιότητα.
                 </p>
 
                 <div className="pt-2 border-t border-cyan-500/20 text-slate-400 text-[11px] sm:text-xs">
-                  <strong>Γιατί η σειρά διοριστέων είναι #{candidate.appointed_rank || candidate.aa};</strong> Οι θέσεις που προηγούνται στη συνολική κατάταξη διοριστέων καταλήφθηκαν από υποψηφίους που αξιοποίησαν εντοπιότητα παραμεθορίου/νησιών (+20 ή +40 μόρια).
+                  💡 <strong>Σειρά Διοριστέων:</strong> Η σειρά #{candidate.appointed_rank || candidate.aa} στη λίστα διοριστέων περιλαμβάνει και θέσεις παραμεθορίου/νησιών που καταλήφθηκαν με χρήση εντοπιότητας.
                 </div>
               </div>
             </div>
           </motion.div>
         )}
 
-        {/* Callout αν διορίστηκε ΜΕ εντοπιότητα */}
-        {isDioristaios && usedLocalityForSeat && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.35 }}
-            className="mb-8 p-4 rounded-2xl border border-amber-500/30 bg-amber-950/20 text-slate-200 text-xs sm:text-sm"
-          >
-            <div className="flex items-center gap-2 font-semibold text-amber-300 mb-1">
-              <MapPin className="w-4 h-4" /> Κατοχύρωση Θέσης με Προνόμιο Εντοπιότητας
-            </div>
-            <p className="text-slate-300 text-xs leading-relaxed">
-              Η θέση <strong>#{cleanThesiKod}</strong> κατοχυρώθηκε με συνυπολογισμό των <strong>+{entopBonusPoints} μορίων εντοπιότητας</strong>, 
-              διαμορφώνοντας την τελική βαθμολογία διορισμού στα <strong>{formatVathmologia(actualAppointedScore)} μόρια</strong>.
-            </p>
-          </motion.div>
-        )}
-
-        {/* 1. ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Natural Hierarchy) */}
+        {/* 1. ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Εμφανίζεται μόνο αν έχει προτιμήσεις σε αυτή την ειδικότητα) */}
         <AllocationJourney
           protimiseisStr={candidate.protimiseis}
-          thesiDiorismou={candidate.thesi_diorismou}
-          candidateScore={candidate.vathmologia}
+          thesiDiorismou={isAppointedInCurrent ? candidate.thesi_diorismou : ""}
+          candidateScore={isAppointedInCurrent ? actualAppointedScore : candidate.vathmologia}
         />
 
-        {/* === Epilaxontes & Replacement Tracker (Για μη διοριστέους) === */}
+        {/* === Epilaxontes Tracker (Για μη διοριστέους στη συγκεκριμένη ειδικότητα) === */}
         <EpilaxontesTracker
-          isDioristaios={isDioristaios}
+          isDioristaios={isAppointedInCurrent}
           candidateScore={candidate.vathmologia}
           candidateRank={candidate.aa}
           protimiseisStr={candidate.protimiseis}
@@ -654,7 +722,7 @@ export default function ProfilePage() {
                   currentScore={candidate.vathmologia}
                   currentRank={candidate.aa}
                   protimiseisStr={candidate.protimiseis}
-                  thesiDiorismou={candidate.thesi_diorismou}
+                  thesiDiorismou={isAppointedInCurrent ? candidate.thesi_diorismou : ""}
                   intelMap={intelMap}
                   positionsMap={positionsMap}
                 />
@@ -782,7 +850,7 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        {/* Σωστό Link με fallback σε slug */}
+        {/* Link προς την ειδικότητα */}
         <Link
           href={`/eidikotita/${candidate.slug || (candidate as any).eidikotitaSlug || ""}`}
           className="glass glass-hover"

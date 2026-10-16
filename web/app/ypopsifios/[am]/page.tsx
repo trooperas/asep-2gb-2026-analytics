@@ -115,7 +115,7 @@ export default function ProfilePage() {
         if (data && data.all) {
           setCandidates(data.all);
 
-          // 1. Αν υπάρχει παράμετρος ?slug= στο URL, διάλεξε αυτήν
+          // Αν υπάρχει ?slug= στο URL
           if (slugParam) {
             const idx = data.all.findIndex(
               (c: Candidate) => (c.slug || (c as any).eidikotitaSlug) === slugParam
@@ -126,7 +126,7 @@ export default function ProfilePage() {
             }
           }
 
-          // 2. ΕΙΔΑΛΛΩΣ: Διάλεξε αυτόματα την ειδικότητα στην οποία ΔΙΟΡΙΣΤΗΚΕ!
+          // DEFAULT: Άνοιξε ΑΥΤΟΜΑΤΑ την ειδικότητα στην οποία ΔΙΟΡΙΣΤΗΚΕ!
           const appointedIdx = data.all.findIndex((c: Candidate) => !!c.thesi_diorismou);
           if (appointedIdx >= 0) {
             setActiveIdx(appointedIdx);
@@ -412,17 +412,61 @@ export default function ProfilePage() {
             <StatBox label="Θέση Διορισμού" value="—" delay={300} />
           )}
 
-          {/* Σειρά Διορισμού / Κατάταξης */}
-          <StatBox
-            label={candidate.appointed_rank ? "Σειρά Διορισμού" : "Σειρά Κατάταξης"}
-            value={
-              candidate.appointed_rank
-                ? `#${candidate.appointed_rank}ος (${candidate.total_appointed_in_specialty || ""})`
-                : `#${candidate.aa}`
-            }
-            highlight={!!candidate.appointed_rank}
-            delay={400}
-          />
+          {/* Έξυπνη ένδειξη Σειράς ανάλογα με την ενεργή ειδικότητα */}
+          {candidate.thesi_diorismou ? (
+            /* Ειδικότητα Διορισμού: Έντονο Highlight & Σειρά ανάμεσα στους διοριστέους */
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="glass p-5 rounded-2xl border border-emerald-500/30 bg-emerald-500/5 flex flex-col justify-between"
+            >
+              <div>
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-[10px] uppercase tracking-wider font-bold text-emerald-400">
+                    Σειρά Διορισμού
+                  </span>
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                </div>
+                <div className="text-xl sm:text-2xl font-bold font-mono text-white">
+                  #{candidate.appointed_rank || candidate.aa}ος{" "}
+                  {candidate.total_appointed_in_specialty && (
+                    <span className="text-xs sm:text-sm text-emerald-400 font-normal">
+                      από {candidate.total_appointed_in_specialty}
+                    </span>
+                  )}
+                </div>
+              </div>
+              <div className="text-[10px] text-slate-400 mt-2">
+                ✓ Κατοχύρωσε θέση σε αυτή την ειδικότητα
+              </div>
+            </motion.div>
+          ) : (
+            /* Δευτερεύουσα Ειδικότητα (Χωρίς Διορισμό εδώ): Faded Style */
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="glass p-5 rounded-2xl opacity-75 border border-slate-800 flex flex-col justify-between"
+            >
+              <div>
+                <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">
+                  Σειρά Κατάταξης
+                </div>
+                <div className="text-xl sm:text-2xl font-bold font-mono text-slate-300">
+                  #{candidate.aa}ος{" "}
+                  {candidate.total_appointed_in_specialty ? (
+                    <span className="text-xs sm:text-sm text-slate-400 font-normal">
+                      στους {candidate.total_appointed_in_specialty}
+                    </span>
+                  ) : null}
+                </div>
+              </div>
+              <div className="text-[10px] text-slate-400 mt-2">
+                Πίνακας κατάταξης (χωρίς διορισμό εδώ)
+              </div>
+            </motion.div>
+          )}
         </div>
 
         {/* 1. ΠΡΩΤΑ Η ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Natural Hierarchy) */}

@@ -1,73 +1,83 @@
 import os
 import json
 import glob
+import pandas as pd
 
 print("=" * 65)
-print("BUILDING TRUE POSITIONS BASES & QUOTA FLAGS")
+print("BUILDING BULLETPROOF POSITIONS INTEL DIRECTLY FROM MASTER EXCEL")
 print("=" * 65)
 
-chunks = glob.glob("web/public/data/chunks/*.json")
+# 1. Φόρτωση Master ΔΙΟΡΙΣΤΕΟΙ
+dior_files = [
+    f for f in glob.glob("raw_excel/*ΔΙΟΡΙΣΤΕΟΙ*.xlsx") 
+    if not os.path.basename(f).startswith("~$")
+]
+if not dior_files:
+    print("❌ Δεν βρέθηκε το αρχείο raw_excel/ΠΕ_ΔΙΟΡΙΣΤΕΟΙ.xlsx")
+    exit(1)
+
+dior_file = dior_files[0]
+print(f"Διαβάζω Master αρχείο: {dior_file}")
+
+df_raw = pd.read_excel(dior_file, header=None)
+h_idx = 4
+for i in range(min(12, len(df_raw))):
+    vals = [str(x).upper() for x in df_raw.iloc[i].values]
+    if any("Α.Μ" in x or "Α/Α" in x for x in vals):
+        h_idx = i
+        break
+
+df_dior = pd.read_excel(dior_file, header=h_idx)
+
+# Εντοπισμός στηλών
+thesi_col = [c for c in df_dior.columns if "ΘΕΣΗ" in str(c).upper()][0]
+vath_col = [c for c in df_dior.columns if "ΒΑΘΜ" in str(c).upper()][0]
+entop_col = [c for c in df_dior.columns if "ΕΝΤΟΠ" in str(c).upper()][0]
+eidikes_col = [c for c in df_dior.columns if "ΕΙΔΙΚ" in str(c).upper() or "ΙΔΙΟΤ" in str(c).upper()][0]
+
+# Συλλογή θέσεων από το master αρχείο
 positions_intel = {}
 
-for c_path in chunks:
-    with open(c_path, "r", encoding="utf-8") as f:
-        records = json.load(f)
+for _, row in df_dior.iterrows():
+    if pd.isna(row[thesi_col]):
+        continue
+    thesi_kod = str(row[thesi_col]).replace(".0", "").strip()
+    
+    try:
+        score = float(str(row[vath_col]).replace(",", ".").strip())
+    except:
+        continue
 
-    for r in records:
-        thesi = r.get("thesi_diorismou")
-        if not thesi:
-            continue
-        
-        thesi_kod = str(thesi).replace(".0", "").strip()
-        score = r.get("vathmologia")
-        if score is None:
-            continue
+    is_spec = "ΝΑΙ" in str(row[eidikes_col]).upper() if pd.notna(row[eidikes_col]) else False
+    entop_val = str(row[entop_col]).replace(".0", "").strip() if pd.notna(row[entop_col]) else "0"
+    is_entop = entop_val in ["6", "7"]
 
-        try:
-            score = float(score)
-        except:
-            continue
+    if thesi_kod not in positions_intel:
+        positions_intel[thesi_kod] = {
+            "scores": [],
+            "has_entopiotita": False,
+            "entop_types": set(),
+            "has_special": False,
+        }
 
-        clean_am = str(r.get("am", "")).replace(".0", "").strip()
+    positions_intel[thesi_kod]["scores"].append(score)
+    if is_spec:
+        positions_intel[thesi_kod]["has_special"] = True
+    if is_entop:
+        positions_intel[thesi_kod]["has_entopiotita"] = True
+        positions_intel[thesi_kod]["entop_types"].add(f"Κωδ. {entop_val}")
 
-        # Έλεγχος εντοπιότητας: Πραγματική εφαρμογή στη συγκεκριμένη θέση
-        thesi_entop_str = str(r.get("kod_thesi_entop", "") or "").replace(".0", "")
-        entop_positions_list = [x.strip() for x in thesi_entop_str.split("-") if x.strip()]
-        entop_kod = str(r.get("kod_entopiotitas", "")).replace(".0", "").strip()
-        is_entop = (entop_kod in ["6", "7"]) and (thesi_kod in entop_positions_list)
-
-        # Έλεγχος ειδικής κατηγορίας
-        raw_id = str(r.get("idiotita", "")).strip().upper()
-        raw_eid = str(r.get("eidikes_idiotites", "")).strip().upper()
-        is_spec = (raw_eid == "ΝΑΙ" or raw_id == "ΝΑΙ")
-
-        if thesi_kod not in positions_intel:
-            positions_intel[thesi_kod] = {
-                "candidates_by_am": {},
-                "has_entopiotita": False,
-                "entop_types": set(),
-                "has_special": False,
-            }
-
-        pos_data = positions_intel[thesi_kod]
-        pos_data["candidates_by_am"][clean_am] = score
-
-        if is_entop:
-            pos_data["has_entopiotita"] = True
-            pos_data["entop_types"].add(f"Κωδ. {entop_kod}")
-        if is_spec:
-            pos_data["has_special"] = True
-
+# Τελική σύνοψη
 final_output = {}
 for kod, data in positions_intel.items():
-    scores = list(data["candidates_by_am"].values())
+    scores = data["scores"]
     final_output[kod] = {
         "min_score": round(min(scores), 2) if scores else 0,
         "max_score": round(max(scores), 2) if scores else 0,
         "count": len(scores),
         "has_entopiotita": data["has_entopiotita"],
         "entop_label": ", ".join(sorted(list(data["entop_types"]))) if data["entop_types"] else None,
-        "has_special": data["has_special"],
+        "has_special": data["has_special"], # 👈 100% ΑΛΗΘΕΙΑ ΑΠΟ ΤΟ MASTER ΕΞΕΛ!
     }
 
 out_path = "web/public/data/positions_intel.json"

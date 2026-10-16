@@ -139,7 +139,7 @@ export default function ProfilePage() {
       fetch("/data/positions_intel.json").then((r) => r.json()).catch(() => ({})),
       fetch("/data/positions.json").then((r) => r.json()).catch(() => []),
     ]).then(([intelData, posList]) => {
-      setIntelMap(intelData);
+      setIntelMap(intelData || {});
       const pMap: Record<string, any> = {};
       for (const p of posList) {
         const kod = String(p.kod_thesis).replace(/\.0$/, "").trim();
@@ -150,14 +150,13 @@ export default function ProfilePage() {
   }, []);
 
   // =========================================================================
-  // ΑΛΓΟΡΙΘΜΟΣ ΑΚΡΙΒΟΥΣ ΤΑΥΤΟΠΟΙΗΣΗΣ ΕΙΔΙΚΟΤΗΤΑΣ ΔΙΟΡΙΣΜΟΥ (Zero guessing)
+  // ΑΛΓΟΡΙΘΜΟΣ ΑΚΡΙΒΟΥΣ ΤΑΥΤΟΠΟΙΗΣΗΣ ΕΙΔΙΚΟΤΗΤΑΣ ΔΙΟΡΙΣΜΟΥ
   // =========================================================================
   const { trueAppointedIndex, appointedSpecialtyName, appointedPositionKod } = useMemo(() => {
     if (!candidates || candidates.length === 0) {
       return { trueAppointedIndex: -1, appointedSpecialtyName: "", appointedPositionKod: "" };
     }
 
-    // Εντοπισμός κωδικού θέσης
     const recordWithSeat = candidates.find((c) => Boolean(c.thesi_diorismou && String(c.thesi_diorismou).trim() !== "0"));
     if (!recordWithSeat) {
       return { trueAppointedIndex: -1, appointedSpecialtyName: "", appointedPositionKod: "" };
@@ -170,19 +169,19 @@ export default function ProfilePage() {
     candidates.forEach((c, idx) => {
       let score = 0;
 
-      // 1. Περιλαμβάνεται στις προτιμήσεις αυτής της συγκεκριμένης αίτησης; (+50)
+      // 1. Προτιμήσεις αυτής της αίτησης (+50)
       if (c.protimiseis) {
         const cleanProtimiseis = c.protimiseis.split(/[\s,;]+/).map((s) => s.replace(/\.0$/, "").trim());
         if (cleanProtimiseis.includes(targetSeat)) score += 50;
       }
 
-      // 2. Περιλαμβάνεται στις θέσεις της ομάδας αυτής της ειδικότητας; (+40)
+      // 2. Θέσεις ομάδας προσόντων (+40)
       if (c.theseis_idias_omadas) {
         const cleanOmada = c.theseis_idias_omadas.split(/[\s,;]+/).map((s) => s.replace(/\.0$/, "").trim());
         if (cleanOmada.includes(targetSeat)) score += 40;
       }
 
-      // 3. Συμφωνεί με τον κλάδο/ειδικότητα της θέσης στο positionsMap; (+30)
+      // 3. Σύγκριση με positionsMap (+30)
       const pInfo = positionsMap[targetSeat];
       if (pInfo) {
         const pDesc = `${pInfo.klados || ""} ${pInfo.eidikotita || ""}`.toLowerCase();
@@ -191,7 +190,7 @@ export default function ProfilePage() {
         if (keywords.some((k) => pDesc.includes(k))) score += 30;
       }
 
-      // 4. Αν η συγκεκριμένη γραμμή έχει appointed_rank > 0 (+10)
+      // 4. Αν έχει appointed_rank > 0 (+10)
       if (c.appointed_rank && Number(c.appointed_rank) > 0) score += 10;
 
       if (score > highestScore) {
@@ -251,15 +250,26 @@ export default function ProfilePage() {
 
   const cleanThesiKod = isAppointedInCurrent ? appointedPositionKod : "";
 
-  // =========================================================
-  // ΑΔΙΑΒΛΗΤΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΕΝΤΟΠΙΟΤΗΤΑΣ & ΜΟΡΙΩΝ
-  // =========================================================
+  // =========================================================================
+  // ΑΔΙΑΒΛΗΤΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΕΝΤΟΠΙΟΤΗΤΑΣ & ΜΟΡΙΩΝ ΜΕΣΩ positions_intel.json
+  // =========================================================================
   const rawScore = Number(candidate.vathmologia || 0);
   const writtenScore = Number(candidate.synolo_graptou || 0);
   const scoreDiff = rawScore - writtenScore;
 
-  // Αν η διαφορά βαθμού από το γραπτό είναι >= 18 μόρια, περιλαμβάνει 100% Εντοπιότητα (+20 ή +40)
+  // Έχει ο υποψήφιος βαθμό με εντοπιότητα (+20 ή +40);
   const isLocalityScore = scoreDiff >= 18;
+
+  // Ανάγνωση απευθείας από το positions_intel.json
+  const intelData = cleanThesiKod ? intelMap[cleanThesiKod] : null;
+  const posData = cleanThesiKod ? positionsMap[cleanThesiKod] : null;
+
+  // Η θέση διορισμού προσφέρει εντοπιότητα;
+  const seatHasLocality = Boolean(
+    intelData?.has_entopiotita === true ||
+    (intelData?.min_score && Number(intelData.min_score) > 115) ||
+    Boolean(posData && (posData.entopiotita || posData.kod_entopiotita || posData.kod_entop))
+  );
 
   let trueAppointmentScore = rawScore;
   let usedEntopiotitaForSeat = false;
@@ -267,18 +277,17 @@ export default function ProfilePage() {
 
   if (isAppointedInCurrent) {
     if (isLocalityScore) {
-      // Ελέγχουμε αν η θέση ήταν όντως εντοπιότητας ή γενικής σειράς (περίπτωση Μιχαηλίδου)
-      const posData = positionsMap[cleanThesiKod];
-      const posRequiresLocality = Boolean(posData?.kod_entopiotita && posData.kod_entopiotita !== "-");
-
-      if (posData && !posRequiresLocality) {
-        // Η θέση ήταν Γενικής Σειράς χωρίς εντοπιότητα
+      if (seatHasLocality) {
+        // Περίπτωση Τσορτανίδη (#903) -> has_entopiotita: true
+        // Διορίστηκε ΜΕ εντοπιότητα!
+        usedEntopiotitaForSeat = true;
+        trueAppointmentScore = rawScore;
+      } else {
+        // Περίπτωση Μιχαηλίδου (#1531) -> has_entopiotita: false
+        // Διορίστηκε στη Γενική Σειρά χωρίς το +40
         bypassedEntopiotita = true;
         const entopBonus = scoreDiff >= 35 ? 40 : 20;
         trueAppointmentScore = Math.max(0, rawScore - entopBonus);
-      } else {
-        // Η θέση κατακτήθηκε με εντοπιότητα (+40 μόρια)
-        usedEntopiotitaForSeat = true;
       }
     }
   }
@@ -536,7 +545,8 @@ export default function ProfilePage() {
               <div className="text-[11px] mt-2 font-medium">
                 {usedEntopiotitaForSeat ? (
                   <span className="text-amber-400 flex items-center gap-1 font-semibold">
-                    <MapPin className="w-3.5 h-3.5 inline text-amber-400" /> Θέση με χρήση Εντοπιότητας (+40)
+                    <MapPin className="w-3.5 h-3.5 inline text-amber-400" />{" "}
+                    Θέση με χρήση Εντοπιότητας {intelData?.entop_label ? `(${intelData.entop_label})` : "(+40)"}
                   </span>
                 ) : (
                   <span className="text-[#00E5FF] flex items-center gap-1">

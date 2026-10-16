@@ -414,7 +414,7 @@ export default function ProfilePage() {
 
           {/* Έξυπνη ένδειξη Σειράς ανάλογα με την ενεργή ειδικότητα */}
           {candidate.thesi_diorismou ? (
-            /* Ειδικότητα Διορισμού: Έντονο Highlight & Σειρά ανάμεσα στους διοριστέους */
+            /* Καρτέλα ΔΙΟΡΙΣΜΟΥ: Πράσινο Glowing Box */
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
@@ -442,7 +442,7 @@ export default function ProfilePage() {
               </div>
             </motion.div>
           ) : (
-            /* Δευτερεύουσα Ειδικότητα (Χωρίς Διορισμό εδώ): Faded Style */
+            /* Καρτέλα ΧΩΡΙΣ ΔΙΟΡΙΣΜΟ: Faded Γκρι Style */
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
@@ -454,12 +454,7 @@ export default function ProfilePage() {
                   Σειρά Κατάταξης
                 </div>
                 <div className="text-xl sm:text-2xl font-bold font-mono text-slate-300">
-                  #{candidate.aa}ος{" "}
-                  {candidate.total_appointed_in_specialty ? (
-                    <span className="text-xs sm:text-sm text-slate-400 font-normal">
-                      στους {candidate.total_appointed_in_specialty}
-                    </span>
-                  ) : null}
+                  #{candidate.aa}ος
                 </div>
               </div>
               <div className="text-[10px] text-slate-400 mt-2">

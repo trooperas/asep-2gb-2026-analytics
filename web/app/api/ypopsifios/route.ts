@@ -83,41 +83,16 @@ export async function GET(request: Request) {
   const positionsList = getPositionsList();
   const chunkIndex = getChunkIndex();
 
-  // ΑΥΣΤΗΡΟΣ ΔΙΑΧΩΡΙΣΜΟΣ ΔΙΟΡΙΣΜΟΥ ΑΝΑ ΕΙΔΙΚΟΤΗΤΑ
+  // Υπολογισμός σειράς διορισμού ανά ειδικότητα
   for (const rec of matchingRecords) {
     const recThesi = String(rec.thesi_diorismou || "").replace(/\.0$/, "").trim();
     const recSlug = rec.slug || "";
 
-    let isAppointedHere = false;
-
+    // Αν έχει θέση διορισμού στο chunk, είναι διοριστέος!
     if (recThesi && recSlug) {
-      // 1. Βρίσκουμε αν η θέση στο positions.json αντιστοιχεί σε αυτό το slug
-      const posMeta = positionsList.find(
-        (p) => String(p.kod_thesis).replace(/\.0$/, "").trim() === recThesi
-      );
+      rec.is_appointed_here = true;
 
-      if (posMeta) {
-        const posEidNorm = String(posMeta.eidikotita || "").toLowerCase();
-        const specRoot = recSlug.replace(/^pe-/, "").split("-")[0];
-        if (posEidNorm.includes(specRoot)) {
-          isAppointedHere = true;
-        }
-      }
-
-      // 2. Συμπληρωματικός έλεγχος μέσω των θέσεων της ομάδας προσόντων
-      const theseisOmadas = String(rec.theseis_idias_omadas || "");
-      if (theseisOmadas && theseisOmadas.includes(recThesi)) {
-        isAppointedHere = true;
-      }
-    }
-
-    // ΚΑΘΑΡΙΣΜΟΣ: Αν ΔΕΝ διορίστηκε σε ΑΥΤΗ την ειδικότητα, μηδενίζουμε τον διορισμό εδώ!
-    if (!isAppointedHere) {
-      rec.thesi_diorismou = null;
-      rec.appointed_rank = null;
-      rec.total_appointed_in_specialty = null;
-    } else {
-      // Αν διορίστηκε εδώ, υπολογίζουμε τη σειρά ανάμεσα στους διοριστέους ΑΥΤΗΣ της ειδικότητας
+      // Υπολογισμός σειράς ανάμεσα στους διοριστέους αυτής της ειδικότητας
       const specChunks = chunkIndex[recSlug] || [];
       const specAppointed: any[] = [];
 
@@ -148,10 +123,14 @@ export async function GET(request: Request) {
         rec.appointed_rank = myAppointedRank + 1;
         rec.total_appointed_in_specialty = specAppointed.length;
       }
+    } else {
+      rec.thesi_diorismou = null;
+      rec.appointed_rank = null;
+      rec.is_appointed_here = false;
     }
   }
 
-  // Ταξινόμηση: πρώτη καρτέλα να είναι πάντα αυτή στην οποία ΔΙΟΡΙΣΤΗΚΕ!
+  // Ταξινόμηση: η καρτέλα διορισμού να είναι πάντα πρώτη!
   matchingRecords.sort((a, b) => {
     if (a.thesi_diorismou && !b.thesi_diorismou) return -1;
     if (!a.thesi_diorismou && b.thesi_diorismou) return 1;

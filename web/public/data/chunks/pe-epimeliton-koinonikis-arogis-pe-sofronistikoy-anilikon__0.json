@@ -1,39 +1,6 @@
 [
   {
     "aa": 1,
-    "am": "14705.0",
-    "eponymo": "ΠΑΠΑΕΥΑΓΓΕΛΟΥ",
-    "onoma": "ΕΥΑΓΓΕΛΟΣ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***162",
-    "omada_prosonton": "319 -001",
-    "theseis_idias_omadas": "3061",
-    "protimiseis": "3157-1348-1061-1060-1064-1063-1062-3061-1058-1059-3072-779-1322-3103-785-1386-901-1313-1337-1395-3075-3076-1325-1326-1330-3074-1332-1331-968-965-1328-1329-966-964-1393-1146-1385-1144-3104-837-1099-941-900-990-989",
-    "thesi_diorismou": "3157",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 74.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "3061.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 69.61,
-    "synolo_graptou": 84.81,
-    "seira_klirosis": 5243404.0,
-    "vathmologia": 132.81,
-    "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
-    "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 2,
     "am": "17350.0",
     "eponymo": "ΜΩΡΙΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -66,7 +33,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 3,
+    "aa": 2,
     "am": "20272.0",
     "eponymo": "ΚΑΚΑΛΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -76,7 +43,7 @@
     "theseis_idias_omadas": "1299-3061-3064",
     "protimiseis": "791-902-903-904-906-905-923-924-792-920-921-922-980-978-977-979-981-1126-1125-1127-1160-1162-1163-1161-1164-1165-1166-1176-1174-1175-1177-1057-964-965-966-963-961-962-958-954-952-953-955-956-957-960-959-967-968-1202-1203-3064-1204-941-942-1146-1144-1145-806-1148-1147-1299-1059-1060-1058-1062-1064-1061-1063-3061-990-989-901-900-1073-1074-1075-1079-1076-1077-1078-1187-1188-1185-1186-975",
     "thesi_diorismou": "924",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -96,43 +63,10 @@
     "vathmologia": 130.56,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 4,
-    "am": "108.0",
-    "eponymo": "ΧΑΤΖΗΓΙΑΝΝΗ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΒΑΣΙΛΕΙΟΣ",
-    "adt_masked": "***649",
-    "omada_prosonton": "319 -001",
-    "theseis_idias_omadas": "3063",
-    "protimiseis": "1155-1154-1159-1153-1157-3063",
-    "thesi_diorismou": "1155",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 120.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "3063.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 62.45,
-    "synolo_graptou": 81.22,
-    "seira_klirosis": 2310203.0,
-    "vathmologia": 130.22,
-    "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
-    "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 5,
+    "aa": 3,
     "am": "4804.0",
     "eponymo": "ΜΑΝΩΛΗ",
     "onoma": "ΟΛΥΜΠΙΑΔΑ",
@@ -142,7 +76,7 @@
     "theseis_idias_omadas": "1298-3057",
     "protimiseis": "1056-1055-1054-1053-951-976-974-973-975-1092-1298-1149-1151-1152-1150-1090-3057-840-787-839-900-901-1185-1187-1430-838",
     "thesi_diorismou": "1056",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -162,10 +96,10 @@
     "vathmologia": 128.83,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 6,
+    "aa": 4,
     "am": "13486.0",
     "eponymo": "ΡΙΖΟΥ",
     "onoma": "ΜΑΡΙΑ-ΕΛΕΝΗ",
@@ -198,7 +132,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 5,
     "am": "6342.0",
     "eponymo": "ΘΕΟΔΟΣΑΚΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -231,7 +165,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 8,
+    "aa": 6,
     "am": "14565.0",
     "eponymo": "ΚΟΚΚΑΛΗ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -264,7 +198,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 9,
+    "aa": 7,
     "am": "7347.0",
     "eponymo": "ΛΥΤΡΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -297,7 +231,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
+    "aa": 8,
     "am": "15315.0",
     "eponymo": "ΧΑΤΖΗΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -329,7 +263,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 11,
+    "aa": 9,
     "am": "13483.0",
     "eponymo": "ΠΡΙΝΑΡΗ",
     "onoma": "ΜΑΡΙΑΝΝΑ",
@@ -361,7 +295,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 12,
+    "aa": 10,
     "am": "13536.0",
     "eponymo": "ΖΕΡΒΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -393,7 +327,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 13,
+    "aa": 11,
     "am": "16690.0",
     "eponymo": "ΧΑΤΖΑΚΗ",
     "onoma": "ΖΗΝΟΒΙΑ",
@@ -426,7 +360,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 14,
+    "aa": 12,
     "am": "16719.0",
     "eponymo": "ΜΑΚΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -458,40 +392,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 15,
-    "am": "20319.0",
-    "eponymo": "ΖΑΦΕΙΡΙΑΔΗΣ",
-    "onoma": "ΕΥΑΓΓΕΛΟΣ",
-    "patronymo": "ΔΙΑΜΑΝΤΗΣ",
-    "adt_masked": "***921",
-    "omada_prosonton": "319 -001",
-    "theseis_idias_omadas": "1298-3060-3062",
-    "protimiseis": "1354-781-1092-1090-1091-829-1298-3104-1387-1152-1151-1150-1044-826-823-825-816-821-822-830-824-817-827-831-1025-1051-1345-780-1344-1338-1339-1342-1340-1341-1013-1011-1010-1014-1009-1041-1012-1043-1008-1039-1040-880-1124-1312-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-3088-3089-3090-3091-3092-3093-3094-3095-3096-3099-3100-3101-3102-3066-3068-3097-3098-3070-777-782-783-784-884-898-896-1136-1137-1142-883-893-891-1049-1050-1002-994-993-996-997-1016-1017-995-1005-999-1021-1022-1015-1003-1006-1001-998-1026-1024-1027-1019-1004-1028-1034-1033-1035-1032-992-1038-1018-1036-886-885-887-881-1123-1114-1122-1113-1111-1112-1121-1129-1130-1135-1138-1141-918-915-914-912-913-845-846-856-850-843-815-1308-1309-1310-1318-872-871-868-865-866-870-858-929-927-928-1023-1029-894-1045-1031-1052-892-899-890-3060-3062-1143-897-917-916-1047-882-1048-3078-1319-1356-1307-1346-3081-1337-3065-1347-3087-1351-1320-1322-779-3072-1304-1349-3084-1385-1386-3103-785-1396-3111-1348-1314-3069-1382-1389-1390-3105-1395-1313-1317-1315-1397-786-1323-1392-3109-3077-1391-1398-3107-3106-1350-3108-1357-3086-3079-3080-1353-3085-1352-3067-3071-1306-776-1335-1321-1325-1326-1327-1328-1329-1330-1331-1332-1333-3073-3076-3082-3083-1336",
-    "thesi_diorismou": "1090",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 92.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1298.0",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 49.39,
-    "synolo_graptou": 74.69,
-    "seira_klirosis": 8509735.0,
-    "vathmologia": 122.69,
-    "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
-    "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 16,
+    "aa": 13,
     "am": "3007.0",
     "eponymo": "ΛΑΓΟΥΔΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -523,7 +424,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 17,
+    "aa": 14,
     "am": "5256.0",
     "eponymo": "ΚΙΟΥΛΑΦΑ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -556,7 +457,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 15,
     "am": "1348.0",
     "eponymo": "ΔΙΑΚΑΚΗ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -588,7 +489,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 19,
+    "aa": 16,
     "am": "8339.0",
     "eponymo": "ΜΠΑΚΟΥΛΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -621,7 +522,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
+    "aa": 17,
     "am": "10935.0",
     "eponymo": "ΤΑΤΑΡΑΚΗ",
     "onoma": "ΧΡΥΣΗ",
@@ -654,7 +555,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 21,
+    "aa": 18,
     "am": "19492.0",
     "eponymo": "ΑΠΟΣΤΟΛΙΔΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -686,7 +587,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 22,
+    "aa": 19,
     "am": "16088.0",
     "eponymo": "ΑΡΑΠΗ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ",
@@ -718,7 +619,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 23,
+    "aa": 20,
     "am": "11098.0",
     "eponymo": "ΨΑΡΡΟΥ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -750,7 +651,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 24,
+    "aa": 21,
     "am": "14856.0",
     "eponymo": "ΧΑΛΙΤΑΪ",
     "onoma": "ΙΖΑΜΠΕΛΑ",
@@ -782,7 +683,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 25,
+    "aa": 22,
     "am": "19523.0",
     "eponymo": "ΣΑΡΙΛΙΔΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -814,7 +715,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 26,
+    "aa": 23,
     "am": "8184.0",
     "eponymo": "ΚΟΥΤΣΟΓΙΑΝΝΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -846,7 +747,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 27,
+    "aa": 24,
     "am": "12558.0",
     "eponymo": "ΓΙΑΤΣΑΪ",
     "onoma": "ΜΑΡΙΑ",
@@ -878,7 +779,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 28,
+    "aa": 25,
     "am": "19896.0",
     "eponymo": "ΙΓΝΑΤΙΔΟΥ",
     "onoma": "ΜΥΡΟΦΟΡΑ",
@@ -911,7 +812,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 29,
+    "aa": 26,
     "am": "10804.0",
     "eponymo": "ΜΑΚΡΙΔΑΚΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -943,7 +844,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 30,
+    "aa": 27,
     "am": "14286.0",
     "eponymo": "ΣΙΔΗΡΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -976,7 +877,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 31,
+    "aa": 28,
     "am": "7233.0",
     "eponymo": "ΘΕΟΔΩΡΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1009,7 +910,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 32,
+    "aa": 29,
     "am": "15501.0",
     "eponymo": "ΖΑΡΓΙΑΝΗ",
     "onoma": "ΙΣΜΗΝΗ",
@@ -1042,7 +943,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 33,
+    "aa": 30,
     "am": "9632.0",
     "eponymo": "ΜΟΥΖΑΚΗ",
     "onoma": "ΙΟΥΛΙΑ",
@@ -1052,7 +953,7 @@
     "theseis_idias_omadas": "1297-1298-1300-3057-3058-3059-3060-3062-3063",
     "protimiseis": "937-940-938-871-866-865-868-872-1297-3058-867-869-939-927-929-793-1187-1096-1430-1099-1098-1152-974-1150-1151-1104-1102-1100-1103-858-1067-1065-1072-1071-863-862-1011-1040-1036-1136-991-999-1003-1023-880-893-1037-1039-1129-1009-1013-1016-1042-1000-850-896-1007-1034-1112-1111-907-910-915-877-883-897-1010-1018-1029-1122-1114-1138-1142-1123-1139-1119-1024-3062-3060-1426-1427-1424-789-790-797-798-804-805-1031-1115-1076-1078-1079-1073-1077-988-987-984-1298-3057-1300-3059-3063-840-838-839-787-881-884-885-889-895-898-918-954-996-995-994-998-993-1088-1158-1092-1090-1182-1179-1178-1195-807-842-1006-1012-1043-1428-1425",
     "thesi_diorismou": "937",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1072,10 +973,10 @@
     "vathmologia": 105.44,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 34,
+    "aa": 31,
     "am": "12669.0",
     "eponymo": "ΜΑΠΠΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -1107,7 +1008,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 35,
+    "aa": 32,
     "am": "20692.0",
     "eponymo": "ΘΕΟΔΩΡΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1140,7 +1041,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 36,
+    "aa": 33,
     "am": "20749.0",
     "eponymo": "ΧΑΡΙΤΑΚΗΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ",
@@ -1172,7 +1073,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 37,
+    "aa": 34,
     "am": "15117.0",
     "eponymo": "ΠΑΠΑΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1205,7 +1106,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 38,
+    "aa": 35,
     "am": "2757.0",
     "eponymo": "ΚΡΙΚΕΛΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1238,7 +1139,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 39,
+    "aa": 36,
     "am": "7982.0",
     "eponymo": "ΚΥΠΡΙΩΤΗ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -1271,7 +1172,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 40,
+    "aa": 37,
     "am": "1978.0",
     "eponymo": "ΒΕΖΕΡΙΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -1281,7 +1182,7 @@
     "theseis_idias_omadas": "3060",
     "protimiseis": "890-816-880-885-889-995-821-991-996-1003-999-825-826-1040-1042-1018-1009-1006-1000-998-1011-1039-1007-1010-1013-1008-1012-1019-893-897-824-1036-1024-1025-1041-892-851-877-898-899-1122-992-1031-817-1020-1016-790-1034-1033-1035-1037-1044-797-895-896-881-883-884-789-882-830-1124-823-3060-1045-1048-843-849-3068-1312-780-1340-1342-777-798-1049-1051-1052-1111-1130-1141-846-855-1338-1345-1023-1112-1129-1138-831-1142-1118-1339-1341-1343-1344",
     "thesi_diorismou": "890",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1301,10 +1202,10 @@
     "vathmologia": 94.72,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 41,
+    "aa": 38,
     "am": "16899.0",
     "eponymo": "ΓΚΟΤΣΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1337,7 +1238,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 42,
+    "aa": 39,
     "am": "748.0",
     "eponymo": "ΖΑΡΚΑΔΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1370,7 +1271,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 43,
+    "aa": 40,
     "am": "16627.0",
     "eponymo": "ΤΣΑΛΔΑΡΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -1403,7 +1304,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 44,
+    "aa": 41,
+    "am": "14705.0",
+    "eponymo": "ΠΑΠΑΕΥΑΓΓΕΛΟΥ",
+    "onoma": "ΕΥΑΓΓΕΛΟΣ",
+    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
+    "adt_masked": "***162",
+    "omada_prosonton": "319 -001",
+    "theseis_idias_omadas": "3061",
+    "protimiseis": "3157-1348-1061-1060-1064-1063-1062-3061-1058-1059-3072-779-1322-3103-785-1386-901-1313-1337-1395-3075-3076-1325-1326-1330-3074-1332-1331-968-965-1328-1329-966-964-1393-1146-1385-1144-3104-837-1099-941-900-990-989",
+    "thesi_diorismou": "3157",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 74.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "3061.0",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 69.61,
+    "synolo_graptou": 84.81,
+    "seira_klirosis": 5243404.0,
+    "vathmologia": 92.81,
+    "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
+    "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 42,
     "am": "17364.0",
     "eponymo": "ΓΚΙΟΡΣΟΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -1436,7 +1370,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 45,
+    "aa": 43,
     "am": "9624.0",
     "eponymo": "ΠΑΡΑΣΤΑΤΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -1469,7 +1403,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 46,
+    "aa": 44,
     "am": "14644.0",
     "eponymo": "ΔΙΔΥΜΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1502,7 +1436,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 47,
+    "aa": 45,
     "am": "11303.0",
     "eponymo": "ΓΑΡΓΑΝΗΣ",
     "onoma": "ΧΡΥΣΟΒΑΛΑΝΤΗΣ",
@@ -1535,7 +1469,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 48,
+    "aa": 46,
     "am": "15057.0",
     "eponymo": "ΤΣΙΟΥΡΒΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -1568,7 +1502,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 49,
+    "aa": 47,
     "am": "11056.0",
     "eponymo": "ΣΟΚΟΛΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1601,7 +1535,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 50,
+    "aa": 48,
     "am": "8297.0",
     "eponymo": "ΠΕΡΒΑΝΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ ΙΣΑΑΚ",
@@ -1634,7 +1568,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 51,
+    "aa": 49,
     "am": "12610.0",
     "eponymo": "ΒΟΥΖΑ",
     "onoma": "ΟΛΓΑ",
@@ -1644,7 +1578,7 @@
     "theseis_idias_omadas": "3060",
     "protimiseis": "1223-880-3060-1041-777-780-1280-991-1427-1226-1012-896-1246-1025-1042-1009-1011-881-885-1039-1010-996-1224-1040-999-898-1014-1245-855-846-1018-1122-1124-1000",
     "thesi_diorismou": "3060",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1664,10 +1598,10 @@
     "vathmologia": 90.64,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 52,
+    "aa": 50,
     "am": "19187.0",
     "eponymo": "ΔΡΙΓΚΟΠΟΥΛΟΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -1700,7 +1634,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 53,
+    "aa": 51,
     "am": "2685.0",
     "eponymo": "ΓΚΑΜΠΟΥΡΗ",
     "onoma": "ΑΦΡΟΔΙΤΗ",
@@ -1733,7 +1667,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 54,
+    "aa": 52,
+    "am": "108.0",
+    "eponymo": "ΧΑΤΖΗΓΙΑΝΝΗ",
+    "onoma": "ΜΑΡΙΑ",
+    "patronymo": "ΒΑΣΙΛΕΙΟΣ",
+    "adt_masked": "***649",
+    "omada_prosonton": "319 -001",
+    "theseis_idias_omadas": "3063",
+    "protimiseis": "1155-1154-1159-1153-1157-3063",
+    "thesi_diorismou": "1155",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "3.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 120.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "3063.0",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 62.45,
+    "synolo_graptou": 81.22,
+    "seira_klirosis": 2310203.0,
+    "vathmologia": 90.22,
+    "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
+    "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 53,
     "am": "7917.0",
     "eponymo": "ΤΣΙΝΕΡΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -1766,7 +1733,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 55,
+    "aa": 54,
     "am": "10352.0",
     "eponymo": "ΚΕΛΙΔΟΥ",
     "onoma": "ΕΙΡΉΝΗ",
@@ -1798,7 +1765,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 56,
+    "aa": 55,
     "am": "18862.0",
     "eponymo": "ΙΩΑΚΕΙΜΙΔΟΥ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -1831,7 +1798,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 57,
+    "aa": 56,
     "am": "11527.0",
     "eponymo": "ΠΕΤΡΑΚΟΥ",
     "onoma": "ΠΗΝΕΛΟΠΗ",
@@ -1864,7 +1831,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 58,
+    "aa": 57,
     "am": "19002.0",
     "eponymo": "ΜΙΧΑΛΑΚΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -1896,7 +1863,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 59,
+    "aa": 58,
     "am": "11214.0",
     "eponymo": "ΚΑΤΡΗ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -1929,7 +1896,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 60,
+    "aa": 59,
     "am": "17346.0",
     "eponymo": "ΓΡΑΜΜΕΝΟΥ",
     "onoma": "ΝΑΥΣΙΚΑ",
@@ -1962,7 +1929,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 61,
+    "aa": 60,
     "am": "20325.0",
     "eponymo": "ΠΑΚΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1995,7 +1962,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 62,
+    "aa": 61,
     "am": "17923.0",
     "eponymo": "ΨΑΛΤΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -2028,7 +1995,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 63,
+    "aa": 62,
     "am": "3223.0",
     "eponymo": "ΚΩΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -2060,7 +2027,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 64,
+    "aa": 63,
     "am": "17918.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΥ",
     "onoma": "ΣΤΕΛΛΑ",
@@ -2093,7 +2060,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 65,
+    "aa": 64,
     "am": "8411.0",
     "eponymo": "ΟΥΣΤΑΠΑΣΙΔΗΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -2126,7 +2093,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 66,
+    "aa": 65,
     "am": "1003.0",
     "eponymo": "ΜΑΝΩΛΑΚΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -2159,7 +2126,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 67,
+    "aa": 66,
     "am": "13624.0",
     "eponymo": "ΚΑΡΚΑΛΗΣ - ΓΛΥΠΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2192,7 +2159,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 68,
+    "aa": 67,
     "am": "12053.0",
     "eponymo": "ΑΡΓΥΡΟΠΟΥΛΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2225,7 +2192,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 69,
+    "aa": 68,
     "am": "18845.0",
     "eponymo": "ΤΖΕΛΑΤΗ",
     "onoma": "ΙΩΑΝΝΗΣ ΧΡΗΣΤΟΣ",
@@ -2257,7 +2224,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 70,
+    "aa": 69,
     "am": "11844.0",
     "eponymo": "ΜΑΥΡΟΓΙΑΝΝΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2267,7 +2234,7 @@
     "theseis_idias_omadas": "1297-1298-1299-1300-3057-3058-3059-3060-3061-3062-3063-3064",
     "protimiseis": "1076-1078-1073-1077-1079-1074-1075-1095-1096-1187-1188-1099-1098-1097-988-984-987-986-1148-806-1299-1202-1203-1204-3064-954-966-960-958-965-964-961-962-963-968-967-957-955-953-952-959-1423-1031-1136-1011-1036-1115-1040-999-1003-991-1023-1004-1038-880-1037-1007-916-1129-893-1005-1034-890-899-1039-1016-1042-997-886-1000-1009-1025-1013-1020-1112-1137-1130-1141-917-919-850-896-909-907-852-849-995-996-1010-1018-1019-1041-1029-1021-1022-1028-1045-1048-1052-1050-1002-1114-1111-1120-1122-1118-877-883-895-1138-1134-1140-1142-3060-3062-1195-1194-874-942-870-865-868-866-871-867-1297-3058-3061-3057-1298-1300-3059-3063",
     "thesi_diorismou": "909",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2287,10 +2254,10 @@
     "vathmologia": 87.36,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 71,
+    "aa": 70,
     "am": "15974.0",
     "eponymo": "ΛΕΒΕΝΤΗ",
     "onoma": "ΛΥΔΙΑ",
@@ -2300,7 +2267,7 @@
     "theseis_idias_omadas": "1299-3064",
     "protimiseis": "1325-3076-3075-1326-1328-1329-1330-1331-1332-3074-1327-1324-955-954-957-965-961-963-968-960-967-952-819-1333-964-962-966-953-958-956-959-3072-1322-3103-1386-3082-1396-1335-3105-1382-3071-1315-1316-779-785-832-1299-3083-833-941-1147-1148-3064-1057-1204-1202-1203-806-1176-1175-1177-942-979-981-980-978-977-834-835-1127-1126-1125-924-922-1160-1162-1164-1165-1166-921-923-920-792-1163-1161-1385-1146-1145-1144-1374",
     "thesi_diorismou": "1374",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2320,10 +2287,10 @@
     "vathmologia": 87.31,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 72,
+    "aa": 71,
     "am": "8932.0",
     "eponymo": "ΓΚΑΝΤΙΡΗ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -2355,7 +2322,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 73,
+    "aa": 72,
     "am": "1477.0",
     "eponymo": "ΝΙΚΟΛΑΙΔΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2387,7 +2354,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 74,
+    "aa": 73,
     "am": "14527.0",
     "eponymo": "ΚΑΛΑΙΤΖΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -2419,7 +2386,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 75,
+    "aa": 74,
     "am": "17092.0",
     "eponymo": "ΒΕΡΡΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2451,7 +2418,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 76,
+    "aa": 75,
     "am": "6468.0",
     "eponymo": "ΒΛΑΧΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2483,7 +2450,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 77,
+    "aa": 76,
     "am": "17597.0",
     "eponymo": "ΚΡΑΜΒΟΥΣΑΝΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -2515,7 +2482,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 78,
+    "aa": 77,
     "am": "13859.0",
     "eponymo": "ΓΚΟΥΓΚΟΥΣΗΣ",
     "onoma": "ΓΡΗΓΟΡΗΣ",
@@ -2547,7 +2514,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 79,
+    "aa": 78,
     "am": "14477.0",
     "eponymo": "ΓΚΑΥΡΟΥ",
     "onoma": "ΝΙΚΟΛΙΑ",
@@ -2579,7 +2546,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 80,
+    "aa": 79,
     "am": "2174.0",
     "eponymo": "ΜΠΑΙΡΑΜΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -2611,7 +2578,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 81,
+    "aa": 80,
     "am": "8252.0",
     "eponymo": "ΣΑΡΙΔΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -2643,7 +2610,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 82,
+    "aa": 81,
     "am": "4778.0",
     "eponymo": "ΧΡΥΣΙΚΟΠΟΥΛΟΥ",
     "onoma": "ΒΙΚΤΩΡΙΑ",
@@ -2676,7 +2643,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 83,
+    "aa": 82,
     "am": "17699.0",
     "eponymo": "ΠΑΤΟΥΧΑΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ",
@@ -2708,7 +2675,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 84,
+    "aa": 83,
     "am": "7864.0",
     "eponymo": "ΔΟΥΡΟΥ",
     "onoma": "ΕΥΗ",
@@ -2740,7 +2707,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 85,
+    "aa": 84,
     "am": "3588.0",
     "eponymo": "ΣΑΚΚΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2772,7 +2739,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 86,
+    "aa": 85,
     "am": "20203.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -2804,7 +2771,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 87,
+    "aa": 86,
     "am": "14085.0",
     "eponymo": "ΧΙΟΥ",
     "onoma": "ΜΙΧΑΛΙΤΣΑ",
@@ -2836,7 +2803,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 88,
+    "aa": 87,
     "am": "6926.0",
     "eponymo": "ΤΣΙΡΚΑ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -2846,7 +2813,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "825-821-830-831-1361-1358-3088-824-823-827-816-817-826-996-783-784-782-1381-1359-1377-1362-1363-1364-1365-1367-1366-1371-1372-1373-1360-1368-1369-1375-1376-1339-1344-3089-3091-3092-3094-3093-3095-3096-1011-1122-880-1040-884-991-1008-1009-1010-1013-1014-1018-1039-1041-1042-997-1043-1124-1142-999-1000-1023-1001-1003-1004-1006-1007-1015-1016-1019-1136-1137-1021-1024-1036-1033-1037-1113-1129-1111-1112-1005-3060-3062-1379-1114-1123-1130-1138-881-1340-1341-1378-3102-1370-883-1115-846-885-894-895-1380-1343-992-995-1027-1020-1022-1026-1025-1028-1031-1038-847-1356-856-3099",
     "thesi_diorismou": "1371",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2866,10 +2833,10 @@
     "vathmologia": 86.08,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 89,
+    "aa": 88,
     "am": "7382.0",
     "eponymo": "ΔΡΟΣΟΥ",
     "onoma": "ΜΑΡΙΝΑ ΕΛΕΝΗ",
@@ -2901,7 +2868,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 90,
+    "aa": 89,
     "am": "10343.0",
     "eponymo": "ΤΖΑΝΕΤΑΚΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -2933,7 +2900,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 91,
+    "aa": 90,
     "am": "4894.0",
     "eponymo": "ΘΕΟΦΙΛΟΠΟΥΛΟΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -2965,7 +2932,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 92,
+    "aa": 91,
     "am": "16476.0",
     "eponymo": "ΙΕΡΕΜΙΑΔΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -2997,7 +2964,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 93,
+    "aa": 92,
     "am": "17401.0",
     "eponymo": "ΑΡΑΜΠΑΤΖΗ",
     "onoma": "ΓΛΥΚΕΡΙΑ",
@@ -3029,7 +2996,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 94,
+    "aa": 93,
     "am": "13739.0",
     "eponymo": "ΣΟΥΡΙΛΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -3061,7 +3028,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 95,
+    "aa": 94,
     "am": "7625.0",
     "eponymo": "ΚΟΝΤΟΓΟΥΛΙΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -3071,7 +3038,7 @@
     "theseis_idias_omadas": "1297-1299-1300-3057-3058-3059-3060-3061-3062-3063-3064",
     "protimiseis": "1322-1328-1329-3072-1325-1332-1331-1326-1330-779-954-959-941-968-3076-3075-965-963-961-967-942-1386-1382-1389-1390-1355-1308-1348-1385-1327-957-955-953-958-3074-1324-3103-3105-1397-1388-1352-1395-1346-1335-1323-1309-1310-1333-1350-1314-1336-1393-1337-1387-3104-1305-1356-1318-1299-785-786-3107-3061-3062-3059-3063-1297-3058-832-833-835-834-1148-1127-1125-1126-1166-1165-1162-1164-1078-1073-1076-1077-1145-1146-1144-1063-1064-1061-1099-1096-976-973-974-820-922-921-1140-1136-1137-1129-1138-871-869-872-858-866-867-979-980-1177-1176-818-949-948-950-943-945-1098-1160-1062-865-868-1209-1208-1205-1206-1159-1158-1157-1153-1154-1081-1080-3081-3109-1320-1347-1354-1392-1396-1353-1391-1315-905-1054-1056-781-1170-1169-1167-946-1104-1100-1102-1101-935-934-936-1055-1182-1181-1179-1180-819-966-964-1338-1339-1340-1341-1342-1343-1344-1345-3064-3060-780-777-3097-3098-3099-3100-3101-3102-3085-1384-1357-1383-3112-1334-1183-1184-1109-1108-1107-3088-3089-3090-3091-3092-3093-3094-3095-3096-3111-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-782-783-784-3073-3086-3077-3069-806-805-809-793-970-3082-3066-3068-3070-1349-1313-3108-3084-1394-1398-1304-1307-1311-3083-1306-776-778-1321-1300-3057-972-1128-1105-800-3065-3079-792-801-797-798-787-1319-1317-3078-3080-3087-807-804-789-791",
     "thesi_diorismou": "3098",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3091,10 +3058,10 @@
     "vathmologia": 85.58,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 96,
+    "aa": 95,
     "am": "7719.0",
     "eponymo": "ΟΙΚΟΝΟΜΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3126,7 +3093,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 97,
+    "aa": 96,
     "am": "3632.0",
     "eponymo": "ΣΠΥΡΙΔΟΥ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -3158,7 +3125,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 98,
+    "aa": 97,
     "am": "8605.0",
     "eponymo": "ΚΟΥΒΑΚΑ",
     "onoma": "ΣΤΕΦΑΝΙΑ",
@@ -3190,7 +3157,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 99,
+    "aa": 98,
     "am": "15396.0",
     "eponymo": "ΟΙΚΟΝΟΜΙΔΗ ΟΙΚΟΝΟΜΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3222,7 +3189,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 100,
+    "aa": 99,
     "am": "15253.0",
     "eponymo": "ΜΠΑΛΑΣΚΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -3254,7 +3221,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 101,
+    "aa": 100,
     "am": "20020.0",
     "eponymo": "ΜΠΑΡΜΠΑΡΟΥΣΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3286,7 +3253,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 102,
+    "aa": 101,
     "am": "18410.0",
     "eponymo": "ΠΕΤΣΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3318,7 +3285,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 103,
+    "aa": 102,
     "am": "1737.0",
     "eponymo": "ΓΙΑΡΙΚΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3350,7 +3317,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 104,
+    "aa": 103,
     "am": "4982.0",
     "eponymo": "ΜΠΕΚΑΤΩΡΟΣ",
     "onoma": "ΓΡΗΓΟΡΙΟΣ",
@@ -3382,7 +3349,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 105,
+    "aa": 104,
     "am": "20009.0",
     "eponymo": "ΕΥΣΤΑΘΙΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3392,7 +3359,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "1361-1369-1376-1360-1370-1374-1373-1371-1372-1375-1377-1384-3101-3093-3102-1379-1367-1368-3095-3096-3098-3094-3097-1365-1378-1341-1339-1338-1343-1340-1344-1342-3099-1362-3092-1363-3089-3100-1381-1380-3091-1358-3088-3068-1345-1312-3090-1364-1359-1366-823-780-783-821-830-825-824-831-782-784-826-3062-3060-827-1139-1119-1029-1031-1023-1011-999-1124-1043-991-1042-1040-1142-1009-1010-1000-1120-1018-998-1131-1039-995-1007-1036-1012-1013-3070-1008-1129-3066-1112-1122-1041-817-1006-996-1003-1135-916-1138-1016-1019-1134-1024-1140-1130-1141-992-1033-1034-1035-1014-997-1005-1004-1137-1136-1025-1021-1032-1001-1027",
     "thesi_diorismou": "1361",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3412,10 +3379,10 @@
     "vathmologia": 84.97,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 106,
+    "aa": 105,
     "am": "4526.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΙΔΟΥ",
     "onoma": "ΣΤΕΦΑΝΙΑ",
@@ -3447,7 +3414,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 107,
+    "aa": 106,
     "am": "3273.0",
     "eponymo": "ΜΑΝΤΖΙΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -3479,7 +3446,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 108,
+    "aa": 107,
     "am": "3719.0",
     "eponymo": "ΔΗΜΗΤΡΙΑΔΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3511,7 +3478,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 109,
+    "aa": 108,
     "am": "3156.0",
     "eponymo": "ΜΑΝΣΟΥΔΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -3543,7 +3510,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 110,
+    "aa": 109,
     "am": "5425.0",
     "eponymo": "ΜΑΣΚΙΝΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -3575,7 +3542,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 111,
+    "aa": 110,
     "am": "19196.0",
     "eponymo": "ΧΡΥΣΑΦΕΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3607,7 +3574,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 112,
+    "aa": 111,
     "am": "12149.0",
     "eponymo": "ΦΑΝΙΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -3639,7 +3606,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 113,
+    "aa": 112,
     "am": "10237.0",
     "eponymo": "ΤΣΙΝΤΖΙΛΩΝΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3671,7 +3638,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 114,
+    "aa": 113,
     "am": "25.0",
     "eponymo": "ΝΙΚΟΛΑΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ ΑΝΝΑ",
@@ -3703,7 +3670,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 115,
+    "aa": 114,
     "am": "15362.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3735,7 +3702,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 116,
+    "aa": 115,
     "am": "5481.0",
     "eponymo": "ΓΚΟΥΒΡΙΚΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3767,7 +3734,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 117,
+    "aa": 116,
     "am": "16873.0",
     "eponymo": "ΚΕΛΛΑΡΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3799,7 +3766,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 118,
+    "aa": 117,
     "am": "14813.0",
     "eponymo": "ΒΡΕΤΤΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -3809,7 +3776,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "898-896-895-894-899-996-997-885-886-887-889-789-881-883-884-882-797-1044-1045-880-890-790-891-893-994-892-897-913-914-798-877-918-917-1051-1050-1049-1048-1052-991-992-998-999-1000-1001-1002-1003-1004-1005-1006-1007-1008-1009-1010-1011-1012-1013-1014-1015-1016-1017-1018-1019-1020-1021-1022-1023-1024-1025-1027-1028-1029-1031-1032-1033-1034-1035-1036-1037-1038-1039-1040-1041-1042-1043-1426-1427-3060-846-855-856-995-993-919-916-843-845-847-849-852-1047-1112-1111-1113-1114-1119-1120-1121-1122-1123-1124-1129-1130-1141-1137-1135-1136-1138-1139-1046-1142-3062-1118-850-851",
     "thesi_diorismou": "899",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3829,10 +3796,10 @@
     "vathmologia": 84.33,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 119,
+    "aa": 118,
     "am": "18492.0",
     "eponymo": "ΔΗΜΗΤΡΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -3864,7 +3831,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 120,
+    "aa": 119,
     "am": "8531.0",
     "eponymo": "ΤΣΙΑΡΚΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3896,7 +3863,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 121,
+    "aa": 120,
     "am": "1248.0",
     "eponymo": "ΓΚΟΥΜΑΣΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -3928,7 +3895,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 122,
+    "aa": 121,
     "am": "17866.0",
     "eponymo": "ΒΑΚΟΥΦΑΡΗ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -3960,7 +3927,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 123,
+    "aa": 122,
     "am": "11629.0",
     "eponymo": "ΝΙΩΤΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ ΜΑΡΙΑ",
@@ -3970,7 +3937,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "3060-3062-1427-1426-1031-1136-1011-1036-1115-1040-916-880-991-1038-1003-1023-1007-1004-999-890-893-1129-899-1130-997-1016-1034-1039-1037-1042-1043-1005-896-1000-1009-1013-1020-1112-1137-886-849-895-919-996-1010-1002-1018-1021-1022-1019-1028-1029-1041-1045-1048-1118-1119-1120-1122-877-883-1050-1132-1133-1134-1131-1141-1140-1139-1138-1135-1123-1124-843-881-882-884-885-887-891-892-894-898-911-912-913-914-915-917-918-992-1024-994-1114-1001-1006-1008-1111-993-998-1012-1014-1015-1017-1027-1032-1033-1035-1047-1049-1052-1113-1121-907-909-910-3165-889-789-790-797-798-804-845",
     "thesi_diorismou": "3062",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3990,10 +3957,10 @@
     "vathmologia": 84.25,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 124,
+    "aa": 123,
     "am": "11053.0",
     "eponymo": "ΣΠΙΝΘΟΥΡΑΚΗ",
     "onoma": "ΑΝΝΑ",
@@ -4025,7 +3992,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 125,
+    "aa": 124,
     "am": "14033.0",
     "eponymo": "ΚΑΖΝΕΣΗΣ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -4057,7 +4024,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 126,
+    "aa": 125,
     "am": "12615.0",
     "eponymo": "ΧΡΗΣΤΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -4089,7 +4056,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 127,
+    "aa": 126,
     "am": "14504.0",
     "eponymo": "ΛΕΦΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -4121,7 +4088,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 128,
+    "aa": 127,
     "am": "10648.0",
     "eponymo": "ΚΑΣΤΡΙΝΑΚΗ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -4153,7 +4120,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 129,
+    "aa": 128,
     "am": "6302.0",
     "eponymo": "ΠΑΠΑΓΕΩΡΓΙΟΥ",
     "onoma": "ΝΙΚΟΛΙΤΣΑ",
@@ -4185,7 +4152,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 130,
+    "aa": 129,
     "am": "4328.0",
     "eponymo": "ΜΠΑΚΑ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4217,7 +4184,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 131,
+    "aa": 130,
     "am": "5926.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΑΔΑΜΑΝΤΙΑ",
@@ -4249,7 +4216,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 132,
+    "aa": 131,
     "am": "12809.0",
     "eponymo": "ΚΟΡΜΙΣΘΙΝΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ ΑΝΤΩΝΙΟΣ",
@@ -4281,7 +4248,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 133,
+    "aa": 132,
     "am": "2071.0",
     "eponymo": "ΒΑΣΙΛΕΙΑΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -4313,7 +4280,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 134,
+    "aa": 133,
     "am": "12587.0",
     "eponymo": "ΓΕΡΟΝΤΑΚΗ",
     "onoma": "ΔΑΝΑΗ",
@@ -4345,7 +4312,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 135,
+    "aa": 134,
     "am": "18071.0",
     "eponymo": "ΓΕΩΡΓΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -4377,7 +4344,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 136,
+    "aa": 135,
     "am": "17370.0",
     "eponymo": "ΟΥΖΟΥΝΗ",
     "onoma": "ΑΦΡΟΔΙΤΗ",
@@ -4409,7 +4376,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 137,
+    "aa": 136,
     "am": "1429.0",
     "eponymo": "ΚΟΝΤΟΓΙΩΡΓΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -4441,7 +4408,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 138,
+    "aa": 137,
     "am": "12914.0",
     "eponymo": "ΖΗΚΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -4473,7 +4440,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 139,
+    "aa": 138,
     "am": "15977.0",
     "eponymo": "ΟΡΦΑΝΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -4505,7 +4472,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 140,
+    "aa": 139,
     "am": "8497.0",
     "eponymo": "ΑΝΤΙΑΡΤΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -4537,7 +4504,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 141,
+    "aa": 140,
     "am": "9795.0",
     "eponymo": "ΤΖΟΥΜΑΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -4569,7 +4536,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 142,
+    "aa": 141,
     "am": "20656.0",
     "eponymo": "ΓΙΩΤΙΤΣΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -4601,7 +4568,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 143,
+    "aa": 142,
     "am": "1631.0",
     "eponymo": "ΜΗΚΑ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4633,7 +4600,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 144,
+    "aa": 143,
     "am": "18988.0",
     "eponymo": "ΜΠΟΤΣΑΡΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4665,7 +4632,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 145,
+    "aa": 144,
     "am": "11116.0",
     "eponymo": "ΝΑΟΥΜΗ",
     "onoma": "ΠΟΛΥΔΩΡΑ",
@@ -4697,7 +4664,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 146,
+    "aa": 145,
     "am": "3691.0",
     "eponymo": "ΚΟΛΩΝΙΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4729,7 +4696,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 147,
+    "aa": 146,
     "am": "13751.0",
     "eponymo": "ΖΙΑΚΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -4761,7 +4728,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 148,
+    "aa": 147,
     "am": "4987.0",
     "eponymo": "ΑΜΑΡΙΑΝΑΚΗΣ",
     "onoma": "ΣΤΑΜΑΤIOΣ",
@@ -4793,7 +4760,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 149,
+    "aa": 148,
     "am": "17750.0",
     "eponymo": "ΑΝΔΡΕΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -4825,7 +4792,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 150,
+    "aa": 149,
     "am": "18089.0",
     "eponymo": "ΜΥΛΩΝΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -4857,7 +4824,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 151,
+    "aa": 150,
     "am": "17021.0",
     "eponymo": "ΑΘΗΝΙΟΥ",
     "onoma": "ΜΑΡΙΛΕΝΑ",
@@ -4889,7 +4856,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 152,
+    "aa": 151,
     "am": "19362.0",
     "eponymo": "ΤΙΚΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4921,7 +4888,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 153,
+    "aa": 152,
     "am": "15755.0",
     "eponymo": "ΚΟΥΓΚΕΛΛΗ",
     "onoma": "ΛΟΥΚΡΙΤΙΑ",
@@ -4953,7 +4920,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 154,
+    "aa": 153,
     "am": "20031.0",
     "eponymo": "ΠΛΑΤΗ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -4985,7 +4952,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 155,
+    "aa": 154,
     "am": "9701.0",
     "eponymo": "ΚΟΥΡΟΥΤΖΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -5017,7 +4984,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 156,
+    "aa": 155,
     "am": "18678.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ ΜΥΡΤΩ",
@@ -5049,7 +5016,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 157,
+    "aa": 156,
     "am": "4999.0",
     "eponymo": "ΠΡΙΤΣΑ",
     "onoma": "ΑΓΟΡΙΤΣΑ",
@@ -5081,7 +5048,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 158,
+    "aa": 157,
     "am": "18598.0",
     "eponymo": "ΠΑΠΑΠΑΝΤΕΛΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -5113,7 +5080,7 @@
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
   },
   {
-    "aa": 159,
+    "aa": 158,
     "am": "19924.0",
     "eponymo": "ΜΙΧΑΛΑΚΑ",
     "onoma": "ΦΙΛΑΝΘΗ",
@@ -5143,6 +5110,39 @@
     "vathmologia": 82.81,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon"
+  },
+  {
+    "aa": 159,
+    "am": "20319.0",
+    "eponymo": "ΖΑΦΕΙΡΙΑΔΗΣ",
+    "onoma": "ΕΥΑΓΓΕΛΟΣ",
+    "patronymo": "ΔΙΑΜΑΝΤΗΣ",
+    "adt_masked": "***921",
+    "omada_prosonton": "319 -001",
+    "theseis_idias_omadas": "1298-3060-3062",
+    "protimiseis": "1354-781-1092-1090-1091-829-1298-3104-1387-1152-1151-1150-1044-826-823-825-816-821-822-830-824-817-827-831-1025-1051-1345-780-1344-1338-1339-1342-1340-1341-1013-1011-1010-1014-1009-1041-1012-1043-1008-1039-1040-880-1124-1312-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-3088-3089-3090-3091-3092-3093-3094-3095-3096-3099-3100-3101-3102-3066-3068-3097-3098-3070-777-782-783-784-884-898-896-1136-1137-1142-883-893-891-1049-1050-1002-994-993-996-997-1016-1017-995-1005-999-1021-1022-1015-1003-1006-1001-998-1026-1024-1027-1019-1004-1028-1034-1033-1035-1032-992-1038-1018-1036-886-885-887-881-1123-1114-1122-1113-1111-1112-1121-1129-1130-1135-1138-1141-918-915-914-912-913-845-846-856-850-843-815-1308-1309-1310-1318-872-871-868-865-866-870-858-929-927-928-1023-1029-894-1045-1031-1052-892-899-890-3060-3062-1143-897-917-916-1047-882-1048-3078-1319-1356-1307-1346-3081-1337-3065-1347-3087-1351-1320-1322-779-3072-1304-1349-3084-1385-1386-3103-785-1396-3111-1348-1314-3069-1382-1389-1390-3105-1395-1313-1317-1315-1397-786-1323-1392-3109-3077-1391-1398-3107-3106-1350-3108-1357-3086-3079-3080-1353-3085-1352-3067-3071-1306-776-1335-1321-1325-1326-1327-1328-1329-1330-1331-1332-1333-3073-3076-3082-3083-1336",
+    "thesi_diorismou": "1090",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 92.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "1298.0",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 49.39,
+    "synolo_graptou": 74.69,
+    "seira_klirosis": 8509735.0,
+    "vathmologia": 82.69,
+    "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
+    "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 160,
@@ -5539,7 +5539,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "1427-3062-1426-3060-1136-1031-1118-1120-1111-1119-991-1011-1122-1007-1005-1036-999-1003-1010-1009-1013-1000-996-1023-1039-1020-1041-1029-1012-1018-1034-1142-1140-1141-1138-1139-880-1124-1123-1112-1016-1019-1008-1040-1043-1046-1115-1116-1133-1117-899-882-890-916-917-1048-1047-885-896-1006-1035-1033-1024-893-1113-1129-1130-1037-1042-1114-994-881-884-1004-1038-886-997-1137-1002-1022-1021-1014-1001-1032-1027-1017-891-992-995-1135-993-894-1015-1028-1121-3165-887-1049-1050",
     "thesi_diorismou": "1136",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -5559,7 +5559,7 @@
     "vathmologia": 82.39,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 173,
@@ -5990,7 +5990,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "1042-1426-1427-999-1011-1041-1043-1136-1009-1039-1137-1040-880-991-1008-1124-1016-1012-1014-1010-1013-998-1122-997-996-995-1017-1025-1031-1036-918-1020-1051-1052-919-917-1001-1003-1028-1005-1019-1021-1004-1027-1037-1023-1018-1006-1000-1022-992-1007-1034-1038-1024-1135-1032-893-891-892-913-914-843-916-911-1134-1133-1132-1123-1138-1140-1142-912-915-993-994-1044-1111-1112-1114-1113-1045-1046-1047-1048-1129-1118-1119-1120-894-895-896-889-881-883-885-886-884-882-845-846-1033-1035-1130-877-855-890-899-1115-1116-1117-887-3165-850-907-908-909-910-1029-1139-856-876-3060-3062",
     "thesi_diorismou": "1137",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -6010,7 +6010,7 @@
     "vathmologia": 81.94,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 187,
@@ -6087,7 +6087,7 @@
     "theseis_idias_omadas": "1297-3058",
     "protimiseis": "1309-1310-1308-865-870-871-872-866-867-864-1297-3058-815-995-999-996-893-886-885-881-887-888-3165-1033-1035-1034-1024-1122-1003-1001-1019-1049-1006-1018-817-825-826-824-823-850-777-780-781-1007",
     "thesi_diorismou": "887",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -6107,7 +6107,7 @@
     "vathmologia": 81.86,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 190,
@@ -6184,7 +6184,7 @@
     "theseis_idias_omadas": "3060",
     "protimiseis": "846-883-855-845-789-882-884-847-881-897-852-856-1041-1025-1426-898-896-895-894-899-890-880-886-3060-887-885-889-1028-1004-1032-1005-893-891-991-992-1031-1024-1015-1006-877-790-892-1042-1033-1035-1427-1011-1007-997-996-1019-1122-851",
     "thesi_diorismou": "882",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -6204,7 +6204,7 @@
     "vathmologia": 81.75,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 193,
@@ -6217,7 +6217,7 @@
     "theseis_idias_omadas": "3064",
     "protimiseis": "780-782-783-784-785-779-777-3066-3098-3097-3096-3100-3101-3068-3090-3092-3093-3094-3095-3099-3102-3091-3088-3089-3070-3076-3074-3073-3075-3072-3103-3104-3065-3084-3083-3082-3069-3071-3078-3111-3110-3067-3105-1363-1378-1338-1325-1326-1340-1360-1374-1312-1384-1328-1343-1368-1377-1330-1341-1342-1369-1372-1373-1311-1314-1389-1362-1364-1365-1366-1367-1370-1380-1396-1339-1332-1355-1344-1358-1359-1361-1371-1376-1381-1394-1393-1322-1387-1304-1331-1327-1329-1324-1333-1336-1345-1375-1379-1386-1307-1395-1390-1313-1319-1335-833-821-825-837-835-834-1011-1040-999-880-966-963-961-962-3064",
     "thesi_diorismou": "3098",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -6237,7 +6237,7 @@
     "vathmologia": 81.69,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 194,
@@ -6666,7 +6666,7 @@
     "theseis_idias_omadas": "3060",
     "protimiseis": "821-830-825-826-831-816-817-1122-996-998-995-992-1018-991-993-994-1035-1033-1034-1013-880-1043-1040-1039-1042-999-1000-1113-1115-804-1124-1046-1008-1009-1011-1012-1010-1041-1044-1114-1019-1007-1142-1006-1116-1111-1112-1123-1024-1003-1051-1118-1036-1037-1016-1141-1130-1117-1120-893-1047-885-881-1129-780-777-1358-1367-1374-1366-1373-1381-1342-1365-1023-884-896-914-918-1135-913-883-895-1138-784-1359-1369-1362-823-1372-1371-1343-1377-1376-783-1379-1361-1360-1375-1133-797-889-917-1045-1048-1031-882-919-1378-1140-790-789-782-1363-3088-3089-3060-899-916-850-1380-1370-1368-1364-1339-1340-1338-1341-1344-1345-1312-1384-1022-1005-1025-1021-997-1027-1001-1002-1004-1014-1015-1017-1028-1132-1038-852-853-855-847-845-846-1121-886-891-894-887-888-3165",
     "thesi_diorismou": "831",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -6686,7 +6686,7 @@
     "vathmologia": 80.86,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 208,
@@ -7339,7 +7339,7 @@
     "theseis_idias_omadas": "3059-3063",
     "protimiseis": "949-946-945-943-948-947-950-794-1081-1080-944-795-1159-1158-1154-1155-1157-3059-3063-1426-1427-850-880-893-899-790-789-797-916-918-991-992-993-995-996-997-998-999-1000-1003-1005-1048-1045-1044-1043-1042-1041-1040-1039-1037-1036-1035-1034-1033-1031-1024-1023-1011-1007-1010-1009-1004",
     "thesi_diorismou": "850",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -7359,7 +7359,7 @@
     "vathmologia": 80.22,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 229,
@@ -7821,7 +7821,7 @@
     "theseis_idias_omadas": "1297-1298-3057-3058-3060-3061-3062-3064",
     "protimiseis": "935-933-936-934-932-1426-1427-1424-1430-1428-3058-1297-3057-3062-3060-3064-3061-1298-992-871-872-866-864-865-868-869-867-994-993-1011-1009-1010-1013-1016-1020-1029-1037-1031-1040-1042-1045-1036-1048-1065-1067-1066-1111-1112-1114-1113-1118-1120-1119-1123-1129-1122-1138-1140-1139-848-877-880-881-882-883-884-885-889-895-894-899-914-917-918-919-995-996-1007-1046-1047-841-842-839-840-838-858-857-927-929-937-938-940-954-952-956-955-959-957-958-961-962-963-965-1185-1186-1187-1202-1203-1204-789-790-797-787-793-1044-1051-1124-1141-1052-1043",
     "thesi_diorismou": "1031",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -7841,7 +7841,7 @@
     "vathmologia": 79.56,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 244,
@@ -8463,7 +8463,7 @@
     "theseis_idias_omadas": "1300",
     "protimiseis": "1116-1117-1115-1005-1040-1032-1026-1021-1022-1015-996-997-1122-1121-995-1028-1030-1027-1023-1024-1041-1038-1427-1426-1042-1033-1034-1035-1018-1019-1010-1037-1012-1009-1011-1013-1043-998-999-1000-1001-1046-1047-992-991-1004-1006-1007-1008-1014-1029-1123-1124-1111-1113-1114-1031-1020-1036-1002-993-994-1300",
     "thesi_diorismou": "1117",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -8483,7 +8483,7 @@
     "vathmologia": 78.97,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 264,
@@ -9392,7 +9392,7 @@
     "theseis_idias_omadas": "3062",
     "protimiseis": "831-1142-3062-1135-1130-1138-1129-1131-1134-1143-1132-1140-1133-1139-3097-3098-3099-3100-3101-3102-1141-1136-1137",
     "thesi_diorismou": "3098",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -9412,7 +9412,7 @@
     "vathmologia": 78.11,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 293,
@@ -10193,7 +10193,7 @@
     "theseis_idias_omadas": "3060-3062",
     "protimiseis": "3088-3089-3090-3091-3092-3093-3094-3095-3096-3099-3100-3101-3102-3097-3098-3066-1336-780-3068-3070-1338-1339-1340-1341-1342-1343-1344-1345-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-1312-1384-1393-782-783-784-777-825-816-830-823-826-821-822-831-824-987-988-986-984-1011-1040-1042-1023-1043-991-1041-1039-1013-1007-1009-1010-1025-1034-880-1012-1037-1136-1142-1129-1124-999-1008-1000-1003-1031-1036-1035-1033-1044-1029-1018-998-996-995-1115-1004-1006-1016-1019-1020-1130-1123-1122-1120-893-896-890-3060-3062-817-992-1024-3074-3075-3076-1325-1326-1327-1328-1329-1330-1331-1332-1187-916-1045-1046-1047-3084-1394-1321-1318-1308-1309-1310-1349-1355-1351-1356-1103-1104-1311-1304-1305-1306-1307-778-877-884-883-882-885-889-892-895-899-918-917-914-912-913-915-919-993-994-1111-1112-1113-1114-1116-1117-1118-1119-938-940-1131-1132-1133-1134-1135-1137-1138-1139-1140-1141-1143-997-1022-1028-1038-1048-1051-1049-1027-1032-1014-1015-1017-1021-1001-1002-1005-894-886-887-3165",
     "thesi_diorismou": "3091",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -10213,7 +10213,7 @@
     "vathmologia": 77.36,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 318,
@@ -18005,7 +18005,7 @@
     "theseis_idias_omadas": "1297-1298-1299-1300",
     "protimiseis": "829-1298-1300-836-834-835-837-3157-815-1297-1299-832-833-820-828-819",
     "thesi_diorismou": "1298",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -18025,7 +18025,7 @@
     "vathmologia": 53.61,
     "eidikotita": "ΠΕ ΕΠΙΜΕΛΗΤΩΝ ΚΟΙΝΩΝΙΚΗΣ ΑΡΩΓΗΣ/ΠΕ ΣΩΦΡΟΝΙΣΤΙΚΟΥ ΑΝΗΛΙΚΩΝ",
     "slug": "pe-epimeliton-koinonikis-arogis-pe-sofronistikoy-anilikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 562,

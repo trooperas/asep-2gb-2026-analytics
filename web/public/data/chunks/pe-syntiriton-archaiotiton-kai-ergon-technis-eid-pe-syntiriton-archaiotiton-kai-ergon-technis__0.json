@@ -402,7 +402,7 @@
     "theseis_idias_omadas": "3048",
     "protimiseis": "3050-3051-3055-3056-3048-3053-3049-3054-3052",
     "thesi_diorismou": "3048",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -422,7 +422,7 @@
     "vathmologia": 75.31,
     "eidikotita": "ΠΕ ΣΥΝΤΗΡΗΤΩΝ ΑΡΧΑΙΟΤΗΤΩΝ ΚΑΙ ΕΡΓΩΝ ΤΕΧΝΗΣ ΕΙΔ. ΠΕ ΣΥΝΤΗΡΗΤΩΝ ΑΡΧΑΙΟΤΗΤΩΝ ΚΑΙ ΕΡΓΩΝ ΤΕΧΝΗΣ",
     "slug": "pe-syntiriton-archaiotiton-kai-ergon-technis-eid-pe-syntiriton-archaiotiton-kai-ergon-technis",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 14,
@@ -820,7 +820,7 @@
     "theseis_idias_omadas": "3048",
     "protimiseis": "3050-3049-3055-3056-3048-3054-3053-3052",
     "thesi_diorismou": "3054",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -840,6 +840,6 @@
     "vathmologia": 55.72,
     "eidikotita": "ΠΕ ΣΥΝΤΗΡΗΤΩΝ ΑΡΧΑΙΟΤΗΤΩΝ ΚΑΙ ΕΡΓΩΝ ΤΕΧΝΗΣ ΕΙΔ. ΠΕ ΣΥΝΤΗΡΗΤΩΝ ΑΡΧΑΙΟΤΗΤΩΝ ΚΑΙ ΕΡΓΩΝ ΤΕΧΝΗΣ",
     "slug": "pe-syntiriton-archaiotiton-kai-ergon-technis-eid-pe-syntiriton-archaiotiton-kai-ergon-technis",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   }
 ]

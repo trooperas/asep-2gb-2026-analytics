@@ -1,39 +1,6 @@
 [
   {
     "aa": 1,
-    "am": "9793.0",
-    "eponymo": "ΜΑΝΔΡΟΧΑΛΟΣ",
-    "onoma": "ΝΙΚΟΛΑΟΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***998",
-    "omada_prosonton": "314 -001",
-    "theseis_idias_omadas": "1283",
-    "protimiseis": "1398-1211-1283-1210-3085-1353-1261-1262-1263-1264-3159-3154-1082-1083-1084-1087-1136-1137",
-    "thesi_diorismou": "1211",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 5.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1283",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 67.56,
-    "synolo_graptou": 83.78,
-    "seira_klirosis": 6510633.0,
-    "vathmologia": 131.78,
-    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 2,
     "am": "3625.0",
     "eponymo": "ΚΟΥΡΤΕΣΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -66,7 +33,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 3,
+    "aa": 2,
     "am": "7299.0",
     "eponymo": "ΚΑΛΦΟΠΟΥΛΟΥ",
     "onoma": "ΑΣΠΑΣΙΑ",
@@ -99,7 +66,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 4,
+    "aa": 3,
     "am": "7418.0",
     "eponymo": "ΣΠΥΡΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -132,7 +99,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 5,
+    "aa": 4,
     "am": "18778.0",
     "eponymo": "ΜΑΡΔΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -164,7 +131,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 6,
+    "aa": 5,
     "am": "10815.0",
     "eponymo": "ΣΠΑΝΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -197,7 +164,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 6,
     "am": "9176.0",
     "eponymo": "ΜΑΜΟΥΝΑ",
     "onoma": "ΣΤΑΜΑΤΙΑ",
@@ -229,40 +196,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 8,
-    "am": "8339.0",
-    "eponymo": "ΜΠΑΚΟΥΛΗ",
-    "onoma": "ΦΩΤΕΙΝΗ",
-    "patronymo": "ΑΝΤΩΝΙΟΣ",
-    "adt_masked": "***705",
-    "omada_prosonton": "314 -001",
-    "theseis_idias_omadas": "1278-1279-1280-1281-1283",
-    "protimiseis": "1300-1210-1211-1283-1398-1426-1427-1424-1430-1297-780-777-1246-782-783-784-797-798-805-806-1044-804-789-790-807-843-845-846-847-848-849-850-851-852-853-854-855-856-877-1129-1025-1130-1131-1132-1133-1134-1135-1136-1137-1138-1139-1140-1141-1142-1143-991-992-993-994-995-996-998-999-1000-1002-1003-1004-1006-1005-1007-1008-1009-1010-1011-1012-1013-1014-1016-1018-1019-1020-1021-1022-1023-1024-1045-1046-1047-1048-1049-1051-1052-3165-1111-1112-1113-909-1114-1115-1116-1117-1118-1119-1120-1122-1123-1124-1280-1281-1278-1279-880-881-882-883-884-885-886-889-890-891-892-893-894-895-896-897-898-899-907-1077-954-942-939-927-928-929-908-1222-1241-1242-1221-1223-1225-1224-1226-1235-1236-1237-1238-1239-1250-1245-1244-1248-1247-1249-1265-1266-1268-1312-1338-1339-1340-1341-1342-1343-1344-1345-1358-1359-1360-1361-1362-1363-1364-1365-1368-1367-1369-1366-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-1384-3066-3068-3070-3073-3074-3075-3076-3088-3089-3090-3091-3092-3093-3094-3095-3096-3097-3098-3099-3100-3101-3102-1214-1212-1270-1273-1274-1299-1298-1425-1428-1429-776-778-779-781-785-786-3060-3062-3057-3058-3064-1304-1305-1306-1307-1308-1309-1310-1311-1318-1321-1322-1335-1336-1349-1351-1355-1356-1386-1387-1393-1394-1396-814",
-    "thesi_diorismou": "1300",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 15.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "1283",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 47.78,
-    "synolo_graptou": 73.89,
-    "seira_klirosis": 7837361.0,
-    "vathmologia": 120.89,
-    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 9,
+    "aa": 7,
     "am": "2802.0",
     "eponymo": "ΣΠΥΡΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -294,7 +228,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 10,
+    "aa": 8,
     "am": "12371.0",
     "eponymo": "ΕΥΩΔΙΑ",
     "onoma": "ΕΥΦΗΜΙΑ",
@@ -326,7 +260,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 11,
+    "aa": 9,
     "am": "5864.0",
     "eponymo": "ΓΕΩΡΓΟΥΣΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -359,7 +293,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 12,
+    "aa": 10,
     "am": "18386.0",
     "eponymo": "ΠΑΛΑΙΟΛΟΓΟΥ",
     "onoma": "ΑΣΠΑΣΙΑ",
@@ -392,7 +326,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 11,
     "am": "1233.0",
     "eponymo": "ΧΡΥΣΟΧΟΥ",
     "onoma": "ΖΩΗ",
@@ -424,7 +358,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 14,
+    "aa": 12,
     "am": "10897.0",
     "eponymo": "ΛΕΙΒΑΔΙΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -457,7 +391,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 15,
+    "aa": 13,
     "am": "6646.0",
     "eponymo": "ΣΤΑΜΟΥΛΟΥ",
     "onoma": "ΒΙΡΓΙΝΙΑ",
@@ -467,7 +401,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "1391-1173-1171-1172-1026-888-780-1280-1030-896-1246-999-1248-1244-1312-1338-1340-1343-1374-1378-1011-1040-1122-991-880-890",
     "thesi_diorismou": "1391",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -487,10 +421,10 @@
     "vathmologia": 118.39,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 16,
+    "aa": 14,
     "am": "1576.0",
     "eponymo": "ΒΑΚΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -522,40 +456,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 17,
-    "am": "7322.0",
-    "eponymo": "ΜΟΛΛΑ",
-    "onoma": "ΕΛΕΝΗ",
-    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "adt_masked": "***384",
-    "omada_prosonton": "314 -001",
-    "theseis_idias_omadas": "1282",
-    "protimiseis": "1127-1125-1126-1282-1382",
-    "thesi_diorismou": "1127",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 27.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "1282",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 84.56,
-    "synolo_graptou": 92.28,
-    "seira_klirosis": 1802642.0,
-    "vathmologia": 117.28,
-    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
-    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 18,
+    "aa": 15,
     "am": "4422.0",
     "eponymo": "ΛΕΩΤΣΙΝΙΔΗ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ ΕΙΡΗΝΗ",
@@ -587,7 +488,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 19,
+    "aa": 16,
     "am": "15753.0",
     "eponymo": "ΡΟΔΑΚΗ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -619,7 +520,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 20,
+    "aa": 17,
     "am": "3798.0",
     "eponymo": "ΠΙΚΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -652,7 +553,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 21,
+    "aa": 18,
     "am": "7043.0",
     "eponymo": "ΜΠΙΛΛΗ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -684,7 +585,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 22,
+    "aa": 19,
     "am": "6767.0",
     "eponymo": "ΠΕΡΟΓΙΑΝΝΑΚΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -694,7 +595,7 @@
     "theseis_idias_omadas": "1278-1280-1281",
     "protimiseis": "944-795-948-945-946-947-949-950-794-1136-1031-1115-1036-1040-999-1003-1023-991-954-880-1129-1007-893-1037-916-1130-1141-1142-1140-1138-1134-1139-1143-1135-1133-1131-1132-805-804-1176-1177-1278-1280-1281-809-1235-844-1213-1269-960-961-962-963-964-965-966-967-968-1156-1154-1155-1157-1158-1159-1153",
     "thesi_diorismou": "944",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -714,10 +615,10 @@
     "vathmologia": 112.31,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 23,
+    "aa": 20,
     "am": "1876.0",
     "eponymo": "ΚΥΡΙΑΚΙΔΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -750,7 +651,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
+    "aa": 21,
     "am": "8022.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΑΣ",
     "onoma": "ΙΠΠΟΚΡΑΤΗΣ",
@@ -782,7 +683,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 25,
+    "aa": 22,
     "am": "8025.0",
     "eponymo": "ΣΤΑΥΡΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -814,7 +715,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 26,
+    "aa": 23,
     "am": "19623.0",
     "eponymo": "ΜΠΟΥΡΔΟΥΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -846,7 +747,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 27,
+    "aa": 24,
     "am": "6027.0",
     "eponymo": "ΔΕΡΜΕΝΤΖΟΓΛΟΥ",
     "onoma": "ΦΑΝΗ ΝΕΚΤΑΡΙΑ",
@@ -878,7 +779,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 28,
+    "aa": 25,
     "am": "6099.0",
     "eponymo": "ΤΟΥΡΛΙΔΑΣ",
     "onoma": "ΘΩΜΑΣ",
@@ -911,7 +812,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 29,
+    "aa": 26,
     "am": "14794.0",
     "eponymo": "ΛΟΙΖΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -943,7 +844,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 30,
+    "aa": 27,
     "am": "16580.0",
     "eponymo": "ΜΕΤΖΙΔΙΕ",
     "onoma": "ΘΕΟΠΟΥΛΑ",
@@ -975,7 +876,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 31,
+    "aa": 28,
     "am": "12663.0",
     "eponymo": "ΜΥΚΟΝΙΑΤΗ ΜΥΚΟΝΙΑΤΕΛΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ ΜΑΡΙΑ",
@@ -1007,7 +908,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 32,
+    "aa": 29,
     "am": "20115.0",
     "eponymo": "ΚΛΑΔΗ",
     "onoma": "ΣΤΑΜΑΤΙΑ",
@@ -1039,7 +940,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 33,
+    "aa": 30,
     "am": "8617.0",
     "eponymo": "ΧΑΤΖΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1071,7 +972,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 34,
+    "aa": 31,
     "am": "11068.0",
     "eponymo": "ΛΥΜΠΕΡΑΚΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -1103,7 +1004,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 35,
+    "aa": 32,
     "am": "12855.0",
     "eponymo": "ΖΑΡΚΑΔΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -1113,7 +1014,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "1307-975-1216-976-973-1122-996-1042-995-1040-884-898-997-1387-3104-1152-1151-1150-896-1142-780-1003-1225-887-1014-991-1375-1377-1011-1248-1124-1226-891-1043-998-1135-880-1010-1223-1039-1012-1009-1280-1245-886-3165-999-1339-1038-1026-1358-1359-3088-1360-1368-1224-885-881-1247-1217-1121-1230-788-1005-1141-1304-1041-974-1002-1032-1028-1004-1242-1341-1342-893-1249-1281-840",
     "thesi_diorismou": "1307",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1133,10 +1034,10 @@
     "vathmologia": 97.64,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 36,
+    "aa": 33,
     "am": "2734.0",
     "eponymo": "ΚΑΨΙΜΑΛΗ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -1168,7 +1069,40 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 37,
+    "aa": 34,
+    "am": "7322.0",
+    "eponymo": "ΜΟΛΛΑ",
+    "onoma": "ΕΛΕΝΗ",
+    "patronymo": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+    "adt_masked": "***384",
+    "omada_prosonton": "314 -001",
+    "theseis_idias_omadas": "1282",
+    "protimiseis": "1127-1125-1126-1282-1382",
+    "thesi_diorismou": "1127",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 27.0,
+    "monades_empeirias": 2.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "7",
+    "kod_thesi_entop": "1282",
+    "monades_entop": 20.0,
+    "math1": 100.0,
+    "math2": 84.56,
+    "synolo_graptou": 92.28,
+    "seira_klirosis": 1802642.0,
+    "vathmologia": 97.28,
+    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 35,
     "am": "9607.0",
     "eponymo": "ΓΚΙΟΝΤΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1201,7 +1135,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 38,
+    "aa": 36,
     "am": "18280.0",
     "eponymo": "ΑΓΑΓΙΩΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1234,7 +1168,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 39,
+    "aa": 37,
     "am": "847.0",
     "eponymo": "ΨΩΜΟΠΟΥΛΟΣ",
     "onoma": "ΠΡΟΔΡΟΜΟΣ",
@@ -1267,7 +1201,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 40,
+    "aa": 38,
     "am": "16866.0",
     "eponymo": "ΜΠΑΞΕΒΑΝΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -1300,7 +1234,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 41,
+    "aa": 39,
     "am": "12029.0",
     "eponymo": "ΠΕΤΡΟΥΣΗ",
     "onoma": "ΜΑΡΙΝΑ-ΕΥΤΥΧΙΑ",
@@ -1333,7 +1267,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 42,
+    "aa": 40,
     "am": "1605.0",
     "eponymo": "ΘΕΟΔΩΡΟΥ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -1366,7 +1300,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 43,
+    "aa": 41,
     "am": "16603.0",
     "eponymo": "ΚΟΥΤΟΥΝΙΔΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -1399,7 +1333,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 44,
+    "aa": 42,
     "am": "15947.0",
     "eponymo": "ΣΤΟΥΜΠΟΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -1432,7 +1366,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 45,
+    "aa": 43,
     "am": "15220.0",
     "eponymo": "ΡΟΥΦΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -1464,7 +1398,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 46,
+    "aa": 44,
     "am": "2152.0",
     "eponymo": "ΔΑΓΓΟΥΛΗ",
     "onoma": "ΡΕΒΕΚΚΑ",
@@ -1497,7 +1431,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 47,
+    "aa": 45,
     "am": "3412.0",
     "eponymo": "ΛΑΠΠΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1530,7 +1464,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 48,
+    "aa": 46,
     "am": "6497.0",
     "eponymo": "ΚΟΛΥΒΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -1563,7 +1497,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 49,
+    "aa": 47,
     "am": "2617.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1596,7 +1530,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 50,
+    "aa": 48,
     "am": "3586.0",
     "eponymo": "ΜΑΛΑΠΕΤΣΑ",
     "onoma": "ΓΕΩΡΓΙΑ-ΔΙΟΝΥΣΙΑ",
@@ -1629,7 +1563,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 51,
+    "aa": 49,
     "am": "15587.0",
     "eponymo": "ΔΡΙΔΑΚΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -1662,7 +1596,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 52,
+    "aa": 50,
     "am": "13574.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -1694,7 +1628,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 53,
+    "aa": 51,
     "am": "20579.0",
     "eponymo": "ΜΠΑΛΑΦΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1726,7 +1660,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 54,
+    "aa": 52,
     "am": "13331.0",
     "eponymo": "ΣΙΩΜΟΥ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -1758,7 +1692,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 55,
+    "aa": 53,
     "am": "6790.0",
     "eponymo": "ΜΠΑΛΛΑΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -1790,7 +1724,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 56,
+    "aa": 54,
     "am": "5530.0",
     "eponymo": "ΒΑΣΙΛΕΙΑΔΟΥ",
     "onoma": "ΣΠΥΡΙΔΟΥΛΑ",
@@ -1822,7 +1756,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 57,
+    "aa": 55,
     "am": "7025.0",
     "eponymo": "ΠΑΤΣΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -1855,7 +1789,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 58,
+    "aa": 56,
     "am": "20380.0",
     "eponymo": "ΝΙΑΒΗ",
     "onoma": "ΑΓΟΡΟΥΛΑ",
@@ -1865,7 +1799,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "1000-1018-991-1023-1006-1007-1043-1124-1280-1009-1042-999-1011-1012-998-1008-1039-1010-1040-1049-1224-1223-880-884-1226-896-1142-898-995-1003-1034-1033-1035-996-1122-893-881-885-1016-1138-1037-1019-918-895-883-1222-1265-1241-1221-993-994-887-1111-1113-1112-1129-914-1013-1041-1036-1024-1130-1141-1246-1025-1044-1051-992",
     "thesi_diorismou": "1018",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1885,10 +1819,43 @@
     "vathmologia": 91.81,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
+    "eidikes_idiotites": "ΝΑΙ"
+  },
+  {
+    "aa": 57,
+    "am": "9793.0",
+    "eponymo": "ΜΑΝΔΡΟΧΑΛΟΣ",
+    "onoma": "ΝΙΚΟΛΑΟΣ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***998",
+    "omada_prosonton": "314 -001",
+    "theseis_idias_omadas": "1283",
+    "protimiseis": "1398-1211-1283-1210-3085-1353-1261-1262-1263-1264-3159-3154-1082-1083-1084-1087-1136-1137",
+    "thesi_diorismou": "1211",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 5.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "1283",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 67.56,
+    "synolo_graptou": 83.78,
+    "seira_klirosis": 6510633.0,
+    "vathmologia": 91.78,
+    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 59,
+    "aa": 58,
     "am": "1780.0",
     "eponymo": "ΓΚΟΥΜΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1921,7 +1888,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 60,
+    "aa": 59,
     "am": "6133.0",
     "eponymo": "ΥΦΑΝΤΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -1953,7 +1920,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 61,
+    "aa": 60,
     "am": "13323.0",
     "eponymo": "ΑΓΙΟΡΓΙΤΗΣ",
     "onoma": "ΑΧΙΛΛΕΑΣ",
@@ -1985,7 +1952,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 62,
+    "aa": 61,
     "am": "17113.0",
     "eponymo": "ΠΥΡΟΣΤΙΑΝΗΣ",
     "onoma": "ΦΩΤΙΟΣ",
@@ -2017,7 +1984,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 63,
+    "aa": 62,
     "am": "14836.0",
     "eponymo": "ΚΑΨΙΩΧΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2049,7 +2016,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 64,
+    "aa": 63,
     "am": "8142.0",
     "eponymo": "ΧΑΤΖΗΜΙΧΑΗΛΟΓΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2082,7 +2049,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 65,
+    "aa": 64,
     "am": "739.0",
     "eponymo": "ΓΙΑΝΝΑΚΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -2092,7 +2059,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "1312-1226-1342-1245-1340-777-1339-780-1344-1280-1343-1281-1341-1224-1338-1244-1379-1247-1375-1242-1248-1381-1230-1376-1225-1371-1249-1361-1266-1359-1250-1358-1357-3091-3089-3090-3094-3093-3092-3088-3096-1380-1370-1367-1364-1366-1365-1362-1369-1368-1373-1372-1377-1384-1360-1374-1378-1363-3095-784-783-782-1345-1265-1222-1241-1268-1221-1035-1033-1034-1038-1115-1116-1027-1009-1010-1011-1008-1012-1007-1003-1005-1004-899-896-894-895-1036-998-1019-1117-1141-1142-1139-1022-1021-992-1014-1024-1029-1042-1124-1130-1135-1140-1138-1122-1118-1120-1119-1121-1114-1111-1137-1032-1031-1025-1028-1015-1018-1017-1016-1013-995-996-997-1020-1001-1006-789-797-804-883-884-897-898-1002-1000-991-1023-1044-1045-1112-1113-1123-1129-1133-1134-1136-1131-1132-1148-918-917-916-914-3165-889-890-850-882-886-885-887-880-881-855-856-851-852-877-846-790-893-892-891-993-994-1046-1047-1143",
     "thesi_diorismou": "1312",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2112,10 +2079,10 @@
     "vathmologia": 90.92,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 66,
+    "aa": 65,
     "am": "6396.0",
     "eponymo": "ΠΑΠΟΥΤΣΑΝΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2148,7 +2115,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 67,
+    "aa": 66,
     "am": "12610.0",
     "eponymo": "ΒΟΥΖΑ",
     "onoma": "ΟΛΓΑ",
@@ -2158,7 +2125,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "1223-880-3060-1041-777-780-1280-991-1427-1226-1012-896-1246-1025-1042-1009-1011-881-885-1039-1010-996-1224-1040-999-898-1014-1245-855-846-1018-1122-1124-1000",
     "thesi_diorismou": "3060",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2178,10 +2145,10 @@
     "vathmologia": 90.64,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 68,
+    "aa": 67,
     "am": "4418.0",
     "eponymo": "ΑΝΑΣΤΑΣΑΚΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2214,7 +2181,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 69,
+    "aa": 68,
     "am": "7931.0",
     "eponymo": "ΧΟΥΖΟΥΡΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -2224,7 +2191,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "780-1280-1007-991-1011-1033-1041-1010-896-1012-1006-998-1367-1377-855-992-1035-996",
     "thesi_diorismou": "780",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2244,10 +2211,10 @@
     "vathmologia": 90.58,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 70,
+    "aa": 69,
     "am": "251.0",
     "eponymo": "ΔΑΜΙΓΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -2280,7 +2247,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 71,
+    "aa": 70,
     "am": "6595.0",
     "eponymo": "ΑΡΓΥΡΟΠΟΥΛΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -2313,7 +2280,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 72,
+    "aa": 71,
     "am": "3861.0",
     "eponymo": "ΓΡΗΓΟΡΙΑΔΟΥ",
     "onoma": "ΑΝΝΑ ΜΑΡΙΑ",
@@ -2345,7 +2312,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 73,
+    "aa": 72,
     "am": "17106.0",
     "eponymo": "ΝΙΚΟΛΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2377,7 +2344,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 74,
+    "aa": 73,
     "am": "3907.0",
     "eponymo": "ΜΑΛΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2410,7 +2377,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 75,
+    "aa": 74,
     "am": "7417.0",
     "eponymo": "ΚΤΕΝΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2443,7 +2410,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 76,
+    "aa": 75,
     "am": "11227.0",
     "eponymo": "ΙΩΑΝΝΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2475,7 +2442,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 77,
+    "aa": 76,
     "am": "19775.0",
     "eponymo": "ΜΥΛΩΝΑ",
     "onoma": "ΣΟΦΙΑ",
@@ -2508,7 +2475,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 78,
+    "aa": 77,
     "am": "11196.0",
     "eponymo": "ΣΑΡΙΑΝΙΔΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2540,7 +2507,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 79,
+    "aa": 78,
     "am": "6549.0",
     "eponymo": "ΠΑΥΛΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2572,7 +2539,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 80,
+    "aa": 79,
     "am": "1280.0",
     "eponymo": "ΡΟΥΦΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -2605,7 +2572,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 81,
+    "aa": 80,
     "am": "19700.0",
     "eponymo": "ΜΟΥΖΟΥΡΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -2637,7 +2604,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 82,
+    "aa": 81,
     "am": "13543.0",
     "eponymo": "ΤΖΙΟΚΑΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2669,7 +2636,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 83,
+    "aa": 82,
     "am": "16571.0",
     "eponymo": "ΤΣΑΒΕΑΣ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -2701,7 +2668,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 84,
+    "aa": 83,
     "am": "6147.0",
     "eponymo": "ΤΣΑΚΑΛΙΔΟΥ",
     "onoma": "ΙΒΕΤΑ",
@@ -2711,7 +2678,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "1328-1329-1324-1330-1333-1327-3074-3075-3076-968-965-961-958-963-959-1360-1359-991-1280-1379-1367-1000-1018-1043-1011-1370-1358-1368-1369-1381-1380-3088-3093-1340-1124-780-1007-3095-3096-1371-1372-1373-1375-1376-1377-1009-3090-3091-3092-1244-1023-1040-893-998-1223-880-1042-1010-1013-3094-3089-777-1364-1363-1365-1236-952-953-954-956-955-1237-957-1029-1362-1361-782-783-784-896-1008-898-1012-1039-884-1041-1142-1006-1003-1226-1019-996-995-1034-1033-1035-999-881-1119-3068-3099-3100",
     "thesi_diorismou": "1360",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2731,10 +2698,10 @@
     "vathmologia": 89.0,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 85,
+    "aa": 84,
     "am": "7970.0",
     "eponymo": "ΛΕΚΚΑΣ",
     "onoma": "ΒΛΑΔΙΜΗΡΟΣ",
@@ -2767,7 +2734,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 86,
+    "aa": 85,
     "am": "8663.0",
     "eponymo": "ΚΑΛΑΦΑΤΑΚΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -2800,7 +2767,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 87,
+    "aa": 86,
     "am": "13894.0",
     "eponymo": "ΧΡΙΣΤΟΠΟΥΛΟΣ",
     "onoma": "ΘΩΜΑΣ",
@@ -2833,7 +2800,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 88,
+    "aa": 87,
     "am": "19582.0",
     "eponymo": "ΣΠΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑΝΝΑ",
@@ -2866,7 +2833,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 89,
+    "aa": 88,
     "am": "10828.0",
     "eponymo": "ΚΑΡΑΓΚΟΥΝΑΚΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -2898,7 +2865,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 90,
+    "aa": 89,
     "am": "10312.0",
     "eponymo": "ΣΑΜΑΡΑ",
     "onoma": "ΝΙΚΗ",
@@ -2930,7 +2897,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 91,
+    "aa": 90,
     "am": "5858.0",
     "eponymo": "ΦΙΤΣΙΟΥ",
     "onoma": "ΑΠΟΣΤΟΛΙΑ",
@@ -2962,7 +2929,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 92,
+    "aa": 91,
     "am": "8387.0",
     "eponymo": "ΤΣΑΡΟΥΧΑ",
     "onoma": "ΧΑΡΑ",
@@ -2995,7 +2962,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 93,
+    "aa": 92,
     "am": "14868.0",
     "eponymo": "ΔΕΜΙΡΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -3028,7 +2995,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 94,
+    "aa": 93,
     "am": "16103.0",
     "eponymo": "ΝΑΣΟΥΛΑΣ",
     "onoma": "ΔΗΜΟΣΘΕΝΗΣ",
@@ -3061,7 +3028,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 95,
+    "aa": 94,
     "am": "14697.0",
     "eponymo": "ΣΒΗΡΚΟΥ",
     "onoma": "ΣΤΕΛΛΑ",
@@ -3093,7 +3060,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 96,
+    "aa": 95,
     "am": "11923.0",
     "eponymo": "ΤΑΤΣΑΚΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3125,7 +3092,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 97,
+    "aa": 96,
     "am": "13184.0",
     "eponymo": "ΜΙΛΚΟΝΙΔΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -3158,7 +3125,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 98,
+    "aa": 97,
     "am": "12982.0",
     "eponymo": "ΓΚΑΡΑΛΙΟΥ",
     "onoma": "ΒΑΙΤΣΑ",
@@ -3190,7 +3157,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 99,
+    "aa": 98,
     "am": "12310.0",
     "eponymo": "ΑΠΟΣΤΟΛΙΔΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -3222,7 +3189,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 100,
+    "aa": 99,
     "am": "3709.0",
     "eponymo": "ΛΟΓΑΡΗ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -3255,7 +3222,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 101,
+    "aa": 100,
     "am": "8809.0",
     "eponymo": "ΝΟΤΑΡΑΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -3288,7 +3255,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 102,
+    "aa": 101,
     "am": "915.0",
     "eponymo": "ΚΟΛΛΙΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -3321,7 +3288,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 103,
+    "aa": 102,
     "am": "15716.0",
     "eponymo": "ΠΑΠΑΓΕΩΡΓΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3354,7 +3321,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 104,
+    "aa": 103,
     "am": "13197.0",
     "eponymo": "ΠΕΡΔΙΚΑΚΗ",
     "onoma": "ΑΝΝΑ",
@@ -3386,7 +3353,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 105,
+    "aa": 104,
     "am": "18592.0",
     "eponymo": "ΣΚΑΡΛΑΤΟΥΔΗ",
     "onoma": "ΜΑΡΙΑ ΣΤΕΦΑΝΙΑ",
@@ -3418,7 +3385,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 106,
+    "aa": 105,
     "am": "6246.0",
     "eponymo": "ΓΕΡΑΝΤΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -3450,7 +3417,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 107,
+    "aa": 106,
     "am": "12026.0",
     "eponymo": "ΠΑΥΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3482,7 +3449,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 108,
+    "aa": 107,
     "am": "7827.0",
     "eponymo": "ΔΟΥΦΕΞΗ",
     "onoma": "ΕΛΙΣΣΑΒΕΤ",
@@ -3515,7 +3482,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 109,
+    "aa": 108,
     "am": "13882.0",
     "eponymo": "ΒΑΛΣΑΜΙΔΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3548,7 +3515,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 110,
+    "aa": 109,
     "am": "10936.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3558,7 +3525,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "1280-780-1340-1343-1341-1342-1226-1339-1344-1224-1223-785-777-1312-1338-1386-1270-1363-1360-1364-1365-1366-1367-1368-1369-1370-1373-1372-1371-1374-1378-1377-1380-1376-3103-3096-782-783-784-1244-1245-1247-1248-1281-1249-1250-1242-1241-1221-1222-1358-1359-1345-1362-1361-1375-1379-1381-3090-3092-3093-3094-3095-3089-3088-3091-1235-1225-1238-1325-1326-1327-896-996-880-997-884-991-806-1030-1011-1023-1022-1021-1020-1019-888-1012-1014-1008-1009-1010-1031-1038-1039-1026-1040-1042-1041-1043-1148-1029-1036",
     "thesi_diorismou": "1340",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3578,10 +3545,10 @@
     "vathmologia": 87.75,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 111,
+    "aa": 110,
     "am": "17418.0",
     "eponymo": "ΚΑΡΑΜΑΝΟΥ",
     "onoma": "ΓΙΑΝΝΟΥΛΑ",
@@ -3613,7 +3580,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 112,
+    "aa": 111,
     "am": "68.0",
     "eponymo": "ΧΡΥΣΟΜΕΡΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -3646,7 +3613,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 113,
+    "aa": 112,
     "am": "12540.0",
     "eponymo": "ΟΡΦΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -3678,7 +3645,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 114,
+    "aa": 113,
     "am": "3377.0",
     "eponymo": "ΤΣΙΟΓΚΑ",
     "onoma": "ΑΓΝΗ",
@@ -3710,7 +3677,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 115,
+    "aa": 114,
     "am": "13508.0",
     "eponymo": "ΜΠΑΡΔΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3742,7 +3709,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 116,
+    "aa": 115,
     "am": "3918.0",
     "eponymo": "ΣΑΚΚΟΥ",
     "onoma": "ΗΛΙΑΝΝΑ",
@@ -3774,7 +3741,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 117,
+    "aa": 116,
     "am": "2985.0",
     "eponymo": "ΤΣΙΦΤΣΙΟΠΟΥΛΟΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -3806,7 +3773,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 118,
+    "aa": 117,
     "am": "10040.0",
     "eponymo": "ΚΡΙΚΕΛΛΑ",
     "onoma": "ΑΛΚΙΝΟΗ",
@@ -3838,7 +3805,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 119,
+    "aa": 118,
     "am": "11976.0",
     "eponymo": "ΠΑΥΛΕΤΣΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3870,7 +3837,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 120,
+    "aa": 119,
     "am": "51.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3902,7 +3869,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 121,
+    "aa": 120,
     "am": "20502.0",
     "eponymo": "ΠΑΝΟΥΤΣΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3934,7 +3901,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 122,
+    "aa": 121,
     "am": "10247.0",
     "eponymo": "ΑΝΤΩΝΙΟΥ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3966,7 +3933,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 123,
+    "aa": 122,
     "am": "5187.0",
     "eponymo": "ΑΡΙΣΤΕΙΔΟΥ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -3998,7 +3965,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 124,
+    "aa": 123,
     "am": "5427.0",
     "eponymo": "ΤΣΟΤΣΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4030,7 +3997,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 125,
+    "aa": 124,
     "am": "2223.0",
     "eponymo": "ΜΠΑΛΑΜΩΤΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -4040,7 +4007,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "1223-880-893-1381-1359-1360-885-1214-1358-1221-877-1367-3088-881-898-884-1226-896-777-1040-1280-1009-1012-998-1042-1039-780-1010-1033-1035-995-1369-1000-889-999-1222-1241-883-895-1224-1051-1003-996-892-1052-890-1049-3068-991-897-1013-1043-992-1008-1020-918-1123-798-790-1034-1019-1018-1023-1006-1011-882-1036-1037-797-1031-1041-1007-1044-899-1045-916-1047-1244-1024-1048-789-1046-1029-1016-1246-1025-1124-917-919-1122-891-886-887-3165-1225-1250-1022-914-1281-1118-1339-1363-1377-1272-1373-3096-1362-1364-1365-1366-1371-3092-3093-3089-997-1005-894-1032-1004-1014-1245-1247-1028-1230-1249-3090-782-784-3091-1375-1050-1111-1121-1038-1021-1002-1001-1015-1027-1142-1130-1141-856-1248-1242-1266-1342-1341-1376-783-1265-3094-1379-1268",
     "thesi_diorismou": "1250",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4060,10 +4027,10 @@
     "vathmologia": 87.25,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 126,
+    "aa": 125,
     "am": "13105.0",
     "eponymo": "ΚΑΝΕΛΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -4095,7 +4062,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 127,
+    "aa": 126,
     "am": "6017.0",
     "eponymo": "ΤΑΡΑΣΙΔΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -4127,7 +4094,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 128,
+    "aa": 127,
     "am": "7785.0",
     "eponymo": "ΓΚΡΙΤΖΙΟΥΔΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -4159,7 +4126,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 129,
+    "aa": 128,
     "am": "8887.0",
     "eponymo": "ΣΟΥΚΑΡΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -4191,7 +4158,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 130,
+    "aa": 129,
     "am": "13216.0",
     "eponymo": "ΚΟΤΣΑΝΗ",
     "onoma": "ΠΟΛΥΞΕΝΗ",
@@ -4223,7 +4190,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 131,
+    "aa": 130,
     "am": "6678.0",
     "eponymo": "ΜΟΥΣΜΟΥΛΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4255,7 +4222,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 132,
+    "aa": 131,
     "am": "16047.0",
     "eponymo": "ΑΘΑΝΑΣΙΑΔΟΥ",
     "onoma": "ΓΕΝΟΒΕΦΑ",
@@ -4287,7 +4254,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 133,
+    "aa": 132,
     "am": "19689.0",
     "eponymo": "ΚΑΛΟΥΣΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -4319,7 +4286,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 134,
+    "aa": 133,
     "am": "3262.0",
     "eponymo": "ΖΙΩΤΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4351,7 +4318,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 135,
+    "aa": 134,
     "am": "2294.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΕΙΑ",
@@ -4383,7 +4350,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 136,
+    "aa": 135,
     "am": "20811.0",
     "eponymo": "ΚΟΥΛΟΥΡΗ",
     "onoma": "ΗΛΙΑΝΝΑ",
@@ -4415,7 +4382,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 137,
+    "aa": 136,
     "am": "7286.0",
     "eponymo": "ΑΡΚΟΥΜΑΝΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -4447,7 +4414,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 138,
+    "aa": 137,
     "am": "20287.0",
     "eponymo": "ΚΕΧΑΓΙΑΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ",
@@ -4479,7 +4446,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 139,
+    "aa": 138,
     "am": "6749.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -4511,7 +4478,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 140,
+    "aa": 139,
     "am": "8219.0",
     "eponymo": "ΡΩΞΑΝΗ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -4543,7 +4510,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 141,
+    "aa": 140,
     "am": "7432.0",
     "eponymo": "ΤΣΑΜΕΤΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -4575,7 +4542,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 142,
+    "aa": 141,
     "am": "551.0",
     "eponymo": "ΤΑΜΠΑΚΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -4607,7 +4574,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 143,
+    "aa": 142,
     "am": "20680.0",
     "eponymo": "ΣΥΡΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4639,7 +4606,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 144,
+    "aa": 143,
     "am": "1448.0",
     "eponymo": "ΑΝΑΣΤΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΓΑΡΥΦΑΛΛΙΑ",
@@ -4671,7 +4638,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 145,
+    "aa": 144,
     "am": "6464.0",
     "eponymo": "ΚΟΥΒΑΡΑ ΜΠΑΛΤΑ",
     "onoma": "ΧΡΥΣΟΥΛΑ ΝΙΚΗ",
@@ -4703,7 +4670,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 146,
+    "aa": 145,
     "am": "5512.0",
     "eponymo": "ΠΕΤΡΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -4735,7 +4702,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 147,
+    "aa": 146,
     "am": "3540.0",
     "eponymo": "ΠΑΠΑΓΕΩΡΓΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4767,7 +4734,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 148,
+    "aa": 147,
     "am": "20114.0",
     "eponymo": "ΦΡΕΣΚΟΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -4777,7 +4744,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "950-947-1323-949-946-3073-3074-3075-3076-3066-3068-3070-3088-3089-3090-3091-3092-3093-3094-3095-3096-3097-3098-3099-3100-3102-3103-780-3101-1330-1338-1339-1340-1341-1342-1343-1363-1364-1365-1368-1367-1369-1370-1372-1373-1374-1377-1378-1384-999-1042-1000-1011-1009-1007-1022-1023-1029-886-968-856-991-1040-1248-1280",
     "thesi_diorismou": "3096",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4797,10 +4764,10 @@
     "vathmologia": 86.19,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 149,
+    "aa": 148,
     "am": "5032.0",
     "eponymo": "ΜΑΝΤΑΡΛΗ",
     "onoma": "ΕΥΑΝΘΙΑ",
@@ -4832,7 +4799,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 150,
+    "aa": 149,
     "am": "1257.0",
     "eponymo": "ΣΦΗΚΑ",
     "onoma": "ΞΕΝΗ",
@@ -4864,7 +4831,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 151,
+    "aa": 150,
     "am": "7716.0",
     "eponymo": "ΚΑΦΑΣΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -4896,7 +4863,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 152,
+    "aa": 151,
     "am": "8959.0",
     "eponymo": "ΜΟΣΧΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -4928,7 +4895,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 153,
+    "aa": 152,
     "am": "4207.0",
     "eponymo": "ΗΛΙΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -4960,7 +4927,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 154,
+    "aa": 153,
     "am": "1201.0",
     "eponymo": "ΣΚΛΑΒΟΣ",
     "onoma": "ΣΤΕΡΓΙΟΣ",
@@ -4992,7 +4959,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 155,
+    "aa": 154,
     "am": "15925.0",
     "eponymo": "ΚΑΤΣΟΥΛΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5024,7 +4991,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 156,
+    "aa": 155,
     "am": "20101.0",
     "eponymo": "ΠΑΠΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -5056,7 +5023,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 157,
+    "aa": 156,
     "am": "18137.0",
     "eponymo": "ΦΕΛΟΥΚΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -5089,7 +5056,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 158,
+    "aa": 157,
     "am": "7222.0",
     "eponymo": "ΠΕΡΠΕΤΣΗ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -5121,7 +5088,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 159,
+    "aa": 158,
     "am": "10970.0",
     "eponymo": "ΚΑΛΛΙΡΙ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -5153,7 +5120,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 160,
+    "aa": 159,
     "am": "8248.0",
     "eponymo": "ΒΑΓΑΝΩΦ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -5185,7 +5152,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 161,
+    "aa": 160,
     "am": "6755.0",
     "eponymo": "ΠΑΛΑΙΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5217,7 +5184,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 162,
+    "aa": 161,
     "am": "20644.0",
     "eponymo": "ΣΚΙΑΝΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -5249,7 +5216,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 163,
+    "aa": 162,
     "am": "17753.0",
     "eponymo": "ΠΑΣΠΑΛΙΑΡΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -5281,7 +5248,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 164,
+    "aa": 163,
     "am": "10425.0",
     "eponymo": "ΡΕΠΠΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -5313,7 +5280,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 165,
+    "aa": 164,
     "am": "6376.0",
     "eponymo": "ΓΚΟΝΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -5345,7 +5312,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 166,
+    "aa": 165,
     "am": "19112.0",
     "eponymo": "ΒΑΣΙΛΟΓΛΟΥ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -5377,7 +5344,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 167,
+    "aa": 166,
     "am": "14174.0",
     "eponymo": "ΠΑΠΑΡΑΔΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -5387,7 +5354,7 @@
     "theseis_idias_omadas": "1282",
     "protimiseis": "922-921-3071-1163-1165-1164-1166-1389-1390-3105-1162-1160-1161-1126-1127-1125-1382-1282-923-792-924-1315-1316-920-1231-977-979-980-981-1335-978-905-1314-3069-906-1228-902-1229-791-904-3073-1333-956-1237-1004-1242-957-963-968-967-1177-1176-1174-1236-955-954-961-959-958-3074-3075-3076-953-1324-1327-1328-1329-1325-1326-1330-1332-1203-1396-1204-952-942-1322-3072-779-941-785-1386-3103-1148-806-1144-1146-1385-1145-1061-1064-1063-1256-1348-1062-1060-1093-1094",
     "thesi_diorismou": "1004",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -5407,10 +5374,10 @@
     "vathmologia": 85.69,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 168,
+    "aa": 167,
     "am": "2607.0",
     "eponymo": "ΚΑΣΤΡΙΤΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -5442,7 +5409,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 169,
+    "aa": 168,
     "am": "10844.0",
     "eponymo": "ΛΙΝΑΡΔΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -5474,7 +5441,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 170,
+    "aa": 169,
     "am": "16007.0",
     "eponymo": "ΑΥΓΕΡΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ ΜΑΡΙΑ",
@@ -5506,7 +5473,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 171,
+    "aa": 170,
     "am": "5904.0",
     "eponymo": "ΚΑΜΟΥΛΑΚΟΣ",
     "onoma": "ΑΝΑΡΓΥΡΟΣ",
@@ -5538,7 +5505,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 172,
+    "aa": 171,
     "am": "17642.0",
     "eponymo": "ΔΙΚΑΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -5570,7 +5537,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 173,
+    "aa": 172,
     "am": "5748.0",
     "eponymo": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -5602,7 +5569,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 174,
+    "aa": 173,
     "am": "4335.0",
     "eponymo": "ΖΑΦΕΙΡΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -5612,7 +5579,7 @@
     "theseis_idias_omadas": "1278-1280-1281",
     "protimiseis": "1098-1099-1096-1355-1097-1079-1076-1078-1073-1077-1258-968-954-959-961-967-963-965-952-962-964-966-1278-1325-1326-1328-1329-1330-1331-1332-1327-1236-958-955-1011-1040-1042-1009-1010-1039-1012-1041-1013-1043-1008-780-1280-1244-1124-1031-1037-996-999-1036-1020-991-995-1122-1018-1000-1006-1007-1023-1024-1019-1281-1034-1033-1035-1025-1003-998-1245-1014-997-1005-1022-1028-1021-1027-1016-1017-1029-1015-1001-1004-1242-1032-898-1120-1118-1123-1047-1046-1114-1038-880-1223-1048-797-1045-1250-1246-1338-1340-1341-1342-1343-1339-1344-1247-1002-896-1226-884-1224-1248-1249-1119-992",
     "thesi_diorismou": "1280",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -5632,10 +5599,10 @@
     "vathmologia": 85.47,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 175,
+    "aa": 174,
     "am": "16041.0",
     "eponymo": "ΚΟΥΙΜΤΖΙΔΟΥ",
     "onoma": "ΓΕΝΟΒΕΦΑ-ΜΑΡΙΑ",
@@ -5667,7 +5634,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 176,
+    "aa": 175,
     "am": "15207.0",
     "eponymo": "ΤΣΙΛΙΡΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -5699,7 +5666,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 177,
+    "aa": 176,
     "am": "6620.0",
     "eponymo": "ΠΑΠΑΒΑΣΙΛΕΙΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -5731,7 +5698,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 178,
+    "aa": 177,
     "am": "14639.0",
     "eponymo": "ΠΑΛΙΟΥΔΑΚΗΣ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -5763,7 +5730,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 179,
+    "aa": 178,
     "am": "6403.0",
     "eponymo": "ΜΕΛΙΣΣΑΝΙΔΗΣ",
     "onoma": "ΕΥΘΥΜΙΟΣ",
@@ -5773,7 +5740,7 @@
     "theseis_idias_omadas": "1278",
     "protimiseis": "1385-1145-1146-1144-1322-3072-942-779-961-958-3073-3074-3075-3076-959-3103-1324-1325-1326-1327-1328-1329-1330-1331-1332-1333-963-967-968-960-1239-1278-1204-1386-785-1396-1395-1077-1076-1078-1079-1355-1098-1099-1335-981-979-3111-3104-1387-1336-1151-1152-987-988-1393-1307-1304-1176-1177-3069-1314-3082-3083-1227-1313-1337-3078-1348-1256-1062-1063-1064-974-975-976-1126-1127-1382-1351-3066-910-1007-999-1122-897-898-895-896-893-889-886-885-884-1340-1341-860-862-863-962-964-965-966",
     "thesi_diorismou": "3066",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -5793,10 +5760,10 @@
     "vathmologia": 85.25,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 180,
+    "aa": 179,
     "am": "6316.0",
     "eponymo": "ΟΡΦΑΝΙΔΟΥ",
     "onoma": "ΕΛΛΗ",
@@ -5828,7 +5795,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 181,
+    "aa": 180,
     "am": "85.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -5860,7 +5827,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 182,
+    "aa": 181,
     "am": "777.0",
     "eponymo": "ΣΥΜΕΩΝΙΔΗ",
     "onoma": "ΙΝΝΑ",
@@ -5892,7 +5859,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 183,
+    "aa": 182,
     "am": "14949.0",
     "eponymo": "ΞΑΝΤΙΝΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -5924,7 +5891,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 184,
+    "aa": 183,
     "am": "10797.0",
     "eponymo": "ΦΡΑΓΚΟΤΣΙΝΟΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -5956,7 +5923,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 185,
+    "aa": 184,
     "am": "17771.0",
     "eponymo": "ΑΡΜΥΡΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -5988,7 +5955,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 186,
+    "aa": 185,
     "am": "7021.0",
     "eponymo": "ΧΑΜΑΛΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -6020,7 +5987,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 187,
+    "aa": 186,
     "am": "18631.0",
     "eponymo": "ΤΣΙΡΩΝΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -6052,7 +6019,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 188,
+    "aa": 187,
     "am": "9283.0",
     "eponymo": "ΤΑΤΣΙΔΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -6084,7 +6051,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 189,
+    "aa": 188,
     "am": "6737.0",
     "eponymo": "ΚΑΛΑΜΑΤΙΑΝΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -6094,7 +6061,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "3097-3098-3099-3100-3101-3102-3094-3091-3092-3090-3093-3095-3096-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-782-783-784-1142-1338-1339-1340-1341-1342-1343-1344-1280-1012-1011-1009-1010-1359-1360-1361-1362-1363-1364-1365-1366-1367",
     "thesi_diorismou": "3097",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -6114,10 +6081,10 @@
     "vathmologia": 84.97,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 190,
+    "aa": 189,
     "am": "12590.0",
     "eponymo": "ΜΠΙΤΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -6149,7 +6116,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 191,
+    "aa": 190,
     "am": "6794.0",
     "eponymo": "ΓΚΙΡΕΤΛΗ",
     "onoma": "ΤΖΕΛΑΛ",
@@ -6181,7 +6148,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 192,
+    "aa": 191,
     "am": "5931.0",
     "eponymo": "ΓΕΩΡΓΙΛΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -6213,7 +6180,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 193,
+    "aa": 192,
     "am": "12792.0",
     "eponymo": "ΒΑΣΙΛΙΚΗ",
     "onoma": "ΜΠΙΝΤΟΥ",
@@ -6245,7 +6212,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 194,
+    "aa": 193,
     "am": "6469.0",
     "eponymo": "ΤΣΟΥΚΑΛΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -6277,7 +6244,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 195,
+    "aa": 194,
     "am": "8624.0",
     "eponymo": "ΚΑΡΑΣΤΕΡΓΙΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
@@ -6309,7 +6276,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 196,
+    "aa": 195,
     "am": "2081.0",
     "eponymo": "ΚΑΛΗΣΠΕΡΑΚΗ",
     "onoma": "ΛΥΔΙΑ ΑΝΤΩΝΙΑ",
@@ -6341,7 +6308,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 197,
+    "aa": 196,
     "am": "5048.0",
     "eponymo": "ΘΕΟΔΩΡΟΥ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -6373,7 +6340,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 198,
+    "aa": 197,
     "am": "10513.0",
     "eponymo": "ΑΜΠΕΛΟΥΡΓΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -6405,7 +6372,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 199,
+    "aa": 198,
     "am": "14799.0",
     "eponymo": "ΦΑΡΣΑΚΙΔΟΥ",
     "onoma": "ΜΑΡΙΑΝΝΑ",
@@ -6437,7 +6404,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 200,
+    "aa": 199,
     "am": "3719.0",
     "eponymo": "ΔΗΜΗΤΡΙΑΔΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -6469,7 +6436,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 201,
+    "aa": 200,
     "am": "14802.0",
     "eponymo": "ΑΡΓΙΑΝΤΟΠΟΥΛΟΥ",
     "onoma": "ΜΥΡΤΩ",
@@ -6501,7 +6468,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 202,
+    "aa": 201,
     "am": "9007.0",
     "eponymo": "ΙΑΚΩΒΙΔΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -6533,7 +6500,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 203,
+    "aa": 202,
     "am": "3867.0",
     "eponymo": "ΓΚΑΝΤΑΚΑΣ - ΣΑΒΒΑΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -6565,7 +6532,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 204,
+    "aa": 203,
     "am": "836.0",
     "eponymo": "ΤΣΕΛΕΚΙΔΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -6597,7 +6564,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 205,
+    "aa": 204,
     "am": "17061.0",
     "eponymo": "ΚΕΤΣΕΤΣΙΔΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -6607,7 +6574,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "3070-3097-3098-1341-1338-1342-1340-1339-1344-1343-1378-1363-1377-1370-1369-1375-1365-1364-1361-1380-1373-1372-1371-1358-1376-1366-1362-1368-1267-1379-1374-1359-1360-1381-3096-3095-3094-3093-3090-3089-3092-3091-3088-780-1280-784-782-783",
     "thesi_diorismou": "3070",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -6627,10 +6594,10 @@
     "vathmologia": 84.53,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 206,
+    "aa": 205,
     "am": "19644.0",
     "eponymo": "ΛΟΥΛΗ",
     "onoma": "ΙΦΙΓΕΝΕΙΑ",
@@ -6662,7 +6629,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 207,
+    "aa": 206,
     "am": "18961.0",
     "eponymo": "ΠΑΝΑΓΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -6694,7 +6661,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 208,
+    "aa": 207,
     "am": "17045.0",
     "eponymo": "ΝΙΚΟΛΑΙΔΟΥ",
     "onoma": "ΠΗΝΕΛΟΠΗ",
@@ -6726,7 +6693,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 209,
+    "aa": 208,
     "am": "8168.0",
     "eponymo": "ΠΑΠΑΦΩΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -6758,7 +6725,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 210,
+    "aa": 209,
     "am": "17156.0",
     "eponymo": "ΜΑΣΤΟΡΙΔΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -6768,7 +6735,7 @@
     "theseis_idias_omadas": "1281",
     "protimiseis": "1265-1114-850-1115-1116-1046-804-1037-1011-993-994-1042-996-1019-1033-1034-1035-1007-1003-1123-1025-1246-1117-1047-1222-1039-992-991-881-895-896-898-1226-780-1012-1041-1113-1111-1118-1122-1112-1281-1338-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1375-1376-1377-1378-1379-1380-1381-3088-3089-3090-3091-3092-3093-3094-3095-3096-782-783-784-1010-1009",
     "thesi_diorismou": "1265",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -6788,10 +6755,10 @@
     "vathmologia": 84.33,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 211,
+    "aa": 210,
     "am": "4288.0",
     "eponymo": "ΜΠΟΧΩΡΗΣ",
     "onoma": "ΓΡΗΓΟΡΙΟΣ",
@@ -6823,7 +6790,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 212,
+    "aa": 211,
     "am": "17114.0",
     "eponymo": "ΠΕΤΡΟΠΟΥΛΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -6855,7 +6822,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 213,
+    "aa": 212,
     "am": "9433.0",
     "eponymo": "ΜΠΑΚΙΡΤΖΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -6887,7 +6854,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 214,
+    "aa": 213,
     "am": "9749.0",
     "eponymo": "ΚΛΕΜΠΕΤΣΑΝΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -6919,7 +6886,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 215,
+    "aa": 214,
     "am": "18574.0",
     "eponymo": "ΤΣΟΥΜΑΡΙΚΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -6951,7 +6918,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 216,
+    "aa": 215,
     "am": "13379.0",
     "eponymo": "ΜΑΜΗ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -6983,7 +6950,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 217,
+    "aa": 216,
     "am": "8677.0",
     "eponymo": "ΝΑΝΤΣΗ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -7015,7 +6982,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 218,
+    "aa": 217,
     "am": "1957.0",
     "eponymo": "ΜΕΛΑΧΡΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -7047,7 +7014,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 219,
+    "aa": 218,
     "am": "10955.0",
     "eponymo": "ΦΩΤΕΙΝΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -7079,7 +7046,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 220,
+    "aa": 219,
     "am": "2736.0",
     "eponymo": "ΡΗΓΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -7111,7 +7078,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 221,
+    "aa": 220,
     "am": "17774.0",
     "eponymo": "ΛΟΚΟΒΙΤΟΥ",
     "onoma": "ΛΑΜΠΡΙΝΗ",
@@ -7143,7 +7110,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 222,
+    "aa": 221,
     "am": "18258.0",
     "eponymo": "ΚΟΣΜΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -7175,7 +7142,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 223,
+    "aa": 222,
     "am": "16584.0",
     "eponymo": "ΗΛΙΑΔΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -7207,7 +7174,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 224,
+    "aa": 223,
     "am": "9416.0",
     "eponymo": "ΚΟΚΚΙΝΟΥ",
     "onoma": "ΕΛΕΝΗ-ΡΑΦΑΕΛΑ",
@@ -7239,7 +7206,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 225,
+    "aa": 224,
     "am": "17785.0",
     "eponymo": "ΣΠΡΙΤΟΥ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -7271,7 +7238,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 226,
+    "aa": 225,
     "am": "7036.0",
     "eponymo": "ΣΚΟΥΦΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -7303,7 +7270,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 227,
+    "aa": 226,
     "am": "8096.0",
     "eponymo": "ΖΕΖΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -7335,7 +7302,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 228,
+    "aa": 227,
     "am": "18956.0",
     "eponymo": "ΛΟΥΚΑΚΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -7367,7 +7334,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 229,
+    "aa": 228,
     "am": "10926.0",
     "eponymo": "ΜΑΚΡΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -7399,7 +7366,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 230,
+    "aa": 229,
     "am": "19049.0",
     "eponymo": "ΠΕΤΡΙΔΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -7431,7 +7398,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 231,
+    "aa": 230,
     "am": "1310.0",
     "eponymo": "ΚΥΡΙΑΚΙΔΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -7463,7 +7430,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 232,
+    "aa": 231,
     "am": "8148.0",
     "eponymo": "ΚΥΡΤΣΙΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -7495,7 +7462,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 233,
+    "aa": 232,
     "am": "15358.0",
     "eponymo": "ΤΣΟΥΤΣΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ ΧΡΙΣΤΙΑΝΑ",
@@ -7527,7 +7494,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 234,
+    "aa": 233,
     "am": "3853.0",
     "eponymo": "ΧΑΤΖΗΙΩΑΝΝΙΔΟΥ",
     "onoma": "ΒΑΡΒΑΡΑ",
@@ -7559,7 +7526,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 235,
+    "aa": 234,
     "am": "8432.0",
     "eponymo": "ΑΓΓΕΛΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΡΑΣΙΜΟΣ ΠΑΝΑΓΙΩΤΗΣ",
@@ -7591,7 +7558,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 236,
+    "aa": 235,
     "am": "11408.0",
     "eponymo": "ΘΕΟΔΩΡΙΔΟΥ",
     "onoma": "ΣΟΥΛΤΑΝΑ",
@@ -7623,7 +7590,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 237,
+    "aa": 236,
     "am": "12848.0",
     "eponymo": "ΑΛΤΙΠΑΡΜΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -7655,7 +7622,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 238,
+    "aa": 237,
     "am": "17518.0",
     "eponymo": "ΑΝΑΓΝΩΣΤΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -7687,7 +7654,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 239,
+    "aa": 238,
     "am": "9843.0",
     "eponymo": "ΒΛΑΧΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -7719,7 +7686,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 240,
+    "aa": 239,
     "am": "8021.0",
     "eponymo": "ΓΑΛΛΟΥ",
     "onoma": "ΕΡΑΣΜΙΑ",
@@ -7751,7 +7718,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 241,
+    "aa": 240,
     "am": "5322.0",
     "eponymo": "ΔΕΔΕ",
     "onoma": "ΑΟΥΡΟΡΑ",
@@ -7783,7 +7750,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 242,
+    "aa": 241,
     "am": "14441.0",
     "eponymo": "ΤΑΜΠΑΚΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7815,7 +7782,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 243,
+    "aa": 242,
     "am": "7309.0",
     "eponymo": "ΚΟΥΤΕΡΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ ΕΥΑΓΓΕΛΙΑ",
@@ -7847,7 +7814,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 244,
+    "aa": 243,
     "am": "11616.0",
     "eponymo": "ΤΖΑΒΕΛΛΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -7879,7 +7846,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 245,
+    "aa": 244,
     "am": "18431.0",
     "eponymo": "ΣΑΙΤΑΣ",
     "onoma": "ΔΗΜΗΤΡΗΣ",
@@ -7911,7 +7878,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 246,
+    "aa": 245,
     "am": "4360.0",
     "eponymo": "ΧΑΒΓΙΕ",
     "onoma": "ΕΡΑΤΩ",
@@ -7943,7 +7910,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 247,
+    "aa": 246,
     "am": "5020.0",
     "eponymo": "ΚΑΡΑΚΑΒΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -7975,7 +7942,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 248,
+    "aa": 247,
     "am": "11215.0",
     "eponymo": "ΣΑΡΑΝΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -8007,7 +7974,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 249,
+    "aa": 248,
     "am": "3314.0",
     "eponymo": "ΛΗΜΝΙΟΣ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -8039,7 +8006,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 250,
+    "aa": 249,
     "am": "5281.0",
     "eponymo": "ΚΑΛΙΓΕΡΗ",
     "onoma": "ΜΑΡΙΑ ΣΤΕΛΛΑ",
@@ -8071,7 +8038,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 251,
+    "aa": 250,
     "am": "9938.0",
     "eponymo": "ΛΕΜΟΝΙΔΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -8103,7 +8070,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 252,
+    "aa": 251,
     "am": "9837.0",
     "eponymo": "ΠΟΝΤΙΚΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -8135,7 +8102,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 253,
+    "aa": 252,
     "am": "19650.0",
     "eponymo": "ΓΙΑΚΟΥΜΑΤΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -8167,7 +8134,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 254,
+    "aa": 253,
     "am": "13680.0",
     "eponymo": "ΣΩΤΗΡΙΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -8199,7 +8166,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 255,
+    "aa": 254,
     "am": "4003.0",
     "eponymo": "ΣΤΑΘΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -8231,7 +8198,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 256,
+    "aa": 255,
     "am": "5113.0",
     "eponymo": "ΠΑΣΧΑΛΙΔΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -8263,7 +8230,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 257,
+    "aa": 256,
     "am": "12210.0",
     "eponymo": "ΣΤΕΦΑΝΙΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8295,7 +8262,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 258,
+    "aa": 257,
     "am": "1330.0",
     "eponymo": "ΑΝΔΡΙΤΣΙΟΥ",
     "onoma": "ΖΩΗ",
@@ -8327,7 +8294,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 259,
+    "aa": 258,
     "am": "13975.0",
     "eponymo": "ΦΑΒΒΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -8359,7 +8326,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 260,
+    "aa": 259,
     "am": "634.0",
     "eponymo": "ΚΕΡΑΜΙΔΑΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -8391,7 +8358,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 261,
+    "aa": 260,
     "am": "15400.0",
     "eponymo": "ΜΠΟΥΡΜΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -8423,7 +8390,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 262,
+    "aa": 261,
     "am": "14941.0",
     "eponymo": "ΚΑΤΣΟΓΙΑΝΝΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -8455,7 +8422,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 263,
+    "aa": 262,
     "am": "1908.0",
     "eponymo": "ΤΣΑΤΣΟΠΟΥΛΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -8487,7 +8454,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 264,
+    "aa": 263,
     "am": "20075.0",
     "eponymo": "ΤΣΑΜΠΑΡΔΟΥΚΑ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ-ΞΕΝΙΑ",
@@ -8519,7 +8486,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 265,
+    "aa": 264,
     "am": "4812.0",
     "eponymo": "ΧΡΥΣΟΧΟΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -8551,7 +8518,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 266,
+    "aa": 265,
     "am": "16579.0",
     "eponymo": "ΧΑΝΤΖΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -8583,7 +8550,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 267,
+    "aa": 266,
     "am": "19058.0",
     "eponymo": "ΚΑΤΣΙΓΙΩΡΓΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -8615,7 +8582,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 268,
+    "aa": 267,
     "am": "16860.0",
     "eponymo": "ΜΠΕΣΙΡΗ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -8647,7 +8614,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 269,
+    "aa": 268,
     "am": "12840.0",
     "eponymo": "ΑΛΜΥΡΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -8679,7 +8646,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 270,
+    "aa": 269,
     "am": "6507.0",
     "eponymo": "ΠΑΛΑΝΤΖΑΣ",
     "onoma": "ΑΝΔΡΕΑΣ ΡΑΦΑΗΛ",
@@ -8711,7 +8678,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 271,
+    "aa": 270,
     "am": "6226.0",
     "eponymo": "ΜΑΚΡΗ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -8743,7 +8710,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 272,
+    "aa": 271,
     "am": "11358.0",
     "eponymo": "ΖΑΛΑΚΟΥΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -8775,7 +8742,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 273,
+    "aa": 272,
     "am": "6110.0",
     "eponymo": "ΣΑΛΟΥΡΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ ΟΛΥΜΠΙΟΣ",
@@ -8807,7 +8774,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 274,
+    "aa": 273,
     "am": "8630.0",
     "eponymo": "ΔΑΜΙΓΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -8839,7 +8806,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 275,
+    "aa": 274,
     "am": "8403.0",
     "eponymo": "ΤΣΙΑΜΑΝΤΑΣ",
     "onoma": "ΟΡΕΣΤΗΣ",
@@ -8871,7 +8838,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 276,
+    "aa": 275,
     "am": "7002.0",
     "eponymo": "ΣΥΛΛΑΙΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -8903,7 +8870,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 277,
+    "aa": 276,
     "am": "8041.0",
     "eponymo": "ΒΑΙΝΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -8935,7 +8902,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 278,
+    "aa": 277,
     "am": "18981.0",
     "eponymo": "ΜΩΡΑΙΤΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -8967,7 +8934,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 279,
+    "aa": 278,
     "am": "3229.0",
     "eponymo": "ΑΡΑΒΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8999,7 +8966,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 280,
+    "aa": 279,
     "am": "16301.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -9031,7 +8998,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 281,
+    "aa": 280,
     "am": "721.0",
     "eponymo": "ΤΣΟΧΑΛΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -9063,7 +9030,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 282,
+    "aa": 281,
     "am": "8580.0",
     "eponymo": "ΜΙΣΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -9095,7 +9062,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 283,
+    "aa": 282,
     "am": "588.0",
     "eponymo": "ΜΗΤΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΣΧΑΛΙΝΑ",
@@ -9127,7 +9094,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 284,
+    "aa": 283,
     "am": "13650.0",
     "eponymo": "ΖΩΙΤΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -9159,7 +9126,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 285,
+    "aa": 284,
     "am": "17820.0",
     "eponymo": "ΝΑΙΔΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -9191,7 +9158,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 286,
+    "aa": 285,
     "am": "3014.0",
     "eponymo": "ΓΑΡΔΙΚΙΩΤΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -9223,7 +9190,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 287,
+    "aa": 286,
     "am": "20370.0",
     "eponymo": "ΠΑΖΑΡΑ",
     "onoma": "ΕΡΑΤΩ",
@@ -9255,7 +9222,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 288,
+    "aa": 287,
     "am": "20034.0",
     "eponymo": "ΡΑΔΙΤΣΗ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -9287,7 +9254,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 289,
+    "aa": 288,
     "am": "14764.0",
     "eponymo": "ΚΥΠΡΙΩΤΑΚΗ",
     "onoma": "ΕΜΜΑΝΟΥΕΛΑ",
@@ -9319,7 +9286,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 290,
+    "aa": 289,
     "am": "2505.0",
     "eponymo": "ΔΙΑΚΟΥΜΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -9351,7 +9318,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 291,
+    "aa": 290,
     "am": "6288.0",
     "eponymo": "ΤΣΟΥΦΗ",
     "onoma": "ΕΥΑΝΘΙΑ",
@@ -9383,7 +9350,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 292,
+    "aa": 291,
     "am": "14966.0",
     "eponymo": "ΤΣΕΚΟΥΡΑ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -9415,7 +9382,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 293,
+    "aa": 292,
     "am": "7697.0",
     "eponymo": "ΜΑΓΓΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -9447,7 +9414,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 294,
+    "aa": 293,
     "am": "10604.0",
     "eponymo": "ΜΑΧΑΙΡΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -9479,7 +9446,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 295,
+    "aa": 294,
     "am": "18931.0",
     "eponymo": "ΒΑΖΟΥΡΑΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -9511,7 +9478,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 296,
+    "aa": 295,
     "am": "20426.0",
     "eponymo": "ΚΟΓΙΑΝΝΗ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -9543,7 +9510,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 297,
+    "aa": 296,
     "am": "13523.0",
     "eponymo": "ΤΣΑΛΙΚΗΣ",
     "onoma": "ΠΕΡΙΚΛΗΣ",
@@ -9575,7 +9542,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 298,
+    "aa": 297,
     "am": "20699.0",
     "eponymo": "ΛΑΖΑΡΙΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -9607,7 +9574,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 299,
+    "aa": 298,
     "am": "19382.0",
     "eponymo": "ΓΙΑΚΑΛΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -9639,7 +9606,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 300,
+    "aa": 299,
     "am": "20543.0",
     "eponymo": "ΚΑΚΟΥΡΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -9671,7 +9638,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 301,
+    "aa": 300,
     "am": "13787.0",
     "eponymo": "ΜΑΡΙΝΙΔΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -9703,7 +9670,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 302,
+    "aa": 301,
     "am": "11749.0",
     "eponymo": "ΑΝΑΣΤΟΥ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -9735,7 +9702,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 303,
+    "aa": 302,
     "am": "8201.0",
     "eponymo": "ΠΕΤΡΟΥΛΙΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -9767,7 +9734,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 304,
+    "aa": 303,
     "am": "9685.0",
     "eponymo": "ΜΟΥΣΟΥΛΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -9799,7 +9766,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 305,
+    "aa": 304,
     "am": "4342.0",
     "eponymo": "ΜΗΤΚΑΝΗ",
     "onoma": "ΒΕΝΕΤΙΑ",
@@ -9809,7 +9776,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "1343-1344-1345-1338-1384-1374-1340-1339-1342-3096-1377-1372-1373-3090-3092-3093-3094-3095-1371-1376-3100-3101-3102-3088-3089-3091-1381-1375-1379-1363-1360-1368-1369-1362-1364-1365-1366-1367-1370-1358-1359-1361-3099-3097-3098-1378-1380-780-3066-782-783-784-1245-1247-1244-1230-1248-1249-1250-1280-1223-1246-1266-1265-1268-1281-3068-3070-1312",
     "thesi_diorismou": "1384",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -9829,10 +9796,10 @@
     "vathmologia": 82.28,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 306,
+    "aa": 305,
     "am": "5064.0",
     "eponymo": "ΤΣΙΟΛΑΚΙΔΗΣ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -9864,7 +9831,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 307,
+    "aa": 306,
     "am": "15991.0",
     "eponymo": "ΜΙΧΑΛΟΠΟΥΛΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -9896,7 +9863,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 308,
+    "aa": 307,
     "am": "20168.0",
     "eponymo": "ΚΕΝΤΟΓΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -9928,7 +9895,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 309,
+    "aa": 308,
     "am": "4227.0",
     "eponymo": "ΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ ΝΙΚΟΛΕΤΑ",
@@ -9960,7 +9927,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 310,
+    "aa": 309,
     "am": "11880.0",
     "eponymo": "ΑΓΓΕΛΟΥΛΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -9992,7 +9959,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 311,
+    "aa": 310,
     "am": "12964.0",
     "eponymo": "ΦΡΑΓΚΟΥΛΙΔΟΥ",
     "onoma": "ΒΙΚΤΩΡΙΑ",
@@ -10024,7 +9991,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 312,
+    "aa": 311,
     "am": "13760.0",
     "eponymo": "ΑΡΧΟΝΤΑΚΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -10056,7 +10023,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 313,
+    "aa": 312,
     "am": "1971.0",
     "eponymo": "ΣΙΑΜΑΤΡΑΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -10088,7 +10055,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 314,
+    "aa": 313,
     "am": "12327.0",
     "eponymo": "ΧΑΛΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -10120,7 +10087,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 315,
+    "aa": 314,
     "am": "13337.0",
     "eponymo": "ΚΩΤΣΙΑ",
     "onoma": "ΑΦΡΟΔΙΤΗ",
@@ -10152,7 +10119,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 316,
+    "aa": 315,
     "am": "20133.0",
     "eponymo": "ΚΟΚΟΛΟΠΟΥΛΟΥ",
     "onoma": "ΣΤΕΡΓΙΑΝΗ",
@@ -10184,7 +10151,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 317,
+    "aa": 316,
     "am": "6307.0",
     "eponymo": "ΜΗΤΣΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -10216,7 +10183,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 318,
+    "aa": 317,
     "am": "9903.0",
     "eponymo": "ΚΙΟΥΡΤΖΙΔΟΥ",
     "onoma": "ΒΙΚΤΩΡΙΑ",
@@ -10248,7 +10215,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 319,
+    "aa": 318,
     "am": "15248.0",
     "eponymo": "ΓΡΗΓΟΡΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -10280,7 +10247,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 320,
+    "aa": 319,
     "am": "18414.0",
     "eponymo": "ΚΟΝΤΟΚΩΣΤΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -10312,7 +10279,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 321,
+    "aa": 320,
     "am": "19813.0",
     "eponymo": "ΔΕΡΒΙΣΗ",
     "onoma": "ΔΙΟΝΥΣΙΑ",
@@ -10344,7 +10311,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 322,
+    "aa": 321,
     "am": "3495.0",
     "eponymo": "ΑΘΑΝΑΣΙΑΔΟΥ",
     "onoma": "ΠΑΡΘΕΝΑ",
@@ -10376,7 +10343,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 323,
+    "aa": 322,
     "am": "5273.0",
     "eponymo": "ΤΣΩΤΣΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -10408,7 +10375,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 324,
+    "aa": 323,
     "am": "8572.0",
     "eponymo": "ΧΡΥΣΟΠΑΙΔΟΣ ΜΑΝΤΖΑΒΙΝΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -10440,7 +10407,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 325,
+    "aa": 324,
     "am": "15428.0",
     "eponymo": "ΒΙΤΑΝΟΠΟΥΛΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -10472,7 +10439,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 326,
+    "aa": 325,
     "am": "2346.0",
     "eponymo": "ΑΡΑΜΠΑΤΖΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -10504,7 +10471,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 327,
+    "aa": 326,
     "am": "13617.0",
     "eponymo": "ΔΑΝΙΗΛ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -10536,7 +10503,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 328,
+    "aa": 327,
     "am": "19937.0",
     "eponymo": "ΚΛΕΣΤΙΝΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -10568,7 +10535,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 329,
+    "aa": 328,
     "am": "10318.0",
     "eponymo": "ΚΟΝΤΑΚΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -10600,7 +10567,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 330,
+    "aa": 329,
     "am": "8381.0",
     "eponymo": "ΣΟΜΠΟΛΟΥ",
     "onoma": "ΣΠΥΡΙΔΟΥΛΑ",
@@ -10632,7 +10599,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 331,
+    "aa": 330,
     "am": "4912.0",
     "eponymo": "ΓΚΟΡΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -10664,7 +10631,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 332,
+    "aa": 331,
     "am": "12632.0",
     "eponymo": "ΑΘΑΝΑΣΕΛΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -10696,7 +10663,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 333,
+    "aa": 332,
     "am": "17539.0",
     "eponymo": "ΤΣΑΛΑΜΟΥΡΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -10728,7 +10695,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 334,
+    "aa": 333,
     "am": "8917.0",
     "eponymo": "ΑΡΑΙΛΟΥΔΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -10760,7 +10727,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 335,
+    "aa": 334,
     "am": "3023.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΙΔΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -10792,7 +10759,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 336,
+    "aa": 335,
     "am": "16833.0",
     "eponymo": "ΑΝΤΩΝΟΠΟΥΛΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -10824,7 +10791,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 337,
+    "aa": 336,
     "am": "11348.0",
     "eponymo": "ΚΟΝΝΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -10856,7 +10823,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 338,
+    "aa": 337,
     "am": "10309.0",
     "eponymo": "ΦΩΤΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -10888,7 +10855,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 339,
+    "aa": 338,
     "am": "8878.0",
     "eponymo": "ΚΛΑΥΔΙΑΝΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -10920,7 +10887,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 340,
+    "aa": 339,
     "am": "5565.0",
     "eponymo": "ΧΑΛΗΜΟΥΡΔΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -10952,7 +10919,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 341,
+    "aa": 340,
     "am": "15122.0",
     "eponymo": "ΒΟΥΔΟΥΡΗ",
     "onoma": "ΕΡΣΗ ΒΑΣΙΛΕΙΑ",
@@ -10984,7 +10951,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 342,
+    "aa": 341,
     "am": "17631.0",
     "eponymo": "ΘΕΜΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -11016,7 +10983,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 343,
+    "aa": 342,
     "am": "14797.0",
     "eponymo": "ΚΟΛΙΝΙΑΤΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -11048,7 +11015,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 344,
+    "aa": 343,
     "am": "16975.0",
     "eponymo": "ΖΗΣΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -11080,7 +11047,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 345,
+    "aa": 344,
     "am": "920.0",
     "eponymo": "ΧΑΤΖΗΚΥΡΙΑΚΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -11112,7 +11079,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 346,
+    "aa": 345,
     "am": "6885.0",
     "eponymo": "ΑΓΓΕΛΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -11144,7 +11111,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 347,
+    "aa": 346,
     "am": "13797.0",
     "eponymo": "ΚΑΜΠΟΥΡΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -11176,7 +11143,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 348,
+    "aa": 347,
     "am": "10833.0",
     "eponymo": "ΤΑΛΛΙΟΥ",
     "onoma": "ΑΡΕΤΗ",
@@ -11208,7 +11175,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 349,
+    "aa": 348,
     "am": "6232.0",
     "eponymo": "ΛΙΑΛΙΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -11240,7 +11207,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 350,
+    "aa": 349,
     "am": "5480.0",
     "eponymo": "ΚΑΛΑΙΤΖΙΔΗΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -11272,7 +11239,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 351,
+    "aa": 350,
     "am": "11711.0",
     "eponymo": "ΣΤΡΑΤΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -11304,7 +11271,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 352,
+    "aa": 351,
     "am": "19305.0",
     "eponymo": "ΚΟΥΤΡΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -11336,7 +11303,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 353,
+    "aa": 352,
     "am": "18875.0",
     "eponymo": "ΚΑΡΑΠΑΝΟΥ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -11346,7 +11313,7 @@
     "theseis_idias_omadas": "1278-1279-1280-1281-1282-1283",
     "protimiseis": "1385-1146-1145-1144-1324-1325-1326-1327-1328-1329-1330-1331-1332-1333-1322-1337-1395-1386-1387-1348-1335-1336-1318-1317-1314-1313-1305-1306-1304-1307-1311-1315-1316-1319-1349-1351-1356-1382-1389-1390-1393-1394-1398-1396-1312-1338-1339-1340-1341-1342-1343-1344-1345-1358-1359-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-1384-1308-1309-1310-1321-1354-1320-1383-1346-1347-1350-1392-1353-1352-1391-1334-1388-1323-1397-1357-776-1235-1237-1239-1282-1278-1256-1255-1233-1270-1238-1280-1281-1240-1258-1259-1269-1273-1274-1271-1232-1228-1229-1227-1219-1220-1218-1216-1236-1217-1212-1213-1231-1223-777-780-782-783-784-1222-778-781-1246-1221-1224-1225-1226-1264-1263-1261-1262-1272-1276-1251-1252-1253-1254-1279-1283-1241-1245-1267-1260-1247-1248-1244-1250-1230-1242-1275-1249-1257-1214-1265-786-1266-1268-954-852-850-865-868-870-874-880-886-890-893-896-899-907-909-916-942-991-997-999-1000-1003-1004-1005-1007-1009-1011-1013-1016-1020-1023-1025-1031-1034-1036-1037-1038-1040-1039-1042-1076-1112-1115-1129-1130-1136-1137-948-970-983-1054-1055-1080-1128-1157-1169-1172-1205-1208-841-842-927-928-929-941-958-960-966-964-965-986-987-988-1096-1150-1151-1152-1202-1203-1204-1097-1098-1099-1100-1101-1102-1103-1104-1148-1109-3166-1105-1179-1180-1181-1182-1183-1184-1187-1210-1211-1191-1192-1193-1194-1195-1196-1178-1188-1093-1094-3154-1087-961-1041-866-871",
     "thesi_diorismou": "1363",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -11366,10 +11333,10 @@
     "vathmologia": 81.36,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 354,
+    "aa": 353,
     "am": "6920.0",
     "eponymo": "ΕΥΔΑΙΜΩΝ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -11401,7 +11368,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 355,
+    "aa": 354,
     "am": "10119.0",
     "eponymo": "ΠΑΠΑΔΕΛΟΥ",
     "onoma": "ΜΑΡΙΑ ΓΕΩΡΓΙΑ",
@@ -11433,7 +11400,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 356,
+    "aa": 355,
     "am": "18041.0",
     "eponymo": "ΣΑΛΑΜΑΝΔΡΑΝΗΣ",
     "onoma": "ΒΑΛΣΑΜΗΣ",
@@ -11465,7 +11432,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 357,
+    "aa": 356,
     "am": "16173.0",
     "eponymo": "ΜΠΑΣΙΑΚΟΣ",
     "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
@@ -11497,7 +11464,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 358,
+    "aa": 357,
     "am": "7400.0",
     "eponymo": "ΝΙΚΟΛΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ ΜΑΡΙΑΝΝΑ",
@@ -11529,7 +11496,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 359,
+    "aa": 358,
     "am": "4413.0",
     "eponymo": "ΣΑΡΗΓΙΑΝΝΙΔΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ ΑΝΘΙΜΗ",
@@ -11561,7 +11528,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 360,
+    "aa": 359,
     "am": "9179.0",
     "eponymo": "ΛΙΩΛΙΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -11593,7 +11560,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 361,
+    "aa": 360,
     "am": "19809.0",
     "eponymo": "ΑΙΒΑΛΙΩΤΗΣ",
     "onoma": "ΛΑΖΑΡΟΣ",
@@ -11625,7 +11592,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 362,
+    "aa": 361,
     "am": "3276.0",
     "eponymo": "ΛΕΟΝΤΑΡΙΔΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -11657,7 +11624,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 363,
+    "aa": 362,
     "am": "17645.0",
     "eponymo": "ΑΒΡΑΜΟΠΟΥΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -11689,7 +11656,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 364,
+    "aa": 363,
     "am": "1855.0",
     "eponymo": "ΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -11721,7 +11688,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 365,
+    "aa": 364,
     "am": "19543.0",
     "eponymo": "ΦΩΤΙΑΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -11753,7 +11720,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 366,
+    "aa": 365,
     "am": "17060.0",
     "eponymo": "ΜΠΑΣΙΜΑΚΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -11785,7 +11752,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 367,
+    "aa": 366,
     "am": "17435.0",
     "eponymo": "ΚΩΣΤΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -11817,7 +11784,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 368,
+    "aa": 367,
     "am": "3366.0",
     "eponymo": "ΓΩΓΟΥ",
     "onoma": "ΙΦΙΓΕΝΕΙΑ",
@@ -11849,7 +11816,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 369,
+    "aa": 368,
     "am": "14979.0",
     "eponymo": "ΜΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -11881,7 +11848,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 370,
+    "aa": 369,
     "am": "16955.0",
     "eponymo": "ΤΣΙΑΦΚΑΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -11913,7 +11880,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 371,
+    "aa": 370,
     "am": "18732.0",
     "eponymo": "ΤΖΙΩΡΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -11945,7 +11912,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 372,
+    "aa": 371,
     "am": "9532.0",
     "eponymo": "ΣΤΑΘΙΑ",
     "onoma": "ΣΤΕΦΑΝΙΑ",
@@ -11977,7 +11944,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 373,
+    "aa": 372,
     "am": "13826.0",
     "eponymo": "ΚΟΡΟΜΗΛΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -12009,7 +11976,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 374,
+    "aa": 373,
     "am": "8838.0",
     "eponymo": "ΜΑΥΡΙΔΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -12041,7 +12008,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 375,
+    "aa": 374,
     "am": "15845.0",
     "eponymo": "ΚΑΡΑΣΑΒΒΑ",
     "onoma": "ΣΟΦΙΑ",
@@ -12073,7 +12040,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 376,
+    "aa": 375,
     "am": "17049.0",
     "eponymo": "ΣΑΝΤΑ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -12105,7 +12072,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 377,
+    "aa": 376,
     "am": "15018.0",
     "eponymo": "ΜΠΑΛΩΜΕΝΟΥ",
     "onoma": "ΑΙΜΙΛΙΑ-ΠΑΝΑΓΙΩΤΑ",
@@ -12137,7 +12104,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 378,
+    "aa": 377,
     "am": "8828.0",
     "eponymo": "ΚΑΛΑΤΖΟΓΛΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -12169,7 +12136,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 379,
+    "aa": 378,
     "am": "10652.0",
     "eponymo": "ΧΑΓΙΑΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ",
@@ -12201,7 +12168,7 @@
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
   },
   {
-    "aa": 380,
+    "aa": 379,
     "am": "11229.0",
     "eponymo": "ΚΑΡΑΤΑΣΙΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -12231,6 +12198,39 @@
     "vathmologia": 80.92,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon"
+  },
+  {
+    "aa": 380,
+    "am": "8339.0",
+    "eponymo": "ΜΠΑΚΟΥΛΗ",
+    "onoma": "ΦΩΤΕΙΝΗ",
+    "patronymo": "ΑΝΤΩΝΙΟΣ",
+    "adt_masked": "***705",
+    "omada_prosonton": "314 -001",
+    "theseis_idias_omadas": "1278-1279-1280-1281-1283",
+    "protimiseis": "1300-1210-1211-1283-1398-1426-1427-1424-1430-1297-780-777-1246-782-783-784-797-798-805-806-1044-804-789-790-807-843-845-846-847-848-849-850-851-852-853-854-855-856-877-1129-1025-1130-1131-1132-1133-1134-1135-1136-1137-1138-1139-1140-1141-1142-1143-991-992-993-994-995-996-998-999-1000-1002-1003-1004-1006-1005-1007-1008-1009-1010-1011-1012-1013-1014-1016-1018-1019-1020-1021-1022-1023-1024-1045-1046-1047-1048-1049-1051-1052-3165-1111-1112-1113-909-1114-1115-1116-1117-1118-1119-1120-1122-1123-1124-1280-1281-1278-1279-880-881-882-883-884-885-886-889-890-891-892-893-894-895-896-897-898-899-907-1077-954-942-939-927-928-929-908-1222-1241-1242-1221-1223-1225-1224-1226-1235-1236-1237-1238-1239-1250-1245-1244-1248-1247-1249-1265-1266-1268-1312-1338-1339-1340-1341-1342-1343-1344-1345-1358-1359-1360-1361-1362-1363-1364-1365-1368-1367-1369-1366-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-1384-3066-3068-3070-3073-3074-3075-3076-3088-3089-3090-3091-3092-3093-3094-3095-3096-3097-3098-3099-3100-3101-3102-1214-1212-1270-1273-1274-1299-1298-1425-1428-1429-776-778-779-781-785-786-3060-3062-3057-3058-3064-1304-1305-1306-1307-1308-1309-1310-1311-1318-1321-1322-1335-1336-1349-1351-1355-1356-1386-1387-1393-1394-1396-814",
+    "thesi_diorismou": "1300",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 15.0,
+    "monades_empeirias": 1.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "1283",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 47.78,
+    "synolo_graptou": 73.89,
+    "seira_klirosis": 7837361.0,
+    "vathmologia": 80.89,
+    "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 381,
@@ -13555,7 +13555,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "863-862-861-860-776-1306-1305-1280-1065-1067-1071-1072-1100-1101-1102-1365-1366-1281-1103-1351-1361-1364-1363-1373-1370-1372-844-845-1371-846-843-1345-1051-1374-1375-1376-1048-1049-1052-1138-3065-1135-1362-1349-1360-1359-1104-1358-1367-1368-1013-1369-1014-1016-1018-1019-1020-1023-1024-1029-1031-1033-1034-1035-1025-1037-1036-1039-780-782-783-858-789-790-797-804-798-1041-1040-1043-1113-1114-1115-1120-1121-1118-1119-1116-1117-1122-1123-1124-1133-1129-1130-1132-1134-1221-803-855-851-881-882-993-994-995-998-999-1000-1009-1008-1007-1006-1011-1010-1222-1223-1224-1225-1226-1244-880-883-884-3066-3068-3070-3084-3088-3089-3090-3091-3092-3093-3094-3095-3096-3097-3098-3099-890-899-893-892-895-896-897-898-916-917-918-912-914-991-1381-1380-1379-1377-1378-996-1265-1246",
     "thesi_diorismou": "1373",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -13575,7 +13575,7 @@
     "vathmologia": 79.92,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 423,
@@ -13780,7 +13780,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "3096-3095-3094-3093-3090-3088-3089-3091-3092-3097-3098-3099-3100-3101-3102-1280-1281-1244-1245-1246-1247-1248-1249-1250-1241-1242-1221-1338-1339-1340-1341-1342-1343-1344-1358-1359-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-1384-1312-1222-1223-1224-1225-1226-1214-1230-780-797-798-789-790-782-783-784-849-880-877-881-882-883-884-885-886-887-888-891-892-893-3165-889-894-896-899-912-913-914-915-916-917-918-919-1038-1039-1040-1041-1042-1043-1044-1045-1049-1050-1051-1052-991-992-995-996-997-999-1000",
     "thesi_diorismou": "3096",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -13800,7 +13800,7 @@
     "vathmologia": 79.83,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 430,
@@ -17525,7 +17525,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "1323-1352-1388-1397-1207-3112-949-1081-946-1159-1158-948-950-943-947-945-944-1054-1153-1157-1155-1275-1260-850-1205-1206-1208-1209-1080-1025-1044-860-853-852-851-849-1046-1051-1077-896-1019-1312-865-868-1007-1031-1338-1339-1341-1342-1343-3068-3089-3090-3091-3092-3093-3094-3095-3097-3098-3099-3100-3101-3102-780-963-1020-1016-996-890-919-999-1009-899-916-917-1037-1036-1041-1048-1115-1129-1226-1265-1280-1340-1368-1370-1371-1372-1373-1374-1023-1224-1327-1328-1329-1330-1333-1363-1362-1378-3074-3075-3076-954-1326-1353-1136-3072-3111-1029-883-1004-910-909-907-814-1011",
     "thesi_diorismou": "850",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -17545,7 +17545,7 @@
     "vathmologia": 77.97,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 547,
@@ -18134,7 +18134,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "950-945-946-943-947-949-1323-794-948-999-1042-1040-1029-780-991-993-994-998-1013-1009-1011-1035-1034-1033-1010-1012-1006-1046-1039-1043-1119-1124-1226-1223-1224-1280-995-996-1000-992-777-782-783-880-896-884-1003-1020-1023-1025-1041-1037-1044-1244-1246-881-885-1047-1113-1122-1118-882-883-789-889-1115-1222-1338-1339-1340-1341-1342-1343-1344-1358-1359-1360-797-790-893-1120-1241-1265-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1379-1380-1381-804-877-892-898-899-914-916-917-918-1281-1345-1361-1362-895-1018-1048-1221-1312-3088-3089-3090-3091-3092-3093-3094-3095-3096",
     "thesi_diorismou": "1370",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -18154,7 +18154,7 @@
     "vathmologia": 77.47,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 566,
@@ -19639,7 +19639,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "1011-780-894-1007-1023-1024-896-991-1043-1018-998-1009-1010-1000-1008-1019-1013-1035-1280-1029-1012-1016-1130-1141-1139-777-1142-1006-1039-1042-881-1036-1119-999-1132-1034-1033-1339-1340-1138-782-784-1338-1341-1342-1343-1344-1384-783-1244-1360-1361-1362-1363-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1374-1375-1376-1377-1378-1358-1379-1380-1381-916-1020-912-915-883-895-1003-1224-1245-3099-3100-3101-3102-3088-3089-3090-3091-3094-3095-3096-1136-1122-1140-1031-1359-1040-1037-1025-1120",
     "thesi_diorismou": "1372",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -19659,7 +19659,7 @@
     "vathmologia": 76.47,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 613,
@@ -20536,7 +20536,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "1363-1312-1360-1378-1374-780-777-1338-1340-1341-1342-1339-1358-1361-1362-1364-1365-1366-1367-1368-1369-1370-1371-1372-1373-1375-1376-1377-1379-1380-1381-3088-3089-3090-3091-3092-3093-3094-3095-3096-1343-1344-782-783-784-1224-1226-789-1222-1248-1244-1250-1246-1280-1281",
     "thesi_diorismou": "1372",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -20556,7 +20556,7 @@
     "vathmologia": 75.89,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 641,
@@ -21753,7 +21753,7 @@
     "theseis_idias_omadas": "1278-1279-1280-1281-1282-1283",
     "protimiseis": "864-868-869-871-872-866-867-865-870-842-839-841-937-1066-940-938-1067-1065-858-1152-1151-1150-1092-1090-1091-1104-1102-1103-1100-1101-929-927-1271-1257-1096-1099-1098-1212-881-1224-883-789-889-898-1226-895-1222-896-897-857-880-877-890-899-882-851-1117-850-1138-1139-1129-1142-1130-1141-1221-893-1115-1223-1023-1042-999-1018-1016-1003-1000-1007-1041-1280-1244-1009-1029-1019-1011-1034-1199-1013-1036-991-1281-1246-1025-918-1140-1241-1123-1124-1119-1118-1052-1134-1048-1120-917-919-916-1020-1031-907-910-909-1218-1216-1274-1273-1040-1037-996-995-1010-1136-998-1008-1006-1012-1043-1114-1113-1112-884-1198-885-1033-1035-1116-1111-1135-1197-1225-1245-1250-1249-1247-1248-1242-1214-1266-1265-1268-1217-1232-1253-1254-1252-1251-1278-1236-1237-1238-1239-1219-1220-1267-1258-1259-1270-1272-1283-1275-1260-1261-1262-1263-1279-1228-1229-1231-1282-1256-1255",
     "thesi_diorismou": "1281",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -21773,7 +21773,7 @@
     "vathmologia": 74.83,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 679,
@@ -22490,7 +22490,7 @@
     "theseis_idias_omadas": "1280-1281",
     "protimiseis": "780-777-783-782-784-1312-1339-1340-1344-1338-1343-1345-1341-1342-1369-1358-1364-1363-1379-1359-1361-1365-1360-1367-1362-1366-1370-1368-1375-1377-1371-1372-1376-1373-1381-1374-1378-1380-1384-3088-3091-3092-3093-3094-3095-3096-3089-3090-3066-1007-894-1034-1000-1043-1124-899-1006-991-1011-1009-1010-1012-1023-1018-884-895-883-880-898-881-893-882-885-886-887-888-3165-889-896-996-997-999-1005-1001-1002-1003-1004-1008-1014-1015-1016-1017-1019-1021-1022-1028-1026-1027-1032-1033-1035-1039-1040-1042-1048-1122-1130-1135-1142-1141-890-891-892-1029-1030-1031-1036-1038-1037-1119-1121-1139-789-877-914-994-993-1113-1112-1111-1129-1114-1123-1138-1222-1224-1223-1226-1225-1244-1245-1248-1247-1249-1250-1242-1265-1266-1280-1281",
     "thesi_diorismou": "1377",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -22510,7 +22510,7 @@
     "vathmologia": 74.14,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 702,
@@ -23451,7 +23451,7 @@
     "theseis_idias_omadas": "1280",
     "protimiseis": "991-1007-1040-1122-996-999-1358-3088-1023-1011-896-1226-1041-1042-1043-1000-1003-1018-1019-1034-1035-1033-1039-880-1013-1119-1244-1280-1223-1224-1359-1360-1361-1363-1364-1362-1365-1367-1369-1370-1371-1339-1340-1341-1342-1372-1373-1375-1376-1377-1378-1379-1381-3089-3090-3091-3092-3093-3094-3095-3096-782-783-784-1012-1009-1010-995-881-895-993-994-1029-1124-1222-1366-1368-882-883-884-898-899-1006-1008-1016-1024-1037-777-780-1111-1112-1113-1123-1265-1338-1343-1344-1374-1312-1345-885-1048-1031-1020-1047-1046-1120-1118-1117-1115-1116-1241-1045-1130-1142-1141-1140-1139-3101-3102",
     "thesi_diorismou": "3102",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -23471,7 +23471,7 @@
     "vathmologia": 73.39,
     "eidikotita": "ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ-ΟΙΚΟΝΟΜΙΚΟΥ ΕΙΔ. ΠΕ ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
     "slug": "pe-dioikitikoy-oikonomikoy-eid-pe-organosis-kai-dioikisis-epicheiriseon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 732,

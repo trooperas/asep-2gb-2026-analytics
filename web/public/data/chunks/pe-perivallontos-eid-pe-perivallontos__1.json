@@ -1,102 +1,6 @@
 [
   {
     "aa": 1001,
-    "am": "8031.0",
-    "eponymo": "ΖΙΩΓΑ",
-    "onoma": "ΓΕΩΡΓΙΑ",
-    "patronymo": "ΕΥΘΥΜΙΟΣ",
-    "adt_masked": "***417",
-    "omada_prosonton": "347 -001",
-    "theseis_idias_omadas": "2813-2817-2818-2819-2822-2823",
-    "protimiseis": "1032-856-1019-991-1049-1050-2813-1021-1052-1051-880-891-884-992-2822-893-892-1038-1015-1122-996-997-995-1013-1012-1011-1040-1043-1041-877-945-946-949-950-948-947-943-1022-1023-2823-1000-1003-1004-1033-1034-1035-1025-1039-1042-1014-1018-1016-1027-1028-1029-1031-1036-1037-1115-1130-901-900-918-917-916-914-913-1118-1119-1111-790-798-789-797-794-851-2818-2819-2817-961-962-958-954-963-964-965-966-967-868-990",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 84.0,
-    "math2": 57.11,
-    "synolo_graptou": 70.56,
-    "seira_klirosis": 3391358.0,
-    "vathmologia": 71.56,
-    "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-perivallontos-eid-pe-perivallontos"
-  },
-  {
-    "aa": 1002,
-    "am": "8492.0",
-    "eponymo": "ΑΥΤΖΗ",
-    "onoma": "ΧΑΙΔΩ",
-    "patronymo": "ΕΜΜΑΝΟΥΗΛ",
-    "adt_masked": "***908",
-    "omada_prosonton": "306 -001,004",
-    "theseis_idias_omadas": "554-555-558-570-571-572-577-578-603-604-2813-2815-2817-2818-2819-2822-2823-3162",
-    "protimiseis": "570-571-572-577-578-2815-2817-2818-2819-2822-2823-2813-554-555-558-3162-603-604",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1,5",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 16.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 80.0,
-    "math2": 54.0,
-    "synolo_graptou": 67.0,
-    "seira_klirosis": 6569955.0,
-    "vathmologia": 71.5,
-    "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-perivallontos-eid-pe-perivallontos"
-  },
-  {
-    "aa": 1003,
-    "am": "19990.0",
-    "eponymo": "ΜΠΟΥΡΛΙΔΗ",
-    "onoma": "ΚΑΛΛΙΟΠΗ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***810",
-    "omada_prosonton": "347 -001",
-    "theseis_idias_omadas": "2813-2817-2818-2819-2820-2822-2823-2824-2826-2827-2829-2830",
-    "protimiseis": "2813-2820-2822-2823-2824-2826-2827-2829-2830-2817-2818-2819",
-    "thesi_diorismou": null,
-    "idiotita": null,
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 79.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "0",
-    "kod_thesi_entop": null,
-    "monades_entop": null,
-    "math1": 84.0,
-    "math2": 48.78,
-    "synolo_graptou": 66.39,
-    "seira_klirosis": 1652553.0,
-    "vathmologia": 71.39,
-    "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-perivallontos-eid-pe-perivallontos"
-  },
-  {
-    "aa": 1004,
     "am": "19293.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -128,7 +32,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1005,
+    "aa": 1002,
     "am": "20097.0",
     "eponymo": "ΖΑΒΙΤΣΑΝΟΣ",
     "onoma": "ΛΑΜΠΡΟΣ",
@@ -160,7 +64,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1006,
+    "aa": 1003,
     "am": "10336.0",
     "eponymo": "ΤΣΙΟΡΚΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -192,7 +96,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1007,
+    "aa": 1004,
     "am": "10225.0",
     "eponymo": "ΚΟΥΝΑΔΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -224,7 +128,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1008,
+    "aa": 1005,
     "am": "2485.0",
     "eponymo": "ΖΕΡΒΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -256,7 +160,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1009,
+    "aa": 1006,
     "am": "15680.0",
     "eponymo": "ΒΕΛΙΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -288,7 +192,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1010,
+    "aa": 1007,
     "am": "20573.0",
     "eponymo": "ΡΙΖΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -320,7 +224,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1011,
+    "aa": 1008,
     "am": "19864.0",
     "eponymo": "ΚΑΡΑΝΙΚΟΛΟΥ- ΚΑΡΡΑ",
     "onoma": "ΔΙΟΤΙΜΑ",
@@ -352,7 +256,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1012,
+    "aa": 1009,
     "am": "12572.0",
     "eponymo": "ΙΑΤΡΙΔΟΥ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -384,7 +288,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1013,
+    "aa": 1010,
     "am": "7604.0",
     "eponymo": "ΓΚΟΤΙΝΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -416,7 +320,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1014,
+    "aa": 1011,
     "am": "13949.0",
     "eponymo": "ΚΑΡΤΑ",
     "onoma": "ΔΑΝΑΗ ΣΠΥΡΙΔΟΥΛΑ",
@@ -448,7 +352,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1015,
+    "aa": 1012,
     "am": "11698.0",
     "eponymo": "ΑΝΔΡΕΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -480,7 +384,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1016,
+    "aa": 1013,
     "am": "5532.0",
     "eponymo": "ΒΛΑΧΟΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -512,7 +416,40 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1017,
+    "aa": 1014,
+    "am": "13495.0",
+    "eponymo": "ΤΣΑΝΑΣΙΔΟΥ",
+    "onoma": "ΧΑΡΙΚΛΕΙΑ",
+    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
+    "adt_masked": "***235",
+    "omada_prosonton": "354 -001,018",
+    "theseis_idias_omadas": "2821-3117-3123",
+    "protimiseis": "2821-976-973-975-3121-3123-3122-3124-3117-3120-941-1145-951-1063-1062-1187-1188-1073-1077-1076-1078-838-840-839-865-871-868-866",
+    "thesi_diorismou": "3117",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 42.0,
+    "monades_empeirias": 3.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "7",
+    "kod_thesi_entop": "2821.0",
+    "monades_entop": 20.0,
+    "math1": 100.0,
+    "math2": 69.61,
+    "synolo_graptou": 84.81,
+    "seira_klirosis": 2876819.0,
+    "vathmologia": 70.81,
+    "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-perivallontos-eid-pe-perivallontos",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 1015,
     "am": "19166.0",
     "eponymo": "ΣΤΥΛΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -544,7 +481,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1018,
+    "aa": 1016,
     "am": "5393.0",
     "eponymo": "ΜΗΤΣΙΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -576,7 +513,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1019,
+    "aa": 1017,
     "am": "5826.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -608,7 +545,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1020,
+    "aa": 1018,
     "am": "19028.0",
     "eponymo": "ΜΑΝΤΣΟΥ",
     "onoma": "ΔΟΜΝΙΚΗ",
@@ -640,7 +577,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1021,
+    "aa": 1019,
     "am": "10212.0",
     "eponymo": "ΓΙΟΥΒΕΖΝΑΛΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -672,7 +609,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1022,
+    "aa": 1020,
     "am": "5418.0",
     "eponymo": "ΚΟΥΚΟΥΤΗ",
     "onoma": "ΑΓΑΘΗ",
@@ -704,7 +641,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1023,
+    "aa": 1021,
     "am": "12841.0",
     "eponymo": "ΧΑΤΖΗΓΕΩΡΓΙΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -736,7 +673,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1024,
+    "aa": 1022,
     "am": "17188.0",
     "eponymo": "ΚΟΥΒΑΡΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -768,7 +705,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1025,
+    "aa": 1023,
     "am": "13915.0",
     "eponymo": "ΤΣΕΚΟΥΡΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -800,7 +737,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1026,
+    "aa": 1024,
     "am": "16267.0",
     "eponymo": "ΤΣΙΤΣΟΜΗΤΣΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -832,7 +769,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1027,
+    "aa": 1025,
     "am": "12865.0",
     "eponymo": "ΛΙΑΛΗ",
     "onoma": "ΣΜΑΡΩ",
@@ -864,7 +801,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1028,
+    "aa": 1026,
     "am": "17202.0",
     "eponymo": "ΚΟΠΙΤΑ",
     "onoma": "ΑΘΗΝΑ",
@@ -896,7 +833,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1029,
+    "aa": 1027,
     "am": "18858.0",
     "eponymo": "ΜΠΟΛΟΝΑΚΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -928,7 +865,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1030,
+    "aa": 1028,
     "am": "2255.0",
     "eponymo": "ΠΑΛΑΣΚΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -960,7 +897,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1031,
+    "aa": 1029,
     "am": "6196.0",
     "eponymo": "ΚΑΛΟΓΗΡΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -992,7 +929,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1032,
+    "aa": 1030,
     "am": "3859.0",
     "eponymo": "ΑΡΓΥΡΑΚΗ",
     "onoma": "ΜΑΡΙΑ ΕΛΕΝΗ",
@@ -1024,7 +961,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1033,
+    "aa": 1031,
     "am": "6217.0",
     "eponymo": "ΠΕΠΠΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1056,7 +993,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1034,
+    "aa": 1032,
     "am": "8114.0",
     "eponymo": "ΠΑΛΑΣΚΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1066,7 +1003,7 @@
     "theseis_idias_omadas": "544-547-551-556-560-562-564-565-566-570-571-572-577-578-579-580-581-582-583-584-585-589-595-596-597-599-600-605-606-607-613-616-2817-2818-2819",
     "protimiseis": "577-578-2817-2818-2819-579-606-605-600-599-607-597-595-596-556-571-572-570-584-589-560-562-585-583-582-581-580-613-616-566-564-565-544-547-551",
     "thesi_diorismou": "547",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -1086,10 +1023,10 @@
     "vathmologia": 69.89,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 1035,
+    "aa": 1033,
     "am": "16236.0",
     "eponymo": "ΔΕΛΗΓΙΑΝΝΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1121,7 +1058,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1036,
+    "aa": 1034,
     "am": "18641.0",
     "eponymo": "ΤΖΙΚΟΥ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -1153,7 +1090,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1037,
+    "aa": 1035,
     "am": "10203.0",
     "eponymo": "ΚΑΡΑΜΠΕΤΗ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -1185,7 +1122,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1038,
+    "aa": 1036,
     "am": "1826.0",
     "eponymo": "ΙΩΑΝΝΙΔΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -1217,7 +1154,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1039,
+    "aa": 1037,
     "am": "16581.0",
     "eponymo": "ΖΑΒΒΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -1249,7 +1186,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1040,
+    "aa": 1038,
     "am": "19396.0",
     "eponymo": "ΨΥΡΡΑΣ",
     "onoma": "ΧΑΡΙΛΑΟΣ",
@@ -1281,7 +1218,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1041,
+    "aa": 1039,
     "am": "16720.0",
     "eponymo": "ΦΛΩΡΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1313,7 +1250,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1042,
+    "aa": 1040,
     "am": "12689.0",
     "eponymo": "ΑΒΑΓΙΑΝΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1345,7 +1282,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1043,
+    "aa": 1041,
     "am": "11819.0",
     "eponymo": "ΣΕΦΕΡΛΗ",
     "onoma": "ΣΤΑΜΑΤΙΝΑ",
@@ -1377,7 +1314,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1044,
+    "aa": 1042,
     "am": "13850.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -1409,7 +1346,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1045,
+    "aa": 1043,
     "am": "18621.0",
     "eponymo": "ΠΟΥΛΙΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -1441,7 +1378,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1046,
+    "aa": 1044,
     "am": "8197.0",
     "eponymo": "ΠΑΛΙΑΤΣΑΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -1473,7 +1410,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1047,
+    "aa": 1045,
     "am": "15665.0",
     "eponymo": "ΣΑΠΑΡΔΑΝΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -1505,7 +1442,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1048,
+    "aa": 1046,
     "am": "18053.0",
     "eponymo": "ΤΣΟΥΡΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1537,7 +1474,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1049,
+    "aa": 1047,
     "am": "11937.0",
     "eponymo": "ΚΑΝΑΚΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1569,7 +1506,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1050,
+    "aa": 1048,
     "am": "10701.0",
     "eponymo": "ΡΕΝΤΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1601,7 +1538,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1051,
+    "aa": 1049,
     "am": "931.0",
     "eponymo": "ΤΣΑΟΥΣΙΔΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -1633,7 +1570,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1052,
+    "aa": 1050,
     "am": "17348.0",
     "eponymo": "ΜΑΡΓΑΡΙΤΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1665,7 +1602,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1053,
+    "aa": 1051,
     "am": "8325.0",
     "eponymo": "ΟΥΡΤΖΑΝΗ",
     "onoma": "ΟΛΓΑ",
@@ -1697,7 +1634,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1054,
+    "aa": 1052,
     "am": "14964.0",
     "eponymo": "ΑΒΡΑΜΙΚΟΣ",
     "onoma": "ΘΩΜΑΣ - ΜΙΛΤΙΑΔΗΣ",
@@ -1729,7 +1666,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1055,
+    "aa": 1053,
     "am": "18333.0",
     "eponymo": "ΤΣΟΥΛΑΝΑΣ",
     "onoma": "ΛΟΥΚΑΣ",
@@ -1761,7 +1698,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1056,
+    "aa": 1054,
     "am": "19671.0",
     "eponymo": "ΤΣΟΥΛΟΥ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -1793,7 +1730,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1057,
+    "aa": 1055,
     "am": "7472.0",
     "eponymo": "ΚΑΡΑΓΕΛΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -1825,7 +1762,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1058,
+    "aa": 1056,
     "am": "15273.0",
     "eponymo": "ΖΕΙΜΠΕΚΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1857,7 +1794,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1059,
+    "aa": 1057,
     "am": "3029.0",
     "eponymo": "ΣΤΑΜΠΟΥΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1889,7 +1826,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1060,
+    "aa": 1058,
     "am": "4695.0",
     "eponymo": "ΜΑΝΙΩΤΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1921,7 +1858,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1061,
+    "aa": 1059,
     "am": "2816.0",
     "eponymo": "ΛΙΑΝΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1954,7 +1891,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 1062,
+    "aa": 1060,
     "am": "1764.0",
     "eponymo": "ΚΑΛΑΙΤΖΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1986,7 +1923,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1063,
+    "aa": 1061,
     "am": "16567.0",
     "eponymo": "ΠΑΠΑΚΩΣΤΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2018,7 +1955,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1064,
+    "aa": 1062,
     "am": "6635.0",
     "eponymo": "ΔΕΡΜΕΝΤΖΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -2050,7 +1987,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1065,
+    "aa": 1063,
     "am": "824.0",
     "eponymo": "ΤΑΣΗΣ",
     "onoma": "ΠΑΝΤΕΛΕΗΜΩΝ",
@@ -2082,7 +2019,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1066,
+    "aa": 1064,
     "am": "6974.0",
     "eponymo": "ΚΑΡΑΜΗΤΣΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ ΧΡΙΣΤΙΝΑ",
@@ -2114,7 +2051,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1067,
+    "aa": 1065,
     "am": "13227.0",
     "eponymo": "ΓΕΜΟΥΣΑΚΑΚΗ",
     "onoma": "ΑΝΝΑ",
@@ -2146,7 +2083,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1068,
+    "aa": 1066,
     "am": "8253.0",
     "eponymo": "ΒΛΑΧΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2178,7 +2115,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1069,
+    "aa": 1067,
     "am": "2137.0",
     "eponymo": "ΓΡΗΓΟΡΟΥΔΗΣ",
     "onoma": "ΔΗΜΟΣΘΕΝΗΣ",
@@ -2210,7 +2147,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1070,
+    "aa": 1068,
     "am": "18161.0",
     "eponymo": "ΑΝΔΡΙΚΟΠΟΥΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2242,7 +2179,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1071,
+    "aa": 1069,
     "am": "8505.0",
     "eponymo": "ΤΣΑΜΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -2274,7 +2211,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1072,
+    "aa": 1070,
     "am": "19176.0",
     "eponymo": "ΚΑΡΚΑΛΑΣ",
     "onoma": "ΣΤΕΡΓΙΟΣ",
@@ -2306,7 +2243,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1073,
+    "aa": 1071,
     "am": "11807.0",
     "eponymo": "ΚΟΥΡΛΕΤΑΚΗ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -2338,7 +2275,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1074,
+    "aa": 1072,
     "am": "20232.0",
     "eponymo": "ΠΟΥΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2370,7 +2307,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1075,
+    "aa": 1073,
     "am": "7589.0",
     "eponymo": "ΚΑΚΚΑΒΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -2402,7 +2339,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1076,
+    "aa": 1074,
     "am": "3013.0",
     "eponymo": "ΧΡΙΣΤΟΓΛΟΥ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -2434,7 +2371,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1077,
+    "aa": 1075,
     "am": "16187.0",
     "eponymo": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ ΠΑΡΑΣΚΕΥΗ",
@@ -2466,7 +2403,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1078,
+    "aa": 1076,
     "am": "3900.0",
     "eponymo": "ΜΙΧΑΛΟΠΟΥΛΟΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -2498,7 +2435,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1079,
+    "aa": 1077,
     "am": "5799.0",
     "eponymo": "ΑΝΑΣΤΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΣΤΑΜΑΤΙΑ",
@@ -2530,7 +2467,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1080,
+    "aa": 1078,
     "am": "16395.0",
     "eponymo": "ΗΛΙΑΚΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2562,7 +2499,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1081,
+    "aa": 1079,
     "am": "12293.0",
     "eponymo": "ΕΥΑΓΓΕΛΙΔΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -2594,7 +2531,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1082,
+    "aa": 1080,
     "am": "20487.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -2626,7 +2563,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1083,
+    "aa": 1081,
     "am": "18313.0",
     "eponymo": "ΤΣΙΑΓΚΑ",
     "onoma": "ΠΑΣΧΑΛΙΑ",
@@ -2658,7 +2595,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1084,
+    "aa": 1082,
     "am": "18100.0",
     "eponymo": "ΤΣΙΤΣΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -2690,7 +2627,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1085,
+    "aa": 1083,
     "am": "4253.0",
     "eponymo": "ΤΣΙΤΣΕΛΑ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -2722,7 +2659,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1086,
+    "aa": 1084,
     "am": "4432.0",
     "eponymo": "ΜΠΑΚΑΛΟΥΔΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -2754,7 +2691,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1087,
+    "aa": 1085,
     "am": "13029.0",
     "eponymo": "ΖΙΩΓΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2786,7 +2723,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1088,
+    "aa": 1086,
     "am": "2270.0",
     "eponymo": "ΝΤΟΥΛΙΑΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -2818,7 +2755,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1089,
+    "aa": 1087,
     "am": "7731.0",
     "eponymo": "ΒΕΝΕΤΗ",
     "onoma": "ΖΩΗ",
@@ -2850,7 +2787,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1090,
+    "aa": 1088,
     "am": "20755.0",
     "eponymo": "ΔΩΡΑ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2882,7 +2819,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1091,
+    "aa": 1089,
     "am": "19130.0",
     "eponymo": "ΠΑΠΑΒΑΣΙΛΕΙΟΥ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2914,7 +2851,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1092,
+    "aa": 1090,
     "am": "17433.0",
     "eponymo": "ΝΤΑΡΛΑΔΗΜΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -2946,7 +2883,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1093,
+    "aa": 1091,
     "am": "12452.0",
     "eponymo": "ΟΡΦΑΝΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ-ΠΑΝΑΓΙΩΤΗΣ",
@@ -2978,7 +2915,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1094,
+    "aa": 1092,
     "am": "5395.0",
     "eponymo": "ΔΡΑΓΟΖΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -3010,7 +2947,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1095,
+    "aa": 1093,
     "am": "8203.0",
     "eponymo": "ΚΑΤΣΙΟΥΛΑΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -3020,7 +2957,7 @@
     "theseis_idias_omadas": "560-561-562-563-567-571-572-574-575-577-579-581-582-583-584-587-588-596-597-599-600-605-606-607-618-619-2815-2817-2819-2820-2822-2823-2824-2827-2829-2831",
     "protimiseis": "607-596-597-600-599-2822-2823-587-571-572-606-605-584-563-560-561-562-579-582-581-583-588-575-574-619-618-567-2819-2820-577-2831-2817-2815-2824-2827-2829",
     "thesi_diorismou": "567",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3040,10 +2977,10 @@
     "vathmologia": 67.22,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 1096,
+    "aa": 1094,
     "am": "8981.0",
     "eponymo": "ΑΓΓΕΛΗ",
     "onoma": "ΣΤΡΑΤΟΥΛΑ",
@@ -3075,7 +3012,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1097,
+    "aa": 1095,
     "am": "376.0",
     "eponymo": "ΚΟΥΤΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -3107,7 +3044,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1098,
+    "aa": 1096,
     "am": "2840.0",
     "eponymo": "ΒΑΣΙΛΑΚΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -3139,7 +3076,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1099,
+    "aa": 1097,
     "am": "19118.0",
     "eponymo": "ΝΤΑΡΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3171,7 +3108,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1100,
+    "aa": 1098,
     "am": "1531.0",
     "eponymo": "ΜΑΡΓΕΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3203,7 +3140,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1101,
+    "aa": 1099,
     "am": "12498.0",
     "eponymo": "ΠΑΠΑΡΓΥΡΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -3235,7 +3172,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1102,
+    "aa": 1100,
     "am": "15883.0",
     "eponymo": "ΜΙΧΑΗΛΙΔΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -3267,7 +3204,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1103,
+    "aa": 1101,
     "am": "19408.0",
     "eponymo": "ΚΟΤΤΑΡΑΣ",
     "onoma": "ΑΡΙΣΤΕΙΔΗΣ",
@@ -3299,7 +3236,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1104,
+    "aa": 1102,
     "am": "5913.0",
     "eponymo": "ΛΑΠΟΚΩΝΣΤΑΝΤΑΚΗ",
     "onoma": "ΕΜΜΑΝΟΥΕΛΑ",
@@ -3331,7 +3268,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1105,
+    "aa": 1103,
     "am": "2998.0",
     "eponymo": "ΠΑΣΒΑΝΤΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -3363,7 +3300,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1106,
+    "aa": 1104,
     "am": "18065.0",
     "eponymo": "ΚΡΑΝΙΩΤΗ",
     "onoma": "ΑΝΔΡΟΜΑΧΗ",
@@ -3395,7 +3332,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1107,
+    "aa": 1105,
     "am": "8833.0",
     "eponymo": "ΚΑΣΑΠΙΔΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3427,7 +3364,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1108,
+    "aa": 1106,
     "am": "9792.0",
     "eponymo": "ΚΟΣΜΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3459,7 +3396,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1109,
+    "aa": 1107,
     "am": "1581.0",
     "eponymo": "ΙΩΑΝΝΙΔΟΥ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -3491,7 +3428,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1110,
+    "aa": 1108,
     "am": "13203.0",
     "eponymo": "ΜΩΥΣΙΑΔΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -3523,7 +3460,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1111,
+    "aa": 1109,
     "am": "899.0",
     "eponymo": "ΖΕΡΒΟΣ",
     "onoma": "ΑΝΘΙΜΟΣ",
@@ -3555,7 +3492,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1112,
+    "aa": 1110,
     "am": "5689.0",
     "eponymo": "ΜΑΓΓΙΝΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3587,7 +3524,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1113,
+    "aa": 1111,
     "am": "1196.0",
     "eponymo": "ΚΑΤΣΟΥΝΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -3619,7 +3556,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1114,
+    "aa": 1112,
     "am": "947.0",
     "eponymo": "ΣΟΛΤΑΝΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -3651,7 +3588,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1115,
+    "aa": 1113,
     "am": "10124.0",
     "eponymo": "ΑΡΑΜΠΑΤΖΗ",
     "onoma": "ΣΤΕΦΑΝΙΑ",
@@ -3683,7 +3620,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1116,
+    "aa": 1114,
     "am": "3596.0",
     "eponymo": "ΓΙΑΝΝΟΥΛΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -3715,7 +3652,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1117,
+    "aa": 1115,
     "am": "4603.0",
     "eponymo": "ΠΡΙΦΤΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3747,7 +3684,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1118,
+    "aa": 1116,
     "am": "2570.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΝΕΦΕΛΗ",
@@ -3779,7 +3716,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1119,
+    "aa": 1117,
     "am": "11429.0",
     "eponymo": "ΣΤΡΑΤΗΓΟΠΟΥΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3811,7 +3748,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1120,
+    "aa": 1118,
     "am": "6440.0",
     "eponymo": "ΠΑΛΛΗΚΑΡΗ",
     "onoma": "ΔΑΦΝΗ",
@@ -3843,7 +3780,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1121,
+    "aa": 1119,
     "am": "19988.0",
     "eponymo": "ΨΥΧΟΓΥΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3875,7 +3812,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1122,
+    "aa": 1120,
     "am": "12593.0",
     "eponymo": "ΚΑΤΟΙΚΟΥ",
     "onoma": "ΒΙΡΓΙΝΙΑ",
@@ -3907,7 +3844,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1123,
+    "aa": 1121,
     "am": "15578.0",
     "eponymo": "ΛΙΑΠΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -3939,7 +3876,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1124,
+    "aa": 1122,
     "am": "17744.0",
     "eponymo": "ΠΑΡΔΑΛΗ",
     "onoma": "ΒΑΙΑ",
@@ -3971,7 +3908,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1125,
+    "aa": 1123,
     "am": "7960.0",
     "eponymo": "ΚΟΚΚΙΝΑΚΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -4003,7 +3940,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1126,
+    "aa": 1124,
     "am": "4234.0",
     "eponymo": "ΑΝΔΡΕΑΚΟΥ",
     "onoma": "ΜΗΝΑ",
@@ -4035,7 +3972,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1127,
+    "aa": 1125,
     "am": "9165.0",
     "eponymo": "ΝΙΚΟΛΑΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ ΔΑΝΑΗ",
@@ -4067,7 +4004,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1128,
+    "aa": 1126,
     "am": "2557.0",
     "eponymo": "ΜΑΝΩΛΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -4099,7 +4036,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1129,
+    "aa": 1127,
     "am": "3917.0",
     "eponymo": "ΤΣΑΝΟ",
     "onoma": "ΕΥΘΑΛΙΑ",
@@ -4131,7 +4068,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1130,
+    "aa": 1128,
     "am": "3135.0",
     "eponymo": "ΦΡΑΝΤΖΕΣΚΟΥ",
     "onoma": "ΑΜΑΛΙΑ",
@@ -4163,7 +4100,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1131,
+    "aa": 1129,
     "am": "1781.0",
     "eponymo": "ΓΛΕΝΤΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΝΗ ΜΑΡΙΑ",
@@ -4195,7 +4132,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1132,
+    "aa": 1130,
     "am": "10412.0",
     "eponymo": "ΤΣΙΟΥΚΑΣ",
     "onoma": "ΘΩΜΑΣ",
@@ -4227,7 +4164,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1133,
+    "aa": 1131,
     "am": "6896.0",
     "eponymo": "ΤΣΑΚΙΡΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -4259,7 +4196,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1134,
+    "aa": 1132,
     "am": "10755.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -4291,7 +4228,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1135,
+    "aa": 1133,
     "am": "16290.0",
     "eponymo": "ΚΑΛΟΓΕΡΑΚΗΣ",
     "onoma": "ΜΗΝΑΣ",
@@ -4323,7 +4260,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1136,
+    "aa": 1134,
     "am": "8014.0",
     "eponymo": "ΤΣΙΡΙΜΙΑΓΚΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -4355,7 +4292,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1137,
+    "aa": 1135,
     "am": "15055.0",
     "eponymo": "ΓΕΩΡΓΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΤΑ",
@@ -4387,7 +4324,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1138,
+    "aa": 1136,
     "am": "7617.0",
     "eponymo": "ΙΩΑΝΝΙΔΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ ΜΑΡΙΑ",
@@ -4419,7 +4356,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1139,
+    "aa": 1137,
     "am": "9785.0",
     "eponymo": "ΚΑΜΙΤΣΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -4451,7 +4388,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1140,
+    "aa": 1138,
     "am": "4679.0",
     "eponymo": "ΜΑΣΟΥΡΑΣ",
     "onoma": "ΑΝΔΡ",
@@ -4483,7 +4420,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1141,
+    "aa": 1139,
     "am": "19062.0",
     "eponymo": "ΒΕΡΡΟΙΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΩΝΟΡΑ ΕΥΤΥΧΙΑ",
@@ -4515,7 +4452,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1142,
+    "aa": 1140,
     "am": "6972.0",
     "eponymo": "ΦΟΥΡΤΟΥΝΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -4547,7 +4484,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1143,
+    "aa": 1141,
     "am": "8902.0",
     "eponymo": "ΤΣΙΡΙΜΙΑΓΚΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -4579,7 +4516,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1144,
+    "aa": 1142,
     "am": "16490.0",
     "eponymo": "ΚΩΛΕΤΤΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4611,7 +4548,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1145,
+    "aa": 1143,
     "am": "8027.0",
     "eponymo": "ΠΑΠΑΣΑΒΒΑΣ",
     "onoma": "ΣΩΚΡΑΤΗΣ",
@@ -4643,7 +4580,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1146,
+    "aa": 1144,
     "am": "16760.0",
     "eponymo": "ΡΕΚΟΥΜΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -4675,7 +4612,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1147,
+    "aa": 1145,
     "am": "10469.0",
     "eponymo": "ΑΝΑΓΝΩΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ ΒΑΣΙΛΙΚΗ",
@@ -4707,7 +4644,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1148,
+    "aa": 1146,
     "am": "12396.0",
     "eponymo": "ΞΕΝΙΩΤΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4739,7 +4676,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1149,
+    "aa": 1147,
     "am": "2680.0",
     "eponymo": "ΣΤΕΦΑΝΙΔΟΥ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -4771,7 +4708,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1150,
+    "aa": 1148,
     "am": "10300.0",
     "eponymo": "ΚΩΤΙΤΣΑΣ",
     "onoma": "ΝΗΡΕΥΣ",
@@ -4803,7 +4740,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1151,
+    "aa": 1149,
     "am": "1854.0",
     "eponymo": "ΣΤΟΥΦΗ",
     "onoma": "ΔΙΟΝΥΣΙΑ",
@@ -4835,7 +4772,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1152,
+    "aa": 1150,
     "am": "16465.0",
     "eponymo": "ΜΑΘΙΟΥΔΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -4867,7 +4804,40 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1153,
+    "aa": 1151,
+    "am": "1769.0",
+    "eponymo": "ΠΑΠΑΚΗ",
+    "onoma": "ΔΗΜΗΤΡΑ",
+    "patronymo": "ΑΝΑΣΤΑΣΙΟΣ",
+    "adt_masked": "***829",
+    "omada_prosonton": "356 -001,013",
+    "theseis_idias_omadas": "2829",
+    "protimiseis": "2117-2829-2115-2116-1170-1167-1168-1169",
+    "thesi_diorismou": "2117",
+    "idiotita": "ΝΑΙ",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 30.0,
+    "monades_empeirias": 2.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2829.0",
+    "monades_entop": 40.0,
+    "math1": 84.0,
+    "math2": 34.95,
+    "synolo_graptou": 59.47,
+    "seira_klirosis": 4381618.0,
+    "vathmologia": 63.47,
+    "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-perivallontos-eid-pe-perivallontos",
+    "eidikes_idiotites": "ΝΑΙ"
+  },
+  {
+    "aa": 1152,
     "am": "934.0",
     "eponymo": "ΠΑΠΑΛΕΞΙΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -4899,7 +4869,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1154,
+    "aa": 1153,
     "am": "6907.0",
     "eponymo": "ΔΕΜΕΡΤΖΙΔΟΥ",
     "onoma": "ΜΕΛΑΝΙΑ",
@@ -4931,7 +4901,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1155,
+    "aa": 1154,
     "am": "6111.0",
     "eponymo": "ΣΚΟΥΛΟΥΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4963,7 +4933,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1156,
+    "aa": 1155,
     "am": "11139.0",
     "eponymo": "ΕΛΕΥΘΕΡΙΑΔΟΥ",
     "onoma": "ΑΛΕΞΙΑ",
@@ -4995,7 +4965,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1157,
+    "aa": 1156,
     "am": "16096.0",
     "eponymo": "ΜΑΧΑΙΡΑ",
     "onoma": "ΜΑΡΙΑ ΧΑΡΙΤΩΜΕΝΗ",
@@ -5027,7 +4997,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1158,
+    "aa": 1157,
     "am": "7528.0",
     "eponymo": "ΙΩΑΝΝΙΔΗΣ",
     "onoma": "ΚΛΕΟΒΟΥΛΟΣ ΝΕΚΤΑΡΙΟΣ",
@@ -5059,7 +5029,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1159,
+    "aa": 1158,
     "am": "20158.0",
     "eponymo": "ΝΙΚΟΛΕΡΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -5091,7 +5061,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1160,
+    "aa": 1159,
     "am": "7408.0",
     "eponymo": "ΧΑΡΑΤΖΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -5123,7 +5093,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1161,
+    "aa": 1160,
     "am": "8625.0",
     "eponymo": "ΠΑΠΑΓΕΩΡΓΙΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -5155,7 +5125,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1162,
+    "aa": 1161,
     "am": "18115.0",
     "eponymo": "ΡΑΠΤΗ",
     "onoma": "ΔΡΟΣΟΥΛΑ",
@@ -5187,7 +5157,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1163,
+    "aa": 1162,
     "am": "19733.0",
     "eponymo": "ΕΜΜΑΝΟΥΗΛΙΔΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -5219,7 +5189,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1164,
+    "aa": 1163,
     "am": "3563.0",
     "eponymo": "ΚΟΡΤΣΕΛΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -5251,7 +5221,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1165,
+    "aa": 1164,
     "am": "79.0",
     "eponymo": "ΝΤΟΥΝΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -5283,7 +5253,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1166,
+    "aa": 1165,
     "am": "4102.0",
     "eponymo": "ΚΑΡΑΜΟΥΖΗ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -5315,7 +5285,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1167,
+    "aa": 1166,
     "am": "9107.0",
     "eponymo": "ΡΩΜΑ",
     "onoma": "ΕΙΡΗΝΗ-ΧΡΥΣΟΒΑΛΑΝΤΗ",
@@ -5347,7 +5317,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1168,
+    "aa": 1167,
     "am": "15409.0",
     "eponymo": "ΣΑΛΙΑΚΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5379,7 +5349,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1169,
+    "aa": 1168,
     "am": "18435.0",
     "eponymo": "ΑΝΑΣΤΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΝΟΥΛΑ",
@@ -5411,7 +5381,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1170,
+    "aa": 1169,
     "am": "1952.0",
     "eponymo": "ΣΑΚΚΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -5443,7 +5413,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1171,
+    "aa": 1170,
     "am": "6845.0",
     "eponymo": "ΜΕΛΕΤΟΓΛΟΥ",
     "onoma": "ΓΡΗΓΟΡΙΟΣ",
@@ -5475,7 +5445,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1172,
+    "aa": 1171,
     "am": "19761.0",
     "eponymo": "ΠΑΠΑΖΙΔΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -5507,7 +5477,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1173,
+    "aa": 1172,
     "am": "5918.0",
     "eponymo": "ΣΗΜΑΝΤΗΡΑΚΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -5539,7 +5509,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1174,
+    "aa": 1173,
     "am": "15505.0",
     "eponymo": "ΜΑΚΗΣ",
     "onoma": "ΑΧΙΛΛΕΥΣ",
@@ -5571,7 +5541,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1175,
+    "aa": 1174,
     "am": "18606.0",
     "eponymo": "ΠΕΤΡΟΥΛΙΑ",
     "onoma": "ΕΥΣΤΑΘΙΑ",
@@ -5603,7 +5573,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1176,
+    "aa": 1175,
     "am": "3116.0",
     "eponymo": "ΔΑΛΙΑΝΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -5635,7 +5605,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1177,
+    "aa": 1176,
     "am": "10446.0",
     "eponymo": "ΚΑΝΔΥΛΑ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -5667,7 +5637,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1178,
+    "aa": 1177,
     "am": "16078.0",
     "eponymo": "ΛΕΣΙ",
     "onoma": "ΟΡΝΕΛΑ",
@@ -5699,7 +5669,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1179,
+    "aa": 1178,
     "am": "6007.0",
     "eponymo": "ΑΝΤΩΝΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -5731,7 +5701,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1180,
+    "aa": 1179,
     "am": "12175.0",
     "eponymo": "Καραμανωλάκη",
     "onoma": "Κωνσταντίνα",
@@ -5763,7 +5733,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1181,
+    "aa": 1180,
     "am": "3493.0",
     "eponymo": "ΤΣΑΚΑΛΙΔΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -5795,7 +5765,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1182,
+    "aa": 1181,
     "am": "15031.0",
     "eponymo": "ΚΟΛΥΒΑ",
     "onoma": "ΠΑΥΛΙΝΑ",
@@ -5827,7 +5797,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1183,
+    "aa": 1182,
     "am": "4482.0",
     "eponymo": "ΜΥΛΩΝΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -5859,7 +5829,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1184,
+    "aa": 1183,
     "am": "12849.0",
     "eponymo": "ΜΑΡΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -5891,7 +5861,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1185,
+    "aa": 1184,
     "am": "16973.0",
     "eponymo": "ΖΗΣΙΜΟΠΟΥΛΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -5923,7 +5893,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1186,
+    "aa": 1185,
     "am": "20123.0",
     "eponymo": "ΚΟΥΤΑΛΙΑ",
     "onoma": "ΑΓΛΑΙΑ",
@@ -5955,7 +5925,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1187,
+    "aa": 1186,
     "am": "18814.0",
     "eponymo": "ΒΑΛΕΤΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -5987,7 +5957,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1188,
+    "aa": 1187,
     "am": "14462.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΦΩΤΙΟΣ",
@@ -6019,7 +5989,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1189,
+    "aa": 1188,
     "am": "15231.0",
     "eponymo": "ΣΕΡΑΦΕΙΜΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -6051,7 +6021,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1190,
+    "aa": 1189,
     "am": "1113.0",
     "eponymo": "ΤΣΙΑΟΥΣΙΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ ΘΕΟΔΩΡΟΣ",
@@ -6083,7 +6053,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1191,
+    "aa": 1190,
     "am": "1544.0",
     "eponymo": "ΜΑΝΩΛΗ",
     "onoma": "ΟΛΥΜΠΙΑ",
@@ -6115,7 +6085,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1192,
+    "aa": 1191,
     "am": "12935.0",
     "eponymo": "ΖΗΡΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -6125,7 +6095,7 @@
     "theseis_idias_omadas": "543-544-550-551-552-553-554-555-556-557-558-559-560-561-562-563-564-565-566-567-570-571-572-577-578-579-580-581-582-583-584-585-586-587-589-590-591-592-595-596-597-599-600-603-604-605-606-607-608-609-610-611-612-613-614-617-618-619-2813-2815-2817-2818-2819-2820-2822-2823-2824-2825-2826-2828-2829-2830-2831-3162",
     "protimiseis": "612-613-596-597-595-600-599-585-607-605-606-611-614-580-581-582-583-570-571-572-577-578-556-3162-586-587-603-554-555-558-563-560-561-562-589-604-617-553-557-552-551-550-543-544-564-565-566-584-579-590-591-592-618-567-608-610-609-559-619-2817-2818-2819-2815-2813-2822-2823-2824-2828-2825-2820-2826-2830-2829-2831",
     "thesi_diorismou": "551",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -6145,10 +6115,10 @@
     "vathmologia": 60.33,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 1193,
+    "aa": 1192,
     "am": "7271.0",
     "eponymo": "ΠΑΡΑΛΥΚΙΔΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -6180,7 +6150,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1194,
+    "aa": 1193,
     "am": "17011.0",
     "eponymo": "ΒΡΑΝΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -6212,7 +6182,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1195,
+    "aa": 1194,
     "am": "10202.0",
     "eponymo": "ΓΚΛΙΑΟΥ",
     "onoma": "ΜΕΛΠΟΜΕΝΗ",
@@ -6244,7 +6214,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1196,
+    "aa": 1195,
     "am": "5602.0",
     "eponymo": "ΒΑΣΙΟΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -6276,7 +6246,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1197,
+    "aa": 1196,
     "am": "4291.0",
     "eponymo": "ΦΑΦΟΥΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -6308,7 +6278,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1198,
+    "aa": 1197,
     "am": "2293.0",
     "eponymo": "ΜΙΧΑΗΛ",
     "onoma": "ΕΙΡΗΝΗ ΡΑΦΑΕΛΑ",
@@ -6340,7 +6310,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1199,
+    "aa": 1198,
     "am": "5681.0",
     "eponymo": "ΣΑΒΒΙΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -6372,7 +6342,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1200,
+    "aa": 1199,
     "am": "17614.0",
     "eponymo": "ΑΝΔΡΕΑΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -6404,7 +6374,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1201,
+    "aa": 1200,
     "am": "4801.0",
     "eponymo": "ΧΥΜΑΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -6436,7 +6406,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1202,
+    "aa": 1201,
     "am": "13160.0",
     "eponymo": "ΚΟΚΟΛΑΚΗΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -6468,7 +6438,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1203,
+    "aa": 1202,
     "am": "9835.0",
     "eponymo": "ΚΥΡΙΑΖΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -6500,7 +6470,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1204,
+    "aa": 1203,
     "am": "17424.0",
     "eponymo": "ΖΑΧΑΡΙΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -6532,7 +6502,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1205,
+    "aa": 1204,
     "am": "2227.0",
     "eponymo": "ΣΕΒΔΑΛΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -6564,7 +6534,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1206,
+    "aa": 1205,
     "am": "7094.0",
     "eponymo": "ΚΟΥΤΙΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -6596,7 +6566,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1207,
+    "aa": 1206,
     "am": "7481.0",
     "eponymo": "ΔΑΛΛΑ",
     "onoma": "ΑΝΝΑ",
@@ -6628,7 +6598,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1208,
+    "aa": 1207,
     "am": "17178.0",
     "eponymo": "ΜΑΡΩΝΙΔΟΥ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -6660,7 +6630,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1209,
+    "aa": 1208,
     "am": "7163.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΑΡΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -6692,7 +6662,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1210,
+    "aa": 1209,
     "am": "20753.0",
     "eponymo": "ΚΑΡΑΧΑΛΙΟΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -6724,7 +6694,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1211,
+    "aa": 1210,
     "am": "10780.0",
     "eponymo": "ΚΟΚΚΟΤΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ ΡΑΦΑΗΛ",
@@ -6756,7 +6726,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1212,
+    "aa": 1211,
     "am": "16503.0",
     "eponymo": "ΧΑΤΖΑΚΗΣ",
     "onoma": "ΘΕΟΦΙΛΟΣ",
@@ -6788,7 +6758,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1213,
+    "aa": 1212,
     "am": "20107.0",
     "eponymo": "ΣΤΑΜΑΤΟΥΚΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -6820,7 +6790,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1214,
+    "aa": 1213,
     "am": "110.0",
     "eponymo": "ΓΕΩΡΓΙΟΥ",
     "onoma": "ΘΕΛΞΙΩΠΗ",
@@ -6852,7 +6822,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1215,
+    "aa": 1214,
     "am": "6828.0",
     "eponymo": "ΤΡΙΑΝΤΟΣ",
     "onoma": "ΧΑΡΙΛΑΟΣ ΑΝΤΩΝΙΟΣ",
@@ -6884,7 +6854,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1216,
+    "aa": 1215,
     "am": "15433.0",
     "eponymo": "ΣΚΑΝΔΑΛΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ ΘΕΟΛΟΓΟΣ",
@@ -6916,7 +6886,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1217,
+    "aa": 1216,
     "am": "6293.0",
     "eponymo": "ΒΡΕΤΤΟΥ",
     "onoma": "ΕΙΡΗΝΗ ΜΑΡΙΑ",
@@ -6948,7 +6918,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1218,
+    "aa": 1217,
     "am": "2621.0",
     "eponymo": "ΓΟΥΣΗ",
     "onoma": "ΟΛΥΜΠΙΑ",
@@ -6980,7 +6950,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1219,
+    "aa": 1218,
     "am": "20554.0",
     "eponymo": "ΜΑΡΓΑΡΩΝΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -7012,7 +6982,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1220,
+    "aa": 1219,
     "am": "647.0",
     "eponymo": "ΑΝΥΦΑΝΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -7044,7 +7014,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1221,
+    "aa": 1220,
     "am": "10084.0",
     "eponymo": "ΑΡΒΑΝΙΤΑΚΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -7076,7 +7046,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1222,
+    "aa": 1221,
     "am": "13948.0",
     "eponymo": "ΚΟΝΤΟΘΑΝΑΣΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -7108,7 +7078,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1223,
+    "aa": 1222,
     "am": "3997.0",
     "eponymo": "ΓΚΟΥΖΙΩΤΗ",
     "onoma": "ΑΛΕΞΙΑ",
@@ -7140,7 +7110,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1224,
+    "aa": 1223,
     "am": "10050.0",
     "eponymo": "ΖΑΡΟΚΑΝΕΛΛΟΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -7172,7 +7142,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1225,
+    "aa": 1224,
     "am": "1163.0",
     "eponymo": "ΚΟΥΡΑΚΟΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ",
@@ -7204,7 +7174,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1226,
+    "aa": 1225,
     "am": "14513.0",
     "eponymo": "ΖΗΛΙΑΧΟΒΑΛΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -7236,7 +7206,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1227,
+    "aa": 1226,
     "am": "17840.0",
     "eponymo": "ΛΑΜΠΡΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -7268,7 +7238,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1228,
+    "aa": 1227,
     "am": "12546.0",
     "eponymo": "ΠΕΝΤΖΕΡΕΤΖΗ",
     "onoma": "ΑΠΟΣΤΟΛΙΑ",
@@ -7300,7 +7270,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1229,
+    "aa": 1228,
     "am": "7344.0",
     "eponymo": "Κατσένιου",
     "onoma": "Ελένη",
@@ -7332,7 +7302,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1230,
+    "aa": 1229,
     "am": "9113.0",
     "eponymo": "ΠΑΠΑΣΤΕΦΑΝΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -7364,7 +7334,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1231,
+    "aa": 1230,
     "am": "1394.0",
     "eponymo": "ΝΙΚΗΤΑΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -7396,7 +7366,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1232,
+    "aa": 1231,
     "am": "16126.0",
     "eponymo": "ΑΡΓΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -7428,7 +7398,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1233,
+    "aa": 1232,
     "am": "12409.0",
     "eponymo": "ΖΟΥΓΚΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -7460,7 +7430,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1234,
+    "aa": 1233,
     "am": "17197.0",
     "eponymo": "ΤΣΙΜΤΣΙΛΙΑΚΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -7492,7 +7462,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1235,
+    "aa": 1234,
     "am": "2525.0",
     "eponymo": "ΓΕΩΡΓΟΥΣΗΣ",
     "onoma": "ΖΑΧΑΡΙΑΣ",
@@ -7502,7 +7472,7 @@
     "theseis_idias_omadas": "543-544-545-546-547-548-549-550-551-552-553-554-555-556-557-558-559-560-561-562-563-564-565-566-567-568-569-570-571-572-573-574-575-576-577-578-579-580-581-582-583-584-585-586-587-588-589-590-591-592-593-594-595-596-597-598-599-600-601-602-603-604-605-606-607-608-609-610-611-612-613-614-615-616-617-618-619-2813-2814-2815-2817-2818-2819-2820-2821-2822-2823-2824-2825-2826-2828-2829-2830-2831-3162",
     "protimiseis": "589-578-577-2817-2819-2818-571-572-570-2815-605-606-607-579-557-584-3162-558-603-604-554-555-586-587-2822-2823-2813-595-596-597-599-600-612-613-560-561-562-563-615-616-585-556-580-581-582-583-2821-576-543-553-564-565-566-614-617-544-545-546-547-548-549-550-551-552-568-569-590-591-592-2825-593-594-601-618-608-573-574-575-598-2814-559-609-602-588-2828-2824-567-610-2829-611-2820-2826-2830-619-2831",
     "thesi_diorismou": "546",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -7522,10 +7492,10 @@
     "vathmologia": 55.67,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 1236,
+    "aa": 1235,
     "am": "9657.0",
     "eponymo": "ΑΜΑΝΑΤΙΔΗΣ",
     "onoma": "ΕΥΣΤΑΘΙΟΣ",
@@ -7557,7 +7527,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1237,
+    "aa": 1236,
     "am": "17151.0",
     "eponymo": "ΣΙΜΟΣ",
     "onoma": "ΞΕΝΟΦΩΝ",
@@ -7589,7 +7559,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1238,
+    "aa": 1237,
     "am": "10414.0",
     "eponymo": "ΓΑΒΡΙΗΛΙΔΟΥ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -7621,7 +7591,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1239,
+    "aa": 1238,
     "am": "9621.0",
     "eponymo": "ΧΑΤΖΗΝΙΚΟΛΑΚΗΣ",
     "onoma": "ΘΕΜΙΣΤΟΚΛΗΣ",
@@ -7653,7 +7623,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1240,
+    "aa": 1239,
     "am": "15901.0",
     "eponymo": "ΜΠΡΑΒΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -7685,7 +7655,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1241,
+    "aa": 1240,
     "am": "12426.0",
     "eponymo": "ΔΡΙΓΚΑΚΗΣ",
     "onoma": "ΠΑΡΑΣΧΟΣ",
@@ -7717,7 +7687,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1242,
+    "aa": 1241,
     "am": "6098.0",
     "eponymo": "ΣΠΑΝΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -7749,7 +7719,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1243,
+    "aa": 1242,
     "am": "4875.0",
     "eponymo": "ΔΑΛΕΖΙΟΣ",
     "onoma": "ΑΝΑΡΓΥΡΟΣ",
@@ -7781,7 +7751,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1244,
+    "aa": 1243,
     "am": "6015.0",
     "eponymo": "ΠΟΝΤΙΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -7813,7 +7783,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1245,
+    "aa": 1244,
     "am": "5626.0",
     "eponymo": "ΤΖΙΑΣΤΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7845,7 +7815,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1246,
+    "aa": 1245,
     "am": "11674.0",
     "eponymo": "ΑΚΡΙΔΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -7877,7 +7847,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1247,
+    "aa": 1246,
     "am": "3617.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -7909,7 +7879,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1248,
+    "aa": 1247,
     "am": "15032.0",
     "eponymo": "ΛΙΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΖΑΧΑΡΟΥΛΑ",
@@ -7941,7 +7911,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1249,
+    "aa": 1248,
     "am": "13559.0",
     "eponymo": "ΠΑΝΟΥ",
     "onoma": "ΜΑΝΘΑ",
@@ -7973,7 +7943,7 @@
     "slug": "pe-perivallontos-eid-pe-perivallontos"
   },
   {
-    "aa": 1250,
+    "aa": 1249,
     "am": "8832.0",
     "eponymo": "ΜΠΙΛΑ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ",
@@ -8003,6 +7973,39 @@
     "vathmologia": 54.11,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos"
+  },
+  {
+    "aa": 1250,
+    "am": "12890.0",
+    "eponymo": "ΑΠΟΣΤΟΛΟΠΟΥΛΟΥ",
+    "onoma": "ΝΙΚΟΛΕΤΤΑ",
+    "patronymo": "ΠΑΝΑΓΙΩΤΗΣ",
+    "adt_masked": "***449",
+    "omada_prosonton": "304 -001,002",
+    "theseis_idias_omadas": "469-2829",
+    "protimiseis": "469-2829",
+    "thesi_diorismou": "469",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2829.0",
+    "monades_entop": 40.0,
+    "math1": 60.0,
+    "math2": 42.11,
+    "synolo_graptou": 51.06,
+    "seira_klirosis": 8252263.0,
+    "vathmologia": 54.06,
+    "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-perivallontos-eid-pe-perivallontos",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 1251,
@@ -8527,7 +8530,7 @@
     "theseis_idias_omadas": "543-544-545-546-547-548-549-550-551-552-553-554-555-556-557-559-560-561-562-563-564-565-566-567-568-570-571-572-575-576-577-578-580-581-582-583-584-585-586-588-589-590-591-592-593-594-595-596-597-598-599-600-602-605-606-607-609-610-611-612-613-614-615-616-617-619-2814-2815-2817-2820-2821-2824-2825-2826-2827-2828-2829-2830-2831-3162",
     "protimiseis": "613-612-595-597-599-611-614-617-576-580-581-582-583-585-588-589-615-616-553-596-600-607-594-591-590-543-544-545-548-549-552-563-570-571-550-547-559-551-556-557-560-561-562-564-565-566-567-568-592-593-572-584-3162-2815-2817-546-602-605-606-609-610-619-2821-2814-2820-2824-2825-2826-2827-2828-2829-2830-2831-575-598-554-555-586-577-578",
     "thesi_diorismou": "594",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -8547,7 +8550,7 @@
     "vathmologia": 51.44,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 1268,
@@ -8656,7 +8659,7 @@
     "theseis_idias_omadas": "457-459-465-466-2813-2822-2823",
     "protimiseis": "457-459-465-466-2813-2822-2823",
     "thesi_diorismou": "459",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -8676,7 +8679,7 @@
     "vathmologia": 50.78,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 1272,
@@ -9457,7 +9460,7 @@
     "theseis_idias_omadas": "543-544-545-546-547-548-549-550-551-552-553-554-555-556-557-558-559-560-561-562-563-564-565-566-567-568-569-570-571-572-573-574-575-576-577-578-579-580-581-582-583-584-585-586-587-588-589-590-591-592-593-594-595-596-597-598-599-600-601-602-603-604-605-606-607-608-609-610-611-612-613-614-615-616-617-618-619-2813-2814-2815-2817-2818-2819-2820-2821-2822-2823-2824-2825-2826-2828-2829-2830-2831-3162",
     "protimiseis": "589-3162-554-555-604-603-586-587-2822-2823-558-2813-547-548-549-546-545-2817-578-2819-577-2818-576-583-582-581-580-2821-566-565-564-575-574-573-570-2815-572-571-569-568-595-597-596-591-592-590-2825-2829-610-605-606-560-561-562-563-551-550-552-615-616-617-2830-594-593-619-2831-608-609-613-612-599-600-588-2824-602-607-601-559-2814-2820-584-585-611-614-618-544-553-2826-2828-598-567-556-557-543-579",
     "thesi_diorismou": "548",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -9477,7 +9480,7 @@
     "vathmologia": 42.83,
     "eidikotita": "ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΕΙΔ. ΠΕ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-perivallontos-eid-pe-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 1297,

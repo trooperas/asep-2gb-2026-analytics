@@ -34,39 +34,6 @@
   },
   {
     "aa": 2,
-    "am": "4440.0",
-    "eponymo": "ΠΛΙΑΚΗ",
-    "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
-    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
-    "adt_masked": "***557",
-    "omada_prosonton": "348 349",
-    "theseis_idias_omadas": "2862-2863-2864-2865-2866-2867-2868-2870-2872-2875-2876-2877-2879-2880-2881-2882-2883-2884-2886-2887-2888-2890-2891-2892-2893-2894-2895-2896-2897-2898-2902-2904-2909-2911-2913-2915-2916-2920-2923-2924-2925-2928-2929-2930-2933-2934-2935-2936-2938-2939-2940-2941-2943-2944-2945-2949-2952-2953-2954-2955-2956-2957-2958-2959-2960-2961-2962-2963-2964-2965-2966-2967-2969-2970-2971-2975-2976-2977-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2993-2996-2997-3000-3002-3005-3006-3007-3008-3009-3014-3015-3016",
-    "protimiseis": "1062-2961-1063-1060-1064-1061-1058-1059-901-900-990-989-941-2967-2966-1078-1079-1077-1076-1151-1152-1150-1073-1075-1074-2898-942-2902-976-974-973-1149-958-961-968-967-963-965-954-955-952-957-959-953-956-1098-1099-1096-1095-2965-951-1187-1185-1186-1148-1147-1092-1090-1091-1146-1145-1144-1057-2960-987-986-988-984-1202-3016-1204-1203-3014-1195-1193-1192-1196-1189-1194-2862-840-838-839-841-842-1176-1177-980-979-930-931-3015-1201-1198-1197-981-1199-906-905-1174-2860-1175-2870-876-873-902-977-904-903-1126-1127-1125-3007-2851-985-868-871-866-867-872-864-869-2957-1055-1056-1053-1054-2895-2962-1067-1065-1066-1160-3008-1166-3009-1164-1162-2893-2894-2866-2897-2868-2867-2964-2963-2996-3000-3006-3005-2997-2855-2865-2863-2864-2888-2839-2890-2892-2887-2891-2993-2852-2983-2991-2986-2988-2989-2987-2982-2853-2977-2985-2990-2975-2976-2984-3002-2980-2992-2981-2875-2877-2882-2884-2876-2879-2883-2881-2880-2872-3155-3158-3156-2911-2920-2956-2928-2936-2954-2929-2955-2935-2939-2916-2938-2940-2930-2843-2904-2934-2953-2941-2847-2943-2949-2945-2944-2925-2849-2933-2923-2924-2913-2909-2952-2915-2886-2970-2969-2971-2958-2959-2896",
-    "thesi_diorismou": "1062",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2961",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 79.84,
-    "synolo_graptou": 89.92,
-    "seira_klirosis": 5388309.0,
-    "vathmologia": 132.92,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 3,
     "am": "18344.0",
     "eponymo": "ΧΟΛΕΒΑΣ",
     "onoma": "ΚΑΛΛΙΝΙΚΟΣ",
@@ -98,7 +65,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 4,
+    "aa": 3,
     "am": "16896.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΑΚΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -131,7 +98,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 5,
+    "aa": 4,
     "am": "2258.0",
     "eponymo": "ΛΙΑΚΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -163,40 +130,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 6,
-    "am": "6115.0",
-    "eponymo": "ΠΑΠΑΣΤΑΜΑΤΑΚΗ",
-    "onoma": "ΑΝΤΩΝΙΑ",
-    "patronymo": "ΠΟΛΥΧΡΟΝΗΣ",
-    "adt_masked": "***449",
-    "omada_prosonton": "348 -024",
-    "theseis_idias_omadas": "2861",
-    "protimiseis": "1159-949-3019-3018-1205-809-1206-3020-1207-2861-1209-3021-3017-1208",
-    "thesi_diorismou": "3019",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 130.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2861",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 63.39,
-    "synolo_graptou": 81.69,
-    "seira_klirosis": 8882988.0,
-    "vathmologia": 129.69,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 7,
+    "aa": 5,
     "am": "17985.0",
     "eponymo": "ΚΡΥΣΤΑΛΛΙΔΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -228,7 +162,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 8,
+    "aa": 6,
     "am": "17858.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -260,7 +194,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 9,
+    "aa": 7,
     "am": "202.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΣΤΕΦΑΝΗ",
@@ -293,7 +227,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
+    "aa": 8,
     "am": "1627.0",
     "eponymo": "ΣΑΒΕΤΑ",
     "onoma": "ΓΚΕΡΤΒΙΟΛΑ",
@@ -326,7 +260,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 11,
+    "aa": 9,
     "am": "2657.0",
     "eponymo": "ΝΕΣΤΟΡΑΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -358,7 +292,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 12,
+    "aa": 10,
     "am": "2813.0",
     "eponymo": "ΚΟΝΤΙΖΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -391,7 +325,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 11,
     "am": "12931.0",
     "eponymo": "ΣΠΥΡΟΥΚΛΑΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -424,7 +358,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 14,
+    "aa": 12,
     "am": "12162.0",
     "eponymo": "ΜΑΡΟΥΔΑ",
     "onoma": "ΜΑΡΙΑ ΘΗΡΕΣΙΑ",
@@ -457,40 +391,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 15,
-    "am": "4429.0",
-    "eponymo": "ΤΡΟΧΑΤΟΥ",
-    "onoma": "ΙΩΑΝΝΑ",
-    "patronymo": "ΚΑΛΛΙΚΡΑΤΙΔΑΣ",
-    "adt_masked": "***278",
-    "omada_prosonton": "348 -024",
-    "theseis_idias_omadas": "2861",
-    "protimiseis": "3019-3020-2861-3018-3021-3017",
-    "thesi_diorismou": "3020",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 106.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2861",
-    "monades_entop": 40.0,
-    "math1": 96.0,
-    "math2": 56.45,
-    "synolo_graptou": 76.22,
-    "seira_klirosis": 6455991.0,
-    "vathmologia": 124.22,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 16,
+    "aa": 13,
     "am": "15061.0",
     "eponymo": "ΠΕΛΤΕΚΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -522,7 +423,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 17,
+    "aa": 14,
     "am": "8686.0",
     "eponymo": "ΚΟΥΤΟΝΙΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -555,7 +456,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 15,
     "am": "15968.0",
     "eponymo": "ΣΤΑΜΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -588,7 +489,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 19,
+    "aa": 16,
     "am": "9968.0",
     "eponymo": "ΚΑΠΟΓΙΑΝΝΗ",
     "onoma": "ΝΙΚΟΛΕΤΤΑ ΑΝΝΑ",
@@ -621,7 +522,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
+    "aa": 17,
     "am": "3915.0",
     "eponymo": "ΝΙΚΗΤΑΚΗΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -654,7 +555,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 21,
+    "aa": 18,
     "am": "20234.0",
     "eponymo": "ΚΑΛΛΙΟΝΤΖΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -686,7 +587,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 22,
+    "aa": 19,
     "am": "405.0",
     "eponymo": "ΚΑΡΑΤΖΗ",
     "onoma": "ΑΚΡΙΒΗ",
@@ -718,7 +619,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 23,
+    "aa": 20,
     "am": "18823.0",
     "eponymo": "ΜΑΓΟΥΛΟΠΟΥΛΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -750,7 +651,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 24,
+    "aa": 21,
     "am": "13011.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -783,7 +684,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 25,
+    "aa": 22,
     "am": "3681.0",
     "eponymo": "ΑΘΗΝΙΩΤΟΥ",
     "onoma": "ΘΑΛΕΙΑ",
@@ -815,7 +716,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 26,
+    "aa": 23,
     "am": "527.0",
     "eponymo": "ΣΒΕΝΤΖΟΥΡΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -848,7 +749,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 27,
+    "aa": 24,
     "am": "17499.0",
     "eponymo": "ΤΟΠΑΛΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -881,7 +782,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 28,
+    "aa": 25,
     "am": "1524.0",
     "eponymo": "ΔΡΑΓΩΓΙΑΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -913,7 +814,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 29,
+    "aa": 26,
     "am": "13428.0",
     "eponymo": "ΑΦΑΛΩΝΙΑΤΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -945,40 +846,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 30,
-    "am": "13643.0",
-    "eponymo": "ΒΙΣΚΑΔΟΥΡΑΚΗ",
-    "onoma": "ΕΥΑΓΓΕΛΙΑ",
-    "patronymo": "ΕΜΜΑΝΟΥΗΛ",
-    "adt_masked": "***983",
-    "omada_prosonton": "348 349",
-    "theseis_idias_omadas": "2899",
-    "protimiseis": "1907-1908-2899",
-    "thesi_diorismou": "1907",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 152.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2899",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 35.45,
-    "synolo_graptou": 67.72,
-    "seira_klirosis": 8776232.0,
-    "vathmologia": 116.72,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 31,
+    "aa": 27,
     "am": "12016.0",
     "eponymo": "ΠΑΣΙΑΓΙΑΝΝΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -1010,172 +878,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 32,
-    "am": "17318.0",
-    "eponymo": "ΓΟΥΛΕΑΚΗ",
-    "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
-    "patronymo": "ΙΩΑΝΝΗΣ",
-    "adt_masked": "***376",
-    "omada_prosonton": "348 349",
-    "theseis_idias_omadas": "2899-2911-2927-2945-2952-2968-3017-3018-3020-3021",
-    "protimiseis": "2041-2043-2042-3019-3018-3021-3020-3017-2040-2022-2021-1907-2899-1981-1982-2968-1941-2911-2927-2945-2952-1877",
-    "thesi_diorismou": "2041",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 14.0,
-    "monades_empeirias": 1.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "3018- 3020- 3021",
-    "monades_entop": 40.0,
-    "math1": 92.0,
-    "math2": 48.95,
-    "synolo_graptou": 70.47,
-    "seira_klirosis": 4182871.0,
-    "vathmologia": 116.47,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 33,
-    "am": "3206.0",
-    "eponymo": "ΒΛΑΔΟΒΙΤΗΣ",
-    "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***146",
-    "omada_prosonton": "348 349",
-    "theseis_idias_omadas": "2898-3007",
-    "protimiseis": "1146-1145-3007-941-2898",
-    "thesi_diorismou": "1145",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 27.0,
-    "monades_empeirias": 2.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "3007",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 82.56,
-    "synolo_graptou": 91.28,
-    "seira_klirosis": 9588560.0,
-    "vathmologia": 116.28,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 34,
-    "am": "10757.0",
-    "eponymo": "ΣΥΡΑΚΗΣ",
-    "onoma": "ΔΗΜΗΤΡΙΟΣ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***585",
-    "omada_prosonton": "348 349",
-    "theseis_idias_omadas": "3024-3025",
-    "protimiseis": "2045-2044-3025-3024",
-    "thesi_diorismou": "2045",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 120.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "3024- 3025",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 38.5,
-    "synolo_graptou": 69.25,
-    "seira_klirosis": 1354974.0,
-    "vathmologia": 116.25,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 35,
-    "am": "6180.0",
-    "eponymo": "ΚΟΤΛΙΔΑ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***909",
-    "omada_prosonton": "348 -024",
-    "theseis_idias_omadas": "2859",
-    "protimiseis": "3010-2858-2859-2057-2047-2051-2992-3002-2853-2980-2981-2946-2873-2993-2877-2964-2911-2846-2850-2847-2927-2953-2875-3156-2929-2956-2884-2885-2928-2935-2936-2937-2938-2939-2940-2941-2934-2977-2839-2872-2887-2890-2891-2892-2909-2975-2976-3158-2852-2945-2912-2922-2942-2943-2838-2840-2841-2842-2871-2878-2879-2881-2883-2888-2904-2913-2915-2916-2917-2918-2919-2920-2921-2907-2923-2924-2944-2948-2949-2955-2979-2994-3155-2843-2848-2849-2882-2886-2951-2952-2954-3005-3006-2900-2855-2857-2880-2925-2950-2982-2983-2984-2985-2986-2991-2990-2989-2988-2987-2997-2996-2866-3000-2910-2854-2998-2999-3003-3004",
-    "thesi_diorismou": "3010",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 81.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2859",
-    "monades_entop": 40.0,
-    "math1": 84.0,
-    "math2": 47.0,
-    "synolo_graptou": 65.5,
-    "seira_klirosis": 3009110.0,
-    "vathmologia": 114.5,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 36,
-    "am": "5853.0",
-    "eponymo": "ΞΕΡΟΜΕΡΙΣΙΟΣ",
-    "onoma": "ΝΙΚΟΛΑΟΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***303",
-    "omada_prosonton": "349",
-    "theseis_idias_omadas": "2836",
-    "protimiseis": "2967-3008-2836",
-    "thesi_diorismou": "3008",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 180.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "2836",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 68.17,
-    "synolo_graptou": 84.08,
-    "seira_klirosis": 4913095.0,
-    "vathmologia": 111.08,
-    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
-    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 37,
+    "aa": 28,
     "am": "6210.0",
     "eponymo": "ΧΑΤΖΗΓΙΑΝΝΑΚΗ",
     "onoma": "ΑΓΓΕΛΑ",
@@ -1207,7 +910,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 38,
+    "aa": 29,
     "am": "13033.0",
     "eponymo": "ΨΑΡΟΒΑΣΙΛΗΣ",
     "onoma": "ΑΔΡΙΑΝΟΣ",
@@ -1240,7 +943,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 39,
+    "aa": 30,
     "am": "14673.0",
     "eponymo": "ΖΟΥΜΑΔΑΚΗ",
     "onoma": "ΦΙΛΙΑ-ΕΛΕΝΗ",
@@ -1273,7 +976,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 40,
+    "aa": 31,
     "am": "3789.0",
     "eponymo": "ΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -1305,7 +1008,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 41,
+    "aa": 32,
     "am": "554.0",
     "eponymo": "ΘΕΜΕΛΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -1337,7 +1040,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 42,
+    "aa": 33,
     "am": "11123.0",
     "eponymo": "ΚΑΨΑΜΠΕΛΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1370,7 +1073,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 43,
+    "aa": 34,
     "am": "11328.0",
     "eponymo": "ΚΟΚΚΑΛΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -1403,7 +1106,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 44,
+    "aa": 35,
     "am": "4510.0",
     "eponymo": "ΚΑΡΥΟΦΥΛΛΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1435,7 +1138,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 45,
+    "aa": 36,
     "am": "952.0",
     "eponymo": "ΧΑΤΖΗΠΕΤΡΟΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -1467,7 +1170,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 46,
+    "aa": 37,
     "am": "3184.0",
     "eponymo": "ΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1499,7 +1202,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 47,
+    "aa": 38,
     "am": "4433.0",
     "eponymo": "ΒΑΡΕΛΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1532,7 +1235,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 48,
+    "aa": 39,
     "am": "4803.0",
     "eponymo": "ΓΕΡΟΘΑΝΑΣΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1565,7 +1268,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 49,
+    "aa": 40,
     "am": "18385.0",
     "eponymo": "ΚΑΡΑΠΑΝΑΓΙΩΤΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1598,7 +1301,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 50,
+    "aa": 41,
     "am": "12387.0",
     "eponymo": "ΜΙΧΕΛΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ ΜΙΧΑΗΛ",
@@ -1630,7 +1333,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 51,
+    "aa": 42,
     "am": "488.0",
     "eponymo": "ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΥ",
     "onoma": "ΣΟΥΜΕΛΑ",
@@ -1640,7 +1343,7 @@
     "theseis_idias_omadas": "2900",
     "protimiseis": "2900",
     "thesi_diorismou": "2900",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1660,10 +1363,10 @@
     "vathmologia": 97.69,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 52,
+    "aa": 43,
     "am": "20434.0",
     "eponymo": "ΒΑΒΑΡΟΥΤΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -1696,7 +1399,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 53,
+    "aa": 44,
     "am": "18426.0",
     "eponymo": "ΜΗΤΡΟΠΟΥΛΟΣ",
     "onoma": "ΑΛΕΞΙΟΣ",
@@ -1729,7 +1432,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 54,
+    "aa": 45,
     "am": "15380.0",
     "eponymo": "ΧΑΤΖΗΜΙΧΑΗΛ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -1762,7 +1465,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 55,
+    "aa": 46,
+    "am": "3206.0",
+    "eponymo": "ΒΛΑΔΟΒΙΤΗΣ",
+    "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***146",
+    "omada_prosonton": "348 349",
+    "theseis_idias_omadas": "2898-3007",
+    "protimiseis": "1146-1145-3007-941-2898",
+    "thesi_diorismou": "1145",
+    "idiotita": "ΝΑΙ",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 27.0,
+    "monades_empeirias": 2.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "7",
+    "kod_thesi_entop": "3007",
+    "monades_entop": 20.0,
+    "math1": 100.0,
+    "math2": 82.56,
+    "synolo_graptou": 91.28,
+    "seira_klirosis": 9588560.0,
+    "vathmologia": 96.28,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΝΑΙ"
+  },
+  {
+    "aa": 47,
     "am": "16381.0",
     "eponymo": "ΦΩΤΙΑΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1772,7 +1508,7 @@
     "theseis_idias_omadas": "2900",
     "protimiseis": "954-968-965-966-964-961-962-963-1910-1926-1913-1927-955-1914-967-957-952-1911-1916-1917-960-2900-1915-1912-1925",
     "thesi_diorismou": "954",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -1792,10 +1528,10 @@
     "vathmologia": 96.25,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 56,
+    "aa": 48,
     "am": "2905.0",
     "eponymo": "ΓΟΥΡΓΙΩΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1805,7 +1541,7 @@
     "theseis_idias_omadas": "2836",
     "protimiseis": "3008-3009-2836-2005",
     "thesi_diorismou": "2836",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1825,10 +1561,10 @@
     "vathmologia": 96.17,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 57,
+    "aa": 49,
     "am": "10863.0",
     "eponymo": "ΧΟΡΤΟΜΑΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -1861,7 +1597,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 58,
+    "aa": 50,
     "am": "4238.0",
     "eponymo": "ΛΑΓΓΑ",
     "onoma": "ΠΕΓΚΥ",
@@ -1894,7 +1630,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 59,
+    "aa": 51,
     "am": "7897.0",
     "eponymo": "ΣΤΕΦΑΝΗ",
     "onoma": "ΑΝΝΑ",
@@ -1927,7 +1663,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 60,
+    "aa": 52,
     "am": "11197.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1960,7 +1696,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 61,
+    "aa": 53,
     "am": "7567.0",
     "eponymo": "ΚΑΡΑΜΙΝΤΖΙΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -1993,7 +1729,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 62,
+    "aa": 54,
     "am": "8591.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -2003,7 +1739,7 @@
     "theseis_idias_omadas": "2871-2874-2875-2880-2882-2884-2885-2904-2911-2912-2915-2920-2922-2923-2924-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2938-2939-2940-2941-2949-2951-2952-2953-2954-2956-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2996-3002",
     "protimiseis": "2880-2911-2846-2850-2980-2981-2853-2938-3002-2992-2884-2941-2904-2907-2929-2933-2882-2956-2989-2982-2983-2984-2985-2986-2987-2988-2990-2991-2910-2939-2920-2924-2923-2934-2936-2928-2940-2935-2930-3158-2915-2919-2946-2843-2849-2954-2949-2875-2996-2922-2912-2885-2950-2951-2854-2871-2874-2931-2932-2952-2847-2953-2927",
     "thesi_diorismou": "2880",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -2023,10 +1759,10 @@
     "vathmologia": 95.28,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 63,
+    "aa": 55,
     "am": "8444.0",
     "eponymo": "ΤΟΠΑ",
     "onoma": "ΙΩΑΝΝΑ-ΑΙΚΑΤΕΡΙΝΗ",
@@ -2059,7 +1795,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 64,
+    "aa": 56,
     "am": "12132.0",
     "eponymo": "ΜΑΡΙΝΟΠΟΥΛΟΥ ΛΙΑΝΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -2092,7 +1828,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 65,
+    "aa": 57,
     "am": "3098.0",
     "eponymo": "ΑΓΓΕΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -2125,7 +1861,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 66,
+    "aa": 58,
     "am": "288.0",
     "eponymo": "ΦΑΚΙΤΣΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -2158,7 +1894,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 67,
+    "aa": 59,
     "am": "6759.0",
     "eponymo": "ΤΣΑΛΙΚΙΔΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -2191,7 +1927,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 68,
+    "aa": 60,
     "am": "7306.0",
     "eponymo": "ΑΡΓΥΡΗ",
     "onoma": "ΖΗΝΟΒΙΑ",
@@ -2224,7 +1960,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 69,
+    "aa": 61,
     "am": "15841.0",
     "eponymo": "ΡΗΓΑΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -2257,7 +1993,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 70,
+    "aa": 62,
     "am": "3573.0",
     "eponymo": "ΣΓΟΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -2289,7 +2025,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 71,
+    "aa": 63,
     "am": "16645.0",
     "eponymo": "ΛΟΥΡΙΔΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2322,7 +2058,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 72,
+    "aa": 64,
     "am": "2169.0",
     "eponymo": "ΜΠΑΡΜΠΕΡΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -2355,7 +2091,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 73,
+    "aa": 65,
     "am": "15137.0",
     "eponymo": "ΜΑΣΤΡΟΚΩΣΤΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2388,7 +2124,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 74,
+    "aa": 66,
     "am": "16276.0",
     "eponymo": "ΔΑΣΚΑΛΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -2421,7 +2157,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 75,
+    "aa": 67,
     "am": "8590.0",
     "eponymo": "ΣΤΕΦΑΝΟΥΔΑΚΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -2454,7 +2190,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 76,
+    "aa": 68,
     "am": "196.0",
     "eponymo": "ΑΥΔΙΚΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -2487,7 +2223,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 77,
+    "aa": 69,
     "am": "2960.0",
     "eponymo": "ΧΡΙΣΤΟΔΟΥΛΑΚΟΥ",
     "onoma": "ΝΑΥΣΙΚΑ",
@@ -2520,7 +2256,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 78,
+    "aa": 70,
+    "am": "4440.0",
+    "eponymo": "ΠΛΙΑΚΗ",
+    "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
+    "patronymo": "ΔΗΜΗΤΡΙΟΣ",
+    "adt_masked": "***557",
+    "omada_prosonton": "348 349",
+    "theseis_idias_omadas": "2862-2863-2864-2865-2866-2867-2868-2870-2872-2875-2876-2877-2879-2880-2881-2882-2883-2884-2886-2887-2888-2890-2891-2892-2893-2894-2895-2896-2897-2898-2902-2904-2909-2911-2913-2915-2916-2920-2923-2924-2925-2928-2929-2930-2933-2934-2935-2936-2938-2939-2940-2941-2943-2944-2945-2949-2952-2953-2954-2955-2956-2957-2958-2959-2960-2961-2962-2963-2964-2965-2966-2967-2969-2970-2971-2975-2976-2977-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2993-2996-2997-3000-3002-3005-3006-3007-3008-3009-3014-3015-3016",
+    "protimiseis": "1062-2961-1063-1060-1064-1061-1058-1059-901-900-990-989-941-2967-2966-1078-1079-1077-1076-1151-1152-1150-1073-1075-1074-2898-942-2902-976-974-973-1149-958-961-968-967-963-965-954-955-952-957-959-953-956-1098-1099-1096-1095-2965-951-1187-1185-1186-1148-1147-1092-1090-1091-1146-1145-1144-1057-2960-987-986-988-984-1202-3016-1204-1203-3014-1195-1193-1192-1196-1189-1194-2862-840-838-839-841-842-1176-1177-980-979-930-931-3015-1201-1198-1197-981-1199-906-905-1174-2860-1175-2870-876-873-902-977-904-903-1126-1127-1125-3007-2851-985-868-871-866-867-872-864-869-2957-1055-1056-1053-1054-2895-2962-1067-1065-1066-1160-3008-1166-3009-1164-1162-2893-2894-2866-2897-2868-2867-2964-2963-2996-3000-3006-3005-2997-2855-2865-2863-2864-2888-2839-2890-2892-2887-2891-2993-2852-2983-2991-2986-2988-2989-2987-2982-2853-2977-2985-2990-2975-2976-2984-3002-2980-2992-2981-2875-2877-2882-2884-2876-2879-2883-2881-2880-2872-3155-3158-3156-2911-2920-2956-2928-2936-2954-2929-2955-2935-2939-2916-2938-2940-2930-2843-2904-2934-2953-2941-2847-2943-2949-2945-2944-2925-2849-2933-2923-2924-2913-2909-2952-2915-2886-2970-2969-2971-2958-2959-2896",
+    "thesi_diorismou": "1062",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2961",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 79.84,
+    "synolo_graptou": 89.92,
+    "seira_klirosis": 5388309.0,
+    "vathmologia": 92.92,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 71,
     "am": "16408.0",
     "eponymo": "ΑΜΠΕΡΙΑΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -2553,7 +2322,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 79,
+    "aa": 72,
     "am": "10845.0",
     "eponymo": "ΣΙΒΡΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2563,7 +2332,7 @@
     "theseis_idias_omadas": "2844-2845-2856",
     "protimiseis": "2900-2860-2851-3016-2960-2898-3007-2961-2902-3013-2967-2966-2965-3008-2896-2957-2958-2959-3014-3015-2895-2870-3153-2893-2894-2952-3156-2857-2844-2845-2933-2853-2856-2874-2875-2884-2889-2928-2929-2930-2931-2932-2934-2935-2936-2938-2939-2940-2941-2956-2980-2981-2992-3002-3003-3155-2843-2847-2849-3158-2852-2865-2876-2877-2879-2880-2881-2882-2883-2886-2888-2907-2908-2910-2911-2913-2914-2915-2916-2919-2920-2923-2924-2925-2943-2944-2945-2946-2947-2949-2953-2954-2955-2977-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2993-2996-2999-3000-3005-3006",
     "thesi_diorismou": "2860",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2583,10 +2352,10 @@
     "vathmologia": 92.81,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 80,
+    "aa": 73,
     "am": "19354.0",
     "eponymo": "ΚΑΨΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -2618,7 +2387,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 81,
+    "aa": 74,
     "am": "16387.0",
     "eponymo": "ΤΣΕΓΓΕΝΕΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2651,7 +2420,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 82,
+    "aa": 75,
     "am": "14932.0",
     "eponymo": "ΡΟΥΝΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -2684,7 +2453,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 83,
+    "aa": 76,
     "am": "14563.0",
     "eponymo": "ΜΠΟΥΡΖΙΚΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -2717,7 +2486,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 84,
+    "aa": 77,
     "am": "12386.0",
     "eponymo": "ΚΟΛΩΝΙΑΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2749,7 +2518,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 85,
+    "aa": 78,
     "am": "12697.0",
     "eponymo": "ΝΤΟΥΝΑΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -2781,7 +2550,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 86,
+    "aa": 79,
     "am": "11802.0",
     "eponymo": "ΑΝΑΣΤΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -2814,7 +2583,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 87,
+    "aa": 80,
     "am": "8993.0",
     "eponymo": "ΚΟΛΟΒΟΥ",
     "onoma": "ΜΥΡΤΩ ΣΟΦΙΑ",
@@ -2847,7 +2616,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 88,
+    "aa": 81,
     "am": "7221.0",
     "eponymo": "ΔΗΜΟΣΘΕΝΗΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -2880,7 +2649,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 89,
+    "aa": 82,
     "am": "3864.0",
     "eponymo": "ΚΑΛΑΙΤΖΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -2913,7 +2682,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 90,
+    "aa": 83,
     "am": "5958.0",
     "eponymo": "ΑΛΕΞΙΑΔΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -2945,7 +2714,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 91,
+    "aa": 84,
     "am": "14928.0",
     "eponymo": "ΡΟΥΜΠΑ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -2977,7 +2746,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 92,
+    "aa": 85,
     "am": "15749.0",
     "eponymo": "ΓΚΑΡΜΠΟΥΝΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3010,7 +2779,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 93,
+    "aa": 86,
     "am": "5014.0",
     "eponymo": "ΦΙΛΙΠΠΙΔΟΥ",
     "onoma": "ΧΡΥΣΗ",
@@ -3042,7 +2811,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 94,
+    "aa": 87,
     "am": "18776.0",
     "eponymo": "ΓΙΑΝΝΑΚΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -3075,7 +2844,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 95,
+    "aa": 88,
+    "am": "5853.0",
+    "eponymo": "ΞΕΡΟΜΕΡΙΣΙΟΣ",
+    "onoma": "ΝΙΚΟΛΑΟΣ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***303",
+    "omada_prosonton": "349",
+    "theseis_idias_omadas": "2836",
+    "protimiseis": "2967-3008-2836",
+    "thesi_diorismou": "3008",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 180.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "7",
+    "kod_thesi_entop": "2836",
+    "monades_entop": 20.0,
+    "math1": 100.0,
+    "math2": 68.17,
+    "synolo_graptou": 84.08,
+    "seira_klirosis": 4913095.0,
+    "vathmologia": 91.08,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 89,
     "am": "3453.0",
     "eponymo": "ΔΟΥΡΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -3108,7 +2910,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 96,
+    "aa": 90,
     "am": "19640.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΟΥ",
     "onoma": "ΖΩΗ",
@@ -3141,7 +2943,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 97,
+    "aa": 91,
     "am": "14576.0",
     "eponymo": "ΣΤΑΜΑΤΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3174,7 +2976,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 98,
+    "aa": 92,
     "am": "19338.0",
     "eponymo": "ΓΑΡΙΝΗ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -3207,7 +3009,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 99,
+    "aa": 93,
     "am": "11565.0",
     "eponymo": "ΒΑΒΟΥΡΑΣ",
     "onoma": "ΣΤΕΡΓΙΟΣ",
@@ -3239,7 +3041,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 100,
+    "aa": 94,
     "am": "4438.0",
     "eponymo": "ΜΙΧΑΗΛΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3272,7 +3074,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 101,
+    "aa": 95,
     "am": "2687.0",
     "eponymo": "ΜΕΘΕΝΙΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3305,7 +3107,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 102,
+    "aa": 96,
     "am": "2922.0",
     "eponymo": "ΜΠΑΛΙΟΥΣΚΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3338,7 +3140,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 103,
+    "aa": 97,
     "am": "20124.0",
     "eponymo": "ΓΕΩΡΓΟΠΟΥΛΟΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ",
@@ -3371,7 +3173,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 104,
+    "aa": 98,
     "am": "18266.0",
     "eponymo": "ΚΙΑΜΟΥΛΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -3404,7 +3206,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 105,
+    "aa": 99,
     "am": "11620.0",
     "eponymo": "ΠΑΝΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3437,7 +3239,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 106,
+    "aa": 100,
     "am": "18795.0",
     "eponymo": "ΑΝΔΡΕΑΔΗΣ",
     "onoma": "ΘΕΟΦΙΛΟΣ",
@@ -3470,7 +3272,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 107,
+    "aa": 101,
     "am": "3749.0",
     "eponymo": "ΓΚΕΝΑ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -3502,7 +3304,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 108,
+    "aa": 102,
     "am": "15475.0",
     "eponymo": "ΓΛΑΜΠΕΔΑΚΗΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -3535,7 +3337,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 109,
+    "aa": 103,
     "am": "17025.0",
     "eponymo": "ΤΖΑΛΑ",
     "onoma": "ΜΑΡΙΑΝΑ",
@@ -3567,7 +3369,40 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 110,
+    "aa": 104,
+    "am": "6115.0",
+    "eponymo": "ΠΑΠΑΣΤΑΜΑΤΑΚΗ",
+    "onoma": "ΑΝΤΩΝΙΑ",
+    "patronymo": "ΠΟΛΥΧΡΟΝΗΣ",
+    "adt_masked": "***449",
+    "omada_prosonton": "348 -024",
+    "theseis_idias_omadas": "2861",
+    "protimiseis": "1159-949-3019-3018-1205-809-1206-3020-1207-2861-1209-3021-3017-1208",
+    "thesi_diorismou": "3019",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 130.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2861",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 63.39,
+    "synolo_graptou": 81.69,
+    "seira_klirosis": 8882988.0,
+    "vathmologia": 89.69,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 105,
     "am": "14957.0",
     "eponymo": "ΒΑΙΟΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -3599,7 +3434,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 111,
+    "aa": 106,
     "am": "18978.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -3632,7 +3467,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 112,
+    "aa": 107,
     "am": "1203.0",
     "eponymo": "ΧΑΣΑΝΙΔΟΥ",
     "onoma": "ΑΠΟΣΤΟΛΙΑ",
@@ -3664,7 +3499,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 113,
+    "aa": 108,
     "am": "5953.0",
     "eponymo": "ΚΑΛΟΓΗΡΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -3674,7 +3509,7 @@
     "theseis_idias_omadas": "2908-2933-2977-2986-2991-3002",
     "protimiseis": "2933-2977-2908-2052-2986-3002-2991",
     "thesi_diorismou": "2933",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3694,10 +3529,10 @@
     "vathmologia": 89.56,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 114,
+    "aa": 109,
     "am": "4701.0",
     "eponymo": "ΠΕΤΑΛΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3730,7 +3565,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 115,
+    "aa": 110,
     "am": "17803.0",
     "eponymo": "ΓΙΑΝΝΙΚΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3763,7 +3598,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 116,
+    "aa": 111,
     "am": "199.0",
     "eponymo": "ΠΟΥΛΙΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -3796,7 +3631,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 117,
+    "aa": 112,
     "am": "2317.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΜΑΡΙΑΝΝΑ",
@@ -3829,7 +3664,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 118,
+    "aa": 113,
     "am": "12854.0",
     "eponymo": "ΧΑΤΖΑΡΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -3862,7 +3697,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 119,
+    "aa": 114,
     "am": "7015.0",
     "eponymo": "ΕΥΑΓΓΕΛΙΝΟΥ",
     "onoma": "ΣΤΕΡΓΙΑΝΗ",
@@ -3872,7 +3707,7 @@
     "theseis_idias_omadas": "2900-3016",
     "protimiseis": "2038-2039-1203-1204-3016-1202-1925-2900",
     "thesi_diorismou": "3016",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3892,10 +3727,10 @@
     "vathmologia": 89.25,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 120,
+    "aa": 115,
     "am": "4310.0",
     "eponymo": "ΓΑΛΛΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -3905,7 +3740,7 @@
     "theseis_idias_omadas": "2900",
     "protimiseis": "1925-1912-2900-1914-1910-1927-1926-1913-1916-1917-1911-1915-1919-1922-1923-1924-1918",
     "thesi_diorismou": "1912",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3925,10 +3760,10 @@
     "vathmologia": 89.17,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 121,
+    "aa": 116,
     "am": "5697.0",
     "eponymo": "ΠΑΡΟΥΣΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -3960,7 +3795,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 122,
+    "aa": 117,
     "am": "11368.0",
     "eponymo": "ΦΙΛΕΡΗΣ",
     "onoma": "ΒΛΑΣΙΟΣ",
@@ -3993,7 +3828,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 123,
+    "aa": 118,
     "am": "18820.0",
     "eponymo": "ΓΚΟΤΣΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -4026,7 +3861,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 124,
+    "aa": 119,
     "am": "12124.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -4059,7 +3894,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 125,
+    "aa": 120,
     "am": "2842.0",
     "eponymo": "ΒΛΑΧΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4091,7 +3926,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 126,
+    "aa": 121,
     "am": "16574.0",
     "eponymo": "ΚΟΥΤΣΟΓΕΩΡΓΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -4124,7 +3959,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 127,
+    "aa": 122,
     "am": "12238.0",
     "eponymo": "ΚΟΥΤΣΟΥΜΠΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4157,7 +3992,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 128,
+    "aa": 123,
     "am": "5569.0",
     "eponymo": "ΚΩΤΣΙΑΡΗ",
     "onoma": "ΑΣΠΑΣΙΑ",
@@ -4190,7 +4025,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 129,
+    "aa": 124,
     "am": "7980.0",
     "eponymo": "ΤΣΙΡΩΝΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -4200,7 +4035,7 @@
     "theseis_idias_omadas": "2914",
     "protimiseis": "2902-976-975-973-974-1150-1151-1152-986-953-954-955-961-962-958-1187-1188-988-2839-2838-3155-2846-3158-2850-2852-2855-2857-2862-2863-2872-2875-2876-2877-2879-2882-2883-2884-2886-2890-2891-2898-2909-2911-2914-2915-2921-2927-2928-2929-2934-2935-2936-2944-2945-2952-2954-2955-2956-2962-2966-2967-2975-2976-2986-2987-2988-2990-2991-2993-3003-3004-963-967-968-838-839-840-841-842-883-889-895-899-914-916-918-993-996-997-1004-1011-1020-1029-1031-1036-1111-1112-1115-1116-1118-1122-1129-1149-984-919",
     "thesi_diorismou": "2839",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4220,10 +4055,10 @@
     "vathmologia": 88.81,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 130,
+    "aa": 125,
     "am": "2454.0",
     "eponymo": "ΑΛΙΒΑΝΟΓΛΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -4256,7 +4091,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 131,
+    "aa": 126,
     "am": "3288.0",
     "eponymo": "ΚΑΠΡΑΒΕΛΟΣ",
     "onoma": "ΕΥΣΤΑΘΙΟΣ",
@@ -4288,7 +4123,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 132,
+    "aa": 127,
     "am": "16689.0",
     "eponymo": "ΤΣΙΜΗΡΙΚΑΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4298,7 +4133,7 @@
     "theseis_idias_omadas": "2866-2870-2871-2876-2877-2879-2886-2895-2896-2900-2902-2908-2923-2928-2929-2930-2932-2934-2935-2940-2941-2948-2951-2952-2956-2964-2967-2971-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2993-2998-2999-3002-3003-3004-3005-3006-3010-3020-3025",
     "protimiseis": "2900-2845-2844-2856-2991-2984-2989-2988-2990-2983-2982-2985-2986-2987-2853-2980-2992-3002-2951-2848-2981-2998-2999-2854-2857-2952-2886-2930-2919-2914-2934-2928-2929-2956-2935-3003-3004-2940-2941-3156-2838-2895-2879-3006-2866-2870-2871-2876-2923-2971-2967-3005-2993-2964-2877-2896-2902-3010-3020-3025-2932-2948-2908-2910-2859-2861-3155-3158-2852",
     "thesi_diorismou": "2991",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4318,10 +4153,10 @@
     "vathmologia": 88.56,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 133,
+    "aa": 128,
     "am": "10456.0",
     "eponymo": "ΝΙΚΟΛΑΚΑΚΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4354,7 +4189,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 134,
+    "aa": 129,
     "am": "13591.0",
     "eponymo": "ΝΙΤΣΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ ΜΑΡΙΑ",
@@ -4387,7 +4222,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 135,
+    "aa": 130,
     "am": "7257.0",
     "eponymo": "ΚΑΡΑΠΕΤΣΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4419,7 +4254,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 136,
+    "aa": 131,
     "am": "15260.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -4452,7 +4287,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 137,
+    "aa": 132,
     "am": "24.0",
     "eponymo": "ΚΟΥΚΗ",
     "onoma": "ΝΙΚΗ",
@@ -4485,7 +4320,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 138,
+    "aa": 133,
     "am": "18729.0",
     "eponymo": "ΣΤΕΡΓΙΟΥ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4517,7 +4352,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 139,
+    "aa": 134,
     "am": "14615.0",
     "eponymo": "ΚΑΡΑΜΑΝΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -4550,7 +4385,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 140,
+    "aa": 135,
     "am": "13979.0",
     "eponymo": "ΑΡΓΥΡΟΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -4583,7 +4418,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 141,
+    "aa": 136,
     "am": "20361.0",
     "eponymo": "ΝΤΙΝΟΠΟΥΛΟΥ",
     "onoma": "ΙΟΡΔΑΝΑ",
@@ -4616,7 +4451,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 142,
+    "aa": 137,
     "am": "11151.0",
     "eponymo": "ΖΑΦΕΙΡΑΚΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4648,7 +4483,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 143,
+    "aa": 138,
     "am": "345.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ-ΘΩΜΑΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -4681,7 +4516,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 144,
+    "aa": 139,
     "am": "14134.0",
     "eponymo": "ΝΙΚΗΤΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -4714,7 +4549,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 145,
+    "aa": 140,
     "am": "18470.0",
     "eponymo": "ΜΑΝΔΡΟΥΚΑ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -4747,7 +4582,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 146,
+    "aa": 141,
     "am": "2275.0",
     "eponymo": "ΠΛΙΑΜΕΡΗ",
     "onoma": "ΓΙΑΝΝΟΥΛΑ-ΝΙΚΗ",
@@ -4780,7 +4615,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 147,
+    "aa": 142,
     "am": "12201.0",
     "eponymo": "ΚΑΒΑΝΟΖΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -4790,7 +4625,7 @@
     "theseis_idias_omadas": "3008",
     "protimiseis": "1896-1895-3008-2005-2006-2007-2008-2009-1930-1884-1885-1925-1922-1923-1926-1877",
     "thesi_diorismou": "1896",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4810,10 +4645,10 @@
     "vathmologia": 87.92,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 148,
+    "aa": 143,
     "am": "19459.0",
     "eponymo": "ΜΥΡΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4845,7 +4680,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 149,
+    "aa": 144,
     "am": "9479.0",
     "eponymo": "ΚΟΣΒΑΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -4878,7 +4713,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 150,
+    "aa": 145,
     "am": "12794.0",
     "eponymo": "ΒΑΛΜΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4911,7 +4746,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 151,
+    "aa": 146,
     "am": "18095.0",
     "eponymo": "ΚΟΣΜΑΤΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -4944,7 +4779,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 152,
+    "aa": 147,
     "am": "12496.0",
     "eponymo": "ΤΣΟΥΡΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -4977,7 +4812,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 153,
+    "aa": 148,
     "am": "3364.0",
     "eponymo": "ΑΘΑΝΑΣΑΚΗ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -5010,7 +4845,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 154,
+    "aa": 149,
     "am": "20178.0",
     "eponymo": "ΧΡΗΣΤΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5043,7 +4878,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 155,
+    "aa": 150,
     "am": "6825.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -5075,7 +4910,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 156,
+    "aa": 151,
     "am": "8629.0",
     "eponymo": "ΜΑΡΑΒΕΓΙΑΣ",
     "onoma": "ΦΡΑΝΤΖΕΣΚΟΣ",
@@ -5108,7 +4943,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 157,
+    "aa": 152,
     "am": "5713.0",
     "eponymo": "ΡΙΣΒΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -5141,7 +4976,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 158,
+    "aa": 153,
     "am": "15567.0",
     "eponymo": "ΧΡΗΣΤΟΥ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -5173,7 +5008,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 159,
+    "aa": 154,
     "am": "20255.0",
     "eponymo": "ΣΟΟΥΤΛΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5206,7 +5041,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 160,
+    "aa": 155,
     "am": "8420.0",
     "eponymo": "ΠΑΡΑΔΕΙΣΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -5239,7 +5074,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 161,
+    "aa": 156,
     "am": "13154.0",
     "eponymo": "ΜΗΤΣΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -5272,7 +5107,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 162,
+    "aa": 157,
     "am": "18359.0",
     "eponymo": "ΚΑΛΕΝΔΕΡΗ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -5304,7 +5139,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 163,
+    "aa": 158,
     "am": "3929.0",
     "eponymo": "ΚΥΡΙΑΚΙΔΗΣ",
     "onoma": "ΣΑΒΒΑΣ ΙΩΑΝΝΗΣ",
@@ -5337,7 +5172,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 164,
+    "aa": 159,
     "am": "5734.0",
     "eponymo": "ΚΑΡΓΑΚΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -5370,7 +5205,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 165,
+    "aa": 160,
     "am": "14838.0",
     "eponymo": "ΤΣΙΛΙΚΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -5402,7 +5237,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 166,
+    "aa": 161,
     "am": "19004.0",
     "eponymo": "ΜΑΝΤΖΟΥΤΣΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -5434,7 +5269,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 167,
+    "aa": 162,
     "am": "2405.0",
     "eponymo": "ΛΑΜΠΟΥ",
     "onoma": "ΛΕΜΟΝΙΑ",
@@ -5467,7 +5302,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 168,
+    "aa": 163,
     "am": "1013.0",
     "eponymo": "ΣΙΕΜΠΟΣ",
     "onoma": "ΧΑΡΙΛΑΟΣ",
@@ -5477,7 +5312,7 @@
     "theseis_idias_omadas": "2868-2869-2887-2888-2889-2892-2911-2915-2916-2924-2928-2929-2930-2931-2932-2933-2934-2935-2936-2938-2939-2940-2941-2944-2945-2947-2951-2952-2955-2956-2962-2982-2983-2984-2986-2987-2988-2989-2990-2991-3000-3002-3003-3014",
     "protimiseis": "865-866-871-872-867-868-869-870-2869-842-841-839-787-2962-1065-1067-2888-2889-2887-2892-940-939-908-910-938-909-838-840-2868-863-862-861-859-860-1104-1101-1102-1103-2955-2956-2952-2934-2928-2929-2930-2931-2932-2933-2935-2936-2938-2939-2940-2941-2944-2945-2947-1072-1071-2924-2982-2983-2984-2986-2987-2988-2989-2990-2991-3002-3000-3003-3014-2911-2915-2916-2919-2051-2052-2951",
     "thesi_diorismou": "2962",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -5497,10 +5332,10 @@
     "vathmologia": 86.92,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 169,
+    "aa": 164,
     "am": "18547.0",
     "eponymo": "ΚΙΟΣΣΕΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -5533,7 +5368,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 170,
+    "aa": 165,
     "am": "4572.0",
     "eponymo": "ΖΟΥΜΠΑΔΕΛΛΗΣ",
     "onoma": "ΦΩΤΙΟΣ",
@@ -5566,7 +5401,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 171,
+    "aa": 166,
     "am": "6346.0",
     "eponymo": "ΤΣΙΟΥΜΑΝΗΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -5598,7 +5433,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 172,
+    "aa": 167,
     "am": "17192.0",
     "eponymo": "ΕΥΣΤΡΑΤΙΟΥ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -5630,7 +5465,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 173,
+    "aa": 168,
     "am": "9951.0",
     "eponymo": "ΠΑΠΠΑΣ",
     "onoma": "ΡΑΦΑΗΛ ΑΝΔΡΙΑΝΟΣ",
@@ -5663,7 +5498,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 174,
+    "aa": 169,
     "am": "18395.0",
     "eponymo": "ΜΠΑΛΛΑ",
     "onoma": "ΕΙΡΗΝΗ ΑΘΗΝΑ",
@@ -5696,7 +5531,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 175,
+    "aa": 170,
     "am": "11444.0",
     "eponymo": "ΣΤΑΥΡΙΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -5729,7 +5564,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 176,
+    "aa": 171,
     "am": "4563.0",
     "eponymo": "ΝΑΖΗΦΟΓΛΟΥ",
     "onoma": "ΦΑΤΙΧ",
@@ -5761,7 +5596,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 177,
+    "aa": 172,
     "am": "2073.0",
     "eponymo": "ΔΙΑΜΑΝΤΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -5794,7 +5629,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 178,
+    "aa": 173,
     "am": "6216.0",
     "eponymo": "ΑΜΑΝΑΤΙΔΗΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -5826,7 +5661,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 179,
+    "aa": 174,
     "am": "11238.0",
     "eponymo": "ΣΟΦΟΣ",
     "onoma": "ΓΡΗΓΟΡΙΟΣ",
@@ -5859,7 +5694,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 180,
+    "aa": 175,
     "am": "8877.0",
     "eponymo": "ΚΑΛΑΝΤΖΗ",
     "onoma": "ΖΩΗ",
@@ -5892,7 +5727,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 181,
+    "aa": 176,
     "am": "5500.0",
     "eponymo": "ΣΥΓΚΡΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -5925,7 +5760,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 182,
+    "aa": 177,
     "am": "4633.0",
     "eponymo": "ΜΟΥΖΙΝΑΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -5958,7 +5793,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 183,
+    "aa": 178,
     "am": "5051.0",
     "eponymo": "ΙΩΑΝΝΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -5991,7 +5826,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 184,
+    "aa": 179,
     "am": "8415.0",
     "eponymo": "ΠΑΝΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -6024,7 +5859,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 185,
+    "aa": 180,
     "am": "16647.0",
     "eponymo": "ΜΠΕΚΙΑΡΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -6057,7 +5892,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 186,
+    "aa": 181,
     "am": "3579.0",
     "eponymo": "ΚΑΒΑΡΑΤΖΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -6089,7 +5924,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 187,
+    "aa": 182,
     "am": "11250.0",
     "eponymo": "ΠΕΡΓΚΑΝΤΗ",
     "onoma": "ΕΥΣΤΡΑΤΙΑ",
@@ -6122,7 +5957,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 188,
+    "aa": 183,
     "am": "9775.0",
     "eponymo": "ΜΑΛΕΣΙΟΥ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -6155,7 +5990,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 189,
+    "aa": 184,
     "am": "3647.0",
     "eponymo": "ΔΑΒΛΙΑΚΟΥ",
     "onoma": "ΓΑΛΑΤΕΙΑ",
@@ -6188,7 +6023,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 190,
+    "aa": 185,
     "am": "5920.0",
     "eponymo": "ΚΑΛΛΙΑ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -6220,7 +6055,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 191,
+    "aa": 186,
     "am": "8060.0",
     "eponymo": "ΤΣΑΒΑΛΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -6230,7 +6065,7 @@
     "theseis_idias_omadas": "2870-2904-2908-2911-2912-2915-2916-2921-2922-2923-2924-2925-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2937-2938-2939-2940-2941-2945-2947-2949-2951-2952-2953-2954-2955-2956-2976-2977-2979-2980-2981-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2993-2996-2999-3014-3015",
     "protimiseis": "3015-3014-2870-2977-2976-2993-2979-2912-2980-2981-2983-2947-2942-2931-2932-2984-2985-2986-2987-2988-2989-2990-2991-2992-2996-2999-2841-2842-2843-2844-2845-2846-2849-2850-2904-2907-2908-2910-2911-2914-2915-2916-2919-2921-2922-2923-2924-2925-2927-2928-2929-2930-2933-2934-2935-2936-2937-2938-2939-2940-2941-2945-2946-2949-2951-2952-2953-2954-2955-2956",
     "thesi_diorismou": "2870",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -6250,10 +6085,10 @@
     "vathmologia": 85.75,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 192,
+    "aa": 187,
     "am": "16499.0",
     "eponymo": "ΡΟΒΑ",
     "onoma": "ΕΥΘΥΜΙΑ",
@@ -6285,7 +6120,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 193,
+    "aa": 188,
     "am": "7653.0",
     "eponymo": "ΡΙΖΟΓΙΑΝΝΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -6318,7 +6153,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 194,
+    "aa": 189,
     "am": "5882.0",
     "eponymo": "ΤΟΥΛΙΑΤΟΣ",
     "onoma": "ΓΕΡΑΣΙΜΟΣ",
@@ -6351,7 +6186,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 195,
+    "aa": 190,
     "am": "2846.0",
     "eponymo": "ΒΕΚΕΡΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -6384,7 +6219,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 196,
+    "aa": 191,
     "am": "4130.0",
     "eponymo": "ΚΑΛΔΑΝΗΣ",
     "onoma": "ΛΑΖΑΡΟΣ",
@@ -6417,7 +6252,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 197,
+    "aa": 192,
     "am": "14147.0",
     "eponymo": "ΣΤΑΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -6450,7 +6285,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 198,
+    "aa": 193,
     "am": "12969.0",
     "eponymo": "ΣΠΑΝΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -6460,7 +6295,7 @@
     "theseis_idias_omadas": "2834",
     "protimiseis": "2889-2932-2931-2930-2874-2834-2884-2885-2933-2980-2940-2981-2936-2937-2935-2934-2938-2941-2939-2992-3002-2956-2929-2914-2875-2882-2998-2999-2983-2982-2868-2867-2911",
     "thesi_diorismou": "2889",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -6480,10 +6315,10 @@
     "vathmologia": 85.58,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 199,
+    "aa": 194,
     "am": "15410.0",
     "eponymo": "ΚΑΛΦΟΓΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -6515,7 +6350,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 200,
+    "aa": 195,
     "am": "17987.0",
     "eponymo": "ΜΑΝΔΡΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -6547,7 +6382,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 201,
+    "aa": 196,
     "am": "11782.0",
     "eponymo": "ΣΩΤΗΡΙΟΥ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -6580,7 +6415,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 202,
+    "aa": 197,
     "am": "2598.0",
     "eponymo": "ΝΤΑΦΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -6613,7 +6448,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 203,
+    "aa": 198,
     "am": "5230.0",
     "eponymo": "ΑΒΔΙΜΙΩΤΗΣ",
     "onoma": "ΖΑΧΑΡΙΑΣ",
@@ -6646,7 +6481,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 204,
+    "aa": 199,
     "am": "12884.0",
     "eponymo": "ΦΛΩΡΟΥ",
     "onoma": "ΑΝΘΗ",
@@ -6679,7 +6514,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 205,
+    "aa": 200,
     "am": "16019.0",
     "eponymo": "ΘΕΟΛΟΓΟΥ",
     "onoma": "ΘΡΑΣΥΒΟΥΛΟΣ",
@@ -6711,7 +6546,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 206,
+    "aa": 201,
     "am": "13657.0",
     "eponymo": "ΚΑΤΣΑΝΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -6743,7 +6578,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 207,
+    "aa": 202,
     "am": "11454.0",
     "eponymo": "ΝΙΚΗΤΟΠΟΥΛΟΥ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -6776,7 +6611,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 208,
+    "aa": 203,
     "am": "4364.0",
     "eponymo": "ΜΑΣΣΑΡΑΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -6786,7 +6621,7 @@
     "theseis_idias_omadas": "2869",
     "protimiseis": "2869-1870-1871-1869",
     "thesi_diorismou": "1869",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -6806,10 +6641,10 @@
     "vathmologia": 85.08,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 209,
+    "aa": 204,
     "am": "6397.0",
     "eponymo": "ΧΑΤΖΗΓΙΑΝΝΗ",
     "onoma": "ΣΟΥΛΤΑΝΑ",
@@ -6841,7 +6676,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 210,
+    "aa": 205,
     "am": "9390.0",
     "eponymo": "ΣΕΡΠΕΖΟΥΔΗΣ ΤΣΟΥΧΛΗΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -6874,7 +6709,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 211,
+    "aa": 206,
     "am": "5070.0",
     "eponymo": "ΠΡΩΤΟΨΑΛΤΗ",
     "onoma": "ΖΩΗ - ΕΙΡΗΝΗ",
@@ -6907,7 +6742,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 212,
+    "aa": 207,
     "am": "9758.0",
     "eponymo": "ΡΑΦΑΗΛΙΔΗΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ ΑΙΜΙΛΙΟΣ",
@@ -6940,7 +6775,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 213,
+    "aa": 208,
     "am": "4492.0",
     "eponymo": "ΜΗΛΙΤΣΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -6972,7 +6807,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 214,
+    "aa": 209,
     "am": "4099.0",
     "eponymo": "ΠΑΠΑΓΙΑΝΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7005,7 +6840,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 215,
+    "aa": 210,
     "am": "18203.0",
     "eponymo": "ΑΝΑΣΤΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -7038,7 +6873,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 216,
+    "aa": 211,
     "am": "11814.0",
     "eponymo": "ΑΛΕΞΗ",
     "onoma": "ΜΑΤΙΝΑ",
@@ -7071,7 +6906,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 217,
+    "aa": 212,
     "am": "10107.0",
     "eponymo": "ΚΑΡΒΕΛΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -7081,7 +6916,7 @@
     "theseis_idias_omadas": "2853",
     "protimiseis": "839-787-840-841-2862-871-866-867-838-865-868-872-842-2875-880-2940-1013-2930-2986-2989-2991-2984-2987-2985-2988-2990-2983-2982-2933-2857-2908-1023-2924-2904-991-2946-2916-3002-2980-2992-2981-2853-2915-2877-2884-2889-2896-2902-2923-2927-2928-2929-2931-2932-2934-2935-2936-2938-2939-2941-2945-1007-1043-1124-1009-1010-1006-1042-1040-1039-1012-897-898-1011-1008-1018",
     "thesi_diorismou": "2875",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -7101,10 +6936,10 @@
     "vathmologia": 84.64,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 218,
+    "aa": 213,
     "am": "9382.0",
     "eponymo": "ΖΑΦΕΙΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -7137,7 +6972,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 219,
+    "aa": 214,
     "am": "9492.0",
     "eponymo": "ΣΚΑΡΠΑΡΗΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ",
@@ -7170,7 +7005,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 220,
+    "aa": 215,
     "am": "16531.0",
     "eponymo": "ΣΟΥΡΜΕΛΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -7203,7 +7038,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 221,
+    "aa": 216,
     "am": "12918.0",
     "eponymo": "ΛΑΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -7236,7 +7071,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 222,
+    "aa": 217,
     "am": "7525.0",
     "eponymo": "ΠΑΠΑΡΑΚΟΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -7269,7 +7104,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 223,
+    "aa": 218,
     "am": "8978.0",
     "eponymo": "ΚΑΝΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -7301,7 +7136,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 224,
+    "aa": 219,
     "am": "1682.0",
     "eponymo": "ΓΙΓΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -7333,7 +7168,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 225,
+    "aa": 220,
     "am": "6023.0",
     "eponymo": "ΧΑΤΖΗΘΕΟΔΩΡΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -7343,7 +7178,7 @@
     "theseis_idias_omadas": "2841",
     "protimiseis": "2900-2986-2987-2990-2991-2992-2994-2910-2871-2908-2923-2982-2983-2984-2985-2988-2989-2916-2981-2998-2999-3002-2951-2952-2980-2914-2873-2874-2876-2879-2881-2882-2883-2884-2885-2886-2931-2928-2929-2930-2934-2935-2939-2936-2938-2940-2941-3006-2875-2904-2905-2906-2907-2911-2912-2956-2922-2996-3000-3003-3004-3005-2913-2917-2915-2920-2921-2925-3011-3012-2838-2840-2841-2842-2843-2844-2845-2846-2847-2848-2849-2850-2853-2854-2856-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968",
     "thesi_diorismou": "2986",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -7363,10 +7198,10 @@
     "vathmologia": 84.31,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 226,
+    "aa": 221,
     "am": "8476.0",
     "eponymo": "ΚΟΤΣΑΡΙΝΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -7399,7 +7234,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 227,
+    "aa": 222,
+    "am": "4429.0",
+    "eponymo": "ΤΡΟΧΑΤΟΥ",
+    "onoma": "ΙΩΑΝΝΑ",
+    "patronymo": "ΚΑΛΛΙΚΡΑΤΙΔΑΣ",
+    "adt_masked": "***278",
+    "omada_prosonton": "348 -024",
+    "theseis_idias_omadas": "2861",
+    "protimiseis": "3019-3020-2861-3018-3021-3017",
+    "thesi_diorismou": "3020",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 106.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2861",
+    "monades_entop": 40.0,
+    "math1": 96.0,
+    "math2": 56.45,
+    "synolo_graptou": 76.22,
+    "seira_klirosis": 6455991.0,
+    "vathmologia": 84.22,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 223,
     "am": "14345.0",
     "eponymo": "ΝΙΚΟΛΙΝΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -7432,7 +7300,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 228,
+    "aa": 224,
     "am": "744.0",
     "eponymo": "ΠΑΠΑΕΥΣΤΑΘΙΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -7465,7 +7333,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 229,
+    "aa": 225,
     "am": "14706.0",
     "eponymo": "ΓΙΩΤΟΠΟΥΛΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -7498,7 +7366,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 230,
+    "aa": 226,
     "am": "10570.0",
     "eponymo": "ΣΑΡΧΩΣΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -7530,7 +7398,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 231,
+    "aa": 227,
     "am": "19720.0",
     "eponymo": "ΧΥΤΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -7563,7 +7431,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 232,
+    "aa": 228,
     "am": "17460.0",
     "eponymo": "ΔΗΜΟΥ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -7573,7 +7441,7 @@
     "theseis_idias_omadas": "2898-2967",
     "protimiseis": "806-1148-1147-942-1924-1927-2967-1922-1910-1926-1906-1980-967-963-1077-1076-1078-1079-958-965-968-961-966-962-964-2898-1913-1918-1911-1915-1916-1917-954-952-941-1977-1073",
     "thesi_diorismou": "1924",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -7593,10 +7461,10 @@
     "vathmologia": 84.11,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 233,
+    "aa": 229,
     "am": "19265.0",
     "eponymo": "ΘΕΟΔΩΡΙΔΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -7628,7 +7496,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 234,
+    "aa": 230,
     "am": "14410.0",
     "eponymo": "ΖΩΜΕΝΟΣ",
     "onoma": "ΣΤΑΜΑΤΙΟΣ",
@@ -7660,7 +7528,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 235,
+    "aa": 231,
     "am": "8408.0",
     "eponymo": "ΑΥΓΟΥΣΤΑΚΗ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -7692,7 +7560,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 236,
+    "aa": 232,
     "am": "9177.0",
     "eponymo": "ΜΟΣΧΟΒΙΤΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -7724,7 +7592,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 237,
+    "aa": 233,
     "am": "18894.0",
     "eponymo": "ΚΑΛΑΙΤΖΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -7756,7 +7624,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 238,
+    "aa": 234,
     "am": "15900.0",
     "eponymo": "ΔΕΛΑΠΟΡΤΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -7789,7 +7657,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 239,
+    "aa": 235,
     "am": "15946.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -7822,7 +7690,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 240,
+    "aa": 236,
     "am": "8187.0",
     "eponymo": "ΓΕΩΡΓΙΟΥ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -7855,7 +7723,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 241,
+    "aa": 237,
     "am": "8023.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -7887,7 +7755,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 242,
+    "aa": 238,
     "am": "18325.0",
     "eponymo": "ΔΑΜΙΑΝΙΔΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -7919,7 +7787,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 243,
+    "aa": 239,
     "am": "18495.0",
     "eponymo": "ΔΑΛΙΑΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7952,7 +7820,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 244,
+    "aa": 240,
     "am": "16032.0",
     "eponymo": "ΜΠΕΚΡΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -7962,7 +7830,7 @@
     "theseis_idias_omadas": "2863-2865-2871-2872-2874-2875-2876-2877-2878-2879-2880-2881-2882-2883-2884-2885-2886-2890-2891-2892-2904-2908-2909-2911-2912-2913-2915-2916-2917-2918-2920-2921-2922-2923-2924-2925-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2937-2938-2939-2940-2941-2943-2944-2945-2947-2948-2949-2951-2952-2953-2954-2955-2956-2975-2976-2977-2979-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2993-2994-2996-2997-2998-2999-3000-3002-3003-3004-3006",
     "protimiseis": "2872-2933-2875-2880-2879-2863-2865-2877-2881-2839-2991-2990-2987-2986-2988-2989-2984-2985-2982-2983-2890-2928-2876-2947-2930-2874-2931-2932-2882-2883-2886-2891-2884-2944-3158-2939-2938-3156-2935-2934-2936-2929-2940-2941-2843-2915-2892-2923-2904-2945-2956-3155-2908-2977-2916-2955-3002-2999-2992-2981-2853-2980-2911-2952-2920-2924-2847-2949-2913-2849-2953-2943-2954-2996-3003-2925-2997-3006-2852-2976-2993-2909-3000-2975-2871-2878-2838-2848-2846-2840-2854-2951-2998-2937-2885-2922-2948-2917-2850-2842-2921-2927-3004-2912-2918-2994-2979",
     "thesi_diorismou": "2879",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -7982,10 +7850,10 @@
     "vathmologia": 83.44,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 245,
+    "aa": 241,
     "am": "943.0",
     "eponymo": "ΠΑΛΙΑΝΟΠΟΥΛΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8018,7 +7886,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 246,
+    "aa": 242,
     "am": "19914.0",
     "eponymo": "ΓΡΑΨΑΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -8051,7 +7919,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 247,
+    "aa": 243,
     "am": "17414.0",
     "eponymo": "ΣΚΑΠΕΡΔΑΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -8083,7 +7951,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 248,
+    "aa": 244,
     "am": "4578.0",
     "eponymo": "ΡΑΠΤΟΤΑΣΙΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -8115,7 +7983,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 249,
+    "aa": 245,
     "am": "17568.0",
     "eponymo": "ΚΟΠΑΤΣΑΡΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -8147,7 +8015,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 250,
+    "aa": 246,
     "am": "3237.0",
     "eponymo": "ΜΑΡΓΕΤΗ",
     "onoma": "ΑΛΙΚΗ",
@@ -8180,7 +8048,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 251,
+    "aa": 247,
     "am": "2493.0",
     "eponymo": "ΠΑΡΑΣΧΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -8213,7 +8081,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 252,
+    "aa": 248,
     "am": "18538.0",
     "eponymo": "ΤΣΑΡΟΥΧΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -8246,7 +8114,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 253,
+    "aa": 249,
     "am": "19307.0",
     "eponymo": "ΔΗΛΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -8279,7 +8147,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 254,
+    "aa": 250,
     "am": "3409.0",
     "eponymo": "ΕΜΙΝΙΔΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -8312,7 +8180,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 255,
+    "aa": 251,
     "am": "17337.0",
     "eponymo": "ΒΟΥΡΛΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -8345,7 +8213,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 256,
+    "aa": 252,
     "am": "18651.0",
     "eponymo": "ΔΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΑΡΣΕΝΙΟΣ",
@@ -8377,7 +8245,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 257,
+    "aa": 253,
     "am": "14685.0",
     "eponymo": "ΛΕΝΕΤΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -8409,7 +8277,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 258,
+    "aa": 254,
     "am": "8260.0",
     "eponymo": "ΚΑΡΑΜΗΤΟΠΟΥΛΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -8442,7 +8310,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 259,
+    "aa": 255,
     "am": "19707.0",
     "eponymo": "ΑΓΓΕΛΟΥ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -8475,7 +8343,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 260,
+    "aa": 256,
     "am": "4218.0",
     "eponymo": "ΤΕΛΛΗΓΙΑΝΝΙΔΟΥ",
     "onoma": "ΑΡΡΕΘΑ",
@@ -8508,7 +8376,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 261,
+    "aa": 257,
     "am": "15301.0",
     "eponymo": "ΜΑΝΕΔΑΚΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8541,7 +8409,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 262,
+    "aa": 258,
     "am": "9654.0",
     "eponymo": "ΑΗΔΟΝΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -8574,7 +8442,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 263,
+    "aa": 259,
     "am": "12483.0",
     "eponymo": "ΠΟΥΡΝΑΡΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΡΗΣΤΟΣ",
@@ -8607,7 +8475,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 264,
+    "aa": 260,
     "am": "13447.0",
     "eponymo": "ΚΟΝΤΟΓΙΑΝΝΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -8640,7 +8508,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 265,
+    "aa": 261,
     "am": "12563.0",
     "eponymo": "ΜΕΛΙΓΚΑΡΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -8673,7 +8541,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 266,
+    "aa": 262,
     "am": "6946.0",
     "eponymo": "ΚΟΥΤΛΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -8706,7 +8574,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 267,
+    "aa": 263,
     "am": "6743.0",
     "eponymo": "ΜΠΑΝΤΕΚΑ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -8739,7 +8607,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 268,
+    "aa": 264,
     "am": "13834.0",
     "eponymo": "ΤΣΟΛΑΚΗ",
     "onoma": "ΝΙΚΗ",
@@ -8771,7 +8639,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 269,
+    "aa": 265,
     "am": "6567.0",
     "eponymo": "ΕΚΙΖΟΓΛΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8803,7 +8671,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 270,
+    "aa": 266,
     "am": "13375.0",
     "eponymo": "ΝΙΚΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -8836,7 +8704,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 271,
+    "aa": 267,
     "am": "7545.0",
     "eponymo": "ΖΑΜΙΟΥΔΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -8868,7 +8736,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 272,
+    "aa": 268,
     "am": "1414.0",
     "eponymo": "ΠΑΣΒΑΝΤΙΔΗΣ",
     "onoma": "ΡΑΦΑΗΛ",
@@ -8901,7 +8769,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 273,
+    "aa": 269,
     "am": "15648.0",
     "eponymo": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -8933,7 +8801,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 274,
+    "aa": 270,
     "am": "11048.0",
     "eponymo": "ΣΤΑΜΠΟΛΙΔΟΥ",
     "onoma": "ΠΑΡΘΕΝΑ",
@@ -8965,7 +8833,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 275,
+    "aa": 271,
     "am": "4763.0",
     "eponymo": "ΚΟΥΤΣΙΚΟΥ",
     "onoma": "ΜΑΡΙΑΝΑ",
@@ -8997,7 +8865,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 276,
+    "aa": 272,
     "am": "16872.0",
     "eponymo": "ΑΖΙΖΑΥ",
     "onoma": "ΕΡΙΝΑ",
@@ -9030,7 +8898,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 277,
+    "aa": 273,
     "am": "5071.0",
     "eponymo": "ΜΠΟΥΣΝΑΚΗ",
     "onoma": "ΣΟΥΛΤΑΝΑ",
@@ -9062,7 +8930,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 278,
+    "aa": 274,
     "am": "2769.0",
     "eponymo": "ΓΡΗΓΟΡΙΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ ΜΙΡΑΝΤΑ",
@@ -9072,7 +8940,7 @@
     "theseis_idias_omadas": "2888-2889-2890-2891-2892-2904-2908-2912-2915-2916-2917-2920-2922-2923-2924-2925-2927-2928-2929-2933-2934-2935-2936-2937-2939-2940-2943-2948-2949-2951-2952-2953-2954-2956-2976-2977-2979-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2993-2994-2996-2997-2998-2999-3000-3003-3004-3005-3006",
     "protimiseis": "2857-3000-2856-2997-3005-3006-2855-3003-3004-2996-2892-2998-2999-2984-2985-2986-2987-2988-2989-2990-2991-2854-2982-2983-2977-2980-2981-2853-2979-2993-2976-2994-2888-2889-2839-2840-2852-2890-2891-2908-2933-2927-2939-2922-2910-2946-2949-2952-2953-2919-2920-2912-2843-2904-2907-2923-2950-2934-2935-2936-2937-3156-2929-2925-2943-2948-2951-2954-2956-2915-2924-3155-2848-2849-2940-2916-2917-2928",
     "thesi_diorismou": "2857",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -9092,10 +8960,10 @@
     "vathmologia": 82.22,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 279,
+    "aa": 275,
     "am": "19663.0",
     "eponymo": "ΤΖΟΡΤΖΙΔΟΥ",
     "onoma": "ΘΕΟΠΟΥΛΑ",
@@ -9127,7 +8995,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 280,
+    "aa": 276,
     "am": "17121.0",
     "eponymo": "ΚΑΡΠΟΔΙΝΗΣ",
     "onoma": "ΠΟΛΥΧΡΟΝΗΣ",
@@ -9160,7 +9028,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 281,
+    "aa": 277,
     "am": "10055.0",
     "eponymo": "ΜΑΝΙΑΔΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -9193,7 +9061,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 282,
+    "aa": 278,
     "am": "15044.0",
     "eponymo": "ΚΑΡΑΤΖΙΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -9203,7 +9071,7 @@
     "theseis_idias_omadas": "2857",
     "protimiseis": "2987-2991-2986-2990-2988-2989-2984-2982-2983-2985-2956-3002-2980-2992-2916-2999-2952-2928-2934-2884-2929-2935-3000-3003-2936-2938-2940-2908-2875-2911-2933-2996-2931-2932-2889-2874-2941-2904-2939-2853-2882-2953-2843-2857-2954-3006-2925-3005-2915-2880-3156-2849-3155-2919-2852-2847-2865-2920-2945-2946-2881-2886-2923-2924-2930-2856-2845-2914-2844-2947-2955-2888-2883-2898-2966-2869-2879-2967-3016-2913-2876-2997-2864-2839-2872-2877-2892-2943-2944-2949-2993-2855-3158-2862-2961-3021-3010-2970-2859-2907-2951-2850-2846-3004-2998-2873-2981-2871-2885-2921-2842-2878-2900-2922-2948-2863-2994-2937-2927-2848",
     "thesi_diorismou": "2987",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -9223,10 +9091,10 @@
     "vathmologia": 82.11,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 283,
+    "aa": 279,
     "am": "15377.0",
     "eponymo": "ΠΟΜΠΟΡΤΣΗΣ",
     "onoma": "ΣΕΡΓΙΟΣ",
@@ -9258,7 +9126,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 284,
+    "aa": 280,
     "am": "2770.0",
     "eponymo": "ΜΑΝΩΛΑ",
     "onoma": "ΖΩΗ",
@@ -9290,7 +9158,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 285,
+    "aa": 281,
     "am": "4755.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -9300,7 +9168,7 @@
     "theseis_idias_omadas": "2862-2864-2866-2867-2868-2869-2870-2875-2882-2884-2888-2890-2891-2892-2893-2894-2895-2896-2897-2898-2900-2902-2904-2908-2909-2911-2912-2915-2916-2917-2921-2922-2925-2928-2929-2930-2932-2934-2935-2936-2938-2939-2940-2941-2951-2952-2953-2954-2955-2956-2957-2958-2959-2960-2961-2962-2963-2964-2965-2966-2967-2969-2970-2971-2972-2973-2975-2977-2979-2980-2981-2984-2986-2987-2988-2989-2990-2991-2992-2993-2994-2996-2997-2998-2999-3000-3002-3003-3004-3005-3006-3007-3008-3009-3013-3014-3015-3016",
     "protimiseis": "3007-2961-2898-2900-2902-3008-3009-2860-2960-2851-3013-2967-2966-2965-3016-2862-2837-3014-2869-2870-3015-2962-2895-2893-3153-2894-2866-2868-2867-2897-2973-2972-2964-2963-2957-2958-2959-2896-2970-2969-2971-2996-2997-3005-3006-2855-2857-3000-3004-3003-2856-2993-2979-2852-2975-2977-2994-2854-2998-2999-2980-2981-2992-3002-2853-2892-2890-2839-2840-2891-2846-2850-2912-2911-2922-2909-2847-3158-2916-2955-2842-2921-2954-3155-2848-2951-2952-2904-2908-2915-2917-2925-2953-2843-2956-2928-2934-2929-2938-2939-2930-2844-2936-2935-2940-2941-2873-2991-2990-2988-2987-2986-2989-2984-2875-2882-2884-2932-2888-2864",
     "thesi_diorismou": "2894",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -9320,10 +9188,10 @@
     "vathmologia": 82.0,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 286,
+    "aa": 282,
     "am": "3109.0",
     "eponymo": "ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -9356,7 +9224,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 287,
+    "aa": 283,
     "am": "3874.0",
     "eponymo": "ΤΑΣΟΛΑΜΠΡΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -9389,7 +9257,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 288,
+    "aa": 284,
     "am": "2601.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΛΑΟΥ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -9422,7 +9290,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 289,
+    "aa": 285,
     "am": "11734.0",
     "eponymo": "ΣΥΡΙΑΝΙΔΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -9455,7 +9323,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 290,
+    "aa": 286,
     "am": "7596.0",
     "eponymo": "ΜΠΡΑΒΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -9488,7 +9356,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 291,
+    "aa": 287,
     "am": "19797.0",
     "eponymo": "ΤΣΕΡΠΙΣΝΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -9520,7 +9388,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 292,
+    "aa": 288,
     "am": "19460.0",
     "eponymo": "ΛΕΦΑ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -9552,7 +9420,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 293,
+    "aa": 289,
     "am": "7181.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΛΑΟΥ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -9585,7 +9453,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 294,
+    "aa": 290,
     "am": "18964.0",
     "eponymo": "ΠΑΠΑΚΑΛΟΥΣΗ",
     "onoma": "ΝΑΤΑΛΙΑ",
@@ -9617,7 +9485,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 295,
+    "aa": 291,
     "am": "20096.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΙΔΗΣ",
     "onoma": "ΣΑΒΒΑΣ",
@@ -9650,7 +9518,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 296,
+    "aa": 292,
     "am": "19675.0",
     "eponymo": "ΚΕΛΕΣΙΔΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -9683,7 +9551,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 297,
+    "aa": 293,
     "am": "16640.0",
     "eponymo": "ΣΤΕΦΑΝΙΔΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -9716,7 +9584,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 298,
+    "aa": 294,
     "am": "13272.0",
     "eponymo": "ΠΑΠΑΘΕΟΔΩΡΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -9748,7 +9616,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 299,
+    "aa": 295,
     "am": "11539.0",
     "eponymo": "ΧΑΤΖΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -9780,7 +9648,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 300,
+    "aa": 296,
     "am": "9305.0",
     "eponymo": "ΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -9813,7 +9681,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 301,
+    "aa": 297,
     "am": "18477.0",
     "eponymo": "ΚΟΚΚΙΝΗΣ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -9846,7 +9714,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 302,
+    "aa": 298,
     "am": "1491.0",
     "eponymo": "ΔΗΜΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -9879,7 +9747,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 303,
+    "aa": 299,
     "am": "17898.0",
     "eponymo": "ΠΕΡΡΑ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -9912,7 +9780,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 304,
+    "aa": 300,
     "am": "20474.0",
     "eponymo": "ΚΟΥΚΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -9945,7 +9813,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 305,
+    "aa": 301,
     "am": "11138.0",
     "eponymo": "ΦΩΤΟΠΟΥΛΟΥ",
     "onoma": "ΑΣΗΜΙΝΑ",
@@ -9977,7 +9845,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 306,
+    "aa": 302,
     "am": "6265.0",
     "eponymo": "ΝΑΝΟΣ",
     "onoma": "ΛΕΑΝΔΡΟΣ",
@@ -10010,7 +9878,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 307,
+    "aa": 303,
     "am": "4417.0",
     "eponymo": "ΚΥΡΑΝΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -10042,7 +9910,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 308,
+    "aa": 304,
     "am": "17048.0",
     "eponymo": "ΔΕΛΕΓΚΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -10074,7 +9942,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 309,
+    "aa": 305,
     "am": "1556.0",
     "eponymo": "ΣΑΜΑΡΤΖΗ",
     "onoma": "ΒΙΟΛΑ",
@@ -10106,7 +9974,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 310,
+    "aa": 306,
     "am": "11778.0",
     "eponymo": "ΣΤΡΙΦΤΑΡΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -10139,7 +10007,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 311,
+    "aa": 307,
     "am": "17134.0",
     "eponymo": "ΛΙΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -10172,7 +10040,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 312,
+    "aa": 308,
     "am": "10718.0",
     "eponymo": "ΚΟΥΚΟΥΦΙΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -10204,7 +10072,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 313,
+    "aa": 309,
     "am": "9605.0",
     "eponymo": "ΛΙΘΟΞΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -10214,7 +10082,7 @@
     "theseis_idias_omadas": "2863-2871-2872-2874-2875-2876-2877-2878-2879-2880-2881-2882-2883-2884-2885-2886-2887-2890-2891-2892-2898-2900-2904-2908-2912-2913-2915-2916-2917-2918-2920-2921-2922-2923-2924-2925-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2937-2938-2939-2940-2941-2943-2944-2945-2947-2948-2949-2951-2952-2953-2954-2955-2956-2966-2967-2976-2977-2979-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2993-2994-2996-2997-2998-2999-3000-3002-3003-3004-3005-3006-3016",
     "protimiseis": "2900-2898-3016-2967-2951-2952-2956-2934-2935-2954-2939-2940-2938-2936-2919-2928-2929-2930-2904-2884-2885-2980-2875-2941-2933-3002-2937-3003-3004-2992-2853-2848-2843-2842-2849-2921-2854-2857-2932-3006-2879-2883-2876-2871-2955-2981-2990-2991-2982-2983-2984-2987-2986-2988-2989-2985-2931-2838-3000-2844-2977-2993-2994-2998-2999-2945-2947-2944-2943-2946-2856-2915-2916-2908-2914-2927-2913-2912-2910-2996-2925-2924-2923-2922-2920-2917-2918-2874-2877-2878-2880-2882-2881-2872-3005-2953-2949-2950-2948-2886-2942-2979-2840-2841-2845-2846-2847-2850-2852-2863-2890-2891-2892-2997-2873-2966-2887-2976-2839",
     "thesi_diorismou": "2951",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -10234,10 +10102,10 @@
     "vathmologia": 80.94,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 314,
+    "aa": 310,
     "am": "1236.0",
     "eponymo": "ΠΑΡΑΦΟΡΟΥ",
     "onoma": "ΜΕΛΙΤΑ",
@@ -10270,7 +10138,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 315,
+    "aa": 311,
     "am": "3322.0",
     "eponymo": "ΨΑΡΡΟΥΛΗΣ",
     "onoma": "ΠΑΝΤΕΛΗΣ",
@@ -10303,7 +10171,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 316,
+    "aa": 312,
     "am": "9867.0",
     "eponymo": "ΚΑΤΑΝΟΥ",
     "onoma": "ΒΑΣΗΛΙΑΝΑ",
@@ -10335,7 +10203,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 317,
+    "aa": 313,
     "am": "20546.0",
     "eponymo": "ΠΑΠΑΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -10368,7 +10236,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 318,
+    "aa": 314,
     "am": "18586.0",
     "eponymo": "ΧΑΙΝΤΙΝΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -10400,7 +10268,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 319,
+    "aa": 315,
     "am": "206.0",
     "eponymo": "ΜΑΔΗΜΕΝΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -10433,7 +10301,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 320,
+    "aa": 316,
     "am": "2432.0",
     "eponymo": "ΣΙΑΚΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -10466,7 +10334,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 321,
+    "aa": 317,
     "am": "19263.0",
     "eponymo": "ΡΕΝΕΣΗ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -10499,7 +10367,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 322,
+    "aa": 318,
     "am": "14374.0",
     "eponymo": "ΛΩ",
     "onoma": "ΜΑΡΙΑ",
@@ -10532,7 +10400,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 323,
+    "aa": 319,
     "am": "19175.0",
     "eponymo": "ΚΟΚΚΑΛΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -10565,7 +10433,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 324,
+    "aa": 320,
     "am": "10840.0",
     "eponymo": "ΓΙΑΣΛΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -10598,7 +10466,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 325,
+    "aa": 321,
     "am": "9702.0",
     "eponymo": "ΠΑΠΑΝΔΡΙΑΝΟΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -10630,7 +10498,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 326,
+    "aa": 322,
     "am": "16308.0",
     "eponymo": "ΑΝΥΣΙΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -10663,7 +10531,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 327,
+    "aa": 323,
     "am": "7957.0",
     "eponymo": "ΓΕΩΡΓΑΡΑΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -10673,7 +10541,7 @@
     "theseis_idias_omadas": "2841-2857",
     "protimiseis": "787-841-839-2862-2837-840-838-2869-2958-2959-2991-2987-2986-2990-2988-3153-2895-2866-2857-2910-2907-2919-2946-2950-2951-3002-2956-870-865-868-866-871-869-872-842-2843-2844-2947-2884-2914-2952-2934-2980-2916-2955-2930-2848-2833-2911-2923-2932-2931-2935-2936-2939-2940-3000-2992-2842-3155-2849-2847-2845-3156-2832-2838-2882-2875-2928-2915-2917-2938-2929-2925-2921-2937-2941-2839-2834-2846-2840-2841-3158-2856-2904-2908-2902-2900-2886-2874-2850-2878-2877-2876-2880-2879-2881-2912-2922-2924-2933-886-930-931-927-893-890-852-851-800-793-788-850-895-896-899-876-880-929-928",
     "thesi_diorismou": "2959",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -10693,10 +10561,10 @@
     "vathmologia": 80.5,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 328,
+    "aa": 324,
     "am": "11147.0",
     "eponymo": "ΜΠΟΥΡΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -10728,7 +10596,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 329,
+    "aa": 325,
     "am": "16070.0",
     "eponymo": "ΜΗΛΙΑΤΗΣ",
     "onoma": "ΔΙΟΝΥΣΙΟΣ",
@@ -10761,7 +10629,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 330,
+    "aa": 326,
     "am": "13660.0",
     "eponymo": "ΝΙΚΟΛΑΙΔΟΥ",
     "onoma": "ΦΑΝΗ",
@@ -10793,7 +10661,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 331,
+    "aa": 327,
     "am": "7128.0",
     "eponymo": "ΚΑΡΚΑΝΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -10826,7 +10694,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 332,
+    "aa": 328,
     "am": "9431.0",
     "eponymo": "ΣΚΑΝΔΑΛΙΔΗΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -10859,7 +10727,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 333,
+    "aa": 329,
     "am": "18698.0",
     "eponymo": "ΓΑΛΑΝΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -10892,7 +10760,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 334,
+    "aa": 330,
     "am": "7685.0",
     "eponymo": "ΚΑΤΣΑΝΤΟΥΡΑΣ",
     "onoma": "ΡΑΦΑΗΛ",
@@ -10925,7 +10793,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 335,
+    "aa": 331,
     "am": "17736.0",
     "eponymo": "ΑΝΤΩΝΙΑΔΟΥ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -10957,7 +10825,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 336,
+    "aa": 332,
     "am": "2986.0",
     "eponymo": "ΑΥΓΕΡΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -10989,7 +10857,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 337,
+    "aa": 333,
     "am": "3630.0",
     "eponymo": "ΣΑΚΚΑΣ",
     "onoma": "ΜΕΝΕΛΑΟΣ ΡΑΦΑΗΛ",
@@ -11022,7 +10890,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 338,
+    "aa": 334,
     "am": "10288.0",
     "eponymo": "ΚΑΡΑΛΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -11055,7 +10923,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 339,
+    "aa": 335,
     "am": "1616.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -11088,7 +10956,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 340,
+    "aa": 336,
     "am": "14681.0",
     "eponymo": "ΖΩΤΟΣ",
     "onoma": "ΚΩΣΤΑΣ-ΠΕΡΙΚΛΗΣ",
@@ -11120,7 +10988,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 341,
+    "aa": 337,
     "am": "7916.0",
     "eponymo": "ΚΑΛΙΤΣΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΕΣΤΗΣ",
@@ -11152,7 +11020,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 342,
+    "aa": 338,
     "am": "6126.0",
     "eponymo": "ΜΕΓΚΟΥΛΑΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -11185,7 +11053,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 343,
+    "aa": 339,
     "am": "16935.0",
     "eponymo": "ΜΟΙΡΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -11195,7 +11063,7 @@
     "theseis_idias_omadas": "2832-2834",
     "protimiseis": "2865-2880-2872-2877-2879-2863-2875-2878-2919-2910-2843-2834-2946-2927-2920-2923-2929-3156-2936-2937-2847-2841-2925-2953-2949-2939-2934-2933-2935-3155-2948-2950-2956-2846-2848-2849-2912-2915-2922-2924-2881-2840-2832-2890-2839-2876-2904-2905-2906-2907-2882-2883-2884-2838-2885-2986-2987-2989-2990-2991-2992-2998-2999-3002",
     "thesi_diorismou": "2865",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -11215,10 +11083,10 @@
     "vathmologia": 80.0,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 344,
+    "aa": 340,
     "am": "3892.0",
     "eponymo": "ΜΑΛΑΜΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -11251,7 +11119,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 345,
+    "aa": 341,
     "am": "10876.0",
     "eponymo": "ΜΑΝΔΑΛΗ",
     "onoma": "ΜΕΡΙΑΜ",
@@ -11283,7 +11151,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 346,
+    "aa": 342,
     "am": "126.0",
     "eponymo": "ΜΑΡΤΙΝΙΔΟΥ",
     "onoma": "ΓΛΥΚΕΡΙΑ",
@@ -11316,7 +11184,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 347,
+    "aa": 343,
     "am": "20709.0",
     "eponymo": "ΜΠΕΚΙΡΑΚΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -11348,7 +11216,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 348,
+    "aa": 344,
     "am": "10763.0",
     "eponymo": "ΚΟΠΕΛΙΑΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -11381,7 +11249,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 349,
+    "aa": 345,
     "am": "3888.0",
     "eponymo": "ΝΙΚΟΠΟΥΛΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -11414,7 +11282,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 350,
+    "aa": 346,
     "am": "1293.0",
     "eponymo": "ΓΚΡΙΖΙΩΤΗΣ",
     "onoma": "ΚΩΣΤΗΣ",
@@ -11446,7 +11314,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 351,
+    "aa": 347,
     "am": "4468.0",
     "eponymo": "ΠΑΠΑΡΓΥΡΗ",
     "onoma": "ΑΝΘΗ",
@@ -11479,7 +11347,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 352,
+    "aa": 348,
     "am": "12051.0",
     "eponymo": "ΣΚΟΥΡΑΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -11512,7 +11380,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 353,
+    "aa": 349,
     "am": "12944.0",
     "eponymo": "ΚΑΡΑΠΑΝΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -11544,7 +11412,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 354,
+    "aa": 350,
     "am": "9722.0",
     "eponymo": "ΚΑΡΑΦΥΛΛΟΥΔΗΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -11577,7 +11445,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 355,
+    "aa": 351,
     "am": "361.0",
     "eponymo": "ΘΩΜΟΠΟΥΛΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -11609,7 +11477,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 356,
+    "aa": 352,
     "am": "3819.0",
     "eponymo": "ΤΖΟΥΒΕΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -11642,7 +11510,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 357,
+    "aa": 353,
     "am": "4101.0",
     "eponymo": "ΘΕΡΜΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -11675,7 +11543,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 358,
+    "aa": 354,
     "am": "14963.0",
     "eponymo": "ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -11708,7 +11576,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 359,
+    "aa": 355,
     "am": "4517.0",
     "eponymo": "ΚΑΡΡΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -11741,7 +11609,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 360,
+    "aa": 356,
     "am": "12816.0",
     "eponymo": "ΕΠΙΤΡΟΠΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -11774,7 +11642,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 361,
+    "aa": 357,
     "am": "7423.0",
     "eponymo": "ΜΠΡΑΤΣΗΣ",
     "onoma": "ΠΕΤΡΟΣ ΜΑΡΙΝΟΣ",
@@ -11807,7 +11675,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 362,
+    "aa": 358,
     "am": "2026.0",
     "eponymo": "ΤΣΙΩΓΚΑ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -11840,7 +11708,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 363,
+    "aa": 359,
     "am": "13892.0",
     "eponymo": "ΑΘΑΝΑΣΙΑΔΗΣ",
     "onoma": "ΜΑΡΙΝΟΣ",
@@ -11872,7 +11740,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 364,
+    "aa": 360,
     "am": "20440.0",
     "eponymo": "ΚΑΛΛΙΟΝΤΖΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -11904,7 +11772,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 365,
+    "aa": 361,
     "am": "866.0",
     "eponymo": "ΠΛΕΣΤΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -11937,7 +11805,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 366,
+    "aa": 362,
     "am": "13908.0",
     "eponymo": "ΒΟΥΞΙΝΟΣ",
     "onoma": "ΛΑΖΑΡΟΣ",
@@ -11969,7 +11837,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 367,
+    "aa": 363,
     "am": "11474.0",
     "eponymo": "ΚΕΛΕΡΗΣ",
     "onoma": "ΑΡΓΥΡΙΟΣ",
@@ -12002,7 +11870,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 368,
+    "aa": 364,
     "am": "18581.0",
     "eponymo": "ΧΑΝΤΕΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -12035,7 +11903,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 369,
+    "aa": 365,
     "am": "1844.0",
     "eponymo": "ΤΟΜΠΑΤΣΙΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -12067,7 +11935,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 370,
+    "aa": 366,
     "am": "6675.0",
     "eponymo": "ΜΠΡΕΓΙΑΝΝΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -12099,7 +11967,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 371,
+    "aa": 367,
     "am": "13712.0",
     "eponymo": "ΑΝΑΤΣΟΥΤΣΟΥΛΑΣ",
     "onoma": "ΑΡΙΣΤΟΤΕΛΗΣ",
@@ -12132,7 +12000,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 372,
+    "aa": 368,
     "am": "4674.0",
     "eponymo": "ΓΚΟΥΓΚΛΙΑΝΑ",
     "onoma": "ΠΟΛΥΞΕΝΗ",
@@ -12164,7 +12032,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 373,
+    "aa": 369,
     "am": "4857.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΑΚΟΥ",
     "onoma": "ΚΑΛΛΙΡΡΟΗ",
@@ -12197,7 +12065,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 374,
+    "aa": 370,
     "am": "8953.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΗΣ",
     "onoma": "ΜΑΡΚΟΣ ΑΛΕΞΑΝΔΡΟΣ",
@@ -12230,7 +12098,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 375,
+    "aa": 371,
     "am": "476.0",
     "eponymo": "ΒΑΣΙΛΑΚΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -12263,7 +12131,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 376,
+    "aa": 372,
     "am": "13793.0",
     "eponymo": "ΣΑΛΜΑΤΑΝΗ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -12296,7 +12164,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 377,
+    "aa": 373,
     "am": "19472.0",
     "eponymo": "ΧΡΥΣΑΦΗΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -12329,7 +12197,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 378,
+    "aa": 374,
     "am": "2508.0",
     "eponymo": "ΚΥΡΑΤΖΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -12362,7 +12230,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 379,
+    "aa": 375,
     "am": "6993.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΙΔΗ",
     "onoma": "ΒΑΓΙΑ",
@@ -12394,7 +12262,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 380,
+    "aa": 376,
     "am": "19211.0",
     "eponymo": "ΖΑΓΟΥΡΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -12427,7 +12295,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 381,
+    "aa": 377,
     "am": "9677.0",
     "eponymo": "ΤΕΡΖΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -12459,7 +12327,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 382,
+    "aa": 378,
     "am": "10888.0",
     "eponymo": "ΕΡΕΙΛΙΔΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -12492,7 +12360,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 383,
+    "aa": 379,
     "am": "12680.0",
     "eponymo": "ΔΟΥΝΑΒΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -12525,7 +12393,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 384,
+    "aa": 380,
     "am": "11005.0",
     "eponymo": "ΣΠΥΡΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -12558,7 +12426,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 385,
+    "aa": 381,
     "am": "13322.0",
     "eponymo": "ΜΟΣΧΟΣ",
     "onoma": "ΣΟΦΟΚΛΗΣ",
@@ -12590,7 +12458,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 386,
+    "aa": 382,
     "am": "13711.0",
     "eponymo": "ΒΛΥΣΝΑΚΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -12622,7 +12490,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 387,
+    "aa": 383,
     "am": "2417.0",
     "eponymo": "ΚΟΥΤΣΟΓΙΑΝΝΗΣ",
     "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
@@ -12655,7 +12523,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 388,
+    "aa": 384,
     "am": "15239.0",
     "eponymo": "ΣΤΑΜΚΟΣ",
     "onoma": "ΛΑΖΑΡΟΣ",
@@ -12687,7 +12555,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 389,
+    "aa": 385,
     "am": "579.0",
     "eponymo": "ΔΕΛΗΓΙΑΝΝΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ-ΜΑΡΙΑ",
@@ -12720,7 +12588,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 390,
+    "aa": 386,
     "am": "1050.0",
     "eponymo": "ΓΚΙΚΟΥΡΙΑΣ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -12753,7 +12621,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 391,
+    "aa": 387,
     "am": "6824.0",
     "eponymo": "ΠΑΥΛΑΚΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ-ΓΕΩΡΓΙΟΣ",
@@ -12786,7 +12654,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 392,
+    "aa": 388,
     "am": "18399.0",
     "eponymo": "ΠΑΝΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -12819,7 +12687,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 393,
+    "aa": 389,
     "am": "11217.0",
     "eponymo": "ΚΟΥΓΙΟΥΡΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -12852,7 +12720,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 394,
+    "aa": 390,
     "am": "12063.0",
     "eponymo": "ΑΛΕΞΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -12862,7 +12730,7 @@
     "theseis_idias_omadas": "2839-2843-2847-2849-2852-2853-2855-3155-3156-3158",
     "protimiseis": "3014-1195-1192-1196-1193-1189-1190-1194-2967-1098-1099-3015-2870-2965-2966-2939-2956-2996-2847-2977-2881-2920-2880-3002-2992-2980-2853-2877-2993-2953-2944-2928-2929-3156-2911-2895-3153-2919-2910-2930-2914-3006-2876-2888-2955-2879-2883-2941-2884-2935-2875-2936-2938-2933-2940-2934-3003-3005-2849-2924-2923-2949-2997-2855-2872-2887-2891-2892-2863-2890-2909-2864-2975-2839-2976-2893-2894-2916-2882-2999-2982-2983-2990-2988-2989-2984-2991-2986-2987-2874-2889-2932-2931-2947-2844-2845-2856-2857-2904-2907-2946-2908-2925-2843-3000-3158-2945-2852-2954-3155-2943-2886-2865-2952-2915-2951-807-2913-2862-2866",
     "thesi_diorismou": "2939",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -12882,10 +12750,10 @@
     "vathmologia": 78.42,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 395,
+    "aa": 391,
     "am": "6589.0",
     "eponymo": "ΚΩΣΤΗ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -12917,7 +12785,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 396,
+    "aa": 392,
     "am": "19978.0",
     "eponymo": "ΣΑΡΔΕΛΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -12950,7 +12818,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 397,
+    "aa": 393,
     "am": "17604.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -12983,7 +12851,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 398,
+    "aa": 394,
     "am": "3086.0",
     "eponymo": "ΜΠΟΥΣΙΟΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -13016,7 +12884,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 399,
+    "aa": 395,
     "am": "2668.0",
     "eponymo": "ΘΕΟΔΩΡΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΘΑ",
@@ -13049,7 +12917,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 400,
+    "aa": 396,
     "am": "3823.0",
     "eponymo": "ΑΠΡΙΛΗΣ",
     "onoma": "ΠΕΡΙΚΛΗΣ",
@@ -13082,7 +12950,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 401,
+    "aa": 397,
     "am": "8360.0",
     "eponymo": "ΣΠΗΛΙΟΠΟΥΛΟΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -13114,7 +12982,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 402,
+    "aa": 398,
     "am": "4902.0",
     "eponymo": "ΚΑΤΣΑΜΑΝΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -13124,7 +12992,7 @@
     "theseis_idias_omadas": "2838-2839-2840-2842-2843-2846-2847-2848-2850-2852-2853-2855-3155-3156-3158",
     "protimiseis": "948-946-2899-950-947-945-949-794-943-795-944-1158-1159-1157-1154-1155-1153-1080-1081-2968-1208-1206-1207-3020-3021-3018-3017-3019-809-1209-1205-2843-2853-3158-3155-2839-3156-2847-2949-2857-2987-2991-2986-3002-2990-2988-2956-2928-2934-2952-2980-2930-2935-2940-3000-2992-2989-2999-2997-2996-2944-2943-2937-2951-2848-2838-2840-2841-2842-2846-2850-2852-2855-1011-999-1031-1040-2877-2889-2904-2907-2919-2927-2929-2931-2932-2936-2938-2939-2941-2955-2975-2977-2881-2993-2861-3005-2985-2984-2983-2982-2981-2876-2875-2879-2873-991-1036-1034-1039-1037-1023-1016-1013-1003-1007-1004-1005-1006-1010",
     "thesi_diorismou": "2843",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -13144,10 +13012,10 @@
     "vathmologia": 78.11,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 403,
+    "aa": 399,
     "am": "5092.0",
     "eponymo": "ΓΟΥΛΑ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -13179,7 +13047,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 404,
+    "aa": 400,
     "am": "702.0",
     "eponymo": "ΣΥΚΑΡΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -13212,7 +13080,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 405,
+    "aa": 401,
     "am": "9189.0",
     "eponymo": "ΤΡΙΜΠΟΝΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -13244,7 +13112,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 406,
+    "aa": 402,
     "am": "4249.0",
     "eponymo": "ΒΑΓΙΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -13277,7 +13145,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 407,
+    "aa": 403,
     "am": "5701.0",
     "eponymo": "ΜΙΧΑΗΛ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -13309,7 +13177,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 408,
+    "aa": 404,
     "am": "4860.0",
     "eponymo": "ΓΟΥΚΟΣ",
     "onoma": "ΙΑΣΩΝ",
@@ -13342,7 +13210,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 409,
+    "aa": 405,
     "am": "13374.0",
     "eponymo": "ΜΟΥΡΜΟΥΡΑ",
     "onoma": "ΜΑΡΙΑ ΕΛΕΝΗ",
@@ -13374,7 +13242,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 410,
+    "aa": 406,
     "am": "6470.0",
     "eponymo": "ΚΑΡΑΜΑΤΣΟΥΚΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -13406,7 +13274,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 411,
+    "aa": 407,
     "am": "5458.0",
     "eponymo": "ΧΛΕΡΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -13439,7 +13307,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 412,
+    "aa": 408,
     "am": "13860.0",
     "eponymo": "ΑΣΚΕΡΙΔΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -13472,7 +13340,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 413,
+    "aa": 409,
     "am": "11796.0",
     "eponymo": "ΜΠΕΝΤΗ",
     "onoma": "ΑΝΝΑ",
@@ -13505,7 +13373,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 414,
+    "aa": 410,
     "am": "14031.0",
     "eponymo": "ΛΙΑΣΚΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13515,7 +13383,7 @@
     "theseis_idias_omadas": "2857",
     "protimiseis": "2857-2896-2900-2902-2928-2930-2934-2951-2952-2956-2959-2966-2970-2971-2974-2980-2986-2987-2988-2990-2991-2996-3002-3004-3010-3011-3020-3025-3021",
     "thesi_diorismou": "2857",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -13535,10 +13403,10 @@
     "vathmologia": 77.72,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 415,
+    "aa": 411,
     "am": "20145.0",
     "eponymo": "ΑΝΤΩΝΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -13570,7 +13438,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 416,
+    "aa": 412,
     "am": "2469.0",
     "eponymo": "ΜΑΧΑΙΡΑΣ",
     "onoma": "ΝΙΚΟΣ",
@@ -13580,7 +13448,7 @@
     "theseis_idias_omadas": "2862-2866-2869-2870-2871-2875-2878-2881-2884-2895-2903-2904-2912-2922-2928-2943-2949-2956-2957-2958-2959-2961-2966-2968-2970-2979-2980-2981-2990-2991-2992-2995-2996-2998-2999-3000-3002-3008-3016-3021",
     "protimiseis": "2943-2970-2996-3021-2961-3008-2958-2957-2928-2922-2862-2966-1887-1896-1899-1901-1917-1902-1918-1919-1923-1924-1925-1927-1928-1934-1942-1944-2028-2030-2027-1922-1915-1916-1903-1904-1905-1909-1910-1911-1912-1913-1914-1926-1930-1941-1952-2005-2023-2026-2038-2045-2866-2869-2870-2013-2022-2871-2873-2875-2878-2881-2895-2990-2991-2904-2912-2903-2999-2995-2980-2979-2981-2959-2956-2949-2992-2998-3016-1933-1986-1987-1988-1995-1977-3002-3000-2884-2039-1855-1856-1857-1858-1859-1860-1861-1862-1863-1864-1854-1865-1866-2968-1982-1981",
     "thesi_diorismou": "2943",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -13600,10 +13468,10 @@
     "vathmologia": 77.64,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 417,
+    "aa": 413,
     "am": "13877.0",
     "eponymo": "ΧΑΣΑΝ",
     "onoma": "ΜΟΥΤΖΔΑΤ",
@@ -13635,7 +13503,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 418,
+    "aa": 414,
     "am": "5764.0",
     "eponymo": "ΚΟΥΝΕΛΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -13668,7 +13536,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 419,
+    "aa": 415,
     "am": "3216.0",
     "eponymo": "ΓΙΑΝΝΑΚΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -13701,7 +13569,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 420,
+    "aa": 416,
     "am": "6744.0",
     "eponymo": "ΣΑΡΛΑ",
     "onoma": "ΕΥΣΤΑΘΙΑ",
@@ -13734,7 +13602,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 421,
+    "aa": 417,
     "am": "10032.0",
     "eponymo": "ΛΙΑΚΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13767,7 +13635,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 422,
+    "aa": 418,
     "am": "2354.0",
     "eponymo": "ΚΑΛΟΜΟΙΡΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -13777,7 +13645,7 @@
     "theseis_idias_omadas": "2904-2908-2923-2924-2929-2933-2935-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2992-2998-2999-3002",
     "protimiseis": "2987-2990-2986-2983-2982-2984-2988-2981-2985-2989-2908-2924-2998-2854-2999-2992-2980-2853-3002-2933-2923-2929-2935-2904",
     "thesi_diorismou": "2987",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -13797,10 +13665,10 @@
     "vathmologia": 77.19,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 423,
+    "aa": 419,
     "am": "7968.0",
     "eponymo": "ΚΑΤΣΑΜΠΕΡΗΣ",
     "onoma": "ΣΤΥΛΙΑΝΟΣ",
@@ -13833,7 +13701,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 424,
+    "aa": 420,
     "am": "18944.0",
     "eponymo": "ΡΟΔΙΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΑΣ",
@@ -13865,7 +13733,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 425,
+    "aa": 421,
     "am": "16696.0",
     "eponymo": "ΤΑΤΟΓΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -13898,7 +13766,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 426,
+    "aa": 422,
     "am": "20707.0",
     "eponymo": "ΠΟΖΟΥΚΙΔΟΥ",
     "onoma": "ΠΟΥΛΧΕΡΙΑ",
@@ -13931,7 +13799,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 427,
+    "aa": 423,
     "am": "8405.0",
     "eponymo": "ΛΕΩΝΙΔΟΥ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13963,7 +13831,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 428,
+    "aa": 424,
     "am": "16511.0",
     "eponymo": "ΝΤΟΝΙ",
     "onoma": "ΚΛΑΟΥΝΤΙΑ",
@@ -13995,7 +13863,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 429,
+    "aa": 425,
     "am": "11070.0",
     "eponymo": "ΤΣΙΑΡΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -14027,7 +13895,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 430,
+    "aa": 426,
     "am": "2291.0",
     "eponymo": "ΔΕΛΗΓΕΩΡΓΙΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -14059,7 +13927,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 431,
+    "aa": 427,
     "am": "4691.0",
     "eponymo": "ΚΑΛΑΝΤΖΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -14091,7 +13959,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 432,
+    "aa": 428,
     "am": "10506.0",
     "eponymo": "ΒΛΑΧΟΓΙΑΝΝΗ",
     "onoma": "ΕΥΘΑΛΙΑ",
@@ -14124,7 +13992,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 433,
+    "aa": 429,
     "am": "14782.0",
     "eponymo": "ΣΑΡΔΕΛΗΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -14157,7 +14025,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 434,
+    "aa": 430,
     "am": "14189.0",
     "eponymo": "ΔΗΜΗΤΡΙΑΔΗΣ",
     "onoma": "ΟΡΕΣΤΗΣ",
@@ -14190,7 +14058,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 435,
+    "aa": 431,
     "am": "2862.0",
     "eponymo": "ΔΡΟΜΠΙΛΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -14200,7 +14068,7 @@
     "theseis_idias_omadas": "2884-2886-2928-2965-2966-2967-2987-2988-2990-2991-3014",
     "protimiseis": "2967-2965-2966-2884-2886-2928-3014-2991-2987-2988-2990",
     "thesi_diorismou": "2884",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -14220,10 +14088,10 @@
     "vathmologia": 76.86,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 436,
+    "aa": 432,
     "am": "16590.0",
     "eponymo": "ΦΙΤΣΩΡΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΤΑ",
@@ -14256,7 +14124,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 437,
+    "aa": 433,
+    "am": "13643.0",
+    "eponymo": "ΒΙΣΚΑΔΟΥΡΑΚΗ",
+    "onoma": "ΕΥΑΓΓΕΛΙΑ",
+    "patronymo": "ΕΜΜΑΝΟΥΗΛ",
+    "adt_masked": "***983",
+    "omada_prosonton": "348 349",
+    "theseis_idias_omadas": "2899",
+    "protimiseis": "1907-1908-2899",
+    "thesi_diorismou": "1907",
+    "idiotita": "ΝΑΙ",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 152.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2899",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 35.45,
+    "synolo_graptou": 67.72,
+    "seira_klirosis": 8776232.0,
+    "vathmologia": 76.72,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΝΑΙ"
+  },
+  {
+    "aa": 434,
     "am": "8316.0",
     "eponymo": "ΠΑΥΛΟΝΑΣΙΟΣ",
     "onoma": "ΜΑΡΓΑΡΙΤΗΣ",
@@ -14288,7 +14189,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 438,
+    "aa": 435,
     "am": "7017.0",
     "eponymo": "ΤΣΟΛΑΚΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -14320,7 +14221,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 439,
+    "aa": 436,
     "am": "12806.0",
     "eponymo": "ΒΑΛΑΣΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -14353,7 +14254,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 440,
+    "aa": 437,
     "am": "214.0",
     "eponymo": "ΧΡΙΣΤΟΠΟΥΛΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -14386,7 +14287,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 441,
+    "aa": 438,
     "am": "16117.0",
     "eponymo": "ΜΠΟΥΡΜΑΟΓΛΟΥ",
     "onoma": "ΜΑΓΔΑΛΗΝΗ",
@@ -14418,7 +14319,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 442,
+    "aa": 439,
     "am": "5814.0",
     "eponymo": "ΜΑΝΕΣΗ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -14451,7 +14352,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 443,
+    "aa": 440,
     "am": "121.0",
     "eponymo": "ΠΑΣΧΑΛΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -14483,7 +14384,40 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 444,
+    "aa": 441,
+    "am": "17318.0",
+    "eponymo": "ΓΟΥΛΕΑΚΗ",
+    "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
+    "patronymo": "ΙΩΑΝΝΗΣ",
+    "adt_masked": "***376",
+    "omada_prosonton": "348 349",
+    "theseis_idias_omadas": "2899-2911-2927-2945-2952-2968-3017-3018-3020-3021",
+    "protimiseis": "2041-2043-2042-3019-3018-3021-3020-3017-2040-2022-2021-1907-2899-1981-1982-2968-1941-2911-2927-2945-2952-1877",
+    "thesi_diorismou": "2041",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 14.0,
+    "monades_empeirias": 1.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "3018- 3020- 3021",
+    "monades_entop": 40.0,
+    "math1": 92.0,
+    "math2": 48.95,
+    "synolo_graptou": 70.47,
+    "seira_klirosis": 4182871.0,
+    "vathmologia": 76.47,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 442,
     "am": "9280.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΧΡΥΣΟΣΤΟΜΟΣ",
@@ -14515,7 +14449,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 445,
+    "aa": 443,
     "am": "680.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -14548,7 +14482,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 446,
+    "aa": 444,
     "am": "636.0",
     "eponymo": "ΣΚΛΙΔΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -14580,7 +14514,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 447,
+    "aa": 445,
     "am": "20191.0",
     "eponymo": "ΑΛΕΞΙΟΥ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -14613,7 +14547,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 448,
+    "aa": 446,
     "am": "47.0",
     "eponymo": "ΦΑΦΑ",
     "onoma": "ΚΟΡΝΗΛΙΑ",
@@ -14645,7 +14579,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 449,
+    "aa": 447,
     "am": "16553.0",
     "eponymo": "ΑΡΓΥΡΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -14677,7 +14611,40 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 450,
+    "aa": 448,
+    "am": "10757.0",
+    "eponymo": "ΣΥΡΑΚΗΣ",
+    "onoma": "ΔΗΜΗΤΡΙΟΣ",
+    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
+    "adt_masked": "***585",
+    "omada_prosonton": "348 349",
+    "theseis_idias_omadas": "3024-3025",
+    "protimiseis": "2045-2044-3025-3024",
+    "thesi_diorismou": "2045",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 120.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "3024- 3025",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 38.5,
+    "synolo_graptou": 69.25,
+    "seira_klirosis": 1354974.0,
+    "vathmologia": 76.25,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 449,
     "am": "4731.0",
     "eponymo": "ΓΚΟΥΜΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -14687,7 +14654,7 @@
     "theseis_idias_omadas": "2838-2840-2842-2843-2846-2847-2848-2849-2850-2852-2853-2854-3155-3156-3158",
     "protimiseis": "2870-873-875-874-876-2865-2880-2878-2871-2875-2877-2879-2872-2886-2840-2881-2876-2838-2882-2883-2873-2928-2854-2853-3156-2846-2850-2842-3158-2852-2847-2848-2849-3155-2843-2904-2908-2911-2912-2930-2924-2922-2923-2943-2947-2933-2934-2885-2884-2916-2915-2918-2920-2921-2913-2935-2937-2936-2938-2939-2940-2979-2945-2941-2948-2929-2927-2944-2949-2951-2952-2953-2954-2955-2956-2980-2981-2982-2983-2984-2985-2986-2998-2999-2992-2987-2988-2989-2990-2991-3002-2993-2994-2996-3003-3004-3000",
     "thesi_diorismou": "2871",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -14707,10 +14674,10 @@
     "vathmologia": 76.22,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 451,
+    "aa": 450,
     "am": "20427.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΙΔΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -14720,7 +14687,7 @@
     "theseis_idias_omadas": "2965-2966-2967-3013",
     "protimiseis": "2967-1980-1977-2966-2965-1978-1986-1988-1933-1934-1979-3013-2030-1987",
     "thesi_diorismou": "1978",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -14740,10 +14707,10 @@
     "vathmologia": 76.22,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 452,
+    "aa": 451,
     "am": "13183.0",
     "eponymo": "ΠΟΛΥΖΩΗΣ",
     "onoma": "ΣΩΤΗΡΗΣ",
@@ -14775,7 +14742,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 453,
+    "aa": 452,
     "am": "10624.0",
     "eponymo": "ΣΠΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -14807,7 +14774,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 454,
+    "aa": 453,
     "am": "3865.0",
     "eponymo": "ΕΥΣΤΑΘΙΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -14840,7 +14807,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 455,
+    "aa": 454,
     "am": "4354.0",
     "eponymo": "ΔΕΛΗ ΜΟΛΑ",
     "onoma": "ΑΙΤΑΤΖ",
@@ -14872,7 +14839,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 456,
+    "aa": 455,
     "am": "20343.0",
     "eponymo": "ΑΝΤΖΟΠΟΥΛΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -14905,7 +14872,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 457,
+    "aa": 456,
     "am": "4846.0",
     "eponymo": "ΠΑΝΑΓΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -14938,7 +14905,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 458,
+    "aa": 457,
     "am": "19534.0",
     "eponymo": "ΣΤΑΥΡΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -14971,7 +14938,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 459,
+    "aa": 458,
     "am": "4884.0",
     "eponymo": "ΔΡΙΒΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -15004,7 +14971,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 460,
+    "aa": 459,
     "am": "15631.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -15036,7 +15003,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 461,
+    "aa": 460,
     "am": "8742.0",
     "eponymo": "ΣΙΟΖΙΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -15069,7 +15036,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 462,
+    "aa": 461,
     "am": "19566.0",
     "eponymo": "ΣΚΛΙΑ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -15079,7 +15046,7 @@
     "theseis_idias_omadas": "2843-2847-2849-3156",
     "protimiseis": "2904-991-2933-2941-2935-1011-2939-1042-2956-1040-3156-2929-1009-2936-2949-3002-2992-1043-2938-1012-2847-2843-1007-2925-2953-2920-2884-2849-1034-2924-2923-1006-2913-2930-2944-1016-2940-2882-2955-2999-1003-996",
     "thesi_diorismou": "2941",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -15099,10 +15066,10 @@
     "vathmologia": 75.75,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 463,
+    "aa": 462,
     "am": "17730.0",
     "eponymo": "ΠΑΥΛΙΔΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -15134,7 +15101,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 464,
+    "aa": 463,
     "am": "17559.0",
     "eponymo": "ΣΑΚΑΒΕΛΗΣ",
     "onoma": "ΜΑΡΙΝΟΣ-ΚΟΣΜΑΣ",
@@ -15166,7 +15133,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 465,
+    "aa": 464,
     "am": "18141.0",
     "eponymo": "ΤΑΣΟΛΑΜΠΡΟΥ",
     "onoma": "ΑΣΠΑΣΙΑ",
@@ -15199,7 +15166,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 466,
+    "aa": 465,
     "am": "846.0",
     "eponymo": "ΕΜΜΑΝΟΥΗΛΙΔΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -15232,7 +15199,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 467,
+    "aa": 466,
     "am": "9844.0",
     "eponymo": "ΤΖΟΥΒΑΡΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -15264,7 +15231,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 468,
+    "aa": 467,
     "am": "2284.0",
     "eponymo": "ΚΟΚΚΙΝΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -15297,7 +15264,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 469,
+    "aa": 468,
     "am": "8759.0",
     "eponymo": "ΣΑΜΑΡΑΣ",
     "onoma": "ΟΔΥΣΣΕΑΣ",
@@ -15329,7 +15296,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 470,
+    "aa": 469,
     "am": "3193.0",
     "eponymo": "ΣΤΑΥΡΙΑΝΟΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -15362,7 +15329,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 471,
+    "aa": 470,
     "am": "17769.0",
     "eponymo": "ΤΣΙΛΙΓΙΑΝΝΗ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -15372,7 +15339,7 @@
     "theseis_idias_omadas": "2837-2838-2843-2846-2848-2849-2850-2853-2854-3155-3156-3158",
     "protimiseis": "2862-2837-2987-3002-2991-2986-2951-2990-2988-2956-2952-2928-2934-2980-2884-2992-2919-2930-2843-2848-2904-2923-2989-2935-2938-2999-2953-2940-2853-2984-2981-2998-3155-3158-2954-2941-2929-2908-2915-2925-2921-2875-2873-2882-2911-2889-2982-2983-2985-2994-3156-2907-2910-2933-2937-2945-2946-2949-2838-2846-2841-2854-2869-2871-2874-2876-2849-2916-2936-2850-2914-2877-2878-2880-2881-2885-2886-2912-2872-2920-2924-2879-2883-2927-2931-2944-2979-2922",
     "thesi_diorismou": "2987",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -15392,10 +15359,10 @@
     "vathmologia": 75.31,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 472,
+    "aa": 471,
     "am": "10761.0",
     "eponymo": "ΧΟΥΣΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -15428,7 +15395,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 473,
+    "aa": 472,
     "am": "19815.0",
     "eponymo": "ΣΙΜΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -15460,7 +15427,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 474,
+    "aa": 473,
     "am": "11416.0",
     "eponymo": "ΤΡΙΓΩΝΗΣ",
     "onoma": "ΓΡΗΓΟΡΗΣ",
@@ -15493,7 +15460,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 475,
+    "aa": 474,
     "am": "12545.0",
     "eponymo": "ΚΡΟΜΜΥΔΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -15525,7 +15492,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 476,
+    "aa": 475,
     "am": "16026.0",
     "eponymo": "ΒΑΣΙΛΑΚΑΚΟΥ",
     "onoma": "ΕΛΕΑΝΑ",
@@ -15558,7 +15525,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 477,
+    "aa": 476,
     "am": "9130.0",
     "eponymo": "ΧΕΡΣΟΝΙΩΤΑΚΗ",
     "onoma": "ΠΟΛΥΜΝΙΑ",
@@ -15591,7 +15558,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 478,
+    "aa": 477,
     "am": "15598.0",
     "eponymo": "ΜΑΣΤΡΑΠΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -15624,7 +15591,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 479,
+    "aa": 478,
     "am": "504.0",
     "eponymo": "ΚΟΤΖΑΘΑΝΑΣΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -15656,7 +15623,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 480,
+    "aa": 479,
     "am": "4076.0",
     "eponymo": "ΠΟΛΙΤΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -15666,7 +15633,7 @@
     "theseis_idias_omadas": "3155-3156-3158",
     "protimiseis": "3158-2945-2934-2940-2941-3156-2954-3155-2935-2915-2956-2939-2929-2938-2952",
     "thesi_diorismou": "3158",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -15686,10 +15653,10 @@
     "vathmologia": 74.86,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 481,
+    "aa": 480,
     "am": "1859.0",
     "eponymo": "ΤΖΩΤΖΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -15722,7 +15689,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 482,
+    "aa": 481,
     "am": "20734.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥΔΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -15755,7 +15722,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 483,
+    "aa": 482,
     "am": "10474.0",
     "eponymo": "ΛΑΔΑΣ",
     "onoma": "ΝΕΣΤΩΡ",
@@ -15788,7 +15755,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 484,
+    "aa": 483,
     "am": "20547.0",
     "eponymo": "ΑΠΟΣΤΟΛΟΥ",
     "onoma": "ΑΝΝΑ-ΜΑΡΙΑ",
@@ -15821,7 +15788,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 485,
+    "aa": 484,
     "am": "14056.0",
     "eponymo": "ΣΑΝΙΔΑ",
     "onoma": "ΠΗΝΕΛΟΠΗ",
@@ -15854,7 +15821,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 486,
+    "aa": 485,
     "am": "18711.0",
     "eponymo": "ΛΟΥΚΟΠΟΥΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ Α",
@@ -15864,7 +15831,7 @@
     "theseis_idias_omadas": "2843",
     "protimiseis": "939-937-940-938-868-865-872-871-869-866-2869-867-870-936-935-934-933-2896-862-863-992-1102-1103-1104-1122-1151-2844-2845-2904-2907-2908-2916-2914-2911-2930-2933-2935-2940-2939-2956-2986-2987-2988-2990-2991-1023-996-999-995-2843-2919",
     "thesi_diorismou": "2844",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -15884,10 +15851,10 @@
     "vathmologia": 74.72,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 487,
+    "aa": 486,
     "am": "9741.0",
     "eponymo": "ΓΙΩΤΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -15920,7 +15887,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 488,
+    "aa": 487,
     "am": "15399.0",
     "eponymo": "ΓΑΛΑΖΟΥΛΑ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -15952,7 +15919,7 @@
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
   },
   {
-    "aa": 489,
+    "aa": 488,
     "am": "515.0",
     "eponymo": "ΑΝΑΓΝΩΣΤΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -15962,7 +15929,7 @@
     "theseis_idias_omadas": "2837-2838-2842-2843-2846-2847-2848-2849-2850-2852-2853-2854-3155-3156-3158",
     "protimiseis": "2862-2837-2875-2944-2945-2947-2956-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2874-2932-2933-2934-2935-2936-2937-2938-2939-2940-2955-2928-2929-2930-2931-2876-2877-2907-2904-2914-2915-2919-3006-3155-2843-3156-2844-2845-2838-2841-2842-2848-2849-3158-2856-2846-2850-2852-2853-2854-2857-2869-2879-2883-2889-2921-2922-2923-2924-2925-2927-2941-2951-2952-2953-2954-2980-2998-2999-3002-3003-3004-3005-3000-2996-2949-2948-2946-2920-2916-2913-2908-2873-2847",
     "thesi_diorismou": "2944",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -15982,10 +15949,10 @@
     "vathmologia": 74.61,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 490,
+    "aa": 489,
     "am": "4180.0",
     "eponymo": "ΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -16018,7 +15985,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 491,
+    "aa": 490,
     "am": "5276.0",
     "eponymo": "ΓΙΑΝΤΣΗ",
     "onoma": "ΛΕΥΚΗ",
@@ -16051,7 +16018,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 492,
+    "aa": 491,
     "am": "20164.0",
     "eponymo": "ΧΑΤΖΗ ΟΣΜΑΝ",
     "onoma": "ΕΝΕΣ",
@@ -16061,7 +16028,7 @@
     "theseis_idias_omadas": "2875-2884-2885-2900-2904-2911-2921-2928-2929-2930-2933-2934-2935-2936-2937-2938-2939-2940-2941-2945-2951-2952-2954-2955-2956-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2998-2999-3002-3008-3009",
     "protimiseis": "3008-3009-3002-2980-2992-2853-2981-2884-2941-2885-2930-2935-2934-2928-2956-2939-2936-2937-2929-3156-2938-2940-2933-2875-2952-2904-3155-2954-2842-2921-2955-2951-2848-3158-2911-2986-2987-2988-2991-2990-2989-2984-2982-2999-2998-2854-2945-2850-2846-2983-2985-2900",
     "thesi_diorismou": "3002",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -16081,10 +16048,10 @@
     "vathmologia": 74.58,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 493,
+    "aa": 492,
     "am": "6586.0",
     "eponymo": "ΝΙΚΟΛΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -16114,6 +16081,39 @@
     "vathmologia": 74.56,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware"
+  },
+  {
+    "aa": 493,
+    "am": "6180.0",
+    "eponymo": "ΚΟΤΛΙΔΑ",
+    "onoma": "ΜΑΡΙΑ",
+    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
+    "adt_masked": "***909",
+    "omada_prosonton": "348 -024",
+    "theseis_idias_omadas": "2859",
+    "protimiseis": "3010-2858-2859-2057-2047-2051-2992-3002-2853-2980-2981-2946-2873-2993-2877-2964-2911-2846-2850-2847-2927-2953-2875-3156-2929-2956-2884-2885-2928-2935-2936-2937-2938-2939-2940-2941-2934-2977-2839-2872-2887-2890-2891-2892-2909-2975-2976-3158-2852-2945-2912-2922-2942-2943-2838-2840-2841-2842-2871-2878-2879-2881-2883-2888-2904-2913-2915-2916-2917-2918-2919-2920-2921-2907-2923-2924-2944-2948-2949-2955-2979-2994-3155-2843-2848-2849-2882-2886-2951-2952-2954-3005-3006-2900-2855-2857-2880-2925-2950-2982-2983-2984-2985-2986-2991-2990-2989-2988-2987-2997-2996-2866-3000-2910-2854-2998-2999-3003-3004",
+    "thesi_diorismou": "3010",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 81.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2859",
+    "monades_entop": 40.0,
+    "math1": 84.0,
+    "math2": 47.0,
+    "synolo_graptou": 65.5,
+    "seira_klirosis": 3009110.0,
+    "vathmologia": 74.5,
+    "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
+    "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 494,
@@ -16453,7 +16453,7 @@
     "theseis_idias_omadas": "2911-2933-2936-2980-2981-2983-2990-2991-3002",
     "protimiseis": "2990-2991-2911-2981-2980-2936-2933-2983-3002",
     "thesi_diorismou": "2990",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -16473,7 +16473,7 @@
     "vathmologia": 74.06,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 505,
@@ -17236,7 +17236,7 @@
     "theseis_idias_omadas": "2838-2839-2840-2842-2843-2846-2847-2848-2849-2850-2852-2853-2854-2855-3155-3156-3158",
     "protimiseis": "2908-2916-2915-2923-2924-2929-2904-2949-2843-3156-2847-2849-3158-2956-2955-2954-2953-2952-2951-2948-2945-2944-2943-2941-2940-2939-2938-2937-2936-2935-2934-2933-2932-2930-2931-2928-2927-2925-2922-2921-2920-2918-2917-2913-2912-2911-2909-2850-2848-2846-3155-2842-2947-3002-2999-2998-2994-2993-2992-2991-2990-2989-2988-2987-2986-2985-2984-2983-2982-2981-2980-2979-2977-2976-2975-2854-2853-2852-2892-2891-2890-2840-2839-2886-2885-2884-2883-2882-2881-2880-2879-2878-2877-2876-2875-2874-2872-2871-2838-3006-3005-3004-3003-3000-2997-2996-2855",
     "thesi_diorismou": "2916",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -17256,7 +17256,7 @@
     "vathmologia": 72.78,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 529,
@@ -17334,7 +17334,7 @@
     "theseis_idias_omadas": "2837-2842-2843-2849-2851-2853-2854-2860-3155",
     "protimiseis": "1176-1177-1174-1175-2860-961-963-965-968-967-959-958-952-953-954-955-956-957-2900-960-962-964-966-981-979-980-906-905-791-902-903-904-2960-1057-2851-978-977-1204-1202-1203-3016-1127-1126-1125-806-1147-1148-942-941-2898-1146-1144-1145-3007-1165-1011-1166-1160-3008-1064-2961-1079-1076-1078-2967-1073-2966-1077-1097-1099-1098-1096-1187-1188-3013-928-3153-929-2895-793-927-870-2869-872-869-867-866-871-865-868-2962-2964-1071-2973-1103-1101-1104-1102-1100-1006-2908-2916-2923-2924-1018-1022-1023-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2980-2992-2999-2998-3002-2981-1119-1074-1075-2965-921-922-875-1199-2915-1061-1059-1060-1063-1062-1058-1095-1136-974-976-975-2902-973-925-926-2893-2894-874-876-2870-873-1171-1031-1172-3019-2861-1040-1208-1036-3020-3021-991-1205-3017-3018-1115-1157-1155-2899-3014-3015-2968-2871-2873-2874-2875-2884-2951-2904-2907-2946-2844-2845-2914-2919-2929-2930-2931-2932-2933-2934-2928-2956-2952-2955-3003-3004-3000-3009-2837-2862-3025-2969-2971-2970-2957-2866-2867-2868-2958-2959-2896-2889-2865-2843-2853-2854-2911-2857-2953-2856-3024-2888-2882-2878-2881-2935-2936-2938-2939-2940-2947-2842-2921-2849-2954-3155-2912",
     "thesi_diorismou": "2923",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -17354,7 +17354,7 @@
     "vathmologia": 72.33,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 532,
@@ -18084,7 +18084,7 @@
     "theseis_idias_omadas": "2841-2857",
     "protimiseis": "2900-3016-2898-2966-2967-3013-2917-2918-2919-2920-2921-2922-2923-2924-2925-2838-2839-2840-2841-2842-2843-2844-2845-2846-2847-2848-2849-2850-2852-2853-2854-2855-2856-2857-2863-2864-2865-2871-2872-2874-2875-2876-2877-2878-2879-2880-2881-2882-2883-2884-2885-2886-2887-2888-2889-2890-2891-2892-2904-2908-2909-2910-2911-2912-2913-2914-2915-2916-3014-2927-2928-2973-2866-2869-2929-2868-2837-2862-2870-2930-2931-2964-2962-2932-2933-2895-2934-2935-2936-2937-2938-2939-2940-2941-2942-2943-2944-2945-2946-2947-2948-2949-2950-2951-2952-2953-2954-2955-2956-2860-2960-2851-3007-2961-3008-3009-2965-3015-2972-2867",
     "thesi_diorismou": "2917",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -18104,7 +18104,7 @@
     "vathmologia": 70.75,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 555,
@@ -18311,7 +18311,7 @@
     "theseis_idias_omadas": "2863-2864-2865-2871-2872-2874-2877-2878-2879-2880-2881-2882-2883-2884-2885-2886-2888-2889-2890-2891-2892-2904-2909-2911-2912-2913-2915-2916-2917-2920-2921-2922-2923-2924-2925-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2937-2938-2939-2940-2941-2943-2944-2945-2947-2948-2949-2951-2952-2953-2954-2955-2956-2976-2977-2980-2981-2982-2983-2984-2985-2986-2987-2988-2990-2991-2992-2993-2996-2997-2998-2999-3000-3002-3003-3004-3005-3006",
     "protimiseis": "2890-2891-2839-2840-2892-2933-2934-2935-2929-2930-2940-2928-2844-2845-2945-2936-2937-2938-2939-2927-2904-2956-2905-2917-2906-2907-2992-2980-2981-2982-2983-2984-2985-2986-2987-2988-2990-2991-2848-2910-2913-2925-2841-2920-2954-2951-2952-2912-2998-2999-2914-2915-2919-2922-2842-2923-2924-2941-2931-2932-2944-2947-2949-2950-2853-2921-2955-2849-2847-2977-2946-2993-2996-2911-3003-3002-3004-3005-2856-3000-2850-2874-2916-2881-2871-2873-2863-2865-2882-2883-2884-2885-2838-2942-2872-2880-2877-2878-2879-2943-2886-2888-2852-2889-2976-2854-2997-3006-2948-2953-2909-2864",
     "thesi_diorismou": "2934",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -18331,7 +18331,7 @@
     "vathmologia": 70.42,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 562,
@@ -18669,7 +18669,7 @@
     "theseis_idias_omadas": "3158",
     "protimiseis": "963-968-952-954-965-961-967-959-962-964-966-955-957-956-958-2900-960-953-3016-1202-1203-1204-2898-806-807-793-787-791-794-795-809-800-980-986-1193-3158-2945-2895-2966-2967-942-948-3002-2956-2934-2928-1011-1023-1031",
     "thesi_diorismou": "2945",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -18689,7 +18689,7 @@
     "vathmologia": 69.56,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 573,
@@ -18865,7 +18865,7 @@
     "theseis_idias_omadas": "2873",
     "protimiseis": "2860-3016-3014-2966-2900-2908-2898-3153-2895-3002-2987-2991-2891-2986-2951-2990-2956-2988-2952-2934-2928-2980-2884-3004-2916-2992-3003-3000-2955-2919-2930-2843-2848-2904-2935-2939-2888-2923-2989-2857-2938-2936-2844-2999-2932-2947-2925-2940-2997-2953-2839-2853-2842-2875-3158-2856-2882-3155-2864-2890-2915-2984-2929-2981-2941-2921-2911-2954-2996-2889-2874-2931-2945-2845-3006-2967-2910-2933-2881-2852-2877-2914-2907-2924-2946-2949-3156-2993-2855-2865-2870-2872-2876-2847-2849-2879-2880-2883-2886-2892-2887-2909-2920-2975-2976-2977-3005-2982-2985-2944-2943-2913-2964-2962-2866-2868-2863-2862-2873-2983",
     "thesi_diorismou": "3002",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -18885,7 +18885,7 @@
     "vathmologia": 69.28,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 579,
@@ -19810,7 +19810,7 @@
     "theseis_idias_omadas": "2873",
     "protimiseis": "2844-2845-2838-2874-2882-2940-2883-2884-2885-2886-2931-2911-2913-2914-2920-2921-2922-2930-2938-2944-2947-2873-2842-2853-2980-2875-2876-2878-2879-2877-2871-2941-2881-3156-2843-2846-3158-2847-2932-2933-2934-2935-2936-2937-2939-2946-2943-2945-2953-2952-2956-2951-2981-2977-2986-2987-2988-2989-2990-2991-2992-2984-2985-2993-3002-2904-2908-2909-2918-2923-2924-2925-2927-2929-2976-2979-2982-2983-2954-2955-2912-2915-2916-2917-2928-2948-2949-3155-2849-2848-2850-2854-2872-2880-2994-2996-2997-2998-2999-2856-3000-3003-3004-3005-3006",
     "thesi_diorismou": "2940",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -19830,7 +19830,7 @@
     "vathmologia": 67.08,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 608,
@@ -19843,7 +19843,7 @@
     "theseis_idias_omadas": "2892-2908-2983-2984-2985-2986-2987-2988-2989-2990-2991",
     "protimiseis": "961-958-959-963-968-2986-2987-2988-2990-2989-2991-2984-2985-2892-2983-2908",
     "thesi_diorismou": "2986",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -19863,7 +19863,7 @@
     "vathmologia": 67.0,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 609,
@@ -20429,7 +20429,7 @@
     "theseis_idias_omadas": "2837-2838-2839-2840-2842-2843-2846-2847-2848-2849-2850-2852-2853-2854-2855-3155-3156-3158",
     "protimiseis": "2869-870-868-865-866-871-872-869-867-842-841-839-787-2862-2837-840-2962-1067-1065-1066-864-937-939-940-938-1151-974-1152-1150-1092-1091-1090-1149-2867-2868-862-863-861-860-859-2843-3156-2842-3155-2847-2846-2850-2849-2848-2840-2871-2872-2874-2873-2875-2876-2877-2878-2879-2880-2881-2882-2883-2884-2885-2889-2886-2888-2912-2913-2915-2917-2918-2920-2921-2922-2923-2924-2927-2925-2928-2929-2931-2911-2904-2838-3158-2839-2853-2854-2852-2855-2864-2863-2865-2887-2890-2891-2892-2909-2936-2937-2938-2939-2941-2956-2944-2948-2954-2953-2952-2946-2951-2955-2932-2933-2934-2935-2940-2943",
     "thesi_diorismou": "2888",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -20449,7 +20449,7 @@
     "vathmologia": 65.22,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 627,
@@ -20753,7 +20753,7 @@
     "theseis_idias_omadas": "2838-2839-2840-2842-2843-2846-2847-2848-2849-2850-2852-2853-2854-2855-3155-3156-3158",
     "protimiseis": "2986-2987-2984-2988-2990-2991-2989-2982-2985-2983-2933-2908-2916-2999-2998-3002-2981-2992-2980-2935-2930-2949-2932-2931-2874-2915-2923-2924-2871-2929-2834-2884-2885-2941-2938-2904-2934-2940-2927-2928-2953-2873-2911-3004-3003-2956-2939-2875-2936-2937-2977-2951-2994-2952-2955-2882-2879-2876-2883-2913-2944-3006-2976-2975-2909-2997-2872-2917-2921-2863-2890-2891-2892-2886-2945-2925-2954-2943-2948-2922-2920-2996-2993-3000-2979-2833-2832-2918-2912-2947-2881-2877-2880-2889-2888-2887-2864-2865-2878-2854-3156-2853-2838-3158-2852-2839-2843-2842-2846-2850-2848-2847-2849-2855-3155-2840-2942-2906-2905",
     "thesi_diorismou": "2986",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -20773,7 +20773,7 @@
     "vathmologia": 64.0,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 637,
@@ -20916,7 +20916,7 @@
     "theseis_idias_omadas": "2914-2946",
     "protimiseis": "2919-2910-2914-2946-2857-2843-2987-3002-2991-2986-2990-2988-2956-2952-2928-2934-2980-3000-3003-2992-2916-2955-2884-2930-2989-2904-2923-2935-2939-2997-2999-2936-2938-2940-2953-2996-2853-2981-2984-3155-3158-2908-2911-2915-2925-2929-2932-2941-2947-2954-2839-2890-2875-2882-2855-3005-3006-2852-2975-2976-2977-2982-2983-2985-2993-3156-2847-2849-2907-2909-2913-2920-2924-2931-2933-2943-2944-2945-2949-2891-2892-2872-2874-2876-2877-2879-2881-2883-2886-2863-2865-3014-2950-3004-2951-2848-2998-2842-2917-2921-2854-2979-2994-2846-2850-2912-2918-2841-2922-2927-2937-2948-2840-2838-2871-2885-2873-2880-2888-2889",
     "thesi_diorismou": "2987",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -20936,7 +20936,7 @@
     "vathmologia": 63.78,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 642,
@@ -21146,7 +21146,7 @@
     "theseis_idias_omadas": "2874-2875-2877-2879-2881-2882-2884-2885-2886-2904-2908-2915-2916-2921-2923-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2938-2939-2940-2941-2945-2947-2951-2952-2953-2954-2955-2956-2980-2981-2982-2983-2984-2985-2986-2987-2988-2989-2990-2991-2992-2998-2999-3000-3002-3003-3004-3014",
     "protimiseis": "3014-1189-1195-1196-1192-1194-1193-807-1191-1190-1052-1049-1050-798-1051-2884-2885-2941-2928-2842-2921-2933-2940-2875-790-2877-2983-2988-2989-2984-2985-2982-2990-2986-2987-3155-2954-2991-2934-2947-2945-3158-2852-2882-2838-2953-2927-2916-896-1014-2886-892-882-1045-1031-916-890-899-917-1140-1134-849-1036-880-885-881-1004-1044-1025-1008-1115-1020-894-1013-2843-2915-1029-1019-1012-884-898-797-2938-1007-1010-2981-2931-2935-2932-2936-2951-2952-2956-2923-2930-2904-2908-2848-3000-3002-3003-3004-2992-2999-2998-2980-2939-2929-2853-1011-2881-893-891-877-886-2879-2874-2955-913-2839",
     "thesi_diorismou": "2928",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -21166,7 +21166,7 @@
     "vathmologia": 62.94,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 649,
@@ -21310,7 +21310,7 @@
     "theseis_idias_omadas": "2862-2869-2872-2874-2875-2876-2877-2878-2879-2880-2881-2898-2900-2902-2904-2908-2909-2911-2912-2913-2915-2916-2917-2918-2920-2921-2922-2923-2924-2925-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2937-2938-2939-2940-2941-2943-2944-2945-2947-2948-2951-2952-2953-2954-2955-2956-2966-2967-2996-2997-2998-2999-3000-3002-3005-3006-3013-3016",
     "protimiseis": "2902-973-975-976-2900-2898-2869-3016-2837-2862-3013-2966-2967-2842-2843-2844-2845-2846-2847-2848-2849-2850-2872-2873-2874-2875-2876-2877-2878-2879-2880-2881-2904-2907-2908-2909-2910-2911-2912-2913-2915-2916-2917-2918-2919-2920-2921-2922-2923-2924-2925-2927-2928-2929-2930-2931-2932-2933-2934-2935-2936-2937-2938-2939-2940-2941-2942-2943-2944-2945-2946-2947-2948-2950-2951-2952-2953-2954-2955-2956-2996-2997-2998-2999-3000-3002-3005-3006-974-1150-1151-1152-952-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-1202-1203-1204-984-986-987-988-1096-1097-1098-1099-1073-1076-1077-1078-1079-941-806-1148-1187-1188-865-866-867-868-869-870-871-872-858-789-790-797-798-805-838-840-845-846-849-850-855-856-880-881-882-883-884-885-886-887-888-889-890-891-892-893-894-895-896-897-898-899-991-992-993-994-995-996-997-998-999-1000-1001-1002-1003-1004-1005-1006-1007-1008-1009-1010-1011-1012-1013-1014-1019-1020-1021-1022-1023-1024-1025-1026",
     "thesi_diorismou": "2915",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -21330,7 +21330,7 @@
     "vathmologia": 62.28,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 654,
@@ -21472,7 +21472,7 @@
     "theseis_idias_omadas": "2841-2857",
     "protimiseis": "2870-2895-3014-2866-2868-2869-3153-2837-2898-2962-2964-2973-3013-2862-3016-2838-2839-3006-3004-3003-3002-3000-2999-2998-2997-2996-2994-2993-2992-2991-2990-2989-2988-2987-2986-2985-2984-2981-2980-2956-2955-2954-2953-2952-2951-2947-2941-2940-2939-2938-2937-2936-2935-2933-2932-2930-2929-2925-2923-2922-2921-2920-2919-2918-2917-2916-2915-2914-2913-2912-2911-2910-2909-2908-2907-2906-2905-2904-2900-2892-2890-2888-2840-2841-2842-2844-2845-2846-2847-2848-2849-3158-2850-2852-2853-2855-2871-2872-2875-2877-2878-2856-2857-2891-2934-2843-2860-2861-3155-3156-2854-2864-2865-2867-2873-2874-2876-2944-2966-2967",
     "thesi_diorismou": "3004",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -21492,7 +21492,7 @@
     "vathmologia": 61.69,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 659,
@@ -21571,7 +21571,7 @@
     "theseis_idias_omadas": "2838-2839-2840-2842-2843-2846-2847-2848-2849-2850-2852-2853-2854-3155-3156-3158",
     "protimiseis": "2872-2882-2884-2879-2883-2875-2876-2877-2886-2880-2881-2874-2873-2878-2885-2871-2916-2923-2924-2939-2956-3156-2940-2941-2844-2845-2850-2846-2938-2937-2928-2929-2935-2936-2934-2930-2931-2932-2933-2838-2848-2980-2853-2983-2981-2992-3002-2999-2991-2990-2988-2989-2987-2982-2986-2955-2952-2904-2907-2908-2910-2919-2915-2946-2954-2914-2945-3158-3155-2843-2947-2948-2944-2925-2949-2953-2920-2913-2911-2943-2912-2922-2927-2951-2854-2950-2917-2918-2921-2864-2865-2847-2849-2852-2857-2842-2841-2839-2840-2979-2977-2909",
     "thesi_diorismou": "2923",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -21591,7 +21591,7 @@
     "vathmologia": 60.97,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 662,
@@ -22773,7 +22773,7 @@
     "theseis_idias_omadas": "2965-2966-2967-3013",
     "protimiseis": "2967-1977-1980-1979-2965-2966-3013-2030-1933-1934-1988-1986-1987-1978",
     "thesi_diorismou": "1977",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -22793,7 +22793,7 @@
     "vathmologia": 53.69,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 699,
@@ -23556,7 +23556,7 @@
     "theseis_idias_omadas": "3153",
     "protimiseis": "2957-2854-2849-2844-3153-2895-2869-2848-3158-2904",
     "thesi_diorismou": "2849",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -23576,7 +23576,7 @@
     "vathmologia": 43.39,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 723,
@@ -23752,7 +23752,7 @@
     "theseis_idias_omadas": "2837-2839-2840-2842-2843-2847-2848-2849-2850-2852-2854-2855-3155-3158",
     "protimiseis": "2837-2862-2869-2870-2962-2866-2868-3153-2895-2964-2973-2967-2966-3013-2898-3014-3016-2951-2986-2987-2990-2988-2991-3002-3000-3003-3004-2992-2998-2997-2996-2994-2993-2989-3005-3006-2980-2985-2984-2981-2983-2982-2979-2977-2976-2975-2952-2956-2955-2954-2953-2904-2907-2908-2909-2910-2919-2920-2918-2916-2917-2915-2914-2913-2912-2911-2890-2891-2892-2887-2888-2889-2863-2864-2865-2848-2847-2849-3158-2850-2852-2855-2839-2843-2840-2841-2842-3155-2854-2856-2857-2871-2872-2873-2876-2877-2878-2879-2880-2881-2882-2883-2886-2921-2922-2923-2924-2925-2927-2943-2944-2945-2947-2948-2946-2942-2949-2950-2844-787-838-840-839-841-842-866-867-869-871-870-1152-1151-1150-865-868-872-940-939-938-1067-1065-1071-1072-1100-1101-1102-1103-1104-793-928-929-927-858-859-860-861-863-862-876-875-874-986-987-988-984-951-1187-1188-942-941-807-1189-1191-1192-1193-1194-1195-1196-1076-1078-1077-1073-1079-1096-1097-1098-1099-806-1148-1147-1204-1202-1203-979-980-981-978-789-790-797-798-804-805-843-845-846-847-848-844-849-851-852-853-854-855-856-850-899-908-909-910-911-907-915-916-917-918-919-912-913-914-992-1001-1003-1004-1005-1006-1007-1019",
     "thesi_diorismou": "2951",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -23772,7 +23772,7 @@
     "vathmologia": 39.33,
     "eidikotita": "ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ ΕΙΔ. ΠΕ ΠΛΗΡΟΦΟΡΙΚΗΣ (SOFTWARE-HARDWARE)",
     "slug": "pe-pliroforikis-eid-pe-pliroforikis-software-hardware",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 729,

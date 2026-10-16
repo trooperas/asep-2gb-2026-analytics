@@ -1,72 +1,6 @@
 [
   {
     "aa": 1,
-    "am": "9321.0",
-    "eponymo": "ΚΑΤΖΟΥΡΑΚΗΣ",
-    "onoma": "ΜΙΧΑΗΛ",
-    "patronymo": "ΠΑΝΤΕΛΗΣ",
-    "adt_masked": "***850",
-    "omada_prosonton": "337 -001,013",
-    "theseis_idias_omadas": "2123",
-    "protimiseis": "2122-2123-1205-1206-1209-1207-1208",
-    "thesi_diorismou": "2122",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 172.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2123",
-    "monades_entop": 40.0,
-    "math1": 96.0,
-    "math2": 68.56,
-    "synolo_graptou": 82.28,
-    "seira_klirosis": 1251499.0,
-    "vathmologia": 131.28,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 2,
-    "am": "83.0",
-    "eponymo": "ΛΥΡΩΝΗ",
-    "onoma": "ΜΑΡΙΑ ΑΙΚΑΤΕΡΙΝΗ",
-    "patronymo": "ΒΑΣΙΛΕΙΟΣ ΙΩΑΝΝΗΣ",
-    "adt_masked": "***301",
-    "omada_prosonton": "337 -001,013,021,029",
-    "theseis_idias_omadas": "2122",
-    "protimiseis": "2122-2123-1205-1206-1207-1209-1208-2111-2112-2121",
-    "thesi_diorismou": "2123",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 41.0,
-    "monades_empeirias": 3.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2122",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 68.28,
-    "synolo_graptou": 84.14,
-    "seira_klirosis": 4555812.0,
-    "vathmologia": 131.14,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 3,
     "am": "11291.0",
     "eponymo": "ΤΖΑΒΑΛΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -99,7 +33,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 4,
+    "aa": 2,
     "am": "340.0",
     "eponymo": "ΣΗΜΑΝΤΗΡΑΚΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -131,40 +65,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 5,
-    "am": "12300.0",
-    "eponymo": "ΒΑΓΙΑΚΗΣ",
-    "onoma": "ΙΩΑΝΝΗΣ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***873",
-    "omada_prosonton": "337 -001,013,021,029",
-    "theseis_idias_omadas": "2122",
-    "protimiseis": "2123-2122-1209-809-1208-1206-1207-1205",
-    "thesi_diorismou": "809",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 190.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "2122",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 54.56,
-    "synolo_graptou": 77.28,
-    "seira_klirosis": 2638609.0,
-    "vathmologia": 125.28,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 6,
+    "aa": 3,
     "am": "19732.0",
     "eponymo": "ΚΟΚΚΙΝΟΥ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -197,7 +98,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 4,
     "am": "1951.0",
     "eponymo": "ΜΟΥΚΑΖΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -230,7 +131,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 8,
+    "aa": 5,
     "am": "3417.0",
     "eponymo": "ΜΑΜΜΗ ΓΑΛΑΝΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -262,7 +163,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 9,
+    "aa": 6,
     "am": "10437.0",
     "eponymo": "ΟΙΚΟΝΟΜΟΥ",
     "onoma": "ΣΤΕΡΓΙΟΣ",
@@ -295,7 +196,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
+    "aa": 7,
     "am": "794.0",
     "eponymo": "ΣΤΕΦΑΝΟΠΟΥΛΟΣ",
     "onoma": "ΚΥΡΙΑΚΟΣ",
@@ -328,7 +229,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 11,
+    "aa": 8,
     "am": "11271.0",
     "eponymo": "ΚΑΚΑΡΩΝΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -361,7 +262,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 12,
+    "aa": 9,
     "am": "7380.0",
     "eponymo": "ΠΙΤΕΡΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -394,7 +295,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 10,
     "am": "10849.0",
     "eponymo": "ΑΘΑΝΑΣΟΥΛΙΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -404,7 +305,7 @@
     "theseis_idias_omadas": "2087-2088",
     "protimiseis": "2088-2087-906-905-902-791-979-980-981-903-904",
     "thesi_diorismou": "2088",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -424,10 +325,10 @@
     "vathmologia": 111.25,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 14,
+    "aa": 11,
     "am": "17605.0",
     "eponymo": "ΧΑΛΑΤΣΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -460,40 +361,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 15,
-    "am": "6430.0",
-    "eponymo": "ΚΑΛΑΜΠΑΛΙΚΗ",
-    "onoma": "ΚΑΤΕΡΙΝΑ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***009",
-    "omada_prosonton": "337 -001,013,020",
-    "theseis_idias_omadas": "2091",
-    "protimiseis": "922-921-2092-2091-1126-1127-1125-1160-1166-1164-1165-1162-2114",
-    "thesi_diorismou": "2092",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "3.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 143.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "2091",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 58.78,
-    "synolo_graptou": 79.39,
-    "seira_klirosis": 6323338.0,
-    "vathmologia": 109.39,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 16,
+    "aa": 12,
     "am": "6571.0",
     "eponymo": "ΠΑΛΟΓΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -525,7 +393,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 17,
+    "aa": 13,
     "am": "18768.0",
     "eponymo": "ΜΠΛΟΥΧΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -558,7 +426,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 14,
     "am": "16027.0",
     "eponymo": "ΤΡΙΚΟΥΖΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -590,7 +458,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 19,
+    "aa": 15,
     "am": "1769.0",
     "eponymo": "ΠΑΠΑΚΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -600,7 +468,7 @@
     "theseis_idias_omadas": "2115-2116-2117",
     "protimiseis": "2117-2829-2115-2116-1170-1167-1168-1169",
     "thesi_diorismou": "2117",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -620,43 +488,10 @@
     "vathmologia": 103.47,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 20,
-    "am": "1785.0",
-    "eponymo": "ΚΟΥΓΙΟΥΡΟΥΚΗΣ",
-    "onoma": "ΑΘΑΝΑΣΙΟΣ",
-    "patronymo": "ΝΙΚΟΛΑΟΣ",
-    "adt_masked": "***143",
-    "omada_prosonton": "337 -001,013",
-    "theseis_idias_omadas": "2092-2113-2114",
-    "protimiseis": "1160-922-1166-1162-1163-1161-2114-2113-2092-2091-1164-1165-921",
-    "thesi_diorismou": "1163",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "7",
-    "kod_thesi_entop": "2113- 2114",
-    "monades_entop": 20.0,
-    "math1": 100.0,
-    "math2": 51.22,
-    "synolo_graptou": 75.61,
-    "seira_klirosis": 1256734.0,
-    "vathmologia": 99.61,
-    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
-    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 21,
+    "aa": 16,
     "am": "1975.0",
     "eponymo": "ΜΠΕΘΑΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -689,7 +524,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 22,
+    "aa": 17,
     "am": "917.0",
     "eponymo": "ΑΛΕΥΡΑ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -722,7 +557,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 23,
+    "aa": 18,
     "am": "13077.0",
     "eponymo": "ΡΗΓΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -755,7 +590,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
+    "aa": 19,
     "am": "5570.0",
     "eponymo": "ΚΩΤΣΙΑΡΗ",
     "onoma": "ΕΥΜΟΡΦΙΑ",
@@ -788,7 +623,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 25,
+    "aa": 20,
     "am": "10182.0",
     "eponymo": "ΜΩΡΑIΤΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -821,7 +656,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 26,
+    "aa": 21,
     "am": "15016.0",
     "eponymo": "ΣΤΡΟΥΜΤΣΑΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -854,7 +689,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 27,
+    "aa": 22,
     "am": "5733.0",
     "eponymo": "ΣΚΟΥΤΑ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -887,7 +722,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 28,
+    "aa": 23,
     "am": "3205.0",
     "eponymo": "ΜΙΣΚΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -920,7 +755,73 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 29,
+    "aa": 24,
+    "am": "9321.0",
+    "eponymo": "ΚΑΤΖΟΥΡΑΚΗΣ",
+    "onoma": "ΜΙΧΑΗΛ",
+    "patronymo": "ΠΑΝΤΕΛΗΣ",
+    "adt_masked": "***850",
+    "omada_prosonton": "337 -001,013",
+    "theseis_idias_omadas": "2123",
+    "protimiseis": "2122-2123-1205-1206-1209-1207-1208",
+    "thesi_diorismou": "2122",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 172.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2123",
+    "monades_entop": 40.0,
+    "math1": 96.0,
+    "math2": 68.56,
+    "synolo_graptou": 82.28,
+    "seira_klirosis": 1251499.0,
+    "vathmologia": 91.28,
+    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 25,
+    "am": "83.0",
+    "eponymo": "ΛΥΡΩΝΗ",
+    "onoma": "ΜΑΡΙΑ ΑΙΚΑΤΕΡΙΝΗ",
+    "patronymo": "ΒΑΣΙΛΕΙΟΣ ΙΩΑΝΝΗΣ",
+    "adt_masked": "***301",
+    "omada_prosonton": "337 -001,013,021,029",
+    "theseis_idias_omadas": "2122",
+    "protimiseis": "2122-2123-1205-1206-1207-1209-1208-2111-2112-2121",
+    "thesi_diorismou": "2123",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 41.0,
+    "monades_empeirias": 3.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2122",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 68.28,
+    "synolo_graptou": 84.14,
+    "seira_klirosis": 4555812.0,
+    "vathmologia": 91.14,
+    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 26,
     "am": "5332.0",
     "eponymo": "ΒΛΑΧΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -953,7 +854,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 30,
+    "aa": 27,
     "am": "11023.0",
     "eponymo": "Αντωνιάδου",
     "onoma": "Αικατερίνη",
@@ -986,7 +887,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 31,
+    "aa": 28,
     "am": "3707.0",
     "eponymo": "ΠΑΝΟΥΣΑΚΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -996,7 +897,7 @@
     "theseis_idias_omadas": "2095-2096-2097-2098-2100",
     "protimiseis": "2097-2095-2100-2098-2096-2099",
     "thesi_diorismou": "2095",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1016,10 +917,43 @@
     "vathmologia": 89.42,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
+    "eidikes_idiotites": "ΝΑΙ"
+  },
+  {
+    "aa": 29,
+    "am": "6430.0",
+    "eponymo": "ΚΑΛΑΜΠΑΛΙΚΗ",
+    "onoma": "ΚΑΤΕΡΙΝΑ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***009",
+    "omada_prosonton": "337 -001,013,020",
+    "theseis_idias_omadas": "2091",
+    "protimiseis": "922-921-2092-2091-1126-1127-1125-1160-1166-1164-1165-1162-2114",
+    "thesi_diorismou": "2092",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "3.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 143.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "7",
+    "kod_thesi_entop": "2091",
+    "monades_entop": 20.0,
+    "math1": 100.0,
+    "math2": 58.78,
+    "synolo_graptou": 79.39,
+    "seira_klirosis": 6323338.0,
+    "vathmologia": 89.39,
+    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 32,
+    "aa": 30,
     "am": "11752.0",
     "eponymo": "ΒΑΧΤΣΙΑΒΑΝΟΥ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -1052,7 +986,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 33,
+    "aa": 31,
     "am": "18740.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1085,7 +1019,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 34,
+    "aa": 32,
     "am": "1907.0",
     "eponymo": "ΜΠΛΕΤΣΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1117,7 +1051,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 35,
+    "aa": 33,
     "am": "14293.0",
     "eponymo": "ΣΙΤΡΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ ΣΤΕΦΑΝΙΑ",
@@ -1127,7 +1061,7 @@
     "theseis_idias_omadas": "2099",
     "protimiseis": "2103-2104-2119-2110-2081-2107-2094-2095-2096-2097-2098-2099-2100-2082-2083-2084-1073-1076-1077-1078-1079-1096-1097-1098-1099-1148-1187-1188-984-986-987-988-953-954-955-956-957-958-959-960-961-962-963-964-965-966-967-968-927-928-929-877-899-858-991-992-993-994-995-996-997-998-999-1000-1001-1002-1003-1004-1005-1006-1007-1008-1009-1010-1011-1012-1013-1014-1015-1016-1017-1018-1019-1020-1021-1022-1023-1024-1025-1026-1027-1028-1029-1030-1031-1032-1033-1034-1035-1036-1037-1038-1039-1040-1041-1042-1043-1044-1045-1046-1047-1048-1049-1050-1051-1052-1100-1101-1102-1103-1104",
     "thesi_diorismou": "2081",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1147,10 +1081,10 @@
     "vathmologia": 88.78,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 36,
+    "aa": 34,
     "am": "19415.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΛΑΟΥ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -1183,7 +1117,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 37,
+    "aa": 35,
     "am": "19587.0",
     "eponymo": "ΠΑΠΑΜΑΡΚΟΥ",
     "onoma": "ΕΡΑΣΜΙΑ",
@@ -1216,7 +1150,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 38,
+    "aa": 36,
     "am": "5272.0",
     "eponymo": "ΤΖΑΝΝΗ",
     "onoma": "ΑΣΠΑΣΙΑ",
@@ -1249,7 +1183,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 39,
+    "aa": 37,
     "am": "13034.0",
     "eponymo": "ΛΥΤΡΑ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1281,7 +1215,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 40,
+    "aa": 38,
     "am": "4507.0",
     "eponymo": "ΛΥΚΟΚΑΝΕΛΛΟΣ",
     "onoma": "ΓΙΩΡΓΟΣ",
@@ -1314,7 +1248,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 41,
+    "aa": 39,
     "am": "13008.0",
     "eponymo": "ΕΥΑΓΓΕΛΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -1347,7 +1281,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 42,
+    "aa": 40,
     "am": "2021.0",
     "eponymo": "ΚΟΝΤΟΓΕΩΡΓΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -1380,7 +1314,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 43,
+    "aa": 41,
     "am": "11510.0",
     "eponymo": "ΤΑΣΙΟΥΛΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -1413,7 +1347,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 44,
+    "aa": 42,
+    "am": "12300.0",
+    "eponymo": "ΒΑΓΙΑΚΗΣ",
+    "onoma": "ΙΩΑΝΝΗΣ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***873",
+    "omada_prosonton": "337 -001,013,021,029",
+    "theseis_idias_omadas": "2122",
+    "protimiseis": "2123-2122-1209-809-1208-1206-1207-1205",
+    "thesi_diorismou": "809",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 190.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "2122",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 54.56,
+    "synolo_graptou": 77.28,
+    "seira_klirosis": 2638609.0,
+    "vathmologia": 85.28,
+    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 43,
     "am": "15735.0",
     "eponymo": "ΜΑΛΙΩΚΑ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -1423,7 +1390,7 @@
     "theseis_idias_omadas": "2087-2088-2096-2100-2109-2110-2118",
     "protimiseis": "2516-2503-2506-2517-2515-2513-2514-2502-2509-2501-2505-2500-2504-2508-2511-2507-2677-2733-2736-2734-2118-2706-2704-2487-2590-2732-2490-2488-2492-2110-2682-2680-2679-2109-2676-2678-2491-2489-2731-2705-2087-2088-2449-2451-2096-2099-2100",
     "thesi_diorismou": "2501",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1443,10 +1410,10 @@
     "vathmologia": 85.11,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 45,
+    "aa": 44,
     "am": "16798.0",
     "eponymo": "ΧΑΤΖΗΣΥΜΕΩΝ",
     "onoma": "ΜΑΡΙΑ",
@@ -1479,7 +1446,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 46,
+    "aa": 45,
     "am": "2272.0",
     "eponymo": "ΚΟΛΙΟΓΙΩΡΓΗ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -1512,7 +1479,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 47,
+    "aa": 46,
     "am": "3873.0",
     "eponymo": "Δαμάτη",
     "onoma": "ΑΡΤΕΜΙΣΙΑ",
@@ -1545,7 +1512,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 48,
+    "aa": 47,
     "am": "1775.0",
     "eponymo": "ΜΑΝΙΤΑΡΑ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -1577,7 +1544,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 49,
+    "aa": 48,
     "am": "20147.0",
     "eponymo": "ΜΠΑΡΩΤΑ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -1609,7 +1576,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 50,
+    "aa": 49,
     "am": "909.0",
     "eponymo": "ΒΑΓΓΕΛΗ",
     "onoma": "ΔΗΜΗΤΡΑ ΜΑΡΙΑ",
@@ -1642,7 +1609,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 51,
+    "aa": 50,
     "am": "14010.0",
     "eponymo": "ΚΑΤΗΚΑΡΙΔΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -1675,7 +1642,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 52,
+    "aa": 51,
     "am": "15806.0",
     "eponymo": "ΔΕΜΕΡΤΖΙΔΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1707,7 +1674,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 53,
+    "aa": 52,
     "am": "19550.0",
     "eponymo": "ΚΑΜΠΙΤΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1739,7 +1706,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 54,
+    "aa": 53,
     "am": "4661.0",
     "eponymo": "ΚΑΣΒΙΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1771,7 +1738,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 55,
+    "aa": 54,
     "am": "6159.0",
     "eponymo": "ΑΖΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1803,7 +1770,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 56,
+    "aa": 55,
     "am": "19256.0",
     "eponymo": "ΠΟΥΛΙΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -1835,7 +1802,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 57,
+    "aa": 56,
     "am": "22.0",
     "eponymo": "ΤΣΙΜΝΑΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1867,7 +1834,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 58,
+    "aa": 57,
     "am": "8938.0",
     "eponymo": "ΝΤΟΥΜΑ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -1899,7 +1866,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 59,
+    "aa": 58,
     "am": "20006.0",
     "eponymo": "ΤΖΑΝΕΤΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -1932,7 +1899,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 60,
+    "aa": 59,
     "am": "7113.0",
     "eponymo": "ΜΟΥΤΣΙΟΥΛΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -1965,7 +1932,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 61,
+    "aa": 60,
     "am": "6965.0",
     "eponymo": "ΤΣΙΡΕΜΕ",
     "onoma": "ΑΝΝΑ",
@@ -1997,7 +1964,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 62,
+    "aa": 61,
     "am": "9676.0",
     "eponymo": "ΤΖΟΥΜΑ",
     "onoma": "ΕΥΑΝΘΙΑ",
@@ -2029,7 +1996,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 63,
+    "aa": 62,
     "am": "2681.0",
     "eponymo": "ΚΟΛΛΙΓΡΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2061,7 +2028,7 @@
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
   },
   {
-    "aa": 64,
+    "aa": 63,
     "am": "6940.0",
     "eponymo": "ΠΑΝΑΓΕΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -2091,6 +2058,39 @@
     "vathmologia": 79.97,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos"
+  },
+  {
+    "aa": 64,
+    "am": "1785.0",
+    "eponymo": "ΚΟΥΓΙΟΥΡΟΥΚΗΣ",
+    "onoma": "ΑΘΑΝΑΣΙΟΣ",
+    "patronymo": "ΝΙΚΟΛΑΟΣ",
+    "adt_masked": "***143",
+    "omada_prosonton": "337 -001,013",
+    "theseis_idias_omadas": "2092-2113-2114",
+    "protimiseis": "1160-922-1166-1162-1163-1161-2114-2113-2092-2091-1164-1165-921",
+    "thesi_diorismou": "1163",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "7",
+    "kod_thesi_entop": "2113- 2114",
+    "monades_entop": 20.0,
+    "math1": 100.0,
+    "math2": 51.22,
+    "synolo_graptou": 75.61,
+    "seira_klirosis": 1256734.0,
+    "vathmologia": 79.61,
+    "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 65,
@@ -2362,7 +2362,7 @@
     "theseis_idias_omadas": "2084-2095-2096-2097-2098-2100-2110",
     "protimiseis": "2095-2084-2096-2097-2098-2099-2100-2110-2813-2822-2823",
     "thesi_diorismou": "2084",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2382,7 +2382,7 @@
     "vathmologia": 78.75,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
     "slug": "pe-michanikon-eid-pe-michanikon-perivallontos",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 74,

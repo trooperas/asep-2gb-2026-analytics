@@ -34,39 +34,6 @@
   },
   {
     "aa": 2,
-    "am": "17889.0",
-    "eponymo": "ΠΕΠΠΑΣ",
-    "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
-    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
-    "adt_masked": "***327",
-    "omada_prosonton": "354 -001,018",
-    "theseis_idias_omadas": "2829-3128-3130",
-    "protimiseis": "3129-3130-3128-2829",
-    "thesi_diorismou": "3129",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": null,
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "3128- 3130",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 55.39,
-    "synolo_graptou": 77.69,
-    "seira_klirosis": 9547603.0,
-    "vathmologia": 123.69,
-    "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
-    "slug": "pe-chimikon-eid-pe-chimikon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 3,
     "am": "4401.0",
     "eponymo": "ΜΑΤΘΑΙΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -99,7 +66,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 4,
+    "aa": 3,
     "am": "7852.0",
     "eponymo": "ΜΟΙΡΑ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -132,7 +99,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 5,
+    "aa": 4,
     "am": "1941.0",
     "eponymo": "ΚΥΠΡΑΙΟΥ",
     "onoma": "ΑΝΔΡΙΑΝΑ",
@@ -165,7 +132,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 6,
+    "aa": 5,
     "am": "8634.0",
     "eponymo": "ΦΩΤΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -198,7 +165,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 6,
     "am": "13032.0",
     "eponymo": "ΤΣΙΝΤΖΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -231,7 +198,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 8,
+    "aa": 7,
     "am": "20727.0",
     "eponymo": "ΚΑΡΑΤΖΟΥΝΗ",
     "onoma": "ΓΕΩΡΓΙΑ ΜΑΡΙΑΝΘΗ",
@@ -264,7 +231,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 9,
+    "aa": 8,
     "am": "18057.0",
     "eponymo": "ΤΣΙΚΗ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -297,7 +264,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
+    "aa": 9,
     "am": "20492.0",
     "eponymo": "ΚΟΝΤΟΓΙΑΝΝΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -307,7 +274,7 @@
     "theseis_idias_omadas": "2813-2819-2822-2823-3118-3126",
     "protimiseis": "3126-3127-3118-2819-2813-2822-2823",
     "thesi_diorismou": "3126",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -327,10 +294,10 @@
     "vathmologia": 93.67,
     "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
     "slug": "pe-chimikon-eid-pe-chimikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 11,
+    "aa": 10,
     "am": "11375.0",
     "eponymo": "ΡΟΚΑ",
     "onoma": "ΝΙΚΟΛΕΤΤΑ",
@@ -363,7 +330,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 12,
+    "aa": 11,
     "am": "2941.0",
     "eponymo": "ΖΗΚΑ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -396,7 +363,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 13,
+    "aa": 12,
     "am": "5563.0",
     "eponymo": "ΖΗΣΟΠΟΥΛΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -428,7 +395,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 14,
+    "aa": 13,
     "am": "8694.0",
     "eponymo": "ΔΗΜΗΤΡΙΑΔΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -461,7 +428,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 15,
+    "aa": 14,
     "am": "20339.0",
     "eponymo": "ΚΛΑΔΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -494,7 +461,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 16,
+    "aa": 15,
     "am": "1434.0",
     "eponymo": "ΤΣΙΚΝΑ",
     "onoma": "ΔΙΟΝΥΣΙΑ-ΧΡΥΣΟΒΑΛΑΝΤΟΥ",
@@ -527,7 +494,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 17,
+    "aa": 16,
     "am": "13495.0",
     "eponymo": "ΤΣΑΝΑΣΙΔΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -560,7 +527,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 17,
     "am": "1002.0",
     "eponymo": "ΖΙΩΓΚΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -593,7 +560,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 19,
+    "aa": 18,
     "am": "18210.0",
     "eponymo": "ΣΑΞΩΝΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -626,7 +593,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
+    "aa": 19,
     "am": "20624.0",
     "eponymo": "ΚΟΥΡΤΙΔΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -658,7 +625,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 21,
+    "aa": 20,
     "am": "5183.0",
     "eponymo": "ΠΑΠΠΑ",
     "onoma": "ΧΑΡΑ",
@@ -690,7 +657,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 22,
+    "aa": 21,
     "am": "15707.0",
     "eponymo": "ΖΥΓΟΥΡΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -722,7 +689,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 23,
+    "aa": 22,
     "am": "13611.0",
     "eponymo": "ΜΟΝΕΜΒΑΣΙΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -754,7 +721,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 24,
+    "aa": 23,
     "am": "9015.0",
     "eponymo": "ΜΙΡΚΟΠΟΥΛΟΥ",
     "onoma": "ΖΩΗ ΟΥΡΑΝΙΑ",
@@ -786,7 +753,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 25,
+    "aa": 24,
     "am": "14553.0",
     "eponymo": "ΚΩΒΑΙΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -818,7 +785,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 26,
+    "aa": 25,
     "am": "1132.0",
     "eponymo": "ΠΑΠΑΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -850,7 +817,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 27,
+    "aa": 26,
     "am": "6963.0",
     "eponymo": "ΒΡΟΝΤΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -882,7 +849,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 28,
+    "aa": 27,
     "am": "18101.0",
     "eponymo": "ΣΑΡΑΦΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -915,7 +882,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 29,
+    "aa": 28,
     "am": "12286.0",
     "eponymo": "ΤΣΟΥΚΑΛΙΔΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -947,7 +914,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 30,
+    "aa": 29,
     "am": "3268.0",
     "eponymo": "ΓΡΗΓΟΡΙΑΔΟΥ",
     "onoma": "ΣΤΕΛΛΑ",
@@ -979,7 +946,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 31,
+    "aa": 30,
     "am": "14219.0",
     "eponymo": "ΑΓΑΠΑΛΙΔΗΣ",
     "onoma": "ΙΓΝΑΤΙΟΣ",
@@ -1011,7 +978,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 32,
+    "aa": 31,
     "am": "3481.0",
     "eponymo": "ΣΙΑΦΑΡΙΚΑ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -1043,7 +1010,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 33,
+    "aa": 32,
     "am": "14642.0",
     "eponymo": "ΚΑΡΥΔΑ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -1075,7 +1042,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 34,
+    "aa": 33,
     "am": "19126.0",
     "eponymo": "ΤΕΡΛΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1107,7 +1074,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 35,
+    "aa": 34,
     "am": "8578.0",
     "eponymo": "ΓΙΑΝΝΙΤΣΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1139,7 +1106,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 36,
+    "aa": 35,
     "am": "18400.0",
     "eponymo": "ΑΝΤΩΝΕΛΑΚΗ",
     "onoma": "ΑΝΔΡΙΑΝΗ ΠΑΡΑΣΚΕΥΗ",
@@ -1171,7 +1138,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 37,
+    "aa": 36,
     "am": "13327.0",
     "eponymo": "ΓΙΟΦΤΣΙΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1203,7 +1170,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 38,
+    "aa": 37,
     "am": "2189.0",
     "eponymo": "ΠΟΥΛΟΠΟΥΛΟΥ",
     "onoma": "ΝΙΚΗ",
@@ -1235,7 +1202,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 39,
+    "aa": 38,
     "am": "9595.0",
     "eponymo": "ΜΥΡΙΟΥΝΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ ΜΑΡΙΟΣ",
@@ -1267,7 +1234,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 40,
+    "aa": 39,
     "am": "8929.0",
     "eponymo": "ΕΥΑΓΓΕΛΟΠΟΥΛΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -1299,7 +1266,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 41,
+    "aa": 40,
     "am": "9336.0",
     "eponymo": "ΓΑΡΥΠΙΔΟΥ",
     "onoma": "ΑΝΤΩΝΙΑ",
@@ -1331,7 +1298,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 42,
+    "aa": 41,
     "am": "2833.0",
     "eponymo": "ΞΗΝΤΑΡΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -1363,7 +1330,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 43,
+    "aa": 42,
     "am": "17089.0",
     "eponymo": "ΓΟΥΡΔΟΥΠΗ",
     "onoma": "ΠΑΝΩΡΑΙΑ",
@@ -1395,7 +1362,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 44,
+    "aa": 43,
     "am": "7361.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -1427,7 +1394,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 45,
+    "aa": 44,
     "am": "14055.0",
     "eponymo": "ΤΣΙΠΑ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -1459,7 +1426,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 46,
+    "aa": 45,
     "am": "1102.0",
     "eponymo": "ΣΤΑΜΟΓΙΑΝΝΟΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -1491,7 +1458,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 47,
+    "aa": 46,
     "am": "4866.0",
     "eponymo": "ΚΟΥΤΡΑ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -1524,7 +1491,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 48,
+    "aa": 47,
     "am": "15427.0",
     "eponymo": "ΚΟΥΚΟΥΒΙΤΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -1556,7 +1523,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 49,
+    "aa": 48,
     "am": "1090.0",
     "eponymo": "ΚΑΛΥΒΑ",
     "onoma": "ΖΑΧΑΡΟΥΛΑ",
@@ -1566,7 +1533,7 @@
     "theseis_idias_omadas": "2817-2819-3123",
     "protimiseis": "3122-3123-3124-3125-2819-2817",
     "thesi_diorismou": "3122",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1586,10 +1553,10 @@
     "vathmologia": 86.22,
     "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
     "slug": "pe-chimikon-eid-pe-chimikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 50,
+    "aa": 49,
     "am": "2096.0",
     "eponymo": "ΚΑΡΑΦΕΡΓΙΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -1621,7 +1588,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 51,
+    "aa": 50,
     "am": "3301.0",
     "eponymo": "ΛΑΜΠΡΟΚΩΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΑΓΑΡΙΣΤΗ",
@@ -1653,7 +1620,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 52,
+    "aa": 51,
     "am": "9166.0",
     "eponymo": "ΣΑΡΑΦΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -1685,7 +1652,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 53,
+    "aa": 52,
     "am": "16397.0",
     "eponymo": "ΚΑΚΑΡΕΛΙΔΟΥ",
     "onoma": "ΜΥΡΤΩ",
@@ -1717,7 +1684,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 54,
+    "aa": 53,
     "am": "3577.0",
     "eponymo": "ΜΠΑΤΣΙΛΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1749,7 +1716,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 55,
+    "aa": 54,
     "am": "16213.0",
     "eponymo": "ΚΑΡΚΑΛΙΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -1781,7 +1748,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 56,
+    "aa": 55,
     "am": "15915.0",
     "eponymo": "ΚΟΛΤΣΙΔΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -1813,7 +1780,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 57,
+    "aa": 56,
     "am": "11275.0",
     "eponymo": "ΠΕΡΤΣΕΜΛΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -1845,7 +1812,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 58,
+    "aa": 57,
     "am": "13645.0",
     "eponymo": "ΜΑΡΟΥ",
     "onoma": "ΕΛΙΣΣΑΒΕΤ",
@@ -1877,7 +1844,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 59,
+    "aa": 58,
     "am": "16702.0",
     "eponymo": "ΠΑΓΚΑΛΗ",
     "onoma": "ΒΑΡΒΑΡΑ",
@@ -1909,7 +1876,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 60,
+    "aa": 59,
     "am": "18952.0",
     "eponymo": "ΓΕΡΟΓΙΑΝΝΗ",
     "onoma": "ΒΕΛΙΣΑΡΙΑ ΕΛΕΝΗ",
@@ -1941,7 +1908,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 61,
+    "aa": 60,
     "am": "11753.0",
     "eponymo": "ΚΟΥΡΚΟΥΡΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -1973,7 +1940,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 62,
+    "aa": 61,
     "am": "5641.0",
     "eponymo": "ΛΑΖΑΡΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2005,7 +1972,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 63,
+    "aa": 62,
     "am": "2015.0",
     "eponymo": "ΒΡΕΝΤΖΟΥ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -2037,7 +2004,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 64,
+    "aa": 63,
     "am": "6462.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΥ",
     "onoma": "ΛΕΩΝΗ",
@@ -2069,7 +2036,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 65,
+    "aa": 64,
     "am": "13831.0",
     "eponymo": "ΤΣΑΡΔΑΚΑ",
     "onoma": "ΕΙΡΗΝΗ ΧΡΥΣΑΝΘΗ",
@@ -2101,7 +2068,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 66,
+    "aa": 65,
     "am": "20273.0",
     "eponymo": "ΓΚΙΒΑΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2133,7 +2100,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 67,
+    "aa": 66,
     "am": "9188.0",
     "eponymo": "ΧΑΤΖΗΓΕΩΡΓΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -2165,7 +2132,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 68,
+    "aa": 67,
     "am": "3897.0",
     "eponymo": "ΜΙΧΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -2197,7 +2164,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 69,
+    "aa": 68,
     "am": "7620.0",
     "eponymo": "ΜΑΚΕΔΑΚΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -2229,7 +2196,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 70,
+    "aa": 69,
     "am": "14041.0",
     "eponymo": "ΞΕΡΙΖΩΤΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -2261,7 +2228,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 71,
+    "aa": 70,
     "am": "4856.0",
     "eponymo": "ΒΟΣΝΑΚΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -2271,7 +2238,7 @@
     "theseis_idias_omadas": "3119",
     "protimiseis": "3127-3122-3124-3120-3129-3131-3126-3123-3125-3117-3132-3130-3118-3121-3119-3133-3128-2819-2818-2817-2822-2823-2813-2814-2815-2821-2825-2828-2824-2829-2830-2827-2820-2831-2826-954-955-961-963-965-968-953-957-958-959-967-1148-1147-942-941-1202-1204-1203-987-988-984-986-1023-1025-1013-991-3160-1000-1007-1006-1008-1009-1010-1012-1029-1011-1018-1031-1040-1041-1042-1043-1044-1049-1051-1052-1048-1047-1046-1045-1039-1036-1033-1034-1035-1024-1020-1019-1014-1015-1016-1037-1003-999-998-996-995-1119-1124-1122-1123-1120-1121-1118-1117-1116-1115-1114-1113-1112-1111-919-917-916-918-914-915-913-912-911-910-909-908-907-880-881-882-883-884-885-889-890-892-893-895-896-898-897-899-849-789-790-797-798-804-805-806-843-844-845",
     "thesi_diorismou": "3119",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2291,10 +2258,10 @@
     "vathmologia": 84.42,
     "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
     "slug": "pe-chimikon-eid-pe-chimikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 72,
+    "aa": 71,
     "am": "163.0",
     "eponymo": "ΜΠΟΝΙΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2326,7 +2293,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 73,
+    "aa": 72,
     "am": "16393.0",
     "eponymo": "ΣΚΑΒΑΝΤΖΟΥ",
     "onoma": "ΘΩΜΑΙΣ",
@@ -2358,7 +2325,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 74,
+    "aa": 73,
     "am": "19595.0",
     "eponymo": "ΤΟΥΜΠΕΛΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2390,7 +2357,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 75,
+    "aa": 74,
     "am": "20526.0",
     "eponymo": "ΒΟΓΙΑΤΖΗ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ",
@@ -2422,7 +2389,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 76,
+    "aa": 75,
     "am": "16238.0",
     "eponymo": "ΜΑΝΟΣ",
     "onoma": "ΔΟΝΑΤΟΣ",
@@ -2454,7 +2421,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 77,
+    "aa": 76,
     "am": "3655.0",
     "eponymo": "ΕΥΑΓΓΕΛΙΝΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ ΘΕΟΦΙΛΟΣ",
@@ -2486,7 +2453,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 78,
+    "aa": 77,
     "am": "4485.0",
     "eponymo": "ΚΟΤΣΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -2518,7 +2485,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 79,
+    "aa": 78,
     "am": "788.0",
     "eponymo": "ΝΑΣΙΟΥ",
     "onoma": "ΧΡΥΣΑΝΘΗ",
@@ -2550,7 +2517,7 @@
     "slug": "pe-chimikon-eid-pe-chimikon"
   },
   {
-    "aa": 80,
+    "aa": 79,
     "am": "19562.0",
     "eponymo": "ΣΜΙΛΚΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -2580,6 +2547,39 @@
     "vathmologia": 83.83,
     "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
     "slug": "pe-chimikon-eid-pe-chimikon"
+  },
+  {
+    "aa": 80,
+    "am": "17889.0",
+    "eponymo": "ΠΕΠΠΑΣ",
+    "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+    "patronymo": "ΑΘΑΝΑΣΙΟΣ",
+    "adt_masked": "***327",
+    "omada_prosonton": "354 -001,018",
+    "theseis_idias_omadas": "2829-3128-3130",
+    "protimiseis": "3129-3130-3128-2829",
+    "thesi_diorismou": "3129",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": null,
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 60.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "3128- 3130",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 55.39,
+    "synolo_graptou": 77.69,
+    "seira_klirosis": 9547603.0,
+    "vathmologia": 83.69,
+    "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
+    "slug": "pe-chimikon-eid-pe-chimikon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 81,
@@ -3008,7 +3008,7 @@
     "theseis_idias_omadas": "3120-3121-3122-3124",
     "protimiseis": "3122-3123-3124-3125-3120-3117-3121",
     "thesi_diorismou": "3120",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3028,7 +3028,7 @@
     "vathmologia": 82.56,
     "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
     "slug": "pe-chimikon-eid-pe-chimikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 95,
@@ -3585,7 +3585,7 @@
     "theseis_idias_omadas": "2813-2814-2815-2817-2818-2819-2820-2821-2822-2823-2824-2825-2826-2827-2828-2829-2830-2831-3117-3118-3123-3126-3128-3130-3132",
     "protimiseis": "2821-2828-3117-3122-3124-3120-3127-2819-3123-3126-3131-3129-2824-3132-3130-2830-2826-2829-2822-2823-2813-2815-2825-2817-2831-3121-3118-2818-2814-3128-2827-2820",
     "thesi_diorismou": "2830",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3605,7 +3605,7 @@
     "vathmologia": 81.06,
     "eidikotita": "ΠΕ ΧΗΜΙΚΩΝ ΕΙΔ. ΠΕ ΧΗΜΙΚΩΝ",
     "slug": "pe-chimikon-eid-pe-chimikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 113,

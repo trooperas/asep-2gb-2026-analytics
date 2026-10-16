@@ -10,7 +10,7 @@
     "theseis_idias_omadas": "2041-2042-2043",
     "protimiseis": "2042-2041-2043",
     "thesi_diorismou": "2042",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": "2.0",
@@ -30,7 +30,7 @@
     "vathmologia": 141.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 2,
@@ -142,7 +142,7 @@
     "theseis_idias_omadas": "1909",
     "protimiseis": "1909-951",
     "thesi_diorismou": "1909",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -162,7 +162,7 @@
     "vathmologia": 125.72,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 6,
@@ -241,7 +241,7 @@
     "theseis_idias_omadas": "1907-1908",
     "protimiseis": "1907-1908-2899",
     "thesi_diorismou": "1907",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -261,7 +261,7 @@
     "vathmologia": 116.72,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 9,
@@ -899,7 +899,7 @@
     "theseis_idias_omadas": "1910-1911-1912-1913-1914-1915-1916-1917-1925-1926-1927",
     "protimiseis": "954-968-965-966-964-961-962-963-1910-1926-1913-1927-955-1914-967-957-952-1911-1916-1917-960-2900-1915-1912-1925",
     "thesi_diorismou": "954",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": "5.0",
     "metaptyxiako": null,
@@ -919,7 +919,7 @@
     "vathmologia": 96.25,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 29,
@@ -1853,7 +1853,7 @@
     "theseis_idias_omadas": "1870-1871",
     "protimiseis": "1871-1870",
     "thesi_diorismou": "1870",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1873,7 +1873,7 @@
     "vathmologia": 89.83,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 58,
@@ -1886,7 +1886,7 @@
     "theseis_idias_omadas": "1910-1911-1912-1913-1914-1915-1916-1917-1918-1919-1922-1924-1925-1926-1927",
     "protimiseis": "1925-1912-2900-1914-1910-1927-1926-1913-1916-1917-1911-1915-1919-1922-1923-1924-1918",
     "thesi_diorismou": "1912",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -1906,7 +1906,7 @@
     "vathmologia": 89.17,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 59,
@@ -2084,7 +2084,7 @@
     "theseis_idias_omadas": "1861-1864-1874-1875-1876-1878-1879-1880-1881-1882-1890-1892-1893-1894-1907-1908-1936-1937-1938-1939-1940-1941-1943-1944-1945-1946-1947-1948-1950-1951-1952-1953-1954-1955-1956-1957-1958-1959-1960-1961-1962-1964-1965-1995-1996-1998-1999-2000-2001-2002-2004-2011-2012-2013-2014-2015-2021-2022-2040-2041-2042-2043-3163",
     "protimiseis": "1960-2012-1999-2000-2013-1944-1963-2004-1952-1964-1958-1945-1959-1941-1957-1961-2002-1965-2001-1864-2015-1950-1953-1956-2014-1998-1955-1954-1882-1878-1890-1861-1936-1996-1995-1938-1937-1946-1939-1874-1940-2011-1877-1881-1962-1943-1951-1947-1948-1875-1893-1894-1876-1879-3163-1880-1892-2022-2021-1908-2043-2041-2040-1907-2042",
     "thesi_diorismou": "1960",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2104,7 +2104,7 @@
     "vathmologia": 88.17,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 65,
@@ -2117,7 +2117,7 @@
     "theseis_idias_omadas": "1884-1885-1895-1896-1922-1925-1926-1930-2005-2006-2007-2008-2009",
     "protimiseis": "1896-1895-3008-2005-2006-2007-2008-2009-1930-1884-1885-1925-1922-1923-1926-1877",
     "thesi_diorismou": "1896",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2137,7 +2137,7 @@
     "vathmologia": 87.92,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 66,
@@ -2579,7 +2579,7 @@
     "theseis_idias_omadas": "1869-1870-1871",
     "protimiseis": "2869-1870-1871-1869",
     "thesi_diorismou": "1869",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2599,7 +2599,7 @@
     "vathmologia": 85.08,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 80,
@@ -2612,7 +2612,7 @@
     "theseis_idias_omadas": "1910-1912-1913-1914-1925-1926",
     "protimiseis": "1926-1910-1925-1914-1913-1912",
     "thesi_diorismou": "1913",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2632,7 +2632,7 @@
     "vathmologia": 84.64,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 81,
@@ -2743,7 +2743,7 @@
     "theseis_idias_omadas": "1906-1910-1911-1913-1915-1916-1917-1918-1922-1924-1926-1927-1977-1980",
     "protimiseis": "806-1148-1147-942-1924-1927-2967-1922-1910-1926-1906-1980-967-963-1077-1076-1078-1079-958-965-968-961-966-962-964-2898-1913-1918-1911-1915-1916-1917-954-952-941-1977-1073",
     "thesi_diorismou": "1924",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -2763,7 +2763,7 @@
     "vathmologia": 84.11,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 85,
@@ -3073,7 +3073,7 @@
     "theseis_idias_omadas": "1854-1855-1856-1858-1866-1869-1870-1871-1904-1905",
     "protimiseis": "1871-1869-1870-1904-1905-1854-1858-1855-1856-1866",
     "thesi_diorismou": "1904",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -3093,7 +3093,7 @@
     "vathmologia": 82.56,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 95,
@@ -3138,7 +3138,7 @@
     "theseis_idias_omadas": "1910-1911-1912-1913-1914-1915-1916-1917-1918-1919-1924-1925-1926-1927-2038-2039",
     "protimiseis": "1925-1912-1914-1926-1910-1913-1927-1911-1916-1917-1915-1919-2039-2038-1924-1918",
     "thesi_diorismou": "1911",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3158,7 +3158,7 @@
     "vathmologia": 81.61,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 97,
@@ -4125,7 +4125,7 @@
     "theseis_idias_omadas": "1933-1934-1977-1978-1979-1980-1986-1987-1988-2030",
     "protimiseis": "2967-1980-1977-2966-2965-1978-1986-1988-1933-1934-1979-3013-2030-1987",
     "thesi_diorismou": "1978",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4145,7 +4145,7 @@
     "vathmologia": 76.22,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 127,
@@ -4190,7 +4190,7 @@
     "theseis_idias_omadas": "1859-1860-1862-1864-1865-1876-1879-1880-1883-1886-1887-1891-1892-1893-1894-1936-1937-1938-1939-1940-1941-1942-1943-1945-1946-1947-1950-1952-1953-1955-1957-1958-1961-1962-1964-1966-1988-1999-2002-2004-2012-2014-2015-2016-3163",
     "protimiseis": "2015-1962-2002-1961-1950-1943-1946-1945-1864-2014-1957-1936-1942-1988-1947-1887-1886-1958-1952-1953-1999-2012-2004-1862-1865-1892-1937-1938-1940-1879-3163-1880-1964-1876-1883-1966-1955-1893-1894-1941-1939-1891-2016-1859-1860",
     "thesi_diorismou": "2015",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -4210,7 +4210,7 @@
     "vathmologia": 75.39,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 129,
@@ -4322,7 +4322,7 @@
     "theseis_idias_omadas": "1860-1861-1864-1865-1874-1876-1878-1879-1881-1883-1945-1950-1953-1957-1961-1964-3163",
     "protimiseis": "1876-1879-3163-1883-1881-1865-1874-1878-1864-1860-1945-1950-1953-1957-1961-1964-1861",
     "thesi_diorismou": "1876",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4342,7 +4342,7 @@
     "vathmologia": 73.69,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 133,
@@ -4355,7 +4355,7 @@
     "theseis_idias_omadas": "1895-1896-2023",
     "protimiseis": "2023-1896-1895",
     "thesi_diorismou": "2023",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -4375,7 +4375,7 @@
     "vathmologia": 73.31,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 134,
@@ -4519,7 +4519,7 @@
     "theseis_idias_omadas": "1859-1861-1864-1865-1874-1878-1879-1882-1936-1937-1938-1939-1941-1942-1943-1944-1945-1946-1950-1951-1952-1953-1954-1955-1956-1957-1958-1959-1961-1962",
     "protimiseis": "1937-1936-1941-1951-1945-1944-1946-1950-1952-1942-1943-1938-1939-1953-1954-1955-1956-1957-1958-1959-1961-1962-1859-1874-1878-1879-1882-1861-1864-1865",
     "thesi_diorismou": "1936",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -4539,7 +4539,7 @@
     "vathmologia": 68.67,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 139,
@@ -4911,7 +4911,7 @@
     "theseis_idias_omadas": "1877",
     "protimiseis": "2030-1977-1980-1933-2004-1999-2000-1863-1862-1861-1998-1873-2013-2015-1958-1944-1910-1922-1923-1915-1916-1917-1919-1924-1918-1979-1927-1926-1906-1963-1964-1965-1960-1957-1956-1952-1953-1954-1955-1951-1945-1947-1948-1943-1890-1882-1877-1878-1950-1941",
     "thesi_diorismou": "1999",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -4931,7 +4931,7 @@
     "vathmologia": 59.28,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 151,
@@ -5074,7 +5074,7 @@
     "theseis_idias_omadas": "1933-1934-1977-1978-1979-1980-1986-1987-1988-2030",
     "protimiseis": "2967-1977-1980-1979-2965-2966-3013-2030-1933-1934-1988-1986-1987-1978",
     "thesi_diorismou": "1977",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -5094,6 +5094,6 @@
     "vathmologia": 53.69,
     "eidikotita": "ΠΕ ΜΗΧΑΝΙΚΩΝ ΕΙΔ. ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
     "slug": "pe-michanikon-eid-pe-ilektrologon-michanikon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   }
 ]

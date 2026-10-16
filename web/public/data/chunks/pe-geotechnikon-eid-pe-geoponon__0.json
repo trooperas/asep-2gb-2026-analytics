@@ -34,39 +34,6 @@
   },
   {
     "aa": 2,
-    "am": "6603.0",
-    "eponymo": "ΑΡΑΜΠΑΤΖΗΣ",
-    "onoma": "ΘΕΟΔΩΡΟΣ",
-    "patronymo": "ΛΑΜΠΡΟΣ",
-    "adt_masked": "***954",
-    "omada_prosonton": "305 -001,003",
-    "theseis_idias_omadas": "480-485-486-495-496-497-505-513-524-526-540",
-    "protimiseis": "923-486-921-485-924-513-505-524-526-480-495-497-496-980-981-979-1000-1079-1098-540-884-886-962-958-1029-1078-1077",
-    "thesi_diorismou": "923",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 60.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "486",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 74.0,
-    "synolo_graptou": 87.0,
-    "seira_klirosis": 7589012.0,
-    "vathmologia": 136.0,
-    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
-    "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 3,
     "am": "4647.0",
     "eponymo": "ΑΙΝΑΛΙΔΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -99,7 +66,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 4,
+    "aa": 3,
     "am": "6801.0",
     "eponymo": "ΛΑΖΑΡΙΔΗΣ",
     "onoma": "ΘΕΟΦΙΛΟΣ",
@@ -132,7 +99,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 5,
+    "aa": 4,
     "am": "13983.0",
     "eponymo": "ΚΟΥΝΕΛΗΣ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -165,7 +132,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 6,
+    "aa": 5,
     "am": "7074.0",
     "eponymo": "ΛΙΑΚΑΚΗΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ",
@@ -198,7 +165,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 7,
+    "aa": 6,
     "am": "19096.0",
     "eponymo": "ΜΑΚΡΗ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -231,40 +198,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 8,
-    "am": "9992.0",
-    "eponymo": "ΛΕΛΕΚΗ",
-    "onoma": "ΜΑΡΙΑ",
-    "patronymo": "ΧΡΗΣΤΟΣ",
-    "adt_masked": "***517",
-    "omada_prosonton": "305 -001,003",
-    "theseis_idias_omadas": "488-489-507-508",
-    "protimiseis": "508-507-1063-1060-1059-489-488",
-    "thesi_diorismou": "1059",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "507- 508",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 73.22,
-    "synolo_graptou": 86.61,
-    "seira_klirosis": 6350418.0,
-    "vathmologia": 130.61,
-    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
-    "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 9,
+    "aa": 7,
     "am": "17625.0",
     "eponymo": "ΚΑΜΠΟΥΡΑΚΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -297,7 +231,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 10,
+    "aa": 8,
     "am": "5463.0",
     "eponymo": "ΝΙΚΟΛΑΙΔΟΥ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -330,7 +264,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 11,
+    "aa": 9,
     "am": "17641.0",
     "eponymo": "ΕΜΜΑΝΟΥΗΛ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -340,7 +274,7 @@
     "theseis_idias_omadas": "517-518",
     "protimiseis": "518-517",
     "thesi_diorismou": "518",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -360,10 +294,10 @@
     "vathmologia": 129.31,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 12,
+    "aa": 10,
     "am": "17481.0",
     "eponymo": "ΑΡΓΥΡΟΠΟΥΛΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -373,7 +307,7 @@
     "theseis_idias_omadas": "472-474-475-476-477-478-479-481-482-485-487-488-489-490-492-493-494-495-496-497-498-499-500-502-506-507-508-509-510-511-512-513-514-515-516-518-519-525-526-527-528-529-530-531-532-533-535-536-537-538-539-540-541-542",
     "protimiseis": "507-506-508-1063-1062-1064-1060-1058-1061-1059-481-495-538-488-489-493-494-496-497-499-500-513-535-541-540-475-472-477-476-474-527-502-537-536-479-478-487-498-509-510-539-511-512-514-492-491-490-485-482-519-530-532-531-533-542-901-900-989-990-941-525-526-518-942-965-966-967-968-964-952-953-961-962-958-956-954-959-955-957-960-963-806-793-788-787-1148-1147-1146-1145-1144-974-973-976-975-1055-1056-1054-1053-1073-1078-1077-1152-1150-1151-529-528-515-516-838-840-839-807-794-1099-1098-1177-1176-1187-1188-1195",
     "thesi_diorismou": "506",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -393,10 +327,10 @@
     "vathmologia": 129.22,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 13,
+    "aa": 11,
     "am": "6444.0",
     "eponymo": "ΓΕΩΡΓΙΑΔΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -406,7 +340,7 @@
     "theseis_idias_omadas": "481-488-489-493-494-495-496-497-502-506-507-508-527-538",
     "protimiseis": "538-507-508-527-481-489-488-506-502-497-495-496-493-494",
     "thesi_diorismou": "538",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -426,10 +360,10 @@
     "vathmologia": 128.72,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 14,
+    "aa": 12,
     "am": "9370.0",
     "eponymo": "ΒΟΥΓΑΝΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -461,7 +395,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 15,
+    "aa": 13,
     "am": "11764.0",
     "eponymo": "ΣΙΣΤΑΝΗΣ",
     "onoma": "ΙΩΣΗΦ",
@@ -493,7 +427,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 16,
+    "aa": 14,
     "am": "5358.0",
     "eponymo": "ΠΑΠΟΥΤΣΗ",
     "onoma": "ΝΙΚΗ",
@@ -526,7 +460,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 17,
+    "aa": 15,
     "am": "11593.0",
     "eponymo": "ΠΟΛΥΖΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -559,7 +493,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 18,
+    "aa": 16,
     "am": "3053.0",
     "eponymo": "ΓΚΙΟΚΑΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -592,7 +526,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 19,
+    "aa": 17,
     "am": "7689.0",
     "eponymo": "ΠΑΠΑΙΩΑΝΝΟΥ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -625,7 +559,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 20,
+    "aa": 18,
     "am": "10340.0",
     "eponymo": "ΚΟΥΣΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -657,7 +591,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 21,
+    "aa": 19,
     "am": "3323.0",
     "eponymo": "ΘΕΟΔΟΣΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -690,7 +624,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 22,
+    "aa": 20,
     "am": "6545.0",
     "eponymo": "ΚΑΡΑΣΑΒΒΙΔΗΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -723,7 +657,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 23,
+    "aa": 21,
     "am": "1011.0",
     "eponymo": "ΨΩΜΑΔΕΛΛΗΣ",
     "onoma": "ΡΑΦΑΗΛ ΝΙΚΟΛΑΟΣ",
@@ -756,40 +690,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 24,
-    "am": "19765.0",
-    "eponymo": "ΓΟΥΜΕΝΑΚΗ",
-    "onoma": "ΦΩΤΕΙΝΗ",
-    "patronymo": "ΓΕΩΡΓΙΟΣ",
-    "adt_masked": "***231",
-    "omada_prosonton": "305 -001,003",
-    "theseis_idias_omadas": "528-529",
-    "protimiseis": "529-528-1159-1158-1153-1157-1154-1155",
-    "thesi_diorismou": "1157",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 149.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "529",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 54.34,
-    "synolo_graptou": 77.17,
-    "seira_klirosis": 1815159.0,
-    "vathmologia": 126.17,
-    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
-    "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 25,
+    "aa": 22,
     "am": "17817.0",
     "eponymo": "ΛΥΜΠΕΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -822,7 +723,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 26,
+    "aa": 23,
     "am": "11692.0",
     "eponymo": "ΓΑΡΟΦΑΛΑΚΗ",
     "onoma": "ΕΜΜΑΝΟΥΕΛΑ",
@@ -832,7 +733,7 @@
     "theseis_idias_omadas": "514-515",
     "protimiseis": "515-514",
     "thesi_diorismou": "515",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -852,10 +753,10 @@
     "vathmologia": 125.81,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 27,
+    "aa": 24,
     "am": "16764.0",
     "eponymo": "ΤΖΙΩΡΤΖΙΩΤΗ",
     "onoma": "ΖΩΗ",
@@ -888,40 +789,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 28,
-    "am": "19125.0",
-    "eponymo": "ΑΝΔΡΩΝΟΣ",
-    "onoma": "ΑΘΑΝΑΣΙΟΣ",
-    "patronymo": "ΛΟΥΚΑΣ",
-    "adt_masked": "***674",
-    "omada_prosonton": "305 -001,003",
-    "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-483-487-498-499-500-503-504-505-509-510-511-512-513-519-522-523-524-525-526-535-536-537-539",
-    "protimiseis": "539-480-473-503-504-505-522-523-524-483-484-525-526-476-477-509-510-474-519-511-512-487-478-479-536-537-499-500-498-513-535-472-475-877-880-881-882-883-884-885-886-887-888-889-890-891-892-893-894-895-896-897-898-899-1004-845-846-855-856-851-847-1197-1198-1199-1201-865-866-867-868-869-870-871-872-937-938-939-940-1065-1067-1089-1091-1092-1093-1094-1195-1196-991-995-996-997-999-1000-1002-1003-1005-1007-1009-1010-1013-1016-1019-1021-1023-1025-1026-1028-1029-1030-1031-1034-1036-1037-1038-1039-1040-1041-1042-1045-1048-1050-1051-1052-1011-1012-1014-1015-1017-1018-1020-1022-1137-907-909-910-916-917-919-1046-1044-1043-1035-1032-1033-1027-1024-1008-1006-1001-998-842-994-993-992",
-    "thesi_diorismou": "1199",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": "2.0",
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": null,
-    "deuteri_xeni": null,
-    "minas_empeirias": 100.0,
-    "monades_empeirias": 5.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "539",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 55.11,
-    "synolo_graptou": 77.56,
-    "seira_klirosis": 1549014.0,
-    "vathmologia": 125.56,
-    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
-    "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 29,
+    "aa": 25,
     "am": "330.0",
     "eponymo": "ΔΙΑΜΑΝΤΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -931,7 +799,7 @@
     "theseis_idias_omadas": "480-483-503-504-505-520-522-523-525-526-534",
     "protimiseis": "520-504-505-503-480-483-484-522-523-534-525-526",
     "thesi_diorismou": "520",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -951,10 +819,10 @@
     "vathmologia": 125.42,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 30,
+    "aa": 26,
     "am": "16686.0",
     "eponymo": "ΜΑΓΟΥ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -987,7 +855,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 31,
+    "aa": 27,
     "am": "4788.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΟΥΡΑ",
     "onoma": "ΣΟΦΙΑ",
@@ -1020,7 +888,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 32,
+    "aa": 28,
     "am": "4720.0",
     "eponymo": "ΔΟΚΑΛΟΥ",
     "onoma": "ΖΗΝΟΒΙΑ",
@@ -1052,7 +920,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 33,
+    "aa": 29,
     "am": "10415.0",
     "eponymo": "ΒΟΓΙΑΤΖΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -1085,7 +953,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 34,
+    "aa": 30,
     "am": "7014.0",
     "eponymo": "ΜΠΟΥΛΟΚΩΣΤΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -1117,7 +985,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 35,
+    "aa": 31,
     "am": "13394.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -1149,7 +1017,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 36,
+    "aa": 32,
     "am": "6233.0",
     "eponymo": "ΠΑΠΑΖΑΦΕΙΡΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -1182,7 +1050,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 37,
+    "aa": 33,
     "am": "18199.0",
     "eponymo": "ΒΑΡΤΖΙΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1214,40 +1082,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 38,
-    "am": "5662.0",
-    "eponymo": "ΓΙΑΚΟΥΜΑΚΗ",
-    "onoma": "ΑΦΡΟΔΙΤΗ",
-    "patronymo": "ΠΑΝΤΕΛΗΣ",
-    "adt_masked": "***787",
-    "omada_prosonton": "305 -001,003",
-    "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
-    "protimiseis": "529-528-1159-1153-1157-1154-1155-1158-542-492-490-514-516-515-535-809-1205-1206-1207-1208-1209-945-943-944-946-947-948-949-950-794-795-1081-1080-483-484-523-522-524-525-526-505-504-503-480-473-531-532-493-494-495-496-497-955-1040-1085-1086-1087-1088-498-499-500-474-477-509-510-511-512-519-513-487-481-476-501-502-479-478-472-517-518-527-540-541-536-537-539-475-482-488-489-506-507-508-538-530-485-486-520-521-533-534",
-    "thesi_diorismou": "1157",
-    "idiotita": "",
-    "pinakas": "Κύριος",
-    "didaktoriko": null,
-    "metaptyxiako": null,
-    "enigaios_metaptyxiakos": "1",
-    "xeni_glossa": "1.0",
-    "deuteri_xeni": null,
-    "minas_empeirias": 0.0,
-    "monades_empeirias": 0.0,
-    "vevaiosi_kdbm": "0.0",
-    "kod_entopiotitas": "6",
-    "kod_thesi_entop": "529",
-    "monades_entop": 40.0,
-    "math1": 100.0,
-    "math2": 62.89,
-    "synolo_graptou": 81.44,
-    "seira_klirosis": 3886184.0,
-    "vathmologia": 123.44,
-    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
-    "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
-  },
-  {
-    "aa": 39,
+    "aa": 34,
     "am": "18682.0",
     "eponymo": "ΜΑΛΑΝΔΡΑΚΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -1279,7 +1114,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 40,
+    "aa": 35,
     "am": "9400.0",
     "eponymo": "ΧΑΡΙΖΟΥΛΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -1311,7 +1146,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 41,
+    "aa": 36,
     "am": "6140.0",
     "eponymo": "ΣΑΡΑΦΕΡΑ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -1343,7 +1178,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 42,
+    "aa": 37,
     "am": "20530.0",
     "eponymo": "ΣΠΑΝΑΚΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1375,7 +1210,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 43,
+    "aa": 38,
     "am": "3667.0",
     "eponymo": "ΓΚΟΥΡΓΚΟΥΤΑ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -1407,7 +1242,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 44,
+    "aa": 39,
     "am": "17758.0",
     "eponymo": "ΣΑΡΙΔΑΚΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -1439,7 +1274,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 45,
+    "aa": 40,
     "am": "16174.0",
     "eponymo": "ΠΑΓΟΥΛΑΤΟΥ",
     "onoma": "ΜΑΡΙΑΝΘΗ",
@@ -1471,7 +1306,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 46,
+    "aa": 41,
     "am": "8741.0",
     "eponymo": "ΣΠΑΝΙΔΟΥ",
     "onoma": "ΟΛΥΜΠΙΑ",
@@ -1503,7 +1338,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 47,
+    "aa": 42,
     "am": "13030.0",
     "eponymo": "ΜΗΤΑΚΙΔΟΥ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -1535,7 +1370,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 48,
+    "aa": 43,
     "am": "3728.0",
     "eponymo": "ΒΑΧΤΣΕΒΑΝΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1567,7 +1402,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 49,
+    "aa": 44,
     "am": "17090.0",
     "eponymo": "ΜΑΡΑΓΚΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -1599,7 +1434,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 50,
+    "aa": 45,
     "am": "14540.0",
     "eponymo": "ΠΙΛΤΣΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -1632,7 +1467,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 51,
+    "aa": 46,
     "am": "14653.0",
     "eponymo": "ΜΠΙΖΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -1664,7 +1499,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 52,
+    "aa": 47,
     "am": "4137.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1696,7 +1531,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 53,
+    "aa": 48,
     "am": "4537.0",
     "eponymo": "ΓΑΝΤΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -1729,7 +1564,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 54,
+    "aa": 49,
     "am": "8053.0",
     "eponymo": "ΜΠΙΚΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -1762,7 +1597,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 55,
+    "aa": 50,
     "am": "8329.0",
     "eponymo": "ΜΑΡΚΟΥ",
     "onoma": "ΣΠΥΡΟΣ",
@@ -1794,7 +1629,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 56,
+    "aa": 51,
     "am": "19889.0",
     "eponymo": "ΓΙΑΝΝΟΥΛΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -1827,7 +1662,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 57,
+    "aa": 52,
     "am": "13362.0",
     "eponymo": "ΓΕΩΡΓΙΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -1860,7 +1695,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 58,
+    "aa": 53,
     "am": "977.0",
     "eponymo": "ΓΚΡΕΣΤΑΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -1870,7 +1705,7 @@
     "theseis_idias_omadas": "475-485-486-530",
     "protimiseis": "530-1166-1164-1162-1165-1161-1163-1160-485-1127-1126-1125-922-921-486-979-978-977-980-981-974-976-973-975-475-788",
     "thesi_diorismou": "530",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -1890,10 +1725,10 @@
     "vathmologia": 108.61,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 59,
+    "aa": 54,
     "am": "16559.0",
     "eponymo": "ΕΥΓΕΝΙΔΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -1925,7 +1760,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 60,
+    "aa": 55,
     "am": "4765.0",
     "eponymo": "ΘΕΟΧΑΡΟΠΟΥΛΟΥ",
     "onoma": "ΙΩΑΝΝΑ ΜΑΡΙΑ",
@@ -1957,7 +1792,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 61,
+    "aa": 56,
     "am": "2488.0",
     "eponymo": "ΖΟΥΝΤΟΥΡΙΑΔΟΥ",
     "onoma": "ΕΥΔΟΞΙΑ",
@@ -1989,7 +1824,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 62,
+    "aa": 57,
     "am": "18909.0",
     "eponymo": "ΧΑΤΖΗΜΙΧΑΗΛ",
     "onoma": "ΑΡΓΥΡΟΥΛΑ",
@@ -2022,7 +1857,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 63,
+    "aa": 58,
     "am": "19042.0",
     "eponymo": "ΚΑΜΠΑΝΤΑΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2055,7 +1890,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 64,
+    "aa": 59,
     "am": "419.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΙΔΟΥ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -2087,7 +1922,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 65,
+    "aa": 60,
     "am": "13879.0",
     "eponymo": "ΤΕΡΖΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2119,7 +1954,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 66,
+    "aa": 61,
     "am": "10832.0",
     "eponymo": "ΣΟΥΒΑΤΖΗ",
     "onoma": "ΕΥΘΑΛΙΑ",
@@ -2151,7 +1986,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 67,
+    "aa": 62,
     "am": "10952.0",
     "eponymo": "ΧΡΙΣΤΟΦΟΡΑΚΗ",
     "onoma": "ΣΟΦΙΑ",
@@ -2183,7 +2018,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 68,
+    "aa": 63,
     "am": "14709.0",
     "eponymo": "ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ",
     "onoma": "ΑΡΙΣΤΟΜΕΝΗΣ",
@@ -2216,7 +2051,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 69,
+    "aa": 64,
     "am": "13273.0",
     "eponymo": "ΔΕΛΛΑ",
     "onoma": "ΑΝΘΟΥΛΑ",
@@ -2226,7 +2061,7 @@
     "theseis_idias_omadas": "488-489",
     "protimiseis": "489-488-941",
     "thesi_diorismou": "489",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2246,10 +2081,10 @@
     "vathmologia": 100.94,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 70,
+    "aa": 65,
     "am": "114.0",
     "eponymo": "ΣΑΡΑΦΗ",
     "onoma": "ΕΛΕΑΝΑ",
@@ -2282,7 +2117,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 71,
+    "aa": 66,
     "am": "4551.0",
     "eponymo": "ΧΡΗΣΤΟΥΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -2314,7 +2149,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 72,
+    "aa": 67,
     "am": "1550.0",
     "eponymo": "ΣΤΑΥΡΟΠΟΥΛΟΥ",
     "onoma": "ΑΜΑΛΙΑ",
@@ -2346,7 +2181,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 73,
+    "aa": 68,
     "am": "19021.0",
     "eponymo": "ΚΑΤΣΙΜΠΡΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -2378,7 +2213,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 74,
+    "aa": 69,
     "am": "12353.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΑΡΤΕΜΙΣ",
@@ -2411,7 +2246,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 75,
+    "aa": 70,
     "am": "7012.0",
     "eponymo": "ΜΕΖΙΔΟΥ",
     "onoma": "ΣΤΥΛΙΑΝΗ ΣΤΕΛΛΑ",
@@ -2444,7 +2279,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 76,
+    "aa": 71,
     "am": "18039.0",
     "eponymo": "ΤΖΙΩΛΑΣ",
     "onoma": "ΕΜΜΑΝΟΥΗΛ",
@@ -2477,7 +2312,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 77,
+    "aa": 72,
     "am": "12882.0",
     "eponymo": "ΦΥΝΤΑΝΙΔΟΥ",
     "onoma": "ΧΡΥΣΗ",
@@ -2510,7 +2345,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 78,
+    "aa": 73,
     "am": "8666.0",
     "eponymo": "ΛΕΒΕΝΤΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -2543,7 +2378,40 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 79,
+    "aa": 74,
+    "am": "6603.0",
+    "eponymo": "ΑΡΑΜΠΑΤΖΗΣ",
+    "onoma": "ΘΕΟΔΩΡΟΣ",
+    "patronymo": "ΛΑΜΠΡΟΣ",
+    "adt_masked": "***954",
+    "omada_prosonton": "305 -001,003",
+    "theseis_idias_omadas": "480-485-486-495-496-497-505-513-524-526-540",
+    "protimiseis": "923-486-921-485-924-513-505-524-526-480-495-497-496-980-981-979-1000-1079-1098-540-884-886-962-958-1029-1078-1077",
+    "thesi_diorismou": "923",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 60.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "486",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 74.0,
+    "synolo_graptou": 87.0,
+    "seira_klirosis": 7589012.0,
+    "vathmologia": 96.0,
+    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
+    "slug": "pe-geotechnikon-eid-pe-geoponon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 75,
     "am": "19136.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -2576,7 +2444,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 80,
+    "aa": 76,
     "am": "12134.0",
     "eponymo": "ΓΑΛΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -2609,7 +2477,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 81,
+    "aa": 77,
     "am": "12338.0",
     "eponymo": "ΜΠΟΥΛΟΥΜΠΑΣΗ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -2642,7 +2510,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 82,
+    "aa": 78,
     "am": "9549.0",
     "eponymo": "ΔΕΜΙΡΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ",
@@ -2675,7 +2543,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 83,
+    "aa": 79,
     "am": "17264.0",
     "eponymo": "ΤΣΟΤΡΑ",
     "onoma": "ΑΛΕΞΙΑ",
@@ -2707,7 +2575,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 84,
+    "aa": 80,
     "am": "9803.0",
     "eponymo": "ΘΕΟΛΟΓΙΔΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -2740,7 +2608,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 85,
+    "aa": 81,
     "am": "13121.0",
     "eponymo": "ΖΑΦΕΙΡΙΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -2773,7 +2641,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 86,
+    "aa": 82,
     "am": "6810.0",
     "eponymo": "ΘΕΟΧΑΡΙΔΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -2806,7 +2674,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 87,
+    "aa": 83,
     "am": "16797.0",
     "eponymo": "ΦΡΑΓΚΟΣ",
     "onoma": "ΦΩΤΙΟΣ",
@@ -2839,7 +2707,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 88,
+    "aa": 84,
     "am": "5803.0",
     "eponymo": "ΚΑΤΣΙΒΕΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -2872,7 +2740,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 89,
+    "aa": 85,
     "am": "20069.0",
     "eponymo": "ΚΑΛΦΟΥΝΤΖΟΥ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -2882,7 +2750,7 @@
     "theseis_idias_omadas": "499-500-513-535",
     "protimiseis": "513-499-500-535",
     "thesi_diorismou": "499",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -2902,10 +2770,10 @@
     "vathmologia": 93.92,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 90,
+    "aa": 86,
     "am": "8657.0",
     "eponymo": "ΓΑΤΣΙΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -2938,7 +2806,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 91,
+    "aa": 87,
     "am": "12328.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -2971,7 +2839,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 92,
+    "aa": 88,
     "am": "8690.0",
     "eponymo": "ΛΙΟΛΙΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -3004,7 +2872,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 93,
+    "aa": 89,
     "am": "13233.0",
     "eponymo": "ΜΑΝΤΖΑΡΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3037,7 +2905,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 94,
+    "aa": 90,
     "am": "6526.0",
     "eponymo": "ΚΟΥΚΟΥΛΗ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -3070,7 +2938,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 95,
+    "aa": 91,
     "am": "17767.0",
     "eponymo": "ΤΣΑΛΙΚΗ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -3103,7 +2971,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 96,
+    "aa": 92,
     "am": "19070.0",
     "eponymo": "ΚΙΤΣΟΥΛΗ",
     "onoma": "ΑΓΑΘΗ",
@@ -3135,7 +3003,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 97,
+    "aa": 93,
     "am": "15331.0",
     "eponymo": "ΑΜΑΡΑΝΤΙΔΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -3168,7 +3036,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 98,
+    "aa": 94,
     "am": "10841.0",
     "eponymo": "ΣΚΑΛΙΑΠΑΣ",
     "onoma": "ΧΡΗΣΤΟΣ ΑΡΙΣΤΕΙΔΗΣ",
@@ -3201,7 +3069,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 99,
+    "aa": 95,
     "am": "20613.0",
     "eponymo": "ΚΟΤΕΛΗ",
     "onoma": "ΔΕΣΠΟΙΝΑ ΑΝΝΑ",
@@ -3211,7 +3079,7 @@
     "theseis_idias_omadas": "475-478-479-481-482-485-488-489-493-494-495-496-497-498-499-500-502-506-507-508-513-527-530-535-536-537-538-540-541",
     "protimiseis": "1057-942-958-959-967-968-963-952-496-497-956-954-961-964-965-941-527-1144-1145-1146-489-488-806-1148-957-955-495-494-493-1175-1176-1177-953-1202-540-541-1204-1076-513-979-538-508-507-1063-1058-506-1064-1062-1060-1061-1077-1079-1073-1078-482-981-980-902-905-906-502-990-989-481-900-901-535-1187-1188-1186-1185-499-500-498-987-986-988-984-985-1096-1098-1099-1164-530-1160-1166-1165-1162-536-537-807-1195-1194-1191-1192-1193-1196-1189-475-1150-1151-1152-485-921-922-841-842-787-478-479",
     "thesi_diorismou": "1187",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3231,10 +3099,10 @@
     "vathmologia": 93.28,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 100,
+    "aa": 96,
     "am": "12071.0",
     "eponymo": "ΖΑΧΑΡΗ ΛΥΚΟΥΔΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -3267,7 +3135,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 101,
+    "aa": 97,
     "am": "12814.0",
     "eponymo": "ΤΣΙΟΤΣΙΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3277,7 +3145,7 @@
     "theseis_idias_omadas": "473-480-483-503-504-505-522-523-524-525-526",
     "protimiseis": "991-999-996-997-995-891-1005-1009-1007-1011-1014-1012-1042-1040-1041-1003-893-1036-1027-1035-1013-1010-1006-1000-1018-1019-1023-1039-1034-895-896-1016-1043-1028-1021-1022-1001-884-1033-894-898-505-880-3165-524-480-503-484-483-1044-1025-883-1045-881-885-887-1020-1024-790-1046-992-1122-1123-1029-797-789-890-1048-899-882-994-993-1051-1111-1113-1052-1118-1119-1121-877-897-851-1038-1049-846-847-856-1017-1032-1002-1015-1120-1050-1114-914-918-917-916-1112-1130-1141-522-504-523-525-798-1116-526-473-913-1138-892-1142-1031",
     "thesi_diorismou": "991",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3297,10 +3165,10 @@
     "vathmologia": 93.17,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 102,
+    "aa": 98,
     "am": "8320.0",
     "eponymo": "ΒΟΥΛΓΑΡΑΚΗ",
     "onoma": "ΑΘΗΝΑ",
@@ -3332,7 +3200,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 103,
+    "aa": 99,
     "am": "4330.0",
     "eponymo": "ΓΕΡΟΝΤΙΔΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -3364,7 +3232,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 104,
+    "aa": 100,
     "am": "4835.0",
     "eponymo": "ΖΩΓΡΑΦΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -3374,7 +3242,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "505-503-484-522-523-483-525-524-480-504-473-526-1004-1000-1006-1009-1023-1017-1012-1010-1046-1047-1114-1043-1018-993-1001-1037-1016-1028-1027-1024-991-1036-999-894-994-1031-1033-1034-1035-1040-1032-1038-1039-1041-1044-1111-1113-1049-1050-1022-1021-1003-1002-1128-1121-1120-1119-1115-1117-843-879",
     "thesi_diorismou": "505",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3394,10 +3262,10 @@
     "vathmologia": 93.03,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 105,
+    "aa": 101,
     "am": "14299.0",
     "eponymo": "ΘΕΟΔΩΡΟΥ",
     "onoma": "ΑΡΙΣΤΕΑ",
@@ -3430,7 +3298,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 106,
+    "aa": 102,
     "am": "17364.0",
     "eponymo": "ΓΚΙΟΡΣΟΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -3463,7 +3331,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 107,
+    "aa": 103,
     "am": "7784.0",
     "eponymo": "ΜΑΝΩΛΙΚΑΚΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -3495,7 +3363,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 108,
+    "aa": 104,
     "am": "11075.0",
     "eponymo": "ΓΑΛΕΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ ΒΑΣΙΛΙΚΗ ΜΑ",
@@ -3528,7 +3396,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 109,
+    "aa": 105,
     "am": "7189.0",
     "eponymo": "ΜΠΑΡΟΥΤΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -3560,7 +3428,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 110,
+    "aa": 106,
     "am": "5986.0",
     "eponymo": "ΝΑΣΙΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΠΙΔΑ",
@@ -3593,7 +3461,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 111,
+    "aa": 107,
     "am": "19561.0",
     "eponymo": "ΖΗΣΙΜΟΠΟΥΛΟΣ",
     "onoma": "ΑΝΤΩΝΗΣ",
@@ -3603,7 +3471,7 @@
     "theseis_idias_omadas": "473-480-483-503-504-505-522-523-524-525-526",
     "protimiseis": "505-524-480-503-523-522-504-484-483-473-525-526",
     "thesi_diorismou": "503",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -3623,10 +3491,10 @@
     "vathmologia": 92.56,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 112,
+    "aa": 108,
     "am": "3738.0",
     "eponymo": "ΚΟΓΙΑ",
     "onoma": "ΞΑΝΘΗ",
@@ -3636,7 +3504,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "524-505-1000-1008-1040-1042-1039-1009-1003-1037-1123-1114-895-918-883-889-1122-996-997-1118-1046-1020-995-1005-1124-1043-1010-1019-1115-999-1011-1015-1021-1036-1038-1022-1013-1024-1012-1014-1004-489-496-484-523-503-483-526-1119-1018-1041-1029-1033-1035-1034-1006-898-896-1025-915-1032-1007-1001-886-1027-1028-1135-1051-1044-991-850-998-1133-880-1136-1137-1139-884-1116-1023-893-894-1049-1050-1002-891-856-3165-992-1016-1017-1141-1142-480-495-965-968-961-964-966-959-967-1145-941-962-488-492-527-508-507-949-950",
     "thesi_diorismou": "1008",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -3656,10 +3524,10 @@
     "vathmologia": 92.56,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 113,
+    "aa": 109,
     "am": "18687.0",
     "eponymo": "ΣΤΡΑΤΗΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -3692,7 +3560,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 114,
+    "aa": 110,
     "am": "2431.0",
     "eponymo": "ΕΛΕΥΘΕΡΙΑΔΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -3724,7 +3592,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 115,
+    "aa": 111,
     "am": "4156.0",
     "eponymo": "ΠΑΚΑΛΙΔΟΥ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -3756,7 +3624,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 116,
+    "aa": 112,
     "am": "9160.0",
     "eponymo": "ΦΑΣΟΥΛΗ",
     "onoma": "ΣΤΥΛΙΑΝΗ",
@@ -3788,7 +3656,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 117,
+    "aa": 113,
     "am": "18350.0",
     "eponymo": "ΔΕΡΜΙΤΖΑΚΗΣ",
     "onoma": "ΝΕΚΤΑΡΙΟΣ",
@@ -3820,7 +3688,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 118,
+    "aa": 114,
     "am": "12493.0",
     "eponymo": "ΚΟΚΚΑΡΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -3853,7 +3721,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 119,
+    "aa": 115,
     "am": "2927.0",
     "eponymo": "ΘΕΟΔΩΡΟΠΟΥΛΟΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -3885,7 +3753,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 120,
+    "aa": 116,
     "am": "10013.0",
     "eponymo": "ΤΣΑΡΤΣΑΛΗ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -3918,7 +3786,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 121,
+    "aa": 117,
     "am": "645.0",
     "eponymo": "ΔΡΑΚΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -3951,7 +3819,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 122,
+    "aa": 118,
     "am": "2499.0",
     "eponymo": "ΦΟΡΤΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -3984,7 +3852,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 123,
+    "aa": 119,
     "am": "13800.0",
     "eponymo": "ΜΟΚΑΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -4016,7 +3884,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 124,
+    "aa": 120,
     "am": "8532.0",
     "eponymo": "ΞΟΥΡΑ",
     "onoma": "ΤΡΙΑΝΤΑΦΥΛΛΙΑ",
@@ -4049,7 +3917,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 125,
+    "aa": 121,
     "am": "15708.0",
     "eponymo": "ΝΤΙΛΗΣ",
     "onoma": "ΒΑΡΔΗΣ",
@@ -4082,7 +3950,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 126,
+    "aa": 122,
     "am": "12229.0",
     "eponymo": "ΔΟΥΚΑ",
     "onoma": "ΜΑΡΙΑ ΕΥΑΓΓΕΛΙΑ",
@@ -4115,7 +3983,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 127,
+    "aa": 123,
     "am": "5112.0",
     "eponymo": "ΚΑΛΤΣΟΓΙΑΝΝΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -4148,7 +4016,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 128,
+    "aa": 124,
     "am": "10716.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΜΑΡΚΟΣ",
@@ -4180,7 +4048,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 129,
+    "aa": 125,
     "am": "2946.0",
     "eponymo": "ΜΑΝΩΛΑΚΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4190,7 +4058,7 @@
     "theseis_idias_omadas": "509-510",
     "protimiseis": "509-510",
     "thesi_diorismou": "509",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -4210,10 +4078,10 @@
     "vathmologia": 91.39,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 130,
+    "aa": 126,
     "am": "12603.0",
     "eponymo": "ΖΗΓΡΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -4245,7 +4113,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 131,
+    "aa": 127,
     "am": "12012.0",
     "eponymo": "ΤΣΙΒΕΛΙΚΑ",
     "onoma": "ΝΕΚΤΑΡΙΑ",
@@ -4277,7 +4145,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 132,
+    "aa": 128,
     "am": "635.0",
     "eponymo": "ΤΣΑΒΛΙΔΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4310,7 +4178,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 133,
+    "aa": 129,
     "am": "843.0",
     "eponymo": "ΚΟΥΡΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -4342,7 +4210,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 134,
+    "aa": 130,
     "am": "355.0",
     "eponymo": "ΚΟΥΙΜΤΖΗ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -4374,7 +4242,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 135,
+    "aa": 131,
     "am": "804.0",
     "eponymo": "ΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -4406,7 +4274,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 136,
+    "aa": 132,
     "am": "3761.0",
     "eponymo": "ΓΑΚΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -4438,7 +4306,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 137,
+    "aa": 133,
     "am": "19133.0",
     "eponymo": "ΟΙΚΟΝΟΜΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -4471,7 +4339,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 138,
+    "aa": 134,
     "am": "10693.0",
     "eponymo": "ΓΑΛΟΥΣΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -4503,7 +4371,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 139,
+    "aa": 135,
     "am": "13713.0",
     "eponymo": "ΠΥΡΩΤΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -4535,7 +4403,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 140,
+    "aa": 136,
     "am": "320.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -4567,7 +4435,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 141,
+    "aa": 137,
     "am": "19407.0",
     "eponymo": "ΧΡΙΣΤΙΑΝΙΔΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -4599,7 +4467,40 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 142,
+    "aa": 138,
+    "am": "9992.0",
+    "eponymo": "ΛΕΛΕΚΗ",
+    "onoma": "ΜΑΡΙΑ",
+    "patronymo": "ΧΡΗΣΤΟΣ",
+    "adt_masked": "***517",
+    "omada_prosonton": "305 -001,003",
+    "theseis_idias_omadas": "488-489-507-508",
+    "protimiseis": "508-507-1063-1060-1059-489-488",
+    "thesi_diorismou": "1059",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "507- 508",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 73.22,
+    "synolo_graptou": 86.61,
+    "seira_klirosis": 6350418.0,
+    "vathmologia": 90.61,
+    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
+    "slug": "pe-geotechnikon-eid-pe-geoponon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 139,
     "am": "16063.0",
     "eponymo": "ΝΙΚΟΛΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -4609,7 +4510,7 @@
     "theseis_idias_omadas": "472-474-475-477-478-479-480-481-482-483-485-486-487-488-489-493-494-495-496-497-498-499-500-502-503-504-505-506-507-508-509-510-512-513-519-522-523-524-525-526-527-530-535-536-537-538-539-540-541",
     "protimiseis": "499-500-535-513-498-496-497-537-536-478-479-489-541-530-487-505-526-502-509-485-524-484-480-481-510-477-539-486-474-512-519-507-508-527-538-488-506-493-494-495-540-475-472-482-503-504-483-523-525-522",
     "thesi_diorismou": "478",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -4629,10 +4530,10 @@
     "vathmologia": 90.47,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 143,
+    "aa": 140,
     "am": "7326.0",
     "eponymo": "ΤΑΚΙΔΕΛΛΗ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -4665,7 +4566,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 144,
+    "aa": 141,
     "am": "13187.0",
     "eponymo": "ΑΝΔΡΟΥΤΣΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -4675,7 +4576,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-483-487-488-489-490-493-494-495-496-497-498-499-500-503-504-505-506-507-508-509-510-511-512-513-514-515-516-520-521-522-523-524-525-526-527-528-529-531-532-533-534-535-536-537-538-539-540-541-542",
     "protimiseis": "525-1129-1130-1138-1139-1140-1141-1142-1131-1132-1133-1134-1135-1136-1137-526-1143-524-1112-1111-1122-1124-1123-1121-1120-1118-1119-1114-523-1113-1115-804-1117-1116-522-805-505-503-991-992-995-996-997-998-999-1000-1001-1002-1003-1004-1005-1006-1007-1008-1009-1010-1011-1012-1013-1014-1015-1016-1017-1018-1019-1020-1021-1022-1023-1024-1025-1027-1028-1029-1031-1032-1033-1034-1035-1036-1037-1038-1039-1040-1041-1042-1043-916-915-912-483-484-917-914-918-993-994-1044-1045-1046-1047-1048-1049-1050-1051-1052-504-480-877-880-881-882-883-884-885-886-887-889-890-891-892-893-894-895-896-897-898-899-919-913-473-509-510-487-477-476-537-536-539-478-479-472-474-511-512-475-535-493-494-495-496-497-513-500-499-498-488-489-481-527-534-533-521-520-542-490-529-528-514-515-516-532-531-538-541-540-508-507-506",
     "thesi_diorismou": "1129",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -4695,10 +4596,10 @@
     "vathmologia": 90.44,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 145,
+    "aa": 142,
     "am": "649.0",
     "eponymo": "ΡΕΒΗΣΙΟΥ",
     "onoma": "ΑΘΗΝΑ",
@@ -4731,7 +4632,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 146,
+    "aa": 143,
     "am": "18223.0",
     "eponymo": "ΑΛΕΞΑΚΗΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -4764,7 +4665,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 147,
+    "aa": 144,
     "am": "7609.0",
     "eponymo": "ΑΡΓΥΡΗ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -4797,7 +4698,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 148,
+    "aa": 145,
     "am": "3148.0",
     "eponymo": "ΚΑΒΑΛΛΑΡΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -4830,7 +4731,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 149,
+    "aa": 146,
     "am": "11362.0",
     "eponymo": "ΕΥΑΓΓΕΛΟΠΟΥΛΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -4862,7 +4763,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 150,
+    "aa": 147,
     "am": "7244.0",
     "eponymo": "ΞΕΝΟΠΟΥΛΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -4895,7 +4796,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 151,
+    "aa": 148,
     "am": "7927.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
     "onoma": "ΒΑΙΑ",
@@ -4927,7 +4828,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 152,
+    "aa": 149,
     "am": "5634.0",
     "eponymo": "ΔΑΝΔΟΥΛΑΚΗΣ",
     "onoma": "ΑΝΔΡΕΑΣ",
@@ -4960,7 +4861,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 153,
+    "aa": 150,
     "am": "12260.0",
     "eponymo": "ΜΠΡΑΤΙΔΟΥ ΠΑΡΛΑΠΑΝΗ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -4992,7 +4893,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 154,
+    "aa": 151,
     "am": "3849.0",
     "eponymo": "ΚΑΛΟΜΟΙΡΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -5025,7 +4926,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 155,
+    "aa": 152,
     "am": "15820.0",
     "eponymo": "ΚΑΡΑΜΠΕΛΑ",
     "onoma": "ΔΙΟΝΥΣΙΑ",
@@ -5058,7 +4959,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 156,
+    "aa": 153,
     "am": "11770.0",
     "eponymo": "ΘΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -5091,7 +4992,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 157,
+    "aa": 154,
     "am": "18238.0",
     "eponymo": "ΚΟΛΥΡΑΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΑΝΑΓΙΩ",
@@ -5123,7 +5024,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 158,
+    "aa": 155,
     "am": "20120.0",
     "eponymo": "ΧΑΛΟΥΛΑΚΟΣ",
     "onoma": "ΤΖΑΝΕΤΟΣ ΙΩΑΝΝΗΣ",
@@ -5155,7 +5056,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 159,
+    "aa": 156,
     "am": "8129.0",
     "eponymo": "ΜΠΑΤΖΟΠΟΥΛΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ ΜΑΡΙΑ",
@@ -5187,7 +5088,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 160,
+    "aa": 157,
     "am": "13884.0",
     "eponymo": "ΣΑΡΡΗ",
     "onoma": "ΚΕΡΑΣΙΑ",
@@ -5219,7 +5120,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 161,
+    "aa": 158,
     "am": "3922.0",
     "eponymo": "ΧΑΤΖΗΔΗΜΗΤΡΙΑΔΟΥ",
     "onoma": "ΚΥΡΙΑΚΗ",
@@ -5252,7 +5153,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 162,
+    "aa": 159,
     "am": "13743.0",
     "eponymo": "ΜΠΑΤΣΙΟΥΛΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -5284,7 +5185,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 163,
+    "aa": 160,
     "am": "12842.0",
     "eponymo": "ΚΑΤΣΟΥΛΑ",
     "onoma": "ΑΘΑΝΑΣΙΑ",
@@ -5316,7 +5217,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 164,
+    "aa": 161,
     "am": "17550.0",
     "eponymo": "ΚΑΝΤΖΙΛΑΚΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5348,7 +5249,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 165,
+    "aa": 162,
     "am": "5601.0",
     "eponymo": "ΓΕΜΟΥΣΑΚΑΚΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -5380,7 +5281,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 166,
+    "aa": 163,
     "am": "2032.0",
     "eponymo": "ΔΑΝΤΗ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -5412,7 +5313,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 167,
+    "aa": 164,
     "am": "2151.0",
     "eponymo": "ΛΙΑΡΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -5444,7 +5345,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 168,
+    "aa": 165,
     "am": "6066.0",
     "eponymo": "ΜΙΧΑΛΑΚΑΚΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -5476,7 +5377,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 169,
+    "aa": 166,
     "am": "17391.0",
     "eponymo": "ΧΑΤΖΗΙΩΑΝΝΙΔΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -5508,7 +5409,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 170,
+    "aa": 167,
     "am": "57.0",
     "eponymo": "ΝΟΥΝΟΠΟΥΛΟΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -5540,7 +5441,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 171,
+    "aa": 168,
     "am": "11118.0",
     "eponymo": "ΣΕΜΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -5572,7 +5473,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 172,
+    "aa": 169,
     "am": "9706.0",
     "eponymo": "ΛΕΥΤΑΚΗ",
     "onoma": "ΑΓΓΕΛΙΚΗ-ΔΙΟΝΥΣΙΑ",
@@ -5605,7 +5506,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 173,
+    "aa": 170,
     "am": "686.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΙΔΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -5637,7 +5538,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 174,
+    "aa": 171,
     "am": "14551.0",
     "eponymo": "ΚΟΥΡΕΝΤΑΣ",
     "onoma": "ΕΥΘΥΜΙΟΣ",
@@ -5669,7 +5570,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 175,
+    "aa": 172,
     "am": "8867.0",
     "eponymo": "ΒΛΑΧΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -5702,7 +5603,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 176,
+    "aa": 173,
     "am": "11665.0",
     "eponymo": "ΚΑΠΝΙΣΤΟΥ",
     "onoma": "ΙΟΛΑΝΔΑ ΜΑΡΙΑ",
@@ -5735,7 +5636,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 177,
+    "aa": 174,
     "am": "11479.0",
     "eponymo": "ΤΣΙΜΗΤΡΗ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -5767,7 +5668,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 178,
+    "aa": 175,
     "am": "18809.0",
     "eponymo": "ΦΟΥΤΖΟΠΟΥΛΟΥ",
     "onoma": "ΛΕΜΟΝΙΑ",
@@ -5800,7 +5701,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 179,
+    "aa": 176,
     "am": "6643.0",
     "eponymo": "ΧΑΛΒΑΝΤΖΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -5833,7 +5734,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 180,
+    "aa": 177,
     "am": "13502.0",
     "eponymo": "ΠΕΠΠΕΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -5843,7 +5744,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-493-494-495-496-497-498-499-500-502-503-504-505-506-507-508-509-510-511-512-513-519-522-523-524-525-526-527-530-535-536-537-538-539-540-541",
     "protimiseis": "524-505-526-522-523-503-504-483-525-480-473-487-1004-996-997-1006-1008-1009-1010-1012-1014-1016-1017-1019-1021-1022-1027-1026-1038-1031-1032-1037-1043-1045-1047-1048-993-994-898-1114-1117-1120-1122-1123-1124-991-918-880-882-883-884-889-890-891-892-893-894-895-896-916-917-919-899-911-1003-1000-1111-1112-1113-914-913-877-843-844-845-846-847-849-850-851-852-853-854-856-1142-1138-1129-848-927-928-929-793-925-926-509-510-478-479-536-537-539-477-476-474-512-519-511-513-506-507-508-488-489-527-493-494-495-496-497-540-541-535-481-475-498-499-500-530-472-538-485-486-482-502",
     "thesi_diorismou": "1004",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -5863,10 +5764,10 @@
     "vathmologia": 89.64,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 181,
+    "aa": 178,
     "am": "9151.0",
     "eponymo": "ΠΕΤΡΙΔΟΥ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -5898,7 +5799,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 182,
+    "aa": 179,
     "am": "3238.0",
     "eponymo": "ΚΑΠΑΝΤΑΗ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ ΜΑΡΙΑ",
@@ -5930,7 +5831,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 183,
+    "aa": 180,
     "am": "9116.0",
     "eponymo": "ΣΤΡΟΥΘΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -5962,7 +5863,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 184,
+    "aa": 181,
     "am": "10256.0",
     "eponymo": "ΘΕΡΜΟΛΙΑ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -5994,7 +5895,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 185,
+    "aa": 182,
     "am": "19792.0",
     "eponymo": "ΛΑΛΙΩΤΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -6027,7 +5928,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 186,
+    "aa": 183,
     "am": "17287.0",
     "eponymo": "ΣΤΙΚΟΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -6059,7 +5960,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 187,
+    "aa": 184,
     "am": "3683.0",
     "eponymo": "ΣΚΑΡΛΑΤΟΥΔΗ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -6091,7 +5992,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 188,
+    "aa": 185,
     "am": "13185.0",
     "eponymo": "ΑΓΓΕΛΟΠΟΥΛΟΥ",
     "onoma": "ΧΡΥΣΑΥΓΗ",
@@ -6123,7 +6024,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 189,
+    "aa": 186,
     "am": "15307.0",
     "eponymo": "ΕΥΘΥΜΙΑΔΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -6155,7 +6056,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 190,
+    "aa": 187,
     "am": "14248.0",
     "eponymo": "ΑΡΓΕΝΑ",
     "onoma": "ΝΙΚΟΛΙΑ",
@@ -6187,7 +6088,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 191,
+    "aa": 188,
     "am": "5533.0",
     "eponymo": "ΝΤΕΜΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -6219,7 +6120,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 192,
+    "aa": 189,
     "am": "1320.0",
     "eponymo": "ΠΑΠΑΝΤΩΝΙΟΥ",
     "onoma": "ΤΡΥΦΩΝ",
@@ -6251,7 +6152,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 193,
+    "aa": 190,
     "am": "15756.0",
     "eponymo": "ΓΚΟΓΚΟΥ",
     "onoma": "ΕΙΡΗΝΗ",
@@ -6283,7 +6184,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 194,
+    "aa": 191,
     "am": "16637.0",
     "eponymo": "ΓΚΟΓΚΑΣ",
     "onoma": "ΑΡΙΣΤΟΜΕΝΗΣ",
@@ -6315,7 +6216,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 195,
+    "aa": 192,
     "am": "2376.0",
     "eponymo": "ΞΥΝΑΔΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -6347,7 +6248,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 196,
+    "aa": 193,
     "am": "16444.0",
     "eponymo": "ΣΤΑΜΟΥ",
     "onoma": "ΧΑΡΙΚΛΕΙΑ",
@@ -6379,7 +6280,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 197,
+    "aa": 194,
     "am": "9425.0",
     "eponymo": "ΝΥΧΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -6411,7 +6312,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 198,
+    "aa": 195,
     "am": "13423.0",
     "eponymo": "ΚΩΣΤΟΓΛΟΥ",
     "onoma": "ΗΛΙΑΣ",
@@ -6443,7 +6344,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 199,
+    "aa": 196,
     "am": "1251.0",
     "eponymo": "ΔΑΣΚΑΛΟΠΟΥΛΟΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -6475,7 +6376,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 200,
+    "aa": 197,
     "am": "20662.0",
     "eponymo": "ΠΑΠΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -6507,7 +6408,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 201,
+    "aa": 198,
     "am": "940.0",
     "eponymo": "ΤΣΙΓΓΟΥΔΗΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -6539,7 +6440,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 202,
+    "aa": 199,
     "am": "6223.0",
     "eponymo": "ΤΣΕΛΕΠΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -6571,7 +6472,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 203,
+    "aa": 200,
     "am": "12511.0",
     "eponymo": "ΣΙΑΣΙΟΥ",
     "onoma": "ΑΓΝΗ",
@@ -6603,7 +6504,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 204,
+    "aa": 201,
     "am": "7435.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΟΠΟΥΛΟΣ",
     "onoma": "ΟΡΦΕΥΣ",
@@ -6635,7 +6536,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 205,
+    "aa": 202,
     "am": "20026.0",
     "eponymo": "ΠΑΥΛΙΔΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -6667,7 +6568,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 206,
+    "aa": 203,
     "am": "15339.0",
     "eponymo": "ΤΣΟΜΗ",
     "onoma": "ΜΑΡΙΑ ΕΥΘΥΜΙΑ",
@@ -6699,7 +6600,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 207,
+    "aa": 204,
     "am": "15694.0",
     "eponymo": "ΜΠΑΚΟΓΙΩΡΓΟΥ",
     "onoma": "ΜΕΡΟΠΗ",
@@ -6731,7 +6632,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 208,
+    "aa": 205,
     "am": "6793.0",
     "eponymo": "ΧΟΝΔΡΟΔΗΜΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -6763,7 +6664,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 209,
+    "aa": 206,
     "am": "1152.0",
     "eponymo": "ΣΠΥΡΟΠΟΥΛΟΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -6795,7 +6696,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 210,
+    "aa": 207,
     "am": "10828.0",
     "eponymo": "ΚΑΡΑΓΚΟΥΝΑΚΗΣ",
     "onoma": "ΣΠΥΡΙΔΩΝ",
@@ -6827,7 +6728,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 211,
+    "aa": 208,
     "am": "11466.0",
     "eponymo": "ΜΥΤΙΛΗΝΑΙΟΣ",
     "onoma": "ΜΙΧΑΗΛ",
@@ -6859,7 +6760,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 212,
+    "aa": 209,
     "am": "14677.0",
     "eponymo": "ΚΑΤΣΑΡΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -6891,7 +6792,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 213,
+    "aa": 210,
     "am": "11922.0",
     "eponymo": "ΚΟΥΔΟΥΝΑ",
     "onoma": "Δέσποινα",
@@ -6923,7 +6824,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 214,
+    "aa": 211,
     "am": "14814.0",
     "eponymo": "ΣΤΑΝΙΔΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -6955,7 +6856,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 215,
+    "aa": 212,
     "am": "8876.0",
     "eponymo": "ΠΑΠΑΘΑΝΑΣΙΟΥ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -6987,7 +6888,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 216,
+    "aa": 213,
     "am": "14469.0",
     "eponymo": "ΤΖΑΒΑΡΑΣ ΤΣΙΠΙΑΝΙΤΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7019,7 +6920,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 217,
+    "aa": 214,
     "am": "14418.0",
     "eponymo": "ΜΠΟΥΛΙΓΑΡΑΚΗ",
     "onoma": "ΠΟΛΥΞΕΝΗ",
@@ -7051,7 +6952,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 218,
+    "aa": 215,
     "am": "11443.0",
     "eponymo": "ΧΑΡΑΛΑΜΠΙΔΟΥ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -7083,7 +6984,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 219,
+    "aa": 216,
     "am": "3720.0",
     "eponymo": "ΚΑΤΣΟΥΛΙΕΡΗ",
     "onoma": "ΑΓΑΠΗ ΓΕΩΡΓΙΑ",
@@ -7115,7 +7016,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 220,
+    "aa": 217,
     "am": "9221.0",
     "eponymo": "ΚΟΥΚΟΥΣΟΥΛΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -7147,7 +7048,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 221,
+    "aa": 218,
     "am": "19780.0",
     "eponymo": "ΣΙΩΚΑΣ",
     "onoma": "ΛΕΩΝΙΔΑΣ ΡΑΦΑΗΛ",
@@ -7179,7 +7080,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 222,
+    "aa": 219,
     "am": "19509.0",
     "eponymo": "ΚΟΥΤΣΟΔΗΜΟΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -7211,7 +7112,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 223,
+    "aa": 220,
     "am": "12341.0",
     "eponymo": "ΚΥΜΟΥΡΗ",
     "onoma": "ΕΥΛΑΜΠΙΑ",
@@ -7243,7 +7144,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 224,
+    "aa": 221,
     "am": "2951.0",
     "eponymo": "ΛΟΛΑΣ",
     "onoma": "ΑΛΕΞΙΟΣ",
@@ -7275,7 +7176,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 225,
+    "aa": 222,
     "am": "17233.0",
     "eponymo": "ΞΥΔΑ",
     "onoma": "ΠΑΓΩΝΑ ΔΗΜΗΤΡΑ",
@@ -7307,7 +7208,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 226,
+    "aa": 223,
     "am": "19861.0",
     "eponymo": "ΜΠΕΡΜΠΑΤΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -7339,7 +7240,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 227,
+    "aa": 224,
     "am": "7238.0",
     "eponymo": "ΦΟΥΣΙΑ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -7371,7 +7272,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 228,
+    "aa": 225,
     "am": "10712.0",
     "eponymo": "ΜΗΤΡΑΚΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -7403,7 +7304,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 229,
+    "aa": 226,
     "am": "2262.0",
     "eponymo": "ΒΟΥΖΟΥΚΛΑ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -7435,7 +7336,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 230,
+    "aa": 227,
     "am": "17184.0",
     "eponymo": "ΤΑΓΑΡΙΔΗ",
     "onoma": "ΑΝΝΑ",
@@ -7467,7 +7368,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 231,
+    "aa": 228,
     "am": "6338.0",
     "eponymo": "ΓΚΟΠΗ",
     "onoma": "ΜΑΛΒΙΝΑ ΔΑΝΑΗ ΙΩΑΝΝΑ",
@@ -7499,7 +7400,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 232,
+    "aa": 229,
     "am": "11519.0",
     "eponymo": "ΠΑΠΑΝΙΚΟΛΑΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -7531,7 +7432,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 233,
+    "aa": 230,
     "am": "9123.0",
     "eponymo": "ΡΑΣΟΥΛΗ",
     "onoma": "ΜΑΡΙΝΑ",
@@ -7563,7 +7464,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 234,
+    "aa": 231,
     "am": "4769.0",
     "eponymo": "ΠΛΑΤΗ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -7595,7 +7496,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 235,
+    "aa": 232,
     "am": "664.0",
     "eponymo": "ΓΑΤΣΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -7627,7 +7528,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 236,
+    "aa": 233,
     "am": "7315.0",
     "eponymo": "ΚΑΚΑΡΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -7659,7 +7560,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 237,
+    "aa": 234,
     "am": "8975.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΦΩΤΕΙΝΗ",
@@ -7691,7 +7592,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 238,
+    "aa": 235,
     "am": "3272.0",
     "eponymo": "ΝΟΥΛΗ",
     "onoma": "ΕΛΣΑ ΚΥΡΙΑΚΗ ΖΙΛΜΠΕΡ",
@@ -7723,7 +7624,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 239,
+    "aa": 236,
     "am": "15415.0",
     "eponymo": "ΦΡΑΓΚΟΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -7755,7 +7656,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 240,
+    "aa": 237,
     "am": "16974.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -7787,7 +7688,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 241,
+    "aa": 238,
     "am": "5228.0",
     "eponymo": "ΠΑΡΑΣΚΕΥΑΣ",
     "onoma": "ΣΑΒΒΑΣ",
@@ -7819,7 +7720,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 242,
+    "aa": 239,
     "am": "5140.0",
     "eponymo": "ΛΑΜΠΡΙΑΝΙΔΟΥ",
     "onoma": "ΒΑΙΑ",
@@ -7851,7 +7752,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 243,
+    "aa": 240,
     "am": "18879.0",
     "eponymo": "ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΥ",
     "onoma": "ΠΑΡΑΣΚΕΥΗ",
@@ -7883,7 +7784,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 244,
+    "aa": 241,
     "am": "5496.0",
     "eponymo": "ΦΑΒΒΑΣ",
     "onoma": "ΧΑΡΑΛΑΜΠΟΣ",
@@ -7915,7 +7816,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 245,
+    "aa": 242,
     "am": "5355.0",
     "eponymo": "ΤΡΙΚΑΛΙΩΤΗΣ",
     "onoma": "ΛΑΖΑΡΟΣ",
@@ -7947,7 +7848,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 246,
+    "aa": 243,
     "am": "14831.0",
     "eponymo": "ΧΙΩΛΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -7979,7 +7880,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 247,
+    "aa": 244,
     "am": "170.0",
     "eponymo": "ΚΟΤΣΑΝΙΔΟΥ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -8011,7 +7912,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 248,
+    "aa": 245,
     "am": "11998.0",
     "eponymo": "ΒΑΣΔΕΚΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8043,7 +7944,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 249,
+    "aa": 246,
     "am": "569.0",
     "eponymo": "ΔΗΜΟΤΣΙΟΥ",
     "onoma": "ΟΥΡΑΝΙΑ",
@@ -8053,7 +7954,7 @@
     "theseis_idias_omadas": "473-475-483-488-489-493-494-495-496-497-499-500-503-504-505-513-522-523-524-525-526-535-536-537-540-541",
     "protimiseis": "955-497-496-493-954-961-962-964-965-966-967-968-963-957-495-960-952-494-541-1204-1203-540-953-1202-958-959-956-1148-806-489-488-941-942-1187-535-499-500-988-987-986-984-513-1078-1077-1076-1079-1073-1098-1099-991-3160-1007-1006-1008-1003-1119-1139-1036-1019-1023-1024-999-995-1037-1016-1123-1114-895-1020-1115-1118-1116-473-505-524-503-504-523-525-1111-1112-1113-1120-1031-1117-1140-1045-1009-1010-996-1122-483-522-526-789-797-790-804-805-843-844-845-846-849-850-855-877-880-881-882-883-884-885-889-890-892-897-896-898-1013-1035-1033-1034-1025-1044-1051-1048-1052-1124-1129-1130-1132-1133-1134-1141-1136-1135-1142-798-475-536-537-899-914-916-918",
     "thesi_diorismou": "1120",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -8073,10 +7974,10 @@
     "vathmologia": 87.58,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 250,
+    "aa": 247,
     "am": "2580.0",
     "eponymo": "ΠΑΠΑΧΡΗΣΤΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -8108,7 +8009,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 251,
+    "aa": 248,
     "am": "4513.0",
     "eponymo": "ΔΡΟΥΖΑ",
     "onoma": "ΣΤΑΥΡΟΥΛΑ",
@@ -8140,7 +8041,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 252,
+    "aa": 249,
     "am": "733.0",
     "eponymo": "ΧΟΥΛΙΑΡΑ",
     "onoma": "ΜΑΡΙΑ",
@@ -8172,7 +8073,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 253,
+    "aa": 250,
     "am": "12770.0",
     "eponymo": "ΧΑΒΕΛΕ",
     "onoma": "ΜΑΡΙΑ",
@@ -8204,7 +8105,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 254,
+    "aa": 251,
     "am": "10239.0",
     "eponymo": "ΧΑΡΙΤΟΥΔΗ",
     "onoma": "ΝΙΚΟΛΙΝΑ",
@@ -8236,7 +8137,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 255,
+    "aa": 252,
     "am": "14347.0",
     "eponymo": "ΛΕΥΚΟΥ",
     "onoma": "ΘΕΑΝΩ",
@@ -8268,7 +8169,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 256,
+    "aa": 253,
     "am": "2931.0",
     "eponymo": "ΜΑΖΙΩΤΗ",
     "onoma": "ΕΛΠΙΔΑ",
@@ -8300,7 +8201,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 257,
+    "aa": 254,
     "am": "384.0",
     "eponymo": "ΝΕΔΕΛΚΟΥ",
     "onoma": "ΙΩΑΝΝΑ ΠΑΥΛΙΝΑ",
@@ -8332,7 +8233,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 258,
+    "aa": 255,
     "am": "1603.0",
     "eponymo": "ΚΑΦΑΣΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -8342,7 +8243,7 @@
     "theseis_idias_omadas": "473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-493-494-495-496-497-498-499-500-502-503-504-505-506-507-508-509-510-511-512-513-522-523-524-525-526-527-533-535-536-537-538-539-541",
     "protimiseis": "500-499-513-537-536-535-478-479-498-489-539-508-507-506-502-481-527-510-486-485-482-538-541-474-477-480-487-497-496-505-509-512-524-526-533-473-475-476-483-488-493-494-495-503-504-511-522-523-525-484-988-1078-1076-1079-1077-1098-1097-984-986-987-1099-1192-1195-1196-1073-929-876-872-871-866-867-807-889-928-1074-1075-1064-1063-931-901-840-863-893-905-906-924-1062-1182-940-974-976-1067-1095-1104-1114-1123-1127-1145-1152-1166-1072",
     "thesi_diorismou": "889",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -8362,10 +8263,10 @@
     "vathmologia": 87.28,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 259,
+    "aa": 256,
     "am": "2513.0",
     "eponymo": "ΚΟΜΗΤΣΑ",
     "onoma": "ΘΕΟΧΑΡΟΥΛΑ",
@@ -8397,7 +8298,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 260,
+    "aa": 257,
     "am": "13866.0",
     "eponymo": "ΚΑΡΑΓΚΟΥΝΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -8429,7 +8330,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 261,
+    "aa": 258,
     "am": "9309.0",
     "eponymo": "ΜΕΖΙΛΗ",
     "onoma": "ΜΑΡΓΑΡΙΤΑ",
@@ -8461,7 +8362,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 262,
+    "aa": 259,
     "am": "10039.0",
     "eponymo": "ΚΑΡΑΓΙΑΝΝΗ",
     "onoma": "ΕΥΦΡΟΣΥΝΗ",
@@ -8493,7 +8394,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 263,
+    "aa": 260,
     "am": "15148.0",
     "eponymo": "ΦΩΤΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -8525,7 +8426,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 264,
+    "aa": 261,
     "am": "17050.0",
     "eponymo": "ΒΟΥΤΣΕΛΑ",
     "onoma": "ΣΩΤΗΡΙΑ",
@@ -8557,7 +8458,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 265,
+    "aa": 262,
     "am": "12557.0",
     "eponymo": "ΛΑΜΠΡΟΥΛΗ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -8589,7 +8490,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 266,
+    "aa": 263,
     "am": "13417.0",
     "eponymo": "ΓΙΑΝΝΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -8621,7 +8522,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 267,
+    "aa": 264,
     "am": "617.0",
     "eponymo": "ΚΟΤΣΑΝΟΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -8653,7 +8554,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 268,
+    "aa": 265,
     "am": "16363.0",
     "eponymo": "ΛΙΑΝΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΙΑ",
@@ -8685,7 +8586,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 269,
+    "aa": 266,
     "am": "15360.0",
     "eponymo": "ΣΠΑΝΟΥΔΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -8717,7 +8618,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 270,
+    "aa": 267,
     "am": "18135.0",
     "eponymo": "ΣΕΜΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -8749,7 +8650,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 271,
+    "aa": 268,
     "am": "16467.0",
     "eponymo": "ΓΟΥΛΑ",
     "onoma": "ΙΩΑΝΝΑ ΕΥΔΟΞΙΑ",
@@ -8781,7 +8682,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 272,
+    "aa": 269,
     "am": "19445.0",
     "eponymo": "ΤΟΥΜΠΟΥ",
     "onoma": "ΕΛΙΣΑΒΕΤ",
@@ -8813,7 +8714,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 273,
+    "aa": 270,
     "am": "4761.0",
     "eponymo": "ΤΣΙΜΠΛΙΑΡΑΚΗΣ",
     "onoma": "ΘΕΟΔΩΡΟΣ",
@@ -8845,7 +8746,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 274,
+    "aa": 271,
     "am": "19819.0",
     "eponymo": "ΚΩΣΤΑΡΙΔΗ",
     "onoma": "ΜΕΛΑΝΙΑ ΠΕΡΣΕΦΟΝΗ",
@@ -8877,7 +8778,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 275,
+    "aa": 272,
     "am": "14069.0",
     "eponymo": "ΚΑΤΣΙΑΝΗ",
     "onoma": "ΝΙΚΟΛΕΤΑ",
@@ -8909,7 +8810,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 276,
+    "aa": 273,
     "am": "3262.0",
     "eponymo": "ΖΙΩΤΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -8941,7 +8842,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 277,
+    "aa": 274,
     "am": "20334.0",
     "eponymo": "ΚΑΛΟΓΗΡΟΥ",
     "onoma": "ΑΛΕΞΙΑ",
@@ -8973,7 +8874,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 278,
+    "aa": 275,
     "am": "4712.0",
     "eponymo": "ΚΟΣΜΙΔΟΥ",
     "onoma": "ΜΑΡΙΑ ΑΝΑΣΤΑΣΙΑ",
@@ -9005,7 +8906,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 279,
+    "aa": 276,
     "am": "5456.0",
     "eponymo": "ΤΟΥΣΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -9037,7 +8938,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 280,
+    "aa": 277,
     "am": "16564.0",
     "eponymo": "ΚΟΝΤΟΓΙΑΝΝΗ",
     "onoma": "ΔΗΜΗΤΡΑ",
@@ -9069,7 +8970,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 281,
+    "aa": 278,
     "am": "2129.0",
     "eponymo": "ΛΙΒΑΝΙΟΣ",
     "onoma": "ΗΡΑΚΛΗΣ",
@@ -9101,7 +9002,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 282,
+    "aa": 279,
     "am": "13147.0",
     "eponymo": "ΔΙΑΜΑΝΤΗ",
     "onoma": "ΛΑΜΠΡΙΝΗ",
@@ -9133,7 +9034,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 283,
+    "aa": 280,
     "am": "2019.0",
     "eponymo": "ΚΟΜΝΗΝΟΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -9165,7 +9066,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 284,
+    "aa": 281,
     "am": "815.0",
     "eponymo": "ΜΑΡΤΙΚΑ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -9197,7 +9098,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 285,
+    "aa": 282,
     "am": "2434.0",
     "eponymo": "ΠΛΙΑΤΣΙΚΑ",
     "onoma": "ΝΙΚΟΛΙΝΑ",
@@ -9229,7 +9130,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 286,
+    "aa": 283,
     "am": "15527.0",
     "eponymo": "ΣΑΜΑΝΤΣΙΔΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -9262,7 +9163,7 @@
     "eidikes_idiotites": "ΟΧΙ"
   },
   {
-    "aa": 287,
+    "aa": 284,
     "am": "14435.0",
     "eponymo": "ΝΙΚΟΛΟΠΟΥΛΟΣ",
     "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
@@ -9294,7 +9195,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 288,
+    "aa": 285,
     "am": "8085.0",
     "eponymo": "ΛΑΛΛΑ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -9326,7 +9227,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 289,
+    "aa": 286,
     "am": "18331.0",
     "eponymo": "ΖΗΡΑ",
     "onoma": "ΓΙΑΝΝΑ",
@@ -9336,7 +9237,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "524-523-1122-1113-1124-1121-1111-1118-1120-1112-804-1115-505-1046-1047-1008-1004-1006-522-1012-503-1009-1005-997-996-995-1000-999-1011-1010-1007-1038-1039-1040-1041-1043-1042-1036-1031-1032-1028-1027-1003-1013-1014-1023-1024-1022-1021-1018-1019-1020-1017-1016-1015-991-1033-1034-1035-1001-993-994-1134-1135-1133-1117-1116-1129-1130-1138-1140-1141-1142-525-916-484-483-917-914",
     "thesi_diorismou": "523",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "3.0",
@@ -9356,10 +9257,10 @@
     "vathmologia": 86.5,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 290,
+    "aa": 287,
     "am": "18121.0",
     "eponymo": "ΔΙΑΜΑΝΤΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -9391,7 +9292,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 291,
+    "aa": 288,
     "am": "16618.0",
     "eponymo": "ΜΥΓΔΑΛΙΑ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -9423,7 +9324,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 292,
+    "aa": 289,
     "am": "18889.0",
     "eponymo": "ΚΟΥΚΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -9455,7 +9356,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 293,
+    "aa": 290,
     "am": "15531.0",
     "eponymo": "ΠΑΝΑΓΟΥΛΗΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -9487,7 +9388,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 294,
+    "aa": 291,
     "am": "15393.0",
     "eponymo": "ΧΡΙΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -9519,7 +9420,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 295,
+    "aa": 292,
     "am": "6273.0",
     "eponymo": "ΣΤΑΜΑΤΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ ΑΘΗΝΑ",
@@ -9551,7 +9452,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 296,
+    "aa": 293,
     "am": "14047.0",
     "eponymo": "ΜΑΣΑΟΥΤΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -9583,7 +9484,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 297,
+    "aa": 294,
     "am": "8567.0",
     "eponymo": "ΓΙΑΝΝΟΥΣΟΠΟΥΛΟΥ",
     "onoma": "ΟΛΓΑ",
@@ -9615,7 +9516,40 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 298,
+    "aa": 295,
+    "am": "19765.0",
+    "eponymo": "ΓΟΥΜΕΝΑΚΗ",
+    "onoma": "ΦΩΤΕΙΝΗ",
+    "patronymo": "ΓΕΩΡΓΙΟΣ",
+    "adt_masked": "***231",
+    "omada_prosonton": "305 -001,003",
+    "theseis_idias_omadas": "528-529",
+    "protimiseis": "529-528-1159-1158-1153-1157-1154-1155",
+    "thesi_diorismou": "1157",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 149.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "529",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 54.34,
+    "synolo_graptou": 77.17,
+    "seira_klirosis": 1815159.0,
+    "vathmologia": 86.17,
+    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
+    "slug": "pe-geotechnikon-eid-pe-geoponon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 296,
     "am": "6112.0",
     "eponymo": "ΦΑΦΑΛΗΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -9647,7 +9581,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 299,
+    "aa": 297,
     "am": "5139.0",
     "eponymo": "ΜΠΟΝΤΑΡΟΥΔΗ",
     "onoma": "ΡΟΔΟΥΛΑ",
@@ -9679,7 +9613,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 300,
+    "aa": 298,
     "am": "13098.0",
     "eponymo": "ΚΑΡΑΣΤΕΡΓΙΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -9711,7 +9645,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 301,
+    "aa": 299,
     "am": "12780.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΥΘΕΡΙΑ",
@@ -9743,7 +9677,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 302,
+    "aa": 300,
     "am": "5080.0",
     "eponymo": "ΣΑΡΑΦΙΔΟΥ",
     "onoma": "ΑΝΝΑ",
@@ -9775,7 +9709,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 303,
+    "aa": 301,
     "am": "8874.0",
     "eponymo": "ΑΝΔΡΟΝΙΚΟΥ",
     "onoma": "ΑΝΤΙΓΟΝΗ",
@@ -9807,7 +9741,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 304,
+    "aa": 302,
     "am": "12312.0",
     "eponymo": "ΧΥΤΑΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -9839,7 +9773,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 305,
+    "aa": 303,
     "am": "6225.0",
     "eponymo": "ΑΝΑΣΤΑΣΙΟΥ",
     "onoma": "ΗΛΙΑΣ",
@@ -9871,7 +9805,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 306,
+    "aa": 304,
     "am": "18857.0",
     "eponymo": "ΤΖΟΚΑ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -9903,7 +9837,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 307,
+    "aa": 305,
     "am": "10347.0",
     "eponymo": "ΚΟΥΒΑΤΣΗΣ",
     "onoma": "ΑΓΓΕΛΟΣ",
@@ -9935,7 +9869,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 308,
+    "aa": 306,
     "am": "14533.0",
     "eponymo": "ΣΠΥΡΟΥ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ",
@@ -9967,7 +9901,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 309,
+    "aa": 307,
     "am": "5449.0",
     "eponymo": "ΚΑΛΑΙΤΖΟΓΛΟΥ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -9999,7 +9933,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 310,
+    "aa": 308,
     "am": "4598.0",
     "eponymo": "ΤΣΙΤΣΙΜΠΙΚΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -10031,7 +9965,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 311,
+    "aa": 309,
     "am": "15510.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΟΥ",
     "onoma": "ΑΝΤΡΕΑΣ",
@@ -10063,7 +9997,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 312,
+    "aa": 310,
     "am": "7696.0",
     "eponymo": "ΒΛΑΧΑΒΑ",
     "onoma": "ΒΑΣΙΛΕΙΑ",
@@ -10095,7 +10029,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 313,
+    "aa": 311,
     "am": "20782.0",
     "eponymo": "ΤΣΙΠΟΥΖΙΑΝ",
     "onoma": "ΘΕΟΦΑΝΙΑ",
@@ -10127,7 +10061,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 314,
+    "aa": 312,
     "am": "5745.0",
     "eponymo": "ΤΣΟΓΓΑΡΑΚΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -10159,7 +10093,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 315,
+    "aa": 313,
     "am": "5543.0",
     "eponymo": "ΥΔΡΑΙΟΥ",
     "onoma": "ΑΝΔΡΙΑΝΗ",
@@ -10169,7 +10103,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "503-523-524-522-505-525-484-483",
     "thesi_diorismou": "522",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -10189,10 +10123,10 @@
     "vathmologia": 85.78,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 316,
+    "aa": 314,
     "am": "19717.0",
     "eponymo": "ΛΕΚΚΑΣ",
     "onoma": "ΣΟΦΟΚΛΗΣ",
@@ -10224,7 +10158,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 317,
+    "aa": 315,
     "am": "3834.0",
     "eponymo": "ΜΑΥΡΟΜΑΤΑΚΗ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΑ",
@@ -10234,7 +10168,7 @@
     "theseis_idias_omadas": "473-480-483-487-493-494-495-496-497-499-500-503-504-505-522-523-524-525-535-540-541",
     "protimiseis": "495-504-480-473-503-505-524-483-522-523-497-493-496-494-540-541-535-500-499-525-487-484",
     "thesi_diorismou": "525",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -10254,10 +10188,10 @@
     "vathmologia": 85.75,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 318,
+    "aa": 316,
     "am": "13350.0",
     "eponymo": "ΑΡΜΥΡΟΣ",
     "onoma": "ΣΩΤΗΡΙΟΣ",
@@ -10289,7 +10223,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 319,
+    "aa": 317,
     "am": "12059.0",
     "eponymo": "ΓΙΑΚΟΥΜΠ",
     "onoma": "ΚΑΛΛΙΡΟΗ",
@@ -10321,7 +10255,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 320,
+    "aa": 318,
     "am": "13475.0",
     "eponymo": "ΜΙΧΑΛΑΚΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -10353,7 +10287,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 321,
+    "aa": 319,
     "am": "11893.0",
     "eponymo": "ΓΕΩΡΓΑΚΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -10385,7 +10319,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 322,
+    "aa": 320,
     "am": "6039.0",
     "eponymo": "ΖΟΥΡΝΑΤΖΗΣ",
     "onoma": "ΗΛΙΑΣ",
@@ -10417,7 +10351,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 323,
+    "aa": 321,
     "am": "4775.0",
     "eponymo": "ΧΟΥΝΤΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -10449,7 +10383,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 324,
+    "aa": 322,
     "am": "12486.0",
     "eponymo": "ΒΟΥΛΤΣΑΝΗΣ",
     "onoma": "ΠΑΝΤΕΛΗΣ",
@@ -10481,7 +10415,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 325,
+    "aa": 323,
     "am": "16014.0",
     "eponymo": "ΠΑΡΑΡΑ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -10513,7 +10447,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 326,
+    "aa": 324,
     "am": "5376.0",
     "eponymo": "ΜΟΥΣΕΛΙΜΗΣ",
     "onoma": "ΛΑΜΠΡΟΣ",
@@ -10545,7 +10479,40 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 327,
+    "aa": 325,
+    "am": "19125.0",
+    "eponymo": "ΑΝΔΡΩΝΟΣ",
+    "onoma": "ΑΘΑΝΑΣΙΟΣ",
+    "patronymo": "ΛΟΥΚΑΣ",
+    "adt_masked": "***674",
+    "omada_prosonton": "305 -001,003",
+    "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-483-487-498-499-500-503-504-505-509-510-511-512-513-519-522-523-524-525-526-535-536-537-539",
+    "protimiseis": "539-480-473-503-504-505-522-523-524-483-484-525-526-476-477-509-510-474-519-511-512-487-478-479-536-537-499-500-498-513-535-472-475-877-880-881-882-883-884-885-886-887-888-889-890-891-892-893-894-895-896-897-898-899-1004-845-846-855-856-851-847-1197-1198-1199-1201-865-866-867-868-869-870-871-872-937-938-939-940-1065-1067-1089-1091-1092-1093-1094-1195-1196-991-995-996-997-999-1000-1002-1003-1005-1007-1009-1010-1013-1016-1019-1021-1023-1025-1026-1028-1029-1030-1031-1034-1036-1037-1038-1039-1040-1041-1042-1045-1048-1050-1051-1052-1011-1012-1014-1015-1017-1018-1020-1022-1137-907-909-910-916-917-919-1046-1044-1043-1035-1032-1033-1027-1024-1008-1006-1001-998-842-994-993-992",
+    "thesi_diorismou": "1199",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": "2.0",
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": null,
+    "deuteri_xeni": null,
+    "minas_empeirias": 100.0,
+    "monades_empeirias": 5.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "539",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 55.11,
+    "synolo_graptou": 77.56,
+    "seira_klirosis": 1549014.0,
+    "vathmologia": 85.56,
+    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
+    "slug": "pe-geotechnikon-eid-pe-geoponon",
+    "eidikes_idiotites": "ΟΧΙ"
+  },
+  {
+    "aa": 326,
     "am": "12389.0",
     "eponymo": "ΜΠΑΖΑΝΗΣ",
     "onoma": "ΑΠΟΣΤΟΛΟΣ  ΕΜΜΑΝΟΥΗΛ",
@@ -10577,7 +10544,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 328,
+    "aa": 327,
     "am": "16857.0",
     "eponymo": "ΚΑΤΩΠΟΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -10609,7 +10576,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 329,
+    "aa": 328,
     "am": "15329.0",
     "eponymo": "ΔΑΜΑΛΗ",
     "onoma": "ΘΕΑΝΩ",
@@ -10641,7 +10608,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 330,
+    "aa": 329,
     "am": "8718.0",
     "eponymo": "ΣΙΑΧΟΥ",
     "onoma": "ΧΡΙΣΤΙΝΑ",
@@ -10673,7 +10640,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 331,
+    "aa": 330,
     "am": "14177.0",
     "eponymo": "ΕΥΣΤΑΘΙΟΥ",
     "onoma": "ΒΙΟΛΕΤΑ",
@@ -10705,7 +10672,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 332,
+    "aa": 331,
     "am": "16333.0",
     "eponymo": "ΧΑΤΖΗΑΝΤΩΝΙΟΥ",
     "onoma": "ΤΣΑΜΠΙΚΑ",
@@ -10737,7 +10704,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 333,
+    "aa": 332,
     "am": "4444.0",
     "eponymo": "ΤΣΑΓΚΑΔΑΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -10769,7 +10736,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 334,
+    "aa": 333,
     "am": "5731.0",
     "eponymo": "ΖΕΡΒΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -10801,7 +10768,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 335,
+    "aa": 334,
     "am": "5573.0",
     "eponymo": "ΚΑΝΤΕΡΕ",
     "onoma": "ΧΑΡΑ",
@@ -10833,7 +10800,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 336,
+    "aa": 335,
     "am": "19029.0",
     "eponymo": "ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -10865,7 +10832,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 337,
+    "aa": 336,
     "am": "946.0",
     "eponymo": "ΑΔΑΜΟΥΔΗ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -10897,7 +10864,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 338,
+    "aa": 337,
     "am": "15931.0",
     "eponymo": "ΧΑΤΖΗΝΙΚΟΛΑΟΥ",
     "onoma": "ΣΟΥΛΤΑΝΑ",
@@ -10929,7 +10896,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 339,
+    "aa": 338,
     "am": "13772.0",
     "eponymo": "ΘΕΟΧΑΡΗ",
     "onoma": "ΓΛΥΚΕΡΙΑ",
@@ -10961,7 +10928,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 340,
+    "aa": 339,
     "am": "12470.0",
     "eponymo": "ΛΙΑΚΟΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -10993,7 +10960,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 341,
+    "aa": 340,
     "am": "16481.0",
     "eponymo": "ΧΑΤΖΗΣ",
     "onoma": "ΕΛΕΥΘΕΡΙΟΣ",
@@ -11025,7 +10992,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 342,
+    "aa": 341,
     "am": "7191.0",
     "eponymo": "ΧΑΡΙΤΟΥ",
     "onoma": "ΒΑΡΒΑΡΑ",
@@ -11057,7 +11024,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 343,
+    "aa": 342,
     "am": "20225.0",
     "eponymo": "ΜΠΑΛΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -11089,7 +11056,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 344,
+    "aa": 343,
     "am": "18033.0",
     "eponymo": "ΑΛΕΞΙΑΔΗ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -11121,7 +11088,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 345,
+    "aa": 344,
     "am": "18938.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΑΜΑΛΙΑ",
@@ -11153,7 +11120,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 346,
+    "aa": 345,
     "am": "20768.0",
     "eponymo": "ΚΟΥΤΗΣ",
     "onoma": "ΑΛΕΞΑΝΔΡΟΣ",
@@ -11185,7 +11152,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 347,
+    "aa": 346,
     "am": "17345.0",
     "eponymo": "ΜΕΡΜΗΓΚΑΣ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -11217,7 +11184,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 348,
+    "aa": 347,
     "am": "20015.0",
     "eponymo": "ΨΑΡΟΚΩΣΤΟΠΟΥΛΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -11249,7 +11216,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 349,
+    "aa": 348,
     "am": "12520.0",
     "eponymo": "ΦΥΤΤΑΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -11281,7 +11248,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 350,
+    "aa": 349,
     "am": "6735.0",
     "eponymo": "ΓΚΟΝΤΟΥΛΟΓΙΑΝΝΗ",
     "onoma": "ΧΡΥΣΟΥΛΑ",
@@ -11313,7 +11280,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 351,
+    "aa": 350,
     "am": "7556.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΚΥΡΙΑΚΟΣ",
@@ -11345,7 +11312,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 352,
+    "aa": 351,
     "am": "3108.0",
     "eponymo": "ΚΙΣΣΑΝΔΡΑΚΗ",
     "onoma": "ΜΑΡΙΑ",
@@ -11377,7 +11344,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 353,
+    "aa": 352,
     "am": "1778.0",
     "eponymo": "ΚΑΜΑΡΙΑΡΗ",
     "onoma": "ΠΑΝΩΡΑΙΑ-ΕΙΡΗΝΗ",
@@ -11409,7 +11376,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 354,
+    "aa": 353,
     "am": "5033.0",
     "eponymo": "ΚΡΗΤΙΚΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -11441,7 +11408,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 355,
+    "aa": 354,
     "am": "7075.0",
     "eponymo": "ΓΙΩΤΗΣ",
     "onoma": "ΘΩΜΑΣ",
@@ -11473,7 +11440,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 356,
+    "aa": 355,
     "am": "12467.0",
     "eponymo": "ΛΙΑΚΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -11505,7 +11472,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 357,
+    "aa": 356,
     "am": "18597.0",
     "eponymo": "ΜΠΑΛΟΥΡΗ",
     "onoma": "ΕΛΕΝΗ",
@@ -11537,7 +11504,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 358,
+    "aa": 357,
     "am": "6765.0",
     "eponymo": "ΚΛΕΤΣΑ",
     "onoma": "ΗΛΙΑΝΑ",
@@ -11569,7 +11536,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 359,
+    "aa": 358,
     "am": "606.0",
     "eponymo": "ΣΙΑΝΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -11601,7 +11568,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 360,
+    "aa": 359,
     "am": "19908.0",
     "eponymo": "ΑΒΡΑΜΙΔΗΣ",
     "onoma": "ΝIΚΟΛΑΟΣ",
@@ -11633,7 +11600,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 361,
+    "aa": 360,
     "am": "5299.0",
     "eponymo": "ΓΚΙΛΙΟΠΟΥΛΟΥ",
     "onoma": "ΦΑΝΗ",
@@ -11665,7 +11632,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 362,
+    "aa": 361,
     "am": "6090.0",
     "eponymo": "ΤΑΣΙΟΥΛΗ",
     "onoma": "ΤΡΙΑΝΤΑΦΥΛΛΙΑ",
@@ -11697,7 +11664,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 363,
+    "aa": 362,
     "am": "16250.0",
     "eponymo": "ΜΠΑΧΤΣΕΒΑΝΟΥ",
     "onoma": "ΘΕΟΔΟΥΛΑ",
@@ -11729,7 +11696,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 364,
+    "aa": 363,
     "am": "11128.0",
     "eponymo": "ΣΚΑΚΑΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -11761,7 +11728,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 365,
+    "aa": 364,
     "am": "14575.0",
     "eponymo": "ΧΡΙΣΤΟΔΟΥΛΟΠΟΥΛΟΥ",
     "onoma": "ΛΗΤΩ",
@@ -11771,7 +11738,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "503-505-484-525-483-524-480-504-523-522-473-526",
     "thesi_diorismou": "525",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -11791,10 +11758,10 @@
     "vathmologia": 84.72,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 366,
+    "aa": 365,
     "am": "5812.0",
     "eponymo": "ΑΘΑΝΑΣΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΘΑ",
@@ -11804,7 +11771,7 @@
     "theseis_idias_omadas": "476-477",
     "protimiseis": "477-476",
     "thesi_diorismou": "476",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -11824,10 +11791,10 @@
     "vathmologia": 84.72,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 367,
+    "aa": 366,
     "am": "5294.0",
     "eponymo": "ΒΑΝΤΗ",
     "onoma": "ΑΛΕΞΑΝΔΡΑ",
@@ -11859,7 +11826,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 368,
+    "aa": 367,
     "am": "4642.0",
     "eponymo": "ΚΑΡΑΠΙΔΑΚΗΣ",
     "onoma": "ΠΕΤΡΟΣ",
@@ -11891,7 +11858,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 369,
+    "aa": 368,
     "am": "356.0",
     "eponymo": "ΚΟΥΦΑΚΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -11923,7 +11890,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 370,
+    "aa": 369,
     "am": "6563.0",
     "eponymo": "ΑΠΟΣΤΟΛΟΠΟΥΛΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -11955,7 +11922,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 371,
+    "aa": 370,
     "am": "15118.0",
     "eponymo": "ΠΑΝΑΓΙΩΤΟΥ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -11987,7 +11954,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 372,
+    "aa": 371,
     "am": "13887.0",
     "eponymo": "ΠΑΠΑΣΤΑΘΗ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -12019,7 +11986,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 373,
+    "aa": 372,
     "am": "1537.0",
     "eponymo": "ΤΣΕΛΕΠΑΤΙΩΤΗΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -12051,7 +12018,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 374,
+    "aa": 373,
     "am": "7391.0",
     "eponymo": "ΓΚΟΥΣΔΟΒΑΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -12083,7 +12050,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 375,
+    "aa": 374,
     "am": "16099.0",
     "eponymo": "ΘΕΟΔΩΡΟΥ",
     "onoma": "ΣΟΦΙΑ",
@@ -12115,7 +12082,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 376,
+    "aa": 375,
     "am": "10601.0",
     "eponymo": "ΤΣΑΡΝΑ",
     "onoma": "ΚΑΛΛΙΟΠΗ",
@@ -12147,7 +12114,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 377,
+    "aa": 376,
     "am": "1549.0",
     "eponymo": "ΚΡΕΜΕΤΗΣ",
     "onoma": "ΑΘΑΝΑΣΙΟΣ",
@@ -12157,7 +12124,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
     "protimiseis": "496-497-493-495-494-513-489-488-527-507-508-506-541-499-500-540-535-498-481-537-536-538-502-482-539-478-479-530-475-485-487-480-505-524-522-503-504-525-473-483-523-526-472-477-476-509-510-519-474-486-512-511-534-521-533-532-518-542-492-529-514-515-516-531-517-490-528-520-501",
     "thesi_diorismou": "479",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -12177,10 +12144,10 @@
     "vathmologia": 84.44,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 378,
+    "aa": 377,
     "am": "11301.0",
     "eponymo": "ΚΑΛΑΜΠΑΛΗΣ",
     "onoma": "ΕΥΑΓΓΕΛΟΣ",
@@ -12212,7 +12179,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 379,
+    "aa": 378,
     "am": "19726.0",
     "eponymo": "ΠΟΛΙΤΗ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -12244,7 +12211,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 380,
+    "aa": 379,
     "am": "15317.0",
     "eponymo": "ΠΑΠΑΝΔΡΕΟΥ",
     "onoma": "ΣΤΕΦΑΝΟΣ",
@@ -12276,7 +12243,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 381,
+    "aa": 380,
     "am": "15595.0",
     "eponymo": "ΓΑΣΠΑΡΑΤΟΥ",
     "onoma": "ΕΥΓΕΝΙΑ",
@@ -12308,7 +12275,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 382,
+    "aa": 381,
     "am": "5874.0",
     "eponymo": "ΣΧΟΙΝΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -12340,7 +12307,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 383,
+    "aa": 382,
     "am": "9062.0",
     "eponymo": "ΔΟΥΑ",
     "onoma": "ΕΥΑΓΓΕΛΙΑ",
@@ -12372,7 +12339,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 384,
+    "aa": 383,
     "am": "2564.0",
     "eponymo": "ΡΑΜΠΟΥ",
     "onoma": "ΑΓΓΕΛΙΚΗ",
@@ -12404,7 +12371,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 385,
+    "aa": 384,
     "am": "6379.0",
     "eponymo": "ΠΑΠΑΛΕΞΗ",
     "onoma": "ΜΕΛΠΟΜΕΝΗ",
@@ -12436,7 +12403,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 386,
+    "aa": 385,
     "am": "16562.0",
     "eponymo": "ΠΑΠΑΣ",
     "onoma": "ΘΩΜΑΣ",
@@ -12468,7 +12435,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 387,
+    "aa": 386,
     "am": "1022.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -12478,7 +12445,7 @@
     "theseis_idias_omadas": "477-485-487-488-489-493-494-495-496-497-499-500-507-508-513-521-529-530-533-535-540-541",
     "protimiseis": "495-496-497-493-494-513-489-535-488-499-500-507-508-487-530-477-485-541-540-529-533-521",
     "thesi_diorismou": "533",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -12498,10 +12465,10 @@
     "vathmologia": 84.22,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 388,
+    "aa": 387,
     "am": "4198.0",
     "eponymo": "ΚΑΝΤΖΟΥΡΟΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -12533,7 +12500,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 389,
+    "aa": 388,
     "am": "18252.0",
     "eponymo": "ΚΟΥΓΙΑ",
     "onoma": "ΕΛΕΝΗ",
@@ -12565,7 +12532,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 390,
+    "aa": 389,
     "am": "4946.0",
     "eponymo": "ΧΕΚΙΜΙΑΝ",
     "onoma": "ΙΩΑΝΝΑ",
@@ -12597,7 +12564,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 391,
+    "aa": 390,
     "am": "18808.0",
     "eponymo": "ΡΑΜΜΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -12629,7 +12596,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 392,
+    "aa": 391,
     "am": "5792.0",
     "eponymo": "ΨΑΡΡΟΣ",
     "onoma": "ΧΡΗΣΤΟΣ",
@@ -12661,7 +12628,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 393,
+    "aa": 392,
     "am": "16712.0",
     "eponymo": "ΒΑΤΑΛΗΣ",
     "onoma": "ΣΩΚΡΑΤΗΣ",
@@ -12693,7 +12660,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 394,
+    "aa": 393,
     "am": "707.0",
     "eponymo": "ΙΟΥΝΕΣ",
     "onoma": "ΑΝΤΩΝΙΟΣ",
@@ -12725,7 +12692,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 395,
+    "aa": 394,
     "am": "9615.0",
     "eponymo": "ΚΟΚΚΑΛΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -12757,7 +12724,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 396,
+    "aa": 395,
     "am": "1327.0",
     "eponymo": "ΜΠΑΡΜΠΑΡΓΥΡΗΣ",
     "onoma": "ΑΝΑΣΤΑΣΙΟΣ",
@@ -12789,7 +12756,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 397,
+    "aa": 396,
     "am": "16081.0",
     "eponymo": "ΜΑΤΖΑΡΑ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -12821,7 +12788,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 398,
+    "aa": 397,
     "am": "5968.0",
     "eponymo": "ΜΠΛΟΥΓΟΥΡΑΣ",
     "onoma": "ΣΩΚΡΑΤΗΣ",
@@ -12853,7 +12820,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 399,
+    "aa": 398,
     "am": "16586.0",
     "eponymo": "ΣΚΑΒΕΝΤΖΟΥ",
     "onoma": "ΜΟΡΦΟΥΛΑ",
@@ -12885,7 +12852,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 400,
+    "aa": 399,
     "am": "17826.0",
     "eponymo": "ΚΟΥΒΑΤΑΣ",
     "onoma": "ΕΥΘΥΜΙΟΣ",
@@ -12917,7 +12884,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 401,
+    "aa": 400,
     "am": "208.0",
     "eponymo": "ΜΑΚΡΑΚΗ",
     "onoma": "ΒΙΡΓΙΝΙΑ",
@@ -12949,7 +12916,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 402,
+    "aa": 401,
     "am": "15562.0",
     "eponymo": "ΝΙΚΟΛΑΟΥ",
     "onoma": "ΑΙΚΑΤΕΡΙΝΗ",
@@ -12981,7 +12948,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 403,
+    "aa": 402,
     "am": "6255.0",
     "eponymo": "ΚΑΡΑΝΙΚΑΣ",
     "onoma": "ΠΑΝΑΓ",
@@ -13013,7 +12980,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 404,
+    "aa": 403,
     "am": "10190.0",
     "eponymo": "ΚΑΡΑΔΗΜΗΤΡΙΟΥ",
     "onoma": "ΑΝΑΣΤΑΣΙΑ",
@@ -13045,7 +13012,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 405,
+    "aa": 404,
     "am": "2336.0",
     "eponymo": "ΑΡΒΑΝΙΤΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13077,7 +13044,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 406,
+    "aa": 405,
     "am": "9359.0",
     "eponymo": "ΣΙΑΡΑΚΑ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΑ",
@@ -13087,7 +13054,7 @@
     "theseis_idias_omadas": "480-481-482-483-487-488-489-490-492-493-494-495-496-497-498-499-500-502-505-506-507-508-513-514-515-516-517-518-521-525-526-527-528-529-530-531-532-533-534-535-536-537-538-540-541-542",
     "protimiseis": "513-535-498-499-500-493-494-495-496-497-527-488-489-481-536-537-502-506-507-508-487-530-490-491-492-528-529-542-514-515-516-482-538-540-541-533-534-521-531-532-517-518-480-505-483-525-526",
     "thesi_diorismou": "528",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -13107,10 +13074,10 @@
     "vathmologia": 83.86,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 407,
+    "aa": 406,
     "am": "6384.0",
     "eponymo": "ΚΟΜΠΟΓΙΑΝΝΗ",
     "onoma": "ΣΠΥΡΙΔΟΥΛΑ",
@@ -13142,7 +13109,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 408,
+    "aa": 407,
     "am": "3316.0",
     "eponymo": "ΣΟΦΗΣ",
     "onoma": "ΙΩΑΝΝΗΣ",
@@ -13174,7 +13141,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 409,
+    "aa": 408,
     "am": "16085.0",
     "eponymo": "ΣΤΡΑΠΑΤΣΑ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -13206,7 +13173,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 410,
+    "aa": 409,
     "am": "936.0",
     "eponymo": "ΜΠΑΣΟΥΚΟΥ",
     "onoma": "ΑΡΓΥΡΩ",
@@ -13216,7 +13183,7 @@
     "theseis_idias_omadas": "473-480-483-487-503-504-505-524",
     "protimiseis": "877-880-885-886-889-883-895-913-893-891-790-892-504-798-1052-881-884-898-480-789-1004-991-899-890-882-505-524-1008-1009-1012-896-1014-1043-856-846-914-845-855-918-1011-1040-1042-1013-894-1032-1022-1023-995-1005-1007-996-997-1003-1001-998-1019-483-797-993-994-1112-1111-999-3165-1021-1122-1018-1024-1015-1006-1016-1017-1010-1039-1041-1124-1142-897-1037-1133-1118-1020-843-1044-1051-503-473-1045-917-1134-927-487-929",
     "thesi_diorismou": "883",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -13236,10 +13203,10 @@
     "vathmologia": 83.81,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
-    "aa": 411,
+    "aa": 410,
     "am": "10220.0",
     "eponymo": "ΡΗΓΟΠΟΥΛΟΥ",
     "onoma": "ΜΑΡΙΑ ΑΝΝΑ",
@@ -13271,7 +13238,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 412,
+    "aa": 411,
     "am": "15516.0",
     "eponymo": "ΜΟΝΟΧΑΡΤΖΗ",
     "onoma": "ΘΕΟΔΩΡΑ",
@@ -13303,7 +13270,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 413,
+    "aa": 412,
     "am": "7534.0",
     "eponymo": "ΠΑΠΑΔΟΓΙΑΝΝΗΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13335,7 +13302,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 414,
+    "aa": 413,
     "am": "17587.0",
     "eponymo": "ΣΗΦΑΚΗΣ",
     "onoma": "ΜΑΡΙΟΣ",
@@ -13367,7 +13334,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 415,
+    "aa": 414,
     "am": "3046.0",
     "eponymo": "ΤΣΙΝΟΥΛΗ",
     "onoma": "ΣΤΕΦΑΝΙΑ",
@@ -13399,7 +13366,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 416,
+    "aa": 415,
     "am": "12172.0",
     "eponymo": "ΑΡΣΕΝΙΟΥ",
     "onoma": "ΔΗΜΗΤΡΙΟΣ",
@@ -13431,7 +13398,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 417,
+    "aa": 416,
     "am": "7118.0",
     "eponymo": "ΠΑΠΑΣΤΟΓΙΑΝΝΙΔΗΣ",
     "onoma": "ΓΕΩΡΓΙΟΣ",
@@ -13463,7 +13430,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 418,
+    "aa": 417,
     "am": "11545.0",
     "eponymo": "ΦΕΡΦΥΡΗΣ",
     "onoma": "ΒΑΣΙΛΕΙΟΣ",
@@ -13495,7 +13462,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 419,
+    "aa": 418,
     "am": "2865.0",
     "eponymo": "ΓΟΥΡΓΟΥΛΙΑΝΟΥ",
     "onoma": "ΜΑΡΙΑ",
@@ -13527,7 +13494,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 420,
+    "aa": 419,
     "am": "1770.0",
     "eponymo": "ΓΙΑΡΕΝΗ",
     "onoma": "ΕΥΤΥΧΙΑ",
@@ -13559,7 +13526,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 421,
+    "aa": 420,
     "am": "5396.0",
     "eponymo": "ΤΡΙΑΝΤΑΦΥΛΛΙΔΟΥ",
     "onoma": "ΒΑΣΙΛΙΚΗ",
@@ -13591,7 +13558,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 422,
+    "aa": 421,
     "am": "13630.0",
     "eponymo": "ΓΕΡΟΛΥΜΑΤΟΥ",
     "onoma": "ΑΡΧΟΝΤΟΥΛΑ",
@@ -13623,7 +13590,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 423,
+    "aa": 422,
     "am": "9563.0",
     "eponymo": "ΚΑΖΟΓΛΟΥ",
     "onoma": "ΜΑΡΙΑ ΕΛΕΝΗ",
@@ -13655,7 +13622,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 424,
+    "aa": 423,
     "am": "18314.0",
     "eponymo": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -13687,7 +13654,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 425,
+    "aa": 424,
     "am": "7536.0",
     "eponymo": "ΚΩΝΣΤΑΝΤΙΝΙΔΟΥ",
     "onoma": "ΖΩΗ",
@@ -13719,7 +13686,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 426,
+    "aa": 425,
     "am": "9033.0",
     "eponymo": "ΜΩΡΑΙΤΗΣ",
     "onoma": "ΠΑΝΑΓΙΩΤΗΣ",
@@ -13751,7 +13718,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 427,
+    "aa": 426,
     "am": "11929.0",
     "eponymo": "ΤΡΟΜΠΟΥΚΗ",
     "onoma": "ΠΑΝΑΓΙΩΤΑ",
@@ -13783,7 +13750,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 428,
+    "aa": 427,
     "am": "3787.0",
     "eponymo": "ΒΑΡΩΤΣΟΣ",
     "onoma": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
@@ -13815,7 +13782,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 429,
+    "aa": 428,
     "am": "16777.0",
     "eponymo": "ΠΕΡΡΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13847,7 +13814,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 430,
+    "aa": 429,
     "am": "2723.0",
     "eponymo": "ΑΒΡΑΜΙΔΗΣ",
     "onoma": "ΣΤΑΥΡΟΣ",
@@ -13879,7 +13846,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 431,
+    "aa": 430,
     "am": "19517.0",
     "eponymo": "ΠΑΠΑΧΡΗΣΤΟΥ",
     "onoma": "ΕΛΕΝΗ",
@@ -13911,7 +13878,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 432,
+    "aa": 431,
     "am": "10367.0",
     "eponymo": "ΔΗΜΟΠΟΥΛΟΥ",
     "onoma": "ΓΕΩΡΓΙΑ",
@@ -13943,7 +13910,7 @@
     "slug": "pe-geotechnikon-eid-pe-geoponon"
   },
   {
-    "aa": 433,
+    "aa": 432,
     "am": "429.0",
     "eponymo": "ΓΚΑΤΖΙΟΣ",
     "onoma": "ΝΙΚΟΛΑΟΣ",
@@ -13973,6 +13940,39 @@
     "vathmologia": 83.47,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon"
+  },
+  {
+    "aa": 433,
+    "am": "5662.0",
+    "eponymo": "ΓΙΑΚΟΥΜΑΚΗ",
+    "onoma": "ΑΦΡΟΔΙΤΗ",
+    "patronymo": "ΠΑΝΤΕΛΗΣ",
+    "adt_masked": "***787",
+    "omada_prosonton": "305 -001,003",
+    "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
+    "protimiseis": "529-528-1159-1153-1157-1154-1155-1158-542-492-490-514-516-515-535-809-1205-1206-1207-1208-1209-945-943-944-946-947-948-949-950-794-795-1081-1080-483-484-523-522-524-525-526-505-504-503-480-473-531-532-493-494-495-496-497-955-1040-1085-1086-1087-1088-498-499-500-474-477-509-510-511-512-519-513-487-481-476-501-502-479-478-472-517-518-527-540-541-536-537-539-475-482-488-489-506-507-508-538-530-485-486-520-521-533-534",
+    "thesi_diorismou": "1157",
+    "idiotita": "",
+    "pinakas": "Κύριος",
+    "didaktoriko": null,
+    "metaptyxiako": null,
+    "enigaios_metaptyxiakos": "1",
+    "xeni_glossa": "1.0",
+    "deuteri_xeni": null,
+    "minas_empeirias": 0.0,
+    "monades_empeirias": 0.0,
+    "vevaiosi_kdbm": "0.0",
+    "kod_entopiotitas": "6",
+    "kod_thesi_entop": "529",
+    "monades_entop": 40.0,
+    "math1": 100.0,
+    "math2": 62.89,
+    "synolo_graptou": 81.44,
+    "seira_klirosis": 3886184.0,
+    "vathmologia": 83.44,
+    "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
+    "slug": "pe-geotechnikon-eid-pe-geoponon",
+    "eidikes_idiotites": "ΟΧΙ"
   },
   {
     "aa": 434,
@@ -15009,7 +15009,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
     "protimiseis": "518-517-504-503-480-505-524-526-483-525-484-523-522-473-487-537-536-478-479-472-509-512-511-513-535-474-495-496-497-494-493-500-499-541-540-475-476-477-488-489-490-492-516-515-514-519-520-521-528-529-531-532-530-527-534-533-542-538-539-498-501-502-510-508-507-506-482-481-485-486",
     "thesi_diorismou": "511",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -15029,7 +15029,7 @@
     "vathmologia": 82.86,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 467,
@@ -15778,7 +15778,7 @@
     "theseis_idias_omadas": "478-479-488-493-494-495-496-497-499-500-503-504-505-507-509-511-512-513-519-522-523-524-525-526-530-535-536-537-540-541",
     "protimiseis": "495-496-497-494-493-488-513-540-541-507-535-519-530-499-500-536-537-478-479-503-505-504-525-526-522-523-524-511-512-509-960-961-962-959-958-957-956-955-954-953-952-963-964-965-966-862-863-941-942-1101-1102-1100-1104-1148-1202-1203-1204-1031-1036-1076-1003-1005-1007-968-880-870-1025-1040-996-997-999-1011-1115-1136",
     "thesi_diorismou": "1031",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -15798,7 +15798,7 @@
     "vathmologia": 82.47,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 491,
@@ -16195,7 +16195,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "477-476-480-505-524-526-510-513-500-509-479-474-519-487-478-537-499-508-495-497-496-472-512-530-525-521-518-514-515-516-527-528-532-481-473-483-484-485-486-489-533-534-536-538-539-541-542-492-502-503-504-506-507",
     "thesi_diorismou": "521",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -16215,7 +16215,7 @@
     "vathmologia": 82.33,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 504,
@@ -16900,7 +16900,7 @@
     "theseis_idias_omadas": "491",
     "protimiseis": "492-946-514-515-516-542-529-496-495-497-945-950-949-962-961-964-965-966-490-491-948-963-968-967-959",
     "thesi_diorismou": "514",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -16920,7 +16920,7 @@
     "vathmologia": 81.83,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 526,
@@ -17733,7 +17733,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
     "protimiseis": "535-499-500-498-513-1187-1188-988-481-1148-1147-537-536-508-507-506-493-494-496-497-495-502-527-479-478-489-488-539-538-487-525-526-480-483-484-473-505-504-503-524-523-522-475-541-540-472-477-476-482-510-509-474-530-485-512-511-519-486-518-517-533-534-520-521-542-492-490-529-528-514-516-515-532-531-501",
     "thesi_diorismou": "534",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -17753,7 +17753,7 @@
     "vathmologia": 81.33,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 552,
@@ -19558,7 +19558,7 @@
     "theseis_idias_omadas": "473-478-479-481-482-485-486-487-488-489-490-492-493-494-496-497-498-499-500-502-506-507-508-513-514-515-516-522-523-524-527-530-535-536-537-538-539-540-541-542",
     "protimiseis": "485-530-486-482-496-497-494-493-541-540-489-488-527-492-490-491-513-507-506-508-538-502-535-481-499-498-500-537-536-539-514-515-516-542-478-479-487-473-522-523-524",
     "thesi_diorismou": "514",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -19578,7 +19578,7 @@
     "vathmologia": 80.47,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 609,
@@ -19719,7 +19719,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
     "protimiseis": "497-496-495-494-493-489-488-513-527-541-540-537-536-482-507-508-506-535-481-500-499-498-502-538-530-485-486-492-491-490-487-478-479-475-472-505-504-503-529-528-526-524-523-522-525-484-483-474-480-477-476-514-515-516-542-539-473-510-509-512-511-518-517-532-531-533-534-521-520-519-501",
     "thesi_diorismou": "514",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -19739,7 +19739,7 @@
     "vathmologia": 80.42,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 614,
@@ -20008,7 +20008,7 @@
     "theseis_idias_omadas": "472-473-474-476-477-478-479-480-483-487-490-492-501-503-504-505-509-510-511-512-514-515-516-517-518-519-520-521-522-523-524-525-526-528-529-531-532-533-534-536-537-539-542",
     "protimiseis": "505-509-510-526-524-519-480-484-2822-514-2823-474-539-487-478-479-477-533-512-532-537-536-542-534-529-521-515-516-492-2813-2825-2824-2828-2830-2829-2831-2827-2826-2820-525-523-522-473-483-503-504-472-476-511-528-490-491-520-518-517-531-501",
     "thesi_diorismou": "514",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -20028,7 +20028,7 @@
     "vathmologia": 80.28,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 623,
@@ -21001,7 +21001,7 @@
     "theseis_idias_omadas": "472-473-474-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-519-522-523-524-525-526-527-528-529-530-535-536-537-538-539-540-541-542",
     "protimiseis": "535-499-500-513-1187-1188-1186-1185-984-988-986-987-1079-1078-1076-1077-1073-498-985-1098-1097-1099-1096-1095-508-507-1195-1192-1194-1196-1191-1193-1189-1190-496-495-494-493-497-962-961-959-963-954-953-955-964-965-966-967-968-956-952-957-958-960-1148-1147-536-537-506-488-489-482-481-540-541-487-900-901-902-905-906-903-904-979-980-981-978-977-1064-1063-1062-1060-1059-1061-1177-1176-1174-1175-1204-1203-1202-509-510-502-527-511-512-539-475-474-476-477-478-479-472-490-492-514-515-516-542-519-529-528-524-523-522-525-526-503-505-504-483-538-530-485-486-473-480-866-867-868-869-862-863-870-865-871-872-873-874-841-842-946-942-944-948-1157-1159-1155-1154-1153-1156-1158-1122-1123-1124-1115-3165-794-795-797-809-876-875-893-927-939-940-938-949-950-941-943-947-945-1152-1036",
     "thesi_diorismou": "1115",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -21021,7 +21021,7 @@
     "vathmologia": 79.89,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 654,
@@ -21482,7 +21482,7 @@
     "theseis_idias_omadas": "484",
     "protimiseis": "484-512-495-505-1004-526-525-524-523-522-504-483-473-480-493-496-497-494-500-499-498-535-514-486-513-530-485-490-491-492-515-516-528-529-542-533-532-531-521-520-502-506-507-508-509-510-527-519-511-538-536-537-540-541-893-856-884-880-882-883-999-890-991-899-849-892-894-898-897-896-909-916-917-919-918-914-889-1122-503-1003-1011-1007-1012-1020-1023-1031-1034-1036-1038-1039-1040-1041-1115-954-955-957-961-962-983-984-986-988-1073-1074-1075-1076-1077-1078-1079-1095-1096-1097-1098-865-868-948-1054-1080-1157-1169-1208-789-797-1200",
     "thesi_diorismou": "890",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -21502,7 +21502,7 @@
     "vathmologia": 79.61,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 669,
@@ -21515,7 +21515,7 @@
     "theseis_idias_omadas": "472-473-475-476-477-478-479-480-481-482-483-485-486-487-488-489-490-492-493-494-495-496-497-498-499-500-501-502-503-504-505-506-507-508-509-510-511-512-513-514-515-516-517-518-519-520-521-522-523-524-525-526-527-528-529-530-531-532-533-534-535-536-537-538-539-540-541-542",
     "protimiseis": "507-508-506-538-502-481-488-489-527-496-497-493-494-495-541-540-487-485-482-513-535-530-475-476-477-478-479-498-499-500-503-504-505-473-480-509-510-522-472-523-524-525-526-519-484-483-511-512-536-537-539-515-492-490-491-514-516-517-528-529-531-532-518-520-521-533-534-542-501-486",
     "thesi_diorismou": "516",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -21535,7 +21535,7 @@
     "vathmologia": 79.58,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 670,
@@ -23276,7 +23276,7 @@
     "theseis_idias_omadas": "477-478-479-487-488-489-490-492-493-494-495-497-498-499-500-501-509-510-514-515-516-517-518-519-521-527-528-529-530-531-532-533-534-535-536-537-538-539-540-542",
     "protimiseis": "497-495-494-533-514-521-530-492-490-534-529-528-509-477-487-488-489-493-498-499-500-532-531-510-542-515-516-519-527-535-536-537-538-539-478-479-540-501-518-517",
     "thesi_diorismou": "501",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": "2.0",
@@ -23296,7 +23296,7 @@
     "vathmologia": 78.47,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 725,
@@ -24173,7 +24173,7 @@
     "theseis_idias_omadas": "473-474-478-479-480-483-487-503-504-505-522-523-524-525-526",
     "protimiseis": "522-523-524-505-503-525-473-480-484-483-504-526-487-479-478-474-1117-1116-1115-1113-1114-1111-1123-1124-1118-1122-1119-1120-1121-1112-1008-1012-1009-1011-1010-1013-1037-1040-1039-1042-1043-991-1000-1041-1036-1047-1046-1016-1018-1020-1023-1024-1019-1029-1031-1007-1003-996-999-1129-1136-1142-1135-1139-1138-1140-1141-1133-1134-1130-1131-1132-1143-850-852-853-845-846-855-847-843-849-851-884-883-881-882-880-877-898-899-896-895-893-892-889-885-890-897-918-917-914-916-912-915-913-919-992-993-994-995-998-1025-1033-1034-1035-1044-1045-1048-1049",
     "thesi_diorismou": "1129",
-    "idiotita": "",
+    "idiotita": "ΝΑΙ",
     "pinakas": "Κύριος",
     "didaktoriko": null,
     "metaptyxiako": null,
@@ -24193,7 +24193,7 @@
     "vathmologia": 78.17,
     "eidikotita": "ΠΕ ΓΕΩΤΕΧΝΙΚΩΝ ΕΙΔ. ΠΕ ΓΕΩΠΟΝΩΝ",
     "slug": "pe-geotechnikon-eid-pe-geoponon",
-    "eidikes_idiotites": "ΟΧΙ"
+    "eidikes_idiotites": "ΝΑΙ"
   },
   {
     "aa": 753,

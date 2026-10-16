@@ -59,16 +59,21 @@ export async function GET(request: Request) {
   }
 
   const chunksDir = join(process.cwd(), "public", "data", "chunks");
-  const matchingRecords: any[] = [];
+  const matchingRecordsMap = new Map<string, any>();
 
+  // Ανάγνωση εγγραφών υποψηφίου με αποφυγή διπλοτύπων
   for (const chunkName of chunkFiles) {
     try {
-      const chunkData = JSON.parse(
-        readFileSync(join(chunksDir, chunkName), "utf-8")
-      );
-      for (const r of chunkData) {
-        if (String(r.am).replace(/\.0$/, "").trim() === cleanAm) {
-          matchingRecords.push(r);
+      const p = join(chunksDir, chunkName);
+      if (existsSync(p)) {
+        const chunkData = JSON.parse(readFileSync(p, "utf-8"));
+        for (const r of chunkData) {
+          if (String(r.am).replace(/\.0$/, "").trim() === cleanAm) {
+            const uniqueKey = `${r.slug || r.eidikotita || ""}_${cleanAm}`;
+            if (!matchingRecordsMap.has(uniqueKey)) {
+              matchingRecordsMap.set(uniqueKey, r);
+            }
+          }
         }
       }
     } catch (e) {
@@ -76,41 +81,50 @@ export async function GET(request: Request) {
     }
   }
 
+  const matchingRecords = Array.from(matchingRecordsMap.values());
+
   if (matchingRecords.length === 0) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
-  const positionsList = getPositionsList();
   const chunkIndex = getChunkIndex();
 
   // Υπολογισμός σειράς διορισμού ανά ειδικότητα
   for (const rec of matchingRecords) {
-    const recThesi = String(rec.thesi_diorismou || "").replace(/\.0$/, "").trim();
+    const rawThesi = String(rec.thesi_diorismou || "").replace(/\.0$/, "").trim();
+    const isValidThesi = rawThesi && rawThesi !== "0" && rawThesi !== "-" && rawThesi !== "null" && rawThesi !== "nan";
     const recSlug = rec.slug || "";
 
-    // Αν έχει θέση διορισμού στο chunk, είναι διοριστέος!
-    if (recThesi && recSlug) {
+    // Αν έχει πραγματική θέση διορισμού στο chunk, είναι διοριστέος
+    if (isValidThesi && recSlug) {
       rec.is_appointed_here = true;
 
-      // Υπολογισμός σειράς ανάμεσα στους διοριστέους αυτής της ειδικότητας
+      // Χρησιμοποιούμε Map για να εξασφαλίσουμε ότι κάθε Α.Μ. μετράει ΑΚΡΙΒΩΣ ΜΙΑ ΦΟΡΑ (όχι διπλοεγγραφές)
       const specChunks = chunkIndex[recSlug] || [];
-      const specAppointed: any[] = [];
+      const specAppointedMap = new Map<string, { am: string; vath: number; klirosi: number }>();
 
       for (const cf of specChunks) {
         const p = join(chunksDir, cf);
         if (existsSync(p)) {
           const cData = JSON.parse(readFileSync(p, "utf-8"));
           for (const item of cData) {
-            if (item.thesi_diorismou) {
-              specAppointed.push({
-                am: String(item.am).replace(/\.0$/, "").trim(),
-                vath: parseFloat(item.vathmologia) || 0,
-                klirosi: parseFloat(item.seira_klirosis) || 99999999,
-              });
+            const itemThesi = String(item.thesi_diorismou || "").replace(/\.0$/, "").trim();
+            const itemAm = String(item.am).replace(/\.0$/, "").trim();
+
+            if (itemThesi && itemThesi !== "0" && itemThesi !== "-" && itemThesi !== "null" && itemThesi !== "nan") {
+              if (!specAppointedMap.has(itemAm)) {
+                specAppointedMap.set(itemAm, {
+                  am: itemAm,
+                  vath: parseFloat(item.vathmologia) || 0,
+                  klirosi: parseFloat(item.seira_klirosis) || 99999999,
+                });
+              }
             }
           }
         }
       }
+
+      const specAppointed = Array.from(specAppointedMap.values());
 
       // Ταξινόμηση ΑΣΕΠ: 1) Βαθμός φθίνων, 2) Κλήρωση αύξουσα
       specAppointed.sort((a, b) => {
@@ -130,7 +144,7 @@ export async function GET(request: Request) {
     }
   }
 
-  // Ταξινόμηση: η καρτέλα διορισμού να είναι πάντα πρώτη!
+  // Ταξινόμηση: η καρτέλα διορισμού να είναι πάντα πρώτη
   matchingRecords.sort((a, b) => {
     if (a.thesi_diorismou && !b.thesi_diorismou) return -1;
     if (!a.thesi_diorismou && b.thesi_diorismou) return 1;

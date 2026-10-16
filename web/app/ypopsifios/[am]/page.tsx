@@ -7,7 +7,7 @@ import { useParams, useSearchParams } from "next/navigation";
 import { formatVathmologia } from "@/lib/utils";
 import AllocationJourney from "@/components/profile/AllocationJourney";
 import ObjectionSimulator from "@/components/profile/ObjectionSimulator";
-import { Sliders, ChevronDown, ChevronUp } from "lucide-react";
+import { Sliders, ChevronDown, ChevronUp, Info, MapPin, CheckCircle2 } from "lucide-react";
 import EpilaxontesTracker from "@/components/profile/EpilaxontesTracker";
 
 interface Candidate {
@@ -33,6 +33,11 @@ interface Candidate {
   vathmologia: number | null;
   appointed_rank?: number;
   total_appointed_in_specialty?: number;
+  total_candidates_in_specialty?: number;
+  monades_entop?: number | null;
+  is_entopiotita_seat?: boolean;
+  moria_diorismou?: number | null;
+  thesi_entopiotitas?: string;
   eidikotita: string;
   slug?: string;
   eidikotitaSlug: string;
@@ -43,42 +48,51 @@ function StatBox({
   value,
   highlight = false,
   delay = 0,
+  subtext,
 }: {
   label: string;
   value: string | number;
   highlight?: boolean;
   delay?: number;
+  subtext?: string;
 }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: delay / 1000, duration: 0.5 }}
-      className="glass"
+      className="glass flex flex-col justify-between"
       style={{ padding: "1.25rem" }}
     >
-      <div
-        style={{
-          fontSize: "0.7rem",
-          textTransform: "uppercase",
-          letterSpacing: "0.1em",
-          color: "var(--text-muted)",
-          marginBottom: "0.5rem",
-        }}
-      >
-        {label}
+      <div>
+        <div
+          style={{
+            fontSize: "0.7rem",
+            textTransform: "uppercase",
+            letterSpacing: "0.1em",
+            color: "var(--text-muted)",
+            marginBottom: "0.5rem",
+          }}
+        >
+          {label}
+        </div>
+        <div
+          className={highlight ? "text-gradient" : ""}
+          style={{
+            fontSize: "1.5rem",
+            fontWeight: 700,
+            color: highlight ? undefined : "var(--text)",
+            lineHeight: 1.2,
+          }}
+        >
+          {value}
+        </div>
       </div>
-      <div
-        className={highlight ? "text-gradient" : ""}
-        style={{
-          fontSize: "1.5rem",
-          fontWeight: 700,
-          color: highlight ? undefined : "var(--text)",
-          lineHeight: 1.2,
-        }}
-      >
-        {value}
-      </div>
+      {subtext && (
+        <div className="text-[11px] text-slate-400 mt-2 font-mono">
+          {subtext}
+        </div>
+      )}
     </motion.div>
   );
 }
@@ -197,6 +211,32 @@ export default function ProfilePage() {
   const cleanThesiKod = candidate.thesi_diorismou
     ? String(candidate.thesi_diorismou).replace(/\.0$/, "")
     : "";
+
+  // ==========================================
+  // ΥΠΟΛΟΓΙΣΜΟΙ ΕΝΤΟΠΙΟΤΗΤΑΣ & ΒΑΘΜΟΛΟΓΙΑΣ
+  // ==========================================
+  const rawExcelScore = Number(candidate.vathmologia || 0);
+
+  // Έχει δικαίωμα εντοπιότητας (στοιχεία αίτησης/excel);
+  const hasEntopiotitaRight = Boolean(
+    (candidate.kod_entopiotitas && candidate.kod_entopiotitas !== "-" && candidate.kod_entopiotitas !== "0") ||
+    Number(candidate.monades_entop || 0) > 0
+  );
+
+  const entopBonusPoints = Number(candidate.monades_entop || (hasEntopiotitaRight ? 40 : 0));
+
+  // Χρησιμοποιήθηκε εντοπιότητα στη συγκεκριμένη θέση διορισμού;
+  const usedLocalityForSeat = Boolean(candidate.is_entopiotita_seat);
+
+  // Πραγματικά μόρια διορισμού (αν δεν δίνονται ρητά, αφαιρούμε τις μονάδες εντοπιότητας αν δεν χρησιμοποιήθηκαν)
+  const actualAppointedScore = candidate.moria_diorismou != null
+    ? Number(candidate.moria_diorismou)
+    : (isDioristaios && hasEntopiotitaRight && !usedLocalityForSeat && rawExcelScore > 100)
+      ? Math.max(0, rawExcelScore - entopBonusPoints)
+      : rawExcelScore;
+
+  // Η βαθμολογία διορισμού διαφέρει από το Excel (περίπτωση Μιχαηλίδου)
+  const scoreDiffersFromExcel = isDioristaios && hasEntopiotitaRight && !usedLocalityForSeat && rawExcelScore > actualAppointedScore;
 
   return (
     <main
@@ -328,32 +368,113 @@ export default function ProfilePage() {
           </div>
         )}
 
-        {/* Top KPIs */}
+        {/* ========================================================= */}
+        {/* TOP KPIs (Σειρές & Βαθμολογίες με απόλυτη σαφήνεια) */}
+        {/* ========================================================= */}
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(170px, 1fr))",
             gap: "1rem",
-            marginBottom: "3rem",
+            marginBottom: "1.5rem",
           }}
         >
+          {/* Βαθμολογία (Διορισμού ή Τελική) */}
           <StatBox
-            label="Τελική Βαθμολογία"
-            value={formatVathmologia(candidate.vathmologia)}
+            label={isDioristaios ? "Βαθμολογία Διορισμού" : "Τελική Βαθμολογία"}
+            value={formatVathmologia(actualAppointedScore)}
             highlight
+            subtext={
+              scoreDiffersFromExcel
+                ? `Πίνακας ΑΣΕΠ: ${formatVathmologia(rawExcelScore)}`
+                : undefined
+            }
             delay={100}
           />
+
+          {/* Γραπτός */}
           <StatBox
             label="Σύνολο Γραπτού"
             value={formatVathmologia(candidate.synolo_graptou)}
+            delay={150}
+          />
+
+          {/* Σειρά Πίνακα Κατάταξης (ΑΣΕΠ Pure Rank) */}
+          <StatBox
+            label="Σειρά Πίνακα (ΑΣΕΠ)"
+            value={`#${candidate.aa}`}
+            subtext={
+              candidate.total_candidates_in_specialty
+                ? `στους ${candidate.total_candidates_in_specialty}`
+                : "Στον πίνακα ειδικότητας"
+            }
             delay={200}
           />
 
+          {/* Σειρά & Κατάσταση Διορισμού */}
+          {candidate.thesi_diorismou ? (
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.25 }}
+              className="glass p-5 rounded-2xl border border-emerald-500/30 bg-emerald-500/5 flex flex-col justify-between"
+            >
+              <div>
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-[10px] uppercase tracking-wider font-bold text-emerald-400">
+                    Σειρά Διοριστέων
+                  </span>
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                </div>
+                <div className="text-xl sm:text-2xl font-bold font-mono text-white">
+                  #{candidate.appointed_rank || candidate.aa}
+                  {candidate.total_appointed_in_specialty && (
+                    <span className="text-xs sm:text-sm text-slate-400 font-normal">
+                      {" "}από {candidate.total_appointed_in_specialty}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              <div className="text-[11px] mt-2 font-medium">
+                {usedLocalityForSeat ? (
+                  <span className="text-amber-400 flex items-center gap-1">
+                    <MapPin className="w-3 h-3 inline" /> Με Εντοπιότητα
+                  </span>
+                ) : (
+                  <span className="text-[#00E5FF] flex items-center gap-1">
+                    <CheckCircle2 className="w-3 h-3 inline" /> Αξιοκρατική Κατοχύρωση
+                  </span>
+                )}
+              </div>
+            </motion.div>
+          ) : (
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.25 }}
+              className="glass p-5 rounded-2xl opacity-75 border border-slate-800 flex flex-col justify-between"
+            >
+              <div>
+                <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">
+                  Κατάσταση
+                </div>
+                <div className="text-xl sm:text-2xl font-bold font-mono text-slate-300">
+                  Μη Διοριστέος
+                </div>
+              </div>
+              <div className="text-[10px] text-slate-400 mt-2">
+                Στους επιλαχόντες ειδικότητας
+              </div>
+            </motion.div>
+          )}
+
+          {/* Θέση Διορισμού */}
           {cleanThesiKod ? (
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 300 / 1000, duration: 0.5 }}
+              transition={{ delay: 0.3 }}
             >
               <Link
                 href={`/thesi/${cleanThesiKod}`}
@@ -365,6 +486,7 @@ export default function ProfilePage() {
                   borderRadius: "16px",
                   border: "1px solid rgba(0, 229, 255, 0.25)",
                   background: "rgba(0, 229, 255, 0.03)",
+                  height: "100%",
                 }}
               >
                 <div
@@ -392,7 +514,7 @@ export default function ProfilePage() {
                       fontWeight: 600,
                     }}
                   >
-                    Λεπτομέρειες →
+                    →
                   </span>
                 </div>
                 <div
@@ -411,60 +533,65 @@ export default function ProfilePage() {
           ) : (
             <StatBox label="Θέση Διορισμού" value="—" delay={300} />
           )}
-
-          {/* Έξυπνη ένδειξη Σειράς ανάλογα με την ενεργή ειδικότητα */}
-          {candidate.thesi_diorismou ? (
-            /* Καρτέλα ΔΙΟΡΙΣΜΟΥ: Πράσινο Glowing Box */
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="glass p-5 rounded-2xl border border-emerald-500/30 bg-emerald-500/5 flex flex-col justify-between"
-            >
-              <div>
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-[10px] uppercase tracking-wider font-bold text-emerald-400">
-                    Σειρά Διορισμού
-                  </span>
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                </div>
-                <div className="text-xl sm:text-2xl font-bold font-mono text-white">
-                  #{candidate.appointed_rank || candidate.aa}ος{" "}
-                  {candidate.total_appointed_in_specialty && (
-                    <span className="text-xs sm:text-sm text-emerald-400 font-normal">
-                      από {candidate.total_appointed_in_specialty}
-                    </span>
-                  )}
-                </div>
-              </div>
-              <div className="text-[10px] text-slate-400 mt-2">
-                ✓ Κατοχύρωσε θέση σε αυτή την ειδικότητα
-              </div>
-            </motion.div>
-          ) : (
-            /* Καρτέλα ΧΩΡΙΣ ΔΙΟΡΙΣΜΟ: Faded Γκρι Style */
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="glass p-5 rounded-2xl opacity-75 border border-slate-800 flex flex-col justify-between"
-            >
-              <div>
-                <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">
-                  Σειρά Κατάταξης
-                </div>
-                <div className="text-xl sm:text-2xl font-bold font-mono text-slate-300">
-                  #{candidate.aa}ος
-                </div>
-              </div>
-              <div className="text-[10px] text-slate-400 mt-2">
-                Πίνακας κατάταξης (χωρίς διορισμό εδώ)
-              </div>
-            </motion.div>
-          )}
         </div>
 
-        {/* 1. ΠΡΩΤΑ Η ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Natural Hierarchy) */}
+        {/* ========================================================= */}
+        {/* ΕΠΕΞΗΓΗΜΑΤΙΚΟ CALLOUT (Διαφάνεια Μορίων & Εντοπιότητας) */}
+        {/* ========================================================= */}
+        {scoreDiffersFromExcel && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.35 }}
+            className="mb-8 p-4 sm:p-5 rounded-2xl border border-cyan-500/30 bg-cyan-950/20 text-slate-200 text-xs sm:text-sm leading-relaxed"
+          >
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 rounded-lg bg-cyan-500/20 flex items-center justify-center text-[#00E5FF] flex-shrink-0 mt-0.5">
+                <Info className="w-5 h-5" />
+              </div>
+              <div className="space-y-2">
+                <div className="font-semibold text-cyan-300 text-sm sm:text-base">
+                  Ανάλυση Μορίων & Σειράς Διορισμού
+                </div>
+
+                <p>
+                  Στον συγκεντρωτικό πίνακα του ΑΣΕΠ εμφανίζεστε στη θέση <strong>#{candidate.aa}</strong> με <strong>{formatVathmologia(rawExcelScore)} μόρια</strong>, 
+                  καθώς είχε υπολογιστεί το θεωρητικό μπόνους εντοπιότητας (+{entopBonusPoints} μόρια).
+                </p>
+
+                <p>
+                  Στην πραγματικότητα, κατοχυρώσατε τη θέση <strong>#{cleanThesiKod}</strong> αποκλειστικά με τα 
+                  αξιοκρατικά σας μόρια (<strong>{formatVathmologia(actualAppointedScore)} μόρια</strong> από Γραπτό + Προσαυξήσεις), 
+                  καθώς στη θέση αυτή <em>δεν απαιτήθηκε ούτε εφαρμόζεται προνόμιο εντοπιότητας</em>.
+                </p>
+
+                <div className="pt-2 border-t border-cyan-500/20 text-slate-400 text-[11px] sm:text-xs">
+                  <strong>Γιατί η σειρά διοριστέων είναι #{candidate.appointed_rank || candidate.aa};</strong> Οι θέσεις που προηγούνται στη συνολική κατάταξη διοριστέων καταλήφθηκαν από υποψηφίους που αξιοποίησαν εντοπιότητα παραμεθορίου/νησιών (+20 ή +40 μόρια).
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
+
+        {/* Callout αν διορίστηκε ΜΕ εντοπιότητα */}
+        {isDioristaios && usedLocalityForSeat && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.35 }}
+            className="mb-8 p-4 rounded-2xl border border-amber-500/30 bg-amber-950/20 text-slate-200 text-xs sm:text-sm"
+          >
+            <div className="flex items-center gap-2 font-semibold text-amber-300 mb-1">
+              <MapPin className="w-4 h-4" /> Κατοχύρωση Θέσης με Προνόμιο Εντοπιότητας
+            </div>
+            <p className="text-slate-300 text-xs leading-relaxed">
+              Η θέση <strong>#{cleanThesiKod}</strong> κατοχυρώθηκε με συνυπολογισμό των <strong>+{entopBonusPoints} μορίων εντοπιότητας</strong>, 
+              διαμορφώνοντας την τελική βαθμολογία διορισμού στα <strong>{formatVathmologia(actualAppointedScore)} μόρια</strong>.
+            </p>
+          </motion.div>
+        )}
+
+        {/* 1. ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Natural Hierarchy) */}
         <AllocationJourney
           protimiseisStr={candidate.protimiseis}
           thesiDiorismou={candidate.thesi_diorismou}
@@ -481,7 +608,7 @@ export default function ProfilePage() {
           positionsMap={positionsMap}
         />  
 
-        {/* 2. ΚΟΜΨΟ COLLAPSIBLE BAR ΓΙΑ ΤΟΝ ΠΡΟΣΟΜΟΙΩΤΗ ΕΝΣΤΑΣΕΩΝ */}
+        {/* 2. COLLAPSIBLE BAR ΓΙΑ ΤΟΝ ΠΡΟΣΟΜΟΙΩΤΗ ΕΝΣΤΑΣΕΩΝ */}
         <div className="mb-12">
           <button
             type="button"

@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const NAV_ITEMS = [
   { href: "/", label: "Αρχική" },
+  { href: "/proetoimasia", label: "Τεστ Γνώσεων" },
   { href: "/kenes-theseis", label: "Κενές Θέσεις" },
   { href: "/xartis", label: "Χάρτης" },
   { href: "/search", label: "Αναζήτηση" },

@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Οικονομικές Επιστήμες",
+    "slug": "oikonomikes-epistimes",
+    "category_id": "oikonomikes_epistimes",
+    "desc": "Μικροοικονομία, μακροοικονομία, δημόσια οικονομικά και δημοσιονομική πολιτική.",
+    "icon": "TrendingUp",
+    "count": 334
+  },
+  {
+    "title": "Διοικητικό Δίκαιο",
+    "slug": "dioikitiko-dikaio",
+    "category_id": "dioikitiko_dikaio",
+    "desc": "Διοικητικές πράξεις, αρμοδιότητες, αρχή νομιμότητας και διοικητική οργάνωση.",
+    "icon": "FileText",
+    "count": 303
+  },
+  {
+    "title": "Συνταγματικό Δίκαιο",
+    "slug": "syntagmatiko-dikaio",
+    "category_id": "syntagmatiko_dikaio",
+    "desc": "Αρχές πολιτεύματος, ατομικά δικαιώματα, οργάνωση του κράτους και λειτουργία των θεσμών.",
+    "icon": "Scale",
+    "count": 263
+  },
+  {
+    "title": "Πληροφορική & Ψηφιακή Διακυβέρνηση",
+    "slug": "pliroforiki-kai-psifiaki-diakyvernisi",
+    "category_id": "pliroforiki",
+    "desc": "Ψηφιακές υπηρεσίες, δίκτυα, βάσεις δεδομένων, κυβερνοασφάλεια και gov.gr.",
+    "icon": "Cpu",
+    "count": 257
+  },
+  {
+    "title": "Ευρωπαϊκοί Θεσμοί & Δίκαιο",
+    "slug": "evropaikoi-thesmoi-kai-dikaio",
+    "category_id": "evropaikoi_thesmoi",
+    "desc": "Όργανα Ε.Ε., συνθήκες, κανονισμοί, οδηγίες και ευρωπαϊκή έννομη τάξη.",
+    "icon": "Globe",
+    "count": 187
+  },
+  {
+    "title": "Dioikisi Anthropinou",
+    "slug": "dioikisi-anthropinou",
+    "category_id": "dioikisi_anthropinou",
+    "desc": "Θέματα γνώσεων ΑΣΕΠ.",
+    "icon": "FileText",
+    "count": 151
+  },
+  {
+    "title": "Σύγχρονη Ιστορία της Ελλάδας (1864 - σήμερα)",
+    "slug": "sygchroni-istoria-tis-elladas",
+    "category_id": "istoria",
+    "desc": "Κομβικά ιστορικά γεγονότα, πολιτικές εξελίξεις και συγκρότηση του ελληνικού κράτους.",
+    "icon": "History",
+    "count": 144
+  },
+  {
+    "title": "Kodikas Katastasis",
+    "slug": "kodikas-katastasis",
+    "category_id": "kodikas_katastasis",
+    "desc": "Θέματα γνώσεων ΑΣΕΠ.",
+    "icon": "FileText",
+    "count": 121
+  },
+  {
+    "title": "Διοίκηση Επιχειρήσεων & Οργανισμών",
+    "slug": "dioikisi-epicheiriseon-kai-organismon",
+    "category_id": "dioikisi_epicheiriseon",
+    "desc": "Στρατηγικός σχεδιασμός, διαχείριση πόρων, στοχοθεσία και δημόσιο management.",
+    "icon": "Briefcase",
+    "count": 108
+  },
+  {
+    "title": "Κώδικας Συμπεριφοράς Δημοσίων Υπαλλήλων",
+    "slug": "kodikas-symperiforas-dimosion-ypallilon",
+    "category_id": "kodikas_symperiforas",
+    "desc": "Κώδικας δεοντολογίας, καταπολέμηση διαφθοράς, εξυπηρέτηση ευάλωτων ομάδων.",
+    "icon": "Award",
+    "count": 86
+  },
+  {
+    "title": "Γενικός Κανονισμός Προστασίας Δεδομένων (GDPR)",
+    "slug": "gdpr-prostasia-dedomenon",
+    "category_id": "gdpr",
+    "desc": "Βασικές αρχές προστασίας προσωπικών δεδομένων, δικαιώματα πολιτών και υποχρεώσεις φορέων.",
+    "icon": "ShieldCheck",
+    "count": 30
+  }
+]

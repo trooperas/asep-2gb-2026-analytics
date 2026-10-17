@@ -19,46 +19,35 @@ import {
   ShieldCheck,
   Gamepad2,
   Clock,
+  Share2,
+  AlertTriangle,
+  Check,
 } from "lucide-react";
 import { formatNumber } from "@/lib/utils";
 import { OFFICIAL_CATEGORIES } from "@/lib/quiz-constants";
 
 interface Question {
   id: string;
-  category_id: string;
-  category_title: string;
-  category_slug: string;
+  category_id?: string;
+  category_title?: string;
+  category_slug?: string;
   question: string;
   options: string[];
   correct_index: number;
 }
 
-// Επίσημες ημερομηνίες επικαιροποίησης ΑΣΕΠ ανά ενότητα (Δελτίο Τύπου 14/10/2026)
-const UPDATE_DATES: Record<string, string> = {
-  "syntagmatiko-dikaio": "14/04/2026",
-  "dioikitiko-dikaio": "06/07/2026",
-  "evropaikoi-thesmoi-kai-dikaio": "03/04/2026",
-  "oikonomikes-epistimes": "09/07/2026",
-  "pliroforiki-kai-psifiaki-diakyvernisi": "18/09/2026",
-  "sygchroni-istoria-tis-elladas": "03/04/2026",
-  "ypallilikos-kodikas": "03/04/2026",
-  "gdpr-prostasia-dedomenon": "03/04/2026",
-  "dioikisi-epicheiriseon-kai-organismon": "03/04/2026",
-  "dioikisi-anthropinoy-dynamikoy": "03/04/2026",
-  "kodikas-symperiforas-dimosion-ypallilon": "03/04/2026",
-};
-
 export default function CategoryQuizPage() {
   const params = useParams();
-  const categorySlug = params?.category as string;
+  const categorySlug = (params?.category as string) || "";
 
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [allQuestions, setAllQuestions] = useState<Question[]>([]);
+  const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // View Mode: "quiz" ή "study"
-  const [activeTab, setActiveTab] = useState<"quiz" | "study">("quiz");
+  // Tabs: "quiz" | "study" | "completed"
+  const [viewMode, setViewMode] = useState<"quiz" | "study" | "completed">("quiz");
 
-  // Quiz State
+  // State Ερωτήσεων
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [score, setScore] = useState(0);
@@ -66,35 +55,74 @@ export default function CategoryQuizPage() {
   const [streak, setStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
 
-  // Search Filter για το Study Mode
+  // Επανάληψη Λαθών
+  const [wrongQuestions, setWrongQuestions] = useState<Question[]>([]);
+  const [isReviewingMistakes, setIsReviewingMistakes] = useState(false);
+
+  // Χρονόμετρο (45 λεπτά)
+  const [timeLeft, setTimeLeft] = useState<number>(45 * 60);
+
+  // Share state
+  const [copied, setCopied] = useState(false);
   const [filterQuery, setFilterQuery] = useState("");
 
-  // Φόρτωση ερωτήσεων & τοπικών στατιστικών
-  useEffect(() => {
-    fetch("/data/quizzes_clean.json")
-      .then((r) => r.json())
-      .then((all: Question[]) => {
-        const filtered = all.filter((q) => q.category_slug === categorySlug);
-        setQuestions(filtered);
-      })
-      .catch(console.error)
-      .finally(() => setLoading(false));
+  const officialMeta = OFFICIAL_CATEGORIES[categorySlug] || {
+    title: "Γνωστική Ενότητα",
+    officialCount: 0,
+    lastUpdate: "03/04/2026",
+  };
+  const categoryTitle = officialMeta.title;
+  const lastUpdate = officialMeta.lastUpdate;
 
-    // Φόρτωση best streak από localStorage
+  // 1. Ασφαλής Φόρτωση ερωτήσεων (με fallback σε quizzes_clean.json ή quizzes.json)
+  useEffect(() => {
+    async function loadQuestions() {
+      try {
+        let res = await fetch("/data/quizzes_clean.json");
+        if (!res.ok) {
+          res = await fetch("/data/quizzes.json");
+        }
+        const data = await res.json();
+        const list: Question[] = Array.isArray(data) ? data : data.questions || [];
+
+        // Φιλτράρισμα με βάση το categorySlug ή category_id
+        const filtered = list.filter((q: any) => {
+          const cSlug = q.category_slug || q.category_id?.replace(/_/g, "-");
+          return cSlug === categorySlug || q.category_id === categorySlug.replace(/-/g, "_");
+        });
+
+        setAllQuestions(filtered);
+
+        // Αρχικό τυχαίο session 30 ερωτήσεων για το Τεστ
+        const initialQuiz = [...filtered].sort(() => Math.random() - 0.5).slice(0, 35);
+        setActiveQuestions(initialQuiz.length ? initialQuiz : filtered);
+      } catch (err) {
+        console.error("Error loading quiz questions:", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    if (categorySlug) loadQuestions();
+
     try {
       const saved = localStorage.getItem(`asep_streak_${categorySlug}`);
       if (saved) setBestStreak(parseInt(saved, 10));
     } catch {}
   }, [categorySlug]);
 
-  const currentQ = questions[currentIndex];
-  const officialMeta = OFFICIAL_CATEGORIES[categorySlug] || {
-    title: questions[0]?.category_title || "Γνωστική Ενότητα",
-    officialCount: questions.length,
-    lastUpdate: "03/04/2026",
-  };
-  const categoryTitle = officialMeta.title;
-  const lastUpdate = officialMeta.lastUpdate;
+  // Χρονόμετρο Τεστ
+  useEffect(() => {
+    let interval: any = null;
+    if (viewMode === "quiz" && timeLeft > 0) {
+      interval = setInterval(() => {
+        setTimeLeft((prev) => prev - 1);
+      }, 1000);
+    }
+    return () => clearInterval(interval);
+  }, [viewMode, timeLeft]);
+
+  const currentQ = activeQuestions[currentIndex];
 
   function handleAnswer(optIdx: number) {
     if (selectedOption !== null) return;
@@ -112,54 +140,90 @@ export default function CategoryQuizPage() {
         } catch {}
       }
     } else {
-      setStreak(0); // Έσπασε το σερί
+      setStreak(0);
+      if (!wrongQuestions.some((wq) => wq.id === currentQ.id)) {
+        setWrongQuestions((prev) => [...prev, currentQ]);
+      }
     }
   }
 
   function handleNext() {
     setSelectedOption(null);
-    if (currentIndex < questions.length - 1) {
+    if (currentIndex < activeQuestions.length - 1) {
       setCurrentIndex((prev) => prev + 1);
+    } else {
+      setViewMode("completed");
     }
   }
 
-  function handleReset() {
-    setSelectedOption(null);
+  function startNewQuizSession() {
+    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5).slice(0, 35);
+    setActiveQuestions(shuffled);
     setCurrentIndex(0);
+    setSelectedOption(null);
     setScore(0);
     setAnsweredCount(0);
     setStreak(0);
+    setWrongQuestions([]);
+    setIsReviewingMistakes(false);
+    setTimeLeft(45 * 60);
+    setViewMode("quiz");
   }
 
-  function handleShuffle() {
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
-    setQuestions(shuffled);
-    handleReset();
+  function startMistakesReview() {
+    if (wrongQuestions.length === 0) return;
+    setActiveQuestions([...wrongQuestions]);
+    setCurrentIndex(0);
+    setSelectedOption(null);
+    setScore(0);
+    setAnsweredCount(0);
+    setIsReviewingMistakes(true);
+    setViewMode("quiz");
   }
 
-  // Φιλτράρισμα για το Study Mode
-  const filteredList = useMemo(() => {
-    if (!filterQuery.trim()) return questions;
+  function handleShareScore() {
+    const totalQ = answeredCount || activeQuestions.length;
+    const pct = Math.round((score / totalQ) * 100);
+    const shareText = `🎯 Πέτυχα σκορ ${score}/${totalQ} (${pct}%) στο τεστ ΑΣΕΠ: «${categoryTitle}»!\n\nΔωρεάν εξάσκηση στο επίσημο Μητρώο Γνώσεων:\n👉 https://asep-2gb-2026.vercel.app/proetoimasia/${categorySlug}`;
+
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(shareText);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    }
+  }
+
+  const formatTime = (secs: number) => {
+    const m = Math.floor(secs / 60);
+    const s = secs % 60;
+    return `${m}:${s < 10 ? "0" : ""}${s}`;
+  };
+
+  const filteredStudyList = useMemo(() => {
+    if (!filterQuery.trim()) return allQuestions;
     const qNorm = filterQuery.toLowerCase();
-    return questions.filter(
+    return allQuestions.filter(
       (q) =>
         q.question.toLowerCase().includes(qNorm) ||
         q.options.some((opt) => opt.toLowerCase().includes(qNorm))
     );
-  }, [questions, filterQuery]);
+  }, [allQuestions, filterQuery]);
 
   if (loading) {
     return (
       <main className="min-h-screen pt-32 text-center text-[#00E5FF]">
-        Φόρτωση ερωτήσεων...
+        Φόρτωση θεμάτων ενότητας...
       </main>
     );
   }
 
-  if (questions.length === 0) {
+  if (allQuestions.length === 0) {
     return (
       <main className="min-h-screen p-28 text-center space-y-4">
-        <h1 className="text-2xl font-bold text-white">Δεν βρέθηκαν ερωτήσεις</h1>
+        <h1 className="text-2xl font-bold text-white">Δεν βρέθηκαν ερωτήσεις για αυτή την ενότητα</h1>
+        <p className="text-sm text-slate-400">
+          Βεβαιωθείτε ότι εκτελέστηκε το build script για το αρχείο quizzes.json.
+        </p>
         <Link href="/proetoimasia" className="text-[#00E5FF]">
           ← Επιστροφή στις κατηγορίες
         </Link>
@@ -177,58 +241,59 @@ export default function CategoryQuizPage() {
         <ArrowLeft className="w-4 h-4" /> Όλες οι κατηγορίες θεμάτων
       </Link>
 
-      {/* Header & Category Title */}
+      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 border-b border-slate-800 pb-5">
         <div>
           <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">
-            Μητρώο Θεμάτων ΑΣΕΠ • {lastUpdate}
+            Μητρώο ΑΣΕΠ • Επικαιροποίηση: {lastUpdate}
           </span>
           <h1 className="text-2xl sm:text-4xl font-bold font-display text-white mt-1">
             {categoryTitle}
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 mt-1">
-            Επίσημο Μητρώο ΑΣΕΠ: <strong>{officialMeta.officialCount}</strong> ερωτήσεις • Επικαιροποίηση: {officialMeta.lastUpdate}
+            Επίσημο Μητρώο: <strong>{officialMeta.officialCount || allQuestions.length}</strong> ερωτήσεις.
           </p>
         </div>
 
-        {/* Tab Switcher: Quiz vs Study */}
+        {/* 2 ΚΑΘΑΡΑ TABS: ΤΕΣΤ vs ΜΕΛΕΤΗ ΥΛΗΣ */}
         <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-slate-900 border border-slate-800 self-start sm:self-auto shadow-lg">
           <button
             type="button"
-            onClick={() => setActiveTab("quiz")}
+            onClick={() => setViewMode("quiz")}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer flex items-center gap-2 ${
-              activeTab === "quiz"
+              viewMode === "quiz" || viewMode === "completed"
                 ? "bg-[#00E5FF] text-slate-950 font-bold shadow-md"
                 : "text-slate-400 hover:text-white"
             }`}
           >
             <Gamepad2 className="w-4 h-4" />
-            Τεστ (Quiz Mode)
+            Τεστ Προσομοίωσης
           </button>
+
           <button
             type="button"
-            onClick={() => setActiveTab("study")}
+            onClick={() => setViewMode("study")}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer flex items-center gap-2 ${
-              activeTab === "study"
+              viewMode === "study"
                 ? "bg-[#00E5FF] text-slate-950 font-bold shadow-md"
                 : "text-slate-400 hover:text-white"
             }`}
           >
             <BookOpen className="w-4 h-4" />
-            Μελέτη Ύλης ({questions.length})
+            Μελέτη Ύλης ({allQuestions.length})
           </button>
         </div>
       </div>
 
       {/* ============================================================== */}
-      {/* TAB 1: INTERACTIVE QUIZ MODE (Clean, Gamified, No Distractions) */}
+      {/* 1. QUIZ MODE INTERFACE */}
       {/* ============================================================== */}
-      {activeTab === "quiz" && currentQ && (
+      {viewMode === "quiz" && currentQ && (
         <div className="space-y-6">
-          {/* Gamification Bar (Streaks & Controls) */}
+          {/* Status & Gamification Bar */}
           <div className="flex items-center justify-between gap-3 p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300">
             <div className="flex items-center gap-4">
-              {/* Current Streak */}
+              {/* Streak */}
               <div className="flex items-center gap-1.5">
                 <Flame className={`w-4 h-4 ${streak > 2 ? "text-amber-400 animate-bounce" : "text-slate-500"}`} />
                 <span>
@@ -236,59 +301,45 @@ export default function CategoryQuizPage() {
                 </span>
               </div>
 
-              {/* Best Streak */}
-              {bestStreak > 0 && (
-                <div className="hidden sm:flex items-center gap-1 text-slate-400">
-                  <Trophy className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Ρεκόρ: {bestStreak}</span>
-                </div>
+              {/* Countdown Timer */}
+              <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-300 font-mono font-bold">
+                <Clock className="w-3.5 h-3.5 animate-spin" />
+                <span>{formatTime(timeLeft)}</span>
+              </div>
+
+              {isReviewingMistakes && (
+                <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-pink-500/20 text-pink-300 border border-pink-500/30">
+                  Επανάληψη {activeQuestions.length} Λαθών
+                </span>
               )}
             </div>
 
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={handleShuffle}
-                className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors flex items-center gap-1 cursor-pointer"
-                title="Ανακάτεμα ερωτήσεων"
-              >
-                <Shuffle className="w-3 h-3" />
-                <span className="hidden sm:inline">Ανακάτεμα</span>
-              </button>
-              <button
-                type="button"
-                onClick={handleReset}
-                className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors flex items-center gap-1 cursor-pointer"
-                title="Επανεκκίνηση"
-              >
-                <RotateCcw className="w-3 h-3" />
-                <span className="hidden sm:inline">Reset</span>
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={startNewQuizSession}
+              className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors flex items-center gap-1 cursor-pointer"
+              title="Νέο σετ ερωτήσεων"
+            >
+              <RotateCcw className="w-3 h-3" />
+              <span>Νέο Τεστ</span>
+            </button>
           </div>
 
-          {/* Main Quiz Card */}
+          {/* Question Card */}
           <div className="glass p-6 sm:p-10 rounded-3xl border border-[#00E5FF]/20 relative overflow-hidden shadow-2xl">
-            {/* Progress Header */}
             <div className="flex items-center justify-between text-xs text-slate-400 mb-3 font-mono">
               <span>
-                Ερώτηση <strong>{currentIndex + 1}</strong> από {questions.length}
+                Ερώτηση <strong>{currentIndex + 1}</strong> από {activeQuestions.length}
               </span>
               <span className="text-emerald-400 font-bold">
-                Σκορ: {score} / {answeredCount}{" "}
-                {answeredCount > 0 && (
-                  <span className="text-slate-500 font-normal">
-                    ({Math.round((score / answeredCount) * 100)}%)
-                  </span>
-                )}
+                Σκορ: {score} / {answeredCount}
               </span>
             </div>
 
-            {/* Progress Bar */}
             <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden mb-8">
               <div
                 className="bg-gradient-to-r from-[#00E5FF] to-emerald-400 h-full transition-all duration-300"
-                style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
+                style={{ width: `${((currentIndex + 1) / activeQuestions.length) * 100}%` }}
               />
             </div>
 
@@ -338,13 +389,13 @@ export default function CategoryQuizPage() {
               })}
             </div>
 
-            {/* Footer Status & Next Button */}
+            {/* Next Button */}
             {selectedOption !== null && (
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-5 border-t border-slate-800">
                 <div className="text-xs sm:text-sm text-slate-300 text-center sm:text-left">
                   {selectedOption === currentQ.correct_index ? (
                     <span className="text-emerald-400 font-bold flex items-center gap-1.5 justify-center sm:justify-start">
-                      <CheckCircle2 className="w-4 h-4" /> Σωστή απάντηση! (+1 βαθμός)
+                      <CheckCircle2 className="w-4 h-4" /> Σωστή απάντηση! (+1)
                     </span>
                   ) : (
                     <span className="text-pink-400 font-medium flex items-center gap-1.5 justify-center sm:justify-start">
@@ -353,23 +404,21 @@ export default function CategoryQuizPage() {
                   )}
                 </div>
 
-                {currentIndex < questions.length - 1 ? (
-                  <button
-                    type="button"
-                    onClick={handleNext}
-                    className="w-full sm:w-auto px-6 py-3 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-sm hover:scale-105 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg"
-                  >
-                    Επόμενη Ερώτηση <ArrowRight className="w-4 h-4" />
-                  </button>
-                ) : (
-                  <button
-                    type="button"
-                    onClick={handleReset}
-                    className="w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold text-sm hover:scale-105 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg"
-                  >
-                    Ολοκλήρωση Ενότητας (Επανεκκίνηση)
-                  </button>
-                )}
+                <button
+                  type="button"
+                  onClick={handleNext}
+                  className="w-full sm:w-auto px-6 py-3 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-sm hover:scale-105 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg"
+                >
+                  {currentIndex < activeQuestions.length - 1 ? (
+                    <>
+                      Επόμενη Ερώτηση <ArrowRight className="w-4 h-4" />
+                    </>
+                  ) : (
+                    <>
+                      Ολοκλήρωση & Αποτέλεσμα <Trophy className="w-4 h-4" />
+                    </>
+                  )}
+                </button>
               </div>
             )}
           </div>
@@ -377,15 +426,83 @@ export default function CategoryQuizPage() {
       )}
 
       {/* ============================================================== */}
-      {/* TAB 2: STUDY MODE & DIRECTORY (Full Index with Search for SEO) */}
+      {/* SCORECARD / RESULT SCREEN */}
       {/* ============================================================== */}
-      {activeTab === "study" && (
+      {viewMode === "completed" && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="glass p-6 sm:p-10 rounded-3xl border border-emerald-500/40 text-center space-y-6 relative overflow-hidden shadow-2xl"
+        >
+          <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center mx-auto text-emerald-400">
+            <Trophy className="w-8 h-8" />
+          </div>
+
+          <div>
+            <span className="text-xs font-mono uppercase text-emerald-400 font-bold tracking-wider">
+              Ολοκλήρωση Τεστ
+            </span>
+            <h2 className="text-2xl sm:text-4xl font-bold font-display text-white mt-1">
+              Η Επίδοσή σας: {score} / {answeredCount}
+            </h2>
+            <p className="text-sm text-slate-400 mt-2">
+              Ποσοστό Επιτυχίας:{" "}
+              <strong className="text-emerald-400 font-mono text-base">
+                {answeredCount > 0 ? Math.round((score / answeredCount) * 100) : 0}%
+              </strong>
+            </p>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+            {wrongQuestions.length > 0 && (
+              <button
+                type="button"
+                onClick={startMistakesReview}
+                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-pink-600 hover:bg-pink-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 cursor-pointer transition-transform hover:scale-105 shadow-lg"
+              >
+                <AlertTriangle className="w-4 h-4" />
+                Επανάληψη των {wrongQuestions.length} Λαθών μου
+              </button>
+            )}
+
+            <button
+              type="button"
+              onClick={handleShareScore}
+              className="w-full sm:w-auto px-5 py-3 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 cursor-pointer transition-transform hover:scale-105 shadow-lg"
+            >
+              {copied ? (
+                <>
+                  <Check className="w-4 h-4 text-emerald-950" /> Αντιγράφηκε στο Clipboard!
+                </>
+              ) : (
+                <>
+                  <Share2 className="w-4 h-4" /> Κοινοποίηση Επίδοσης
+                </>
+              )}
+            </button>
+
+            <button
+              type="button"
+              onClick={startNewQuizSession}
+              className="w-full sm:w-auto px-5 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 font-medium text-xs sm:text-sm flex items-center justify-center gap-2 cursor-pointer hover:text-white"
+            >
+              <RotateCcw className="w-4 h-4" /> Νέο Τεστ
+            </button>
+          </div>
+        </motion.div>
+      )}
+
+      {/* ============================================================== */}
+      {/* 2. STUDY MODE INTERFACE (Ευρετήριο με αναζήτηση) */}
+      {/* ============================================================== */}
+      {viewMode === "study" && (
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4">
             <div>
               <h2 className="text-xl font-bold text-white flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-[#00E5FF]" />
-                Μελέτη Όλης της Ύλης ({filteredList.length})
+                Μελέτη Όλης της Ύλης ({filteredStudyList.length})
               </h2>
               <p className="text-xs text-slate-400 mt-0.5">
                 Κάντε κλικ σε οποιαδήποτε ερώτηση για να δείτε την αναλυτική απάντηση και επεξήγηση.
@@ -405,7 +522,7 @@ export default function CategoryQuizPage() {
           </div>
 
           <div className="space-y-2.5">
-            {filteredList.map((q, idx) => (
+            {filteredStudyList.map((q, idx) => (
               <Link
                 key={q.id}
                 href={`/proetoimasia/${categorySlug}/${q.id}`}
@@ -429,7 +546,7 @@ export default function CategoryQuizPage() {
       )}
 
       {/* ============================================================== */}
-      {/* ΕΠΙΣΗΜΟ DISCLAIMER ΣΥΜΜΟΡΦΩΣΗΣ ΜΕ ΤΟ ΔΕΛΤΙΟ ΤΥΠΟΥ ΤΟΥ ΑΣΕΠ */}
+      {/* ΕΠΙΣΗΜΟ DISCLAIMER ΣΥΜΜΟΡΦΩΣΗΣ ΑΣΕΠ (14/10/2026) */}
       {/* ============================================================== */}
       <div className="mt-14 p-5 rounded-2xl bg-slate-950/90 border border-slate-800/80 text-xs text-slate-400 space-y-2 leading-relaxed">
         <div className="flex items-center gap-2 text-slate-300 font-semibold text-xs uppercase tracking-wider">

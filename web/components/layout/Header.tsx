@@ -22,10 +22,7 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <motion.header
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6 }}
+    <header
       style={{
         position: "fixed",
         top: 0,
@@ -34,7 +31,7 @@ export default function Header() {
         zIndex: 100,
         backdropFilter: "blur(20px)",
         WebkitBackdropFilter: "blur(20px)",
-        background: "rgba(5, 7, 13, 0.8)",
+        background: "rgba(5, 7, 13, 0.85)",
         borderBottom: "1px solid var(--border)",
       }}
     >
@@ -208,6 +205,6 @@ export default function Header() {
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.header>
+    </header>
   );
 }

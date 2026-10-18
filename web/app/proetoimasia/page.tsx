@@ -18,6 +18,12 @@ import {
   HelpCircle,
   Compass,
   CheckCircle2,
+  Box,
+  Brain,
+  Calendar,
+  Layers,
+  AlertCircle,
+  FileCode,
 } from "lucide-react";
 import {
   OFFICIAL_QUIZ_STATS,
@@ -25,23 +31,22 @@ import {
 } from "@/lib/quiz-constants";
 
 export const metadata = {
-  title: "Μητρώο Θεμάτων Γνώσεων ΑΣΕΠ (1.988 Ερωτήσεις) — Προετοιμασία 3ος Διαγωνισμός 2027",
+  title: "Μητρώο Θεμάτων ΑΣΕΠ & Οδηγός Δεξιοτήτων — Προετοιμασία 3ος Διαγωνισμός 2027",
   description:
-    "Πλήρης τράπεζα θεμάτων και δωρεάν τεστ προσομοίωσης για τις 1.988 επίσημες ερωτήσεις γνώσεων του ΑΣΕΠ (ν. 4765/2021). 11 θεματικές ενότητες για κατηγορίες ΠΕ και ΤΕ.",
+    "Ολοκληρωμένος κόμβος προετοιμασίας: 1.988 θέματα γνώσεων ΑΣΕΠ, οδηγός επαγωγικού & χωρικού συλλογισμού, τεστ εργασιακής συμπεριφοράς (OPQ32) και επίσημο χρονολόγιο για το 2027.",
   keywords: [
-    "μητρωο θεματων ασεπ",
-    "θεματα γνωσεων ασεπ 1988",
-    "προετοιμασια γραπτου διαγωνισμου ασεπ 2027",
-    "τεστ γνωσεων ασεπ κουιζ",
-    "τραπεζα θεματων ασεπ",
-    "συνταγματικο δικαιο ασεπ ερωτησεις",
-    "διοικητικο δικαιο ασεπ",
-    "πληροφορικη ψηφιακη διακυβερνηση ασεπ",
+    "μητρωο θεματων ασεπ 1988",
+    "επαγωγικος συλλογισμος ασεπ",
+    "χωρικη αντιληψη ασεπ test",
+    "εργασιακη συμπεριφορα ασεπ 76 τριαδες",
+    "προετοιμασια 3ος πανελληνιος γραπτος διαγωνισμος 2027",
+    "θεματα γνωσεων ασεπ",
+    "ερωτησεις ασεπ pdf",
   ],
   openGraph: {
-    title: "Μητρώο 1.988 Θεμάτων ΑΣΕΠ — Δωρεάν Τεστ & Επίσημες Απαντήσεις",
+    title: "ΑΣΕΠ 2027: Μητρώο 1.988 Θεμάτων & Οδηγός Δεξιοτήτων",
     description:
-      "Εξασκηθείτε δωρεάν στις 1.988 επίσημες ερωτήσεις του ΑΣΕΠ με χρονόμετρο, ανάλυση λαθών και μελέτη ανά ενότητα.",
+      "Δωρεάν εξάσκηση στις επίσημες ερωτήσεις γνώσεων και πλήρης οδηγός για επαγωγικούς συλλογισμούς & χωρική αντίληψη.",
     url: "https://asep-2gb-2026.vercel.app/proetoimasia",
   },
 };
@@ -60,7 +65,7 @@ const ICONS: Record<string, any> = {
   Award,
 };
 
-// FAQ Schema.org Structured Data για την Google
+// FAQ Schema.org Structured Data
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -71,25 +76,25 @@ const faqSchema = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text":
-          "Το επικαιροποιημένο Μητρώο Θεμάτων Γνώσεων του ΑΣΕΠ περιλαμβάνει συνολικά 1.988 ερωτήσεις πολλαπλής επιλογής, κατανεμημένες σε 11 γνωστικές ενότητες.",
+          "Το επικαιροποιημένο Μητρώο Θεμάτων Γνώσεων περιλαμβάνει 1.988 ερωτήσεις στο επίσημο PDF (1.989 στο δελτίο τύπου λόγω γνωστής απόκλισης μίας ερώτησης στα Οικονομικά), κατανεμημένες σε 11 θεματικές ενότητες.",
       },
     },
     {
       "@type": "Question",
-      "name": "Είναι κοινή η ύλη των θεμάτων γνώσεων για όλες τις ειδικότητες ΠΕ και ΤΕ;",
+      "name": "Τι θα περιλαμβάνει η εξέταση δεξιοτήτων στον 3ο διαγωνισμό (2027);",
       "acceptedAnswer": {
         "@type": "Answer",
         "text":
-          "Ναι, σύμφωνα με το άρθρο 9 του ν. 4765/2021, η δοκιμασία εξέτασης γνώσεων βασίζεται στο ίδιο κοινό Μητρώο Θεμάτων για όλους τους υποψηφίους Πανεπιστημιακής (ΠΕ) και Τεχνολογικής (ΤΕ) Εκπαίδευσης.",
+          "Σύμφωνα με τις επίσημες τοποθετήσεις του ΑΣΕΠ, η δοκιμασία δεξιοτήτων θα περιλαμβάνει επαγωγικό συλλογισμό (σχέσεις σχημάτων/matrix), ερωτήσεις αντίληψης χώρου (3D spatial reasoning) και τεστ εργασιακής συμπεριφοράς (δηλώσεις τύπου OPQ32/SHL).",
       },
     },
     {
       "@type": "Question",
-      "name": "Πότε θα διεξαχθεί ο 3ος Πανελλήνιος Γραπτός Διαγωνισμός;",
+      "name": "Πώς θα διεξαχθεί ο 3ος Πανελλήνιος Γραπτός Διαγωνισμός;",
       "acceptedAnswer": {
         "@type": "Answer",
         "text":
-          "Ο επόμενος (3ος) Πανελλήνιος Γραπτός Διαγωνισμός προγραμματίζεται από το ΑΣΕΠ για το έτος 2027, αποτελώντας τη βασική δεξαμενή προσλήψεων για τον δημόσιο τομέα.",
+          "Ο διαγωνισμός προγραμματίζεται εντός του 2027 μέσω ηλεκτρονικής διαδικασίας (computer-based) σε μόνιμα εξεταστικά κέντρα σε Αθήνα και Θεσσαλονίκη, με διευρυμένο εξεταστικό παράθυρο πολλών εβδομάδων.",
       },
     },
   ],
@@ -112,22 +117,22 @@ export default function ProetoimasiaHubPage() {
         ← Επιστροφή στην Αρχική
       </Link>
 
-      {/* Header */}
+      {/* Hero Header */}
       <div className="mb-10 space-y-4">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#00E5FF]/10 border border-[#00E5FF]/30 text-[#00E5FF] text-xs font-semibold uppercase tracking-wider">
           <Sparkles className="w-3.5 h-3.5" />
-          Επίσημο Μητρώο Θεμάτων Γνώσεων ΑΣΕΠ (ν. 4765/2021)
+          Επίσημο Μητρώο Γνώσεων & Οδηγός Δεξιοτήτων (ν. 4765/2021)
         </div>
         <h1 className="text-3xl sm:text-5xl font-bold font-display text-white tracking-tight">
-          Μητρώο Θεμάτων ΑΣΕΠ:{" "}
+          Ολοκληρωμένος Κόμβος Προετοιμασίας{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00E5FF] via-pink-500 to-amber-400">
-            1.988 Ερωτήσεις & Τεστ
+            ΑΣΕΠ 2027
           </span>
         </h1>
         <p className="text-slate-300 text-sm sm:text-base max-w-3xl leading-relaxed">
-          Πλήρης τράπεζα θεμάτων και διαδραστική πλατφόρμα μελέτης για τις <strong>1.988 επίσημες ερωτήσεις γνώσεων</strong> του ΑΣΕΠ. 
-          Κάθε θέμα συνοδεύεται από την επίσημη ορθή απάντηση, ανάλυση και δυνατότητα προσομοίωσης εξέτασης 
-          ενόψει του επερχόμενου 3ου Πανελλήνιου Γραπτού Διαγωνισμού (2027).
+          Πλήρης τράπεζα για τις <strong>1.988 επίσημες ερωτήσεις γνώσεων</strong>*, πρακτικός οδηγός 
+          για τις <strong>δοκιμασίες δεξιοτήτων</strong> (επαγωγικός συλλογισμός, αντίληψη χώρου, εργασιακές δηλώσεις) 
+          και συγκεντρωτικό χρονολόγιο εξελίξεων για τον επερχόμενο 3ο Πανελλήνιο Γραπτό Διαγωνισμό.
         </p>
       </div>
 
@@ -135,100 +140,166 @@ export default function ProetoimasiaHubPage() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-10">
         <div className="glass p-5 rounded-2xl">
           <div className="text-[11px] uppercase tracking-wider text-slate-400 mb-1">
-            Συνολο Ερωτησεων
+            Επισημες Ερωτησεις
           </div>
           <div className="text-2xl sm:text-3xl font-bold font-mono text-[#00E5FF]">
-            {OFFICIAL_QUIZ_STATS.TOTAL_QUESTIONS.toLocaleString("el-GR")}
+            {OFFICIAL_QUIZ_STATS.TOTAL_QUESTIONS.toLocaleString("el-GR")}*
           </div>
-          <div className="text-[10px] text-slate-500 mt-1">Επικαιροποιημένο Μητρώο</div>
+          <div className="text-[10px] text-slate-500 mt-1">11 Γνωστικές Ενότητες</div>
         </div>
 
         <div className="glass p-5 rounded-2xl">
           <div className="text-[11px] uppercase tracking-wider text-slate-400 mb-1">
-            Γνωστικα Αντικειμενα
+            Δοκιμασια Δεξιοτητων
           </div>
           <div className="text-2xl sm:text-3xl font-bold font-mono text-pink-400">
-            {OFFICIAL_QUIZ_STATS.TOTAL_CATEGORIES}
+            50%
           </div>
-          <div className="text-[10px] text-slate-500 mt-1">Θεματικές Ενότητες</div>
+          <div className="text-[10px] text-slate-500 mt-1">Βαρύτητα στη βαθμολογία</div>
         </div>
 
         <div className="glass p-5 rounded-2xl">
           <div className="text-[11px] uppercase tracking-wider text-slate-400 mb-1">
-            Στοχευση
+            Επομενος Διαγωνισμος
           </div>
           <div className="text-sm sm:text-base font-bold text-white mt-1">
-            Διαγωνισμός 2027
+            Εντός 2027
           </div>
-          <div className="text-[10px] text-emerald-400 mt-0.5">Κοινή ύλη για ΠΕ & ΤΕ</div>
+          <div className="text-[10px] text-emerald-400 mt-0.5">Κοινή δεξαμενή θεμάτων**</div>
         </div>
 
         <div className="glass p-5 rounded-2xl">
           <div className="text-[11px] uppercase tracking-wider text-slate-400 mb-1">
-            Κοστος Μελετης
+            Χαρακτηρας Εργαλειου
           </div>
           <div className="text-sm sm:text-base font-bold text-emerald-400 mt-1">
             100% Δωρεάν
           </div>
-          <div className="text-[10px] text-slate-400 mt-0.5">Χωρίς συνδρομές ή paywalls</div>
+          <div className="text-[10px] text-slate-400 mt-0.5">Ανοιχτή πρόσβαση για όλους</div>
         </div>
       </div>
 
-      {/* SEO Strategic Interlinking Box (Cross-Connecting Site Features) */}
-      <div className="mb-12 p-6 rounded-3xl bg-gradient-to-r from-slate-900 via-[#0A0E1A] to-[#070A13] border border-[#00E5FF]/20 space-y-3">
-        <div className="flex items-center gap-2 text-sm font-bold text-[#00E5FF]">
-          <Compass className="w-4 h-4" />
-          <span>Στρατηγική Προετοιμασίας: Συνδέστε τη Μελέτη με τα Δεδομένα Διορισμών</span>
-        </div>
-        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-          Η άριστη προετοιμασία στο τεστ γνώσεων είναι μόνο το ένα σκέλος της επιτυχίας. Μελετήστε τα πραγματικά αποτελέσματα του προηγούμενου διαγωνισμού για να δείτε πώς διαμορφώθηκαν οι βάσεις ανά ειδικότητα:
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
-          <Link
-            href="/zitisi"
-            className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-[#00E5FF] transition-all no-underline block group"
-          >
-            <div className="text-xs font-bold text-white group-hover:text-[#00E5FF]">
-              Βαρόμετρο Ζήτησης 2027 →
-            </div>
-            <div className="text-[11px] text-slate-400 mt-0.5">
-              Ποιοι φορείς συγκέντρωσαν τις περισσότερες 1ες προτιμήσεις.
-            </div>
-          </Link>
-
-          <Link
-            href="/kenes-theseis"
-            className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-amber-400 transition-all no-underline block group"
-          >
-            <div className="text-xs font-bold text-white group-hover:text-amber-400">
-              Οι 928 Κενές Θέσεις →
-            </div>
-            <div className="text-[11px] text-slate-400 mt-0.5">
-              Ποιες θέσεις έμειναν ορφανές και θα ξαναπροκηρυχθούν.
-            </div>
-          </Link>
-
-          <Link
-            href="/stats"
-            className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-emerald-400 transition-all no-underline block group"
-          >
-            <div className="text-xs font-bold text-white group-hover:text-emerald-400">
-              Στατιστικά & Βάσεις →
-            </div>
-            <div className="text-[11px] text-slate-400 mt-0.5">
-              Ποσοστά επιτυχίας και κατανομή μορίων ανά κλάδο.
-            </div>
-          </Link>
-        </div>
-      </div>
-
-      {/* 11 Official Categories Grid */}
-      <div className="space-y-4 mb-14">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-bold font-display text-white">
-            Επίσημες Γνωστικές Ενότητες ΑΣΕΠ:
+      {/* ============================================================== */}
+      {/* ΕΝΟΤΗΤΑ Β: ΔΟΚΙΜΑΣΙΑ ΔΕΞΙΟΤΗΤΩΝ (ΤΟ 50% ΠΟΥ ΚΡΙΝΕΙ ΤΟ ΑΠΟΤΕΛΕΣΜΑ) */}
+      {/* ============================================================== */}
+      <div className="mb-14 space-y-6">
+        <div className="border-b border-slate-800 pb-4">
+          <div className="inline-flex items-center gap-2 text-xs font-mono font-bold text-pink-400 uppercase tracking-wider mb-1">
+            <Brain className="w-4 h-4" />
+            Το Κλειδί της Βαθμολογίας
+          </div>
+          <h2 className="text-2xl sm:text-3xl font-bold font-display text-white">
+            Δοκιμασία Δεξιοτήτων & Εργασιακής Αποτελεσματικότητας
           </h2>
-          <span className="text-xs font-mono text-slate-400">
+          <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl leading-relaxed">
+            Σε αντίθεση με τις γνώσεις που αποστηθίζονται, οι δεξιότητες αξιολογούν τον τρόπο σκέψης. 
+            Στον 2ο διαγωνισμό (1Γ/2025) αποτέλεσαν το καθοριστικό φίλτρο επιτυχίας. Ακολουθούν οι επιβεβαιωμένοι και αναμενόμενοι τύποι θεμάτων:
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {/* 1. Επαγωγικός Συλλογισμός */}
+          <div className="glass p-6 rounded-2xl border border-pink-500/20 space-y-3 flex flex-col justify-between">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                  ΕΠΙΒΕΒΑΙΩΜΕΝΟ
+                </span>
+                <Layers className="w-5 h-5 text-pink-400" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Επαγωγικός Συλλογισμός</h3>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Σχέσεις σχημάτων, μοτίβα σε πλέγματα (matrices) και λογικές ακολουθίες. Ο υποψήφιος καλείται να εντοπίσει τον κανόνα μεταβολής και να επιλέξει το σχήμα που ακολουθεί.
+              </p>
+            </div>
+            <div className="pt-3 border-t border-slate-800 text-[11px] text-slate-400">
+              💡 <em>Τύπος:</em> Πρότυπα Raven / SHL style.
+            </div>
+          </div>
+
+          {/* 2. Χωρική Αντίληψη (3D) */}
+          <div className="glass p-6 rounded-2xl border border-[#00E5FF]/20 space-y-3 flex flex-col justify-between">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                  ΕΠΙΒΕΒΑΙΩΜΕΝΟ
+                </span>
+                <Box className="w-5 h-5 text-[#00E5FF]" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Αντίληψη Χώρου (3D)</h3>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Περιστροφές τρισδιάστατων σχημάτων, ανάπτυγμα κύβων και νοερή αναδίπλωση στερεών. Αξιολογεί τη χωρική νοημοσύνη χωρίς ανάγκη μαθηματικών πράξεων.
+              </p>
+            </div>
+            <div className="pt-3 border-t border-slate-800 space-y-1">
+              <div className="text-[10px] text-slate-500 uppercase font-semibold">Δωρεαν Online Εξασκηση:</div>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <a
+                  href="https://www.123test.com/spatial-reasoning-test/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="text-[#00E5FF] hover:underline inline-flex items-center gap-1"
+                >
+                  123test <ExternalLink className="w-3 h-3 opacity-70" />
+                </a>
+                <span className="text-slate-600">•</span>
+                <a
+                  href="https://www.aptitude-test.com/free-aptitude-test/cognitive/spatial/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="text-[#00E5FF] hover:underline inline-flex items-center gap-1"
+                >
+                  Aptitude-Test <ExternalLink className="w-3 h-3 opacity-70" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* 3. Εργασιακή Συμπεριφορά (OPQ32) */}
+          <div className="glass p-6 rounded-2xl border border-amber-500/20 space-y-3 flex flex-col justify-between">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                  ΕΠΙΒΕΒΑΙΩΜΕΝΟ
+                </span>
+                <Briefcase className="w-5 h-5 text-amber-400" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Εργασιακές Δηλώσεις (OPQ32)</h3>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Δοκιμασία 76 τριάδων δηλώσεων (τύπου Occupational Personality Questionnaire). Επιλέγονται υποχρεωτικά μία δήλωση που «ταιριάζει περισσότερο» και μία που «ταιριάζει λιγότερο».
+              </p>
+            </div>
+            <div className="pt-3 border-t border-slate-800 text-[11px] text-slate-400">
+              💡 <em>Στόχος:</em> Συνεπής εικόνα συνεργασίας, προσαρμοστικότητας και ηγεσίας.
+            </div>
+          </div>
+        </div>
+
+        {/* Παραγωγικοί & Γλωσσικοί (Αναμενόμενα) */}
+        <div className="p-4 sm:p-5 rounded-2xl bg-slate-900/40 border border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2.5 text-slate-300">
+            <AlertCircle className="w-4 h-4 text-amber-400 flex-shrink-0" />
+            <span>
+              <strong>Παραγωγικός, Αριθμητικός & Γλωσσικός Συλλογισμός (EPSO Style):</strong> Εξετάζεται η ενσωμάτωσή τους ως συμπληρωματικές δοκιμασίες με κλιμακούμενη δυσκολία (Αναμένεται επιβεβαίωση στην προκήρυξη).
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* ============================================================== */}
+      {/* ΕΝΟΤΗΤΑ Α: ΟΙ 11 ΚΑΤΗΓΟΡΙΕΣ ΓΝΩΣΕΩΝ (ΤΟ ΜΗΤΡΩΟ) */}
+      {/* ============================================================== */}
+      <div className="space-y-4 mb-14">
+        <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div>
+            <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">
+              Μάθημα 1
+            </span>
+            <h2 className="text-xl sm:text-2xl font-bold font-display text-white">
+              Μητρώο Θεμάτων Γνώσεων ανά Ενότητα
+            </h2>
+          </div>
+          <span className="text-xs font-mono text-slate-400 hidden sm:inline">
             11 Ενότητες • 1.988 Θέματα
           </span>
         </div>
@@ -276,51 +347,260 @@ export default function ProetoimasiaHubPage() {
             );
           })}
         </div>
+
+        {/* Footnote για 1.988 vs 1.989 */}
+        <div className="p-3 rounded-xl bg-slate-950/60 border border-slate-800/80 text-[11px] text-slate-400 leading-relaxed">
+          * <strong>Σημείωση καταμέτρησης θεμάτων:</strong> Στο δελτίο τύπου του ΑΣΕΠ αναφέρεται άθροισμα 1.989 ερωτήσεων, ενώ το επίσημο αναρτημένο PDF της ενότητας «Οικονομικές Επιστήμες» καταμετρά ακριβώς 334 θέματα (αντί για 335), διαμορφώνοντας το πραγματικό σύνολο του αρχείου σε <strong>1.988 ερωτήσεις</strong>.  
+          <br />
+          ** <strong>Κατανομή ΠΕ & ΤΕ:</strong> Το Μητρώο αποτελεί κοινή δεξαμενή θεμάτων. Η ακριβής στάθμιση ερωτήσεων ανά κατηγορία εκπαίδευσης θα οριστεί στην τελική προκήρυξη του διαγωνισμού.
+        </div>
       </div>
 
-      {/* SEO FAQ SECTION (Answer Engine Target) */}
+      {/* ============================================================== */}
+      {/* ΕΝΟΤΗΤΑ Γ: ΧΡΟΝΟΛΟΓΙΟ & ΕΠΙΣΗΜΕΣ ΕΞΕΛΙΞΕΙΣ 2027 */}
+      {/* ============================================================== */}
+      <div className="mb-14 space-y-6">
+        <div className="border-b border-slate-800 pb-3 flex items-center justify-between">
+          <div>
+            <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">
+              Roadmap
+            </span>
+            <h2 className="text-xl sm:text-2xl font-bold font-display text-white">
+              Χρονολόγιο Εξελίξεων & Επίσημες Τοποθετήσεις (3ος ΑΣΕΠ)
+            </h2>
+          </div>
+          <Calendar className="w-5 h-5 text-slate-500" />
+        </div>
+
+        <div className="relative pl-6 sm:pl-8 space-y-6 before:absolute before:left-[11px] sm:before:left-[15px] before:top-2 before:bottom-2 before:w-[2px] before:bg-gradient-to-b before:from-[#00E5FF] via-pink-500 to-slate-800">
+          {/* Milestone 1 */}
+          <div className="relative group">
+            <span className="absolute -left-[30px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-[#00E5FF] border-4 border-[#070A13]" />
+            <div className="glass p-4 rounded-xl border border-slate-800 space-y-1">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-mono text-[#00E5FF] font-bold">14 Οκτωβρίου 2026</span>
+                <span className="text-slate-500">Δελτίο Τύπου ΑΣΕΠ</span>
+              </div>
+              <h4 className="text-sm font-bold text-white">Όροι χρήσης του Μητρώου Θεμάτων από τρίτους</h4>
+              <p className="text-xs text-slate-300">
+                Διευκρίνιση ότι βάσει ν. 4727/2020 τα θέματα διατίθενται ελεύθερα για σκοπούς μελέτης, θέτοντας 6 κανόνες διαφάνειας και μη αλλοίωσης.
+              </p>
+            </div>
+          </div>
+
+          {/* Milestone 2 */}
+          <div className="relative group">
+            <span className="absolute -left-[30px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-pink-500 border-4 border-[#070A13]" />
+            <div className="glass p-4 rounded-xl border border-slate-800 space-y-1">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-mono text-pink-400 font-bold">03 Απριλίου 2026</span>
+                <span className="text-slate-500">Επίσημη Ανάρτηση</span>
+              </div>
+              <h4 className="text-sm font-bold text-white">Ανάρτηση Επικαιροποιημένου Μητρώου 1.988 Θεμάτων</h4>
+              <p className="text-xs text-slate-300">
+                Ολοκλήρωση της δημόσιας διαβούλευσης με προσθήκη 2 νέων ενοτήτων (GDPR, Υπαλληλικός Κώδικας) και αναδιάρθρωση της Δημόσιας Διοίκησης.
+              </p>
+            </div>
+          </div>
+
+          {/* Milestone 3 */}
+          <div className="relative group">
+            <span className="absolute -left-[30px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-[#070A13]" />
+            <div className="glass p-4 rounded-xl border border-slate-800 space-y-1">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-mono text-slate-400 font-bold">Προγραμματισμός 2027</span>
+                <span className="text-emerald-400">Επιβεβαιωμένος Στόχος</span>
+              </div>
+              <h4 className="text-sm font-bold text-white">Διεξαγωγή 3ου Πανελλήνιου Γραπτού Διαγωνισμού</h4>
+              <p className="text-xs text-slate-300">
+                Διενέργεια σε μόνιμα εξεταστικά κέντρα σε Αθήνα και Θεσσαλονίκη με διευρυμένο εξεταστικό παράθυρο πολλών εβδομάδων (Computer-Adaptive Testing).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ============================================================== */}
+      {/* ΕΝΟΤΗΤΑ ΣΤ: ΕΠΙΣΗΜΗ ΒΙΒΛΙΟΘΗΚΗ ΠΗΓΩΝ & ΝΟΜΟΘΕΣΙΑΣ */}
+      {/* ============================================================== */}
+      <div className="glass p-6 sm:p-8 rounded-3xl mb-12 space-y-6">
+        <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div className="flex items-center gap-2">
+            <FileCode className="w-5 h-5 text-[#00E5FF]" />
+            <h2 className="text-lg sm:text-xl font-bold text-white">
+              Επίσημες Πηγές Ύλης & Θεσμικά Κείμενα
+            </h2>
+          </div>
+          <span className="text-xs text-slate-500">Dofollow Authority Links</span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          {/* Κρατικά Κείμενα & Νόμοι */}
+          <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+            <div className="text-[11px] font-bold text-white uppercase tracking-wider">
+              Νομοθεσία Ύλης
+            </div>
+            <ul className="space-y-1.5">
+              <li>
+                <a
+                  href="https://www.dpa.gr/el/polites/gkpd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Οδηγός GDPR (DPA.gr)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.taxheaven.gr/law/4624/2019"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Νόμος 4624/2019 (GDPR)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.ypes.gr/wp-content/uploads/2019/09/20150721_kodikas_katastasis_dimosion_ypallilon.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Υπαλληλικός Κώδικας (ΥΠΕΣ)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Πύλη ΑΣΕΠ */}
+          <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+            <div className="text-[11px] font-bold text-white uppercase tracking-wider">
+              Ενημερωτική Πύλη ΑΣΕΠ
+            </div>
+            <ul className="space-y-1.5">
+              <li>
+                <a
+                  href="https://info.asep.gr/node/78603"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Μητρώο Θεμάτων (info.asep)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://info.asep.gr/forma/trapeza-thematon-ypovoli"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Πλατφόρμα Διαβούλευσης</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://info.asep.gr/node/80138"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Δελτίο Τύπου 14/10/2026</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Περιοδικά ΑΣΕΠ */}
+          <div className="p-4 rounded-xl bg-slate-900/50 border border-slate-800 space-y-2">
+            <div className="text-[11px] font-bold text-white uppercase tracking-wider">
+              Περιοδικό ΑΣΕΠ (PDFs)
+            </div>
+            <ul className="space-y-1.5">
+              <li>
+                <a
+                  href="https://info.asep.gr/sites/default/files/2026-03/asep_news01.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Τεύχος 1 (Μάρτιος 2026)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://info.asep.gr/sites/default/files/2026-05/asep_news02.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Τεύχος 2 (Μάιος 2026)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://info.asep.gr/node/79388"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-[#00E5FF] flex items-center justify-between"
+                >
+                  <span>Τεύχος 3 (Καλοκαίρι 2026)</span>
+                  <ExternalLink className="w-3 h-3 opacity-60" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* SEO FAQ SECTION */}
       <div className="glass p-6 sm:p-8 rounded-3xl mb-12 space-y-6">
         <div className="flex items-center gap-2 text-[#00E5FF] font-bold text-sm uppercase tracking-wider">
           <HelpCircle className="w-4 h-4" />
-          <span>Συχνές Ερωτήσεις για το Μητρώο Θεμάτων ΑΣΕΠ</span>
+          <span>Συχνές Ερωτήσεις για τον 3ο Πανελλήνιο Γραπτό Διαγωνισμό (2027)</span>
         </div>
 
         <div className="space-y-4 divide-y divide-slate-800 text-xs sm:text-sm">
           <div className="pt-4 space-y-1">
             <h3 className="font-bold text-white text-sm sm:text-base">
-              Τι είναι το Μητρώο Θεμάτων Γνώσεων του ΑΣΕΠ;
+              Πόσες είναι οι επίσημες ερωτήσεις του Μητρώου Θεμάτων Γνώσεων του ΑΣΕΠ;
             </h3>
             <p className="text-slate-300 leading-relaxed">
-              Είναι η επίσημη τράπεζα θεμάτων που καταρτίζει και τηρεί το ΑΣΕΠ βάσει του άρθρου 9 του ν. 4765/2021. 
-              Περιλαμβάνει 1.988 ερωτήσεις πολλαπλής επιλογής που καλύπτουν όλο το φάσμα της γενικής δημόσιας διοίκησης, του δικαίου και των οικονομικών.
+              Το επικαιροποιημένο Μητρώο Θεμάτων Γνώσεων περιλαμβάνει 1.988 ερωτήσεις στο επίσημο PDF (1.989 στο δελτίο τύπου λόγω γνωστής απόκλισης μίας ερώτησης στα Οικονομικά), κατανεμημένες σε 11 θεματικές ενότητες.
             </p>
           </div>
 
           <div className="pt-4 space-y-1">
             <h3 className="font-bold text-white text-sm sm:text-base">
-              Πώς αξιοποιούνται τα θέματα στους γραπτούς διαγωνισμούς;
+              Τι θα περιλαμβάνει η εξέταση δεξιοτήτων στον 3ο διαγωνισμό (2027);
             </h3>
             <p className="text-slate-300 leading-relaxed">
-              Στους πανελλήνιους γραπτούς διαγωνισμούς του ΑΣΕΠ, η δοκιμασία εξέτασης γνώσεων (Μάθημα 1) 
-              αντλείται απευθείας από αυτό το Μητρώο. Η άριστη εξοικείωση με τη διατύπωση και τις ορθές απαντήσεις 
-              αποτελεί τον ασφαλέστερο δρόμο για υψηλή βαθμολογία.
+              Σύμφωνα με τις επίσημες τοποθετήσεις του ΑΣΕΠ, η δοκιμασία δεξιοτήτων θα περιλαμβάνει επαγωγικό συλλογισμό (σχέσεις σχημάτων/matrix), ερωτήσεις αντίληψης χώρου (3D spatial reasoning) και τεστ εργασιακής συμπεριφοράς (δηλώσεις τύπου OPQ32/SHL).
             </p>
           </div>
 
           <div className="pt-4 space-y-1">
             <h3 className="font-bold text-white text-sm sm:text-base">
-              Ποιες νέες ενότητες προστέθηκαν στην τελευταία επικαιροποίηση;
+              Πώς θα διεξαχθεί ο 3ος Πανελλήνιος Γραπτός Διαγωνισμός;
             </h3>
             <p className="text-slate-300 leading-relaxed">
-              Στο αναθεωρημένο Μητρώο προστέθηκαν ο Γενικός Κανονισμός για την Προστασία Δεδομένων (GDPR), 
-              ο Κώδικας Κατάστασης Πολιτικών Διοικητικών Υπαλλήλων, καθώς και εξειδικευμένες ενότητες για τη 
-              Διοίκηση Ανθρώπινου Δυναμικού και τον Κώδικα Συμπεριφοράς Δημοσίων Υπαλλήλων.
+              Ο διαγωνισμός προγραμματίζεται εντός του 2027 μέσω ηλεκτρονικής διαδικασίας (computer-based) σε μόνιμα εξεταστικά κέντρα σε Αθήνα και Θεσσαλονίκη, με διευρυμένο εξεταστικό παράθυρο πολλών εβδομάδων (Computer-Adaptive Testing).
             </p>
           </div>
         </div>
       </div>
 
-      {/* Official Disclaimer (ΑΣΕΠ 14/10/2026 Compliance) */}
+      {/* Official Disclaimer */}
       <div className="p-5 rounded-2xl bg-slate-950 border border-slate-800/80 text-xs text-slate-400 space-y-2 leading-relaxed">
         <div className="flex items-center gap-2 text-slate-300 font-semibold text-xs uppercase tracking-wider">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />

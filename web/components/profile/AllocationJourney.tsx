@@ -152,8 +152,13 @@ export default function AllocationJourney({
         {displayedItems.map((kod) => {
           const actualIndex = parsedPreferences.indexOf(kod);
           const prefNum = actualIndex + 1;
-          const isAppointed = kod === targetKod;
-          const isPrior = targetIdx !== -1 && actualIndex < targetIdx;
+          const isAppointed = targetKod !== null && kod === targetKod;
+          
+          // ΣΩΣΤΗ ΛΟΓΙΚΗ:
+          // Αν είναι μη διοριστέος (targetIdx === -1), ΟΛΕΣ οι θέσεις θεωρούνται "προγενέστερες" που χάθηκαν λόγω βαθμολογίας!
+          // Αν είναι διοριστέος, μόνο όσες είναι πριν τη θέση διορισμού είναι "προγενέστερες".
+          const isPrior = targetIdx === -1 || (targetIdx !== -1 && actualIndex < targetIdx);
+          const isSubsequent = targetIdx !== -1 && actualIndex > targetIdx;
           const posMeta = positionsMap[kod];
           const intel = intelMap[kod];
 
@@ -316,7 +321,9 @@ export default function AllocationJourney({
                     {isAppointed
                       ? `✓ Κατοχυρώθηκε οριστικά με ${candidateScore || "—"} μόρια.`
                       : isPrior
-                      ? "Αν η βαθμολογία σας αυξηθεί σε ενδεχόμενη ένσταση, ελέγξτε αν προσεγγίζετε τη βάση."
+                      ? (scoreDiff && Number(scoreDiff) < 0
+                          ? `Υπολείπεστε κατά ${Math.abs(Number(scoreDiff)).toFixed(2)} μόρια από τη βάση της θέσης.`
+                          : "Καλύφθηκε από υποψήφιο με υψηλότερη βαθμολογία ή ειδική ποσόστωση.")
                       : "Η επιλογή προσπεράστηκε αφού ο υποψήφιος κλείδωσε σε ανώτερη προτίμησή του."}
                   </span>
                   <Link

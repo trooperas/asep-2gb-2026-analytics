@@ -673,14 +673,12 @@ export default function ProfilePage() {
           </motion.div>
         )}
 
-        {/* 1. ΔΙΑΔΡΟΜΗ ΚΑΤΑΝΟΜΗΣ (Μόνο στην ειδικότητα διορισμού) */}
-        {isAppointedInCurrent && (
-          <AllocationJourney
-            protimiseisStr={candidate.protimiseis}
-            thesiDiorismou={cleanThesiKod}
-            candidateScore={trueAppointmentScore}
-          />
-        )}
+        {/* 1. ΔΙΑΔΡΟΜΗ ΠΡΟΤΙΜΗΣΕΩΝ & ΒΑΣΕΙΣ (Εμφανίζεται για ΟΛΟΥΣ τους υποψηφίους) */}
+        <AllocationJourney
+          protimiseisStr={candidate.protimiseis}
+          thesiDiorismou={isAppointedInCurrent ? cleanThesiKod : null}
+          candidateScore={isAppointedInCurrent ? trueAppointmentScore : rawScore}
+        />
 
         {/* === Epilaxontes Tracker (Μόνο αν ο υποψήφιος δεν έχει διοριστεί σε καμία ειδικότητα) === */}
         {!isAppointedInCurrent && !isAppointedInOther && (

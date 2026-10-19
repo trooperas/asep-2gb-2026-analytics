@@ -101,10 +101,18 @@ export default function PositionPage() {
 
   const { position, candidates, stats } = data;
 
-  // HRMS link (αν έχει κωδικό ψηφιακού οργανογράμματος)
-  const hrmsLink = position.kod_organogrammatos
-    ? `https://hrms.gov.gr/api/public/positions/${position.kod_organogrammatos.split(",")[0].trim()}/job-description`
-    : null;
+  // Εξαγωγή ΟΛΩΝ των κωδικών ψηφιακού οργανογράμματος (HRMS)
+  const hrmsLinks = position.kod_organogrammatos
+    ? position.kod_organogrammatos
+        .split(/[\s,;]+/)
+        .map((k: string) => k.trim())
+        .filter((k: string) => k.length >= 3 && !isNaN(Number(k)))
+        .map((id: string, idx: number) => ({
+          id,
+          num: idx + 1,
+          url: `https://hrms.gov.gr/api/public/positions/${id}/job-description`,
+        }))
+    : [];
 
   return (
     <main
@@ -434,7 +442,8 @@ export default function PositionPage() {
             )}
           </div>
 
-          {hrmsLink && (
+          {/* Πλήρης λίστα συνδέσμων HRMS για ΟΛΕΣ τις κενές θέσεις του κωδικού */}
+          {hrmsLinks.length > 0 && (
             <div
               style={{
                 marginTop: "2rem",
@@ -442,22 +451,55 @@ export default function PositionPage() {
                 borderTop: "1px solid var(--border)",
               }}
             >
-              <a
-                href={hrmsLink}
-                target="_blank"
-                rel="noopener noreferrer"
+              <div
                 style={{
-                  color: "var(--primary)",
-                  textDecoration: "none",
-                  fontSize: "0.9rem",
+                  fontSize: "0.75rem",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.1em",
+                  color: "var(--text-muted)",
+                  marginBottom: "0.75rem",
                   fontWeight: 600,
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
                 }}
               >
-                🔗 Δες την περιγραφή καθηκόντων στο HRMS →
-              </a>
+                Ψηφιακό Οργανόγραμμα Δημόσιας Διοίκησης (HRMS) — {hrmsLinks.length}{" "}
+                {hrmsLinks.length === 1 ? "Περιγραφή Θέσης" : "Περιγραφές Θέσεων"}:
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "0.75rem",
+                }}
+              >
+                {hrmsLinks.map((item: any) => (
+                  <a
+                    key={item.id}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="glass glass-hover"
+                    style={{
+                      padding: "8px 14px",
+                      borderRadius: "10px",
+                      border: "1px solid rgba(0, 229, 255, 0.25)",
+                      color: "var(--primary)",
+                      textDecoration: "none",
+                      fontSize: "0.85rem",
+                      fontWeight: 600,
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      transition: "all 0.2s ease",
+                    }}
+                  >
+                    <span>
+                      📄 {hrmsLinks.length > 1 ? `Θέση ${item.num} (ID: ${item.id})` : `Περιγραφή Καθηκόντων (ID: ${item.id})`}
+                    </span>
+                    <span style={{ fontSize: "0.75rem", opacity: 0.8 }}>→</span>
+                  </a>
+                ))}
+              </div>
             </div>
           )}
         </motion.div>

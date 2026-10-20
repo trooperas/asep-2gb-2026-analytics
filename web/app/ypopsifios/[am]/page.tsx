@@ -213,9 +213,11 @@ export default function ProfilePage() {
 
   // Αυτόματο άνοιγμα στην πραγματική ειδικότητα διορισμού
   useEffect(() => {
-    if (trueAppointedIndex >= 0 && !slugParam) {
+    if (trueAppointedIndex >= 0) {
+      // 👈 Χωρίς το && !slugParam. Αν υπάρχει διορισμός, ανοίγει ΠΑΝΤΑ αυτός!
       setActiveIdx(trueAppointedIndex);
     } else if (slugParam && candidates.length > 0) {
+      // Μόνο αν ΔΕΝ έχει διοριστεί πουθενά, ανοίγουμε το slug του URL
       const idx = candidates.findIndex((c) => (c.slug || c.eidikotitaSlug) === slugParam);
       if (idx >= 0) setActiveIdx(idx);
     }

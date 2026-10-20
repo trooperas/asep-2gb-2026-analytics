@@ -15,6 +15,7 @@ import {
   AlertCircle,
   TrendingDown,
   TrendingUp,
+  Minus,
 } from "lucide-react";
 
 interface PositionMeta {
@@ -63,25 +64,31 @@ export default function AllocationJourney({
   const targetKod = thesiDiorismou ? String(thesiDiorismou).replace(/\.0$/, "").trim() : null;
   const targetIdx = targetKod ? parsedPreferences.indexOf(targetKod) : -1;
 
-  // 2. Υπολογισμός Προτιμήσεων προς εμφάνιση:
-  // Αν έχει δηλώσει έως 35 θέσεις, τις δείχνουμε ΟΛΕΣ!
-  // Αν έχει δηλώσει πάνω από 35 θέσεις, δείχνουμε παράθυρο ±12 θέσεων γύρω από τον διορισμό.
+  // 2. Έξυπνο Παράθυρο Προτιμήσεων (Smart Batching):
+  // - Default: Έως 10 θέσεις για να μην υπάρχει ατελείωτο scroll.
+  // - Αν διορίστηκε μετά τη 10η θέση: δείχνουμε τις πρώτες 5 + τη θέση διορισμού με το context της (±2 θέσεις).
   const windowedPreferences = useMemo(() => {
     if (!parsedPreferences.length) return [];
     
-    // Αν είναι κάτω από 35 θέσεις, εμφάνισέ τες ΟΛΕΣ εξ αρχής!
-    if (parsedPreferences.length <= 35) {
+    // Αν έχει δηλώσει έως 10 θέσεις, τις δείχνουμε όλες
+    if (parsedPreferences.length <= 10) {
       return parsedPreferences;
     }
 
-    if (targetIdx === -1) {
-      return parsedPreferences.slice(0, 30);
+    // Αν είναι μη διοριστέος ή διορίστηκε μέσα στην πρώτη 10άδα
+    if (targetIdx === -1 || targetIdx < 10) {
+      return parsedPreferences.slice(0, 10);
     }
 
-    // Παράθυρο: 10 πριν τη θέση διορισμού και έως 15 μετά!
-    const startIdx = Math.max(0, targetIdx - 10);
-    const endIdx = Math.min(parsedPreferences.length, targetIdx + 15);
-    return parsedPreferences.slice(startIdx, endIdx);
+    // Αν διορίστηκε μετά τη 10η θέση (π.χ. στην 35η):
+    // Παίρνουμε τις πρώτες 5 + (targetIdx - 2 έως targetIdx + 2)
+    const top5 = parsedPreferences.slice(0, 5);
+    const windowAroundTarget = parsedPreferences.slice(
+      Math.max(5, targetIdx - 2),
+      Math.min(parsedPreferences.length, targetIdx + 3)
+    );
+
+    return Array.from(new Set([...top5, ...windowAroundTarget]));
   }, [parsedPreferences, targetIdx]);
 
   // 3. Φόρτωση metadata θέσεων και προ-υπολογισμένων βάσεων
@@ -96,7 +103,7 @@ export default function AllocationJourney({
         pMap[kod] = p;
       }
       setPositionsMap(pMap);
-      setIntelMap(intelData);
+      setIntelMap(intelData || {});
     });
   }, []);
 
@@ -121,7 +128,9 @@ export default function AllocationJourney({
         <div>
           <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#00E5FF]/10 text-[#00E5FF] text-[11px] font-mono font-semibold uppercase tracking-wider mb-2">
             <Sparkles className="w-3 h-3" />
-            Ανάλυση Βάσεων Προτιμήσεων (±10 Θέσεις)
+            {isExpanded
+              ? `Όλες οι Προτιμήσεις (${parsedPreferences.length})`
+              : `Βασικές Προτιμήσεις (${displayedItems.length} από ${parsedPreferences.length})`}
           </div>
           <h3 className="text-xl sm:text-2xl font-bold font-display text-white">
             Διαδρομή Κατανομής & Βάσεις Θέσεων
@@ -149,28 +158,28 @@ export default function AllocationJourney({
 
       {/* Stepper Timeline */}
       <div className="relative pl-6 sm:pl-8 space-y-4 before:absolute before:left-[11px] sm:before:left-[15px] before:top-3 before:bottom-3 before:w-[2px] before:bg-gradient-to-b before:from-slate-700 via-[#00E5FF]/40 to-slate-800">
-        {displayedItems.map((kod) => {
+        {displayedItems.map((kod, index) => {
           const actualIndex = parsedPreferences.indexOf(kod);
           const prefNum = actualIndex + 1;
           const isAppointed = targetKod !== null && kod === targetKod;
           
-          // ΣΩΣΤΗ ΛΟΓΙΚΗ:
-          // Αν είναι μη διοριστέος (targetIdx === -1), ΟΛΕΣ οι θέσεις θεωρούνται "προγενέστερες" που χάθηκαν λόγω βαθμολογίας!
-          // Αν είναι διοριστέος, μόνο όσες είναι πριν τη θέση διορισμού είναι "προγενέστερες".
           const isPrior = targetIdx === -1 || (targetIdx !== -1 && actualIndex < targetIdx);
-          const isSubsequent = targetIdx !== -1 && actualIndex > targetIdx;
           const posMeta = positionsMap[kod];
           const intel = intelMap[kod];
 
           // Υπολογισμός διαφοράς βαθμολογίας από τη βάση
-          const scoreDiff =
+          const numericDiff =
             intel && candidateScore !== null
-              ? (candidateScore - intel.min_score).toFixed(2)
+              ? Math.round((candidateScore - intel.min_score) * 100) / 100
               : null;
+          const scoreDiffStr = numericDiff !== null ? numericDiff.toFixed(2) : null;
+
+          // Έλεγχος ισοβαθμίας (Edge Case: ακριβώς στη βάση)
+          const isTieAtCutoff = numericDiff !== null && Math.abs(numericDiff) < 0.001;
 
           return (
             <motion.div
-              key={`${kod}-${actualIndex}`}
+              key={`${kod}-${actualIndex}-${index}`}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2 }}
@@ -273,22 +282,34 @@ export default function AllocationJourney({
                       <span className="text-slate-500 font-mono text-[11px]">Κενή / Μη καλυφθείσα</span>
                     )}
 
-                    {/* Διαφορά βαθμολογίας */}
-                    {scoreDiff && isPrior && (
+                    {/* Διαφορά βαθμολογίας (Διορθωμένο για Ισοβαθμία & Διορισμό) */}
+                    {numericDiff !== null && (isPrior || isAppointed) && (
                       <span
-                        className={`text-[11px] font-mono font-semibold flex items-center gap-0.5 px-2 py-0.5 rounded ${
-                          Number(scoreDiff) >= 0 
-                            ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/30" 
+                        className={`text-[11px] font-mono font-semibold flex items-center gap-1 px-2 py-0.5 rounded ${
+                          isTieAtCutoff
+                            ? "bg-amber-500/15 text-amber-400 border border-amber-500/30"
+                            : numericDiff > 0
+                            ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/30"
                             : "bg-pink-500/10 text-pink-400 border border-pink-500/30"
                         }`}
                         title="Διαφορά βαθμολογίας υποψηφίου από τη βάση της θέσης"
                       >
-                        {Number(scoreDiff) >= 0 ? (
-                          <TrendingUp className="w-3 h-3" />
+                        {isTieAtCutoff ? (
+                          <>
+                            <Minus className="w-3 h-3" />
+                            0.00 (Ισοβαθμία)
+                          </>
+                        ) : numericDiff > 0 ? (
+                          <>
+                            <TrendingUp className="w-3 h-3" />
+                            +{scoreDiffStr} μόρια
+                          </>
                         ) : (
-                          <TrendingDown className="w-3 h-3" />
+                          <>
+                            <TrendingDown className="w-3 h-3" />
+                            {scoreDiffStr} μόρια
+                          </>
                         )}
-                        {Number(scoreDiff) >= 0 ? `+${scoreDiff}` : scoreDiff} μόρια
                       </span>
                     )}
                   </div>
@@ -319,11 +340,15 @@ export default function AllocationJourney({
                 <div className="mt-2.5 pt-2 border-t border-slate-800/60 text-[11px] flex items-center justify-between text-slate-400">
                   <span>
                     {isAppointed
-                      ? `✓ Κατοχυρώθηκε οριστικά με ${candidateScore || "—"} μόρια.`
+                      ? isTieAtCutoff
+                        ? `✓ Κατοχυρώθηκε οριστικά διαμορφώνοντας τη βάση της θέσης (${candidateScore || "—"} μόρια).`
+                        : `✓ Κατοχυρώθηκε οριστικά με ${candidateScore || "—"} μόρια (+${scoreDiffStr} πάνω από τη βάση).`
                       : isPrior
-                      ? (scoreDiff && Number(scoreDiff) < 0
-                          ? `Υπολείπεστε κατά ${Math.abs(Number(scoreDiff)).toFixed(2)} μόρια από τη βάση της θέσης.`
-                          : "Καλύφθηκε από υποψήφιο με υψηλότερη βαθμολογία ή ειδική ποσόστωση.")
+                      ? isTieAtCutoff
+                        ? "Ισοβαθμήσατε με τη βάση της θέσης αλλά προηγήθηκε άλλος υποψήφιος στα κριτήρια ισοβαθμίας (γραπτός βαθμός/εντοπιότητα)."
+                        : numericDiff !== null && numericDiff < 0
+                        ? `Υπολείπεστε κατά ${Math.abs(numericDiff).toFixed(2)} μόρια από τη βάση της θέσης.`
+                        : "Καλύφθηκε από υποψήφιο με υψηλότερη βαθμολογία ή ειδική ποσόστωση."
                       : "Η επιλογή προσπεράστηκε αφού ο υποψήφιος κλείδωσε σε ανώτερη προτίμησή του."}
                   </span>
                   <Link
@@ -340,24 +365,28 @@ export default function AllocationJourney({
       </div>
 
       {/* Toggle View All Button */}
-      {parsedPreferences.length > windowedPreferences.length && (
+      {parsedPreferences.length > displayedItems.length && !isExpanded && (
         <div className="mt-6 pt-4 border-t border-slate-800/80 flex justify-center">
           <button
             type="button"
-            onClick={() => setIsExpanded(!isExpanded)}
+            onClick={() => setIsExpanded(true)}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 hover:text-[#00E5FF] hover:border-[#00E5FF]/40 transition-all cursor-pointer font-medium"
           >
-            {isExpanded ? (
-              <>
-                <ChevronUp className="w-4 h-4" />
-                Σύμπτυξη στο παράθυρο ±10 θέσεων
-              </>
-            ) : (
-              <>
-                <ChevronDown className="w-4 h-4" />
-                Εμφάνιση και των {parsedPreferences.length} δηλωθέντων προτιμήσεων
-              </>
-            )}
+            <ChevronDown className="w-4 h-4" />
+            Εμφάνιση και των {parsedPreferences.length} δηλωθέντων προτιμήσεων ({parsedPreferences.length - displayedItems.length} ακόμα)
+          </button>
+        </div>
+      )}
+
+      {isExpanded && parsedPreferences.length > 10 && (
+        <div className="mt-6 pt-4 border-t border-slate-800/80 flex justify-center">
+          <button
+            type="button"
+            onClick={() => setIsExpanded(false)}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 hover:text-[#00E5FF] hover:border-[#00E5FF]/40 transition-all cursor-pointer font-medium"
+          >
+            <ChevronUp className="w-4 h-4" />
+            Σύμπτυξη στις βασικές προτιμήσεις
           </button>
         </div>
       )}

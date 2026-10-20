@@ -27,6 +27,8 @@ interface Candidate {
   minas_empeirias: number | null;
   monades_empeirias: number | null;
   kod_entopiotitas: string;
+  idiotita?: string;
+  eidikes_idiotites?: string;
   math1: number | null;
   math2: number | null;
   synolo_graptou: number | null;
@@ -214,10 +216,8 @@ export default function ProfilePage() {
   // Αυτόματο άνοιγμα στην πραγματική ειδικότητα διορισμού
   useEffect(() => {
     if (trueAppointedIndex >= 0) {
-      // 👈 Χωρίς το && !slugParam. Αν υπάρχει διορισμός, ανοίγει ΠΑΝΤΑ αυτός!
       setActiveIdx(trueAppointedIndex);
     } else if (slugParam && candidates.length > 0) {
-      // Μόνο αν ΔΕΝ έχει διοριστεί πουθενά, ανοίγουμε το slug του URL
       const idx = candidates.findIndex((c) => (c.slug || c.eidikotitaSlug) === slugParam);
       if (idx >= 0) setActiveIdx(idx);
     }
@@ -242,8 +242,24 @@ export default function ProfilePage() {
     );
   }
 
+  // 👈 Ο υποψήφιος ορίζεται ΕΔΩ!
   const candidate = candidates[activeIdx];
   const cleanAmString = String(candidate.am).replace(/\.0$/, "");
+
+  // 👇 Έλεγχος ειδικής κατηγορίας (σωστά τοποθετημένος μετά τον ορισμό του candidate)
+  const rawId = String(candidate.idiotita || "").trim().toUpperCase();
+  const rawEid = String(candidate.eidikes_idiotites || "").trim().toUpperCase();
+  const hasSpecialCategory =
+    rawEid === "ΝΑΙ" ||
+    rawId === "ΝΑΙ" ||
+    (rawId !== "" && !["ΟΧΙ", "NAN", "NONE", "—", "-"].includes(rawId));
+
+  const specialCategoryLabel =
+    candidate.idiotita && !["ΟΧΙ", "NAN", "NONE"].includes(rawId)
+      ? candidate.idiotita
+      : candidate.eidikes_idiotites && rawEid === "ΝΑΙ"
+      ? "ΝΑΙ"
+      : "—";
 
   // Κατάσταση τρέχουσας καρτέλας
   const isAppointedInCurrent = activeIdx === trueAppointedIndex;
@@ -280,13 +296,9 @@ export default function ProfilePage() {
   if (isAppointedInCurrent) {
     if (isLocalityScore) {
       if (seatHasLocality) {
-        // Περίπτωση Τσορτανίδη (#903) -> has_entopiotita: true
-        // Διορίστηκε ΜΕ εντοπιότητα!
         usedEntopiotitaForSeat = true;
         trueAppointmentScore = rawScore;
       } else {
-        // Περίπτωση Μιχαηλίδου (#1531) -> has_entopiotita: false
-        // Διορίστηκε στη Γενική Σειρά χωρίς το +40
         bypassedEntopiotita = true;
         const entopBonus = scoreDiff >= 35 ? 40 : 20;
         trueAppointmentScore = Math.max(0, rawScore - entopBonus);
@@ -300,7 +312,7 @@ export default function ProfilePage() {
     <main
       style={{
         minHeight: "100vh",
-        padding: "120px 24px 80px",
+        padding: "120px 24px 120px",
         position: "relative",
         zIndex: 1,
       }}
@@ -865,6 +877,24 @@ export default function ProfilePage() {
               </div>
               <div>{candidate.kod_entopiotitas || "—"}</div>
             </div>
+
+            {/* Ειδική Κατηγορία */}
+            <div>
+              <div
+                style={{
+                  fontSize: "0.7rem",
+                  textTransform: "uppercase",
+                  color: "var(--text-muted)",
+                  marginBottom: "4px",
+                }}
+              >
+                Ειδική Κατηγορία
+              </div>
+              <div className={hasSpecialCategory ? "text-pink-400 font-semibold" : ""}>
+                {hasSpecialCategory ? `⭐ ${specialCategoryLabel}` : "—"}
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -884,6 +914,8 @@ export default function ProfilePage() {
           Δες όλη την ειδικότητα ({candidate.eidikotita}) →
         </Link>
       </div>
+
+      {/* Floating Ko-fi Pill */}
       <a
         href="https://ko-fi.com/fokion"
         target="_blank"

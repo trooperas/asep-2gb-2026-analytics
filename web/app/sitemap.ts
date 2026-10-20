@@ -52,5 +52,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error("Sitemap eidikotita error:", err);
   }
 
+  // Προσθήκη όλων των ερωτήσεων προετοιμασίας στο sitemap
+  try {
+    const quizzesPath = join(process.cwd(), "public", "data", "quizzes_clean.json");
+    if (existsSync(quizzesPath)) {
+      const questions = JSON.parse(readFileSync(quizzesPath, "utf-8")) as Array<{
+        id: string;
+        category_slug: string;
+      }>;
+
+      for (const q of questions) {
+        staticPages.push({
+          url: `${baseUrl}/proetoimasia/${q.category_slug}/${q.id}`,
+          lastModified: new Date(),
+          changeFrequency: "monthly",
+          priority: 0.5,
+        });
+      }
+    }
+  } catch (e) {
+    console.error("Sitemap questions error:", e);
+  }
+
   return [...staticPages, ...eidikotitesPages];
 }

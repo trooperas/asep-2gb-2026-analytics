@@ -692,6 +692,13 @@ export default function ProfilePage() {
           />
         )}
 
+        <div className="mt-8 p-4 rounded-xl bg-slate-900/40 border border-slate-800 text-center text-xs text-slate-400">
+          Βρήκατε χρήσιμη την ανάλυση της καρτέλας σας;{" "}
+          <a href="https://ko-fi.com/fokion" target="_blank" rel="noopener noreferrer nofollow" className="text-[#00E5FF] hover:underline font-semibold">
+            ☕ Συμβάλετε στα έξοδα του server στο Ko-fi →
+          </a>
+        </div>
+
         {/* 2. ΠΡΟΣΟΜΟΙΩΤΗΣ ΕΝΣΤΑΣΕΩΝ */}
         <div className="mb-12">
           <button
@@ -864,13 +871,6 @@ export default function ProfilePage() {
               <div>{candidate.kod_entopiotitas || "—"}</div>
             </div>
           </div>
-        </div>
-
-        <div className="mt-8 p-4 rounded-xl bg-slate-900/40 border border-slate-800 text-center text-xs text-slate-400">
-          Βρήκατε χρήσιμη την ανάλυση της καρτέλας σας;{" "}
-          <a href="https://ko-fi.com/fokionas" target="_blank" rel="noopener noreferrer nofollow" className="text-[#00E5FF] hover:underline font-semibold">
-            ☕ Συμβάλετε στα έξοδα του server στο Ko-fi →
-          </a>
         </div>
 
         {/* Link προς την ειδικότητα */}

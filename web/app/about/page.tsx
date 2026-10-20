@@ -132,7 +132,7 @@ export default function AboutPage() {
           </p>
           <div className="pt-2">
             <a
-              href="https://ko-fi.com/fokionas" // 👈 Βάλε το δικό σου Ko-fi URL
+              href="https://ko-fi.com/fokion" // 👈 Βάλε το δικό σου Ko-fi URL
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-xs sm:text-sm hover:scale-105 transition-all no-underline shadow-lg"

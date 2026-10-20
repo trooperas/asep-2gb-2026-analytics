@@ -4,13 +4,6 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Building2, ArrowRight } from "lucide-react";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Αναζήτηση Υποψηφίων & Θέσεων",
-  robots: { index: false, follow: true },
-};
-
 
 interface Result {
   am: string;

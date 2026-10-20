@@ -11,12 +11,6 @@ import {
   ArrowRight,
   ShieldCheck,
 } from "lucide-react";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "AI Βοηθός",
-  robots: { index: false, follow: true },
-};
 
 export default function ChatPage() {
   return (

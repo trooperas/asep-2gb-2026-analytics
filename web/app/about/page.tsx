@@ -116,6 +116,32 @@ export default function AboutPage() {
           </p>
         </div>
 
+        {/* Server Costs & Ko-fi Support Box */}
+        <div className="p-6 rounded-2xl bg-gradient-to-r from-slate-900/90 via-[#0A0E1A] to-[#070A13] border border-[#00E5FF]/30 space-y-3">
+          <div className="flex items-center gap-2 text-white font-bold text-sm">
+            <span>☕ Υποστήριξη των Εξόδων Φιλοξενίας (Vercel Pro)</span>
+          </div>
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            Μέσα σε μία μόλις εβδομάδα, η πλατφόρμα ξεπέρασε τις <strong>100.000 προβολές σελίδων</strong>! 
+            Για να αντέξει το σύστημα αυτόν τον τεράστιο όγκο επισκεπτών χωρίς διακοπές, αναβάθμισα την υποδομή σε 
+            <strong> Vercel Pro</strong> με δικά μου έξοδα.
+          </p>
+          <p className="text-xs text-slate-400 leading-relaxed">
+            Η εφαρμογή θα παραμείνει <strong>100% ανοιχτή και δωρεάν για όλους</strong>. 
+            Αν το εργαλείο σάς βοήθησε και θέλετε να συνεισφέρετε στα μηνιαία λειτουργικά έξοδα:
+          </p>
+          <div className="pt-2">
+            <a
+              href="https://ko-fi.com/fokionas" // 👈 Βάλε το δικό σου Ko-fi URL
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-xs sm:text-sm hover:scale-105 transition-all no-underline shadow-lg"
+            >
+              <span>☕ Κεράστε έναν καφέ στο Ko-fi</span>
+            </a>
+          </div>
+        </div>
+
         {/* Sign-off */}
         <div className="pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
           <div>

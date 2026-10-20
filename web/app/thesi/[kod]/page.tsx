@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { formatVathmologia, formatNumber } from "@/lib/utils";
-const [activeTab, setActiveTab] = useState<"appointed" | "applicants">("appointed");
 
 interface Position {
   kod_thesis: string;
@@ -43,8 +42,8 @@ interface Stats {
 interface ApiResponse {
   position: Position;
   candidates: Candidate[];
-  applicants?: any[]; // 👈 Πρόσθεσε αυτό
-  totalApplicantsCount?: number; // 👈 Και αυτό
+  applicants?: any[];
+  totalApplicantsCount?: number;
   stats: Stats;
 }
 
@@ -55,10 +54,13 @@ export default function PositionPage() {
   const [data, setData] = useState<ApiResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
+  const [activeTab, setActiveTab] = useState<"appointed" | "applicants">("appointed");
 
   useEffect(() => {
     if (!kod) return;
-    fetch(`/api/position/${kod}`)
+    const cleanKod = String(kod).replace(/\.0$/, "").trim();
+
+    fetch(`/api/position/${cleanKod}`)
       .then((r) => {
         if (r.status === 404) {
           setNotFound(true);
@@ -67,9 +69,16 @@ export default function PositionPage() {
         return r.json();
       })
       .then((d) => {
-        if (d) setData(d);
+        if (d && !d.error) {
+          setData(d);
+        } else {
+          setNotFound(true);
+        }
       })
-      .catch(console.error)
+      .catch((e) => {
+        console.error(e);
+        setNotFound(true);
+      })
       .finally(() => setLoading(false));
   }, [kod]);
 
@@ -89,13 +98,13 @@ export default function PositionPage() {
     );
   }
 
-  if (notFound || !data) {
+  if (notFound || !data || !data.position) {
     return (
       <main style={{ minHeight: "100vh", padding: "120px 24px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <h1>Η θέση δεν βρέθηκε</h1>
-          <Link href="/search" style={{ color: "var(--primary)" }}>
-            ← Πίσω στην αναζήτηση
+          <Link href="/xartis" style={{ color: "var(--primary)" }}>
+            ← Πίσω στον χάρτη
           </Link>
         </div>
       </main>
@@ -104,7 +113,7 @@ export default function PositionPage() {
 
   const { position, candidates, stats } = data;
 
-  // Εξαγωγή ΟΛΩΝ των κωδικών ψηφιακού οργανογράμματος (HRMS)
+  // Εξαγωγή ΟΛΩΝ των links HRMS
   const hrmsLinks = position.kod_organogrammatos
     ? position.kod_organogrammatos
         .split(/[\s,;]+/)
@@ -128,7 +137,7 @@ export default function PositionPage() {
     >
       <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
         <Link
-          href="/"
+          href="/xartis"
           style={{
             color: "var(--text-muted)",
             textDecoration: "none",
@@ -137,7 +146,7 @@ export default function PositionPage() {
             marginBottom: "2rem",
           }}
         >
-          ← Πίσω
+          ← Πίσω στον Χάρτη
         </Link>
 
         {/* Header */}
@@ -445,7 +454,7 @@ export default function PositionPage() {
             )}
           </div>
 
-          {/* Πλήρης λίστα συνδέσμων HRMS για ΟΛΕΣ τις κενές θέσεις του κωδικού */}
+          {/* Πλήρης λίστα συνδέσμων HRMS για ΟΛΕΣ τις κενές θέσεις */}
           {hrmsLinks.length > 0 && (
             <div
               style={{
@@ -582,7 +591,7 @@ export default function PositionPage() {
                 </div>
               ) : (
                 <div style={{ display: "grid", gap: "0.5rem" }}>
-                  {candidates.map((c, i) => (
+                  {candidates.map((c: any, i: number) => (
                     <Link
                       key={`${c.am}-${i}`}
                       href={`/ypopsifios/${c.am}?slug=${c.slug}`}
@@ -649,7 +658,7 @@ export default function PositionPage() {
             </div>
           )}
 
-          {/* TAB 2: ΟΛΟΙ ΟΙ ΔΙΕΚΔΙΚΗΤΕΣ (ΠΟΥ ΔΗΛΩΣΑΝ ΤΗ ΘΕΣΗ) */}
+          {/* TAB 2: ΟΛΟΙ ΟΙ ΔΙΕΚΔΙΚΗΤΕΣ */}
           {activeTab === "applicants" && (
             <div style={{ display: "grid", gap: "0.5rem" }}>
               {data.applicants?.map((app: any, i: number) => (

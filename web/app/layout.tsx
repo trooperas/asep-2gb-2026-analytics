@@ -23,14 +23,15 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL("https://asepanalytics.app"),
   title: {
-    default: "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub — Αποτελέσματα, Χάρτης & AI Βοηθός",
+    default: "ΑΣΕΠ 2ΓΒ/2026 Hub — Αποτελέσματα, Χάρτης & Βάσεις",
     template: "%s | ΑΣΕΠ 2ΓΒ/2026 Hub",
   },
   description:
-    "Διαδραστική πλατφόρμα στατιστικών και ανάλυσης για τον γραπτό διαγωνισμό ΑΣΕΠ 2ΓΒ/2026. 51.900+ υποψήφιοι, 52 ειδικότητες, γεωγραφικός χάρτης θέσεων και AI Assistant.",
+    "Πλατφόρμα ανάλυσης αποτελεσμάτων ΑΣΕΠ 2ΓΒ/2026. Αναζήτηση 51.900+ υποψηφίων, βάσεις 52 ειδικοτήτων, διαδραστικός χάρτης θέσεων & AI βοηθός.",
+  // 👈 ΑΦΑΙΡΕΘΗΚΕ ΤΟ CANONICAL ΑΠΟ ΕΔΩ ΓΙΑ ΝΑ ΜΗΝ ΤΟ ΚΛΗΡΟΝΟΜΟΥΝ ΟΙ ΥΠΟΣΕΛΙΔΕΣ!
   keywords: [
     "ΑΣΕΠ",
     "2ΓΒ/2026",
@@ -53,7 +54,7 @@ export const metadata = {
     siteName: "ΑΣΕΠ 2ΓΒ/2026 Hub",
     images: [
       {
-        url: "https://asep-2gb-2026.vercel.app/og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "ΑΣΕΠ 2ΓΒ/2026 Hub Preview Banner",
@@ -64,11 +65,28 @@ export const metadata = {
     card: "summary_large_image",
     title: "ΑΣΕΠ 2ΓΒ/2026 Hub — Αποτελέσματα & Στατιστικά",
     description: "Διαδραστική πλατφόρμα ανάλυσης αποτελεσμάτων ΑΣΕΠ 2ΓΒ/2026.",
-    images: ["https://asep-2gb-2026.vercel.app/og-image.png"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
+  },
+};
+
+// JSON-LD Structured Data
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub",
+  url: "https://asepanalytics.app",
+  description:
+    "Διαδραστική πλατφόρμα στατιστικών και ανάλυσης για τον γραπτό διαγωνισμό ΑΣΕΠ 2ΓΒ/2026.",
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "All",
+  creator: {
+    "@type": "Person",
+    name: "Fokion",
+    url: "https://www.linkedin.com/in/fokionas/",
   },
 };
 
@@ -85,6 +103,13 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
     >
       <body className="antialiased">
+        {/* Idiomatic App Router placement: το script μπαίνει στο body (απόλυτα έγκυρο για τη Google) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
         <Header />
         {children}
         <Footer />

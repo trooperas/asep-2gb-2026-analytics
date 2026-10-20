@@ -184,7 +184,7 @@ export default function CategoryQuizPage() {
   function handleShareScore() {
     const totalQ = answeredCount || activeQuestions.length;
     const pct = Math.round((score / totalQ) * 100);
-    const shareText = `🎯 Πέτυχα σκορ ${score}/${totalQ} (${pct}%) στο τεστ ΑΣΕΠ: «${categoryTitle}»!\n\nΔωρεάν εξάσκηση στο επίσημο Μητρώο Γνώσεων:\n👉 https://asep-2gb-2026.vercel.app/proetoimasia/${categorySlug}`;
+    const shareText = `🎯 Πέτυχα σκορ ${score}/${totalQ} (${pct}%) στο τεστ ΑΣΕΠ: «${categoryTitle}»!\n\nΔωρεάν εξάσκηση στο επίσημο Μητρώο Γνώσεων:\n👉 https://asepanalytics.app/proetoimasia/${categorySlug}`;
 
     if (navigator.clipboard) {
       navigator.clipboard.writeText(shareText);

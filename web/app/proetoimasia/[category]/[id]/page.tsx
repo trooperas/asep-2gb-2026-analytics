@@ -81,7 +81,7 @@ export default async function SingleQuestionPage({
         "@type": "Answer",
         "text": q.options[q.correct_index],
         "upvoteCount": 100,
-        "url": `https://asep-2gb-2026.vercel.app/proetoimasia/${category}/${id}`,
+        "url": `https://asepanalytics.app/proetoimasia/${category}/${id}`,
       },
       "suggestedAnswer": q.options
         .filter((_, idx) => idx !== q.correct_index)
@@ -97,7 +97,9 @@ export default async function SingleQuestionPage({
       {/* Inject JSON-LD */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
 
       {/* Navigation Breadcrumb */}

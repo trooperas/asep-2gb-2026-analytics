@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const pageTitle = `${officialTitle} — Αποτελέσματα & Βάσεις 2ΓΒ/2026`;
   const pageDesc = `Αναλυτικά στατιστικά, πίνακες διοριστέων, βάσεις μορίων και κατανομή εντοπιότητας για την ειδικότητα ${officialTitle} στον διαγωνισμό ΑΣΕΠ 2ΓΒ/2026.`;
-  const ogImageUrl = "https://asep-2gb-2026.vercel.app/og-image.png";
+  const ogImageUrl = "https://asepanalytics.app/og-image.png";
 
   return {
     title: pageTitle,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: "website",
       locale: "el_GR",
-      url: `https://asep-2gb-2026.vercel.app/eidikotita/${slug}`,
+      url: `https://asepanalytics.app/eidikotita/${slug}`,
       title: pageTitle,
       description: pageDesc,
       siteName: "ΑΣΕΠ 2ΓΒ/2026 Hub",

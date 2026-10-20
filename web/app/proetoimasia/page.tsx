@@ -47,7 +47,7 @@ export const metadata = {
     title: "ΑΣΕΠ 2027: Μητρώο 1.988 Θεμάτων & Οδηγός Δεξιοτήτων",
     description:
       "Δωρεάν εξάσκηση στις επίσημες ερωτήσεις γνώσεων και πλήρης οδηγός για επαγωγικούς συλλογισμούς & χωρική αντίληψη.",
-    url: "https://asep-2gb-2026.vercel.app/proetoimasia",
+    url: "https://asepanalytics.app/proetoimasia",
   },
 };
 

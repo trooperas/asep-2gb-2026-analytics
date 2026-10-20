@@ -76,18 +76,26 @@ export const metadata: Metadata = {
 // JSON-LD Structured Data
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  name: "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub",
-  url: "https://asepanalytics.app",
-  description:
-    "Διαδραστική πλατφόρμα στατιστικών και ανάλυσης για τον γραπτό διαγωνισμό ΑΣΕΠ 2ΓΒ/2026.",
-  applicationCategory: "EducationalApplication",
-  operatingSystem: "All",
-  creator: {
-    "@type": "Person",
-    name: "Fokion",
-    url: "https://www.linkedin.com/in/fokionas/",
-  },
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "ΑΣΕΠ 2ΓΒ/2026 Hub",
+      "url": "https://asepanalytics.app",
+      "description": "Πλατφόρμα ανάλυσης αποτελεσμάτων ΑΣΕΠ 2ΓΒ/2026."
+    },
+    {
+      "@type": "WebApplication",
+      "name": "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub",
+      "url": "https://asepanalytics.app",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "creator": {
+        "@type": "Person",
+        "name": "Fokion",
+        "url": "https://www.linkedin.com/in/fokionas/"
+      }
+    }
+  ]
 };
 
 export default function RootLayout({

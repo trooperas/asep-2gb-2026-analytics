@@ -3,8 +3,11 @@ import Link from "next/link";
 import { Sparkles, HelpCircle, ShieldCheck, ExternalLink, Zap } from "lucide-react";
 
 export const metadata = {
-  title: "Σχετικά με το Project — ΑΣΕΠ 2ΓΒ/2026 Hub",
-  description: "Πώς και γιατί φτιάχτηκε αυτή η πλατφόρμα μέσα σε μία μέρα.",
+  title: "Σχετικά με την Πλατφόρμα",
+  description: "Πληροφορίες για το project, τα δεδομένα και τον δημιουργό του ΑΣΕΠ Hub.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

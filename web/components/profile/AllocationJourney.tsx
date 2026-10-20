@@ -282,24 +282,17 @@ export default function AllocationJourney({
                       <span className="text-slate-500 font-mono text-[11px]">Κενή / Μη καλυφθείσα</span>
                     )}
 
-                    {/* Διαφορά βαθμολογίας (Διορθωμένο για Ισοβαθμία & Διορισμό) */}
-                    {numericDiff !== null && (isPrior || isAppointed) && (
+                    {/* Εμφάνιση διαφοράς ΜΟΝΟ αν είναι πραγματικά διάφορη του μηδενός (απόκλιση > 0.01) */}
+                    {numericDiff !== null && Math.abs(numericDiff) >= 0.01 && (isPrior || isAppointed) && (
                       <span
                         className={`text-[11px] font-mono font-semibold flex items-center gap-1 px-2 py-0.5 rounded ${
-                          isTieAtCutoff
-                            ? "bg-amber-500/15 text-amber-400 border border-amber-500/30"
-                            : numericDiff > 0
+                          numericDiff > 0
                             ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/30"
                             : "bg-pink-500/10 text-pink-400 border border-pink-500/30"
                         }`}
                         title="Διαφορά βαθμολογίας υποψηφίου από τη βάση της θέσης"
                       >
-                        {isTieAtCutoff ? (
-                          <>
-                            <Minus className="w-3 h-3" />
-                            0.00 (Ισοβαθμία)
-                          </>
-                        ) : numericDiff > 0 ? (
+                        {numericDiff > 0 ? (
                           <>
                             <TrendingUp className="w-3 h-3" />
                             +{scoreDiffStr} μόρια

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { formatVathmologia, formatNumber } from "@/lib/utils";
+const [activeTab, setActiveTab] = useState<"appointed" | "applicants">("appointed");
 
 interface Position {
   kod_thesis: string;
@@ -42,6 +43,8 @@ interface Stats {
 interface ApiResponse {
   position: Position;
   candidates: Candidate[];
+  applicants?: any[]; // 👈 Πρόσθεσε αυτό
+  totalApplicantsCount?: number; // 👈 Και αυτό
   stats: Stats;
 }
 
@@ -504,7 +507,7 @@ export default function PositionPage() {
           )}
         </motion.div>
 
-        {/* Candidates */}
+        {/* Candidates & Applicants with 2 Tabs */}
         <motion.div
           className="glass"
           style={{ padding: "2rem" }}
@@ -512,38 +515,152 @@ export default function PositionPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          <h2
-            className="font-display"
+          {/* Tab Buttons Switcher */}
+          <div
             style={{
-              fontSize: "1.3rem",
-              fontWeight: 600,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+              gap: "1rem",
               marginBottom: "1.5rem",
+              borderBottom: "1px solid var(--border)",
+              paddingBottom: "1rem",
             }}
           >
-            Διορισμένοι ({candidates.length})
-          </h2>
+            <div style={{ display: "flex", gap: "8px" }}>
+              <button
+                type="button"
+                onClick={() => setActiveTab("appointed")}
+                style={{
+                  padding: "8px 16px",
+                  borderRadius: "10px",
+                  border: activeTab === "appointed" ? "1px solid var(--primary)" : "1px solid var(--border)",
+                  background: activeTab === "appointed" ? "rgba(0, 229, 255, 0.1)" : "transparent",
+                  color: activeTab === "appointed" ? "var(--primary)" : "var(--text-muted)",
+                  fontWeight: 600,
+                  fontSize: "0.9rem",
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                }}
+              >
+                🎯 Διορισθέντες ({candidates.length})
+              </button>
 
-          {candidates.length === 0 ? (
-            <div
-              style={{
-                color: "var(--text-muted)",
-                textAlign: "center",
-                padding: "2rem",
-              }}
-            >
-              Κανένας διορισμένος δεν βρέθηκε για αυτή τη θέση.
+              {data.applicants && data.applicants.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setActiveTab("applicants")}
+                  style={{
+                    padding: "8px 16px",
+                    borderRadius: "10px",
+                    border: activeTab === "applicants" ? "1px solid var(--primary)" : "1px solid var(--border)",
+                    background: activeTab === "applicants" ? "rgba(0, 229, 255, 0.1)" : "transparent",
+                    color: activeTab === "applicants" ? "var(--primary)" : "var(--text-muted)",
+                    fontWeight: 600,
+                    fontSize: "0.9rem",
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                  }}
+                >
+                  📋 Όλοι οι Διεκδικητές ({data.totalApplicantsCount || data.applicants.length})
+                </button>
+              )}
             </div>
-          ) : (
+
+            <span style={{ fontSize: "0.75rem", color: "var(--text-muted)", fontFamily: "var(--font-jetbrains-mono), monospace" }}>
+              {activeTab === "appointed" ? "Επιτυχόντες Θέσης" : "Ταξινόμηση κατά Βαθμολογία"}
+            </span>
+          </div>
+
+          {/* TAB 1: ΜΟΝΟ ΟΙ ΔΙΟΡΙΣΘΕΝΤΕΣ */}
+          {activeTab === "appointed" && (
+            <div>
+              {candidates.length === 0 ? (
+                <div style={{ color: "var(--text-muted)", textAlign: "center", padding: "2rem" }}>
+                  Κανένας διορισμένος δεν βρέθηκε για αυτή τη θέση (Κενή Θέση).
+                </div>
+              ) : (
+                <div style={{ display: "grid", gap: "0.5rem" }}>
+                  {candidates.map((c, i) => (
+                    <Link
+                      key={`${c.am}-${i}`}
+                      href={`/ypopsifios/${c.am}?slug=${c.slug}`}
+                      style={{
+                        padding: "12px 16px",
+                        borderRadius: "8px",
+                        background: "rgba(255,255,255,0.02)",
+                        border: "1px solid transparent",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        textDecoration: "none",
+                        color: "var(--text)",
+                        transition: "all 0.2s",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--primary)";
+                        e.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "transparent";
+                        e.currentTarget.style.background = "rgba(255,255,255,0.02)";
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                        <span
+                          style={{
+                            width: "28px",
+                            color: i < 3 ? "var(--primary)" : "var(--text-dim)",
+                            fontWeight: 700,
+                            fontSize: "0.85rem",
+                          }}
+                        >
+                          #{i + 1}
+                        </span>
+                        <div>
+                          <div style={{ fontWeight: 600, fontSize: "0.95rem" }}>
+                            {c.eponymo} {c.onoma}
+                          </div>
+                          <div
+                            style={{
+                              fontSize: "0.75rem",
+                              color: "var(--text-muted)",
+                              fontFamily: "var(--font-jetbrains-mono), monospace",
+                            }}
+                          >
+                            Α.Μ. {c.am}
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        style={{
+                          color: "var(--primary)",
+                          fontFamily: "var(--font-jetbrains-mono), monospace",
+                          fontWeight: 600,
+                        }}
+                      >
+                        {formatVathmologia(c.vathmologia)}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* TAB 2: ΟΛΟΙ ΟΙ ΔΙΕΚΔΙΚΗΤΕΣ (ΠΟΥ ΔΗΛΩΣΑΝ ΤΗ ΘΕΣΗ) */}
+          {activeTab === "applicants" && (
             <div style={{ display: "grid", gap: "0.5rem" }}>
-              {candidates.map((c, i) => (
+              {data.applicants?.map((app: any, i: number) => (
                 <Link
-                  key={`${c.am}-${i}`}
-                  href={`/ypopsifios/${c.am}?slug=${c.slug}`}
+                  key={`${app.am}-${i}`}
+                  href={`/ypopsifios/${app.am}?slug=${app.slug}`}
                   style={{
                     padding: "12px 16px",
                     borderRadius: "8px",
-                    background: "rgba(255,255,255,0.02)",
-                    border: "1px solid transparent",
+                    background: app.isAppointedHere ? "rgba(0, 255, 163, 0.04)" : "rgba(255,255,255,0.02)",
+                    border: app.isAppointedHere ? "1px solid rgba(0, 255, 163, 0.3)" : "1px solid transparent",
                     display: "flex",
                     justifyContent: "space-between",
                     alignItems: "center",
@@ -553,54 +670,79 @@ export default function PositionPage() {
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.borderColor = "var(--primary)";
-                    e.currentTarget.style.background =
-                      "rgba(0, 229, 255, 0.05)";
+                    e.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = "transparent";
-                    e.currentTarget.style.background = "rgba(255,255,255,0.02)";
+                    e.currentTarget.style.borderColor = app.isAppointedHere ? "rgba(0, 255, 163, 0.3)" : "transparent";
+                    e.currentTarget.style.background = app.isAppointedHere ? "rgba(0, 255, 163, 0.04)" : "rgba(255,255,255,0.02)";
                   }}
                 >
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "12px",
-                    }}
-                  >
+                  <div style={{ display: "flex", alignItems: "center", gap: "12px", minWidth: 0 }}>
                     <span
                       style={{
-                        width: "28px",
-                        color: i < 3 ? "var(--primary)" : "var(--text-dim)",
+                        width: "32px",
+                        color: "var(--text-muted)",
                         fontWeight: 700,
-                        fontSize: "0.85rem",
+                        fontSize: "0.8rem",
+                        fontFamily: "var(--font-jetbrains-mono), monospace",
+                        flexShrink: 0,
                       }}
                     >
                       #{i + 1}
                     </span>
-                    <div>
-                      <div style={{ fontWeight: 600, fontSize: "0.95rem" }}>
-                        {c.eponymo} {c.onoma}
+
+                    <div style={{ minWidth: 0 }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
+                        <span style={{ fontWeight: 600, fontSize: "0.95rem" }}>
+                          {app.eponymo} {app.onoma}
+                        </span>
+                        {app.isAppointedHere && (
+                          <span
+                            style={{
+                              fontSize: "0.65rem",
+                              fontWeight: 700,
+                              padding: "2px 6px",
+                              borderRadius: "4px",
+                              background: "rgba(0, 255, 163, 0.15)",
+                              color: "var(--success)",
+                              border: "1px solid rgba(0, 255, 163, 0.3)",
+                            }}
+                          >
+                            🎯 Διορίστηκε εδώ
+                          </span>
+                        )}
+                        {app.isAppointedElsewhere && (
+                          <span
+                            style={{
+                              fontSize: "0.65rem",
+                              fontWeight: 600,
+                              padding: "2px 6px",
+                              borderRadius: "4px",
+                              background: "rgba(0, 229, 255, 0.1)",
+                              color: "var(--primary)",
+                            }}
+                          >
+                            Διορίστηκε στη Θέση #{app.appointedElsewhereCode}
+                          </span>
+                        )}
                       </div>
-                      <div
-                        style={{
-                          fontSize: "0.75rem",
-                          color: "var(--text-muted)",
-                          fontFamily: "var(--font-jetbrains-mono), monospace",
-                        }}
-                      >
-                        Α.Μ. {c.am}
+
+                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "2px" }}>
+                        Α.Μ. {app.am} • <strong>{app.prefNumber}η Επιλογή</strong> του υποψηφίου
                       </div>
                     </div>
                   </div>
+
                   <span
                     style={{
-                      color: "var(--primary)",
+                      color: app.isAppointedHere ? "var(--success)" : "var(--primary)",
                       fontFamily: "var(--font-jetbrains-mono), monospace",
-                      fontWeight: 600,
+                      fontWeight: 700,
+                      fontSize: "0.95rem",
+                      flexShrink: 0,
                     }}
                   >
-                    {formatVathmologia(c.vathmologia)}
+                    {formatVathmologia(app.vathmologia)}
                   </span>
                 </Link>
               ))}

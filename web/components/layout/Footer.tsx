@@ -70,6 +70,31 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Discrete Server Support Box */}
+        <div className="my-8 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-slate-900/90 to-[#070A13] border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="space-y-1 text-center sm:text-left">
+            <div className="text-xs font-bold text-white flex items-center justify-center sm:justify-start gap-1.5">
+              <span>☕ Υποστήριξη της Πλατφόρμας</span>
+            </div>
+            <p className="text-xs text-slate-400 max-w-xl leading-relaxed">
+              Η εφαρμογή αναβαθμίστηκε σε Vercel Pro για να αντέξει τις εκατοντάδες χιλιάδες αναζητήσεις των ημερών. 
+              Αν σας βοήθησε και θέλετε να συμβάλετε στα μηνιαία έξοδα του server:
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 flex-shrink-0">
+            {/* Βάλε εδώ το Ko-fi ή PayPal.me link σου */}
+            <a
+              href="https://ko-fi.com/fokion" // 👈 Ή το δικό σου Ko-fi / PayPal link
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#00E5FF]/10 hover:bg-[#00E5FF]/20 text-[#00E5FF] border border-[#00E5FF]/30 text-xs font-semibold transition-all no-underline shadow-sm"
+            >
+              <span>☕ Κεράστε έναν καφέ</span>
+            </a>
+          </div>
+        </div>
+
         {/* Bottom copyright line με High Contrast Links */}
         <div className="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-300 gap-4">
           <div className="flex items-center gap-2">

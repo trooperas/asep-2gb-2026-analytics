@@ -11,6 +11,8 @@ import {
   BookOpen,
   Share2,
 } from "lucide-react";
+import type { Metadata } from "next";
+
 
 interface Question {
   id: string;
@@ -36,8 +38,8 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{ category: string; id: string }>;
-}) {
-  const { id } = await params;
+}): Promise<Metadata> {
+  const { category, id } = await params; // 👈 Παίρνουμε και το category
   const questions = getAllQuestions();
   const q = questions.find((item) => item.id === id);
 
@@ -46,9 +48,14 @@ export async function generateMetadata({
   return {
     title: `${q.question.substring(0, 65)}... — Θέματα ΑΣΕΠ`,
     description: `Επίσημη ερώτηση και απάντηση ΑΣΕΠ: "${q.question}". Κατηγορία: ${q.category_title}.`,
+    // 👇 Προσθήκη Canonical Tag:
+    alternates: {
+      canonical: `/proetoimasia/${category}/${id}`,
+    },
     openGraph: {
       title: `${q.question} — Απάντηση ΑΣΕΠ`,
       description: `Ορθή απάντηση: ${q.options[q.correct_index]}`,
+      url: `https://asepanalytics.app/proetoimasia/${category}/${id}`,
     },
   };
 }

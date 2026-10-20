@@ -39,9 +39,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: pageTitle,
     description: pageDesc,
+    // 👇 1. Προσθήκη Canonical Tag (αυτόματο resolve μέσω metadataBase):
+    alternates: {
+      canonical: `/eidikotita/${slug}`,
+    },
     openGraph: {
       type: "website",
       locale: "el_GR",
+      // 👇 2. Διόρθωση του παλιού vercel.app domain:
       url: `https://asepanalytics.app/eidikotita/${slug}`,
       title: pageTitle,
       description: pageDesc,

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { Building2, ArrowRight } from "lucide-react";
 
 interface Result {
   am: string;
@@ -15,15 +16,25 @@ interface Result {
   specialties?: string[];
 }
 
+interface MatchedPosition {
+  kod_thesis: string;
+  foreas: string;
+  eidikotita: string;
+  perifereia?: string;
+  theseis?: number;
+}
+
 export default function SearchPage() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Result[]>([]);
+  const [matchedPositions, setMatchedPositions] = useState<MatchedPosition[]>([]);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
 
   useEffect(() => {
     if (query.length < 2) {
       setResults([]);
+      setMatchedPositions([]);
       setSearched(false);
       return;
     }
@@ -34,6 +45,7 @@ export default function SearchPage() {
         const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
         const data = await res.json();
         setResults(data.results || []);
+        setMatchedPositions(data.matchedPositions || []);
         setSearched(true);
       } catch (e) {
         console.error(e);
@@ -70,7 +82,7 @@ export default function SearchPage() {
               marginBottom: "2rem",
             }}
           >
-            ← Πίσω
+            ← Πίσω στην Αρχική
           </Link>
 
           <h1
@@ -91,7 +103,7 @@ export default function SearchPage() {
               fontSize: "1.1rem",
             }}
           >
-            Ψάξε με Α.Μ. αίτησης ή Επώνυμο.
+            Ψάξε με Α.Μ. αίτησης, Επώνυμο ή <strong>Κωδικό Θέσης</strong> (π.χ. 1523).
           </p>
 
           <div
@@ -106,7 +118,7 @@ export default function SearchPage() {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="π.χ. 18663 ή ΠΑΠΑΓΟΡΑ ή ΖΑΦΕΙΡΟΠΟΥΛΟΣ"
+              placeholder="π.χ. 1523 ή 18663 ή ΠΑΠΑΓΟΡΑ ή ΖΑΦΕΙΡΟΠΟΥΛΟΣ"
               style={{
                 width: "100%",
                 padding: "20px 24px",
@@ -132,7 +144,80 @@ export default function SearchPage() {
             </div>
           )}
 
-          {!loading && searched && results.length === 0 && (
+          {/* 1. ΕΜΦΑΝΙΣΗ ΘΕΣΕΩΝ ΑΝ ΒΡΕΘΗΚΑΝ ΚΩΔΙΚΟΙ ΘΕΣΗΣ */}
+          {!loading && matchedPositions.length > 0 && (
+            <div style={{ marginBottom: "2rem", display: "grid", gap: "0.75rem" }}>
+              <div
+                style={{
+                  fontSize: "0.75rem",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.1em",
+                  color: "var(--primary)",
+                  fontWeight: 600,
+                }}
+              >
+                Θέσεις Προκήρυξης με κωδικό "#{query}":
+              </div>
+
+              {matchedPositions.map((pos) => (
+                <Link
+                  key={pos.kod_thesis}
+                  href={`/thesi/${pos.kod_thesis}`}
+                  className="glass glass-hover"
+                  style={{
+                    padding: "1.25rem 1.5rem",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    textDecoration: "none",
+                    color: "var(--text)",
+                    borderRadius: "14px",
+                    border: "1px solid rgba(0, 229, 255, 0.3)",
+                    background: "rgba(0, 229, 255, 0.03)",
+                  }}
+                >
+                  <div style={{ flex: 1, minWidth: 0, paddingRight: "16px" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+                      <span
+                        style={{
+                          fontFamily: "var(--font-jetbrains-mono), monospace",
+                          fontWeight: 700,
+                          fontSize: "1.1rem",
+                          color: "var(--primary)",
+                        }}
+                      >
+                        Θέση #{pos.kod_thesis}
+                      </span>
+                      <span style={{ fontSize: "0.9rem", color: "#fff", fontWeight: 600 }}>
+                        • {pos.foreas}
+                      </span>
+                    </div>
+
+                    <div style={{ fontSize: "0.85rem", color: "var(--text-muted)" }}>
+                      {pos.eidikotita} {pos.perifereia ? `(${pos.perifereia})` : ""}
+                    </div>
+                  </div>
+
+                  <span
+                    style={{
+                      fontSize: "0.8rem",
+                      color: "var(--primary)",
+                      fontWeight: 600,
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "4px",
+                      flexShrink: 0,
+                    }}
+                  >
+                    Προβολή Θέσης →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {/* ΜΗΝΥΜΑ ΑΝ ΔΕΝ ΒΡΕΘΗΚΕ ΤΙΠΟΤΑ */}
+          {!loading && searched && results.length === 0 && matchedPositions.length === 0 && (
             <div
               className="glass"
               style={{
@@ -145,8 +230,24 @@ export default function SearchPage() {
             </div>
           )}
 
+          {/* 2. ΕΜΦΑΝΙΣΗ ΥΠΟΨΗΦΙΩΝ */}
           {!loading && results.length > 0 && (
             <div style={{ display: "grid", gap: "0.75rem" }}>
+              {matchedPositions.length > 0 && (
+                <div
+                  style={{
+                    fontSize: "0.75rem",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.1em",
+                    color: "var(--text-muted)",
+                    fontWeight: 600,
+                    marginTop: "0.5rem",
+                  }}
+                >
+                  Υποψήφιοι:
+                </div>
+              )}
+
               {results.map((r, i) => {
                 const cleanAm = String(r.am).replace(/\.0$/, "").trim();
 

@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 
-// In-memory cache for positions metadata
 let positionsCache: any[] | null = null;
 
 function getPositions(): any[] {
@@ -29,7 +28,6 @@ export async function GET(
   const targetKod = String(kod).replace(/\.0$/, "").trim();
 
   try {
-    // 1. Φόρτωση metadata θέσης από in-memory cache
     const positionsList = getPositions();
     const posMeta = positionsList.find(
       (p: any) => String(p.kod_thesis).replace(/\.0$/, "").trim() === targetKod
@@ -39,7 +37,6 @@ export async function GET(
       return NextResponse.json({ error: "Position not found" }, { status: 404 });
     }
 
-    // 2. Φόρτωση διορισθέντων από τα chunks
     const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
     if (!existsSync(chunkIndexPath)) {
       return NextResponse.json({ error: "Data index missing" }, { status: 500 });
@@ -50,8 +47,10 @@ export async function GET(
     );
     const chunksDir = join(process.cwd(), "public", "data", "chunks");
 
-    // Map με κλειδί το AM: ΑΠΟΚΛΕΙΣΜΟΣ ΔΙΠΛΟΤΥΠΩΝ & κράτημα μέγιστης βαθμολογίας
-    const uniqueCandidatesMap = new Map<string, any>();
+    // 1. Διορισθέντες στη θέση (Deduplicated ανά AM)
+    const uniqueAppointedMap = new Map<string, any>();
+    // 2. Όλοι όσοι δήλωσαν τη θέση στις προτιμήσεις τους (Applicants)
+    const uniqueApplicantsMap = new Map<string, any>();
 
     for (const [slug, chunks] of Object.entries(chunkIndex)) {
       for (const chunkName of chunks) {
@@ -61,29 +60,55 @@ export async function GET(
         const chunk = JSON.parse(readFileSync(chunkPath, "utf-8"));
         for (const r of chunk) {
           const thesi = String(r.thesi_diorismou || "").replace(/\.0$/, "").trim();
+          const cleanAm = String(r.am).replace(/\.0$/, "").trim();
+          const currentScore = parseFloat(r.vathmologia) || 0;
+          const protimiseisStr = String(r.protimiseis || "");
+
+          const candidateObj = {
+            am: cleanAm,
+            eponymo: r.eponymo,
+            onoma: r.onoma,
+            patronymo: r.patronymo,
+            vathmologia: currentScore,
+            aa: r.aa,
+            eidikotita: r.eidikotita,
+            slug,
+            kod_thesis: thesi,
+            cleanScore: currentScore,
+          };
+
+          // Έλεγχος διορισμού
           if (thesi === targetKod) {
-            const cleanAm = String(r.am).replace(/\.0$/, "").trim();
-            const currentScore = parseFloat(r.vathmologia) || 0;
-
-            const candidateObj = {
-              am: cleanAm,
-              eponymo: r.eponymo,
-              onoma: r.onoma,
-              vathmologia: currentScore,
-              aa: r.aa,
-              eidikotita: r.eidikotita,
-              slug,
-              kod_thesis: thesi,
-              cleanScore: currentScore,
-            };
-
-            if (!uniqueCandidatesMap.has(cleanAm)) {
-              uniqueCandidatesMap.set(cleanAm, candidateObj);
+            if (!uniqueAppointedMap.has(cleanAm)) {
+              uniqueAppointedMap.set(cleanAm, candidateObj);
             } else {
-              // Κράτα την εγγραφή με τη μεγαλύτερη βαθμολογία (με εντοπιότητα/προσόντα)
-              const existing = uniqueCandidatesMap.get(cleanAm);
+              const existing = uniqueAppointedMap.get(cleanAm);
               if (currentScore > existing.cleanScore) {
-                uniqueCandidatesMap.set(cleanAm, candidateObj);
+                uniqueAppointedMap.set(cleanAm, candidateObj);
+              }
+            }
+          }
+
+          // Έλεγχος αν δήλωσε τη θέση στις προτιμήσεις του
+          if (protimiseisStr && protimiseisStr.includes(targetKod)) {
+            const prefs = protimiseisStr.split(/[-,\s]+/).map((k) => k.replace(/\.0$/, "").trim());
+            const prefIndex = prefs.indexOf(targetKod);
+            if (prefIndex !== -1) {
+              const appObj = {
+                ...candidateObj,
+                prefNumber: prefIndex + 1,
+                isAppointedHere: thesi === targetKod,
+                isAppointedElsewhere: thesi && thesi !== targetKod,
+                appointedElsewhereCode: thesi && thesi !== targetKod ? thesi : null,
+              };
+
+              if (!uniqueApplicantsMap.has(cleanAm)) {
+                uniqueApplicantsMap.set(cleanAm, appObj);
+              } else {
+                const existing = uniqueApplicantsMap.get(cleanAm);
+                if (currentScore > existing.cleanScore) {
+                  uniqueApplicantsMap.set(cleanAm, appObj);
+                }
               }
             }
           }
@@ -91,27 +116,32 @@ export async function GET(
       }
     }
 
-    // Ταξινόμηση διορισμένων κατά φθίνουσα βαθμολογία
-    const uniqueCandidates = Array.from(uniqueCandidatesMap.values()).sort(
+    // Ταξινόμηση διορισμένων
+    const uniqueAppointed = Array.from(uniqueAppointedMap.values()).sort(
       (a, b) => b.cleanScore - a.cleanScore
     );
 
-    // Υπολογισμός στατιστικών συμβατών με το frontend
-    const scores = uniqueCandidates.map((c) => c.cleanScore).filter((s) => s > 0);
-    const total = uniqueCandidates.length;
+    // Ταξινόμηση όλων των διεκδικητών κατά φθίνουσα βαθμολογία
+    const uniqueApplicants = Array.from(uniqueApplicantsMap.values()).sort(
+      (a, b) => b.cleanScore - a.cleanScore
+    );
+
+    const scores = uniqueAppointed.map((c) => c.cleanScore).filter((s) => s > 0);
+    const total = uniqueAppointed.length;
     const min_vath = scores.length ? Math.min(...scores) : null;
     const max_vath = scores.length ? Math.max(...scores) : null;
     const avg_vath = scores.length
       ? scores.reduce((a, b) => a + b, 0) / scores.length
       : null;
 
-    // Επιστροφή στο ΑΚΡΙΒΕΣ interface ApiResponse που περιμένει το page.tsx:
     return NextResponse.json(
       {
-        position: posMeta, // 👈 Ακριβώς το όνομα που περιμένει το page.tsx
-        candidates: uniqueCandidates, // 👈 Deduplicated μοναδικοί υποψήφιοι
+        position: posMeta,
+        candidates: uniqueAppointed,
+        applicants: uniqueApplicants.slice(0, 80), // 👈 Όλοι όσοι δήλωσαν τη θέση (top 80)
+        totalApplicantsCount: uniqueApplicants.length,
         stats: {
-          total, // 👈 Ακριβώς το όνομα που περιμένει το page.tsx
+          total,
           min_vath,
           max_vath,
           avg_vath,

@@ -4,6 +4,7 @@ import { join } from "path";
 
 let searchIndexCache: any[] | null = null;
 let slugMapCache: Record<string, string> | null = null;
+let positionsListCache: any[] | null = null;
 
 function getSearchIndex(): any[] {
   if (!searchIndexCache) {
@@ -17,7 +18,18 @@ function getSearchIndex(): any[] {
   return searchIndexCache || [];
 }
 
-// Φόρτωση χάρτη: slug -> Επίσημο Ελληνικό Όνομα
+function getPositionsList(): any[] {
+  if (!positionsListCache) {
+    try {
+      const p = join(process.cwd(), "public", "data", "positions.json");
+      positionsListCache = JSON.parse(readFileSync(p, "utf-8"));
+    } catch {
+      positionsListCache = [];
+    }
+  }
+  return positionsListCache || [];
+}
+
 function getSlugMap(): Record<string, string> {
   if (!slugMapCache) {
     try {
@@ -38,7 +50,6 @@ function getSlugMap(): Record<string, string> {
 
 function cleanGreekTitle(slug: string, slugMap: Record<string, string>): string {
   if (slugMap[slug]) {
-    // Σύντομο και κομψό όνομα για το badge
     return slugMap[slug]
       .replace(/^ΠΕ\s+ΓΕΩΤΕΧΝΙΚΩΝ\s+ΕΙΔ\.\s+/i, "")
       .replace(/^ΠΕ\s+ΜΗΧΑΝΙΚΩΝ\s+ΕΙΔ\.\s+/i, "")
@@ -46,7 +57,6 @@ function cleanGreekTitle(slug: string, slugMap: Record<string, string>): string 
       .replace(/^ΠΕ\s+/i, "ΠΕ ");
   }
 
-  // Fallback καθαρισμός slug αν δεν υπάρχει στο index
   return slug
     .replace(/^pe-geotechnikon-eid-pe-/, "ΠΕ ")
     .replace(/^pe-michanikon-eid-pe-/, "ΠΕ ")
@@ -69,14 +79,14 @@ export async function GET(request: Request) {
   const q = searchParams.get("q");
 
   if (!q || q.trim().length < 2) {
-    return NextResponse.json({ results: [] });
+    return NextResponse.json({ results: [], matchedPositions: [] });
   }
 
   const queryNorm = normalize(q);
   const index = getSearchIndex();
   const slugMap = getSlugMap();
 
-  // 1. Εύρεση εγγραφών
+  // 1. Εύρεση Υποψηφίων
   const matches = index.filter((item) => {
     const amNorm = String(item.am || "").replace(/\.0$/, "").trim();
     const epNorm = normalize(item.eponymo || "");
@@ -91,7 +101,7 @@ export async function GET(request: Request) {
     );
   });
 
-  // 2. DEDUPLICATION ΑΝΑ Α.Μ. ΜΕ ΑΠΟΛΥΤΗ ΠΡΟΤΕΡΑΙΟΤΗΤΑ ΣΤΟΝ ΔΙΟΡΙΣΜΟ
+  // 2. Deduplication υποψηφίων ανά Α.Μ.
   const uniqueCandidatesMap = new Map<string, any>();
 
   for (const m of matches) {
@@ -112,16 +122,12 @@ export async function GET(request: Request) {
       });
     } else {
       const existing = uniqueCandidatesMap.get(cleanAm);
-
-      // Προσθήκη ειδικότητας χωρίς διπλότυπα
       if (!existing.specialties.includes(cleanSpecialtyName)) {
         existing.specialties.push(cleanSpecialtyName);
       }
-
-      // ΚΡΙΣΙΜΟ: Αν σε αυτή τη γραμμή ΕΧΕΙ ΘΕΣΗ ΔΙΟΡΙΣΜΟΥ, κατοχυρώνεται ως Διοριστέος!
       if (m.thesi_diorismou && !existing.thesi_diorismou) {
         existing.thesi_diorismou = m.thesi_diorismou;
-        existing.slug = m.slug; // Καθορίζουμε το slug της ειδικότητας όπου διορίστηκε
+        existing.slug = m.slug;
         existing.vathmologia = m.vathmologia;
       }
     }
@@ -129,8 +135,23 @@ export async function GET(request: Request) {
 
   const results = Array.from(uniqueCandidatesMap.values()).slice(0, 30);
 
+  // 3. Εύρεση Θέσεων αν η αναζήτηση περιέχει κωδικό θέσης (αριθμό)
+  const positionsList = getPositionsList();
+  const matchedPositions = positionsList
+    .filter((p: any) =>
+      String(p.kod_thesis || "").replace(/\.0$/, "").trim().startsWith(queryNorm)
+    )
+    .slice(0, 4)
+    .map((p: any) => ({
+      kod_thesis: String(p.kod_thesis).replace(/\.0$/, "").trim(),
+      foreas: p.foreas,
+      eidikotita: p.eidikotita,
+      perifereia: p.perifereia,
+      theseis: p.theseis,
+    }));
+
   return NextResponse.json(
-    { results },
+    { results, matchedPositions },
     {
       headers: {
         "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",

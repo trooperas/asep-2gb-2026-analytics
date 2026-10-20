@@ -692,13 +692,6 @@ export default function ProfilePage() {
           />
         )}
 
-        <div className="mt-8 p-4 rounded-xl bg-slate-900/40 border border-slate-800 text-center text-xs text-slate-400">
-          Βρήκατε χρήσιμη την ανάλυση της καρτέλας σας;{" "}
-          <a href="https://ko-fi.com/fokion" target="_blank" rel="noopener noreferrer nofollow" className="text-[#00E5FF] hover:underline font-semibold">
-            ☕ Συμβάλετε στα έξοδα του server στο Ko-fi →
-          </a>
-        </div>
-
         {/* 2. ΠΡΟΣΟΜΟΙΩΤΗΣ ΕΝΣΤΑΣΕΩΝ */}
         <div className="mb-12">
           <button
@@ -889,6 +882,19 @@ export default function ProfilePage() {
           Δες όλη την ειδικότητα ({candidate.eidikotita}) →
         </Link>
       </div>
+      <a
+        href="https://ko-fi.com/fokion"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        className="fixed bottom-5 right-5 z-50 flex items-center gap-2.5 px-4 py-2 rounded-2xl glass border border-cyan-500/30 hover:border-[#00E5FF] transition-all shadow-xl hover:scale-105 group"
+        style={{ background: "rgba(10, 15, 30, 0.9)", backdropFilter: "blur(12px)" }}
+      >
+        <span className="text-xl group-hover:rotate-12 transition-transform">☕</span>
+        <div className="text-left leading-tight">
+          <div className="text-[10px] text-slate-400">Σου φάνηκε χρήσιμο;</div>
+          <div className="text-xs font-bold text-[#00E5FF]">Κέρασε έναν καφέ</div>
+        </div>
+      </a>
     </main>
   );
 }

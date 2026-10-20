@@ -3,8 +3,10 @@ import Link from "next/link";
 import { ShieldCheck, Mail, EyeOff, Cookie } from "lucide-react";
 
 export const metadata = {
-  title: "Προσωπικά Δεδομένα & Απόρρητο — ΑΣΕΠ 2ΓΒ/2026 Hub",
-  description: "Πώς διαχειριζόμαστε τα δεδομένα και πώς μπορείτε να ζητήσετε απόκρυψη του ονόματός σας.",
+  title: "Πολιτική Απορρήτου",
+  alternates: {
+    canonical: "/privacy",
+  },
 };
 
 export default function PrivacyPage() {

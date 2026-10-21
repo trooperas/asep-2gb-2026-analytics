@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${baseUrl}`, lastModified: new Date(), changeFrequency: "daily", priority: 1.0 },
     { url: `${baseUrl}/proetoimasia`, lastModified: new Date(), changeFrequency: "daily", priority: 0.98 },
+    { url: `${baseUrl}/proetoimasia/ergasiakes-deksiotites`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
     { url: `${baseUrl}/xartis`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/kenes-theseis`, lastModified: new Date(), changeFrequency: "daily", priority: 0.95 },
     { url: `${baseUrl}/zitisi`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },

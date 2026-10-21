@@ -24,6 +24,7 @@ import {
   Layers,
   AlertCircle,
   FileCode,
+  Zap,
 } from "lucide-react";
 import {
   OFFICIAL_QUIZ_STATS,
@@ -43,6 +44,7 @@ export const metadata: Metadata = {
     "επαγωγικος συλλογισμος ασεπ",
     "χωρικη αντιληψη ασεπ test",
     "εργασιακη συμπεριφορα ασεπ 76 τριαδες",
+    "εργασιακες δεξιοτητες ασεπ",
     "προετοιμασια 3ος πανελληνιος γραπτος διαγωνισμος 2027",
     "θεματα γνωσεων ασεπ",
     "ερωτησεις ασεπ pdf",
@@ -152,7 +154,7 @@ export default function ProetoimasiaHubPage() {
       </div>
 
       {/* KPIs Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-12">
         <div className="glass p-5 rounded-2xl">
           <div className="text-[11px] uppercase tracking-wider text-slate-400 mb-1">
             Επισημες Ερωτησεις
@@ -197,7 +199,7 @@ export default function ProetoimasiaHubPage() {
       {/* ============================================================== */}
       {/* ΕΝΟΤΗΤΑ Β: ΔΟΚΙΜΑΣΙΑ ΔΕΞΙΟΤΗΤΩΝ (ΤΟ 50% ΠΟΥ ΚΡΙΝΕΙ ΤΟ ΑΠΟΤΕΛΕΣΜΑ) */}
       {/* ============================================================== */}
-      <div className="mb-14 space-y-6">
+      <div className="mb-16 space-y-6">
         <div className="border-b border-slate-800 pb-4">
           <div className="inline-flex items-center gap-2 text-xs font-mono font-bold text-pink-400 uppercase tracking-wider mb-1">
             <Brain className="w-4 h-4" />
@@ -208,7 +210,7 @@ export default function ProetoimasiaHubPage() {
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-3xl leading-relaxed">
             Σε αντίθεση με τις γνώσεις που αποστηθίζονται, οι δεξιότητες αξιολογούν τον τρόπο σκέψης. 
-            Στον 2ο διαγωνισμό (1Γ/2025) αποτέλεσαν το καθοριστικό φίλτρο επιτυχίας. Ακολουθούν οι επιβεβαιωμένοι και αναμενόμενοι τύποι θεμάτων:
+            Στον 2ο διαγωνισμό (1Γ/2025) αποτέλεσαν το καθοριστικό φίλτρο επιτυχίας. Ακολουθούν οι επιβεβαιωμένοι τύποι θεμάτων:
           </p>
         </div>
 
@@ -270,8 +272,8 @@ export default function ProetoimasiaHubPage() {
             </div>
           </div>
 
-          {/* 3. Εργασιακή Συμπεριφορά (OPQ32) */}
-          <div className="glass p-6 rounded-2xl border border-amber-500/20 space-y-3 flex flex-col justify-between">
+          {/* 3. Εργασιακή Συμπεριφορά (OPQ32) - ΜΕ ΑΜΕΣΟ LINK ΣΤΟ ΤΕΣΤ */}
+          <div className="glass p-6 rounded-2xl border border-amber-500/30 bg-gradient-to-b from-amber-500/5 to-transparent space-y-4 flex flex-col justify-between shadow-xl">
             <div className="space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
@@ -279,13 +281,23 @@ export default function ProetoimasiaHubPage() {
                 </span>
                 <Briefcase className="w-5 h-5 text-amber-400" />
               </div>
-              <h3 className="text-lg font-bold text-white">Εργασιακές Δηλώσεις (OPQ32)</h3>
+              <h3 className="text-lg font-bold text-white">Εργασιακές Δεξιότητες (OPQ32)</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Δοκιμασία 76 τριάδων δηλώσεων (τύπου Occupational Personality Questionnaire). Επιλέγονται υποχρεωτικά μία δήλωση που «ταιριάζει περισσότερο» και μία που «ταιριάζει λιγότερο».
+                Δοκιμασία τριάδων αναγκαστικής επιλογής (forced-choice). Επιλέγονται υποχρεωτικά μία δήλωση που «ταιριάζει περισσότερο» (+) και μία που «ταιριάζει λιγότερο» (-).
               </p>
             </div>
-            <div className="pt-3 border-t border-slate-800 text-[11px] text-slate-400">
-              💡 <em>Στόχος:</em> Συνεπής εικόνα συνεργασίας, προσαρμοστικότητας και ηγεσίας.
+
+            <div className="space-y-2 pt-3 border-t border-slate-800">
+              <Link
+                href="/proetoimasia/ergasiakes-deksiotites"
+                className="w-full py-2.5 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 transition-all shadow-md group no-underline"
+              >
+                <span>Έναρξη Τεστ (OPQ32)</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <div className="text-[10px] text-center text-slate-400">
+                ⚡ Express (12 Τριάδες) & Πλήρες (76 Τριάδες)
+              </div>
             </div>
           </div>
         </div>
@@ -302,20 +314,20 @@ export default function ProetoimasiaHubPage() {
       </div>
 
       {/* ============================================================== */}
-      {/* ΕΝΟΤΗΤΑ Α: ΟΙ 11 ΚΑΤΗΓΟΡΙΕΣ ΓΝΩΣΕΩΝ (ΤΟ ΜΗΤΡΩΟ) */}
+      {/* ΕΝΟΤΗΤΑ Α: ΟΙ 11 ΚΑΤΗΓΟΡΙΕΣ ΓΝΩΣΕΩΝ (SEO-FRIENDLY ΤΙΤΛΟΣ) */}
       {/* ============================================================== */}
-      <div className="space-y-4 mb-14">
-        <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+      <div className="space-y-4 mb-16">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
           <div>
             <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">
-              Μάθημα 1
+              Επίσημη Τράπεζα Θεμάτων
             </span>
-            <h2 className="text-xl sm:text-2xl font-bold font-display text-white">
-              Μητρώο Θεμάτων Γνώσεων ανά Ενότητα
+            <h2 className="text-xl sm:text-2xl font-bold font-display text-white mt-0.5">
+              11 Ενότητες Γνώσεων (1.988 Επίσημα Θέματα ΑΣΕΠ)
             </h2>
           </div>
-          <span className="text-xs font-mono text-slate-400 hidden sm:inline">
-            11 Ενότητες • 1.988 Θέματα
+          <span className="text-xs font-mono text-slate-400">
+            Πλήρης κάλυψη ύλης με απαντήσεις
           </span>
         </div>
 
@@ -374,7 +386,7 @@ export default function ProetoimasiaHubPage() {
       {/* ============================================================== */}
       {/* ΕΝΟΤΗΤΑ Γ: ΧΡΟΝΟΛΟΓΙΟ & ΕΠΙΣΗΜΕΣ ΕΞΕΛΙΞΕΙΣ 2027 */}
       {/* ============================================================== */}
-      <div className="mb-14 space-y-6">
+      <div className="mb-16 space-y-6">
         <div className="border-b border-slate-800 pb-3 flex items-center justify-between">
           <div>
             <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">

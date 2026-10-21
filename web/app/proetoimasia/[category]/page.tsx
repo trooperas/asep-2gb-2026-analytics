@@ -40,6 +40,8 @@ export default function CategoryQuizPage() {
   const params = useParams();
   const categorySlug = (params?.category as string) || "";
 
+  const [intelStats, setIntelStats] = useState<{ min_score: number }[]>([]);
+
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
   const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
@@ -110,6 +112,17 @@ export default function CategoryQuizPage() {
       if (saved) setBestStreak(parseInt(saved, 10));
     } catch {}
   }, [categorySlug]);
+
+  // 2. Το νέο useEffect για τις βάσεις (τοποθετείται ακριβώς από κάτω)
+  useEffect(() => {
+    fetch("/data/positions_intel.json")
+      .then((r) => r.json())
+      .then((data) => {
+        const list = Object.values(data) as { min_score: number }[];
+        setIntelStats(list);
+      })
+      .catch(() => {});
+  }, []);
 
   // Χρονόμετρο Τεστ
   useEffect(() => {
@@ -452,6 +465,42 @@ export default function CategoryQuizPage() {
               </strong>
             </p>
           </div>
+
+          {/* 👇 ΤΟ ΝΕΟ CUTOFF BRIDGE CARD 👇 */}
+          {answeredCount > 0 && intelStats.length > 0 && (() => {
+            const pct = Math.round((score / answeredCount) * 100);
+            // Υπολογισμός πόσες θέσεις του 2ΓΒ είχαν βάση <= του ποσοστού του χρήστη
+            const passedPositionsCount = intelStats.filter(
+              (p) => p.min_score > 0 && p.min_score <= pct
+            ).length;
+            const totalKnown = intelStats.filter((p) => p.min_score > 0).length;
+
+            return (
+              <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-cyan-950/40 via-slate-900 to-slate-950 border border-[#00E5FF]/40 text-left space-y-3 max-w-xl mx-auto shadow-xl">
+                <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase text-[#00E5FF] tracking-wider">
+                  <Trophy className="w-4 h-4" />
+                  Προσομοίωση Διορισμού (Βάσει 2ΓΒ/2026)
+                </div>
+                <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
+                  Αν αυτό ήταν το τελικό σας σκορ (<strong>{pct}.00 μόρια</strong>), στον 2ο διαγωνισμό θα είχατε ξεπεράσει τη βάση διορισμού σε{" "}
+                  <strong className="text-[#00E5FF] font-mono text-sm">{passedPositionsCount}</strong> από τις {totalKnown} προκηρυχθείσες θέσεις!
+                </p>
+                <div className="pt-2 flex items-center justify-between border-t border-slate-800">
+                  <span className="text-[11px] text-slate-400">
+                    Δείτε ποιες ειδικότητες καλύπτετε:
+                  </span>
+                  <Link
+                    href={`/stats`}
+                    target="_blank"
+                    className="text-xs font-bold text-[#00E5FF] hover:underline flex items-center gap-1"
+                  >
+                    Ανάλυση Βάσεων & Στατιστικών →
+                  </Link>
+                </div>
+              </div>
+            );
+          })()}
+
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">

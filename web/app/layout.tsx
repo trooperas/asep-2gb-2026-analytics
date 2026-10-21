@@ -9,18 +9,24 @@ const inter = Inter({
   subsets: ["latin", "greek"],
   variable: "--font-inter",
   display: "swap",
+  weight: ["400", "500", "700"],
+  preload: true,
 });
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-space-grotesk",
   display: "swap",
+  weight: ["400", "700"],
+  preload: true,
 });
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains-mono",
   display: "swap",
+  preload: true,
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {

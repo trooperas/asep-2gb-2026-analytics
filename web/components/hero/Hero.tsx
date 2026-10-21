@@ -1,7 +1,4 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { formatNumber } from "@/lib/utils";
 import {
@@ -10,88 +7,15 @@ import {
   MapPin,
   Briefcase,
   BookOpen,
-  ArrowRight,
   Sparkles,
-  Zap,
 } from "lucide-react";
+import AnimatedCounter from "./AnimatedCounter";
 
 interface Stats {
   total_candidates: number;
   total_dioristoi: number;
   total_eidikotites: number;
   pososto_epityxias: number;
-}
-
-function useCountUp(target: number, duration = 2000, delay = 0) {
-  const countState = useState(0);
-  const count = countState[0];
-  const setCount = countState[1];
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      let startTime: number | null = null;
-      const animate = (timestamp: number) => {
-        if (!startTime) startTime = timestamp;
-        const progress = Math.min((timestamp - startTime) / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        setCount(Math.floor(target * eased));
-        if (progress < 1) requestAnimationFrame(animate);
-      };
-      requestAnimationFrame(animate);
-    }, delay);
-    return () => clearTimeout(timeout);
-  }, [target, duration, delay]);
-
-  return count;
-}
-
-function StatCard({
-  label,
-  value,
-  suffix = "",
-  delay = 0,
-  accent = false,
-}: {
-  label: string;
-  value: number;
-  suffix?: string;
-  delay?: number;
-  accent?: boolean;
-}) {
-  const count = useCountUp(value, 2000, delay);
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: delay / 1000 }}
-      className="glass glass-hover"
-      style={{ padding: "1.15rem" }}
-    >
-      <div
-        style={{
-          fontSize: "0.7rem",
-          textTransform: "uppercase",
-          letterSpacing: "0.1em",
-          color: "var(--text-muted)",
-          marginBottom: "0.35rem",
-        }}
-      >
-        {label}
-      </div>
-      <div
-        className={accent ? "text-gradient" : ""}
-        style={{
-          fontSize: "clamp(1.75rem, 4vw, 2.35rem)",
-          fontWeight: 700,
-          lineHeight: 1,
-          color: accent ? undefined : "var(--primary)",
-        }}
-      >
-        {formatNumber(count)}
-        {suffix}
-      </div>
-    </motion.div>
-  );
 }
 
 export default function Hero({ stats }: { stats: Stats }) {
@@ -108,39 +32,34 @@ export default function Hero({ stats }: { stats: Stats }) {
         overflow: "hidden",
       }}
     >
-      {/* Background Ambient Glows */}
+      {/* Background Ambient Glows (Pure CSS, Instant Render) */}
       <div
-        className="animate-float"
         style={{
           position: "absolute",
           top: "10%",
           left: "5%",
           width: "350px",
           height: "350px",
-          background:
-            "radial-gradient(circle, rgba(0, 229, 255, 0.12), transparent 70%)",
+          background: "radial-gradient(circle, rgba(0, 229, 255, 0.12), transparent 70%)",
           filter: "blur(60px)",
           pointerEvents: "none",
         }}
       />
       <div
-        className="animate-float"
         style={{
           position: "absolute",
           bottom: "10%",
           right: "5%",
           width: "400px",
           height: "400px",
-          background:
-            "radial-gradient(circle, rgba(245, 158, 11, 0.08), transparent 70%)",
+          background: "radial-gradient(circle, rgba(245, 158, 11, 0.08), transparent 70%)",
           filter: "blur(80px)",
           pointerEvents: "none",
-          animationDelay: "2s",
         }}
       />
 
       <div style={{ maxWidth: "1200px", width: "100%", position: "relative" }}>
-        {/* Main Hero Header */}
+        {/* Main Hero Header - Pure HTML for Ultra-Fast LCP (<1.2s) */}
         <div className="text-center sm:text-left">
           <div
             style={{
@@ -160,8 +79,8 @@ export default function Hero({ stats }: { stats: Stats }) {
           </div>
 
           <h1
-            className="font-display"
             style={{
+              fontFamily: "var(--font-space-grotesk), system-ui, -apple-system, sans-serif",
               fontSize: "clamp(2.25rem, 6vw, 4.5rem)",
               fontWeight: 700,
               lineHeight: 1.08,
@@ -190,7 +109,7 @@ export default function Hero({ stats }: { stats: Stats }) {
           </p>
         </div>
 
-        {/* 2ΓΒ Stats Counters Grid */}
+        {/* 2ΓΒ Stats Counters Grid (Lightweight Island) */}
         <div
           style={{
             display: "grid",
@@ -199,48 +118,46 @@ export default function Hero({ stats }: { stats: Stats }) {
             marginBottom: "2.5rem",
           }}
         >
-          <StatCard
-            label="Υποψήφιοι 2ΓΒ"
-            value={stats.total_candidates}
-            delay={100}
-            accent
-          />
-          <StatCard
-            label="Διοριστέοι"
-            value={stats.total_dioristoi}
-            delay={200}
-          />
-          <StatCard
-            label="Ειδικότητες"
-            value={stats.total_eidikotites}
-            delay={300}
-          />
-          <StatCard
-            label="Ποσοστό Επιτυχίας"
-            value={Math.round(stats.pososto_epityxias)}
-            suffix="%"
-            delay={400}
-          />
+          <div className="glass p-4 rounded-xl">
+            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Υποψήφιοι 2ΓΒ</div>
+            <div className="text-2xl sm:text-3xl font-bold font-mono text-[#00E5FF]">
+              <AnimatedCounter target={stats.total_candidates} />
+            </div>
+          </div>
+
+          <div className="glass p-4 rounded-xl">
+            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Διοριστέοι</div>
+            <div className="text-2xl sm:text-3xl font-bold font-mono text-emerald-400">
+              <AnimatedCounter target={stats.total_dioristoi} />
+            </div>
+          </div>
+
+          <div className="glass p-4 rounded-xl">
+            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Ειδικότητες</div>
+            <div className="text-2xl sm:text-3xl font-bold font-mono text-white">
+              {stats.total_eidikotites}
+            </div>
+          </div>
+
+          <div className="glass p-4 rounded-xl">
+            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Ποσοστό Επιτυχίας</div>
+            <div className="text-2xl sm:text-3xl font-bold font-mono text-pink-400">
+              {Math.round(stats.pososto_epityxias)}%
+            </div>
+          </div>
         </div>
 
-        {/* ============================================================== */}
-        {/* DUAL-TRACK ARCHITECTURE: ΤΟ ΠΑΡΟΝ (ΚΥΑΝΟ) vs ΤΟ ΜΕΛΛΟΝ (GOLD) */}
-        {/* ============================================================== */}
+        {/* Dual-Track Navigation Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {/* 🔵 ΠΥΛΩΝΑΣ Α: ΤΟ ΠΑΡΟΝ (ΑΠΟΤΕΛΕΣΜΑΤΑ 2ΓΒ/2026) */}
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="glass p-5 sm:p-6 rounded-3xl border border-cyan-500/40 bg-gradient-to-b from-cyan-950/25 via-slate-900/60 to-transparent flex flex-col justify-between space-y-4 shadow-xl"
-          >
+          <div className="glass p-5 sm:p-6 rounded-3xl border border-cyan-500/40 bg-gradient-to-b from-cyan-950/25 via-slate-900/60 to-transparent flex flex-col justify-between space-y-4 shadow-xl">
             <div className="space-y-2.5">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] font-mono uppercase px-2.5 py-0.5 rounded-full bg-cyan-500/10 text-[#00E5FF] font-bold border border-cyan-500/30">
                   ● 2ΓΒ/2026 · ΑΠΟΤΕΛΕΣΜΑΤΑ
                 </span>
                 <span className="text-[11px] text-slate-400 font-mono">
-                  51.900 Αιτήσεις
+                  {formatNumber(stats.total_candidates)} Αιτήσεις
                 </span>
               </div>
 
@@ -248,7 +165,6 @@ export default function Hero({ stats }: { stats: Stats }) {
                 <h2 className="text-lg sm:text-xl font-bold text-white mb-1">
                   Αναζήτηση Αποτελεσμάτων & Βάσεων
                 </h2>
-                {/* 👈 Descriptive Micro-Copy: Ρητή αναφορά τι πληκτρολογεί ο χρήστης */}
                 <p className="text-xs text-slate-300 leading-relaxed">
                   Αναζητήστε με <strong>Α.Μ. αίτησης</strong>, <strong>Επώνυμο</strong> ή <strong>Κωδικό Θέσης (π.χ. 1523)</strong> για σειρά κατάταξης, διορισμό και βάσεις μορίων.
                 </p>
@@ -278,15 +194,10 @@ export default function Hero({ stats }: { stats: Stats }) {
                 <MapPin className="w-3.5 h-3.5" /> Διαδραστικός Χάρτης Κενών & Καλυμμένων Θέσεων →
               </Link>
             </div>
-          </motion.div>
+          </div>
 
           {/* 🟠 ΠΥΛΩΝΑΣ Β: ΤΟ ΜΕΛΛΟΝ (ΠΡΟΕΤΟΙΜΑΣΙΑ 3ΟΥ ΑΣΕΠ 2027) */}
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="glass p-5 sm:p-6 rounded-3xl border border-amber-500/40 bg-gradient-to-b from-amber-500/10 via-slate-900/60 to-transparent flex flex-col justify-between space-y-4 shadow-xl"
-          >
+          <div className="glass p-5 sm:p-6 rounded-3xl border border-amber-500/40 bg-gradient-to-b from-amber-500/10 via-slate-900/60 to-transparent flex flex-col justify-between space-y-4 shadow-xl">
             <div className="space-y-2.5">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] font-mono uppercase px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-300 font-bold border border-amber-500/30">
@@ -298,10 +209,9 @@ export default function Hero({ stats }: { stats: Stats }) {
               </div>
 
               <div>
-                <h2 className="text-lg sm:text-xl font-bold text-white mb-1 flex items-center gap-2">
+                <h2 className="text-lg sm:text-xl font-bold text-white mb-1">
                   1.988 Επίσημες Ερωτήσεις & Τεστ Δεξιοτήτων
                 </h2>
-                {/* 👈 Επίσημες Ερωτήσεις + OPQ32 */}
                 <p className="text-xs text-slate-300 leading-relaxed">
                   Δωρεάν εξάσκηση στην επίσημη τράπεζα θεμάτων γνώσεων και online προσομοίωση <strong>εργασιακών δεξιοτήτων (OPQ32 - 76 τριάδες)</strong>.
                 </p>
@@ -331,7 +241,7 @@ export default function Hero({ stats }: { stats: Stats }) {
                 <Sparkles className="w-3.5 h-3.5" /> Χρονολόγιο Εξελίξεων & Επίσημες Ανακοινώσεις 2027 →
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

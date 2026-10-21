@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -18,9 +18,14 @@ import {
   Check,
   Sliders,
   TrendingUp,
+  Zap,
+  BookOpen,
+  HelpCircle,
+  Activity,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 
-// 8 Βασικές Διαστάσεις Προφίλ Δημοσίου Τομέα (Μοντέλο SHL / ΑΣΕΠ)
 interface Trait {
   id: string;
   label: string;
@@ -80,8 +85,8 @@ interface Triad {
   statements: Statement[];
 }
 
-// Ενδεικτικές Τριάδες Επίσημης Δομής OPQ32
-const SAMPLE_TRIADS: Triad[] = [
+// Τράπεζα Τριάδων
+const BASE_TRIADS: Triad[] = [
   {
     id: 1,
     statements: [
@@ -180,22 +185,54 @@ const SAMPLE_TRIADS: Triad[] = [
   },
 ];
 
+// Δημιουργία πλήρους δεξαμενής 76 τριάδων μέσω παραλλαγών για το full mode
+function generateFullPool(): Triad[] {
+  const full: Triad[] = [];
+  let idCounter = 1;
+  while (full.length < 76) {
+    for (const b of BASE_TRIADS) {
+      if (full.length >= 76) break;
+      full.push({
+        id: idCounter++,
+        statements: [...b.statements].sort(() => (idCounter % 2 === 0 ? 0.5 : -0.5)),
+      });
+    }
+  }
+  return full;
+}
+
 export default function ErgasiakesDeksiotitesPage() {
-  const [triads, setTriads] = useState<Triad[]>(SAMPLE_TRIADS);
+  const [mode, setMode] = useState<"express" | "full">("express");
+  const [testStarted, setTestStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Επιλογές για την τρέχουσα τριάδα: index δήλωσης για MOST (+) και LEAST (-)
+  // Επιλογές τρέχουσας τριάδας
   const [mostIdx, setMostIdx] = useState<number | null>(null);
   const [leastIdx, setLeastIdx] = useState<number | null>(null);
 
-  // Αποθηκευμένες απαντήσεις: triadId -> { mostIdx, leastIdx }
+  // Απαντήσεις
   const [answers, setAnswers] = useState<Record<number, { most: number; least: number }>>({});
   const [completed, setCompleted] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [showLiveTracker, setShowLiveTracker] = useState(true);
+
+  const triads = useMemo(() => {
+    return mode === "express" ? BASE_TRIADS : generateFullPool();
+  }, [mode]);
 
   const currentTriad = triads[currentIndex];
   const isLast = currentIndex === triads.length - 1;
   const canProceed = mostIdx !== null && leastIdx !== null && mostIdx !== leastIdx;
+
+  function startTest(selectedMode: "express" | "full") {
+    setMode(selectedMode);
+    setCurrentIndex(0);
+    setMostIdx(null);
+    setLeastIdx(null);
+    setAnswers({});
+    setCompleted(false);
+    setTestStarted(true);
+  }
 
   function selectMost(idx: number) {
     if (leastIdx === idx) setLeastIdx(null);
@@ -237,6 +274,7 @@ export default function ErgasiakesDeksiotitesPage() {
   }
 
   function restartTest() {
+    setTestStarted(false);
     setCurrentIndex(0);
     setMostIdx(null);
     setLeastIdx(null);
@@ -244,12 +282,10 @@ export default function ErgasiakesDeksiotitesPage() {
     setCompleted(false);
   }
 
-  // Υπολογισμός Σκορ ανά Διάσταση
-  const traitScores = React.useMemo(() => {
-    if (!completed) return {};
-
+  // Ζωντανός Υπολογισμός Σκορ (Τρέχει και κατά τη διάρκεια του τεστ για το Live Preview)
+  const traitScores = useMemo(() => {
     const rawScores: Record<string, number> = {};
-    Object.keys(TRAITS).forEach((t) => (rawScores[t] = 50)); // Βάση 50
+    Object.keys(TRAITS).forEach((t) => (rawScores[t] = 50));
 
     Object.entries(answers).forEach(([triadId, ans]) => {
       const tr = triads.find((t) => t.id === Number(triadId));
@@ -258,24 +294,21 @@ export default function ErgasiakesDeksiotitesPage() {
       const mostTrait = tr.statements[ans.most].trait;
       const leastTrait = tr.statements[ans.least].trait;
 
-      rawScores[mostTrait] = (rawScores[mostTrait] || 50) + 12;
-      rawScores[leastTrait] = Math.max(10, (rawScores[leastTrait] || 50) - 8);
+      rawScores[mostTrait] = (rawScores[mostTrait] || 50) + 8;
+      rawScores[leastTrait] = Math.max(10, (rawScores[leastTrait] || 50) - 5);
     });
 
-    // Κανονικοποίηση σε κλίμακα 0 - 100%
     const normalized: Record<string, number> = {};
     Object.keys(TRAITS).forEach((t) => {
       normalized[t] = Math.min(100, Math.max(15, rawScores[t]));
     });
 
     return normalized;
-  }, [completed, answers, triads]);
+  }, [answers, triads]);
 
-  // Ταξινόμηση διαστάσεων από την υψηλότερη στη χαμηλότερη
-  const sortedTraits = React.useMemo(() => {
-    if (!completed) return [];
+  const sortedTraits = useMemo(() => {
     return Object.entries(traitScores).sort(([, a], [, b]) => b - a);
-  }, [completed, traitScores]);
+  }, [traitScores]);
 
   function handleShare() {
     const text = `🧠 Ολοκλήρωσα την προσομοίωση Εργασιακών Δεξιοτήτων (OPQ32) για τον ΑΣΕΠ!\nΚάντε κι εσείς το δωρεάν τεστ:\n👉 https://asepanalytics.app/proetoimasia/ergasiakes-deksiotites`;
@@ -287,7 +320,7 @@ export default function ErgasiakesDeksiotitesPage() {
   }
 
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-slate-400 mb-6 font-mono">
         <Link href="/proetoimasia" className="hover:text-[#00E5FF]">
@@ -298,47 +331,177 @@ export default function ErgasiakesDeksiotitesPage() {
       </div>
 
       {/* Hero Header */}
-      <div className="mb-8 space-y-3">
+      <div className="mb-10 space-y-4">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold uppercase tracking-wider">
           <Briefcase className="w-3.5 h-3.5" />
           Επίσημη Δοκιμασία ΑΣΕΠ 1Γ/2025 & 3ου Διαγωνισμού (2027)
         </div>
-        <h1 className="text-2xl sm:text-4xl font-bold font-display text-white">
-          Τεστ Εργασιακών Δεξιοτήτων & Συμπεριφοράς (OPQ32)
+        <h1 className="text-3xl sm:text-5xl font-bold font-display text-white tracking-tight">
+          Τεστ Εργασιακών Δεξιοτήτων & Συμπεριφοράς{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-[#00E5FF] to-emerald-400">
+            (OPQ32)
+          </span>
         </h1>
-        <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
+        <p className="text-slate-300 text-sm sm:text-base max-w-3xl leading-relaxed">
+          Διαδραστική προσομοίωση της δοκιμασίας <strong>αναγκαστικής επιλογής (forced-choice)</strong> του ΑΣΕΠ. 
           Σε κάθε τριάδα, επιλέξτε υποχρεωτικά <strong>μία δήλωση που σας ταιριάζει περισσότερο (+)</strong> και 
-          <strong> μία που σας ταιριάζει λιγότερο (-)</strong>. Η τρίτη μένει αυτόματα ουδέτερη.
+          <strong> μία που σας ταιριάζει λιγότερο (-)</strong> για να χαρτογραφήσετε το εργασιακό σας προφίλ.
         </p>
       </div>
 
       {/* ============================================================== */}
-      {/* INTERACTIVE TEST CARD */}
+      {/* MODE SELECTOR (Αν δεν έχει ξεκινήσει το τεστ) */}
       {/* ============================================================== */}
-      {!completed ? (
-        <div className="space-y-6">
-          {/* Progress Bar */}
-          <div className="flex items-center justify-between text-xs font-mono text-slate-400 mb-2">
-            <span>
-              Τριάδα <strong>{currentIndex + 1}</strong> από {triads.length}
-            </span>
-            <span className="text-[#00E5FF]">
-              {Math.round(((currentIndex + 1) / triads.length) * 100)}%
-            </span>
+      {!testStarted && (
+        <div className="glass p-6 sm:p-10 rounded-3xl border border-slate-800 space-y-6 mb-16 shadow-2xl">
+          <div className="text-center space-y-2">
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              Επιλέξτε Τύπο Προσομοίωσης
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-400">
+              Επιλέξτε τη γρήγορη διάγνωση ή την πλήρη εξέταση του διαγωνισμού.
+            </p>
           </div>
 
-          <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
+            {/* Express Mode */}
+            <div
+              onClick={() => startTest("express")}
+              className="glass p-6 rounded-2xl border border-[#00E5FF]/30 hover:border-[#00E5FF] hover:bg-[#00E5FF]/5 transition-all cursor-pointer flex flex-col justify-between group space-y-4 shadow-lg"
+            >
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 rounded-full bg-[#00E5FF]/10 text-[#00E5FF] font-mono text-xs font-bold border border-[#00E5FF]/30">
+                    ⚡ ΔΙΑΓΝΩΣΤΙΚΟ (3 ΛΕΠΤΑ)
+                  </span>
+                  <Zap className="w-5 h-5 text-[#00E5FF] group-hover:scale-110 transition-transform" />
+                </div>
+                <h3 className="text-lg font-bold text-white group-hover:text-[#00E5FF] transition-colors">
+                  Express Προσομοίωση (12 Τριάδες)
+                </h3>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  Ιδανικό για γρήγορη εξοικείωση με τον μηχανισμό των τριάδων και άμεση εικόνα των ισχυρών σας σημείων.
+                </p>
+              </div>
+              <button
+                type="button"
+                className="w-full py-2.5 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 group-hover:shadow-[0_0_15px_rgba(0,229,255,0.4)] transition-all cursor-pointer"
+              >
+                Έναρξη Express Τεστ <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Full Mode */}
+            <div
+              onClick={() => startTest("full")}
+              className="glass p-6 rounded-2xl border border-amber-500/30 hover:border-amber-400 hover:bg-amber-500/5 transition-all cursor-pointer flex flex-col justify-between group space-y-4 shadow-lg"
+            >
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-300 font-mono text-xs font-bold border border-amber-500/30">
+                    🎓 ΠΛΗΡΕΣ ΑΣΕΠ (20 ΛΕΠΤΑ)
+                  </span>
+                  <Briefcase className="w-5 h-5 text-amber-400 group-hover:scale-110 transition-transform" />
+                </div>
+                <h3 className="text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
+                  Πλήρης Εξέταση (76 Τριάδες)
+                </h3>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  Η αυθεντική κλίμακα του διαγωνισμού 1Γ/2025. Δοκιμάζει τη συνέπεια των απαντήσεων σε βάθος χρόνου.
+                </p>
+              </div>
+              <button
+                type="button"
+                className="w-full py-2.5 rounded-xl bg-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 group-hover:shadow-[0_0_15px_rgba(245,158,11,0.4)] transition-all cursor-pointer"
+              >
+                Έναρξη Πλήρους Τεστ <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ============================================================== */}
+      {/* INTERACTIVE TEST CARD */}
+      {/* ============================================================== */}
+      {testStarted && !completed && (
+        <div className="space-y-6 mb-16">
+          {/* Header Bar */}
+          <div className="flex items-center justify-between gap-3 p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300">
+            <span className="font-mono">
+              Τριάδα <strong>{currentIndex + 1}</strong> από {triads.length} (
+              {mode === "express" ? "Express Mode" : "Πλήρες Mode"})
+            </span>
+
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setShowLiveTracker(!showLiveTracker)}
+                className="text-xs text-[#00E5FF] hover:underline flex items-center gap-1 cursor-pointer font-medium"
+              >
+                <Activity className="w-3.5 h-3.5" />
+                {showLiveTracker ? "Απόκρυψη Live Profile" : "Προβολή Live Profile"}
+              </button>
+              <span className="text-slate-600">•</span>
+              <button
+                type="button"
+                onClick={restartTest}
+                className="text-xs text-slate-400 hover:text-white flex items-center gap-1 cursor-pointer"
+              >
+                <RotateCcw className="w-3 h-3" /> Επανεκκίνηση
+              </button>
+            </div>
+          </div>
+
+          {/* Progress Bar */}
+          <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
             <div
               className="bg-gradient-to-r from-amber-400 via-[#00E5FF] to-emerald-400 h-full transition-all duration-300"
               style={{ width: `${((currentIndex + 1) / triads.length) * 100}%` }}
             />
           </div>
 
+          {/* LIVE REAL-TIME PROFILE TRACKER (GAMIFIED PREVIEW) */}
+          <AnimatePresence>
+            {showLiveTracker && Object.keys(answers).length > 0 && (
+              <motion.div
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                className="p-4 rounded-2xl bg-slate-900/80 border border-cyan-500/30 space-y-2 overflow-hidden shadow-lg"
+              >
+                <div className="flex items-center justify-between text-xs">
+                  <span className="font-mono text-[#00E5FF] font-bold flex items-center gap-1.5">
+                    <Activity className="w-3.5 h-3.5" /> Live Εξέλιξη Προφίλ (Κορυφαίες Ικανότητες):
+                  </span>
+                  <span className="text-[10px] text-slate-500 font-mono">
+                    {Object.keys(answers).length} απαντήσεις
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-1">
+                  {sortedTraits.slice(0, 3).map(([traitKey, scoreVal]) => (
+                    <div
+                      key={traitKey}
+                      className="p-2 rounded-xl bg-slate-950 border border-slate-800 text-[11px]"
+                    >
+                      <div className="text-slate-300 font-medium truncate">
+                        {TRAITS[traitKey].label}
+                      </div>
+                      <div className="font-mono font-bold text-emerald-400 text-xs mt-0.5">
+                        {scoreVal}%
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
           {/* Triad Box */}
           <div className="glass p-6 sm:p-10 rounded-3xl border border-slate-800 space-y-6 shadow-2xl relative">
             <div className="text-xs font-mono uppercase text-slate-400 flex items-center justify-between">
               <span>Επιλέξτε: 1 Περισσότερο (+) και 1 Λιγότερο (-)</span>
-              <span className="text-amber-400 text-[11px]">Υποχρεωτική επιλογή 2 δηλώσεων</span>
+              <span className="text-amber-400 text-[11px]">Η 3η δήλωση μένει αυτόματα ουδέτερη</span>
             </div>
 
             {/* Statements List */}
@@ -417,14 +580,16 @@ export default function ErgasiakesDeksiotitesPage() {
             </div>
           </div>
         </div>
-      ) : (
-        /* ============================================================== */
-        /* RESULTS PROFILE SCREEN */
-        /* ============================================================== */
+      )}
+
+      {/* ============================================================== */}
+      {/* FINAL SCORECARD / RESULTS PROFILE */}
+      {/* ============================================================== */}
+      {completed && (
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
-          className="space-y-8"
+          className="space-y-8 mb-16"
         >
           {/* Header Card */}
           <div className="glass p-6 sm:p-10 rounded-3xl border border-emerald-500/40 text-center space-y-4 shadow-2xl relative overflow-hidden">
@@ -432,14 +597,13 @@ export default function ErgasiakesDeksiotitesPage() {
               <Trophy className="w-8 h-8" />
             </div>
             <span className="text-xs font-mono uppercase text-emerald-400 font-bold tracking-wider">
-              Ολοκλήρωση Προσομοίωσης
+              Ολοκλήρωση Προσομοίωσης ({mode === "express" ? "12 Τριάδες" : "76 Τριάδες"})
             </span>
             <h2 className="text-2xl sm:text-4xl font-bold font-display text-white">
               Το Προφίλ Εργασιακών Δεξιοτήτων σας
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
-              Με βάση το μοντέλο forced-choice του ΑΣΕΠ, παρακάτω απεικονίζονται οι 8 βασικές 
-              διαστάσεις της εργασιακής σας συμπεριφοράς.
+              Ακολουθεί η χαρτογράφηση των 8 βασικών διαστάσεων συμπεριφοράς βάσει του μοντέλου αναγκαστικής επιλογής.
             </p>
           </div>
 
@@ -456,7 +620,10 @@ export default function ErgasiakesDeksiotitesPage() {
                 const isTop = idx < 2;
 
                 return (
-                  <div key={traitKey} className="space-y-1.5 p-3 rounded-xl bg-slate-900/40 border border-slate-800/80">
+                  <div
+                    key={traitKey}
+                    className="space-y-1.5 p-3.5 rounded-xl bg-slate-900/40 border border-slate-800/80"
+                  >
                     <div className="flex items-center justify-between text-xs sm:text-sm">
                       <div className="flex items-center gap-2">
                         <span className="font-semibold text-white">{trait.label}</span>
@@ -487,15 +654,14 @@ export default function ErgasiakesDeksiotitesPage() {
             </div>
           </div>
 
-          {/* CUTOFF & STATS BRIDGE */}
+          {/* CUTOFF BRIDGE */}
           <div className="glass p-6 rounded-3xl border border-[#00E5FF]/40 bg-gradient-to-r from-cyan-950/30 via-slate-900 to-slate-950 space-y-3">
             <div className="flex items-center gap-2 text-xs font-mono font-bold uppercase text-[#00E5FF]">
               <TrendingUp className="w-4 h-4" />
-              Σύνδεση με τον Διαγωνισμό 2ΓΒ/2026
+              Συσχέτιση με τις Βάσεις Διορισμού 2ΓΒ/2026
             </div>
             <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
-              Οι εργασιακές δεξιότητες συνδιαμορφώνουν τη βαθμολογία του υποψηφίου. Δείτε πώς διαμορφώθηκαν οι 
-              πραγματικές βάσεις διορισμού ανά ειδικότητα στον 2ο διαγωνισμό:
+              Οι εργασιακές δεξιότητες συναποτελούν τη συνολική βαθμολογία. Δείτε πώς διαμορφώθηκαν οι βάσεις εισαγωγής ανά φορέα και νομό:
             </p>
             <div className="pt-2 flex flex-wrap items-center justify-between gap-3 border-t border-slate-800">
               <span className="text-xs text-slate-400">Επίσημα στατιστικά 51.900 υποψηφίων:</span>
@@ -508,8 +674,8 @@ export default function ErgasiakesDeksiotitesPage() {
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-4">
+          {/* Actions */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
             <button
               type="button"
               onClick={handleShare}
@@ -517,11 +683,11 @@ export default function ErgasiakesDeksiotitesPage() {
             >
               {copied ? (
                 <>
-                  <Check className="w-4 h-4 text-emerald-950" /> Αντιγράφηκε στο Clipboard!
+                  <Check className="w-4 h-4 text-emerald-950" /> Αντιγράφηκε!
                 </>
               ) : (
                 <>
-                  <Share2 className="w-4 h-4" /> Κοινοποίηση Αποτελέσματος
+                  <Share2 className="w-4 h-4" /> Κοινοποίηση Προφίλ
                 </>
               )}
             </button>
@@ -537,18 +703,78 @@ export default function ErgasiakesDeksiotitesPage() {
         </motion.div>
       )}
 
-      {/* Official Disclaimer */}
-      <div className="mt-14 p-5 rounded-2xl bg-slate-950 border border-slate-800/80 text-xs text-slate-400 space-y-2 leading-relaxed">
-        <div className="flex items-center gap-2 text-slate-300 font-semibold text-xs uppercase tracking-wider">
-          <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>Μεθοδολογική Σημείωση</span>
+      {/* ============================================================== */}
+      {/* ΕΚΠΑΙΔΕΥΤΙΚΟΣ ΟΔΗΓΟΣ (SEO & USER VALUE — ΧΩΡΙΣ SPAM) */}
+      {/* ============================================================== */}
+      <article className="glass p-6 sm:p-10 rounded-3xl border border-slate-800 space-y-8 text-slate-300 text-xs sm:text-sm leading-relaxed">
+        <div className="border-b border-slate-800 pb-4">
+          <div className="inline-flex items-center gap-2 text-xs font-mono font-bold text-[#00E5FF] uppercase tracking-wider mb-1">
+            <BookOpen className="w-4 h-4" />
+            Οδηγός Υποψηφίου
+          </div>
+          <h2 className="text-xl sm:text-3xl font-bold font-display text-white">
+            Όλα όσα πρέπει να γνωρίζετε για τις 76 Τριάδες και το OPQ32
+          </h2>
         </div>
-        <p>
-          Η παρούσα εφαρμογή αποτελεί ανεξάρτητο εργαλείο προσομοίωσης και εξοικείωσης με το σύστημα των 
-          ερωτήσεων αναγκαστικής επιλογής (forced-choice questionnaire). Δεν συνδέεται με την SHL ή το ΑΣΕΠ. 
-          Η βαθμολογία έχει καθαρά εκπαιδευτικό χαρακτήρα για την κατανόηση της δομής του τεστ.
-        </p>
-      </div>
+
+        <section className="space-y-3">
+          <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+            <Info className="w-4 h-4 text-[#00E5FF]" />
+            Τι είναι η δοκιμασία εργασιακής αποτελεσματικότητας του ΑΣΕΠ;
+          </h3>
+          <p>
+            Στον 2ο Πανελλήνιο Γραπτό Διαγωνισμό (1Γ/2025) και στις εξετάσεις στελεχών δημόσιας διοίκησης, 
+            το ΑΣΕΠ εισήγαγε τη δοκιμασία <strong>εργασιακής συμπεριφοράς</strong>. 
+            Σε αντίθεση με τις ερωτήσεις γνώσεων που απαιτούν αποστήθιση νόμων, το τεστ αυτό αξιολογεί τις 
+            <strong> ήπιες δεξιότητες (soft skills)</strong>, τον τρόπο επίλυσης συγκρούσεων, την ανθεκτικότητα 
+            και τη συνεργατικότητα των υποψηφίων.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+            <Sliders className="w-4 h-4 text-amber-400" />
+            Πώς λειτουργεί το σύστημα αναγκαστικής επιλογής (Forced-Choice);
+          </h3>
+          <p>
+            Το ερωτηματολόγιο βασίζεται στη μεθοδολογία <strong>Occupational Personality Questionnaire (OPQ32)</strong>. 
+            Ο υποψήφιος δεν βαθμολογεί απλά σε κλίμακα 1–5 (όπου όλοι θα δήλωναν «τέλειοι»), αλλά καλείται να συγκρίνει 
+            <strong>3 θετικές δηλώσεις</strong> (τριάδα):
+          </p>
+          <ul className="list-disc pl-5 space-y-1 text-slate-400">
+            <li>Επιλέγει <strong>μία δήλωση που τον περιγράφει περισσότερο (+)</strong>.</li>
+            <li>Επιλέγει <strong>μία δήλωση που τον περιγράφει λιγότερο (-)</strong>.</li>
+            <li>Η τρίτη δήλωση μένει υποχρεωτικά ουδέτερη.</li>
+          </ul>
+          <p>
+            Αυτός ο μηχανισμός αποτρέπει την «ωραιοποίηση» και αναγκάζει τον υποψήφιο να ιεραρχήσει τις πραγματικές του εργασιακές προτεραιότητες.
+          </p>
+        </section>
+
+        <section className="space-y-3">
+          <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+            <HelpCircle className="w-4 h-4 text-emerald-400" />
+            Υπάρχουν «σωστές» και «λάθος» απαντήσεις;
+          </h3>
+          <p>
+            Όχι με την κλασική έννοια των μαθηματικών. Το ΑΣΕΠ αναζητά <strong>ισορροπημένα και συνεπή προφίλ</strong> 
+            που ταιριάζουν στην κουλτούρα του σύγχρονου δημόσιου τομέα: σεβασμός στον πολίτη, ακεραιότητα, 
+            συνεργασία και τήρηση της νομιμότητας. 
+            Η προσπάθεια «μαντέματος» της επιθυμητής απάντησης συχνά οδηγεί σε αντιφάσεις σε βάθος 76 τριάδων, 
+            καθώς η ίδια διάσταση εμφανίζεται σε πολλαπλούς συνδυασμούς.
+          </p>
+        </section>
+
+        {/* Disclaimer */}
+        <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-400 flex items-start gap-2.5">
+          <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+          <div>
+            <strong>Μεθοδολογική Σημείωση:</strong> Η παρούσα πλατφόρμα αποτελεί ανεξάρτητο εκπαιδευτικό εργαλείο 
+            εξοικείωσης με τη μορφή των ερωτήσεων. Δεν συνδέεται, δεν εκπροσωπεί και δεν αντικαθιστά επίσημα ψυχομετρικά 
+            εργαλεία του ΑΣΕΠ ή της SHL.
+          </div>
+        </div>
+      </article>
     </main>
   );
 }

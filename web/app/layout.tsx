@@ -26,11 +26,12 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://asepanalytics.app"),
   title: {
-    default: "ΑΣΕΠ 2ΓΒ/2026 Hub — Αποτελέσματα, Χάρτης & Βάσεις",
-    template: "%s | ΑΣΕΠ 2ΓΒ/2026 Hub",
+    // 👇 Ουδέτερο default title & template που ταιριάζει και σε 2ΓΒ και σε 2027:
+    default: "ΑΣΕΠ Analytics Hub — Αποτελέσματα 2ΓΒ & Προετοιμασία 2027",
+    template: "%s | ΑΣΕΠ Analytics Hub",
   },
   description:
-    "Πλατφόρμα ανάλυσης αποτελεσμάτων ΑΣΕΠ 2ΓΒ/2026. Αναζήτηση 51.900+ υποψηφίων, βάσεις 52 ειδικοτήτων, διαδραστικός χάρτης θέσεων & AI βοηθός.",
+    "ΑΣΕΠ Analytics Hub: Πλήρης ανάλυση αποτελεσμάτων 2ΓΒ/2026 (βάσεις, χάρτης) και προετοιμασία 2027 με 1.988 επίσημες ερωτήσεις & τεστ δεξιοτήτων (OPQ32).",
   // 👈 ΑΦΑΙΡΕΘΗΚΕ ΤΟ CANONICAL ΑΠΟ ΕΔΩ ΓΙΑ ΝΑ ΜΗΝ ΤΟ ΚΛΗΡΟΝΟΜΟΥΝ ΟΙ ΥΠΟΣΕΛΙΔΕΣ!
   keywords: [
     "ΑΣΕΠ",

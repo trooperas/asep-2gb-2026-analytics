@@ -117,6 +117,10 @@ export default function RootLayout({
       suppressHydrationWarning
       data-scroll-behavior="smooth"
     >
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className="antialiased">
         {/* Idiomatic App Router placement: το script μπαίνει στο body (απόλυτα έγκυρο για τη Google) */}
         <script

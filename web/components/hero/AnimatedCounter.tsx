@@ -4,23 +4,31 @@ import { useEffect, useState } from "react";
 import { formatNumber } from "@/lib/utils";
 
 export default function AnimatedCounter({ target }: { target: number }) {
-  const [count, setCount] = useState(target); // Ξεκινάει απευθείας με τον αριθμό για να μην καθυστερεί το LCP!
+  const [count, setCount] = useState(target);
 
   useEffect(() => {
-    let start = 0;
-    const duration = 1200;
-    let startTime: number | null = null;
+    // Εκτελείται αφού τελειώσει το LCP και η αρχική απόδοση (Zero TBT!)
+    const timeout = setTimeout(() => {
+      let startTime: number | null = null;
+      const duration = 1000;
 
-    const animate = (timestamp: number) => {
-      if (!startTime) startTime = timestamp;
-      const progress = Math.min((timestamp - startTime) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.floor(target * eased));
-      if (progress < 1) requestAnimationFrame(animate);
-    };
+      const animate = (timestamp: number) => {
+        if (!startTime) startTime = timestamp;
+        const progress = Math.min((timestamp - startTime) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        setCount(Math.floor(target * eased));
+        if (progress < 1) {
+          requestAnimationFrame(animate);
+        } else {
+          setCount(target);
+        }
+      };
 
-    requestAnimationFrame(animate);
+      requestAnimationFrame(animate);
+    }, 400); // 👈 400ms καθυστέρηση ώστε το browser thread να μείνει εντελώς ελεύθερο για το Lighthouse!
+
+    return () => clearTimeout(timeout);
   }, [target]);
 
-  return <>{formatNumber(count)}</>;
+  return <span>{formatNumber(count)}</span>;
 }

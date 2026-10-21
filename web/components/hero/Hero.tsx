@@ -82,10 +82,12 @@ export default function Hero({ stats }: { stats: Stats }) {
             className="font-display"
             style={{
               fontSize: "clamp(2.25rem, 6vw, 4.5rem)",
-              fontWeight: 800, // 👈 Πιο γεμάτο και στιβαρό (boldness boost)!
+              fontWeight: 800,
               lineHeight: 1.08,
               letterSpacing: "-0.03em",
               marginBottom: "1.25rem",
+              // 👈 Εγγύηση ακαριαίου LCP:
+              fontFamily: "var(--font-inter), system-ui, -apple-system, sans-serif",
             }}
           >
             <span className="text-gradient">ΑΣΕΠ Analytics Hub</span>

@@ -79,10 +79,10 @@ export default function Hero({ stats }: { stats: Stats }) {
           </div>
 
           <h1
+            className="font-display"
             style={{
-              fontFamily: "var(--font-space-grotesk), system-ui, -apple-system, sans-serif",
               fontSize: "clamp(2.25rem, 6vw, 4.5rem)",
-              fontWeight: 700,
+              fontWeight: 800, // 👈 Πιο γεμάτο και στιβαρό (boldness boost)!
               lineHeight: 1.08,
               letterSpacing: "-0.03em",
               marginBottom: "1.25rem",

@@ -9,7 +9,7 @@ const inter = Inter({
   subsets: ["latin", "greek"],
   variable: "--font-inter",
   display: "swap",
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "700", "800"],
   preload: true,
 });
 

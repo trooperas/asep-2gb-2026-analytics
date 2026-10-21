@@ -141,12 +141,7 @@ export default function Hero({ stats }: { stats: Stats }) {
 
       <div style={{ maxWidth: "1200px", width: "100%", position: "relative" }}>
         {/* Main Hero Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 25 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="text-center sm:text-left"
-        >
+        <div className="text-center sm:text-left">
           <div
             style={{
               display: "inline-block",
@@ -193,7 +188,7 @@ export default function Hero({ stats }: { stats: Stats }) {
             Πλήρης ανάλυση αποτελεσμάτων του <strong>2ΓΒ/2026</strong> και σύγχρονος ανοιχτός κόμβος 
             προετοιμασίας για τον <strong>3ο διαγωνισμό (2027)</strong> με 1.988 επίσημες ερωτήσεις και τεστ δεξιοτήτων (OPQ32).
           </p>
-        </motion.div>
+        </div>
 
         {/* 2ΓΒ Stats Counters Grid */}
         <div

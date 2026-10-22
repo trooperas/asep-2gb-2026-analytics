@@ -90,19 +90,20 @@ function CustomTooltip({ active, payload }: any) {
   return (
     <div
       style={{
-        background: "rgba(10, 14, 26, 0.95)",
-        border: "1px solid var(--border)",
+        background: "rgba(10, 14, 26, 0.98)",
+        border: "1px solid rgba(0, 229, 255, 0.3)",
         borderRadius: "8px",
-        padding: "12px 16px",
-        fontSize: "0.85rem",
-        maxWidth: "280px",
-        boxShadow: "0 8px 24px rgba(0,0,0,0.5)",
+        padding: "10px 12px",
+        fontSize: "0.8rem",
+        maxWidth: "220px",
+        boxShadow: "0 8px 24px rgba(0,0,0,0.7)",
+        wordBreak: "break-word",
       }}
     >
-      <div style={{ color: "var(--text)", marginBottom: "6px", fontWeight: 600 }}>
+      <div style={{ color: "var(--text)", marginBottom: "4px", fontWeight: 600, lineHeight: 1.3 }}>
         {data.full || data.name}
       </div>
-      <div style={{ color: "var(--primary)", fontWeight: 700 }}>
+      <div style={{ color: "var(--primary)", fontWeight: 700, fontSize: "0.85rem" }}>
         {formatNumber(payload[0].value)} υποψήφιοι
       </div>
     </div>
@@ -196,7 +197,8 @@ export default function StatsPage() {
   }
 
   return (
-    <main className="min-h-screen pt-36 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <main className="min-h-screen pt-20 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-x-hidden">
+
       <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
       <div>
         <motion.div
@@ -285,7 +287,7 @@ export default function StatsPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="glass p-4 sm:p-8 rounded-2xl mb-8"
+          className="glass p-4 sm:p-8 rounded-2xl mb-8 overflow-hidden"
         >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
             <div>
@@ -326,12 +328,12 @@ export default function StatsPage() {
             </div>
           </div>
 
-          <div className="h-[640px] sm:h-[680px] w-full">
+          <div className="h-[640px] sm:h-[680px] w-full overflow-hidden">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={formattedTopByCount}
                 layout="vertical"
-                margin={{ left: 10, right: 25, top: 15, bottom: 15 }}
+                margin={{ left: 0, right: 15, top: 10, bottom: 10 }}
                 barCategoryGap="22%"
               >
                 <CartesianGrid
@@ -352,7 +354,7 @@ export default function StatsPage() {
                   type="category"
                   stroke="#A0AEC0"
                   fontSize={10}
-                  width={165}
+                  width={135}
                   tickLine={false}
                   tickFormatter={(v) => {
                     if (typeof v !== "string") return v;
@@ -360,10 +362,14 @@ export default function StatsPage() {
                       .replace(/^ΠΕ\s+/i, "")
                       .replace(/ΕΙΔ\.\s*ΠΕ\s+/i, "• ")
                       .replace(/\(SOFTWARE-HARDWARE\)/i, "(IT)");
-                    return clean.length > 24 ? clean.substring(0, 22) + "..." : clean;
+                    return clean.length > 20 ? clean.substring(0, 18) + "..." : clean;
                   }}
                 />
-                <Tooltip content={<CustomTooltip />} />
+                {/* 👇 allowEscapeViewBox={x: false} αποτρέπει το ξεχείλωμα της σελίδας 👇 */}
+                <Tooltip
+                  content={<CustomTooltip />}
+                  allowEscapeViewBox={{ x: false, y: true }}
+                />
                 <Bar
                   dataKey="value"
                   fill="#00E5FF"

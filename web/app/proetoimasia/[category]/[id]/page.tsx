@@ -102,7 +102,7 @@ export default async function SingleQuestionPage({
   };
 
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
       {/* Inject JSON-LD */}
       <script
         type="application/ld+json"
@@ -117,6 +117,7 @@ export default async function SingleQuestionPage({
         label={q.category_title}
       />
 
+      <div className="mx-auto w-full max-w-4xl">
       {/* Question Card */}
       <div className="glass p-6 sm:p-10 rounded-3xl border border-[#00E5FF]/20 space-y-8">
         <div>
@@ -204,6 +205,7 @@ export default async function SingleQuestionPage({
             <div />
           )}
         </div>
+      </div>
       </div>
     </main>
   );

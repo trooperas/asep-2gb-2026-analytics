@@ -182,22 +182,14 @@ export default function StatsPage() {
 
   if (loading || !data) {
     return (
-      <main
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          color: "var(--primary)",
-        }}
-      >
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto overflow-x-hidden flex items-center justify-center text-[#00E5FF]">
         Φόρτωση στατιστικών...
       </main>
     );
   }
 
   return (
-    <main className="min-h-screen pt-20 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-x-hidden">
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto overflow-x-hidden">
 
       <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
       <div>

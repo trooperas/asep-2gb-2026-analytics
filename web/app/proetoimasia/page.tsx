@@ -120,7 +120,7 @@ const faqSchema = {
 
 export default function ProetoimasiaHubPage() {
   return (
-    <main className="min-h-screen pt-32 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
       {/* Inject FAQ Schema */}
       <script
         type="application/ld+json"

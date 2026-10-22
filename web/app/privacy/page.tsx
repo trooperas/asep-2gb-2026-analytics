@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="min-h-screen py-28 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
       <Link
         href="/"
         className="text-sm text-slate-400 hover:text-[#00E5FF] transition-colors inline-flex items-center gap-2 mb-8"
@@ -19,6 +19,7 @@ export default function PrivacyPage() {
         ← Επιστροφή στην Αρχική
       </Link>
 
+      <div className="mx-auto w-full max-w-3xl">
       <div className="space-y-8">
         <div>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold mb-3">
@@ -88,6 +89,7 @@ export default function PrivacyPage() {
         <div className="text-xs text-slate-500 leading-relaxed border-t border-slate-800 pt-6">
           * Η παρούσα ιστοσελίδα αποτελεί ιδιωτική, μη κερδοσκοπική πρωτοβουλία επεξεργασίας ανοιχτών δεδομένων και δεν συνδέεται επίσημα με το Ανώτατο Συμβούλιο Επιλογής Προσωπικού (ΑΣΕΠ).
         </div>
+      </div>
       </div>
     </main>
   );

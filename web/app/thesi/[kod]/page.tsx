@@ -85,15 +85,7 @@ export default function PositionPage() {
 
   if (loading) {
     return (
-      <main
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          color: "var(--primary)",
-        }}
-      >
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex items-center justify-center text-[#00E5FF]">
         Φόρτωση...
       </main>
     );
@@ -101,11 +93,9 @@ export default function PositionPage() {
 
   if (notFound || !data || !data.position) {
     return (
-      <main style={{ minHeight: "100vh", padding: "120px 24px" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <h1>Η θέση δεν βρέθηκε</h1>
-          <Breadcrumb href="/xartis" label="Χάρτης" />
-        </div>
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <h1>Η θέση δεν βρέθηκε</h1>
+        <Breadcrumb href="/xartis" label="Χάρτης" />
       </main>
     );
   }
@@ -126,15 +116,12 @@ export default function PositionPage() {
     : [];
 
   return (
-    <main
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto"
       style={{
-        minHeight: "100vh",
-        padding: "120px 24px 80px",
         position: "relative",
         zIndex: 1,
       }}
     >
-      <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
         <Breadcrumb href="/xartis" label="Χάρτης" />
 
         {/* Header */}
@@ -746,7 +733,6 @@ export default function PositionPage() {
             </div>
           )}
         </motion.div>
-      </div>
     </main>
   );
 }

@@ -14,7 +14,7 @@ import {
 
 export default function ChatPage() {
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto flex flex-col items-center justify-center">
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex flex-col items-center justify-center">
       <Link
         href="/"
         className="text-sm text-slate-400 hover:text-[#00E5FF] transition-colors inline-flex items-center gap-2 mb-8 self-start"
@@ -25,7 +25,7 @@ export default function ChatPage() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="glass p-6 sm:p-10 rounded-3xl border border-[#00E5FF]/20 text-center space-y-6 relative overflow-hidden"
+        className="glass w-full max-w-3xl mx-auto p-6 sm:p-10 rounded-3xl border border-[#00E5FF]/20 text-center space-y-6 relative overflow-hidden"
       >
         {/* Glow Ambient */}
         <div className="absolute -top-24 -left-24 w-48 h-48 bg-[#00E5FF]/10 rounded-full blur-3xl pointer-events-none" />

@@ -150,15 +150,7 @@ export default function EidikotitaPage() {
 
   if (loading) {
     return (
-      <main
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          color: "var(--primary)",
-        }}
-      >
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex items-center justify-center text-[#00E5FF]">
         Φόρτωση ειδικότητας...
       </main>
     );
@@ -166,7 +158,7 @@ export default function EidikotitaPage() {
 
   if (!data || !data.stats) {
     return (
-      <main style={{ minHeight: "100vh", padding: "120px 24px" }}>
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <h1>Δεν βρέθηκε η ειδικότητα</h1>
         <Link href="/" style={{ color: "var(--primary)" }}>
           ← Επιστροφή στην Αρχική
@@ -190,15 +182,12 @@ export default function EidikotitaPage() {
     .sort((a, b) => b.value - a.value);
 
   return (
-    <main
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto"
       style={{
-        minHeight: "100vh",
-        padding: "120px 24px 80px",
         position: "relative",
         zIndex: 1,
       }}
     >
-      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <Link
           href="/"
           style={{
@@ -719,7 +708,6 @@ export default function EidikotitaPage() {
             </div>
           </motion.div>
         )}
-      </div>
     </main>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { Sparkles, HelpCircle, ShieldCheck, ExternalLink, Zap } from "lucide-react";
 
 export const metadata = {
@@ -12,14 +12,10 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen py-28 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <Link
-        href="/"
-        className="text-sm text-slate-400 hover:text-[#00E5FF] transition-colors inline-flex items-center gap-2 mb-8"
-      >
-        ← Επιστροφή στην Αρχική
-      </Link>
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+      <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
 
+      <div className="mx-auto w-full max-w-4xl">
       <div className="space-y-10">
         {/* Title */}
         <div className="space-y-4">
@@ -164,6 +160,7 @@ export default function AboutPage() {
             <ExternalLink className="w-3 h-3 opacity-60" />
           </a>
         </div>
+      </div>
       </div>
     </main>
   );

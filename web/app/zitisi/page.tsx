@@ -51,14 +51,14 @@ export default function ZitisiPage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen pt-32 text-center text-[#00E5FF]">
+      <main className="min-h-screen pt-20 sm:pt-28 text-center text-[#00E5FF]">
         Φόρτωση δείκτη ζήτησης & κύρους...
       </main>
     );
   }
 
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <main className="min-h-screen pt-20 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       {/* Breadcrumb */}
       <Link
         href="/"

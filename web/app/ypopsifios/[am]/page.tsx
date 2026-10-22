@@ -227,7 +227,7 @@ export default function ProfilePage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen flex items-center justify-center text-[#00E5FF]">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex items-center justify-center text-[#00E5FF]">
         Φόρτωση προφίλ...
       </main>
     );
@@ -235,7 +235,7 @@ export default function ProfilePage() {
 
   if (notFound || candidates.length === 0) {
     return (
-      <main className="min-h-screen p-28 text-center">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center">
         <h1 className="mb-4 text-2xl font-bold">Δεν βρέθηκε</h1>
         <Breadcrumb href="/search" label="Αναζήτηση" />
       </main>
@@ -309,17 +309,12 @@ export default function ProfilePage() {
   const rankGain = candidate.aa && candidate.appointed_rank ? candidate.aa - candidate.appointed_rank : 0;
 
   return (
-    <main
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto"
       style={{
-        minHeight: "100vh",
-        paddingTop: "120px",
-        paddingLeft: "24px",
-        paddingRight: "24px",
         position: "relative",
         zIndex: 1,
       }}
     >
-      <div style={{ maxWidth: "950px", margin: "0 auto" }}>
         <Breadcrumb href="/search" label="Αναζήτηση" />
 
         {/* Profile Header Badge */}
@@ -931,8 +926,6 @@ export default function ProfilePage() {
         >
           Δες όλη την ειδικότητα ({candidate.eidikotita}) →
         </Link>
-      </div>
-
       {showCoffee && (
         <div className="fixed bottom-5 right-5 z-50">
           <button

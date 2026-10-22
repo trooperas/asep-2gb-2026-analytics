@@ -224,7 +224,7 @@ export default function CategoryQuizPage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen pt-32 text-center text-[#00E5FF]">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center text-[#00E5FF]">
         Φόρτωση θεμάτων ενότητας...
       </main>
     );
@@ -232,7 +232,7 @@ export default function CategoryQuizPage() {
 
   if (allQuestions.length === 0) {
     return (
-      <main className="min-h-screen p-28 text-center space-y-4">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center space-y-4">
         <h1 className="text-2xl font-bold text-white">Δεν βρέθηκαν ερωτήσεις για αυτή την ενότητα</h1>
         <p className="text-sm text-slate-400">
           Βεβαιωθείτε ότι εκτελέστηκε το build script για το αρχείο quizzes.json.
@@ -245,7 +245,7 @@ export default function CategoryQuizPage() {
   }
 
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
       {/* Back button */}
       <Link
         href="/proetoimasia"

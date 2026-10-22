@@ -64,22 +64,19 @@ export default function SearchPage() {
   }, [query]);
 
   return (
-    <main
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto"
       style={{
-        minHeight: "100vh",
-        padding: "120px 24px 80px",
         position: "relative",
         zIndex: 1,
       }}
     >
-      <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+      <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
+      <div className="w-full max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
-
           <h1
             className="font-display"
             style={{

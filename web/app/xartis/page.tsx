@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState, useRef, useMemo } from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import GreeceMap from "@/components/maps/GreeceMap";
 import { formatNumber } from "@/lib/utils";
 import { Search, MapPin, X } from "lucide-react";
@@ -177,42 +178,20 @@ export default function XartisPage() {
 
   if (loading) {
     return (
-      <main
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          color: "var(--primary)",
-        }}
-      >
+      <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex items-center justify-center text-[#00E5FF]">
         Φόρτωση χάρτη...
       </main>
     );
   }
 
   return (
-    <main
+    <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto"
       style={{
-        minHeight: "100vh",
-        padding: "90px 16px 60px",
         position: "relative",
         zIndex: 1,
       }}
     >
-      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
-        <Link
-          href="/"
-          style={{
-            color: "var(--text-muted)",
-            textDecoration: "none",
-            fontSize: "0.9rem",
-            display: "inline-block",
-            marginBottom: "2rem",
-          }}
-        >
-          ← Πίσω στην Αρχική
-        </Link>
+      <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -636,7 +615,6 @@ export default function XartisPage() {
             )}
           </AnimatePresence>
         </div>
-      </div>
     </main>
   );
 }

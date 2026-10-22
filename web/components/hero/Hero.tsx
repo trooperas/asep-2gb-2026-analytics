@@ -79,15 +79,13 @@ export default function Hero({ stats }: { stats: Stats }) {
           </div>
 
           <h1
-            className="font-display"
             style={{
+              fontFamily: "var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
               fontSize: "clamp(2.25rem, 6vw, 4.5rem)",
               fontWeight: 800,
               lineHeight: 1.08,
               letterSpacing: "-0.03em",
               marginBottom: "1.25rem",
-              // 👈 Εγγύηση ακαριαίου LCP:
-              fontFamily: "var(--font-inter), system-ui, -apple-system, sans-serif",
             }}
           >
             <span className="text-gradient">ΑΣΕΠ Analytics Hub</span>

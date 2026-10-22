@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { formatNumber, formatVathmologia } from "@/lib/utils";
 import {
   BarChart,
@@ -195,7 +196,8 @@ export default function StatsPage() {
   }
 
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <main className="min-h-screen pt-36 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
       <div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

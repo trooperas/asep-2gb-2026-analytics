@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Briefcase,
@@ -320,15 +321,9 @@ export default function ErgasiakesDeksiotitesPage() {
   }
 
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+    <main className="min-h-screen pt-36 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-xs text-slate-400 mb-6 font-mono">
-        <Link href="/proetoimasia" className="hover:text-[#00E5FF]">
-          Προετοιμασία
-        </Link>
-        <span>/</span>
-        <span className="text-slate-200">Εργασιακές Δεξιότητες (OPQ32)</span>
-      </div>
+      <Breadcrumb href="/proetoimasia" label="Προετοιμασία" />
 
       {/* Hero Header */}
       <div className="mb-10 space-y-4">

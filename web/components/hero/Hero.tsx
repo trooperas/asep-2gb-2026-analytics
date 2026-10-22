@@ -79,16 +79,18 @@ export default function Hero({ stats }: { stats: Stats }) {
           </div>
 
           <h1
+            className="text-3xl md:text-[clamp(2.25rem,6vw,4.5rem)]"
             style={{
               fontFamily: "var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-              fontSize: "clamp(2.25rem, 6vw, 4.5rem)",
               fontWeight: 800,
               lineHeight: 1.08,
               letterSpacing: "-0.03em",
               marginBottom: "1.25rem",
             }}
           >
-            <span className="text-gradient">ΑΣΕΠ Analytics Hub</span>
+            <span className="text-gradient">
+              ΑΣΕΠ <span className="whitespace-nowrap">Analytics Hub</span>
+            </span>
             <br />
             <span style={{ color: "var(--text)" }}>
               Αποτελέσματα & Προετοιμασία
@@ -118,29 +120,29 @@ export default function Hero({ stats }: { stats: Stats }) {
             marginBottom: "2.5rem",
           }}
         >
-          <div className="glass p-4 rounded-xl">
-            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Υποψήφιοι 2ΓΒ</div>
+          <div className="glass p-3 sm:p-4 rounded-xl">
+            <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-400 mb-1">Υποψήφιοι 2ΓΒ</div>
             <div className="text-2xl sm:text-3xl font-bold font-mono text-[#00E5FF]">
               <AnimatedCounter target={stats.total_candidates} />
             </div>
           </div>
 
-          <div className="glass p-4 rounded-xl">
-            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Διοριστέοι</div>
+          <div className="glass p-3 sm:p-4 rounded-xl">
+            <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-400 mb-1">Διοριστέοι</div>
             <div className="text-2xl sm:text-3xl font-bold font-mono text-emerald-400">
               <AnimatedCounter target={stats.total_dioristoi} />
             </div>
           </div>
 
-          <div className="glass p-4 rounded-xl">
-            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Ειδικότητες</div>
+          <div className="glass p-3 sm:p-4 rounded-xl">
+            <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-400 mb-1">Ειδικότητες</div>
             <div className="text-2xl sm:text-3xl font-bold font-mono text-white">
               {stats.total_eidikotites}
             </div>
           </div>
 
-          <div className="glass p-4 rounded-xl">
-            <div className="text-[10px] uppercase tracking-wider text-slate-400 mb-1">Ποσοστό Επιτυχίας</div>
+          <div className="glass p-3 sm:p-4 rounded-xl">
+            <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-400 mb-1">Ποσοστό Επιτυχίας</div>
             <div className="text-2xl sm:text-3xl font-bold font-mono text-pink-400">
               {Math.round(stats.pososto_epityxias)}%
             </div>

@@ -4,7 +4,7 @@ import { ExternalLink, ShieldCheck } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-slate-800/80 bg-[#070a13] py-10 text-slate-300 mt-auto">
+    <footer className="w-full border-t border-slate-800/80 bg-[#070a13] pt-10 pb-20 md:pb-10 text-slate-300 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Αριστερά: Στοιχεία Διαγωνισμού & Disclaimer */}
@@ -102,7 +102,7 @@ export default function Footer() {
             <span>GDPR-Conscious • Static Data Engine</span>
           </div>
 
-          <div className="flex items-center gap-4 text-xs">
+          <div className="flex items-center gap-4 text-xs lg:pr-56">
             <Link href="/privacy" className="text-slate-200 hover:text-white font-medium underline underline-offset-4">
               Απόρρητο & GDPR
             </Link>

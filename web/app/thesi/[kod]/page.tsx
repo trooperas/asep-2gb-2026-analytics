@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { useParams } from "next/navigation";
 import { formatVathmologia, formatNumber } from "@/lib/utils";
 
@@ -103,9 +104,7 @@ export default function PositionPage() {
       <main style={{ minHeight: "100vh", padding: "120px 24px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <h1>Η θέση δεν βρέθηκε</h1>
-          <Link href="/xartis" style={{ color: "var(--primary)" }}>
-            ← Πίσω στον χάρτη
-          </Link>
+          <Breadcrumb href="/xartis" label="Χάρτης" />
         </div>
       </main>
     );
@@ -136,18 +135,7 @@ export default function PositionPage() {
       }}
     >
       <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-        <Link
-          href="/xartis"
-          style={{
-            color: "var(--text-muted)",
-            textDecoration: "none",
-            fontSize: "0.9rem",
-            display: "inline-block",
-            marginBottom: "2rem",
-          }}
-        >
-          ← Πίσω στον Χάρτη
-        </Link>
+        <Breadcrumb href="/xartis" label="Χάρτης" />
 
         {/* Header */}
         <motion.div

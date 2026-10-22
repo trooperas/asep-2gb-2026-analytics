@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { Building2, ArrowRight } from "lucide-react";
 
 interface Result {
@@ -30,6 +31,11 @@ export default function SearchPage() {
   const [matchedPositions, setMatchedPositions] = useState<MatchedPosition[]>([]);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
+  const quickFilters = [
+    { label: "Θέση 1523", value: "1523" },
+    { label: "Α.Μ. 13448", value: "13448" },
+    { label: "ΠΑΠΑΓΙΑΝΝΟΠΟΥΛΟΥ", value: "ΠΑΠΑΓΙΑΝΝΟΠΟΥΛΟΥ" },
+  ];
 
   useEffect(() => {
     if (query.length < 2) {
@@ -72,18 +78,7 @@ export default function SearchPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <Link
-            href="/"
-            style={{
-              color: "var(--text-muted)",
-              textDecoration: "none",
-              fontSize: "0.9rem",
-              display: "inline-block",
-              marginBottom: "2rem",
-            }}
-          >
-            ← Πίσω στην Αρχική
-          </Link>
+          <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
 
           <h1
             className="font-display"
@@ -118,7 +113,7 @@ export default function SearchPage() {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="π.χ. 1523 ή 18663 ή ΠΑΠΑΓΟΡΑ ή ΖΑΦΕΙΡΟΠΟΥΛΟΣ"
+              placeholder="Επώνυμο, Α.Μ. ή Κωδ. Θέσης..."
               style={{
                 width: "100%",
                 padding: "20px 24px",
@@ -131,6 +126,21 @@ export default function SearchPage() {
               }}
             />
           </div>
+
+          {!query && (
+            <div className="mb-6 flex flex-wrap gap-2" aria-label="Γρήγορες αναζητήσεις">
+              {quickFilters.map((filter) => (
+                <button
+                  key={filter.value}
+                  type="button"
+                  onClick={() => setQuery(filter.value)}
+                  className="min-h-11 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-2 text-sm text-slate-200 transition-colors hover:border-cyan-400 hover:text-white"
+                >
+                  {filter.label}
+                </button>
+              ))}
+            </div>
+          )}
 
           {loading && (
             <div

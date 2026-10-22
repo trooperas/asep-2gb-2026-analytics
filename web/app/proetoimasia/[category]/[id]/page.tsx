@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { notFound } from "next/navigation";
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
@@ -72,6 +73,7 @@ export default async function SingleQuestionPage({
   if (qIdx === -1) notFound();
 
   const q = questions[qIdx];
+  const questionNumber = q.id.match(/(\d+)$/)?.[1] ?? q.id;
   const nextQ = questions[qIdx + 1];
   const prevQ = questions[qIdx - 1];
 
@@ -110,23 +112,16 @@ export default async function SingleQuestionPage({
       />
 
       {/* Navigation Breadcrumb */}
-      <div className="flex items-center gap-2 text-xs text-slate-400 mb-6 font-mono">
-        <Link href="/proetoimasia" className="hover:text-[#00E5FF]">
-          Προετοιμασία
-        </Link>
-        <span>/</span>
-        <Link href={`/proetoimasia/${q.category_slug}`} className="hover:text-[#00E5FF] truncate max-w-xs">
-          {q.category_title}
-        </Link>
-        <span>/</span>
-        <span className="text-slate-200">#{q.id}</span>
-      </div>
+      <Breadcrumb
+        href={`/proetoimasia/${q.category_slug}`}
+        label={q.category_title}
+      />
 
       {/* Question Card */}
       <div className="glass p-6 sm:p-10 rounded-3xl border border-[#00E5FF]/20 space-y-8">
         <div>
           <span className="text-xs font-mono text-[#00E5FF] uppercase font-bold tracking-wider">
-            {q.category_title} • Ερώτηση #{q.id}
+            {q.category_title} • Ερώτηση #{questionNumber}
           </span>
           <h1 className="text-xl sm:text-2xl font-bold font-display text-white mt-2 leading-relaxed">
             {q.question}

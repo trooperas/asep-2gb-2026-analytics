@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import { useParams, useSearchParams } from "next/navigation";
 import { formatVathmologia } from "@/lib/utils";
 import AllocationJourney from "@/components/profile/AllocationJourney";
@@ -110,6 +111,7 @@ export default function ProfilePage() {
   const [intelMap, setIntelMap] = useState<Record<string, any>>({});
   const [positionsMap, setPositionsMap] = useState<Record<string, any>>({});
   const [showSimulator, setShowSimulator] = useState(false);
+  const [showCoffee, setShowCoffee] = useState(true);
 
   // 1. Φόρτωση υποψηφίου
   useEffect(() => {
@@ -235,9 +237,7 @@ export default function ProfilePage() {
     return (
       <main className="min-h-screen p-28 text-center">
         <h1 className="mb-4 text-2xl font-bold">Δεν βρέθηκε</h1>
-        <Link href="/search" className="text-[#00E5FF]">
-          ← Πίσω στην αναζήτηση
-        </Link>
+        <Breadcrumb href="/search" label="Αναζήτηση" />
       </main>
     );
   }
@@ -312,24 +312,15 @@ export default function ProfilePage() {
     <main
       style={{
         minHeight: "100vh",
-        padding: "120px 24px 120px",
+        paddingTop: "120px",
+        paddingLeft: "24px",
+        paddingRight: "24px",
         position: "relative",
         zIndex: 1,
       }}
     >
       <div style={{ maxWidth: "950px", margin: "0 auto" }}>
-        <Link
-          href="/search"
-          style={{
-            color: "var(--text-muted)",
-            textDecoration: "none",
-            fontSize: "0.9rem",
-            display: "inline-block",
-            marginBottom: "2rem",
-          }}
-        >
-          ← Πίσω στην αναζήτηση
-        </Link>
+        <Breadcrumb href="/search" label="Αναζήτηση" />
 
         {/* Profile Header Badge */}
         <motion.div
@@ -338,8 +329,8 @@ export default function ProfilePage() {
           transition={{ duration: 0.5 }}
         >
           <div
+            className="hidden md:inline-block"
             style={{
-              display: "inline-block",
               padding: "6px 16px",
               borderRadius: "100px",
               border: "1px solid var(--border)",
@@ -367,15 +358,40 @@ export default function ProfilePage() {
           </div>
 
           <h1
-            className="font-display"
+            className="font-display text-2xl md:text-[clamp(2rem,4vw,3rem)]"
             style={{
-              fontSize: "clamp(2rem, 4vw, 3rem)",
               fontWeight: 700,
               marginBottom: "0.5rem",
             }}
           >
             {candidate.eponymo} {candidate.onoma}
           </h1>
+
+          <div className="mb-5 flex flex-wrap items-center gap-2 md:hidden">
+            <span
+              className={`rounded-full border px-3 py-1.5 text-[10px] font-bold ${
+                isAppointedInCurrent
+                  ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-300"
+                  : isAppointedInOther
+                  ? "border-cyan-500/40 bg-cyan-500/10 text-cyan-300"
+                  : "border-rose-500/40 bg-rose-500/10 text-rose-300"
+              }`}
+            >
+              {isAppointedInCurrent
+                ? "✓ Διοριστέος"
+                : isAppointedInOther
+                ? "✓ Ανώτερη προτίμηση"
+                : "Μη Διοριστέος"}
+            </span>
+            <div className="glass rounded-xl border border-cyan-500/25 px-3 py-2">
+              <div className="text-[9px] uppercase tracking-wider text-slate-400">
+                {isAppointedInCurrent ? "Βαθμολογία Διορισμού" : "Βαθμολογία Ειδικότητας"}
+              </div>
+              <div className="font-mono text-lg font-bold text-[#00E5FF]">
+                {formatVathmologia(isAppointedInCurrent ? trueAppointmentScore : rawScore)} μόρια
+              </div>
+            </div>
+          </div>
 
           <p
             style={{
@@ -492,17 +508,19 @@ export default function ProfilePage() {
           }}
         >
           {/* Βαθμολογία */}
-          <StatBox
-            label={isAppointedInCurrent ? "Βαθμολογία Διορισμού" : "Βαθμολογία Ειδικότητας"}
-            value={formatVathmologia(isAppointedInCurrent ? trueAppointmentScore : rawScore)}
-            highlight
-            subtext={
-              bypassedEntopiotita
-                ? `Αρχικός πίνακας: ${formatVathmologia(rawScore)}`
-                : undefined
-            }
-            delay={100}
-          />
+          <div className="hidden md:contents">
+            <StatBox
+              label={isAppointedInCurrent ? "Βαθμολογία Διορισμού" : "Βαθμολογία Ειδικότητας"}
+              value={formatVathmologia(isAppointedInCurrent ? trueAppointmentScore : rawScore)}
+              highlight
+              subtext={
+                bypassedEntopiotita
+                  ? `Αρχικός πίνακας: ${formatVathmologia(rawScore)}`
+                  : undefined
+              }
+              delay={100}
+            />
+          </div>
 
           {/* Γραπτός */}
           <StatBox
@@ -915,20 +933,31 @@ export default function ProfilePage() {
         </Link>
       </div>
 
-      {/* Floating Ko-fi Pill */}
-      <a
-        href="https://ko-fi.com/fokion"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        className="fixed bottom-5 right-5 z-50 flex items-center gap-2.5 px-4 py-2 rounded-2xl glass border border-cyan-500/30 hover:border-[#00E5FF] transition-all shadow-xl hover:scale-105 group"
-        style={{ background: "rgba(10, 15, 30, 0.9)", backdropFilter: "blur(12px)" }}
-      >
-        <span className="text-xl group-hover:rotate-12 transition-transform">☕</span>
-        <div className="text-left leading-tight">
-          <div className="text-[10px] text-slate-400">Σου φάνηκε χρήσιμο;</div>
-          <div className="text-xs font-bold text-[#00E5FF]">Κέρασε έναν καφέ</div>
+      {showCoffee && (
+        <div className="fixed bottom-5 right-5 z-50">
+          <button
+            type="button"
+            onClick={() => setShowCoffee(false)}
+            aria-label="Dismiss coffee prompt"
+            className="absolute -right-2 -top-2 z-10 flex h-7 w-7 items-center justify-center rounded-full border border-slate-600 bg-slate-950 text-lg text-white"
+          >
+            ×
+          </button>
+          <a
+            href="https://ko-fi.com/fokion"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="flex items-center gap-2.5 rounded-2xl border border-cyan-500/30 px-4 py-2 transition-all hover:scale-105 hover:border-[#00E5FF] group"
+            style={{ background: "rgba(10, 15, 30, 0.9)", backdropFilter: "blur(12px)" }}
+          >
+            <span className="text-xl group-hover:rotate-12 transition-transform">☕</span>
+            <div className="text-left leading-tight">
+              <div className="text-[10px] text-slate-400">Σου φάνηκε χρήσιμο;</div>
+              <div className="text-xs font-bold text-[#00E5FF]">Κέρασε έναν καφέ</div>
+            </div>
+          </a>
         </div>
-      </a>
+      )}
     </main>
   );
 }

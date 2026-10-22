@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Breadcrumb from "@/components/layout/Breadcrumb";
 import {
   BookOpen,
   Scale,
@@ -119,7 +120,7 @@ const faqSchema = {
 
 export default function ProetoimasiaHubPage() {
   return (
-    <main className="min-h-screen pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <main className="min-h-screen pt-32 sm:pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       {/* Inject FAQ Schema */}
       <script
         type="application/ld+json"
@@ -127,12 +128,7 @@ export default function ProetoimasiaHubPage() {
       />
 
       {/* Breadcrumb */}
-      <Link
-        href="/"
-        className="text-sm text-slate-400 hover:text-[#00E5FF] transition-colors inline-flex items-center gap-2 mb-6"
-      >
-        ← Επιστροφή στην Αρχική
-      </Link>
+      <Breadcrumb href="/" label="Επιστροφή στην Αρχική" />
 
       {/* Hero Header */}
       <div className="mb-10 space-y-4">
@@ -146,6 +142,25 @@ export default function ProetoimasiaHubPage() {
             ΑΣΕΠ 2027
           </span>
         </h1>
+        <div className="lg:hidden mt-4 rounded-2xl border border-[#00E5FF]/30 bg-slate-900/80 p-3 shadow-lg">
+          <div className="mb-2 text-[10px] font-mono font-semibold uppercase tracking-wider text-[#00E5FF]">
+            Γρήγορη εκκίνηση
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            <Link
+              href="/proetoimasia/ergasiakes-deksiotites"
+              className="flex min-h-12 items-center justify-center gap-1 rounded-xl bg-amber-500 px-2 py-2 text-center text-xs font-bold text-slate-950 no-underline"
+            >
+              Τεστ OPQ32 <ArrowRight className="h-4 w-4" />
+            </Link>
+            <Link
+              href="#knowledge-bank"
+              className="flex min-h-12 items-center justify-center gap-1 rounded-xl border border-[#00E5FF]/40 bg-[#00E5FF]/10 px-2 py-2 text-center text-xs font-bold text-[#00E5FF] no-underline"
+            >
+              1.988 Ερωτήσεις <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
         <p className="text-slate-300 text-sm sm:text-base max-w-3xl leading-relaxed">
           Πλήρης τράπεζα για τις <strong>1.988 επίσημες ερωτήσεις γνώσεων</strong>*, πρακτικός οδηγός 
           για τις <strong>δοκιμασίες δεξιοτήτων</strong> (επαγωγικός συλλογισμός, αντίληψη χώρου, εργασιακές δηλώσεις) 
@@ -290,7 +305,7 @@ export default function ProetoimasiaHubPage() {
             <div className="space-y-2 pt-3 border-t border-slate-800">
               <Link
                 href="/proetoimasia/ergasiakes-deksiotites"
-                className="w-full py-2.5 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 transition-all shadow-md group no-underline"
+                className="w-full py-2.5 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs hidden lg:flex items-center justify-center gap-1.5 transition-all shadow-md group no-underline"
               >
                 <span>Έναρξη Τεστ (OPQ32)</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -316,7 +331,7 @@ export default function ProetoimasiaHubPage() {
       {/* ============================================================== */}
       {/* ΕΝΟΤΗΤΑ Α: ΟΙ 11 ΚΑΤΗΓΟΡΙΕΣ ΓΝΩΣΕΩΝ (SEO-FRIENDLY ΤΙΤΛΟΣ) */}
       {/* ============================================================== */}
-      <div className="space-y-4 mb-16">
+      <div id="knowledge-bank" className="scroll-mt-28 space-y-4 mb-16">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
           <div>
             <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">

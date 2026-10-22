@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,6 +8,17 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [mobileOpen]);
 
   // Desktop Links
   const DESKTOP_NAV = [
@@ -23,7 +34,16 @@ export default function Header() {
   ];
 
   return (
-    <header
+    <>
+      {mobileOpen && (
+        <button
+          type="button"
+          onClick={() => setMobileOpen(false)}
+          aria-label="Close navigation"
+          className="fixed inset-0 z-40 border-0 bg-black/70 p-0 backdrop-blur-md lg:hidden"
+        />
+      )}
+      <header
       style={{
         position: "fixed",
         top: 0,
@@ -39,6 +59,7 @@ export default function Header() {
       <div
         style={{
           maxWidth: "1400px",
+          width: "100%",
           margin: "0 auto",
           padding: "12px 18px",
           display: "flex",
@@ -145,16 +166,23 @@ export default function Header() {
         <button
           type="button"
           onClick={() => setMobileOpen(!mobileOpen)}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-navigation"
           className="flex lg:hidden items-center justify-center"
           style={{
-            background: "rgba(0, 229, 255, 0.05)",
-            border: "1px solid var(--border)",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#00E5FF",
+            border: "1px solid #00E5FF",
             borderRadius: "10px",
             width: "44px",
             height: "44px",
-            color: "var(--primary)",
+            flexShrink: 0,
+            color: "#05070D",
             fontSize: "1.3rem",
+            fontWeight: 700,
             cursor: "pointer",
+            zIndex: 50,
           }}
           aria-label="Toggle Navigation"
         >
@@ -166,6 +194,7 @@ export default function Header() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
+            id="mobile-navigation"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
@@ -268,6 +297,7 @@ export default function Header() {
           </motion.div>
         )}
       </AnimatePresence>
-    </header>
+      </header>
+    </>
   );
 }

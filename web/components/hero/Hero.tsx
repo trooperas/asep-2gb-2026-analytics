@@ -112,14 +112,7 @@ export default function Hero({ stats }: { stats: Stats }) {
         </div>
 
         {/* 2ΓΒ Stats Counters Grid (Lightweight Island) */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))",
-            gap: "0.75rem",
-            marginBottom: "2.5rem",
-          }}
-        >
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
           <div className="glass p-3 sm:p-4 rounded-xl">
             <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-400 mb-1">Υποψήφιοι 2ΓΒ</div>
             <div className="text-2xl sm:text-3xl font-bold font-mono text-[#00E5FF]">

@@ -4,6 +4,13 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: "#05070D",
+  width: "device-width",
+  initialScale: 1,
+};
 
 const inter = Inter({
   subsets: ["latin", "greek"],

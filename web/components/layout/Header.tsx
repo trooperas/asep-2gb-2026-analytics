@@ -29,6 +29,7 @@ export default function Header() {
     { href: "/proetoimasia", label: "1.988 Ερωτήσεις 2027" },
     { href: "/xartis", label: "Χάρτης" },
     { href: "/kenes-theseis", label: "Κενές Θέσεις" },
+    { href: "/zitisi", label: "Ζήτηση 2027" },
     { href: "/chat", label: "AI Bot" },
     { href: "/about", label: "Σχετικά" },
   ];

@@ -275,6 +275,16 @@ export default function Header() {
                     11 Ενότητες
                   </span>
                 </Link>
+                <Link
+                  href="https://asepanalytics.app/zitisi"
+                  onClick={() => setMobileOpen(false)}
+                  className="p-3 rounded-xl bg-slate-900/40 border border-slate-800 text-sm font-medium text-slate-300 flex items-center justify-between"
+                >
+                  <span>📈 Βαρόμετρο Ζήτησης Φορέων</span>
+                  <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400">
+                    ΝΕΟ
+                  </span>
+                </Link>
               </div>
             </div>
 

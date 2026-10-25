@@ -532,7 +532,7 @@ export default function ErgasiakesDeksiotitesPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
             <button type="button" onClick={handleShare} className="w-full sm:w-auto px-6 py-3 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-sm flex items-center justify-center gap-2 cursor-pointer hover:scale-105 transition-all shadow-lg">
-              {copied ? <><Check className="w-4 h-4" /> Αντιγράφηκε!</> : <><Share2 className="w-4 h-4" /> Κοινοποίηση (με OG)</>}
+              {copied ? <><Check className="w-4 h-4" /> Αντιγράφηκε!</> : <><Share2 className="w-4 h-4" /> Κοινοποίηση</>}
             </button>
             <button type="button" onClick={handleReset} className="w-full sm:w-auto px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 font-semibold text-sm flex items-center justify-center gap-2 cursor-pointer hover:text-white">
               <RotateCcw className="w-4 h-4" /> Νέα Προσομοίωση

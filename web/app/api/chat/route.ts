@@ -1,569 +1,478 @@
-/* import { NextResponse } from "next/server";
-import Groq from "groq-sdk";
-import { readFileSync } from "fs";
+import { NextResponse } from "next/server";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
-import { rateLimit } from "@/lib/rate-limit";
 
-// === GROQ KEYS (comma-separated στο env) ===
-const GROQ_KEYS = (process.env.GROQ_API_KEY || "")
-  .split(",")
-  .map((k) => k.trim())
-  .filter(Boolean);
-
-console.log(`[INIT] ${GROQ_KEYS.length} Groq keys loaded`);
-
-// === Key cooldowns (rate limit tracking) ===
-const keyCooldowns: Record<string, number> = {};
-
-function isKeyOnCooldown(keyId: string): boolean {
-  return keyCooldowns[keyId] !== undefined && Date.now() < keyCooldowns[keyId];
+function normalizeText(text: string): string {
+  return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-function setKeyCooldown(keyId: string, ms = 60000) {
-  keyCooldowns[keyId] = Date.now() + ms;
+function pickRandom(arr: string[]): string {
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
-// === CONTEXT ===
-let contextData: any = null;
-
-function getContext() {
-  if (!contextData) {
-    const globalStats = JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "global_stats.json"),
-        "utf-8"
-      )
-    );
-    const eidStats = JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "eidikotites_stats.json"),
-        "utf-8"
-      )
-    );
-    const eidIndex = JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "eidikotites_index.json"),
-        "utf-8"
-      )
-    );
-
-    let faqData: any = { faq: [], helpdesk: {}, theseis_PE: 0 };
-    try {
-      faqData = JSON.parse(
-        readFileSync(join(process.cwd(), "data", "faq.json"), "utf-8")
-      );
-    } catch {
-      // skip
-    }
-
-    const topEid = eidIndex
-      .sort((a: any, b: any) => b.count - a.count)
-      .slice(0, 30)
-      .map(
-        (e: any) =>
-          `- ${e.eidikotita} (slug: ${e.slug}, υποψήφιοι: ${e.count}, διοριστέοι: ${
-            eidStats[e.slug]?.dioristoi || 0
-          })`
-      )
-      .join("\n");
-
-    const faqContext = (faqData.faq || [])
-      .map((item: any) => `Q: ${item.q}\nA: ${item.a}`)
-      .join("\n\n");
-
-    contextData = { globalStats, topEid, faqData, faqContext };
-  }
-  return contextData;
-}
-
-function escapeUserInput(text: string): string {
-  return text
-    .replace(/<\/user_input>/gi, "")
-    .replace(/<user_input>/gi, "")
-    .replace(/<\/?system>/gi, "")
-    .replace(/<\|/g, "")
-    .replace(/\|>/g, "")
-    .trim();
-}
-
-// === TOOLS ===
-function normalizeName(s: string): string {
-  return String(s || "")
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .trim();
-}
-
-// === DIRECT DATA ACCESS (No localhost fetches) ===
-function getSearchIndex(): any[] {
+function getPositionDetails(kod: string) {
   try {
-    return JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "search_index.json"),
-        "utf-8"
-      )
-    );
-  } catch {
-    return [];
-  }
+    const filePath = join(process.cwd(), "public", "data", "positions.json");
+    const data = JSON.parse(readFileSync(filePath, "utf-8"));
+    return data.find((p: any) => String(p.kod_thesis) === String(kod)) || null;
+  } catch { return null; }
 }
 
-async function searchCandidate(
-  eponymo: string,
-  onoma?: string
-): Promise<any[]> {
+// --- ΝΕΑ ΣΥΝΑΡΤΗΣΗ: Ψάχνει τον υποψήφιο στα chunks και επιστρέφει τα πλήρη στοιχεία ---
+function getCandidateDetails(am: string) {
   try {
-    const cleanEponymo = eponymo.trim();
-    if (!cleanEponymo) return [];
+    const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
+    const chunkIndex = JSON.parse(readFileSync(chunkIndexPath, "utf-8"));
+    const chunksDir = join(process.cwd(), "public", "data", "chunks");
 
-    const index = getSearchIndex();
-    const epNorm = normalizeName(cleanEponymo);
-    const onNorm = onoma && onoma.trim() ? normalizeName(onoma) : null;
-
-    let results = index.filter((r: any) => {
-      const rEp = normalizeName(r.eponymo || "");
-      return rEp.includes(epNorm) || epNorm.includes(rEp);
-    });
-
-    if (onNorm) {
-      results = results.filter((r: any) => {
-        const rOn = normalizeName(r.onoma || "");
-        return rOn.includes(onNorm) || onNorm.includes(rOn);
-      });
-    }
-
-    return results.slice(0, 10);
-  } catch (e) {
-    console.error("searchCandidate error:", e);
-    return [];
-  }
-}
-
-async function getCandidateProfile(am: string): Promise<any | null> {
-  try {
     const targetAm = String(am).replace(/\.0$/, "").trim();
-    const chunkIndex = JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "chunk_index.json"),
-        "utf-8"
-      )
-    );
-    const chunksDir = join(process.cwd(), "public", "data", "chunks");
 
-    for (const [slug, chunks] of Object.entries(chunkIndex)) {
-      for (const chunkName of chunks as string[]) {
-        const chunk = JSON.parse(
-          readFileSync(join(chunksDir, chunkName), "utf-8")
-        );
-        const found = chunk.find(
-          (r: any) => String(r.am).replace(/\.0$/, "").trim() === targetAm
-        );
-        if (found) {
-          return { ...found, slug };
-        }
-      }
-    }
-    return null;
-  } catch (e) {
-    console.error("getCandidateProfile error:", e);
-    return null;
-  }
-}
+    // Διατρέχουμε όλα τα chunks για να βρούμε τον υποψήφιο
+    for (const [slug, chunkFiles] of Object.entries(chunkIndex)) {
+      for (const chunkName of chunkFiles as string[]) {
+        const cPath = join(chunksDir, chunkName);
+        if (existsSync(cPath)) {
+          const chunkData = JSON.parse(readFileSync(cPath, "utf-8"));
+          const found = chunkData.find((r: any) => String(r.am).replace(/\.0$/, "").trim() === targetAm);
+          
+          if (found) {
+            // Βρήκαμε τον υποψήφιο! Επιστρέφουμε τα στοιχεία του.
+            // Το slug είναι το κλειδί (π.χ. pe-archaiologon...). Θα το μετατρέψουμε σε φιλικό κείμενο.
+            
+            // 1. Βρίσκουμε το σωστό όνομα ειδικότητας από το eidikotites_index
+            let eidikotitaName = slug.replace(/-/g, ' ').toUpperCase(); // Fallback
+            try {
+              const indexFilePath = join(process.cwd(), "public", "data", "eidikotites_index.json");
+              const indexData = JSON.parse(readFileSync(indexFilePath, "utf-8"));
+              const foundEid = indexData.find((e: any) => e.slug === slug);
+              if (foundEid) eidikotitaName = foundEid.eidikotita;
+            } catch {}
 
-// Επιστρέφουμε ΠΛΗΡΕΣ το προφίλ για να μπορεί το LLM να απαντήσει σε οποιοδήποτε ερώτημα
-function formatProfile(profile: any) {
-  const isDioristaios = !!profile.thesi_diorismou;
-
-  // Εξονυχιστικός έλεγχος για Ειδικές Ιδιότητες (ΑΜΕΑ, πολύτεκνοι κλπ.)
-  // Ψάχνουμε σε όλα τα πιθανά πεδία του Excel (idiotita, eidikes, eidikes_idiotites)
-  const rawIdiotita = String(
-    profile.idiotita ||
-    profile.eidikes_idiotites ||
-    profile.eidikes ||
-    profile["ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ"] ||
-    profile["ΙΔΙΟΤΗΤΑ*"] ||
-    ""
-  ).trim().toUpperCase();
-
-  const hasSpecialStatus = 
-    rawIdiotita === "ΝΑΙ" || 
-    rawIdiotita.includes("ΝΑΙ") || 
-    (rawIdiotita !== "" && rawIdiotita !== "ΟΧΙ" && rawIdiotita !== "NAN" && rawIdiotita !== "NULL");
-
-  return {
-    am: String(profile.am).replace(/\.0$/, ""),
-    eponymo: profile.eponymo,
-    onoma: profile.onoma,
-    patronymo: profile.patronymo,
-    eidikotita: profile.eidikotita,
-    vathmologia: profile.vathmologia,
-    seira_katataxis: profile.aa,
-    katastasi: isDioristaios
-      ? "ΔΙΟΡΙΣΤΕΟΣ"
-      : "ΜΗ ΔΙΟΡΙΣΤΕΟΣ (στους πίνακες κατάταξης)",
-    thesi_diorismou: profile.thesi_diorismou || null,
-    // Εδώ δίνουμε πλέον ξεκάθαρη τιμή στο AI:
-    eidikes_idiotites: hasSpecialStatus
-      ? "ΝΑΙ (Έχει καταχωρηθεί Ειδική Κατηγορία / Ιδιότητα στους πίνακες)"
-      : "ΟΧΙ (Δεν αναγράφεται ειδική ιδιότητα)",
-    raw_idiotita_pedio: rawIdiotita || "ΚΕΝΟ",
-    entopiotita: profile.kod_entopiotitas
-      ? `Κωδικός ${profile.kod_entopiotitas} (Μόρια: ${profile.monades_entop || 0})`
-      : "Χωρίς εντοπιότητα",
-    metaptyxiako: profile.metaptyxiako ? "ΝΑΙ" : "ΟΧΙ",
-    didaktoriko: profile.didaktoriko ? "ΝΑΙ" : "ΟΧΙ",
-    xeni_glossa: profile.xeni_glossa ? "ΝΑΙ" : "ΟΧΙ",
-    empeiria_mines: profile.minas_empeirias || 0,
-    empeiria_monades: profile.monades_empeirias || 0,
-    mathima_1_gnoseis: profile.math1,
-    mathima_2_dexiotites: profile.math2,
-    synolo_graptou: profile.synolo_graptou,
-    protimiseis_theseon: profile.protimiseis || null,
-  };
-}
-
-async function getEidikotitaStats(slug: string): Promise<any | null> {
-  try {
-    const eidStats = JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "eidikotites_stats.json"),
-        "utf-8"
-      )
-    );
-    if (eidStats[slug]) {
-      return { slug, stats: eidStats[slug] };
-    }
-    return null;
-  } catch (e) {
-    console.error("getEidikotitaStats error:", e);
-    return null;
-  }
-}
-
-async function getPositionInfo(thesiKod: string): Promise<any> {
-  try {
-    const chunkIndex = JSON.parse(
-      readFileSync(
-        join(process.cwd(), "public", "data", "chunk_index.json"),
-        "utf-8"
-      )
-    );
-    const chunksDir = join(process.cwd(), "public", "data", "chunks");
-
-    const targetKod = String(thesiKod).replace(/\.0$/, "");
-    const found: any[] = [];
-
-    for (const [slug, chunks] of Object.entries(chunkIndex)) {
-      for (const chunkName of chunks as string[]) {
-        const chunk = JSON.parse(
-          readFileSync(join(chunksDir, chunkName), "utf-8")
-        );
-        for (const r of chunk) {
-          const kod = String(r.thesi_diorismou || "").replace(/\.0$/, "");
-          if (kod === targetKod) {
-            found.push({
-              am: String(r.am).replace(/\.0$/, ""),
-              eponymo: r.eponymo,
-              onoma: r.onoma,
-              eidikotita: r.eidikotita,
-              vathmologia: r.vathmologia,
-              slug,
-            });
+            // 2. Ελέγχουμε αν έχει διοριστεί
+            const thesiDiorismou = found.thesi_diorismou ? String(found.thesi_diorismou).replace(/\.0$/, "").trim() : null;
+            
+            return {
+              am: found.am,
+              eponymo: found.eponymo,
+              onoma: found.onoma,
+              vathmologia: found.vathmologia,
+              aa: found.aa,
+              eidikotitaName: eidikotitaName,
+              thesiDiorismou: thesiDiorismou, // Αν είναι null, δεν έχει διοριστεί
+            };
           }
         }
       }
     }
-
-    return { kod: thesiKod, count: found.length, candidates: found.slice(0, 30) };
-  } catch (e: any) {
-    return { error: e.message };
+    return null;
+  } catch (error) {
+    console.error("Candidate search error:", error);
+    return null;
   }
 }
 
-// === SYSTEM PROMPT (Ελεύθερο Reasoning & Ευφυΐα) ===
-const SYSTEM_PROMPT = `Είσαι ο έξυπνος βοηθός για τα αποτελέσματα του Πανελλήνιου Γραπτού Διαγωνισμού ΑΣΕΠ 2ΓΒ/2026.
-
-ΡΟΛΟΣ & ΣΚΟΠΟΣ:
-- Βοηθάς τους υποψηφίους να κατανοήσουν τη θέση τους στους πίνακες, αν διορίστηκαν και πού, τα μόριά τους, καθώς και ειδικά κριτήρια (εντοπιότητα, ειδικές κατηγορίες όπως ΑΜΕΑ ή πολυτεκνία, τίτλους σπουδών, προτιμήσεις θέσεων).
-- Σκέψου συνδυαστικά και ανθρώπινα. Αν ένας χρήστης ρωτάει κάτι για την αίτησή του ή το προφίλ του (π.χ. «αν μέτρησε η ειδική κατηγορία μου ΑΜΕΑ», «πόσα μόρια έχω»), εξήγησε ότι αυτά τα στοιχεία υπάρχουν στους πίνακες και ΖΗΤΑ του ευγενικά το Ονοματεπώνυμο ή τον Αριθμό Μητρώου (Α.Μ.) της αίτησής του για να ελέγξεις το προφίλ του.
-- Χρησιμοποίησε τα διαθέσιμα εργαλεία (search_candidate, get_candidate_profile, get_position_info, get_eidikotita_stats) για να ανακτήσεις τα πραγματικά δεδομένα πριν απαντήσεις.
-- Όταν βρίσκεις το προφίλ, απάντησε ξεκάθαρα και με ακρίβεια σε αυτό που ρώτησε.
-
-ΥΦΟΣ:
-- Φιλικό, προσγειωμένο, κατανοητό, χωρίς γραφειοκρατική ξύλινη γλώσσα.
-- Απάντα πάντα στα Ελληνικά.
-
-ΣΗΜΑΝΤΙΚΗ ΔΙΕΥΚΡΙΝΙΣΗ ΓΙΑ ΕΙΔΙΚΕΣ ΚΑΤΗΓΟΡΙΕΣ (ΑΜΕΑ, ΠΟΛΥΤΕΚΝΟΙ ΚΛΠ.):
-- Στους πίνακες του ΑΣΕΠ, το πεδίο «ΕΙΔΙΚΕΣ ΙΔΙΟΤΗΤΕΣ» καταγράφεται συγκεντρωτικά ως «ΝΑΙ».
-- Επομένως, όταν το πεδίο eidikes_idiotites αναφέρει «ΝΑΙ», σημαίνει ότι η ειδική κατηγορία (είτε ΑΜΕΑ, είτε έμμεση ΑΜΕΑ, είτε πολυτεκνία) έχει ΕΛΕΓΧΘΕΙ ΚΑΙ ΕΧΕΙ ΛΗΦΘΕΙ ΥΠΟΨΗ.
-- Μην λες ποτέ ότι δεν έχει ληφθεί υπόψη αν το πεδίο είναι «ΝΑΙ»!
-
-ΓΕΝΙΚΑ ΣΤΟΙΧΕΙΑ ΔΙΑΓΩΝΙΣΜΟΥ:
-Σύνολο Υποψηφίων: ${getContext().globalStats.total_candidates} | Διοριστέοι: ${getContext().globalStats.total_dioristoi}
-Μέση Βαθμολογία: ${getContext().globalStats.avg_vath} | Max: ${getContext().globalStats.max_vath}
-Προθεσμία ενστάσεων: ${getContext().faqData.prothesmia_enstaseon || "13–22 Οκτωβρίου 2026, 14:00"}
-Παράβολο ένστασης: ${getContext().faqData.paravolo_enstasis || "50 ευρώ"}`;
-
-
-// === TOOLS SCHEMA ===
-const tools = [
-  {
-    type: "function" as const,
-    function: {
-      name: "search_candidate",
-      description: "Αναζητά υποψήφιο με επώνυμο και προαιρετικά όνομα.",
-      parameters: {
-        type: "object",
-        properties: {
-          eponymo: { type: "string", description: "Το επώνυμο (π.χ. 'Παπαδόπουλος')" },
-          onoma: { type: "string", description: "Το όνομα (προαιρετικό)" },
-        },
-        required: ["eponymo"],
-      },
-    },
-  },
-  {
-    type: "function" as const,
-    function: {
-      name: "get_candidate_profile",
-      description: "Ανακτά την πλήρη καρτέλα υποψηφίου με βάση τον Α.Μ. της αίτησης.",
-      parameters: {
-        type: "object",
-        properties: {
-          am: { type: "string", description: "Ο Α.Μ. αίτησης του υποψηφίου" },
-        },
-        required: ["am"],
-      },
-    },
-  },
-  {
-    type: "function" as const,
-    function: {
-      name: "get_eidikotita_stats",
-      description: "Στατιστικά και βάσεις για μια ειδικότητα.",
-      parameters: {
-        type: "object",
-        properties: {
-          slug: { type: "string", description: "Το slug της ειδικότητας" },
-        },
-        required: ["slug"],
-      },
-    },
-  },
-  {
-    type: "function" as const,
-    function: {
-      name: "get_position_info",
-      description: "Ποιοι διορίστηκαν σε συγκεκριμένο κωδικό θέσης.",
-      parameters: {
-        type: "object",
-        properties: {
-          thesi_kod: { type: "string", description: "Ο κωδικός θέσης" },
-        },
-        required: ["thesi_kod"],
-      },
-    },
-  },
-];
-
-// === TOOL DISPATCHER ===
-async function executeTool(name: string, args: any): Promise<string> {
+function getStatsByEidikotitaName(eidikotitaName: string) {
   try {
-    if (name === "search_candidate") {
-      const results = await searchCandidate(args.eponymo, args.onoma);
-      if (results.length === 0) {
-        return `Δεν βρέθηκαν αποτελέσματα για "${args.eponymo}".`;
+    const indexFilePath = join(process.cwd(), "public", "data", "eidikotites_index.json");
+    const indexData = JSON.parse(readFileSync(indexFilePath, "utf-8"));
+    const normalizedSearch = normalizeText(eidikotitaName);
+    
+    const foundEidikotita = indexData.find((e: any) => 
+      normalizeText(e.eidikotita) === normalizedSearch || 
+      normalizeText(e.eidikotita).includes(normalizedSearch)
+    );
+
+    if (!foundEidikotita) return null;
+    const correctSlug = foundEidikotita.slug;
+
+    const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
+    const chunkIndex = JSON.parse(readFileSync(chunkIndexPath, "utf-8"));
+    const chunkFiles = chunkIndex[correctSlug];
+
+    if (!chunkFiles || chunkFiles.length === 0) return null;
+
+    const chunksDir = join(process.cwd(), "public", "data", "chunks");
+    const allRecords: any[] = [];
+
+    for (const chunkName of chunkFiles) {
+      const cPath = join(chunksDir, chunkName);
+      if (existsSync(cPath)) {
+        const chunkData = JSON.parse(readFileSync(cPath, "utf-8"));
+        allRecords.push(...chunkData);
       }
-      return JSON.stringify(
-        {
-          total: results.length,
-          candidates: results.map((r) => ({
-            am: String(r.am).replace(/\.0$/, ""),
-            eponymo: r.eponymo,
-            onoma: r.onoma,
-            slug: r.slug,
-          })),
-        },
-        null,
-        2
-      );
     }
 
-    if (name === "get_candidate_profile") {
-      const profile = await getCandidateProfile(args.am);
-      if (!profile) return `Δεν βρέθηκε υποψήφιος με Α.Μ. ${args.am}.`;
-      return JSON.stringify(formatProfile(profile), null, 2);
-    }
+    if (allRecords.length === 0) return null;
 
-    if (name === "get_eidikotita_stats") {
-      const stats = await getEidikotitaStats(args.slug);
-      if (!stats) return `Δεν βρέθηκε ειδικότητα.`;
-      return JSON.stringify({ slug: stats.slug, stats: stats.stats }, null, 2);
-    }
+    const appointed = allRecords.filter((r) => !!r.thesi_diorismou);
+    const appointedScores = appointed
+      .map((r) => parseFloat(r.vathmologia))
+      .filter((s) => !isNaN(s) && s > 0);
 
-    if (name === "get_position_info") {
-      const result = await getPositionInfo(args.thesi_kod);
-      return JSON.stringify(result, null, 2);
-    }
+    const totalCount = allRecords.length;
+    const dioristoiCount = appointed.length;
+    const avg_vath = appointedScores.length
+      ? appointedScores.reduce((a, b) => a + b, 0) / appointedScores.length
+      : 0;
+    const max_vath = appointedScores.length ? Math.max(...appointedScores) : 0;
+    const min_vath = appointedScores.length ? Math.min(...appointedScores) : 0;
 
-    return `Άγνωστο εργαλείο: ${name}`;
-  } catch (e: any) {
-    return `Σφάλμα: ${e.message}`;
+    return { slug: correctSlug, count: totalCount, dioristoi: dioristoiCount, avg_vath, max_vath, min_vath };
+  } catch (error) {
+    return null;
   }
 }
 
-// === GROQ CALL WITH ROTATION ===
-async function callGroqWithRotation(conversation: any[]): Promise<any> {
-  for (let i = 0; i < GROQ_KEYS.length; i++) {
-    const keyId = `groq-${i}`;
-    if (isKeyOnCooldown(keyId)) continue;
-
-    try {
-      const groq = new Groq({ apiKey: GROQ_KEYS[i] });
-      const completion = await groq.chat.completions.create({
-        model: "openai/gpt-oss-120b",
-        messages: conversation,
-        tools: tools,
-        tool_choice: "auto",
-        temperature: 0.3,
-        max_tokens: 600,
-      });
-      return completion;
-    } catch (e: any) {
-      const errStr = String(e).toLowerCase();
-      if (errStr.includes("429") || errStr.includes("rate")) {
-        setKeyCooldown(keyId, 60000);
-        continue;
-      }
-      console.error(`[GROQ] Key ${i + 1} error:`, e.message);
-      continue;
-    }
-  }
-  throw new Error("All Groq keys exhausted");
-}
-
-// === MAIN HANDLER ===
 export async function POST(request: Request) {
   try {
-    const ip =
-      request.headers.get("x-forwarded-for")?.split(",")[0].trim() ||
-      request.headers.get("x-real-ip") ||
-      "unknown";
+    const { action, payload } = await request.json();
 
-    // 2 ερωτήσεις ανά 30 λεπτά
-    const limit = rateLimit(ip, 2, 30 * 60 * 1000);
-    if (!limit.success) {
-      return NextResponse.json(
-        { error: "Έφτασες το όριο (2 ερωτήσεις / 30 λεπτά). Τα tokens δεν είναι άπειρα 😉 Δοκίμασε ξανά αργότερα." },
-        { status: 429 }
-      );
+    if (!action) {
+      return NextResponse.json({ error: "No action provided" }, { status: 400 });
     }
 
-    const { messages } = await request.json();
-    if (!messages || !Array.isArray(messages)) {
-      return NextResponse.json({ error: "Invalid request" }, { status: 400 });
-    }
-
-    const lastUser = messages.filter((m: any) => m.role === "user").pop();
-    if (!lastUser || !lastUser.content) {
-      return NextResponse.json({ error: "No message" }, { status: 400 });
-    }
-
-    if (lastUser.content.length > 350) {
-      return NextResponse.json(
-        { error: "Η ερώτηση είναι πολύ μεγάλη (max 350 χαρακτήρες)." },
-        { status: 400 }
-      );
-    }
-
-    // Μόνο πραγματικά prompt leak hacks μπλοκάρονται, καμία φυσιολογική ερώτηση
-    if (/system\s+prompt\s+leak/i.test(lastUser.content)) {
+    // --- 1. ΑΡΧΙΚΟ ΜΕΝΟΥ ---
+    if (action === "START") {
       return NextResponse.json({
-        reply: "Δεν μπορώ να απαντήσω σε αυτό. Ρώτησέ με οτιδήποτε για τα αποτελέσματα του διαγωνισμού!",
-        remaining: limit.remaining,
+        reply: pickRandom([
+          "Γεια σου! 👋 Είμαι ο έξυπνος βοηθός του ASEP Analytics.\n\nΠώς μπορώ να σε βοηθήσω σήμερα;",
+          "Καλώς ήρθες! 👋 Είμαι εδώ για να σε βοηθήσω με τα δεδομένα του ΑΣΕΠ.\n\nΤι θα ήθελες να κάνουμε;",
+          "Χαίρομαι που σε βλέπω! 👋 Πες μου, τι ψάχνεις σήμερα;"
+        ]),
+        options: [
+          { label: "Βρες τη θέση μου", value: "MENU_FIND_POSITION", iconName: "map-pin" },
+          { label: "Δες τα Στατιστικά", value: "MENU_STATS", iconName: "file-text" },
+          { label: "Προετοιμασία 2027", value: "MENU_PREP", iconName: "sparkles" },
+          { label: "Αναζήτηση Υποψηφίου", value: "MENU_SEARCH_NAME", iconName: "search" },
+        ]
       });
     }
 
-    const wrappedPrevious = messages.slice(-4, -1).map((m: any) => ({
-      role: m.role,
-      content:
-        m.role === "user"
-          ? `<user_input>${escapeUserInput(m.content)}</user_input>`
-          : m.content,
-    }));
+    // --- 2. ΒΡΕΣ ΤΗ ΘΕΣΗ ΜΟΥ ---
+    if (action === "MENU_FIND_POSITION") {
+      return NextResponse.json({
+        reply: pickRandom([
+          "Τέλεια! Θέλεις να ψάξεις με βάση τον Αριθμό Αίτησης (Α.Μ.) σου ή με βάση τον Κωδικό Θέσης;",
+          "Φυσικά! Πώς θέλεις να το ψάξουμε; Με το Α.Μ. σου ή με τον Κωδικό Θέσης;",
+          "Πάμε να το βρούμε! Έχεις τον Αριθμό Αίτησης (Α.Μ.) ή τον Κωδικό Θέσης πρόχειρο;"
+        ]),
+        options: [
+          { label: "Έχω Αριθμό Αίτησης (Α.Μ.)", value: "INPUT_AM", iconName: "user" },
+          { label: "Έχω Κωδικό Θέσης", value: "INPUT_THESI", iconName: "map-pin" },
+          { label: "Πίσω στο μενού", value: "START", iconName: "refresh" }
+        ]
+      });
+    }
 
-    const conversation: any[] = [
-      { role: "system", content: SYSTEM_PROMPT },
-      ...wrappedPrevious,
-      {
-        role: "user",
-        content: `<user_input>${escapeUserInput(lastUser.content)}</user_input>`,
-      },
-    ];
+    // --- 3. ΑΝΑΖΗΤΗΣΗ ΜΕ ΑΜ ---
+    if (action === "INPUT_AM") {
+      return NextResponse.json({ 
+        reply: pickRandom([
+          "Γράψε μου τον Αριθμό Αίτησης (Α.Μ.) σου παρακάτω (π.χ. 12345) και θα τον ψάξω αμέσως.",
+          "Δώσε μου το Α.Μ. σου και θα δω τι βρήκες! (π.χ. 12345)",
+          "Περιμένω το Α.Μ. σου! Γράψ' το εδώ και θα σου πω τα πάντα."
+        ]), 
+        expectingInput: "AM" 
+      });
+    }
 
-    let iterations = 0;
-    const MAX_ITERATIONS = 3;
-    let finalReply = "";
+    // --- 4. ΑΝΑΖΗΤΗΣΗ ΜΕ ΚΩΔΙΚΟ ΘΕΣΗΣ ---
+    if (action === "INPUT_THESI") {
+      return NextResponse.json({ 
+        reply: pickRandom([
+          "Γράψε μου τον κωδικό θέσης παρακάτω (π.χ. 1031) και θα τον ψάξω.",
+          "Ποιος είναι ο κωδικός θέσης που ψάχνεις; (π.χ. 1031)",
+          "Δώσε μου τον κωδικό και θα σου πω όλες τις λεπτομέρειες."
+        ]), 
+        expectingInput: "THESI" 
+      });
+    }
 
-    while (iterations < MAX_ITERATIONS) {
-      iterations++;
+    // --- 5. ΣΤΑΤΙΣΤΙΚΑ (ΜΕ CONTEXT) ---
+    if (action === "MENU_STATS") {
+      const eidikotitaName = payload?.eidikotitaName;
+      
+      if (eidikotitaName) {
+        const stats = getStatsByEidikotitaName(eidikotitaName);
+        
+        if (stats) {
+          let sauce = "";
+          if (stats.dioristoi > stats.count / 2) sauce = "Φαίνεται πως οι πιθανότητες είναι με το μέρος σου! 🍀";
+          else if (stats.avg_vath > 80) sauce = "Ο ανταγωνισμός είναι υψηλός, αλλά μην πτοείσαι! 💪";
+          else sauce = "Τα πράγματα φαίνονται αρκετά βατά! 😊";
 
-      let completion;
-      try {
-        completion = await callGroqWithRotation(conversation);
-      } catch {
+          return NextResponse.json({
+            reply: pickRandom([
+              `Βρήκα τα στατιστικά για την ειδικότητα "${eidikotitaName}"! 📊\n\nΣυνολικά υπάρχουν ${stats.count} υποψήφιοι, ενώ διορίστηκαν ${stats.dioristoi} άτομα. Η μέση βαθμολογία είναι ${stats.avg_vath.toFixed(2)} μόρια (Max: ${stats.max_vath.toFixed(2)}, Min: ${stats.min_vath.toFixed(2)}). ${sauce}`,
+              `Ορίστε τι βρήκα για την ειδικότητα "${eidikotitaName}": 📊\n\nΑπό τους ${stats.count} υποψηφίους, διορίστηκαν οι ${stats.dioristoi}. Η μέση βαθμολογία αγγίζει τα ${stats.avg_vath.toFixed(2)} μόρια. ${sauce}`,
+              `Έτοιμα τα στοιχεία! 📊\n\nΣτην ειδικότητα "${eidikotitaName}" είχαμε ${stats.count} υποψηφίους, με ${stats.dioristoi} διορισμούς. Μέση βαθμολογία: ${stats.avg_vath.toFixed(2)}. ${sauce}`
+            ]),
+            link: `/eidikotita/${stats.slug}`,
+            linkText: `📊 Προβολή Στατιστικών Ειδικότητας`,
+            options: [
+              { label: "Δες τον Χάρτη Θέσεων", value: "MENU_MAP", iconName: "map-pin" },
+              { label: "Πίσω στο μενού", value: "START", iconName: "refresh" }
+            ]
+          });
+        }
+        
         return NextResponse.json({
-          reply: "Ο AI βοηθός είναι προσωρινά απασχολημένος. Δοκίμασε σε 1-2 λεπτά.",
-          remaining: limit.remaining,
+          reply: "Χμμ, δεν βρήκα αναλυτικά στατιστικά για αυτή την ειδικότητα. Ίσως να δοκιμάσεις τα γενικά στατιστικά;",
+          link: `/stats`,
+          linkText: `📊 Γενικά Στατιστικά`,
+          options: [{ label: "Πίσω στο μενού", value: "START", iconName: "refresh" }]
         });
       }
 
-      const message = completion.choices[0]?.message;
-      if (!message) {
-        finalReply = "Σφάλμα απάντησης.";
-        break;
-      }
-
-      if (message.tool_calls && message.tool_calls.length > 0) {
-        conversation.push(message);
-        for (const toolCall of message.tool_calls) {
-          const result = await executeTool(
-            toolCall.function.name,
-            JSON.parse(toolCall.function.arguments)
-          );
-          conversation.push({
-            role: "tool",
-            tool_call_id: toolCall.id,
-            content: result,
-          });
-        }
-        continue;
-      }
-
-      finalReply = message.content || "Δεν μπόρεσα να βρω απάντηση.";
-      break;
+      return NextResponse.json({
+        reply: pickRandom([
+          "Τα στατιστικά είναι η ειδικότητά μου! 📊 Μπορείς να δεις όλες τις βάσεις μορίων.",
+          "Λατρεύω τα νούμερα! 📊 Δες όλες τις βάσεις και την κατανομή ανά ειδικότητα.",
+          "Πάμε να δούμε τα στατιστικά! 📊 Έχω όλα τα δεδομένα έτοιμα."
+        ]),
+        link: "/stats",
+        linkText: "📊 Προβολή Όλων των Στατιστικών",
+        options: [
+          { label: "Δες τον Χάρτη Θέσεων", value: "MENU_MAP", iconName: "map-pin" },
+          { label: "Πίσω στο μενού", value: "START", iconName: "refresh" }
+        ]
+      });
     }
 
-    return NextResponse.json({
-      reply: finalReply,
-      remaining: limit.remaining,
+    // --- 6. ΠΡΟΕΤΟΙΜΑΣΙΑ 2027 ---
+    if (action === "MENU_PREP") {
+      return NextResponse.json({
+        reply: pickRandom([
+          "Καλή σκέψη να ξεκινήσεις νωρίς! 📚 Έχω τις επίσημες ερωτήσεις και τα τεστ δεξιοτήτων για το 2027.",
+          "Το μέλλον ανήκει σε όσους προετοιμάζονται! 📚 Δες τις ερωτήσεις και τα τεστ για το 2027.",
+          "Μπράβο που το σκέφτεσαι από τώρα! 📚 Ξεκίνα την προετοιμασία για το 2027."
+        ]),
+        link: "/proetoimasia",
+        linkText: "📚 Ξεκίνα την Προετοιμασία",
+        options: [
+          { label: "Βαρόμετρο Ζήτησης Φορέων", value: "MENU_ZITIS", iconName: "sparkles" },
+          { label: "Πίσω στο μενού", value: "START", iconName: "refresh" }
+        ]
+      });
+    }
+
+    // --- 7. ΧΑΡΤΗΣ ---
+    if (action === "MENU_MAP") {
+      return NextResponse.json({
+        reply: pickRandom([
+          "Ο διαδραστικός χάρτης δείχνει πού κατανέμονται οι θέσεις ανά Περιφέρεια. 🗺️",
+          "Θες να δεις γεωγραφικά τις θέσεις; Ο χάρτης είναι έτοιμος! 🗺️",
+          "Δες πού βρίσκονται οι θέσεις ανά την Ελλάδα! 🗺️"
+        ]),
+        link: "/xartis",
+        linkText: "🗺️ Άνοιγμα Χάρτη",
+        options: [{ label: "Πίσω στο μενού", value: "START", iconName: "refresh" }]
+      });
+    }
+
+    // --- 8. ΖΗΤΗΣΗ ΦΟΡΕΩΝ ---
+    if (action === "MENU_ZITIS") {
+      return NextResponse.json({
+        reply: pickRandom([
+          "Δες ποιοι φορείς συγκέντρωσαν τον υψηλότερο ανταγωνισμό. 📈",
+          "Ποιοι φορείς είχαν τη μεγαλύτερη ζήτηση; Δες το βαρόμετρο! 📈",
+          "Μια ματιά στο βαρόμετρο ζήτησης θα σε βοηθήσει να επιλέξεις στρατηγικά. 📈"
+        ]),
+        link: "/zitisi",
+        linkText: "📈 Βαρόμετρο Ζήτησης",
+        options: [{ label: "Πίσω στο μενού", value: "START", iconName: "refresh" }]
+      });
+    }
+
+    // --- 9. ΑΝΑΖΗΤΗΣΗ ΜΕ ΕΠΩΝΥΜΟ ---
+    if (action === "MENU_SEARCH_NAME") {
+      return NextResponse.json({ 
+        reply: pickRandom([
+          "Φυσικά! Γράψε μου το επώνυμο του υποψηφίου παρακάτω και θα ψάξω στους πίνακες.",
+          "Ποιο επώνυμο ψάχνεις; Γράψ' το εδώ και θα το βρω.",
+          "Δώσε μου το επώνυμο και θα σου πω τι βρήκα."
+        ]), 
+        expectingInput: "SURNAME" 
+      });
+    }
+
+    // --- 10. ΑΠΕΥΘΕΙΑΣ LINK ---
+    if (action === "DIRECT_LINK") {
+      const link = payload?.link;
+      const linkText = payload?.linkText;
+      if (link) {
+        return NextResponse.json({
+          reply: pickRandom([
+            "Έτοιμο! Πάτα το κουμπί για να ανοίξεις τη σελίδα.",
+            "Ορίστε το link που ζήτησες! Πάτα για να το δεις.",
+            "Το βρήκα! Πάτα εδώ για να μεταφερθείς."
+          ]),
+          link: link,
+          linkText: linkText || "Άνοιγμα",
+          options: [{ label: "Πίσω στο μενού", value: "START", iconName: "refresh" }]
+        });
+      }
+    }
+
+    // --- 11. ΕΛΕΓΧΟΣ INPUT (ΑΜ, ΘΕΣΗ, ΕΠΩΝΥΜΟ) ---
+    if (action === "SUBMIT_INPUT") {
+      const input = payload?.text || "";
+      const type = payload?.type;
+
+      if (type === "AM") {
+        if (!/^\d{4,6}$/.test(input)) {
+          return NextResponse.json({ 
+            reply: pickRandom([
+              "Ο Αριθμός Αίτησης (Α.Μ.) πρέπει να είναι αριθμός (π.χ. 12345). Δοκίμασε ξανά.",
+              "Χμμ, αυτό δεν μοιάζει με Α.Μ. Θέλει μόνο νούμερα (π.χ. 12345).",
+              "Περίμενε, το Α.Μ. έχει μόνο νούμερα. Δοκίμασε ξανά."
+            ]), 
+            expectingInput: "AM" 
+          });
+        }
+        
+        const candidate = getCandidateDetails(input);
+        if (candidate) {
+          const fullName = `${candidate.eponymo} ${candidate.onoma || ''}`.trim();
+          
+          // Διαμόρφωση του status (Διορίστηκε ή όχι)
+          let statusText = "";
+          if (candidate.thesiDiorismou) {
+            statusText = `Διορίστηκες στη θέση με κωδικό ${candidate.thesiDiorismou}! 🎉`;
+          } else {
+            statusText = `Δεν βλέπω κάποιον διορισμό στο όνομά σου. Μπορεί να είσαι στους επιλαχόντες ή να μην έφτασες τη βάση. Μην απογοητεύεσαι!`;
+          }
+
+          return NextResponse.json({
+            reply: pickRandom([
+              `Βρήκα τον υποψήφιο! 🎯\n\nΕίναι ο/η ${fullName} και βρίσκεται στη σειρά κατάταξης με αύξοντα αριθμό ${candidate.aa} στην ειδικότητα ${candidate.eidikotitaName}.\n\n${statusText}`,
+              `Τον/Την βρήκα! 🎯\n\nΟ/Η ${fullName} είναι στη θέση ${candidate.aa} της κατάταξης για την ειδικότητα ${candidate.eidikotitaName}.\n\n${statusText}`,
+              `Ορίστε! 🎯\n\nΒρήκα τον/την ${fullName}. Η σειρά κατάταξής του/της είναι ${candidate.aa} στην ειδικότητα ${candidate.eidikotitaName}.\n\n${statusText}`
+            ]),
+            link: `/ypopsifios/${candidate.am}`,
+            linkText: `👤 Προβολή Καρτέλας`,
+            options: [{ label: "Δες τα Στατιστικά", value: "MENU_STATS", iconName: "file-text" }, { label: "Νέα Αναζήτηση", value: "START", iconName: "refresh" }]
+          });
+        }
+        
+        return NextResponse.json({ 
+          reply: pickRandom([
+            `Δεν βρήκα υποψήφιο με Α.Μ. ${input}. Σίγουρα το έγραψες σωστά;`,
+            `Χμμ, δεν βρήκα κάτι με αυτό το Α.Μ. (${input}). Δοκίμασε ξανά.`,
+            `Δεν υπάρχει υποψήφιος με Α.Μ. ${input}. Μήπως έκανες κάποιο λάθος;`
+          ]), 
+          options: [{ label: "Νέα Αναζήτηση", value: "START", iconName: "refresh" }] 
+        });
+      }
+
+      if (type === "THESI") {
+        if (!/^\d{3,5}$/.test(input)) {
+          return NextResponse.json({ 
+            reply: pickRandom([
+              "Ο κωδικός θέσης πρέπει να είναι αριθμός (π.χ. 1031). Δοκίμασε ξανά.",
+              "Χμμ, ο κωδικός θέσης έχει μόνο νούμερα. Δοκίμασε ξανά.",
+              "Ο κωδικός θέσης δεν μπορεί να έχει γράμματα. Δοκίμασε ξανά."
+            ]), 
+            expectingInput: "THESI" 
+          });
+        }
+
+        const pos = getPositionDetails(input);
+        if (pos) {
+          return NextResponse.json({
+            reply: pickRandom([
+              `Βρήκα τη θέση! 🎯\n\nΑντιστοιχεί στον φορέα ${pos.foreas} με έδρα ${pos.edra}. Η ειδικότητα είναι ${pos.eidikotita} και αφορά ${pos.theseis} θέση(εις).`,
+              `Την εντόπισα! 🎯\n\nΕίναι στον φορέα ${pos.foreas} (${pos.edra}) για την ειδικότητα ${pos.eidikotita}. Προκηρύχθηκαν ${pos.theseis} θέση(εις).`,
+              `Ορίστε η θέση! 🎯\n\nΟ φορέας είναι ${pos.foreas}, με έδρα ${pos.edra}. Ψάχνουν για ${pos.eidikotita} και αφορά ${pos.theseis} θέση(εις).`
+            ]),
+            link: `/thesi/${pos.kod_thesis}`,
+            linkText: `📍 Προβολή Θέσης`,
+            options: [
+              { label: "Δες τα Στατιστικά της Ειδικότητας", value: `MENU_STATS_NAME_${encodeURIComponent(pos.eidikotita)}`, iconName: "file-text" },
+              { label: "Νέα Αναζήτηση", value: "START", iconName: "refresh" }
+            ]
+          });
+        }
+        
+        return NextResponse.json({ 
+          reply: pickRandom([
+            `Δεν βρήκα στοιχεία για τη θέση με κωδικό ${input}. Σίγουρα είναι σωστός;`,
+            `Χμμ, δεν βρήκα τη θέση ${input}. Δοκίμασε ξανά.`,
+            `Δεν υπάρχει θέση με κωδικό ${input}. Μήπως έκανες κάποιο λάθος;`
+          ]), 
+          options: [{ label: "Νέα Αναζήτηση", value: "START", iconName: "refresh" }] 
+        });
+      }
+
+      if (type === "SURNAME") {
+        try {
+          const filePath = join(process.cwd(), "public", "data", "search_index.json");
+          const index = JSON.parse(readFileSync(filePath, "utf-8"));
+          
+          const normalizedInput = normalizeText(input);
+          const matches = index.filter((c: any) => normalizeText(c.eponymo || "").includes(normalizedInput));
+          const uniqueMatches = Array.from(new Map(matches.map((c: any) => [c.am, c])).values());
+
+          if (uniqueMatches.length === 0) {
+            return NextResponse.json({ 
+              reply: pickRandom([
+                `Δεν βρήκα κανέναν υποψήφιο με επώνυμο που να περιέχει "${input}".`,
+                `Χμμ, δεν βρήκα κανέναν με επώνυμο "${input}". Δοκίμασε διαφορετική ορθογραφία.`,
+                `Δεν υπάρχει υποψήφιος με επώνυμο "${input}". Σίγουρα το έγραψες σωστά;`
+              ]), 
+              options: [{ label: "Νέα Αναζήτηση", value: "START", iconName: "refresh" }] 
+            });
+          }
+
+          if (uniqueMatches.length === 1) {
+            const c: any = uniqueMatches[0];
+            return NextResponse.json({
+              reply: pickRandom([
+                `Βρήκα τον υποψήφιο ${c.eponymo} ${c.onoma || ''} (Α.Μ. Αίτησης: ${c.am}).`,
+                `Ορίστε! Βρήκα τον/την ${c.eponymo} ${c.onoma || ''} με Α.Μ. ${c.am}.`,
+                `Τον/Την βρήκα! Είναι ο/η ${c.eponymo} ${c.onoma || ''} (Α.Μ. ${c.am}).`
+              ]),
+              link: `/ypopsifios/${c.am}`,
+              linkText: `👤 Προβολή Υποψηφίου`,
+              options: [{ label: "Νέα Αναζήτηση", value: "START", iconName: "refresh" }]
+            });
+          }
+
+          const topMatches = uniqueMatches.slice(0, 4);
+          const options = topMatches.map((c: any) => ({
+            label: `${c.eponymo} ${c.onoma || ''} (Α.Μ.: ${c.am})`,
+            value: `DIRECT_AM_${c.am}`,
+            iconName: "user"
+          }));
+
+          if (uniqueMatches.length > 4) {
+            options.push({ label: `Προβολή όλων (${uniqueMatches.length})`, value: `SEARCH_ALL_${encodeURIComponent(input)}`, iconName: "search" });
+          }
+
+          return NextResponse.json({ 
+            reply: pickRandom([
+              `Βρήκα ${uniqueMatches.length} υποψηφίους με επώνυμο "${input}". Διάλεξε ποιος είσαι:`,
+              `Υπάρχουν ${uniqueMatches.length} άτομα με επώνυμο "${input}". Ποιος από αυτούς είσαι;`,
+              `Εντόπισα ${uniqueMatches.length} εγγραφές για "${input}". Διάλεξε το όνομά σου:`
+            ]), 
+            options: options 
+          });
+
+        } catch (err) {
+          return NextResponse.json({ reply: "Κάτι πήγε στραβά με την αναζήτηση. Δοκίμασε ξανά." });
+        }
+      }
+    }
+
+    return NextResponse.json({ 
+      reply: pickRandom([
+        "Συγγνώμη, δεν κατάλαβα τι θέλεις να κάνω. Πάτα στο κουμπί για να ξεκινήσουμε.",
+        "Χμμ, δεν είμαι σίγουρος τι εννοείς. Ας ξεκινήσουμε από την αρχή.",
+        "Δεν κατάφερα να καταλάβω. Πάτα εδώ για να δεις τις επιλογές."
+      ]), 
+      options: [{ label: "Κεντρικό Μενού", value: "START", iconName: "refresh" }] 
     });
-  } catch (error: any) {
-    console.error("Chat error:", error);
-    return NextResponse.json(
-      { error: "Σφάλμα συστήματος. Δοκίμασε ξανά." },
-      { status: 500 }
-    );
+  } catch (error) {
+    return NextResponse.json({ error: "System error" }, { status: 500 });
   }
-} */
-
-  import { NextResponse } from "next/server";
-
-export async function POST() {
-  return NextResponse.json({
-    reply:
-      "Ο AI Βοηθός βρίσκεται σε προσωρινή παύση λειτουργίας λόγω αυξημένης κίνησης. Παρακαλούμε χρησιμοποιήστε την Αναζήτηση και τον Χάρτη για να δείτε τα αποτελέσματά σας.",
-    paused: true,
-  });
 }

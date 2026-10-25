@@ -22,15 +22,21 @@ export const metadata: Metadata = {
     description:
       "Δωρεάν online προσομοίωση 76 τριάδων εργασιακής συμπεριφοράς. Ανακαλύψτε το προφίλ σας για τον επόμενο γραπτό διαγωνισμό ΑΣΕΠ.",
     url: "https://asepanalytics.app/proetoimasia/ergasiakes-deksiotites",
-    siteName: "ΑΣΕΠ 2ΓΒ/2026 Hub",
+    siteName: "ΑΣΕΠ Analytics Hub",
     images: [
       {
-        url: "/og-image.png",
+        url: "/api/og?t0=teamwork&s0=92&t1=results&s1=84", // 👈 Η δυναμική εικόνα!
         width: 1200,
         height: 630,
-        alt: "Τεστ Εργασιακών Δεξιοτήτων ΑΣΕΠ",
+        alt: "Τεστ Εργασιακών Δεξιοτήτων ΑΣΕΠ — Προσωπικό Προφίλ",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Τεστ Εργασιακών Δεξιοτήτων (OPQ32) — ΑΣΕΠ 2027",
+    description: "Δωρεάν προσομοίωση εργασιακής συμπεριφοράς για τον διαγωνισμό ΑΣΕΠ.",
+    images: ["/api/og?t0=teamwork&s0=92&t1=results&s1=84"],
   },
 };
 

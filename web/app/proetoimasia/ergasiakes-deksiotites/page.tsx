@@ -327,15 +327,24 @@ export default function ErgasiakesDeksiotitesPage() {
     return `${typeof window !== "undefined" ? window.location.origin : ""}/api/og?${params.toString()}`;
   }, [sortedTraits, traitScores]);
 
-  const handleShare = useCallback(() => {
-    const ogUrl = buildShareUrl();
-    const text = `🏛️ Ολοκλήρωσα το Τεστ Εργασιακών Δεξιοτήτων (OPQ32) για τον ΑΣΕΠ!\n🎯 ${TRAITS[sortedTraits[0][0]].label} (${traitScores[sortedTraits[0][0]]}%)\n\n👉 Δες το προφίλ μου: ${typeof window !== "undefined" ? window.location.href : ""}`;
+  // Δυναμικό Share URL που ενεργοποιεί την εξατομικευμένη OG κάρτα!
+  function handleShare() {
+    const t0 = sortedTraits[0]?.[0] || "teamwork";
+    const s0 = sortedTraits[0]?.[1] || 90;
+    const t1 = sortedTraits[1]?.[0] || "results";
+    const s1 = sortedTraits[1]?.[1] || 85;
+
+    // Πλήρες δυναμικό link με τα αποτελέσματα του χρήστη
+    const shareUrl = `https://asepanalytics.app/proetoimasia/ergasiakes-deksiotites?t0=${t0}&s0=${s0}&t1=${t1}&s1=${s1}`;
+
+    const text = `🏛️ Ολοκλήρωσα το επίσημο Τεστ Εργασιακών Δεξιοτήτων (OPQ32) για τον ΑΣΕΠ!\n🎯 Κυρίαρχο Χαρακτηριστικό: ${TRAITS[t0]?.label ?? t0} (${s0}%)\n⚡ Δευτερεύον: ${TRAITS[t1]?.label ?? t1} (${s1}%)\n\n👉 Κάντε κι εσείς δωρεάν το τεστ:\n${shareUrl}`;
+
     if (navigator.clipboard) {
       navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
     }
-  }, [sortedTraits, traitScores, buildShareUrl]);
+  }
 
   // ============ Render ============
   return (

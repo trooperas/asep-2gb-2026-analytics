@@ -329,22 +329,22 @@ export default function ErgasiakesDeksiotitesPage() {
 
   // Δυναμικό Share URL που ενεργοποιεί την εξατομικευμένη OG κάρτα!
   function handleShare() {
-  const t0 = sortedTraits[0]?.[0] ?? "teamwork";
-  const s0 = sortedTraits[0]?.[1] ?? 90;
-  const t1 = sortedTraits[1]?.[0] ?? "results";
-  const s1 = sortedTraits[1]?.[1] ?? 85;
+    const t0 = sortedTraits[0]?.[0] || "teamwork";
+    const s0 = sortedTraits[0]?.[1] || 90;
+    const t1 = sortedTraits[1]?.[0] || "results";
+    const s1 = sortedTraits[1]?.[1] || 85;
 
-  const origin = typeof window !== "undefined" ? window.location.origin : "https://asepanalytics.app";
-  
-  // Share the PAGE URL, not the /api/og URL
-  const shareUrl = `${origin}/proetoimasia/ergasiakes-deksiotites?t0=${t0}&s0=${s0}&t1=${t1}&s1=${s1}`;
+    // Πλήρες δυναμικό link με τα αποτελέσματα του χρήστη
+    const shareUrl = `https://asepanalytics.app/proetoimasia/ergasiakes-deksiotites?t0=${t0}&s0=${s0}&t1=${t1}&s1=${s1}`;
 
-  if (navigator.clipboard) {
-    navigator.clipboard.writeText(shareUrl);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
+    const text = `🏛️ Ολοκλήρωσα το επίσημο Τεστ Εργασιακών Δεξιοτήτων (OPQ32) για τον ΑΣΕΠ!\n🎯 Κυρίαρχο Χαρακτηριστικό: ${TRAITS[t0]?.label ?? t0} (${s0}%)\n⚡ Δευτερεύον: ${TRAITS[t1]?.label ?? t1} (${s1}%)\n\n👉 Κάντε κι εσείς δωρεάν το τεστ:\n${shareUrl}`;
+
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    }
   }
-}
 
   // ============ Render ============
   return (
@@ -532,7 +532,7 @@ export default function ErgasiakesDeksiotitesPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
             <button type="button" onClick={handleShare} className="w-full sm:w-auto px-6 py-3 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-sm flex items-center justify-center gap-2 cursor-pointer hover:scale-105 transition-all shadow-lg">
-              {copied ? <><Check className="w-4 h-4" /> Αντιγράφηκε!</> : <><Share2 className="w-4 h-4" /> Κοινοποίηση</>}
+              {copied ? <><Check className="w-4 h-4" /> Αντιγράφηκε!</> : <><Share2 className="w-4 h-4" /> Κοινοποίηση (με OG)</>}
             </button>
             <button type="button" onClick={handleReset} className="w-full sm:w-auto px-6 py-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 font-semibold text-sm flex items-center justify-center gap-2 cursor-pointer hover:text-white">
               <RotateCcw className="w-4 h-4" /> Νέα Προσομοίωση

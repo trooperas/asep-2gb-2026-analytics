@@ -334,29 +334,13 @@ export default function ErgasiakesDeksiotitesPage() {
   const t1 = sortedTraits[1]?.[0] ?? "results";
   const s1 = sortedTraits[1]?.[1] ?? 85;
 
-  const origin =
-    typeof window !== "undefined"
-      ? window.location.origin
-      : "https://asepanalytics.app";
+  const origin = typeof window !== "undefined" ? window.location.origin : "https://asepanalytics.app";
+  
+  // Share the PAGE URL, not the /api/og URL
+  const shareUrl = `${origin}/proetoimasia/ergasiakes-deksiotites?t0=${t0}&s0=${s0}&t1=${t1}&s1=${s1}`;
 
-  const ogUrl = `${origin}/api/og?t0=${encodeURIComponent(t0)}&s0=${s0}&t1=${encodeURIComponent(t1)}&s1=${s1}`;
-
-  // Native share on mobile → FB shows the image directly, no text needed
-  if (typeof navigator !== "undefined" && navigator.share) {
-    navigator
-      .share({
-        title: "Το εργασιακό μου προφίλ για το ΑΣΕΠ (OPQ32)",
-        url: ogUrl,
-      })
-      .catch(() => {
-        /* user cancelled — ignore */
-      });
-    return;
-  }
-
-  // Desktop fallback: copy the OG image URL
   if (navigator.clipboard) {
-    navigator.clipboard.writeText(ogUrl);
+    navigator.clipboard.writeText(shareUrl);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   }

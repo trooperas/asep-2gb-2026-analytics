@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 const TRAIT_LABELS: Record<string, string> = {
   teamwork: "Ομαδικότητα & Συνεργασία",
@@ -35,9 +35,9 @@ export async function GET(request: Request) {
             justifyContent: "space-between",
             backgroundColor: "#070A13",
             backgroundImage:
-              "radial-gradient(circle at 80% 20%, rgba(0, 229, 255, 0.2) 0%, transparent 60%), radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.15) 0%, transparent 60%)",
+              "radial-gradient(circle at 80% 20%, rgba(0, 229, 255, 0.22) 0%, transparent 60%), radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.18) 0%, transparent 60%)",
             padding: "60px",
-            fontFamily: "system-ui, sans-serif",
+            fontFamily: "sans-serif",
             position: "relative",
           }}
         >
@@ -48,10 +48,10 @@ export async function GET(request: Request) {
                 display: "flex",
                 alignItems: "center",
                 gap: "12px",
-                backgroundColor: "rgba(245, 158, 11, 0.1)",
+                backgroundColor: "rgba(245, 158, 11, 0.12)",
                 border: "1px solid rgba(245, 158, 11, 0.4)",
                 borderRadius: "100px",
-                padding: "8px 22px",
+                padding: "8px 24px",
               }}
             >
               <span style={{ fontSize: "20px" }}>⚡</span>
@@ -66,7 +66,7 @@ export async function GET(request: Request) {
             </div>
           </div>
 
-          {/* Central Title & Result */}
+          {/* Central Title */}
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
             <span style={{ color: "#94A3B8", fontSize: "18px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "1.5px" }}>
               Χαρτογράφηση Εργασιακού Προφίλ
@@ -84,9 +84,9 @@ export async function GET(request: Request) {
             </h1>
           </div>
 
-          {/* 2 Big Cyberpunk Progress Cards */}
+          {/* 2 Big Preview Cards with Bars */}
           <div style={{ display: "flex", gap: "20px", width: "100%" }}>
-            {/* Primary Trait */}
+            {/* Card 1 */}
             <div
               style={{
                 flex: 1,
@@ -100,7 +100,7 @@ export async function GET(request: Request) {
               }}
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ color: "#A5F3FC", fontSize: "15px", fontWeight: 700, textTransform: "uppercase" }}>
+                <span style={{ color: "#A5F3FC", fontSize: "14px", fontWeight: 700, textTransform: "uppercase" }}>
                   ΚΥΡΙΑΡΧΟ ΧΑΡΑΚΤΗΡΙΣΤΙΚΟ
                 </span>
                 <span style={{ color: "#00E5FF", fontSize: "32px", fontWeight: 800 }}>{s0}%</span>
@@ -111,7 +111,7 @@ export async function GET(request: Request) {
               </div>
             </div>
 
-            {/* Secondary Trait */}
+            {/* Card 2 */}
             <div
               style={{
                 flex: 1,
@@ -125,7 +125,7 @@ export async function GET(request: Request) {
               }}
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ color: "#A7F3D0", fontSize: "15px", fontWeight: 700, textTransform: "uppercase" }}>
+                <span style={{ color: "#A7F3D0", fontSize: "14px", fontWeight: 700, textTransform: "uppercase" }}>
                   ΔΕΥΤΕΡΕΥΟΝ ΧΑΡΑΚΤΗΡΙΣΤΙΚΟ
                 </span>
                 <span style={{ color: "#34D399", fontSize: "32px", fontWeight: 800 }}>{s1}%</span>
@@ -168,16 +168,17 @@ export async function GET(request: Request) {
           </div>
         </div>
       ),
-      { width: 1200,
+      {
+        width: 1200,
         height: 630,
         headers: {
-          "content-type": "image/png",
+          "content-type": "image/png", // 👈 ΕΓΓΥΗΣΗ ΓΙΑ ΤΟ FACEBOOK
           "cache-control": "public, max-age=31536000, immutable",
         },
-       }
+      }
     );
   } catch (e: any) {
-    console.error(e);
-    return new Response("Failed to generate dynamic skills OG image", { status: 500 });
+    console.error("OG Error:", e);
+    return new Response("Failed to generate OG image", { status: 500 });
   }
 }

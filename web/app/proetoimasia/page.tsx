@@ -411,7 +411,7 @@ export default function ProetoimasiaHubPage() {
       {/* ============================================================== */}
       {/* ΕΝΟΤΗΤΑ Γ: ΧΡΟΝΟΛΟΓΙΟ & ΕΠΙΣΗΜΕΣ ΕΞΕΛΙΞΕΙΣ 2027 */}
       {/* ============================================================== */}
-      <div className="mb-16 space-y-6">
+      <div id="timeline" className="mb-16 space-y-6">
         <div className="border-b border-slate-800 pb-3 flex items-center justify-between">
           <div>
             <span className="text-xs font-mono uppercase text-[#00E5FF] tracking-wider font-semibold">

@@ -8,6 +8,7 @@ import {
   Briefcase,
   BookOpen,
   Sparkles,
+  ArrowRight
 } from "lucide-react";
 import AnimatedCounter from "./AnimatedCounter";
 
@@ -204,11 +205,18 @@ export default function Hero({ stats }: { stats: Stats }) {
               </div>
 
               <div>
+                {/* 👈 Ο ΤΙΤΛΟΣ ΕΙΝΑΙ ΠΛΕΟΝ ΚΛΙΚΑΡΙΣΙΜΟΣ ΣΤΟ /proetoimasia */}
                 <h2 className="text-lg sm:text-xl font-bold text-white mb-1">
-                  1.988 Επίσημες Ερωτήσεις & Τεστ Δεξιοτήτων
+                  <Link
+                    href="/proetoimasia"
+                    className="hover:text-amber-300 transition-colors no-underline text-white flex items-center justify-between group"
+                  >
+                    <span>1.988 Επίσημες Ερωτήσεις &amp; Τεστ Δεξιοτήτων</span>
+                    <ArrowRight className="w-4 h-4 text-amber-400 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all flex-shrink-0" />
+                  </Link>
                 </h2>
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  Δωρεάν εξάσκηση στην επίσημη τράπεζα θεμάτων γνώσεων και online προσομοίωση <strong>εργασιακών δεξιοτήτων (OPQ32 - 76 τριάδες)</strong>.
+                  Δωρεάν εξάσκηση στην επίσημη τράπεζα θεμάτων γνώσεων και online προσομοίωση <strong>εργασιακών δεξιοτήτων (OPQ32)</strong> και <strong>επαγωγικού συλλογισμού</strong>.
                 </p>
               </div>
             </div>
@@ -221,19 +229,22 @@ export default function Hero({ stats }: { stats: Stats }) {
                 >
                   <Briefcase className="w-4 h-4" /> Τεστ OPQ32
                 </Link>
+
+                {/* 👈 ΤΟ ΚΟΥΜΠΙ ΠΗΓΑΙΝΕΙ ΑΠΕΥΘΕΙΑΣ ΣΤΟ ANCHOR #knowledge-bank */}
                 <Link
-                  href="/proetoimasia"
+                  href="/proetoimasia#knowledge-bank"
                   className="p-3 rounded-xl bg-slate-900 border border-slate-700 hover:border-amber-400 text-white font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors no-underline min-h-[44px]"
                 >
                   <BookOpen className="w-4 h-4 text-amber-400" /> 1.988 Ερωτήσεις
                 </Link>
               </div>
 
+              {/* 👈 ΤΟ ΧΡΟΝΟΛΟΓΙΟ ΠΗΓΑΙΝΕΙ ΣΤΟ ANCHOR #timeline */}
               <Link
-                href="/proetoimasia"
+                href="/proetoimasia#timeline"
                 className="text-[11px] text-slate-400 hover:text-amber-300 flex items-center justify-center gap-1 pt-1 transition-colors"
               >
-                <Sparkles className="w-3.5 h-3.5" /> Χρονολόγιο Εξελίξεων & Επίσημες Ανακοινώσεις 2027 →
+                <Sparkles className="w-3.5 h-3.5" /> Χρονολόγιο Εξελίξεων &amp; Επίσημες Ανακοινώσεις 2027 →
               </Link>
             </div>
           </div>

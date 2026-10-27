@@ -34,41 +34,40 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Θέματα & Προετοιμασία 2027",
+  title: "Τράπεζα Θεμάτων ΑΣΕΠ 2027 (1.988 Ερωτήσεις) & Τεστ Δεξιοτήτων",
   description:
-    "Κόμβος προετοιμασίας ΑΣΕΠ 2027: 1.988 θέματα γνώσεων, επαγωγικός & χωρικός συλλογισμός, τεστ εργασιακής συμπεριφοράς και επίσημο χρονολόγιο.",
+    "Δωρεάν online τεστ προετοιμασίας για τον 3ο διαγωνισμό ΑΣΕΠ 2027: 1.988 θέματα γνώσεων με απαντήσεις, τεστ επαγωγικού συλλογισμού και εργασιακές δεξιότητες (OPQ32).",
   alternates: {
     canonical: "/proetoimasia",
   },
   keywords: [
+    "τραπεζα θεματων ασεπ 2027",
+    "θεματα ασεπ 2026",
+    "τεστ επαγωγικου συλλογισμου online",
+    "δωρεαν τεστ επαγωγικου συλλογισμου",
+    "ασεπ τεστ δεξιοτητων online",
     "μητρωο θεματων ασεπ 1988",
-    "επαγωγικος συλλογισμος ασεπ",
-    "χωρικη αντιληψη ασεπ test",
-    "εργασιακη συμπεριφορα ασεπ 76 τριαδες",
-    "εργασιακες δεξιοτητες ασεπ",
+    "εργασιακες δεξιοτητες ασεπ opq32",
     "προετοιμασια 3ος πανελληνιος γραπτος διαγωνισμος 2027",
-    "θεματα γνωσεων ασεπ",
-    "ερωτησεις ασεπ pdf",
   ],
   openGraph: {
     type: "website",
     locale: "el_GR",
-    title: "ΑΣΕΠ 2027: Μητρώο 1.988 Θεμάτων & Οδηγός Δεξιοτήτων",
+    title: "Τράπεζα Θεμάτων ΑΣΕΠ 2027: 1.988 Ερωτήσεις & Τεστ Δεξιοτήτων",
     description:
-      "Δωρεάν εξάσκηση στις επίσημες ερωτήσεις γνώσεων και πλήρης οδηγός δεξιοτήτων για τον επόμενο διαγωνισμό ΑΣΕΠ.",
+      "Δωρεάν online εξάσκηση: 1.988 επίσημες ερωτήσεις γνώσεων, τεστ επαγωγικού συλλογισμού και προσομοίωση OPQ32.",
     url: "https://asepanalytics.app/proetoimasia",
-    siteName: "ΑΣΕΠ 2ΓΒ/2026 Hub",
+    siteName: "ΑΣΕΠ Analytics Hub",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ΑΣΕΠ Προετοιμασία 2027",
+        alt: "Προετοιμασία ΑΣΕΠ 2027",
       },
     ],
   },
 };
-
 const ICONS: Record<string, any> = {
   Scale,
   FileText,
@@ -230,8 +229,8 @@ export default function ProetoimasiaHubPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {/* 1. Επαγωγικός Συλλογισμός */}
-          <div className="glass p-6 rounded-2xl border border-pink-500/20 space-y-3 flex flex-col justify-between">
+          {/* 1. Επαγωγικός Συλλογισμός - ΜΕ ΑΜΕΣΟ LINK ΣΤΟ ΝΕΟ ΤΕΣΤ */}
+          <div className="glass p-6 rounded-2xl border border-pink-500/30 bg-gradient-to-b from-pink-500/5 to-transparent space-y-4 flex flex-col justify-between shadow-xl">
             <div className="space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
@@ -241,11 +240,22 @@ export default function ProetoimasiaHubPage() {
               </div>
               <h3 className="text-lg font-bold text-white">Επαγωγικός Συλλογισμός</h3>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Σχέσεις σχημάτων, μοτίβα σε πλέγματα (matrices) και λογικές ακολουθίες. Ο υποψήφιος καλείται να εντοπίσει τον κανόνα μεταβολής και να επιλέξει το σχήμα που ακολουθεί.
+                Σχέσεις σχημάτων, μοτίβα σε πλέγματα (matrices) και λογικές ακολουθίες στα πρότυπα Raven / SHL. 
+                Εξασκηθείτε με διαδραστικά vector puzzles και αναλυτική επεξήγηση της λύσης.
               </p>
             </div>
-            <div className="pt-3 border-t border-slate-800 text-[11px] text-slate-400">
-              💡 <em>Τύπος:</em> Πρότυπα Raven / SHL style.
+
+            <div className="space-y-2 pt-3 border-t border-slate-800">
+              <Link
+                href="/proetoimasia/epagogikos-syllogismos"
+                className="w-full py-2.5 px-3 rounded-xl bg-pink-600 hover:bg-pink-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-all shadow-md group no-underline"
+              >
+                <span>Έναρξη Τεστ Επαγωγικού</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <div className="text-[10px] text-center text-slate-400">
+                ⚡ Διαδραστικά Σχήματα &amp; Ανάλυση Κανόνα
+              </div>
             </div>
           </div>
 

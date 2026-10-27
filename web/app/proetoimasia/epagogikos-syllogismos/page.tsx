@@ -19,299 +19,13 @@ import {
   Lightbulb,
   Grid3X3,
   Timer,
+  Filter,
+  Zap,
 } from "lucide-react";
-
-interface MatrixQuestion {
-  id: number;
-  title: string;
-  ruleCategory: string;
-  gridType: "3x3" | "sequence";
-  gridCells: React.ReactNode[];
-  options: React.ReactNode[];
-  correctIndex: number;
-  hintText: string;
-  explanation: string;
-}
-
-// Τράπεζα Αυθεντικών Θεμάτων Matrix 3x3 & Επαγωγικών Ακολουθιών (ΑΣΕΠ / Raven Style)
-const QUESTIONS: MatrixQuestion[] = [
-  {
-    id: 1,
-    title: "Ποιο σχήμα συμπληρώνει το πλέγμα 3x3 (κάτω δεξιά);",
-    ruleCategory: "Πλέγμα 3x3: Περιστροφή & Αύξηση Στοιχείων",
-    gridType: "3x3",
-    gridCells: [
-      // Γραμμή 1: Κύκλος με 1 γραμμή (0°), 2 γραμμές (90°), 3 γραμμές (180°)
-      <svg key="c1" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="20" y2="8" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      <svg key="c2" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="32" y2="20" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="20" x2="20" y2="8" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      <svg key="c3" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="32" y2="20" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="20" x2="20" y2="32" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="20" x2="20" y2="8" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-
-      // Γραμμή 2: Τετράγωνο με 1 γραμμή, 2 γραμμές, 3 γραμμές
-      <svg key="c4" className="w-10 h-10" viewBox="0 0 40 40">
-        <rect x="8" y="8" width="24" height="24" rx="4" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="20" y2="8" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      <svg key="c5" className="w-10 h-10" viewBox="0 0 40 40">
-        <rect x="8" y="8" width="24" height="24" rx="4" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="32" y2="20" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="20" x2="20" y2="8" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      <svg key="c6" className="w-10 h-10" viewBox="0 0 40 40">
-        <rect x="8" y="8" width="24" height="24" rx="4" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="32" y2="20" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="20" x2="20" y2="32" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="20" x2="20" y2="8" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-
-      // Γραμμή 3: Τρίγωνο με 1 γραμμή, 2 γραμμές, [ ? ]
-      <svg key="c7" className="w-10 h-10" viewBox="0 0 40 40">
-        <polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      <svg key="c8" className="w-10 h-10" viewBox="0 0 40 40">
-        <polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="22" x2="30" y2="22" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      // Κελί 9: ?
-      <div key="c9" className="w-full h-full rounded-xl bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">
-        ?
-      </div>,
-    ],
-    options: [
-      <svg key="o0" className="w-10 h-10" viewBox="0 0 40 40">
-        <polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" />
-      </svg>,
-      <svg key="o1" className="w-10 h-10" viewBox="0 0 40 40">
-        <polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="22" x2="30" y2="22" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="22" x2="20" y2="30" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" />
-        <line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" />
-      </svg>,
-      <svg key="o2" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="20" x2="32" y2="20" stroke="#00FFA3" strokeWidth="3" />
-      </svg>,
-      <svg key="o3" className="w-10 h-10" viewBox="0 0 40 40">
-        <polygon points="20,6 34,34 6,34" fill="none" stroke="#00FFA3" strokeWidth="2" />
-      </svg>,
-      <svg key="o4" className="w-10 h-10" viewBox="0 0 40 40">
-        <rect x="8" y="8" width="24" height="24" fill="none" stroke="#334155" strokeWidth="2" />
-        <line x1="20" y1="8" x2="20" y2="32" stroke="#00FFA3" strokeWidth="3" />
-      </svg>,
-    ],
-    correctIndex: 1,
-    hintText: "Κάθετα το εξωτερικό σχήμα είναι ίδιο (Τρίγωνο). Οριζόντια οι ακτίνες αυξάνονται από 1 σε 2 και σε 3.",
-    explanation: "Στο πλέγμα, κάθε γραμμή διατηρεί το ίδιο εξωτερικό σχήμα (3η γραμμή = Τρίγωνα) και προσθέτει διαδοχικά μία ακτίνα δεξιόστροφα (1 -> 2 -> 3 ακτίνες). Άρα το σωστό σχήμα είναι το Τρίγωνο με 3 ακτίνες (Επιλογή Β).",
-  },
-  {
-    id: 2,
-    title: "Ποιο σχήμα συμπληρώνει τη λογική ακολουθία;",
-    ruleCategory: "Περιστροφή κατά 90° & Μετατόπιση",
-    gridType: "sequence",
-    gridCells: [
-      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" />
-        <path d="M24 10 L34 22 L27 22 L27 38 L21 38 L21 22 L14 22 Z" fill="#00E5FF" />
-      </svg>,
-      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" />
-        <path d="M38 24 L26 14 L26 21 L10 21 L10 27 L26 27 L26 34 Z" fill="#00E5FF" />
-      </svg>,
-      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" />
-        <path d="M24 38 L14 26 L21 26 L21 10 L27 10 L27 26 L34 26 Z" fill="#00E5FF" />
-      </svg>,
-      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">
-        ?
-      </div>,
-    ],
-    options: [
-      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48">
-        <path d="M10 24 L22 34 L22 27 L38 27 L38 21 L22 21 L22 14 Z" fill="#00E5FF" />
-      </svg>,
-      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48">
-        <path d="M24 10 L34 22 L27 22 L27 38 L21 38 L21 22 L14 22 Z" fill="#00E5FF" />
-      </svg>,
-      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48">
-        <circle cx="24" cy="24" r="10" fill="#00E5FF" />
-      </svg>,
-      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48">
-        <path d="M24 38 L14 26 L21 26 L21 10 L27 10 L27 26 L34 26 Z" fill="#00E5FF" />
-      </svg>,
-      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48">
-        <rect x="14" y="14" width="20" height="20" rx="4" fill="#00E5FF" />
-      </svg>,
-    ],
-    correctIndex: 0,
-    hintText: "Παρατηρήστε την κατεύθυνση: Πάνω (0°) -> Δεξιά (90°) -> Κάτω (180°).",
-    explanation: "Ο κανόνας είναι περιστροφή 90° δεξιόστροφα. Μετά το βέλος προς τα κάτω, το επόμενο δείχνει αριστερά (270° - Επιλογή Α).",
-  },
-  {
-    id: 3,
-    title: "Ποιο σχήμα ολοκληρώνει το μοτίβο του Matrix 3x3;",
-    ruleCategory: "Πλέγμα 3x3: Αφαίρεση Κοινών Γραμμών (XOR)",
-    gridType: "3x3",
-    gridCells: [
-      <svg key="m1" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="20" y1="6" x2="20" y2="34" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="m2" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="6" y1="20" x2="34" y2="20" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="m3" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="20" y1="6" x2="20" y2="34" stroke="#38BDF8" strokeWidth="3" />
-        <line x1="6" y1="20" x2="34" y2="20" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-
-      <svg key="m4" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="8" y1="32" x2="32" y2="8" stroke="#F43F5E" strokeWidth="3" />
-      </svg>,
-      <svg key="m5" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="8" y1="8" x2="32" y2="32" stroke="#F43F5E" strokeWidth="3" />
-      </svg>,
-      <svg key="m6" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="8" y1="32" x2="32" y2="8" stroke="#F43F5E" strokeWidth="3" />
-        <line x1="8" y1="8" x2="32" y2="32" stroke="#F43F5E" strokeWidth="3" />
-      </svg>,
-
-      <svg key="m7" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="12" fill="none" stroke="#F59E0B" strokeWidth="3" />
-      </svg>,
-      <svg key="m8" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="20" y1="8" x2="20" y2="32" stroke="#F59E0B" strokeWidth="3" />
-        <line x1="8" y1="20" x2="32" y2="20" stroke="#F59E0B" strokeWidth="3" />
-      </svg>,
-      <div key="m9" className="w-full h-full rounded-xl bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">
-        ?
-      </div>,
-    ],
-    options: [
-      <svg key="o0" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="12" fill="none" stroke="#F59E0B" strokeWidth="3" />
-        <line x1="20" y1="8" x2="20" y2="32" stroke="#F59E0B" strokeWidth="3" />
-        <line x1="8" y1="20" x2="32" y2="20" stroke="#F59E0B" strokeWidth="3" />
-      </svg>,
-      <svg key="o1" className="w-10 h-10" viewBox="0 0 40 40">
-        <rect x="8" y="8" width="24" height="24" fill="none" stroke="#F59E0B" strokeWidth="3" />
-      </svg>,
-      <svg key="o2" className="w-10 h-10" viewBox="0 0 40 40">
-        <circle cx="20" cy="20" r="6" fill="#F59E0B" />
-      </svg>,
-      <svg key="o3" className="w-10 h-10" viewBox="0 0 40 40">
-        <polygon points="20,8 32,30 8,30" fill="none" stroke="#F59E0B" strokeWidth="3" />
-      </svg>,
-      <svg key="o4" className="w-10 h-10" viewBox="0 0 40 40">
-        <line x1="20" y1="6" x2="20" y2="34" stroke="#F59E0B" strokeWidth="3" />
-      </svg>,
-    ],
-    correctIndex: 0,
-    hintText: "Σε κάθε γραμμή, το 3ο στοιχείο είναι η ένωση (σύνθεση) των δύο πρώτων στοιχείων.",
-    explanation: "Ο κανόνας σύνθεσης: Στοιχείο 1 + Στοιχείο 2 = Στοιχείο 3. Στην 3η γραμμή, ο κύκλος συντίθεται με τον σταυρό, παράγοντας έναν κύκλο με σταυρό μέσα (Επιλογή Α).",
-  },
-  {
-    id: 4,
-    title: "Εντοπίστε το σχήμα που ακολουθεί τη λογική:",
-    ruleCategory: "Εναλλαγή Σκίασης & Χρωμάτων (Inversion)",
-    gridType: "sequence",
-    gridCells: [
-      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#00E5FF" />
-        <circle cx="24" cy="24" r="10" fill="#0A0E1A" />
-      </svg>,
-      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#00E5FF" strokeWidth="2" />
-        <circle cx="24" cy="24" r="10" fill="#00E5FF" />
-      </svg>,
-      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#00E5FF" />
-        <polygon points="24,14 34,32 14,32" fill="#0A0E1A" />
-      </svg>,
-      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">
-        ?
-      </div>,
-    ],
-    options: [
-      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="6" fill="#0A0E1A" stroke="#00E5FF" strokeWidth="2" />
-        <polygon points="24,14 34,32 14,32" fill="#00E5FF" />
-      </svg>,
-      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48">
-        <circle cx="24" cy="24" r="12" fill="#00E5FF" />
-      </svg>,
-      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="6" fill="#00E5FF" />
-      </svg>,
-      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48">
-        <polygon points="24,34 34,16 14,16" fill="#00E5FF" />
-      </svg>,
-      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48">
-        <rect x="14" y="14" width="20" height="20" fill="#00E5FF" />
-      </svg>,
-    ],
-    correctIndex: 0,
-    hintText: "Προσέξτε πώς αντιστρέφεται το φωτεινό φόντο με το εσωτερικό σχήμα.",
-    explanation: "Εναλλαγή Inversion: Το σχήμα 1 αντιστρέφεται στο 2. Άρα το σχήμα 3 (κυανό φόντο με σκούρο τρίγωνο) αντιστρέφεται σε σκούρο φόντο με κυανό τρίγωνο (Επιλογή Α).",
-  },
-  {
-    id: 5,
-    title: "Ποιο σχήμα συμπληρώνει την αύξηση πλευρών;",
-    ruleCategory: "Γεωμετρική Ακολουθία (3, 4, 5... πλευρές)",
-    gridType: "sequence",
-    gridCells: [
-      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" />
-        <polygon points="24,12 36,34 12,34" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" />
-        <rect x="14" y="14" width="20" height="20" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48">
-        <rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" />
-        <polygon points="24,10 38,20 32,36 16,36 10,20" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">
-        ?
-      </div>,
-    ],
-    options: [
-      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48">
-        <circle cx="24" cy="24" r="12" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48">
-        <polygon points="24,8 36,15 36,29 24,36 12,29 12,15" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48">
-        <polygon points="24,10 36,24 24,38 12,24" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48">
-        <polygon points="24,12 36,34 12,34" fill="none" stroke="#38BDF8" strokeWidth="3" />
-      </svg>,
-      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48">
-        <path d="M24 10 L27 19 L36 19 L29 25 L32 34 L24 28 L16 34 L19 25 L12 19 L21 19 Z" fill="#38BDF8" />
-      </svg>,
-    ],
-    correctIndex: 1,
-    hintText: "Μετρήστε τις πλευρές: 3 (τρίγωνο), 4 (τετράγωνο), 5 (πεντάγωνο).",
-    explanation: "Αύξηση πλευρών κατά 1: Το επόμενο σχήμα πρέπει να έχει 6 πλευρές (εξάγωνο - Επιλογή Β).",
-  },
-];
+import { INDUCTIVE_PUZZLES, InductivePuzzle } from "@/data/inductive_puzzles";
 
 export default function EpagogikosSyllogismosPage() {
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [score, setScore] = useState(0);
@@ -326,7 +40,16 @@ export default function EpagogikosSyllogismosPage() {
   const [responseTimes, setResponseTimes] = useState<number[]>([]);
   const [questionStartTime, setQuestionStartTime] = useState<number>(Date.now());
 
-  const currentQ = QUESTIONS[currentIndex];
+  // Φιλτράρισμα ενεργών ερωτήσεων βάσει του επιλεγμένου Σετ
+  const activeQuestions = useMemo(() => {
+    if (selectedCategory === "all") return INDUCTIVE_PUZZLES;
+    if (selectedCategory === "speed") {
+      return [...INDUCTIVE_PUZZLES].sort(() => 0.5 - Math.random()).slice(0, 5);
+    }
+    return INDUCTIVE_PUZZLES.filter((p) => p.category === selectedCategory);
+  }, [selectedCategory]);
+
+  const currentQ = activeQuestions[currentIndex] || activeQuestions[0];
 
   useEffect(() => {
     setQuestionStartTime(Date.now());
@@ -345,10 +68,10 @@ export default function EpagogikosSyllogismosPage() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [currentIndex]);
+  }, [currentIndex, selectedCategory]);
 
   function handleUseHint() {
-    if (showHint || selectedOption !== null) return;
+    if (showHint || selectedOption !== null || !currentQ) return;
     setShowHint(true);
 
     const wrongIndices = currentQ.options
@@ -360,7 +83,7 @@ export default function EpagogikosSyllogismosPage() {
   }
 
   function handleSelectOption(idx: number) {
-    if (selectedOption !== null || eliminatedOptions.includes(idx)) return;
+    if (selectedOption !== null || eliminatedOptions.includes(idx) || !currentQ) return;
 
     const timeSpent = Math.max(1, Math.round((Date.now() - questionStartTime) / 1000));
     setResponseTimes((prev) => [...prev, timeSpent]);
@@ -375,7 +98,7 @@ export default function EpagogikosSyllogismosPage() {
 
   function handleNext() {
     setSelectedOption(null);
-    if (currentIndex < QUESTIONS.length - 1) {
+    if (currentIndex < activeQuestions.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
       setIsCompleted(true);
@@ -391,21 +114,28 @@ export default function EpagogikosSyllogismosPage() {
     setResponseTimes([]);
   }
 
+  function handleCategoryChange(cat: string) {
+    setSelectedCategory(cat);
+    handleReset();
+  }
+
   const avgTime = useMemo(() => {
     if (!responseTimes.length) return 0;
     return Math.round(responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length);
   }, [responseTimes]);
 
   const percentileText = useMemo(() => {
-    const pct = Math.round((score / QUESTIONS.length) * 100);
+    const total = activeQuestions.length || 1;
+    const pct = Math.round((score / total) * 100);
     if (pct >= 80) return "Top 5% των υποψηφίων ΑΣΕΠ (Άριστη Επαγωγική Ικανότητα!)";
     if (pct >= 60) return "Top 25% των υποψηφίων ΑΣΕΠ (Πολύ Καλή Λογική Σκέψη)";
-    return "Μέσος Όρος (Χρειάζεται εξάσκηση στα μοτίβα matrix)";
-  }, [score]);
+    return "Μέσος Όρος (Συνεχίστε την εξάσκηση στα μοτίβα matrix)";
+  }, [score, activeQuestions]);
 
   function handleShare() {
-    const pct = Math.round((score / QUESTIONS.length) * 100);
-    const text = `🧠 Πέτυχα ${score}/${QUESTIONS.length} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}\n\nΔοκιμάστε δωρεάν με διαδραστικά σχήματα:\n👉 https://asepanalytics.app/proetoimasia/epagogikos-syllogismos`;
+    const total = activeQuestions.length || 1;
+    const pct = Math.round((score / total) * 100);
+    const text = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}\n\nΔοκιμάστε δωρεάν με διαδραστικά σχήματα:\n👉 https://asepanalytics.app/proetoimasia/epagogikos-syllogismos`;
 
     if (navigator.clipboard) {
       navigator.clipboard.writeText(text);
@@ -433,8 +163,61 @@ export default function EpagogikosSyllogismosPage() {
         </h1>
         <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
           Διαδραστική προσομοίωση σε πλέγματα 3x3 και ακολουθίες σχημάτων. 
-          Κάθε ερώτηση περιλαμβάνει <strong>χρονόμετρο 60 δευτερολέπτων</strong>, σύστημα βοήθειας <strong>50-50 Hint</strong> και αναλυτική επεξήγηση του κανόνα.
+          Επιλέξτε θεματικό σετ, εξασκηθείτε με <strong>χρονόμετρο 60s</strong> και δείτε την ανάλυση του κανόνα.
         </p>
+      </div>
+
+      {/* SET SELECTOR BAR (Επιλογή Κατηγορίας Εξάσκησης) */}
+      <div className="mb-6 flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+        <button
+          type="button"
+          onClick={() => handleCategoryChange("all")}
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
+            selectedCategory === "all"
+              ? "bg-[#00E5FF] text-slate-950 font-bold shadow-md"
+              : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-white"
+          }`}
+        >
+          Όλα τα Θέματα ({INDUCTIVE_PUZZLES.length})
+        </button>
+
+        <button
+          type="button"
+          onClick={() => handleCategoryChange("matrix")}
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
+            selectedCategory === "matrix"
+              ? "bg-[#00E5FF] text-slate-950 font-bold shadow-md"
+              : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-white"
+          }`}
+        >
+          <Grid3X3 className="w-3.5 h-3.5" />
+          Μόνο Matrix 3x3
+        </button>
+
+        <button
+          type="button"
+          onClick={() => handleCategoryChange("rotation")}
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
+            selectedCategory === "rotation"
+              ? "bg-[#00E5FF] text-slate-950 font-bold shadow-md"
+              : "bg-slate-900 border border-slate-800 text-slate-400 hover:text-white"
+          }`}
+        >
+          Περιστροφές &amp; Γωνίες
+        </button>
+
+        <button
+          type="button"
+          onClick={() => handleCategoryChange("speed")}
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
+            selectedCategory === "speed"
+              ? "bg-amber-400 text-slate-950 font-bold shadow-md"
+              : "bg-slate-900 border border-slate-800 text-amber-300 hover:text-white"
+          }`}
+        >
+          <Zap className="w-3.5 h-3.5" />
+          Speed Blitz (5 Τυχαία)
+        </button>
       </div>
 
       {/* ACTIVE TEST INTERFACE */}
@@ -444,7 +227,7 @@ export default function EpagogikosSyllogismosPage() {
           <div className="glass p-3.5 rounded-2xl flex items-center justify-between text-xs text-slate-300 font-mono">
             <div className="flex items-center gap-3">
               <span>
-                Ερώτηση <strong>{currentIndex + 1}</strong> / {QUESTIONS.length}
+                Ερώτηση <strong>{currentIndex + 1}</strong> / {activeQuestions.length}
               </span>
               <span className="text-emerald-400 font-bold">
                 Σκορ: {score}
@@ -486,13 +269,13 @@ export default function EpagogikosSyllogismosPage() {
 
           {/* Question Container Card */}
           <div className="glass p-6 sm:p-8 rounded-3xl border border-slate-800 space-y-6 shadow-2xl relative">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between flex-wrap gap-2">
               <span className="text-xs font-mono uppercase text-[#00E5FF] font-semibold flex items-center gap-1.5">
                 <Grid3X3 className="w-4 h-4" />
-                {currentQ.ruleCategory}
+                {currentQ.categoryLabel}
               </span>
-              <span className="text-xs text-slate-500 font-mono">
-                {currentQ.gridType === "3x3" ? "Πλέγμα 3x3" : "Ακολουθία"}
+              <span className="text-[11px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
+                {currentQ.difficulty}
               </span>
             </div>
 
@@ -627,7 +410,7 @@ export default function EpagogikosSyllogismosPage() {
                     className="px-6 py-2.5 rounded-xl bg-[#00E5FF] text-slate-950 font-bold text-xs sm:text-sm hover:scale-105 transition-all flex items-center gap-2 cursor-pointer shadow-lg"
                   >
                     <span>
-                      {currentIndex < QUESTIONS.length - 1
+                      {currentIndex < activeQuestions.length - 1
                         ? "Επόμενο Παζλ"
                         : "Ολοκλήρωση & Scorecard"}
                     </span>
@@ -656,7 +439,7 @@ export default function EpagogikosSyllogismosPage() {
               Αποτελεσματα Επαγωγικης Νοημοσυνης
             </span>
             <h2 className="text-2xl sm:text-4xl font-bold font-display text-white mt-1">
-              Σκορ: {score} / {QUESTIONS.length}
+              Σκορ: {score} / {activeQuestions.length}
             </h2>
             <div className="inline-block mt-3 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-semibold">
               🎯 {percentileText}
@@ -672,7 +455,7 @@ export default function EpagogikosSyllogismosPage() {
             <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-xs">
               <div className="text-slate-400">Ακρίβεια Μοτίβων:</div>
               <div className="text-base font-bold font-mono text-emerald-400 mt-0.5">
-                {Math.round((score / QUESTIONS.length) * 100)}%
+                {Math.round((score / activeQuestions.length) * 100)}%
               </div>
             </div>
           </div>
@@ -754,7 +537,7 @@ export default function EpagogikosSyllogismosPage() {
         <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-400 flex items-start gap-2.5">
           <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
           <div>
-            <strong>Σημείωση Μεθοδολογίας:</strong> Ανεξάρτητο εκπαιδευτικό υλικό προετοιμασίας στα διεθνή πρότυπα non-verbal cognitive testing (Raven / SHL).
+            <strong>Σημείωση Μεθοδολογίας:</strong> Ανεξάρτητη εκπαιδευτική πλατφόρμα στα διεθνή πρότυπα non-verbal cognitive testing (Raven / SHL).
           </div>
         </div>
       </article>

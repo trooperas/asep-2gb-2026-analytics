@@ -1,0 +1,280 @@
+import React from "react";
+
+export interface InductivePuzzle {
+  id: number;
+  title: string;
+  category: "matrix" | "rotation" | "addition" | "inversion";
+  categoryLabel: string;
+  difficulty: "Εύκολο" | "Μεσαίο" | "Δύσκολο";
+  gridType: "3x3" | "sequence";
+  gridCells: React.ReactNode[];
+  options: React.ReactNode[];
+  correctIndex: number;
+  hintText: string;
+  explanation: string;
+}
+
+export const INDUCTIVE_PUZZLES: InductivePuzzle[] = [
+  // --- MATRIX 3x3 ---
+  {
+    id: 1,
+    title: "Ποιο σχήμα συμπληρώνει το πλέγμα 3x3 (κάτω δεξιά);",
+    category: "matrix",
+    categoryLabel: "Πλέγμα 3x3: Ακτίνες & Σχήματα",
+    difficulty: "Μεσαίο",
+    gridType: "3x3",
+    gridCells: [
+      <svg key="c1" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="20" y2="8" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c2" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="32" y2="20" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="20" x2="20" y2="8" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c3" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="32" y2="20" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="20" x2="20" y2="32" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="20" x2="20" y2="8" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c4" className="w-10 h-10" viewBox="0 0 40 40"><rect x="8" y="8" width="24" height="24" rx="4" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="20" y2="8" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c5" className="w-10 h-10" viewBox="0 0 40 40"><rect x="8" y="8" width="24" height="24" rx="4" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="32" y2="20" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="20" x2="20" y2="8" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c6" className="w-10 h-10" viewBox="0 0 40 40"><rect x="8" y="8" width="24" height="24" rx="4" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="32" y2="20" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="20" x2="20" y2="32" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="20" x2="20" y2="8" stroke="#FF006E" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c7" className="w-10 h-10" viewBox="0 0 40 40"><polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="c8" className="w-10 h-10" viewBox="0 0 40 40"><polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="22" x2="30" y2="22" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <div key="c9" className="w-full h-full rounded-xl bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 40 40"><polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 40 40"><polygon points="20,6 34,34 6,34" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="22" x2="30" y2="22" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="22" x2="20" y2="30" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" /><line x1="20" y1="22" x2="20" y2="10" stroke="#00FFA3" strokeWidth="3" strokeLinecap="round" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="20" x2="32" y2="20" stroke="#00FFA3" strokeWidth="3" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 40 40"><polygon points="20,6 34,34 6,34" fill="none" stroke="#00FFA3" strokeWidth="2" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 40 40"><rect x="8" y="8" width="24" height="24" fill="none" stroke="#334155" strokeWidth="2" /><line x1="20" y1="8" x2="20" y2="32" stroke="#00FFA3" strokeWidth="3" /></svg>,
+    ],
+    correctIndex: 1,
+    hintText: "Κάθετα το εξωτερικό σχήμα είναι ίδιο (Τρίγωνο). Οριζόντια οι ακτίνες αυξάνονται από 1 σε 2 και σε 3.",
+    explanation: "Στο πλέγμα, κάθε γραμμή διατηρεί το ίδιο εξωτερικό σχήμα (3η γραμμή = Τρίγωνα) και προσθέτει διαδοχικά μία ακτίνα δεξιόστροφα. Άρα το σωστό σχήμα είναι το Τρίγωνο με 3 ακτίνες (Επιλογή Β).",
+  },
+  {
+    id: 2,
+    title: "Ποιο σχήμα ολοκληρώνει τη σύνθεση γραμμών;",
+    category: "matrix",
+    categoryLabel: "Πλέγμα 3x3: Λογική Σύνθεση (OR / Union)",
+    difficulty: "Δύσκολο",
+    gridType: "3x3",
+    gridCells: [
+      <svg key="m1" className="w-10 h-10" viewBox="0 0 40 40"><line x1="20" y1="6" x2="20" y2="34" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="m2" className="w-10 h-10" viewBox="0 0 40 40"><line x1="6" y1="20" x2="34" y2="20" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="m3" className="w-10 h-10" viewBox="0 0 40 40"><line x1="20" y1="6" x2="20" y2="34" stroke="#38BDF8" strokeWidth="3" /><line x1="6" y1="20" x2="34" y2="20" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="m4" className="w-10 h-10" viewBox="0 0 40 40"><line x1="8" y1="32" x2="32" y2="8" stroke="#F43F5E" strokeWidth="3" /></svg>,
+      <svg key="m5" className="w-10 h-10" viewBox="0 0 40 40"><line x1="8" y1="8" x2="32" y2="32" stroke="#F43F5E" strokeWidth="3" /></svg>,
+      <svg key="m6" className="w-10 h-10" viewBox="0 0 40 40"><line x1="8" y1="32" x2="32" y2="8" stroke="#F43F5E" strokeWidth="3" /><line x1="8" y1="8" x2="32" y2="32" stroke="#F43F5E" strokeWidth="3" /></svg>,
+      <svg key="m7" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="12" fill="none" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="m8" className="w-10 h-10" viewBox="0 0 40 40"><line x1="20" y1="8" x2="20" y2="32" stroke="#F59E0B" strokeWidth="3" /><line x1="8" y1="20" x2="32" y2="20" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <div key="m9" className="w-full h-full rounded-xl bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="12" fill="none" stroke="#F59E0B" strokeWidth="3" /><line x1="20" y1="8" x2="20" y2="32" stroke="#F59E0B" strokeWidth="3" /><line x1="8" y1="20" x2="32" y2="20" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 40 40"><rect x="8" y="8" width="24" height="24" fill="none" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="6" fill="#F59E0B" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 40 40"><polygon points="20,8 32,30 8,30" fill="none" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 40 40"><line x1="20" y1="6" x2="20" y2="34" stroke="#F59E0B" strokeWidth="3" /></svg>,
+    ],
+    correctIndex: 0,
+    hintText: "Σε κάθε γραμμή, το 3ο κελί είναι η ένωση (σύνθεση) των δύο πρώτων στοιχείων.",
+    explanation: "Οριζόντια πράξη: Στοιχείο 1 + Στοιχείο 2 = Στοιχείο 3. Στην 3η γραμμή, ο κύκλος ενώνεται με τον σταυρό, παράγοντας κύκλο με σταυρό μέσα (Επιλογή Α).",
+  },
+  {
+    id: 3,
+    title: "Ποιο σχήμα λείπει βάσει κατακόρυφων και οριζόντιων μοτίβων;",
+    category: "matrix",
+    categoryLabel: "Πλέγμα 3x3: Μετατόπιση Τελειών",
+    difficulty: "Δύσκολο",
+    gridType: "3x3",
+    gridCells: [
+      <svg key="d1" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="12" cy="12" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d2" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="12" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d3" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="28" cy="12" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d4" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="12" cy="20" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d5" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d6" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="28" cy="20" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d7" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="12" cy="28" r="4" fill="#00E5FF" /></svg>,
+      <svg key="d8" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="28" r="4" fill="#00E5FF" /></svg>,
+      <div key="d9" className="w-full h-full rounded-xl bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="28" cy="28" r="4" fill="#00E5FF" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="12" cy="12" r="4" fill="#00E5FF" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="20" cy="20" r="5" fill="#FF006E" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="28" cy="12" r="4" fill="#00E5FF" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 40 40"><circle cx="12" cy="28" r="4" fill="#00E5FF" /></svg>,
+    ],
+    correctIndex: 0,
+    hintText: "Η τελεία κινείται σαν σαρωτής: γραμμή-γραμμή από αριστερά προς τα δεξιά.",
+    explanation: "Η τελεία διατρέχει ένα πλέγμα συντεταγμένων. Στην 3η γραμμή, αφού πέρασε από x=12 και x=20, το τελικό κελί είναι x=28, y=28 (Επιλογή Α).",
+  },
+
+  // --- ROTATION / SEQUENCE ---
+  {
+    id: 4,
+    title: "Ποιο σχήμα συνεχίζει τη δεξιόστροφη περιστροφή;",
+    category: "rotation",
+    categoryLabel: "Περιστροφή κατά 90°",
+    difficulty: "Εύκολο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><path d="M24 10 L34 22 L27 22 L27 38 L21 38 L21 22 L14 22 Z" fill="#00E5FF" /></svg>,
+      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><path d="M38 24 L26 14 L26 21 L10 21 L10 27 L26 27 L26 34 Z" fill="#00E5FF" /></svg>,
+      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><path d="M24 38 L14 26 L21 26 L21 10 L27 10 L27 26 L34 26 Z" fill="#00E5FF" /></svg>,
+      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><path d="M10 24 L22 34 L22 27 L38 27 L38 21 L22 21 L22 14 Z" fill="#00E5FF" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><path d="M24 10 L34 22 L27 22 L27 38 L21 38 L21 22 L14 22 Z" fill="#00E5FF" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="10" fill="#00E5FF" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><path d="M24 38 L14 26 L21 26 L21 10 L27 10 L27 26 L34 26 Z" fill="#00E5FF" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><rect x="14" y="14" width="20" height="20" rx="4" fill="#00E5FF" /></svg>,
+    ],
+    correctIndex: 0,
+    hintText: "Πάνω (0°) -> Δεξιά (90°) -> Κάτω (180°). Τι ακολουθεί;",
+    explanation: "Περιστροφή κατά 90° δεξιόστροφα. Μετά το βέλος προς τα κάτω, το επόμενο δείχνει αριστερά (270° - Επιλογή Α).",
+  },
+  {
+    id: 5,
+    title: "Ποια διάταξη ακολουθεί τη λογική κίνηση κατά τις γωνίες;",
+    category: "rotation",
+    categoryLabel: "Κυκλική Μετατόπιση Γωνιών",
+    difficulty: "Εύκολο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><circle cx="14" cy="14" r="5" fill="#34D399" /></svg>,
+      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><circle cx="34" cy="14" r="5" fill="#34D399" /></svg>,
+      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><circle cx="34" cy="34" r="5" fill="#34D399" /></svg>,
+      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="5" fill="#34D399" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="14" cy="34" r="5" fill="#34D399" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="14" cy="14" r="5" fill="#34D399" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="14" cy="24" r="4" fill="#34D399" /><circle cx="34" cy="24" r="4" fill="#34D399" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="34" cy="14" r="5" fill="#34D399" /></svg>,
+    ],
+    correctIndex: 1,
+    hintText: "Η τελεία κινείται δεξιόστροφα: Πάνω-Αριστερά -> Πάνω-Δεξιά -> Κάτω-Δεξιά.",
+    explanation: "Κίνηση κατά τις 4 γωνίες: Το επόμενο βήμα είναι Κάτω-Αριστερά (Επιλογή Β).",
+  },
+
+  // --- ADDITION / SUBTRACTION ---
+  {
+    id: 6,
+    title: "Ποιο σχήμα ολοκληρώνει την αύξηση πλευρών;",
+    category: "addition",
+    categoryLabel: "Αριθμητική Ακολουθία Πλευρών",
+    difficulty: "Εύκολο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><polygon points="24,12 36,34 12,34" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><rect x="14" y="14" width="20" height="20" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><polygon points="24,10 38,20 32,36 16,36 10,20" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="12" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="24,8 36,15 36,29 24,36 12,29 12,15" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="24,10 36,24 24,38 12,24" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="24,12 36,34 12,34" fill="none" stroke="#38BDF8" strokeWidth="3" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><path d="M24 10 L27 19 L36 19 L29 25 L32 34 L24 28 L16 34 L19 25 L12 19 L21 19 Z" fill="#38BDF8" /></svg>,
+    ],
+    correctIndex: 1,
+    hintText: "Μετρήστε τις πλευρές: 3 (τρίγωνο), 4 (τετράγωνο), 5 (πεντάγωνο).",
+    explanation: "Αύξηση πλευρών κατά 1: Το επόμενο σχήμα πρέπει να έχει 6 πλευρές (εξάγωνο - Επιλογή Β).",
+  },
+  {
+    id: 7,
+    title: "Πόσες γραμμές πρέπει να περιέχει το επόμενο πλαίσιο;",
+    category: "addition",
+    categoryLabel: "Αύξηση Εσωτερικών Γραμμών",
+    difficulty: "Μεσαίο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="l1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><line x1="24" y1="12" x2="24" y2="36" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="l2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><line x1="18" y1="12" x2="18" y2="36" stroke="#F59E0B" strokeWidth="3" /><line x1="30" y1="12" x2="30" y2="36" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="l3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><line x1="14" y1="12" x2="14" y2="36" stroke="#F59E0B" strokeWidth="3" /><line x1="24" y1="12" x2="24" y2="36" stroke="#F59E0B" strokeWidth="3" /><line x1="34" y1="12" x2="34" y2="36" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <div key="lq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="10" fill="#F59E0B" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><line x1="12" y1="12" x2="12" y2="36" stroke="#F59E0B" strokeWidth="2.5" /><line x1="20" y1="12" x2="20" y2="36" stroke="#F59E0B" strokeWidth="2.5" /><line x1="28" y1="12" x2="28" y2="36" stroke="#F59E0B" strokeWidth="2.5" /><line x1="36" y1="12" x2="36" y2="36" stroke="#F59E0B" strokeWidth="2.5" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><line x1="24" y1="12" x2="24" y2="36" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><line x1="12" y1="24" x2="36" y2="24" stroke="#F59E0B" strokeWidth="3" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><rect x="14" y="14" width="20" height="20" fill="#F59E0B" /></svg>,
+    ],
+    correctIndex: 1,
+    hintText: "1 γραμμή -> 2 γραμμές -> 3 γραμμές. Πόσες ακολουθούν;",
+    explanation: "Γραμμική αύξηση παράλληλων γραμμών κατά 1. Το επόμενο πλαίσιο περιέχει 4 παράλληλες γραμμές (Επιλογή Β).",
+  },
+
+  // --- INVERSION & SHADING ---
+  {
+    id: 8,
+    title: "Εντοπίστε το σχήμα που ακολουθεί τη λογική αντιστροφής:",
+    category: "inversion",
+    categoryLabel: "Εναλλαγή Σκίασης (Inversion)",
+    difficulty: "Μεσαίο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="s1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#00E5FF" /><circle cx="24" cy="24" r="10" fill="#0A0E1A" /></svg>,
+      <svg key="s2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#00E5FF" strokeWidth="2" /><circle cx="24" cy="24" r="10" fill="#00E5FF" /></svg>,
+      <svg key="s3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#00E5FF" /><polygon points="24,14 34,32 14,32" fill="#0A0E1A" /></svg>,
+      <div key="sq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><rect width="48" height="48" rx="6" fill="#0A0E1A" stroke="#00E5FF" strokeWidth="2" /><polygon points="24,14 34,32 14,32" fill="#00E5FF" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="12" fill="#00E5FF" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><rect width="48" height="48" rx="6" fill="#00E5FF" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="24,34 34,16 14,16" fill="#00E5FF" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><rect x="14" y="14" width="20" height="20" fill="#00E5FF" /></svg>,
+    ],
+    correctIndex: 0,
+    hintText: "Προσέξτε πώς αντιστρέφεται το φωτεινό φόντο με το εσωτερικό σχήμα.",
+    explanation: "Εναλλαγή Inversion: Το σχήμα 1 αντιστρέφεται στο 2. Άρα το σχήμα 3 (κυανό φόντο με σκούρο τρίγωνο) αντιστρέφεται σε σκούρο φόντο με κυανό τρίγωνο (Επιλογή Α).",
+  },
+  {
+    id: 9,
+    title: "Ποιο τετράγωνο ολοκληρώνει το μοτίβο σκίασης;",
+    category: "inversion",
+    categoryLabel: "Εναλλαγή Τεταρτημορίων",
+    difficulty: "Δύσκολο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="q1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><path d="M24 6 A18 18 0 0 1 42 24 L24 24 Z" fill="#00FFA3" /></svg>,
+      <svg key="q2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><path d="M42 24 A18 18 0 0 1 24 42 L24 24 Z" fill="#00FFA3" /></svg>,
+      <svg key="q3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><path d="M24 42 A18 18 0 0 1 6 24 L24 24 Z" fill="#00FFA3" /></svg>,
+      <div key="qq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="14" fill="#00FFA3" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><path d="M6 24 A18 18 0 0 1 24 6 L24 24 Z" fill="#00FFA3" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><path d="M24 6 A18 18 0 0 1 42 24 L24 24 Z" fill="#00FFA3" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><rect x="10" y="10" width="28" height="28" fill="#00FFA3" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><path d="M42 24 A18 18 0 0 1 24 42 L24 24 Z" fill="#00FFA3" /></svg>,
+    ],
+    correctIndex: 1,
+    hintText: "Το σκιασμένο τεταρτημόριο κινείται δεξιόστροφα κατά 90°.",
+    explanation: "Το γεμάτο τέταρτο του κύκλου περιστρέφεται διαδοχικά δεξιόστροφα. Μετά το κάτω-αριστερά τέταρτο, έρχεται το πάνω-αριστερά τέταρτο (Επιλογή Β).",
+  },
+  {
+    id: 10,
+    title: "Ποιο σχήμα ολοκληρώνει τον κανόνα αναδίπλωσης;",
+    category: "rotation",
+    categoryLabel: "Αντανάκλαση / Κατοπτρισμός",
+    difficulty: "Μεσαίο",
+    gridType: "sequence",
+    gridCells: [
+      <svg key="m1" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><polygon points="12,12 24,12 12,36" fill="#F43F5E" /></svg>,
+      <svg key="m2" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><polygon points="36,12 24,12 36,36" fill="#F43F5E" /></svg>,
+      <svg key="m3" className="w-12 h-12" viewBox="0 0 48 48"><rect width="48" height="48" rx="8" fill="#0A0E1A" stroke="#334155" strokeWidth="2" /><polygon points="12,36 24,36 12,12" fill="#38BDF8" /></svg>,
+      <div key="mq" className="w-12 h-12 rounded-lg bg-pink-500/10 border-2 border-dashed border-pink-500/60 flex items-center justify-center font-bold text-pink-400 text-xl font-mono">?</div>,
+    ],
+    options: [
+      <svg key="o0" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="36,36 24,36 36,12" fill="#38BDF8" /></svg>,
+      <svg key="o1" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="12,12 24,12 12,36" fill="#38BDF8" /></svg>,
+      <svg key="o2" className="w-10 h-10" viewBox="0 0 48 48"><circle cx="24" cy="24" r="10" fill="#38BDF8" /></svg>,
+      <svg key="o3" className="w-10 h-10" viewBox="0 0 48 48"><polygon points="24,12 36,36 12,36" fill="#38BDF8" /></svg>,
+      <svg key="o4" className="w-10 h-10" viewBox="0 0 48 48"><rect x="14" y="14" width="20" height="20" fill="#38BDF8" /></svg>,
+    ],
+    correctIndex: 0,
+    hintText: "Το σχήμα 1 κατοπτρίζεται οριζόντια στο σχήμα 2. Τι θα συμβεί στο σχήμα 3;",
+    explanation: "Οριζόντιος κατοπτρισμός: Το σχήμα 3 αντανακλάται οριζόντια κατά μήκος του κατακόρυφου άξονα, δίνοντας το κατοπτρικό γαλάζιο τρίγωνο στη δεξιά πλευρά (Επιλογή Α).",
+  },
+];

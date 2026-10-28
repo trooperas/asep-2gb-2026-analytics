@@ -44,6 +44,7 @@ export default function Hero({ stats }: { stats: Stats }) {
           background: "radial-gradient(circle, rgba(0, 229, 255, 0.12), transparent 70%)",
           filter: "blur(60px)",
           pointerEvents: "none",
+          contain: "layout",
         }}
       />
       <div
@@ -56,6 +57,7 @@ export default function Hero({ stats }: { stats: Stats }) {
           background: "radial-gradient(circle, rgba(245, 158, 11, 0.08), transparent 70%)",
           filter: "blur(80px)",
           pointerEvents: "none",
+          contain: "layout",
         }}
       />
 
@@ -87,6 +89,7 @@ export default function Hero({ stats }: { stats: Stats }) {
               lineHeight: 1.08,
               letterSpacing: "-0.03em",
               marginBottom: "1.25rem",
+              contentVisibility: "auto",
             }}
           >
             <span className="text-gradient">

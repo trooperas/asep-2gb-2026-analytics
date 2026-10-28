@@ -194,17 +194,43 @@ export default function CategoryQuizPage() {
     setViewMode("quiz");
   }
 
-  function handleShareScore() {
-    const totalQ = answeredCount || activeQuestions.length;
-    const pct = Math.round((score / totalQ) * 100);
-    const shareText = `🎯 Πέτυχα σκορ ${score}/${totalQ} (${pct}%) στο τεστ ΑΣΕΠ: «${categoryTitle}»!\n\nΔωρεάν εξάσκηση στο επίσημο Μητρώο Γνώσεων:\n👉 https://asepanalytics.app/proetoimasia/${categorySlug}`;
+  async function handleShareScore() {
+  const totalQ = answeredCount || activeQuestions.length;
+  const pct = Math.round((score / totalQ) * 100);
+  
+  const shareUrl = `https://asepanalytics.app/proetoimasia/${categorySlug}`;
+  const shareTitle = `Τεστ ΑΣΕΠ: ${categoryTitle} — ΑΣΕΠ Analytics Hub`;
+  const shareText = `🎯 Πέτυχα σκορ ${score}/${totalQ} (${pct}%) στο τεστ ΑΣΕΠ: «${categoryTitle}»!\n\nΔωρεάν εξάσκηση στο επίσημο Μητρώο Γνώσεων:\n👉 ${shareUrl}`;
 
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(shareText);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
+  // 1. Native Share (Mobile / Supported Browsers)
+  if (typeof navigator !== "undefined" && navigator.share) {
+    try {
+      await navigator.share({
+        title: shareTitle,
+        text: shareText,
+        url: shareUrl,
+      });
+      return; 
+    } catch (err) {
+      // Type-cast err as any or Error to satisfy TypeScript
+      if ((err as Error).name === "AbortError") {
+        return;
+      }
+      console.log("Native share failed, falling back to clipboard:", err);
     }
   }
+
+  // 2. Fallback for Desktop / Unsupported Browsers
+  if (navigator.clipboard) {
+    try {
+      await navigator.clipboard.writeText(shareText);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch (err) {
+      console.error("Failed to copy to clipboard:", err);
+    }
+  }
+}
 
   const formatTime = (secs: number) => {
     const m = Math.floor(secs / 60);

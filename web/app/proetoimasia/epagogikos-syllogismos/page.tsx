@@ -138,7 +138,8 @@ export default function EpagogikosSyllogismosPage() {
   
   const shareUrl = "https://asepanalytics.app/proetoimasia/epagogikos-syllogismos";
   const shareTitle = "Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) — ΑΣΕΠ 2027";
-  const shareText = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}`;
+  // 👈 Βάλαμε το URL μέσα στο shareText, για να μην χρειάζεται να το προσθέσουμε στο fallback
+  const shareText = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}\n\n👉 ${shareUrl}`;
 
   // 1. Native Share (Mobile)
   if (typeof navigator !== "undefined" && navigator.share) {
@@ -148,19 +149,25 @@ export default function EpagogikosSyllogismosPage() {
         text: shareText,
         url: shareUrl,
       });
-      // Δεν χρειάζεται setCopied(true) εδώ, γιατί το native μενού χειρίζεται την κατάσταση
-      return;
-    } catch (err) {
-      // Αν ο χρήστης ακυρώσει το native μενού, δεν κάνουμε τίποτα
-      console.log("Share cancelled", err);
+      return; // Επιτυχία, βγες
+    } catch (err: any) {
+      // 👈 ΤΟ ΚΛΕΙΔΙ: Αν ο χρήστης ακύρωσε, σταμάτα ΕΔΩ.
+      if (err.name === "AbortError") {
+        return;
+      }
+      console.log("Native share failed, falling back to clipboard:", err);
     }
   }
 
   // 2. Fallback (Desktop / Unsupported)
   if (navigator.clipboard) {
-    navigator.clipboard.writeText(`${shareText}\n\n👉 ${shareUrl}`);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
+    try {
+      await navigator.clipboard.writeText(shareText); // 👈 Το shareText έχει ήδη το URL
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch (err) {
+      console.error("Failed to copy to clipboard:", err);
+    }
   }
 }
 

@@ -327,27 +327,50 @@ export default function ErgasiakesDeksiotitesPage() {
     return `${typeof window !== "undefined" ? window.location.origin : ""}/api/og?${params.toString()}`;
   }, [sortedTraits, traitScores]);
 
-  // Δυναμικό Share κείμενο με τα σωστά ονόματα traits
-  function handleShare() {
-    const topTraitKey = sortedTraits[0]?.[0] || "teamwork";
-    const topScore = sortedTraits[0]?.[1] || 90;
-    const topTraitObj = TRAITS[topTraitKey];
+  async function handleShare() {
+  const topTraitKey = sortedTraits[0]?.[0] || "teamwork";
+  const topScore = sortedTraits[0]?.[1] || 90;
+  const topTraitObj = TRAITS[topTraitKey];
 
-    const secondTraitKey = sortedTraits[1]?.[0] || "results";
-    const secondScore = sortedTraits[1]?.[1] || 85;
-    const secondTraitObj = TRAITS[secondTraitKey];
+  const secondTraitKey = sortedTraits[1]?.[0] || "results";
+  const secondScore = sortedTraits[1]?.[1] || 85;
+  const secondTraitObj = TRAITS[secondTraitKey];
 
-    // Σύνδεσμος προς την πραγματική σελίδα του τεστ
-    const shareUrl = `https://asepanalytics.app/proetoimasia/ergasiakes-deksiotites?t0=${topTraitKey}&s0=${topScore}&t1=${secondTraitKey}&s1=${secondScore}`;
+  const shareUrl = `https://asepanalytics.app/proetoimasia/ergasiakes-deksiotites?t0=${topTraitKey}&s0=${topScore}&t1=${secondTraitKey}&s1=${secondScore}`;
+  
+  const shareTitle = "Τεστ Εργασιακών Δεξιοτήτων (OPQ32) — ΑΣΕΠ 2027";
+  // 👈 Το URL είναι μέσα στο text, ώστε να μην χρειάζεται να το προσθέσουμε στο fallback
+  const shareText = `🏛️ Ολοκλήρωσα το επίσημο Τεστ Εργασιακών Δεξιοτήτων (OPQ32) για τον ΑΣΕΠ!\n🎯 Κυρίαρχο Χαρακτηριστικό: ${topTraitObj.label} (${topScore}%)\n⚡ Δευτερεύον: ${secondTraitObj.label} (${secondScore}%)\n\n👉 Κάντε κι εσείς δωρεάν το τεστ:\n${shareUrl}`;
 
-    const text = `🏛️ Ολοκλήρωσα το επίσημο Τεστ Εργασιακών Δεξιοτήτων (OPQ32) για τον ΑΣΕΠ!\n🎯 Κυρίαρχο Χαρακτηριστικό: ${topTraitObj.label} (${topScore}%)\n⚡ Δευτερεύον: ${secondTraitObj.label} (${secondScore}%)\n\n👉 Κάντε κι εσείς δωρεάν το τεστ:\n${shareUrl}`;
-
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
+  // 1. Native Share (Mobile)
+  if (typeof navigator !== "undefined" && navigator.share) {
+    try {
+      await navigator.share({
+        title: shareTitle,
+        text: shareText,
+        url: shareUrl,
+      });
+      return; // Επιτυχία, βγες
+    } catch (err: any) {
+      // 👈 Αν ο χρήστης ακύρωσε, σταμάτα ΕΔΩ.
+      if (err.name === "AbortError") {
+        return;
+      }
+      console.log("Native share failed, falling back to clipboard:", err);
     }
   }
+
+  // 2. Fallback (Desktop / Unsupported)
+  if (navigator.clipboard) {
+    try {
+      await navigator.clipboard.writeText(shareText); // 👈 Το shareText έχει ήδη το URL
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch (err) {
+      console.error("Failed to copy to clipboard:", err);
+    }
+  }
+}
 
   // ============ Render ============
   return (

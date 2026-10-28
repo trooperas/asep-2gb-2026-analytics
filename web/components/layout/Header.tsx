@@ -185,7 +185,7 @@ export default function Header() {
             cursor: "pointer",
             zIndex: 50,
           }}
-          aria-label="Toggle Navigation"
+          aria-label={mobileOpen ? "Κλείσιμο μενού" : "Άνοιγμα μενού"}
         >
           {mobileOpen ? "✕" : "☰"}
         </button>
@@ -265,6 +265,18 @@ export default function Header() {
                     ΝΕΟ
                   </span>
                 </Link>
+
+                <Link
+                  href="/proetoimasia/epagogikos-syllogismos"
+                  onClick={() => setMobileOpen(false)}
+                  className="p-3 rounded-xl bg-pink-500/10 border border-pink-500/40 text-sm font-bold text-pink-300 flex items-center justify-between"
+                >
+                  <span>🔺 Τεστ Επαγωγικού Συλλογισμού</span>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-pink-500/20 text-pink-300 border border-pink-500/40">
+                    ΝΕΟ
+                  </span>
+                </Link>
+
                 <Link
                   href="/proetoimasia"
                   onClick={() => setMobileOpen(false)}
@@ -276,7 +288,7 @@ export default function Header() {
                   </span>
                 </Link>
                 <Link
-                  href="https://asepanalytics.app/zitisi"
+                  href="/zitisi"
                   onClick={() => setMobileOpen(false)}
                   className="p-3 rounded-xl bg-slate-900/40 border border-slate-800 text-sm font-medium text-slate-300 flex items-center justify-between"
                 >

@@ -30,5 +30,15 @@ export default function AnimatedCounter({ target }: { target: number }) {
     return () => clearTimeout(timeout);
   }, [target]);
 
-  return <span>{formatNumber(count)}</span>;
+    return (
+    <span
+      style={{
+        display: "inline-block",
+        minWidth: "4ch", // 👈 Σταθερό πλάτος
+        fontVariantNumeric: "tabular-nums", // 👈 Σταθερά πλάτη ψηφίων
+      }}
+    >
+      {formatNumber(count)}
+    </span>
+  );
 }

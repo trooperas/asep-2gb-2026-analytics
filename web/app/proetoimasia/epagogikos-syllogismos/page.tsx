@@ -132,17 +132,37 @@ export default function EpagogikosSyllogismosPage() {
     return "Μέσος Όρος (Συνεχίστε την εξάσκηση στα μοτίβα matrix)";
   }, [score, activeQuestions]);
 
-  function handleShare() {
-    const total = activeQuestions.length || 1;
-    const pct = Math.round((score / total) * 100);
-    const text = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}\n\nΔοκιμάστε δωρεάν με διαδραστικά σχήματα:\n👉 https://asepanalytics.app/proetoimasia/epagogikos-syllogismos`;
+  async function handleShare() {
+  const total = activeQuestions.length || 1;
+  const pct = Math.round((score / total) * 100);
+  
+  const shareUrl = "https://asepanalytics.app/proetoimasia/epagogikos-syllogismos";
+  const shareTitle = "Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) — ΑΣΕΠ 2027";
+  const shareText = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}`;
 
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
+  // 1. Native Share (Mobile)
+  if (typeof navigator !== "undefined" && navigator.share) {
+    try {
+      await navigator.share({
+        title: shareTitle,
+        text: shareText,
+        url: shareUrl,
+      });
+      // Δεν χρειάζεται setCopied(true) εδώ, γιατί το native μενού χειρίζεται την κατάσταση
+      return;
+    } catch (err) {
+      // Αν ο χρήστης ακυρώσει το native μενού, δεν κάνουμε τίποτα
+      console.log("Share cancelled", err);
     }
   }
+
+  // 2. Fallback (Desktop / Unsupported)
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(`${shareText}\n\n👉 ${shareUrl}`);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2500);
+  }
+}
 
   return (
     <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">

@@ -147,7 +147,10 @@ export default function Hero({ stats }: { stats: Stats }) {
         </div>
 
         {/* Dual-Track Navigation Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 gap-5"
+          style={{ contain: "layout" }} // 👈 ΣΤΑΜΑΤΑΕΙ ΤΟ CLS
+        >
           {/* 🔵 ΠΥΛΩΝΑΣ Α: ΤΟ ΠΑΡΟΝ (ΑΠΟΤΕΛΕΣΜΑΤΑ 2ΓΒ/2026) */}
           <div className="glass p-5 sm:p-6 rounded-3xl border border-cyan-500/40 bg-gradient-to-b from-cyan-950/25 via-slate-900/60 to-transparent flex flex-col justify-between space-y-4 shadow-xl">
             <div className="space-y-2.5">

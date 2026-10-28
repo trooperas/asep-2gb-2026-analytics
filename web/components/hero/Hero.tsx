@@ -84,7 +84,7 @@ export default function Hero({ stats }: { stats: Stats }) {
           <h1
             className="text-3xl md:text-[clamp(2.25rem,6vw,4.5rem)]"
             style={{
-              fontFamily: "var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+              fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
               fontWeight: 800,
               lineHeight: 1.08,
               letterSpacing: "-0.03em",

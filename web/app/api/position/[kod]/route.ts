@@ -138,7 +138,7 @@ export async function GET(
       {
         position: posMeta,
         candidates: uniqueAppointed,
-        applicants: uniqueApplicants.slice(0, 80), // 👈 Όλοι όσοι δήλωσαν τη θέση (top 80)
+        applicants: uniqueApplicants.slice(0, 350), // 👈 Όλοι όσοι δήλωσαν τη θέση (top 80)
         totalApplicantsCount: uniqueApplicants.length,
         stats: {
           total,

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo , useState } from "react";
 import Link from "next/link";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import { useParams } from "next/navigation";
@@ -56,6 +56,10 @@ export default function PositionPage() {
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
   const [activeTab, setActiveTab] = useState<"appointed" | "applicants">("appointed");
+  // States για διεκδικητές (Mobile-friendly Search & Pagination)
+  const [applicantSearch, setApplicantFilter] = useState("");
+  const [applicantPage, setApplicantPage] = useState(1);
+  const PAGE_SIZE = 25; // 25 κάρτες ανά σελίδα - ιδανικό για κινητό!
 
   useEffect(() => {
     if (!kod) return;
@@ -82,6 +86,27 @@ export default function PositionPage() {
       })
       .finally(() => setLoading(false));
   }, [kod]);
+
+  // Φιλτράρισμα διεκδικητών με βάση την αναζήτηση
+  const filteredApplicants = useMemo(() => {
+    if (!data?.applicants) return [];
+    if (!applicantSearch.trim()) return data.applicants;
+
+    const q = applicantSearch.toLowerCase().trim();
+    return data.applicants.filter((app: any) => {
+      const am = String(app.am || "").toLowerCase();
+      const ep = String(app.eponymo || "").toLowerCase();
+      const on = String(app.onoma || "").toLowerCase();
+      return am.includes(q) || ep.includes(q) || on.includes(q);
+    });
+  }, [data?.applicants, applicantSearch]);
+
+  // Pagination (25 ανά σελίδα)
+  const totalPages = Math.ceil(filteredApplicants.length / PAGE_SIZE) || 1;
+  const paginatedApplicants = useMemo(() => {
+    const start = (applicantPage - 1) * PAGE_SIZE;
+    return filteredApplicants.slice(start, start + PAGE_SIZE);
+  }, [filteredApplicants, applicantPage]);
 
   if (loading) {
     return (
@@ -634,102 +659,236 @@ export default function PositionPage() {
           )}
 
           {/* TAB 2: ΟΛΟΙ ΟΙ ΔΙΕΚΔΙΚΗΤΕΣ */}
+          {/* TAB 2: ΟΛΟΙ ΟΙ ΔΙΕΚΔΙΚΗΤΕΣ (Με Search & Pagination) */}
           {activeTab === "applicants" && (
-            <div style={{ display: "grid", gap: "0.5rem" }}>
-              {data.applicants?.map((app: any, i: number) => (
-                <Link
-                  key={`${app.am}-${i}`}
-                  href={`/ypopsifios/${app.am}?slug=${app.slug}`}
+            <div style={{ display: "grid", gap: "0.75rem" }}>
+              {/* Mobile Search Box μέσα στους διεκδικητές */}
+              <div
+                style={{
+                  padding: "8px 12px",
+                  borderRadius: "12px",
+                  background: "rgba(10, 14, 26, 0.8)",
+                  border: "1px solid var(--border)",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  marginBottom: "0.5rem",
+                }}
+              >
+                <span style={{ fontSize: "0.9rem", opacity: 0.6 }}>🔍</span>
+                <input
+                  type="text"
+                  placeholder="Βρες το Α.Μ. ή Επώνυμό σου στη λίστα..."
+                  value={applicantSearch}
+                  onChange={(e) => {
+                    setApplicantFilter(e.target.value);
+                    setApplicantPage(1); // Reset στην 1η σελίδα με κάθε γράμμα
+                  }}
                   style={{
-                    padding: "12px 16px",
-                    borderRadius: "8px",
-                    background: app.isAppointedHere ? "rgba(0, 255, 163, 0.04)" : "rgba(255,255,255,0.02)",
-                    border: app.isAppointedHere ? "1px solid rgba(0, 255, 163, 0.3)" : "1px solid transparent",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    textDecoration: "none",
+                    width: "100%",
+                    background: "transparent",
+                    border: "none",
                     color: "var(--text)",
-                    transition: "all 0.2s",
+                    fontSize: "0.85rem",
+                    outline: "none",
+                    fontFamily: "inherit",
                   }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = "var(--primary)";
-                    e.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = app.isAppointedHere ? "rgba(0, 255, 163, 0.3)" : "transparent";
-                    e.currentTarget.style.background = app.isAppointedHere ? "rgba(0, 255, 163, 0.04)" : "rgba(255,255,255,0.02)";
-                  }}
-                >
-                  <div style={{ display: "flex", alignItems: "center", gap: "12px", minWidth: 0 }}>
-                    <span
-                      style={{
-                        width: "32px",
-                        color: "var(--text-muted)",
-                        fontWeight: 700,
-                        fontSize: "0.8rem",
-                        fontFamily: "var(--font-jetbrains-mono), monospace",
-                        flexShrink: 0,
-                      }}
-                    >
-                      #{i + 1}
-                    </span>
-
-                    <div style={{ minWidth: 0 }}>
-                      <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
-                        <span style={{ fontWeight: 600, fontSize: "0.95rem" }}>
-                          {app.eponymo} {app.onoma}
-                        </span>
-                        {app.isAppointedHere && (
-                          <span
-                            style={{
-                              fontSize: "0.65rem",
-                              fontWeight: 700,
-                              padding: "2px 6px",
-                              borderRadius: "4px",
-                              background: "rgba(0, 255, 163, 0.15)",
-                              color: "var(--success)",
-                              border: "1px solid rgba(0, 255, 163, 0.3)",
-                            }}
-                          >
-                            🎯 Διορίστηκε εδώ
-                          </span>
-                        )}
-                        {app.isAppointedElsewhere && (
-                          <span
-                            style={{
-                              fontSize: "0.65rem",
-                              fontWeight: 600,
-                              padding: "2px 6px",
-                              borderRadius: "4px",
-                              background: "rgba(0, 229, 255, 0.1)",
-                              color: "var(--primary)",
-                            }}
-                          >
-                            Διορίστηκε στη Θέση #{app.appointedElsewhereCode}
-                          </span>
-                        )}
-                      </div>
-
-                      <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "2px" }}>
-                        Α.Μ. {app.am} • <strong>{app.prefNumber}η Επιλογή</strong> του υποψηφίου
-                      </div>
-                    </div>
-                  </div>
-
-                  <span
+                />
+                {applicantSearch && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setApplicantFilter("");
+                      setApplicantPage(1);
+                    }}
                     style={{
-                      color: app.isAppointedHere ? "var(--success)" : "var(--primary)",
-                      fontFamily: "var(--font-jetbrains-mono), monospace",
-                      fontWeight: 700,
-                      fontSize: "0.95rem",
-                      flexShrink: 0,
+                      background: "transparent",
+                      border: "none",
+                      color: "var(--text-muted)",
+                      cursor: "pointer",
+                      fontSize: "0.8rem",
                     }}
                   >
-                    {formatVathmologia(app.vathmologia)}
+                    ✕
+                  </button>
+                )}
+              </div>
+
+              {/* Disclaimer Επεξεργασίας Δεδομένων */}
+              <div
+                style={{
+                  fontSize: "0.75rem",
+                  color: "var(--text-muted)",
+                  padding: "6px 10px",
+                  borderRadius: "8px",
+                  background: "rgba(255,255,255,0.02)",
+                  border: "1px solid rgba(255,255,255,0.05)",
+                  lineHeight: 1.4,
+                }}
+              >
+                ⚠️ <em>Σημείωση:</em> Τα στοιχεία προκύπτουν από επεξεργασία των πινάκων του ΑΣΕΠ για στατιστική διευκόλυνση. Εμφανίζονται οι καταγεγραμμένες προτιμήσεις υποψηφίων της ειδικότητας.
+              </div>
+
+              {/* Λίστα Διεκδικητών (Paginated 25) */}
+              {paginatedApplicants.length === 0 ? (
+                <div style={{ textAlign: "center", padding: "2rem", color: "var(--text-muted)", fontSize: "0.85rem" }}>
+                  Δεν βρέθηκε υποψήφιος με "{applicantSearch}" στους διεκδικητές.
+                </div>
+              ) : (
+                paginatedApplicants.map((app: any) => {
+                  // Η πραγματική σειρά του διεκδικητή στο συνολικό pool
+                  const overallRank = data.applicants?.indexOf(app) !== -1 
+                    ? (data.applicants?.indexOf(app) ?? 0) + 1 
+                    : 1;
+
+                  return (
+                    <Link
+                      key={`${app.am}-${app.slug}`}
+                      href={`/ypopsifios/${app.am}?slug=${app.slug}`}
+                      style={{
+                        padding: "10px 14px",
+                        borderRadius: "10px",
+                        background: app.isAppointedHere ? "rgba(0, 255, 163, 0.04)" : "rgba(255,255,255,0.02)",
+                        border: app.isAppointedHere ? "1px solid rgba(0, 255, 163, 0.3)" : "1px solid transparent",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        textDecoration: "none",
+                        color: "var(--text)",
+                        transition: "all 0.15s",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--primary)";
+                        e.currentTarget.style.background = "rgba(0, 229, 255, 0.05)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = app.isAppointedHere ? "rgba(0, 255, 163, 0.3)" : "transparent";
+                        e.currentTarget.style.background = app.isAppointedHere ? "rgba(0, 255, 163, 0.04)" : "rgba(255,255,255,0.02)";
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: "10px", minWidth: 0 }}>
+                        <span
+                          style={{
+                            width: "34px",
+                            color: "var(--text-muted)",
+                            fontWeight: 700,
+                            fontSize: "0.8rem",
+                            fontFamily: "var(--font-jetbrains-mono), monospace",
+                            flexShrink: 0,
+                          }}
+                        >
+                          #{overallRank}
+                        </span>
+
+                        <div style={{ minWidth: 0 }}>
+                          <div style={{ display: "flex", alignItems: "center", gap: "6px", flexWrap: "wrap" }}>
+                            <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                              {app.eponymo} {app.onoma}
+                            </span>
+                            {app.isAppointedHere && (
+                              <span
+                                style={{
+                                  fontSize: "0.65rem",
+                                  fontWeight: 700,
+                                  padding: "2px 6px",
+                                  borderRadius: "4px",
+                                  background: "rgba(0, 255, 163, 0.15)",
+                                  color: "var(--success)",
+                                  border: "1px solid rgba(0, 255, 163, 0.3)",
+                                }}
+                              >
+                                🎯 Διορίστηκε εδώ
+                              </span>
+                            )}
+                            {app.isAppointedElsewhere && (
+                              <span
+                                style={{
+                                  fontSize: "0.65rem",
+                                  fontWeight: 600,
+                                  padding: "2px 6px",
+                                  borderRadius: "4px",
+                                  background: "rgba(0, 229, 255, 0.1)",
+                                  color: "var(--primary)",
+                                }}
+                              >
+                                Διορίστηκε στη Θέση #{app.appointedElsewhereCode}
+                              </span>
+                            )}
+                          </div>
+
+                          <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "2px" }}>
+                            Α.Μ. {app.am} • <strong>{app.prefNumber}η Επιλογή</strong>
+                          </div>
+                        </div>
+                      </div>
+
+                      <span
+                        style={{
+                          color: app.isAppointedHere ? "var(--success)" : "var(--primary)",
+                          fontFamily: "var(--font-jetbrains-mono), monospace",
+                          fontWeight: 700,
+                          fontSize: "0.9rem",
+                          flexShrink: 0,
+                        }}
+                      >
+                        {formatVathmologia(app.vathmologia)}
+                      </span>
+                    </Link>
+                  );
+                })
+              )}
+
+              {/* Pagination Controls για Κινητά */}
+              {totalPages > 1 && !applicantSearch && (
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    padding: "12px 6px 4px",
+                    borderTop: "1px solid rgba(255,255,255,0.06)",
+                    fontSize: "0.8rem",
+                  }}
+                >
+                  <button
+                    type="button"
+                    onClick={() => setApplicantPage((p) => Math.max(1, p - 1))}
+                    disabled={applicantPage === 1}
+                    style={{
+                      padding: "6px 14px",
+                      borderRadius: "8px",
+                      border: "1px solid var(--border)",
+                      background: "rgba(255,255,255,0.03)",
+                      color: applicantPage === 1 ? "var(--text-dim)" : "var(--text)",
+                      cursor: applicantPage === 1 ? "not-allowed" : "pointer",
+                      fontSize: "0.8rem",
+                    }}
+                  >
+                    ← Προηγούμενοι
+                  </button>
+
+                  <span style={{ color: "var(--text-muted)", fontFamily: "var(--font-jetbrains-mono), monospace" }}>
+                    Σελίδα {applicantPage} από {totalPages}
                   </span>
-                </Link>
-              ))}
+
+                  <button
+                    type="button"
+                    onClick={() => setApplicantPage((p) => Math.min(totalPages, p + 1))}
+                    disabled={applicantPage === totalPages}
+                    style={{
+                      padding: "6px 14px",
+                      borderRadius: "8px",
+                      border: "1px solid var(--border)",
+                      background: "rgba(255,255,255,0.03)",
+                      color: applicantPage === totalPages ? "var(--text-dim)" : "var(--text)",
+                      cursor: applicantPage === totalPages ? "not-allowed" : "pointer",
+                      fontSize: "0.8rem",
+                    }}
+                  >
+                    Επόμενοι →
+                  </button>
+                </div>
+              )}
             </div>
           )}
         </motion.div>

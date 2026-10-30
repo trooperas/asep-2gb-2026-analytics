@@ -6,7 +6,7 @@ export interface InductivePuzzle {
   category: "matrix" | "rotation" | "addition" | "inversion";
   categoryLabel: string;
   difficulty: "Εύκολο" | "Μεσαίο" | "Δύσκολο";
-  gridType: "3x3" | "sequence";
+  gridType: "3x3" | "sequence" | "shape_puzzle";
   gridCells: React.ReactNode[];
   options: React.ReactNode[];
   correctIndex: number;

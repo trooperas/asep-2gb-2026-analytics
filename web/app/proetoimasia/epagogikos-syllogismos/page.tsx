@@ -52,6 +52,9 @@ export default function EpagogikosSyllogismosPage() {
   const currentQ = activeQuestions[currentIndex] || activeQuestions[0];
 
   useEffect(() => {
+    // 👈 Αν ο χρήστης έχει απαντήσει, μην τρέχεις τον timer
+    if (selectedOption !== null) return;
+
     setQuestionStartTime(Date.now());
     setTimerSeconds(60);
     setShowHint(false);
@@ -68,7 +71,7 @@ export default function EpagogikosSyllogismosPage() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [currentIndex, selectedCategory]);
+  }, [currentIndex, selectedCategory, selectedOption]);
 
   function handleUseHint() {
     if (showHint || selectedOption !== null || !currentQ) return;
@@ -133,43 +136,41 @@ export default function EpagogikosSyllogismosPage() {
   }, [score, activeQuestions]);
 
   async function handleShare() {
-  const total = activeQuestions.length || 1;
-  const pct = Math.round((score / total) * 100);
-  
-  const shareUrl = "https://asepanalytics.app/proetoimasia/epagogikos-syllogismos";
-  const shareTitle = "Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) — ΑΣΕΠ 2027";
-  // 👈 Βάλαμε το URL μέσα στο shareText, για να μην χρειάζεται να το προσθέσουμε στο fallback
-  const shareText = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}\n\n👉 ${shareUrl}`;
+    const total = activeQuestions.length || 1;
+    const pct = Math.round((score / total) * 100);
+    
+    const shareUrl = "https://asepanalytics.app/proetoimasia/epagogikos-syllogismos";
+    const shareTitle = "Τεστ Επαγωγικού Συλλογισμού (Matrix 3x3) — ΑΣΕΠ 2027";
+    const shareText = `🧠 Πέτυχα ${score}/${total} (${pct}%) στο διαδραστικό Τεστ Επαγωγικού Συλλογισμού για τον ΑΣΕΠ!\n⏱️ Μέσος χρόνος: ${avgTime}s • ${percentileText}\n\n👉 ${shareUrl}`;
 
-  // 1. Native Share (Mobile)
-  if (typeof navigator !== "undefined" && navigator.share) {
-    try {
-      await navigator.share({
-        title: shareTitle,
-        text: shareText,
-        url: shareUrl,
-      });
-      return; // Επιτυχία, βγες
-    } catch (err: any) {
-      // 👈 ΤΟ ΚΛΕΙΔΙ: Αν ο χρήστης ακύρωσε, σταμάτα ΕΔΩ.
-      if (err.name === "AbortError") {
+    // 1. Native Share (Mobile)
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl,
+        });
         return;
+      } catch (err: any) {
+        if (err.name === "AbortError") {
+          return;
+        }
+        console.log("Native share failed, falling back to clipboard:", err);
       }
-      console.log("Native share failed, falling back to clipboard:", err);
     }
-  }
 
-  // 2. Fallback (Desktop / Unsupported)
-  if (navigator.clipboard) {
-    try {
-      await navigator.clipboard.writeText(shareText); // 👈 Το shareText έχει ήδη το URL
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
-    } catch (err) {
-      console.error("Failed to copy to clipboard:", err);
+    // 2. Fallback (Desktop / Unsupported)
+    if (navigator.clipboard) {
+      try {
+        await navigator.clipboard.writeText(shareText);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2500);
+      } catch (err) {
+        console.error("Failed to copy to clipboard:", err);
+      }
     }
   }
-}
 
   return (
     <main className="min-h-screen pt-20 sm:pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
@@ -195,7 +196,7 @@ export default function EpagogikosSyllogismosPage() {
       </div>
 
       {/* SET SELECTOR BAR (Επιλογή Κατηγορίας Εξάσκησης) */}
-      <div className="mb-6 flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+      <div className="mb-6 flex flex-wrap items-center gap-2 pb-2">
         <button
           type="button"
           onClick={() => handleCategoryChange("all")}
@@ -206,6 +207,18 @@ export default function EpagogikosSyllogismosPage() {
           }`}
         >
           Όλα τα Θέματα ({INDUCTIVE_PUZZLES.length})
+        </button>
+
+        <button
+          type="button"
+          onClick={() => handleCategoryChange("math_shapes")}
+          className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
+            selectedCategory === "math_shapes"
+              ? "bg-amber-400 text-slate-950 font-bold shadow-md"
+              : "bg-slate-900 border border-slate-800 text-amber-300 hover:text-white"
+          }`}
+        >
+          <span>🔢 Αριθμητικά Σχήματα (10 Νέοι Τύποι)</span>
         </button>
 
         <button
@@ -238,8 +251,8 @@ export default function EpagogikosSyllogismosPage() {
           onClick={() => handleCategoryChange("speed")}
           className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
             selectedCategory === "speed"
-              ? "bg-amber-400 text-slate-950 font-bold shadow-md"
-              : "bg-slate-900 border border-slate-800 text-amber-300 hover:text-white"
+              ? "bg-pink-500 text-white font-bold shadow-md"
+              : "bg-slate-900 border border-slate-800 text-pink-300 hover:text-white"
           }`}
         >
           <Zap className="w-3.5 h-3.5" />
@@ -337,6 +350,17 @@ export default function EpagogikosSyllogismosPage() {
                     {i < currentQ.gridCells.length - 1 && (
                       <span className="text-slate-600 font-mono text-sm">→</span>
                     )}
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* 3. SHAPE PUZZLE VIEW (για τα νέα αριθμητικά σχήματα) */}
+            {currentQ.gridType === "shape_puzzle" && (
+              <div className="flex flex-wrap justify-center gap-4 py-2">
+                {currentQ.gridCells.map((cell, idx) => (
+                  <div key={idx} className="p-2">
+                    {cell}
                   </div>
                 ))}
               </div>
@@ -559,6 +583,22 @@ export default function EpagogikosSyllogismosPage() {
           <p>
             Όταν ο χρόνος πιέζει (κάτω από 60 δευτερόλεπτα), εντοπίστε ένα μόνο χαρακτηριστικό (π.χ. φορά βέλους) και αποκλείστε αμέσως 2–3 επιλογές που δεν το τηρούν.
           </p>
+        </section>
+
+        {/* SEO SECTION: ΑΡΙΘΜΗΤΙΚΑ ΣΧΗΜΑΤΑ (ΣΤΟΧΕΥΣΗ QUERIES) */}
+        <section className="space-y-3 pt-4 border-t border-slate-800/80">
+          <h3 className="text-base sm:text-lg font-bold text-amber-300 flex items-center gap-2">
+            4. Αριθμητικός Συλλογισμός σε Γεωμετρικά Σχήματα (Πρότυπα EPSO)
+          </h3>
+          <p>
+            Στον 3ο διαγωνισμό (2027), ο αριθμητικός συλλογισμός ξεφεύγει από τις απλές σειρές αριθμών. Οι υποψήφιοι καλούνται να εντοπίσουν μαθηματικούς κανόνες μέσα σε γεωμετρικά σχήματα:
+          </p>
+          <ul className="list-disc pl-5 space-y-1.5 text-slate-400">
+            <li><strong>Τρίγωνα:</strong> Ο κεντρικός αριθμός προκύπτει από συνδυασμό γινομένου των δύο κορυφών μείον την τρίτη κορυφή.</li>
+            <li><strong>Κύκλοι 4 τεταρτημορίων:</strong> Διαγώνιες προσθαφαιρέσεις και πολλαπλασιασμοί των αντικριστών τεταρτημορίων.</li>
+            <li><strong>Πυραμίδες:</strong> Κάθε αριθμός συντίθεται από τους δύο ακριβώς από κάτω του μέσω αναδρομικού μαθηματικού τύπου.</li>
+            <li><strong>Διαμετρικά Εξάγωνα:</strong> Άθροισμα γινομένων των απέναντι κορυφών.</li>
+          </ul>
         </section>
 
         <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-400 flex items-start gap-2.5">

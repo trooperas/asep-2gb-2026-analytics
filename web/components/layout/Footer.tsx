@@ -107,6 +107,10 @@ export default function Footer() {
               Απόρρητο & GDPR
             </Link>
             <span>•</span>
+            <Link href="/data" className="text-slate-200 hover:text-white font-medium">
+              Δεδομένα
+            </Link>
+            <span>•</span>
             <Link href="/about" className="text-slate-200 hover:text-white font-medium">
               Σχετικά
             </Link>

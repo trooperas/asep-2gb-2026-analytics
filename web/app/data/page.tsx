@@ -261,7 +261,7 @@ export default function DataPage() {
               </p>
               <p className="text-sm text-slate-300 leading-relaxed">
                 <strong>Απόδοση:</strong> ASEP Analytics Hub (asepanalytics.app),
-                Fokion Xiotakis
+                Fokion Chiotakis
               </p>
             </div>
           </div>
@@ -392,7 +392,7 @@ export default function DataPage() {
             </p>
             <div className="p-4 rounded-xl bg-slate-950/60 border border-slate-800">
               <code className="text-sm text-[#00E5FF] leading-relaxed block whitespace-pre-wrap break-words">
-                Xiotakis, F. (2026). ΑΣΕΠ 2ΓΒ/2026 — Dataset αποτελεσμάτων [Data
+                Chiotakis, F. (2026). ΑΣΕΠ 2ΓΒ/2026 — Dataset αποτελεσμάτων [Data
                 set]. ASEP Analytics Hub. https://asepanalytics.app/data (CC BY
                 4.0).
               </code>

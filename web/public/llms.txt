@@ -16,6 +16,7 @@
 
 - [Στατιστικά Διαγωνισμού](https://asepanalytics.app/stats): Συνολικές μετρήσεις βάσεων και συμμετοχών
 - [Ειδικότητες](https://asepanalytics.app/eidikotita/pe-dioikitikoy-oikonomikoy-eid-pe-dioikitikoy-oikonomikoy-pe-diekp-ypoth-politwn): Ενδεικτική σελίδα αναλυτικών βάσεων ανά ειδικότητα
+- [Ανοιχτά Δεδομένα — Dataset CSV/JSON (CC BY 4.0)](https://asepanalytics.app/data): Λήψη του raw dataset 2ΓΒ/2026 (2.723 θέσεις, 551 κενές θέσεις, 52 ειδικότητες) με άδεια Creative Commons Αναφορά 4.0
 
 ## Σημειώσεις Δεδομένων
 Όλα τα δεδομένα προέρχονται αποκλειστικά από τους επίσημους πίνακες που δημοσίευσε ο ΑΣΕΠ για τον διαγωνισμό 2ΓΒ/2026.

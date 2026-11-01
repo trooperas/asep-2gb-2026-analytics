@@ -41,7 +41,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/fokionas/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="me noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-700 text-slate-100 hover:text-[#00E5FF] hover:border-[#00E5FF]/60 transition-all text-xs font-semibold shadow-sm"
               >
                 <svg className="w-3.5 h-3.5 fill-[#00E5FF]" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@ export default function Footer() {
               <a
                 href="https://github.com/trooperas/asep-2gb-2026-analytics"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="me noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-700 text-slate-100 hover:text-white hover:border-slate-400 transition-all text-xs font-semibold shadow-sm"
               >
                 <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">

@@ -96,8 +96,9 @@ const jsonLd = {
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "All",
       "creator": {
+        "@id": "https://asepanalytics.app/about#person",
         "@type": "Person",
-        "name": "Fokion",
+        "name": "Fokion Xiotakis",
         "url": "https://www.linkedin.com/in/fokionas/"
       }
     }

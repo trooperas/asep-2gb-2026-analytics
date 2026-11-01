@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import stats from "@/public/data/global_stats.json";
 import Hero from "@/components/hero/Hero";
-import TwoGbCluster from "@/components/home/TwoGbCluster";
-import { homeFaq } from "@/components/home/TwoGbCluster";
+import HomeFaq, { homeFaq } from "@/components/home/HomeFaq";
 
 const pageTitle =
   "ΑΣΕΠ 2ΓΒ/2026 Αποτελέσματα (2gb) — Βάσεις & Στατιστικά";
@@ -69,7 +68,7 @@ export default function Home() {
           __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      <TwoGbCluster stats={stats} />
+      <HomeFaq />
     </main>
   );
 }

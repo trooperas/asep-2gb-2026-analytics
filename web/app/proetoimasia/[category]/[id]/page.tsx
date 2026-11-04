@@ -25,6 +25,15 @@ interface Question {
   correct_index: number;
 }
 
+function truncateAtWordBoundary(text: string, maxLength: number): string {
+  if (text.length <= maxLength) return text;
+  // reserve one character for the ellipsis so the result still fits maxLength
+  const cut = text.substring(0, maxLength - 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  const base = lastSpace === -1 ? cut : cut.substring(0, lastSpace);
+  return `${base.trimEnd()}…`;
+}
+
 function getAllQuestions(): Question[] {
   try {
     const p = join(process.cwd(), "public", "data", "quizzes_clean.json");
@@ -46,9 +55,23 @@ export async function generateMetadata({
 
   if (!q) return { title: "Ερώτηση ΑΣΕΠ" };
 
+  // Title: keep the category named when it fits, otherwise fall back to the
+  // short topic suffix; the question stem always ends on a word boundary.
+  const categorySuffix = ` — ${q.category_title}`;
+  const titleSuffix = categorySuffix.length <= 22 ? categorySuffix : " — Θέματα ΑΣΕΠ";
+  const title = `${truncateAtWordBoundary(q.question, 60 - titleSuffix.length)}${titleSuffix}`;
+
+  // Description: budget the fixed wrapper first so the category always
+  // survives and only the question stem gets shortened.
+  const descPrefix = 'Επίσημη ερώτηση και απάντηση ΑΣΕΠ: "';
+  let descSuffix = `" — ${q.category_title}.`;
+  if (155 - descPrefix.length - descSuffix.length < 30) descSuffix = '"';
+  const descRoom = 155 - descPrefix.length - descSuffix.length;
+  const description = `${descPrefix}${truncateAtWordBoundary(q.question, descRoom)}${descSuffix}`;
+
   return {
-    title: `${q.question.substring(0, 65)}... — Θέματα ΑΣΕΠ`,
-    description: `Επίσημη ερώτηση και απάντηση ΑΣΕΠ: "${q.question}". Κατηγορία: ${q.category_title}.`,
+    title: { absolute: title },
+    description,
     // 👇 Προσθήκη Canonical Tag:
     alternates: {
       canonical: `/proetoimasia/${category}/${id}`,

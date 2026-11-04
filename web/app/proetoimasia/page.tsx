@@ -65,6 +65,11 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    title: "Τράπεζα Θεμάτων ΑΣΕΠ 2027: 1.988 Ερωτήσεις & Τεστ Δεξιοτήτων",
+    description:
+      "Δωρεάν online εξάσκηση: 1.988 επίσημες ερωτήσεις γνώσεων, τεστ επαγωγικού συλλογισμού και προσομοίωση OPQ32.",
+  },
 };
 
 const ICONS: Record<string, any> = {

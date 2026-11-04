@@ -8,6 +8,11 @@ export const metadata = {
   alternates: {
     canonical: "/about",
   },
+  twitter: {
+    title: "ΑΣΕΠ 2ΓΒ/2026 Hub — Πλήρης Ανάλυση Αποτελεσμάτων & AI",
+    description:
+      "Εξερεύνησε τα αποτελέσματα του ΑΣΕΠ 2ΓΒ/2026: κατανομή θέσεων, βαθμολογίες ανά ειδικότητα, γεωγραφικός χάρτης και έξυπνη αναζήτηση.",
+  },
 };
 
 const personJsonLd = {

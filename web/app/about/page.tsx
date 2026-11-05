@@ -4,7 +4,8 @@ import { Sparkles, HelpCircle, ShieldCheck, ExternalLink, Zap } from "lucide-rea
 
 export const metadata = {
   title: "Σχετικά με την Πλατφόρμα",
-  description: "Πληροφορίες για το project, τα δεδομένα και τον δημιουργό του ΑΣΕΠ Hub.",
+  description:
+    "Δημιουργήθηκε από τον Fokion Xiotakis — τα αποτελέσματα 2ΓΒ/2026 και η τράπεζα ερωτήσεων 2027 είναι δωρεάν ανοιχτά δεδομένα. Βρείτε τον στο LinkedIn & GitHub.",
   alternates: {
     canonical: "/about",
   },

@@ -5,7 +5,7 @@ import { Sparkles, HelpCircle, ShieldCheck, ExternalLink, Zap } from "lucide-rea
 export const metadata = {
   title: "Σχετικά με την Πλατφόρμα",
   description:
-    "Δημιουργήθηκε από τον Fokion Xiotakis — αποτελέσματα 2ΓΒ/2026 και τράπεζα ερωτήσεων 2027 είναι δωρεάν ανοιχτά δεδομένα. Βρείτε τον στο LinkedIn & GitHub.",
+    "Δημιουργήθηκε από τον Fokion Chiotakis — αποτελέσματα 2ΓΒ/2026 και τράπεζα ερωτήσεων 2027 είναι δωρεάν ανοιχτά δεδομένα. Βρείτε τον στο LinkedIn & GitHub.",
   alternates: {
     canonical: "/about",
   },
@@ -20,7 +20,7 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://asepanalytics.app/about#person",
-  "name": "Fokion Xiotakis",
+  "name": "Fokion Chiotakis",
   "alternateName": "Fokion",
   "url": "https://asepanalytics.app/about",
   "mainEntityOfPage": "https://asepanalytics.app/about",

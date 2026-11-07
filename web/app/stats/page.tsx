@@ -241,6 +241,129 @@ export default function StatsPage() {
             δεν υπάρχει ακόμη ανακοίνωση για τα οριστικά.
           </p>
 
+          <section
+            aria-labelledby="prosorina-apotelesmata-2gb-2026"
+            style={{
+              maxWidth: "760px",
+              marginBottom: "2.5rem",
+              padding: "1.5rem",
+              borderRadius: "16px",
+              border: "1px solid var(--border)",
+              background: "var(--surface)",
+            }}
+          >
+            <h2
+              id="prosorina-apotelesmata-2gb-2026"
+              style={{
+                fontSize: "1.25rem",
+                fontWeight: 700,
+                color: "var(--text)",
+                marginBottom: "0.9rem",
+              }}
+            >
+              Προσωρινά Αποτελέσματα 2ΓΒ/2026
+            </h2>
+
+            <ul
+              style={{
+                margin: 0,
+                paddingLeft: "1.1rem",
+                color: "var(--text-muted)",
+                fontSize: "0.95rem",
+                lineHeight: 1.7,
+              }}
+            >
+              <li>
+                <strong style={{ color: "var(--text)" }}>Σύνολο θέσεων:</strong> 4.747
+                θέσεις Πανεπιστημιακής Εκπαίδευσης (ΠΕ).
+              </li>
+              <li>
+                <strong style={{ color: "var(--text)" }}>Ημερομηνία ανακοίνωσης:</strong>{" "}
+                τα προσωρινά αποτελέσματα ανακοινώθηκαν στις 27 Φεβρουαρίου 2026 και
+                αναρτήθηκαν στον διαδικτυακό τόπο του ΑΣΕΠ.
+              </li>
+              <li>
+                <strong style={{ color: "var(--text)" }}>
+                  Ενστάσεις — οδηγίες:
+                </strong>{" "}
+                υποβάλλονται αποκλειστικά ηλεκτρονικά μέσω της εφαρμογής του ΑΣΕΠ (
+                <a
+                  href="https://www.asep.gr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "var(--accent, #4f8cff)", textDecoration: "underline" }}
+                >
+                  asep.gr
+                </a>
+                ) με τους προσωπικούς κωδικούς πρόσβασης, εντός της προθεσμίας που
+                ορίζεται στη σχετική ανακοίνωση. Απαιτείται αναλυτική αιτιολόγηση και
+                δεν επιτρέπεται η υποβολή νέων δικαιολογητικών.
+              </li>
+            </ul>
+
+            <h3
+              style={{
+                fontSize: "1rem",
+                fontWeight: 700,
+                color: "var(--text)",
+                margin: "1.5rem 0 0.6rem",
+              }}
+            >
+              Συχνές ερωτήσεις (FAQ)
+            </h3>
+
+            <details style={{ marginBottom: "0.5rem" }}>
+              <summary
+                style={{
+                  cursor: "pointer",
+                  fontSize: "0.92rem",
+                  fontWeight: 600,
+                  color: "var(--text)",
+                }}
+              >
+                Πότε αναμένονται τα οριστικά αποτελέσματα;
+              </summary>
+              <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", margin: "0.4rem 0 0" }}>
+                Δεν έχει ανακοινωθεί συγκεκριμένη ημερομηνία· τα οριστικά εκδίδονται μετά
+                την εξέταση των ενστάσεων.
+              </p>
+            </details>
+
+            <details style={{ marginBottom: "0.5rem" }}>
+              <summary
+                style={{
+                  cursor: "pointer",
+                  fontSize: "0.92rem",
+                  fontWeight: 600,
+                  color: "var(--text)",
+                }}
+              >
+                Πώς ελέγχω τη βαθμολογία και τη σειρά κατάταξής μου;
+              </summary>
+              <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", margin: "0.4rem 0 0" }}>
+                Αναζητώντας τον αριθμό αίτησης/μητρώου σου στον πίνακα των προσωρινών
+                αποτελεσμάτων· η σειρά κατάταξης είναι προσωρινή και ενδέχεται να
+                μεταβληθεί.
+              </p>
+            </details>
+
+            <details>
+              <summary
+                style={{
+                  cursor: "pointer",
+                  fontSize: "0.92rem",
+                  fontWeight: 600,
+                  color: "var(--text)",
+                }}
+              >
+                Μπορώ να υποβάλω ένσταση μετά τη λήξη της προθεσμίας;
+              </summary>
+              <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", margin: "0.4rem 0 0" }}>
+                Όχι. Εκπρόθεσμες ενστάσεις δεν εξετάζονται και δεν λαμβάνονται υπόψη.
+              </p>
+            </details>
+          </section>
+
           <div
             style={{
               display: "flex",

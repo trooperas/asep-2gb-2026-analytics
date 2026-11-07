@@ -229,13 +229,41 @@ export default function StatsPage() {
             style={{
               color: "var(--text-muted)",
               fontSize: "1.05rem",
-              marginBottom: "2.5rem",
+              marginBottom: "1rem",
               maxWidth: "700px",
             }}
           >
             Πλήρης ανάλυση των αποτελεσμάτων του Πανελλήνιου Γραπτού
-            Διαγωνισμού 2ΓΒ/2026.
+            Διαγωνισμού <strong style={{ color: "var(--text)" }}>2ΓΒ/2026</strong> του
+            ΑΣΕΠ για <strong style={{ color: "var(--text)" }}>4.747 θέσεις</strong>. Τα
+            στοιχεία βασίζονται στα{" "}
+            <strong style={{ color: "var(--text)" }}>προσωρινά αποτελέσματα</strong> —
+            δεν υπάρχει ακόμη ανακοίνωση για τα οριστικά.
           </p>
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "flex-start",
+              gap: "0.6rem",
+              padding: "0.75rem 1rem",
+              marginBottom: "2.5rem",
+              maxWidth: "700px",
+              borderRadius: "12px",
+              border: "1px solid rgba(255, 200, 0, 0.35)",
+              background: "rgba(255, 200, 0, 0.06)",
+              fontSize: "0.85rem",
+              color: "var(--text-muted)",
+              lineHeight: 1.5,
+            }}
+          >
+            <span aria-hidden="true">⚠️</span>
+            <span>
+              <strong style={{ color: "#FFC800" }}>Σημείωση (Radar):</strong> Τα
+              αποτελέσματα του 2ΓΒ/2026 είναι <strong>προσωρινά</strong> — δεν έχει
+              ανακοινωθεί ακόμη επίσημη ημερομηνία για τα οριστικά.
+            </span>
+          </div>
         </motion.div>
 
         {/* Global KPIs Grid */}

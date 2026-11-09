@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   // 👈 Λέει στη Google να ΜΗΝ ευρετηριάζει τα προσωπικά προφίλ/ονόματα υποψηφίων
   robots: {
     index: false,
-    follow: true,
+    follow: false,
   },
 };
 

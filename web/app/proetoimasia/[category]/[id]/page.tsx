@@ -101,6 +101,28 @@ export default async function SingleQuestionPage({
   const prevQ = questions[qIdx - 1];
 
   // Schema.org QAPage Structured Data
+  const questionUrl = `https://asepanalytics.app/proetoimasia/${category}/${id}`;
+  const author = {
+    "@type": "Organization",
+    "name": "ASEP Analytics",
+    "url": "https://asepanalytics.app",
+  };
+  const datePublished = "2026-01-01T00:00:00Z";
+  const suggestedAnswers = q.options
+    .map((option, idx) => ({ option, idx }))
+    .filter(({ idx }) => idx !== q.correct_index)
+    .map(({ option, idx }) => ({
+      "@type": "Answer",
+      "text": option,
+      "author": {
+        "@type": "Organization",
+        "name": "ASEP Analytics",
+      },
+      "datePublished": datePublished,
+      "upvoteCount": 0,
+      "url": `${questionUrl}#answer-${idx + 1}`,
+    }));
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "QAPage",
@@ -108,19 +130,18 @@ export default async function SingleQuestionPage({
       "@type": "Question",
       "name": q.question,
       "text": q.question,
-      "answerCount": 1,
+      "author": author,
+      "datePublished": datePublished,
+      "answerCount": 1 + suggestedAnswers.length,
       "acceptedAnswer": {
         "@type": "Answer",
         "text": q.options[q.correct_index],
+        "author": author,
+        "datePublished": datePublished,
         "upvoteCount": 100,
-        "url": `https://asepanalytics.app/proetoimasia/${category}/${id}`,
+        "url": questionUrl,
       },
-      "suggestedAnswer": q.options
-        .filter((_, idx) => idx !== q.correct_index)
-        .map((opt) => ({
-          "@type": "Answer",
-          "text": opt,
-        })),
+      "suggestedAnswer": suggestedAnswers,
     },
   };
 
@@ -160,6 +181,7 @@ export default async function SingleQuestionPage({
             return (
               <div
                 key={idx}
+                id={`answer-${idx + 1}`}
                 className={`p-4 rounded-xl border flex items-start gap-3 transition-all ${
                   isCorrect
                     ? "bg-emerald-950/50 border-emerald-500/80 text-emerald-100 shadow-[0_0_20px_rgba(16,185,129,0.15)]"

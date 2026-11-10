@@ -114,10 +114,7 @@ export default async function SingleQuestionPage({
     .map(({ option, idx }) => ({
       "@type": "Answer",
       "text": option,
-      "author": {
-        "@type": "Organization",
-        "name": "ASEP Analytics",
-      },
+      "author": author,
       "datePublished": datePublished,
       "upvoteCount": 0,
       "url": `${questionUrl}#answer-${idx + 1}`,

@@ -1,51 +1,52 @@
 import { NextResponse } from "next/server";
-import { readFileSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
 
-let searchIndexCache: any[] | null = null;
-let slugMapCache: Record<string, string> | null = null;
-let positionsListCache: any[] | null = null;
+let searchIndexCache: Promise<any[]> | null = null;
+let slugMapCache: Promise<Record<string, string>> | null = null;
+let positionsListCache: Promise<any[]> | null = null;
 
-function getSearchIndex(): any[] {
+function getSearchIndex(request: Request): Promise<any[]> {
   if (!searchIndexCache) {
-    try {
-      const p = join(process.cwd(), "public", "data", "search_index.json");
-      searchIndexCache = JSON.parse(readFileSync(p, "utf-8"));
-    } catch {
-      searchIndexCache = [];
-    }
+    searchIndexCache = fetchDataJson<any[]>("search_index.json", {
+      request,
+    }).catch((error) => {
+      searchIndexCache = null;
+      throw error;
+    });
   }
-  return searchIndexCache || [];
+  return searchIndexCache;
 }
 
-function getPositionsList(): any[] {
+function getPositionsList(request: Request): Promise<any[]> {
   if (!positionsListCache) {
-    try {
-      const p = join(process.cwd(), "public", "data", "positions.json");
-      positionsListCache = JSON.parse(readFileSync(p, "utf-8"));
-    } catch {
-      positionsListCache = [];
-    }
+    positionsListCache = fetchDataJson<any[]>("positions.json", {
+      request,
+    }).catch((error) => {
+      positionsListCache = null;
+      throw error;
+    });
   }
-  return positionsListCache || [];
+  return positionsListCache;
 }
 
-function getSlugMap(): Record<string, string> {
+function getSlugMap(request: Request): Promise<Record<string, string>> {
   if (!slugMapCache) {
-    try {
-      const p = join(process.cwd(), "public", "data", "eidikotites_index.json");
-      const list = JSON.parse(readFileSync(p, "utf-8"));
-      slugMapCache = {};
-      for (const item of list) {
-        if (item.slug && item.eidikotita) {
-          slugMapCache[item.slug] = item.eidikotita;
+    slugMapCache = fetchDataJson<any[]>("eidikotites_index.json", { request })
+      .then((list) => {
+        const map: Record<string, string> = {};
+        for (const item of list) {
+          if (item.slug && item.eidikotita) {
+            map[item.slug] = item.eidikotita;
+          }
         }
-      }
-    } catch {
-      slugMapCache = {};
-    }
+        return map;
+      })
+      .catch((error) => {
+        slugMapCache = null;
+        throw error;
+      });
   }
-  return slugMapCache || {};
+  return slugMapCache;
 }
 
 function cleanGreekTitle(slug: string, slugMap: Record<string, string>): string {
@@ -70,7 +71,7 @@ function normalize(text: string): string {
   return String(text || "")
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[̀-ͯ]/g, "")
     .trim();
 }
 
@@ -83,79 +84,94 @@ export async function GET(request: Request) {
   }
 
   const queryNorm = normalize(q);
-  const index = getSearchIndex();
-  const slugMap = getSlugMap();
 
-  // 1. Εύρεση Υποψηφίων
-  const matches = index.filter((item) => {
-    const amNorm = String(item.am || "").replace(/\.0$/, "").trim();
-    const epNorm = normalize(item.eponymo || "");
-    const onNorm = normalize(item.onoma || "");
-    const fullName = `${epNorm} ${onNorm}`;
+  try {
+    const [index, slugMap, positionsList] = await Promise.all([
+      getSearchIndex(request),
+      getSlugMap(request),
+      getPositionsList(request),
+    ]);
 
-    return (
-      amNorm.startsWith(queryNorm) ||
-      epNorm.includes(queryNorm) ||
-      onNorm.includes(queryNorm) ||
-      fullName.includes(queryNorm)
+    // 1. Εύρεση Υποψηφίων
+    const matches = index.filter((item) => {
+      const amNorm = String(item.am || "").replace(/\.0$/, "").trim();
+      const epNorm = normalize(item.eponymo || "");
+      const onNorm = normalize(item.onoma || "");
+      const fullName = `${epNorm} ${onNorm}`;
+
+      return (
+        amNorm.startsWith(queryNorm) ||
+        epNorm.includes(queryNorm) ||
+        onNorm.includes(queryNorm) ||
+        fullName.includes(queryNorm)
+      );
+    });
+
+    // 2. Deduplication υποψηφίων ανά Α.Μ.
+    const uniqueCandidatesMap = new Map<string, any>();
+
+    for (const m of matches) {
+      const cleanAm = String(m.am).replace(/\.0$/, "").trim();
+      const cleanSpecialtyName = cleanGreekTitle(m.slug || "", slugMap);
+
+      if (!uniqueCandidatesMap.has(cleanAm)) {
+        uniqueCandidatesMap.set(cleanAm, {
+          am: cleanAm,
+          eponymo: m.eponymo,
+          onoma: m.onoma,
+          patronymo: m.patronymo,
+          specialties: [cleanSpecialtyName],
+          slug: m.slug,
+          thesi_diorismou: m.thesi_diorismou || null,
+          vathmologia: m.vathmologia || null,
+          aa: m.aa,
+        });
+      } else {
+        const existing = uniqueCandidatesMap.get(cleanAm);
+        if (!existing.specialties.includes(cleanSpecialtyName)) {
+          existing.specialties.push(cleanSpecialtyName);
+        }
+        if (m.thesi_diorismou && !existing.thesi_diorismou) {
+          existing.thesi_diorismou = m.thesi_diorismou;
+          existing.slug = m.slug;
+          existing.vathmologia = m.vathmologia;
+        }
+      }
+    }
+
+    const results = Array.from(uniqueCandidatesMap.values()).slice(0, 30);
+
+    // 3. Εύρεση Θέσεων αν η αναζήτηση περιέχει κωδικό θέσης (αριθμό)
+    const matchedPositions = positionsList
+      .filter((p: any) =>
+        String(p.kod_thesis || "").replace(/\.0$/, "").trim().startsWith(queryNorm)
+      )
+      .slice(0, 4)
+      .map((p: any) => ({
+        kod_thesis: String(p.kod_thesis).replace(/\.0$/, "").trim(),
+        foreas: p.foreas,
+        eidikotita: p.eidikotita,
+        perifereia: p.perifereia,
+        theseis: p.theseis,
+      }));
+
+    return NextResponse.json(
+      { results, matchedPositions },
+      {
+        headers: {
+          "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+        },
+      }
     );
-  });
-
-  // 2. Deduplication υποψηφίων ανά Α.Μ.
-  const uniqueCandidatesMap = new Map<string, any>();
-
-  for (const m of matches) {
-    const cleanAm = String(m.am).replace(/\.0$/, "").trim();
-    const cleanSpecialtyName = cleanGreekTitle(m.slug || "", slugMap);
-
-    if (!uniqueCandidatesMap.has(cleanAm)) {
-      uniqueCandidatesMap.set(cleanAm, {
-        am: cleanAm,
-        eponymo: m.eponymo,
-        onoma: m.onoma,
-        patronymo: m.patronymo,
-        specialties: [cleanSpecialtyName],
-        slug: m.slug,
-        thesi_diorismou: m.thesi_diorismou || null,
-        vathmologia: m.vathmologia || null,
-        aa: m.aa,
-      });
-    } else {
-      const existing = uniqueCandidatesMap.get(cleanAm);
-      if (!existing.specialties.includes(cleanSpecialtyName)) {
-        existing.specialties.push(cleanSpecialtyName);
-      }
-      if (m.thesi_diorismou && !existing.thesi_diorismou) {
-        existing.thesi_diorismou = m.thesi_diorismou;
-        existing.slug = m.slug;
-        existing.vathmologia = m.vathmologia;
-      }
-    }
-  }
-
-  const results = Array.from(uniqueCandidatesMap.values()).slice(0, 30);
-
-  // 3. Εύρεση Θέσεων αν η αναζήτηση περιέχει κωδικό θέσης (αριθμό)
-  const positionsList = getPositionsList();
-  const matchedPositions = positionsList
-    .filter((p: any) =>
-      String(p.kod_thesis || "").replace(/\.0$/, "").trim().startsWith(queryNorm)
-    )
-    .slice(0, 4)
-    .map((p: any) => ({
-      kod_thesis: String(p.kod_thesis).replace(/\.0$/, "").trim(),
-      foreas: p.foreas,
-      eidikotita: p.eidikotita,
-      perifereia: p.perifereia,
-      theseis: p.theseis,
-    }));
-
-  return NextResponse.json(
-    { results, matchedPositions },
-    {
-      headers: {
-        "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+  } catch (error) {
+    console.error("[api/search] Failed to load data assets:", error);
+    return NextResponse.json(
+      {
+        error: "Search data unavailable",
+        detail:
+          error instanceof Error ? error.message : "Unknown data loading error",
       },
-    }
-  );
+      { status: 500 }
+    );
+  }
 }

@@ -1,6 +1,19 @@
 import { NextResponse } from "next/server";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
+
+let searchIndexCache: Promise<any[]> | null = null;
+
+function getSearchIndex(request: Request): Promise<any[]> {
+  if (!searchIndexCache) {
+    searchIndexCache = fetchDataJson<any[]>("search_index.json", {
+      request,
+    }).catch((error) => {
+      searchIndexCache = null;
+      throw error;
+    });
+  }
+  return searchIndexCache;
+}
 
 function normalizeText(text: string): string {
   return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
@@ -10,29 +23,27 @@ function pickRandom(arr: string[]): string {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function getPositionDetails(kod: string) {
-  try {
-    const filePath = join(process.cwd(), "public", "data", "positions.json");
-    const data = JSON.parse(readFileSync(filePath, "utf-8"));
-    return data.find((p: any) => String(p.kod_thesis) === String(kod)) || null;
-  } catch { return null; }
+async function getPositionDetails(request: Request, kod: string) {
+  const data = await fetchDataJson<any[]>("positions.json", { request });
+  return data.find((p: any) => String(p.kod_thesis) === String(kod)) || null;
 }
 
 // --- ΝΕΑ ΣΥΝΑΡΤΗΣΗ: Ψάχνει τον υποψήφιο στα chunks και επιστρέφει τα πλήρη στοιχεία ---
-function getCandidateDetails(am: string) {
-  try {
-    const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
-    const chunkIndex = JSON.parse(readFileSync(chunkIndexPath, "utf-8"));
-    const chunksDir = join(process.cwd(), "public", "data", "chunks");
+async function getCandidateDetails(request: Request, am: string) {
+  const chunkIndex = await fetchDataJson<Record<string, string[]>>(
+    "chunk_index.json",
+    { request }
+  );
 
-    const targetAm = String(am).replace(/\.0$/, "").trim();
+  const targetAm = String(am).replace(/\.0$/, "").trim();
 
     // Διατρέχουμε όλα τα chunks για να βρούμε τον υποψήφιο
     for (const [slug, chunkFiles] of Object.entries(chunkIndex)) {
-      for (const chunkName of chunkFiles as string[]) {
-        const cPath = join(chunksDir, chunkName);
-        if (existsSync(cPath)) {
-          const chunkData = JSON.parse(readFileSync(cPath, "utf-8"));
+      for (const chunkName of new Set(chunkFiles as string[])) {
+        {
+          const chunkData = await fetchDataJson<any[]>(`chunks/${chunkName}`, {
+            request,
+          });
           const found = chunkData.find((r: any) => String(r.am).replace(/\.0$/, "").trim() === targetAm);
           
           if (found) {
@@ -40,13 +51,12 @@ function getCandidateDetails(am: string) {
             // Το slug είναι το κλειδί (π.χ. pe-archaiologon...). Θα το μετατρέψουμε σε φιλικό κείμενο.
             
             // 1. Βρίσκουμε το σωστό όνομα ειδικότητας από το eidikotites_index
-            let eidikotitaName = slug.replace(/-/g, ' ').toUpperCase(); // Fallback
-            try {
-              const indexFilePath = join(process.cwd(), "public", "data", "eidikotites_index.json");
-              const indexData = JSON.parse(readFileSync(indexFilePath, "utf-8"));
-              const foundEid = indexData.find((e: any) => e.slug === slug);
-              if (foundEid) eidikotitaName = foundEid.eidikotita;
-            } catch {}
+            let eidikotitaName = slug.replace(/-/g, " ").toUpperCase(); // Fallback
+            const indexData = await fetchDataJson<any[]>("eidikotites_index.json", {
+              request,
+            });
+            const foundEid = indexData.find((e: any) => e.slug === slug);
+            if (foundEid) eidikotitaName = foundEid.eidikotita;
 
             // 2. Ελέγχουμε αν έχει διοριστεί
             const thesiDiorismou = found.thesi_diorismou ? String(found.thesi_diorismou).replace(/\.0$/, "").trim() : null;
@@ -65,17 +75,13 @@ function getCandidateDetails(am: string) {
       }
     }
     return null;
-  } catch (error) {
-    console.error("Candidate search error:", error);
-    return null;
-  }
 }
 
-function getStatsByEidikotitaName(eidikotitaName: string) {
-  try {
-    const indexFilePath = join(process.cwd(), "public", "data", "eidikotites_index.json");
-    const indexData = JSON.parse(readFileSync(indexFilePath, "utf-8"));
-    const normalizedSearch = normalizeText(eidikotitaName);
+async function getStatsByEidikotitaName(request: Request, eidikotitaName: string) {
+  const indexData = await fetchDataJson<any[]>("eidikotites_index.json", {
+    request,
+  });
+  const normalizedSearch = normalizeText(eidikotitaName);
     
     const foundEidikotita = indexData.find((e: any) => 
       normalizeText(e.eidikotita) === normalizedSearch || 
@@ -85,21 +91,21 @@ function getStatsByEidikotitaName(eidikotitaName: string) {
     if (!foundEidikotita) return null;
     const correctSlug = foundEidikotita.slug;
 
-    const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
-    const chunkIndex = JSON.parse(readFileSync(chunkIndexPath, "utf-8"));
+    const chunkIndex = await fetchDataJson<Record<string, string[]>>(
+      "chunk_index.json",
+      { request }
+    );
     const chunkFiles = chunkIndex[correctSlug];
 
     if (!chunkFiles || chunkFiles.length === 0) return null;
 
-    const chunksDir = join(process.cwd(), "public", "data", "chunks");
     const allRecords: any[] = [];
 
     for (const chunkName of chunkFiles) {
-      const cPath = join(chunksDir, chunkName);
-      if (existsSync(cPath)) {
-        const chunkData = JSON.parse(readFileSync(cPath, "utf-8"));
-        allRecords.push(...chunkData);
-      }
+      const chunkData = await fetchDataJson<any[]>(`chunks/${chunkName}`, {
+        request,
+      });
+      allRecords.push(...chunkData);
     }
 
     if (allRecords.length === 0) return null;
@@ -118,9 +124,6 @@ function getStatsByEidikotitaName(eidikotitaName: string) {
     const min_vath = appointedScores.length ? Math.min(...appointedScores) : 0;
 
     return { slug: correctSlug, count: totalCount, dioristoi: dioristoiCount, avg_vath, max_vath, min_vath };
-  } catch (error) {
-    return null;
-  }
 }
 
 export async function POST(request: Request) {
@@ -193,7 +196,7 @@ export async function POST(request: Request) {
       const eidikotitaName = payload?.eidikotitaName;
       
       if (eidikotitaName) {
-        const stats = getStatsByEidikotitaName(eidikotitaName);
+        const stats = await getStatsByEidikotitaName(request, eidikotitaName);
         
         if (stats) {
           let sauce = "";
@@ -331,7 +334,7 @@ export async function POST(request: Request) {
           });
         }
         
-        const candidate = getCandidateDetails(input);
+        const candidate = await getCandidateDetails(request, input);
         if (candidate) {
           const fullName = `${candidate.eponymo} ${candidate.onoma || ''}`.trim();
           
@@ -377,7 +380,7 @@ export async function POST(request: Request) {
           });
         }
 
-        const pos = getPositionDetails(input);
+        const pos = await getPositionDetails(request, input);
         if (pos) {
           return NextResponse.json({
             reply: pickRandom([
@@ -406,9 +409,8 @@ export async function POST(request: Request) {
 
       if (type === "SURNAME") {
         try {
-          const filePath = join(process.cwd(), "public", "data", "search_index.json");
-          const index = JSON.parse(readFileSync(filePath, "utf-8"));
-          
+          const index = await getSearchIndex(request);
+
           const normalizedInput = normalizeText(input);
           const matches = index.filter((c: any) => normalizeText(c.eponymo || "").includes(normalizedInput));
           const uniqueMatches = Array.from(new Map(matches.map((c: any) => [c.am, c])).values());
@@ -473,6 +475,14 @@ export async function POST(request: Request) {
       options: [{ label: "Κεντρικό Μενού", value: "START", iconName: "refresh" }] 
     });
   } catch (error) {
-    return NextResponse.json({ error: "System error" }, { status: 500 });
+    console.error("[api/chat] Request failed:", error);
+    return NextResponse.json(
+      {
+        error: "Chat data unavailable",
+        detail:
+          error instanceof Error ? error.message : "Unknown data loading error",
+      },
+      { status: 500 }
+    );
   }
 }

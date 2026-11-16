@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { readFileSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -13,14 +12,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Βρίσκουμε το επίσημο ελληνικό όνομα από το eidikotites_index.json
   let officialTitle = "";
   try {
-    const indexPath = join(process.cwd(), "public", "data", "eidikotites_index.json");
-    const eidikotites = JSON.parse(readFileSync(indexPath, "utf-8"));
+    const eidikotites = await fetchDataJson<any[]>("eidikotites_index.json");
     const match = eidikotites.find((e: any) => e.slug === slug);
     if (match && match.eidikotita) {
       officialTitle = match.eidikotita;
     }
-  } catch {
-    // fallback
+  } catch (error) {
+    console.error(
+      "[eidikotita/layout] Failed to load eidikotites_index.json:",
+      error
+    );
   }
 
   // Αν για οποιοδήποτε λόγο δεν βρεθεί, κάνουμε καθαρό formatting

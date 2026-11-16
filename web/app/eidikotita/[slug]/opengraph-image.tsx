@@ -1,8 +1,5 @@
 import { ImageResponse } from "next/og";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
-
-export const runtime = "nodejs"; // 👈 nodejs runtime για άμεσο διάβασμα των τοπικών JSON
+import { fetchDataJson } from "@/lib/data-assets";
 
 export const alt = "ΑΣΕΠ 2ΓΒ/2026 - Στατιστικά & Βάσεις Ειδικότητας";
 export const size = {
@@ -25,30 +22,29 @@ export default async function Image(props: {
 
   try {
     // 1. Εύρεση Ελληνικού Ονόματος από το index
-    const indexPath = join(process.cwd(), "public", "data", "eidikotites_index.json");
-    if (existsSync(indexPath)) {
-      const indexList = JSON.parse(readFileSync(indexPath, "utf-8"));
-      const match = indexList.find((item: any) => item.slug === slug);
-      if (match && match.eidikotita) {
-        specialtyName = match.eidikotita;
-      }
+    const indexList = await fetchDataJson<any[]>("eidikotites_index.json");
+    const match = indexList.find((item: any) => item.slug === slug);
+    if (match && match.eidikotita) {
+      specialtyName = match.eidikotita;
     }
 
     // 2. Εύρεση Στατιστικών από το eidikotites_stats.json
-    const statsPath = join(process.cwd(), "public", "data", "eidikotites_stats.json");
-    if (existsSync(statsPath)) {
-      const statsMap = JSON.parse(readFileSync(statsPath, "utf-8"));
-      const s = statsMap[slug];
-      if (s) {
-        totalCandidates = s.count || 0;
-        appointed = s.dioristoi || 0;
-        pososto = s.pososto ? `${s.pososto.toFixed(1).replace(".", ",")}%` : "0%";
-        minBase = s.min_vath ? s.min_vath.toFixed(2) : "—";
-        maxScore = s.max_vath ? s.max_vath.toFixed(2) : "—";
-      }
+    const statsMap = await fetchDataJson<Record<string, any>>(
+      "eidikotites_stats.json"
+    );
+    const s = statsMap[slug];
+    if (s) {
+      totalCandidates = s.count || 0;
+      appointed = s.dioristoi || 0;
+      pososto = s.pososto ? `${s.pososto.toFixed(1).replace(".", ",")}%` : "0%";
+      minBase = s.min_vath ? s.min_vath.toFixed(2) : "—";
+      maxScore = s.max_vath ? s.max_vath.toFixed(2) : "—";
     }
   } catch (e) {
-    console.error("Error generating specialty OG image:", e);
+    console.error(
+      "[eidikotita/opengraph-image] Failed to load data assets:",
+      e
+    );
   }
 
   return new ImageResponse(

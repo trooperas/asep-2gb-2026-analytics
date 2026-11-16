@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
 
 const baseUrl = "https://asepanalytics.app";
 
@@ -23,18 +22,16 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${baseUrl}/privacy`, changeFrequency: "monthly", priority: 0.3 },
 ];
 
-function readDataFile<T>(fileName: string): T | null {
+async function readDataFile<T>(fileName: string): Promise<T | null> {
   try {
-    const filePath = join(process.cwd(), "public", "data", fileName);
-    if (!existsSync(filePath)) return null;
-    return JSON.parse(readFileSync(filePath, "utf-8")) as T;
+    return await fetchDataJson<T>(fileName);
   } catch (error) {
-    console.error(`Sitemap: could not read ${fileName}`, error);
+    console.error(`[sitemap] Failed to load ${fileName}:`, error);
     return null;
   }
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = new Date();
 
   const pages: MetadataRoute.Sitemap = STATIC_ROUTES.map((route) => ({
@@ -43,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // 11 κατηγορίες προετοιμασίας: /proetoimasia/${slug}
-  const categories = readDataFile<Array<{ slug?: string }>>(
+  const categories = await readDataFile<Array<{ slug?: string }>>(
     "quiz_categories.json"
   );
   for (const { slug } of categories ?? []) {
@@ -57,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Ερωτήσεις προετοιμασίας: /proetoimasia/${category_slug}/${id}
-  const questions = readDataFile<
+  const questions = await readDataFile<
     Array<{ id?: string | number; category_slug?: string }>
   >("quizzes_clean.json");
   const seenQuestions = new Set<string>();
@@ -81,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // 52 ειδικότητες: /eidikotita/${slug}
-  const eidikotites = readDataFile<Array<{ slug?: string }>>(
+  const eidikotites = await readDataFile<Array<{ slug?: string }>>(
     "eidikotites_index.json"
   );
   for (const { slug } of eidikotites ?? []) {
@@ -95,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // 2.723 θέσεις: /thesi/${kod_thesis}
-  const positions = readDataFile<Array<{ kod_thesis?: string | number }>>(
+  const positions = await readDataFile<Array<{ kod_thesis?: string | number }>>(
     "positions.json"
   );
   const seenCodes = new Set<string>();

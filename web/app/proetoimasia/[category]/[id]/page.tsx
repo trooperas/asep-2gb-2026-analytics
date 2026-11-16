@@ -2,8 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import { notFound } from "next/navigation";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
 import {
   CheckCircle2,
   ArrowLeft,
@@ -34,14 +33,8 @@ function truncateAtWordBoundary(text: string, maxLength: number): string {
   return `${base.trimEnd()}…`;
 }
 
-function getAllQuestions(): Question[] {
-  try {
-    const p = join(process.cwd(), "public", "data", "quizzes_clean.json");
-    if (existsSync(p)) {
-      return JSON.parse(readFileSync(p, "utf-8"));
-    }
-  } catch {}
-  return [];
+async function getAllQuestions(): Promise<Question[]> {
+  return fetchDataJson<Question[]>("quizzes_clean.json");
 }
 
 export async function generateMetadata({
@@ -50,7 +43,7 @@ export async function generateMetadata({
   params: Promise<{ category: string; id: string }>;
 }): Promise<Metadata> {
   const { category, id } = await params; // 👈 Παίρνουμε και το category
-  const questions = getAllQuestions();
+  const questions = await getAllQuestions();
   const q = questions.find((item) => item.id === id);
 
   if (!q) return { title: "Ερώτηση ΑΣΕΠ" };
@@ -90,7 +83,7 @@ export default async function SingleQuestionPage({
   params: Promise<{ category: string; id: string }>;
 }) {
   const { category, id } = await params;
-  const questions = getAllQuestions();
+  const questions = await getAllQuestions();
   const qIdx = questions.findIndex((item) => item.id === id);
 
   if (qIdx === -1) notFound();

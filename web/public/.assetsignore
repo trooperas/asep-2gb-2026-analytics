@@ -1,0 +1,4 @@
+# Per-specialty JSON dumps are offline ETL artifacts, not used by the app at
+# runtime. The largest one is 31.6 MiB, above the Workers per-asset limit
+# (25 MiB), so exclude the directory from the deployed static assets.
+data/eidikotites/

@@ -1,33 +1,33 @@
 import { NextResponse } from "next/server";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
 
 // In-memory cache για θέσεις και chunks
-let positionsCache: any[] | null = null;
-let chunkIndexCache: Record<string, string[]> | null = null;
+let positionsCache: Promise<any[]> | null = null;
+let chunkIndexCache: Promise<Record<string, string[]>> | null = null;
 
-function getPositions(): any[] {
+function getPositions(request: Request): Promise<any[]> {
   if (!positionsCache) {
-    try {
-      const p = join(process.cwd(), "public", "data", "positions.json");
-      positionsCache = JSON.parse(readFileSync(p, "utf-8"));
-    } catch {
-      positionsCache = [];
-    }
+    positionsCache = fetchDataJson<any[]>("positions.json", { request }).catch(
+      (error) => {
+        positionsCache = null;
+        throw error;
+      }
+    );
   }
-  return positionsCache!;
+  return positionsCache;
 }
 
-function getChunkIndex(): Record<string, string[]> {
+function getChunkIndex(request: Request): Promise<Record<string, string[]>> {
   if (!chunkIndexCache) {
-    try {
-      const p = join(process.cwd(), "public", "data", "chunk_index.json");
-      chunkIndexCache = JSON.parse(readFileSync(p, "utf-8"));
-    } catch {
-      chunkIndexCache = {};
-    }
+    chunkIndexCache = fetchDataJson<Record<string, string[]>>(
+      "chunk_index.json",
+      { request }
+    ).catch((error) => {
+      chunkIndexCache = null;
+      throw error;
+    });
   }
-  return chunkIndexCache!;
+  return chunkIndexCache;
 }
 
 export async function GET(request: Request) {
@@ -38,24 +38,22 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Missing slug" }, { status: 400 });
   }
 
-  const chunkIndex = getChunkIndex();
-  const chunkFiles = chunkIndex[slug];
-
-  if (!chunkFiles || chunkFiles.length === 0) {
-    return NextResponse.json({ error: "Specialty not found" }, { status: 404 });
-  }
-
   try {
-    const chunksDir = join(process.cwd(), "public", "data", "chunks");
+    const chunkIndex = await getChunkIndex(request);
+    const chunkFiles = chunkIndex[slug];
+
+    if (!chunkFiles || chunkFiles.length === 0) {
+      return NextResponse.json({ error: "Specialty not found" }, { status: 404 });
+    }
+
     const allRecords: any[] = [];
 
     // Φόρτωση όλων των εγγραφών της ειδικότητας
     for (const chunkName of chunkFiles) {
-      const cPath = join(chunksDir, chunkName);
-      if (existsSync(cPath)) {
-        const chunkData = JSON.parse(readFileSync(cPath, "utf-8"));
-        allRecords.push(...chunkData);
-      }
+      const chunkData = await fetchDataJson<any[]>(`chunks/${chunkName}`, {
+        request,
+      });
+      allRecords.push(...chunkData);
     }
 
     if (allRecords.length === 0) {
@@ -64,7 +62,7 @@ export async function GET(request: Request) {
 
     // 1. Βρίσκουμε ποιες θέσεις ανήκουν ΠΡΑΓΜΑΤΙΚΑ σε αυτή την ειδικότητα
     // από το positions.json (ή από τα groups προσόντων)
-    const positionsList = getPositions();
+    const positionsList = await getPositions(request);
     const specialtyPositionsSet = new Set<string>();
 
     // Προσθήκη θέσεων από το positions.json που έχουν αυτό το slug/ειδικότητα
@@ -92,7 +90,7 @@ export async function GET(request: Request) {
     const realAppointedInThisSpecialty = allRecords.filter((r) => {
       if (!r.thesi_diorismou) return false;
       const thesiKod = String(r.thesi_diorismou).replace(/\.0$/, "").trim();
-      
+
       // Πρέπει η θέση διορισμού του να είναι στις θέσεις αυτής της ειδικότητας!
       return specialtyPositionsSet.has(thesiKod);
     });
@@ -203,7 +201,13 @@ export async function GET(request: Request) {
       }
     );
   } catch (error: any) {
-    console.error("Specialty API Error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error("[api/eidikotita] Failed to load data assets:", error);
+    return NextResponse.json(
+      {
+        error: "Specialty data unavailable",
+        detail: error?.message || "Unknown data loading error",
+      },
+      { status: 500 }
+    );
   }
 }

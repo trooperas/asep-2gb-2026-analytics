@@ -1,19 +1,141 @@
 import { NextResponse } from "next/server";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { fetchDataJson } from "@/lib/data-assets";
 
-let positionsCache: any[] | null = null;
+type LookupIndex = {
+  generated_at: string;
+  total_positions: number;
+  shard_count: number;
+  shard_target_bytes: number;
+  applicant_limit: number;
+  eidikotites: string[];
+  slugs: string[];
+  positions: Record<string, string>;
+};
 
-function getPositions(): any[] {
+type PositionEntry = {
+  candidates: any[][];
+  applicants: any[][];
+  totalApplicantsCount: number;
+  stats: {
+    total: number;
+    min_vath: number | null;
+    max_vath: number | null;
+    avg_vath: number | null;
+  };
+};
+
+type LookupShard = {
+  positions: Record<string, PositionEntry>;
+};
+
+const MAX_CACHED_SHARDS = 4;
+
+let positionsCache: Promise<any[]> | null = null;
+let lookupIndexCache: Promise<LookupIndex> | null = null;
+const shardCache = new Map<string, Promise<LookupShard>>();
+
+function getPositions(request: Request): Promise<any[]> {
   if (!positionsCache) {
-    try {
-      const path = join(process.cwd(), "public", "data", "positions.json");
-      positionsCache = JSON.parse(readFileSync(path, "utf-8"));
-    } catch {
-      positionsCache = [];
-    }
+    positionsCache = fetchDataJson<any[]>("positions.json", { request }).catch(
+      (error) => {
+        positionsCache = null;
+        throw error;
+      }
+    );
   }
-  return positionsCache!;
+  return positionsCache;
+}
+
+function getLookupIndex(request: Request): Promise<LookupIndex> {
+  if (!lookupIndexCache) {
+    lookupIndexCache = fetchDataJson<LookupIndex>(
+      "position_lookup_index.json",
+      { request }
+    ).catch((error) => {
+      lookupIndexCache = null;
+      throw error;
+    });
+  }
+  return lookupIndexCache;
+}
+
+function getLookupShard(
+  fileName: string,
+  request: Request
+): Promise<LookupShard> {
+  const cached = shardCache.get(fileName);
+  if (cached) return cached;
+
+  const pending = fetchDataJson<LookupShard>(fileName, { request }).catch(
+    (error) => {
+      shardCache.delete(fileName);
+      throw error;
+    }
+  );
+
+  shardCache.set(fileName, pending);
+  if (shardCache.size > MAX_CACHED_SHARDS) {
+    const oldest = shardCache.keys().next().value;
+    if (oldest) shardCache.delete(oldest);
+  }
+
+  return pending;
+}
+
+const EMPTY_ENTRY: PositionEntry = {
+  candidates: [],
+  applicants: [],
+  totalApplicantsCount: 0,
+  stats: { total: 0, min_vath: null, max_vath: null, avg_vath: null },
+};
+
+function expandCandidates(
+  rows: any[][],
+  eidikotites: string[],
+  slugs: string[]
+) {
+  return rows.map((row) => ({
+    am: row[0],
+    eponymo: row[1],
+    onoma: row[2],
+    patronymo: row[3],
+    vathmologia: row[4],
+    aa: row[5],
+    eidikotita: row[6] >= 0 ? eidikotites[row[6]] ?? null : null,
+    slug: row[7] >= 0 ? slugs[row[7]] ?? null : null,
+    kod_thesis: row[8],
+    cleanScore: row[4],
+  }));
+}
+
+function expandApplicants(
+  rows: any[][],
+  targetKod: string,
+  eidikotites: string[],
+  slugs: string[]
+) {
+  return rows.map((row) => {
+    const thesi = row[8];
+
+    return {
+      am: row[0],
+      eponymo: row[1],
+      onoma: row[2],
+      patronymo: row[3],
+      vathmologia: row[4],
+      aa: row[5],
+      eidikotita: row[6] >= 0 ? eidikotites[row[6]] ?? null : null,
+      slug: row[7] >= 0 ? slugs[row[7]] ?? null : null,
+      kod_thesis: thesi,
+      cleanScore: row[4],
+      prefNumber: row[9],
+      isAppointedHere: thesi === targetKod,
+      // Preserve the old route's shape: "" when there is no appointment code.
+      isAppointedElsewhere: thesi ? thesi !== targetKod : "",
+      appointedElsewhereCode:
+        thesi && thesi !== targetKod ? thesi : null,
+    };
+  });
 }
 
 export async function GET(
@@ -28,7 +150,11 @@ export async function GET(
   const targetKod = String(kod).replace(/\.0$/, "").trim();
 
   try {
-    const positionsList = getPositions();
+    const [positionsList, lookupIndex] = await Promise.all([
+      getPositions(request),
+      getLookupIndex(request),
+    ]);
+
     const posMeta = positionsList.find(
       (p: any) => String(p.kod_thesis).replace(/\.0$/, "").trim() === targetKod
     );
@@ -37,115 +163,36 @@ export async function GET(
       return NextResponse.json({ error: "Position not found" }, { status: 404 });
     }
 
-    const chunkIndexPath = join(process.cwd(), "public", "data", "chunk_index.json");
-    if (!existsSync(chunkIndexPath)) {
-      return NextResponse.json({ error: "Data index missing" }, { status: 500 });
+    const shardName = lookupIndex.positions[targetKod];
+    let entry = EMPTY_ENTRY;
+
+    if (shardName) {
+      const shard = await getLookupShard(shardName, request);
+      entry = shard.positions[targetKod] ?? EMPTY_ENTRY;
     }
 
-    const chunkIndex: Record<string, string[]> = JSON.parse(
-      readFileSync(chunkIndexPath, "utf-8")
+    const eidikotites = lookupIndex.eidikotites ?? [];
+    const slugs = lookupIndex.slugs ?? [];
+    const candidates = expandCandidates(
+      entry.candidates ?? [],
+      eidikotites,
+      slugs
     );
-    const chunksDir = join(process.cwd(), "public", "data", "chunks");
-
-    // 1. Διορισθέντες στη θέση (Deduplicated ανά AM)
-    const uniqueAppointedMap = new Map<string, any>();
-    // 2. Όλοι όσοι δήλωσαν τη θέση στις προτιμήσεις τους (Applicants)
-    const uniqueApplicantsMap = new Map<string, any>();
-
-    for (const [slug, chunks] of Object.entries(chunkIndex)) {
-      for (const chunkName of chunks) {
-        const chunkPath = join(chunksDir, chunkName);
-        if (!existsSync(chunkPath)) continue;
-
-        const chunk = JSON.parse(readFileSync(chunkPath, "utf-8"));
-        for (const r of chunk) {
-          const thesi = String(r.thesi_diorismou || "").replace(/\.0$/, "").trim();
-          const cleanAm = String(r.am).replace(/\.0$/, "").trim();
-          const currentScore = parseFloat(r.vathmologia) || 0;
-          const protimiseisStr = String(r.protimiseis || "");
-
-          const candidateObj = {
-            am: cleanAm,
-            eponymo: r.eponymo,
-            onoma: r.onoma,
-            patronymo: r.patronymo,
-            vathmologia: currentScore,
-            aa: r.aa,
-            eidikotita: r.eidikotita,
-            slug,
-            kod_thesis: thesi,
-            cleanScore: currentScore,
-          };
-
-          // Έλεγχος διορισμού
-          if (thesi === targetKod) {
-            if (!uniqueAppointedMap.has(cleanAm)) {
-              uniqueAppointedMap.set(cleanAm, candidateObj);
-            } else {
-              const existing = uniqueAppointedMap.get(cleanAm);
-              if (currentScore > existing.cleanScore) {
-                uniqueAppointedMap.set(cleanAm, candidateObj);
-              }
-            }
-          }
-
-          // Έλεγχος αν δήλωσε τη θέση στις προτιμήσεις του
-          if (protimiseisStr && protimiseisStr.includes(targetKod)) {
-            const prefs = protimiseisStr.split(/[-,\s]+/).map((k) => k.replace(/\.0$/, "").trim());
-            const prefIndex = prefs.indexOf(targetKod);
-            if (prefIndex !== -1) {
-              const appObj = {
-                ...candidateObj,
-                prefNumber: prefIndex + 1,
-                isAppointedHere: thesi === targetKod,
-                isAppointedElsewhere: thesi && thesi !== targetKod,
-                appointedElsewhereCode: thesi && thesi !== targetKod ? thesi : null,
-              };
-
-              if (!uniqueApplicantsMap.has(cleanAm)) {
-                uniqueApplicantsMap.set(cleanAm, appObj);
-              } else {
-                const existing = uniqueApplicantsMap.get(cleanAm);
-                if (currentScore > existing.cleanScore) {
-                  uniqueApplicantsMap.set(cleanAm, appObj);
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    // Ταξινόμηση διορισμένων
-    const uniqueAppointed = Array.from(uniqueAppointedMap.values()).sort(
-      (a, b) => b.cleanScore - a.cleanScore
+    const applicants = expandApplicants(
+      entry.applicants ?? [],
+      targetKod,
+      eidikotites,
+      slugs
     );
-
-    // Ταξινόμηση όλων των διεκδικητών κατά φθίνουσα βαθμολογία
-    const uniqueApplicants = Array.from(uniqueApplicantsMap.values()).sort(
-      (a, b) => b.cleanScore - a.cleanScore
-    );
-
-    const scores = uniqueAppointed.map((c) => c.cleanScore).filter((s) => s > 0);
-    const total = uniqueAppointed.length;
-    const min_vath = scores.length ? Math.min(...scores) : null;
-    const max_vath = scores.length ? Math.max(...scores) : null;
-    const avg_vath = scores.length
-      ? scores.reduce((a, b) => a + b, 0) / scores.length
-      : null;
 
     return NextResponse.json(
       {
         position: posMeta,
-        candidates: uniqueAppointed,
-        applicants: uniqueApplicants.slice(0, 350), // 👈 Όλοι όσοι δήλωσαν τη θέση (top 80)
-        totalApplicantsCount: uniqueApplicants.length,
-        stats: {
-          total,
-          min_vath,
-          max_vath,
-          avg_vath,
-        },
+        candidates,
+        applicants,
+        totalApplicantsCount:
+          entry.totalApplicantsCount ?? applicants.length,
+        stats: entry.stats ?? EMPTY_ENTRY.stats,
       },
       {
         headers: {
@@ -154,7 +201,13 @@ export async function GET(
       }
     );
   } catch (error: any) {
-    console.error("Position API Error:", error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error("[api/position] Failed to load position lookup:", error);
+    return NextResponse.json(
+      {
+        error: "Position data unavailable",
+        detail: error?.message || "Unknown data loading error",
+      },
+      { status: 500 }
+    );
   }
 }

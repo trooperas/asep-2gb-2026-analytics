@@ -459,3 +459,4 @@ npm run start
 - `web/app/layout.tsx`: `lang="el"`, fonts Inter/Space Grotesk/JetBrains Mono μέσω `next/font/google`, metadata/Open Graph.
 - `web/.gitignore`: αγνοεί `.env*`, `node_modules`, `.next`, `.vercel`, build outputs.
 - Το workspace διαθέτει `venv/`, αλλά η αναπαραγωγιμότητα δεν πρέπει να βασιστεί σε αυτό το τοπικό περιβάλλον. Χρησιμοποιήστε declarative requirements όταν προστεθούν.
+// test auto-deploy
